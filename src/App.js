@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.css";
-import monsters from "./Monsters/monsters.json";
+import monsters from "./monsters/monsters.json";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
                     <tr>
                       <th scope="col">Item</th>
                       <th scope="col">Chance</th>
-                      <th scope="col">Quantidade</th>
+                      <th scope="col">Amount</th>
                     </tr>
                   </thead>
                   {monster.drops.map((drop) => (
@@ -33,21 +33,23 @@ function App() {
               </li>
               <li className="list-group-item">
                 <p>
-                  Fraquezas:
+                  Weaknesses:
                   {monster.elements &&
-                    monster.elements.map((element) => (
-                      <div className="card-text">
-                        {letrasMaiusculas(element.name) +
-                          " " +
-                          element.value +
-                          "%"}
-                      </div>
-                    ))}
+                    monster.elements
+                      .sort((a, b) => b.value - a.value)
+                      .map((element) => (
+                        <div className="card-text">
+                          {letrasMaiusculas(element.name) +
+                            " " +
+                            element.value +
+                            "%"}
+                        </div>
+                      ))}
                 </p>
               </li>
               <li className="list-group-item">
                 <p>
-                  Imunidade:{" "}
+                  Immunity:{" "}
                   {monster.immunities &&
                     monster.immunities.map((immunitie) => (
                       <span className="card-text">{immunitie.name + " "}</span>

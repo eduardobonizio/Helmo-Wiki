@@ -269,10 +269,10 @@
       }
     ],
     "elements": [
-      { "name": "ice", "value": 80 },
-      { "name": "earth", "value": 60 },
       { "name": "energy", "value": 110 },
-      { "name": "fire", "value": 110 }
+      { "name": "fire", "value": 110 },
+      { "name": "ice", "value": 80 },
+      { "name": "earth", "value": 60 }
     ]
   },
   {
@@ -471,13 +471,13 @@
       }
     ],
     "elements": [
-      { "name": "physical", "value": 105 },
-      { "name": "earth", "value": 70 },
-      { "name": "fire", "value": 15 },
-      { "name": "death", "value": 95 },
       { "name": "energy", "value": 110 },
+      { "name": "physical", "value": 105 },
       { "name": "holy", "value": 105 },
-      { "name": "ice", "value": 105 }
+      { "name": "ice", "value": 105 },
+      { "name": "death", "value": 95 },
+      { "name": "earth", "value": 70 },
+      { "name": "fire", "value": 15 }
     ]
   },
   {
@@ -674,9 +674,9 @@
       }
     ],
     "elements": [
-      { "name": "earth", "value": 20 },
+      { "name": "fire", "value": 110 },
       { "name": "ice", "value": 80 },
-      { "name": "fire", "value": 110 }
+      { "name": "earth", "value": 20 }
     ]
   },
   {
@@ -809,10 +809,10 @@
     "elements": [
       { "name": "ice", "value": 112 },
       { "name": "holy", "value": 112 },
-      { "name": "energy", "value": 50 },
       { "name": "death", "value": 80 },
+      { "name": "physical", "value": 75 },
       { "name": "earth", "value": 60 },
-      { "name": "physical", "value": 75 }
+      { "name": "energy", "value": 50 }
     ],
     "immunities": [{ "name": "fire", "value": 1 }]
   },
@@ -1009,8 +1009,8 @@
       }
     ],
     "elements": [
-      { "name": "physical", "value": 105 },
       { "name": "energy", "value": 110 },
+      { "name": "physical", "value": 105 },
       { "name": "holy", "value": 70 },
       { "name": "ice", "value": 50 }
     ],
@@ -1116,8 +1116,8 @@
     ],
     "elements": [
       { "name": "ice", "value": 110 },
-      { "name": "earth", "value": 20 },
-      { "name": "energy", "value": 80 }
+      { "name": "energy", "value": 80 },
+      { "name": "earth", "value": 20 }
     ],
     "immunities": [{ "name": "fire", "value": 1 }]
   },
@@ -1299,10 +1299,10 @@
       }
     ],
     "elements": [
-      { "name": "ice", "value": 80 },
       { "name": "energy", "value": 110 },
       { "name": "fire", "value": 110 },
-      { "name": "death", "value": 110 }
+      { "name": "death", "value": 110 },
+      { "name": "ice", "value": 80 }
     ]
   },
   {
@@ -1417,10 +1417,10 @@
     ],
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 135 }],
     "elements": [
-      { "name": "physical", "value": 80 },
-      { "name": "earth", "value": 80 },
       { "name": "fire", "value": 105 },
-      { "name": "death", "value": 105 }
+      { "name": "death", "value": 105 },
+      { "name": "physical", "value": 80 },
+      { "name": "earth", "value": 80 }
     ]
   },
   {
@@ -1491,8 +1491,8 @@
       }
     ],
     "elements": [
-      { "name": "physical", "value": 105 },
       { "name": "energy", "value": 110 },
+      { "name": "physical", "value": 105 },
       { "name": "holy", "value": 70 },
       { "name": "ice", "value": 50 }
     ],
@@ -1599,10 +1599,10 @@
       }
     ],
     "elements": [
-      { "name": "physical", "value": 105 },
-      { "name": "fire", "value": 50 },
       { "name": "earth", "value": 115 },
-      { "name": "holy", "value": 70 }
+      { "name": "physical", "value": 105 },
+      { "name": "holy", "value": 70 },
+      { "name": "fire", "value": 50 }
     ],
     "immunities": [{ "name": "energy", "value": 1 }]
   },
@@ -1718,8 +1718,8 @@
     ],
     "elements": [
       { "name": "ice", "value": 125 },
-      { "name": "energy", "value": 70 },
-      { "name": "holy", "value": 125 }
+      { "name": "holy", "value": 125 },
+      { "name": "energy", "value": 70 }
     ],
     "immunities": [{ "name": "fire", "value": 1 }]
   },
@@ -1813,8 +1813,8 @@
       }
     ],
     "elements": [
-      { "name": "earth", "value": 70 },
-      { "name": "ice", "value": 125 }
+      { "name": "ice", "value": 125 },
+      { "name": "earth", "value": 70 }
     ],
     "immunities": [{ "name": "fire", "value": 1 }]
   },
@@ -2039,9 +2039,9 @@
       }
     ],
     "elements": [
+      { "name": "fire", "value": 125 },
       { "name": "holy", "value": 115 },
       { "name": "energy", "value": 115 },
-      { "name": "fire", "value": 125 },
       { "name": "earth", "value": 75 },
       { "name": "death", "value": 75 }
     ],
@@ -2425,8 +2425,8 @@
     "elements": [
       { "name": "energy", "value": 115 },
       { "name": "fire", "value": 110 },
-      { "name": "earth", "value": 50 },
-      { "name": "death", "value": 75 }
+      { "name": "death", "value": 75 },
+      { "name": "earth", "value": 50 }
     ],
     "immunities": [{ "name": "ice", "value": 1 }]
   },
@@ -2722,11 +2722,11 @@
       }
     ],
     "elements": [
-      { "name": "ice", "value": 115 },
       { "name": "holy", "value": 125 },
-      { "name": "energy", "value": 70 },
+      { "name": "ice", "value": 115 },
       { "name": "earth", "value": 75 },
-      { "name": "death", "value": 75 }
+      { "name": "death", "value": 75 },
+      { "name": "energy", "value": 70 }
     ],
     "immunities": [{ "name": "fire", "value": 1 }]
   },
@@ -2827,8 +2827,8 @@
       }
     ],
     "elements": [
-      { "name": "physical", "value": 105 },
       { "name": "energy", "value": 110 },
+      { "name": "physical", "value": 105 },
       { "name": "holy", "value": 70 },
       { "name": "ice", "value": 50 }
     ],
@@ -2886,9 +2886,9 @@
     ],
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 25, "max": 70 }],
     "elements": [
-      { "name": "earth", "value": 60 },
       { "name": "energy", "value": 115 },
-      { "name": "fire", "value": 115 }
+      { "name": "fire", "value": 115 },
+      { "name": "earth", "value": 60 }
     ],
     "immunities": [{ "name": "ice", "value": 1 }]
   },
@@ -2979,8 +2979,8 @@
       }
     ],
     "elements": [
-      { "name": "fire", "value": 110 },
       { "name": "energy", "value": 120 },
+      { "name": "fire", "value": 110 },
       { "name": "earth", "value": 70 }
     ],
     "immunities": [{ "name": "ice", "value": 1 }]
@@ -3168,9 +3168,9 @@
       }
     ],
     "elements": [
+      { "name": "fire", "value": 115 },
       { "name": "earth", "value": 80 },
-      { "name": "energy", "value": 80 },
-      { "name": "fire", "value": 115 }
+      { "name": "energy", "value": 80 }
     ],
     "immunities": [{ "name": "ice", "value": 1 }]
   },
@@ -3238,8 +3238,8 @@
     "elements": [
       { "name": "energy", "value": 110 },
       { "name": "fire", "value": 110 },
-      { "name": "earth", "value": 70 },
-      { "name": "death", "value": 80 }
+      { "name": "death", "value": 80 },
+      { "name": "earth", "value": 70 }
     ],
     "immunities": [{ "name": "ice", "value": 1 }]
   },
@@ -3316,9 +3316,9 @@
       }
     ],
     "elements": [
+      { "name": "physical", "value": 110 },
       { "name": "earth", "value": 20 },
-      { "name": "energy", "value": 20 },
-      { "name": "physical", "value": 110 }
+      { "name": "energy", "value": 20 }
     ]
   },
   {
@@ -3379,10 +3379,10 @@
     ],
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 20 }],
     "elements": [
-      { "name": "fire", "value": 80 },
-      { "name": "death", "value": 105 },
       { "name": "ice", "value": 110 },
-      { "name": "holy", "value": 90 }
+      { "name": "death", "value": 105 },
+      { "name": "holy", "value": 90 },
+      { "name": "fire", "value": 80 }
     ]
   },
   {
@@ -3453,10 +3453,10 @@
       }
     ],
     "elements": [
-      { "name": "fire", "value": 80 },
-      { "name": "death", "value": 105 },
       { "name": "ice", "value": 110 },
-      { "name": "holy", "value": 90 }
+      { "name": "death", "value": 105 },
+      { "name": "holy", "value": 90 },
+      { "name": "fire", "value": 80 }
     ]
   },
   {
@@ -3529,11 +3529,11 @@
       }
     ],
     "elements": [
-      { "name": "earth", "value": 80 },
+      { "name": "ice", "value": 110 },
       { "name": "death", "value": 105 },
-      { "name": "energy", "value": 80 },
       { "name": "holy", "value": 90 },
-      { "name": "ice", "value": 110 }
+      { "name": "earth", "value": 80 },
+      { "name": "energy", "value": 80 }
     ]
   },
   {
@@ -3736,9 +3736,9 @@
       }
     ],
     "elements": [
-      { "name": "ice", "value": 80 },
       { "name": "energy", "value": 110 },
-      { "name": "fire", "value": 110 }
+      { "name": "fire", "value": 110 },
+      { "name": "ice", "value": 80 }
     ],
     "immunities": [{ "name": "earth", "value": 1 }]
   },
@@ -3855,9 +3855,9 @@
       }
     ],
     "elements": [
+      { "name": "holy", "value": 125 },
       { "name": "fire", "value": 30 },
-      { "name": "death", "value": 30 },
-      { "name": "holy", "value": 125 }
+      { "name": "death", "value": 30 }
     ]
   },
   {
@@ -3921,9 +3921,9 @@
       }
     ],
     "elements": [
+      { "name": "holy", "value": 115 },
       { "name": "fire", "value": 30 },
-      { "name": "death", "value": 30 },
-      { "name": "holy", "value": 115 }
+      { "name": "death", "value": 30 }
     ]
   },
   {
@@ -4413,9 +4413,9 @@
       }
     ],
     "elements": [
-      { "name": "ice", "value": 80 },
       { "name": "energy", "value": 110 },
-      { "name": "fire", "value": 110 }
+      { "name": "fire", "value": 110 },
+      { "name": "ice", "value": 80 }
     ],
     "immunities": [{ "name": "earth", "value": 1 }]
   },
@@ -4492,11 +4492,11 @@
     "elements": [
       { "name": "energy", "value": 70 },
       { "name": "earth", "value": 30 },
-      { "name": "ice", "value": -50 },
       { "name": "fire", "value": 20 },
       { "name": "physical", "value": 20 },
       { "name": "death", "value": -10 },
-      { "name": "holy", "value": -20 }
+      { "name": "holy", "value": -20 },
+      { "name": "ice", "value": -50 }
     ],
     "immunities": [
       { "name": "fire", "value": 1 },
@@ -4635,11 +4635,11 @@
       }
     ],
     "elements": [
+      { "name": "holy", "value": 120 },
       { "name": "fire", "value": 110 },
       { "name": "energy", "value": 70 },
       { "name": "earth", "value": 70 },
-      { "name": "ice", "value": 70 },
-      { "name": "holy", "value": 120 }
+      { "name": "ice", "value": 70 }
     ],
     "immunities": [{ "name": "death", "value": 1 }]
   },
@@ -4753,10 +4753,10 @@
       }
     ],
     "elements": [
-      { "name": "fire", "value": 80 },
-      { "name": "death", "value": 80 },
+      { "name": "ice", "value": 110 },
       { "name": "physical", "value": 90 },
-      { "name": "ice", "value": 110 }
+      { "name": "fire", "value": 80 },
+      { "name": "death", "value": 80 }
     ],
     "immunities": [
       { "name": "energy", "value": 1 },
@@ -4878,10 +4878,10 @@
       }
     ],
     "elements": [
-      { "name": "physical", "value": 105 },
-      { "name": "fire", "value": 50 },
       { "name": "earth", "value": 115 },
-      { "name": "holy", "value": 70 }
+      { "name": "physical", "value": 105 },
+      { "name": "holy", "value": 70 },
+      { "name": "fire", "value": 50 }
     ],
     "immunities": [{ "name": "energy", "value": 1 }]
   },
@@ -4954,9 +4954,9 @@
       }
     ],
     "elements": [
+      { "name": "fire", "value": 115 },
       { "name": "ice", "value": 80 },
-      { "name": "energy", "value": 80 },
-      { "name": "fire", "value": 115 }
+      { "name": "energy", "value": 80 }
     ],
     "immunities": [{ "name": "earth", "value": 1 }]
   },
@@ -5030,8 +5030,8 @@
     ],
     "elements": [
       { "name": "physical", "value": 105 },
-      { "name": "earth", "value": 80 },
-      { "name": "death", "value": 105 }
+      { "name": "death", "value": 105 },
+      { "name": "earth", "value": 80 }
     ],
     "immunities": [{ "name": "energy", "value": 1 }]
   },
@@ -5319,9 +5319,9 @@
       }
     ],
     "elements": [
-      { "name": "physical", "value": 75 },
+      { "name": "holy", "value": 125 },
       { "name": "fire", "value": 110 },
-      { "name": "holy", "value": 125 }
+      { "name": "physical", "value": 75 }
     ],
     "immunities": [
       { "name": "death", "value": 1 },
@@ -5486,10 +5486,10 @@
     ],
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 70 }],
     "elements": [
-      { "name": "energy", "value": 70 },
-      { "name": "earth", "value": 80 },
+      { "name": "holy", "value": 125 },
       { "name": "ice", "value": 90 },
-      { "name": "holy", "value": 125 }
+      { "name": "earth", "value": 80 },
+      { "name": "energy", "value": 70 }
     ]
   }
 ]
