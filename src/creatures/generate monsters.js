@@ -13,6 +13,8 @@ jsonsInDir.forEach((file) => {
 });
 
 const monstersFix = monsters.map((monster) => {
+  if (monster.id === "night_mare") monster.id = "Nightmare";
+  if (monster.id === "night_mare_hand") monster.id = "Nightmare_hand";
   if (!monster.elements) return monster;
   monster.elements.sort((a, b) => b.value - a.value);
   return monster;

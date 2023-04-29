@@ -3743,7 +3743,7 @@
     "immunities": [{ "name": "earth", "value": 1 }]
   },
   {
-    "id": "night_mare",
+    "id": "Nightmare",
     "hittable": true,
     "maxDirections": 4,
     "speed": 70,
@@ -3861,7 +3861,7 @@
     ]
   },
   {
-    "id": "night_mare_hand",
+    "id": "Nightmare_hand",
     "hittable": true,
     "maxDirections": 4,
     "speed": 40,
