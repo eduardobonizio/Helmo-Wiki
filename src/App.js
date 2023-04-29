@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.css";
-import monsters from "./monsters/monsters.json";
+import monsters from "./creatures/monsters.json";
 
 function App() {
   return (

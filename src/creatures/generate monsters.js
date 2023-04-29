@@ -4,10 +4,10 @@ const path = require("path");
 const monsters = [];
 
 const jsonsInDir = fs
-  .readdirSync("./src/monsters/monsters")
+  .readdirSync("./src/creatures/monsters")
   .filter((file) => path.extname(file) === ".json");
 jsonsInDir.forEach((file) => {
-  const fileData = fs.readFileSync(path.join("./src/monsters/monsters", file));
+  const fileData = fs.readFileSync(path.join("./src/creatures/monsters", file));
   const json = JSON.parse(fileData.toString());
   monsters.push(json);
 });
@@ -19,7 +19,7 @@ const monstersFix = monsters.map((monster) => {
 });
 
 fs.writeFile(
-  "./src/monsters/monsters.json",
+  "./src/creatures/monsters.json",
   JSON.stringify(monstersFix),
   "utf8",
   function (err) {
