@@ -8,9 +8,7 @@ function App() {
         {monsters.map((monster) => (
           <div className="card d-block mt-2" style={{ width: "23rem" }}>
             <div className="card-body">
-              <h5 className="card-title text-center">
-                {letrasMaiusculas(monster.id)}
-              </h5>
+              <h5 className="card-title text-center">{monster.id}</h5>
             </div>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
@@ -24,7 +22,7 @@ function App() {
                   </thead>
                   {monster.drops.map((drop) => (
                     <tbody>
-                      <td>{letrasMaiusculas(drop.item)}</td>
+                      <td>{drop.item}</td>
                       <td>{drop.chance / 1000 + "%"}</td>
                       <td>{drop.max || 1}</td>
                     </tbody>
@@ -37,10 +35,7 @@ function App() {
                   {monster.elements &&
                     monster.elements.map((element) => (
                       <div className="card-text">
-                        {letrasMaiusculas(element.name) +
-                          " " +
-                          element.value +
-                          "%"}
+                        {element.name + " " + element.value + "%"}
                       </div>
                     ))}
                 </p>
@@ -61,15 +56,5 @@ function App() {
     </div>
   );
 }
-
-const letrasMaiusculas = (text) => {
-  const palavras = text.replaceAll("_", " ").split(" ");
-
-  for (let i = 0; i < palavras.length; i++) {
-    palavras[i] = palavras[i][0].toUpperCase() + palavras[i].substr(1);
-  }
-
-  return palavras.join(" ");
-};
 
 export default App;

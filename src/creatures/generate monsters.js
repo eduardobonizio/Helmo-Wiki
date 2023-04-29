@@ -12,10 +12,32 @@ jsonsInDir.forEach((file) => {
   monsters.push(json);
 });
 
+const letrasMaiusculas = (text) => {
+  const palavras = text.replaceAll("_", " ").split(" ");
+
+  for (let i = 0; i < palavras.length; i++) {
+    palavras[i] = palavras[i][0].toUpperCase() + palavras[i].substr(1);
+  }
+
+  return palavras.join(" ");
+};
+
 const monstersFix = monsters.map((monster) => {
   if (monster.id === "night_mare") monster.id = "Nightmare";
-  if (monster.id === "night_mare_hand") monster.id = "Nightmare_hand";
+  if (monster.id === "night_mare_hand") monster.id = "Nightmare_Hand";
+
+  monster.id = letrasMaiusculas(monster.id);
+
+  if (monster.drops) {
+    monster.drops.forEach((current) => {
+      current.item = letrasMaiusculas(current.item);
+    });
+  }
+
   if (!monster.elements) return monster;
+  monster.elements.forEach((element) => {
+    element.name = letrasMaiusculas(element.name);
+  });
   monster.elements.sort((a, b) => b.value - a.value);
   return monster;
 });

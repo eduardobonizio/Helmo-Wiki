@@ -1,6 +1,6 @@
 [
   {
-    "id": "baby_dragon",
+    "id": "Baby Dragon",
     "hittable": true,
     "maxDirections": 4,
     "speed": 32,
@@ -17,21 +17,21 @@
     "experience": 220,
     "defense": 20,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 50 },
-      { "item": "thigh", "chance": 60000, "max": 4 },
-      { "item": "small_health_potion", "chance": 50000, "max": 2 },
-      { "item": "dragon_ring", "chance": 30 },
-      { "item": "dragon_hat", "chance": 50 },
-      { "item": "dragon_necklace", "chance": 30 },
-      { "item": "dragon_horn", "chance": 1000 },
-      { "item": "dragon_scale", "chance": 1000 },
-      { "item": "dragon_key", "chance": 10 },
-      { "item": "dragon_scale_arrow", "chance": 20000, "min": 5, "max": 10 },
-      { "item": "double_axe", "chance": 100 },
-      { "item": "royal_helmet", "chance": 50 },
-      { "item": "green_cape", "chance": 30 },
-      { "item": "green_legs", "chance": 30 },
-      { "item": "green_hat", "chance": 30 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 50 },
+      { "item": "Thigh", "chance": 60000, "max": 4 },
+      { "item": "Small Health Potion", "chance": 50000, "max": 2 },
+      { "item": "Dragon Ring", "chance": 30 },
+      { "item": "Dragon Hat", "chance": 50 },
+      { "item": "Dragon Necklace", "chance": 30 },
+      { "item": "Dragon Horn", "chance": 1000 },
+      { "item": "Dragon Scale", "chance": 1000 },
+      { "item": "Dragon Key", "chance": 10 },
+      { "item": "Dragon Scale Arrow", "chance": 20000, "min": 5, "max": 10 },
+      { "item": "Double Axe", "chance": 100 },
+      { "item": "Royal Helmet", "chance": 50 },
+      { "item": "Green Cape", "chance": 30 },
+      { "item": "Green Legs", "chance": 30 },
+      { "item": "Green Hat", "chance": 30 }
     ],
     "collisionRects": [
       {
@@ -84,14 +84,14 @@
       }
     ],
     "elements": [
-      { "name": "ice", "value": 110 },
-      { "name": "energy", "value": 80 },
-      { "name": "earth", "value": 20 }
+      { "name": "Ice", "value": 110 },
+      { "name": "Energy", "value": 80 },
+      { "name": "Earth", "value": 20 }
     ],
     "immunities": [{ "name": "fire", "value": 1 }]
   },
   {
-    "id": "bear",
+    "id": "Bear",
     "hittable": true,
     "maxDirections": 4,
     "speed": 35,
@@ -108,11 +108,11 @@
     "experience": 25,
     "defense": 6,
     "drops": [
-      { "item": "thigh", "chance": 70000, "min": 1, "max": 6 },
-      { "item": "fish", "chance": 60000, "max": 1 },
-      { "item": "bear_scalp", "chance": 100, "max": 1 },
-      { "item": "bear_paw", "chance": 200, "max": 1 },
-      { "item": "honey_comb", "chance": 200, "max": 1 }
+      { "item": "Thigh", "chance": 70000, "min": 1, "max": 6 },
+      { "item": "Fish", "chance": 60000, "max": 1 },
+      { "item": "Bear Scalp", "chance": 100, "max": 1 },
+      { "item": "Bear Paw", "chance": 200, "max": 1 },
+      { "item": "Honey Comb", "chance": 200, "max": 1 }
     ],
     "collisionRects": [
       {
@@ -145,7 +145,7 @@
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 5, "max": 10 }]
   },
   {
-    "id": "blood_frost",
+    "id": "Blood Frost",
     "hittable": true,
     "maxDirections": 4,
     "speed": 55,
@@ -162,12 +162,12 @@
     "experience": 325,
     "defense": 28,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 10, "max": 70 },
-      { "item": "crystalline_quiver", "chance": 30 },
-      { "item": "strong_health_potion", "chance": 1000, "max": 5 },
-      { "item": "earth_crystal", "chance": 1000 },
-      { "item": "royal_helmet", "chance": 1000 },
-      { "item": "vamp_shield", "chance": 50 }
+      { "item": "Gold", "chance": 100000, "min": 10, "max": 70 },
+      { "item": "Crystalline Quiver", "chance": 30 },
+      { "item": "Strong Health Potion", "chance": 1000, "max": 5 },
+      { "item": "Earth Crystal", "chance": 1000 },
+      { "item": "Royal Helmet", "chance": 1000 },
+      { "item": "Vamp Shield", "chance": 50 }
     ],
     "collisionRects": [
       {
@@ -200,14 +200,14 @@
     ],
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 160 }],
     "elements": [
-      { "name": "fire", "value": 125 },
-      { "name": "holy", "value": 110 },
-      { "name": "energy", "value": 110 }
+      { "name": "Fire", "value": 125 },
+      { "name": "Holy", "value": 110 },
+      { "name": "Energy", "value": 110 }
     ],
     "immunities": [{ "name": "ice", "value": 1 }]
   },
   {
-    "id": "blue_slime",
+    "id": "Blue Slime",
     "hittable": true,
     "maxDirections": 4,
     "speed": 30,
@@ -224,10 +224,10 @@
     "experience": 760,
     "defense": 30,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 65 },
-      { "item": "earth_crystal", "chance": 2000 },
-      { "item": "blue_legs", "chance": 200 },
-      { "item": "blue_robe", "chance": 50 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 65 },
+      { "item": "Earth Crystal", "chance": 2000 },
+      { "item": "Blue Legs", "chance": 200 },
+      { "item": "Blue Robe", "chance": 50 }
     ],
     "collisionRects": [
       {
@@ -269,14 +269,14 @@
       }
     ],
     "elements": [
-      { "name": "energy", "value": 110 },
-      { "name": "fire", "value": 110 },
-      { "name": "ice", "value": 80 },
-      { "name": "earth", "value": 60 }
+      { "name": "Energy", "value": 110 },
+      { "name": "Fire", "value": 110 },
+      { "name": "Ice", "value": 80 },
+      { "name": "Earth", "value": 60 }
     ]
   },
   {
-    "id": "butterfly",
+    "id": "Butterfly",
     "hittable": true,
     "maxDirections": 4,
     "speed": 20,
@@ -325,7 +325,7 @@
     ]
   },
   {
-    "id": "candelabra",
+    "id": "Candelabra",
     "hittable": true,
     "maxDirections": 4,
     "speed": 45,
@@ -342,11 +342,11 @@
     "experience": 900,
     "defense": 25,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 100 },
-      { "item": "strong_mana_potion", "chance": 1000, "max": 5 },
-      { "item": "royal_boots", "chance": 2000 },
-      { "item": "steel_helmet", "chance": 2000 },
-      { "item": "earth_crystal", "chance": 2000 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 100 },
+      { "item": "Strong Mana Potion", "chance": 1000, "max": 5 },
+      { "item": "Royal Boots", "chance": 2000 },
+      { "item": "Steel Helmet", "chance": 2000 },
+      { "item": "Earth Crystal", "chance": 2000 }
     ],
     "collisionRects": [
       {
@@ -402,14 +402,14 @@
       }
     ],
     "elements": [
-      { "name": "ice", "value": 110 },
-      { "name": "earth", "value": 75 },
-      { "name": "energy", "value": 75 }
+      { "name": "Ice", "value": 110 },
+      { "name": "Earth", "value": 75 },
+      { "name": "Energy", "value": 75 }
     ],
     "immunities": [{ "name": "fire", "value": 1 }]
   },
   {
-    "id": "cave_octopus",
+    "id": "Cave Octopus",
     "hittable": true,
     "maxDirections": 4,
     "speed": 45,
@@ -426,10 +426,10 @@
     "experience": 800,
     "defense": 20,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 129 },
-      { "item": "earth_crystal", "chance": 5000 },
-      { "item": "royal_cape", "chance": 400 },
-      { "item": "royal_boots", "chance": 500 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 129 },
+      { "item": "Earth Crystal", "chance": 5000 },
+      { "item": "Royal Cape", "chance": 400 },
+      { "item": "Royal Boots", "chance": 500 }
     ],
     "collisionRects": [
       {
@@ -471,17 +471,17 @@
       }
     ],
     "elements": [
-      { "name": "energy", "value": 110 },
-      { "name": "physical", "value": 105 },
-      { "name": "holy", "value": 105 },
-      { "name": "ice", "value": 105 },
-      { "name": "death", "value": 95 },
-      { "name": "earth", "value": 70 },
-      { "name": "fire", "value": 15 }
+      { "name": "Energy", "value": 110 },
+      { "name": "Physical", "value": 105 },
+      { "name": "Holy", "value": 105 },
+      { "name": "Ice", "value": 105 },
+      { "name": "Death", "value": 95 },
+      { "name": "Earth", "value": 70 },
+      { "name": "Fire", "value": 15 }
     ]
   },
   {
-    "id": "corvo",
+    "id": "Corvo",
     "hittable": true,
     "maxDirections": 4,
     "speed": 15,
@@ -498,11 +498,11 @@
     "experience": 10,
     "defense": -5,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 7, "max": 10 },
-      { "item": "thigh", "chance": 70000, "min": 1, "max": 2 },
-      { "item": "crow_beak", "chance": 15000 },
-      { "item": "crow_feather", "chance": 50000 },
-      { "item": "earthworm", "chance": 15000, "min": 1, "max": 3 }
+      { "item": "Gold", "chance": 100000, "min": 7, "max": 10 },
+      { "item": "Thigh", "chance": 70000, "min": 1, "max": 2 },
+      { "item": "Crow Beak", "chance": 15000 },
+      { "item": "Crow Feather", "chance": 50000 },
+      { "item": "Earthworm", "chance": 15000, "min": 1, "max": 3 }
     ],
     "collisionRects": [
       {
@@ -536,7 +536,7 @@
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 5 }]
   },
   {
-    "id": "crab",
+    "id": "Crab",
     "hittable": true,
     "maxDirections": 4,
     "speed": 15,
@@ -552,7 +552,7 @@
     "offsetY": 0,
     "experience": 5,
     "defense": 0,
-    "drops": [{ "item": "gold", "chance": 100000, "min": 2, "max": 7 }],
+    "drops": [{ "item": "Gold", "chance": 100000, "min": 2, "max": 7 }],
     "collisionRects": [
       {
         "name": "hit",
@@ -584,7 +584,7 @@
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 8 }]
   },
   {
-    "id": "crystal_turtle",
+    "id": "Crystal Turtle",
     "hittable": true,
     "maxDirections": 4,
     "speed": 40,
@@ -601,14 +601,14 @@
     "experience": 170,
     "defense": 10,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 60 },
-      { "item": "earth_crystal", "chance": 3000 },
-      { "item": "ice_stone_necklace", "chance": 200 },
-      { "item": "royal_shield", "chance": 100 },
-      { "item": "steel_armor", "chance": 500 },
-      { "item": "noble_magic_wand", "chance": 100 },
-      { "item": "noble_magic_rod", "chance": 100 },
-      { "item": "crystal_tortoiseshell", "chance": 500 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 60 },
+      { "item": "Earth Crystal", "chance": 3000 },
+      { "item": "Ice Stone Necklace", "chance": 200 },
+      { "item": "Royal Shield", "chance": 100 },
+      { "item": "Steel Armor", "chance": 500 },
+      { "item": "Noble Magic Wand", "chance": 100 },
+      { "item": "Noble Magic Rod", "chance": 100 },
+      { "item": "Crystal Tortoiseshell", "chance": 500 }
     ],
     "collisionRects": [
       {
@@ -674,13 +674,13 @@
       }
     ],
     "elements": [
-      { "name": "fire", "value": 110 },
-      { "name": "ice", "value": 80 },
-      { "name": "earth", "value": 20 }
+      { "name": "Fire", "value": 110 },
+      { "name": "Ice", "value": 80 },
+      { "name": "Earth", "value": 20 }
     ]
   },
   {
-    "id": "demon",
+    "id": "Demon",
     "hittable": true,
     "maxDirections": 4,
     "speed": 80,
@@ -697,17 +697,17 @@
     "experience": 6000,
     "defense": 44,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 700 },
-      { "item": "thigh", "chance": 60000, "max": 4 },
-      { "item": "great_mana_potion", "chance": 5500, "max": 3 },
-      { "item": "great_health_potion", "chance": 5500, "max": 3 },
-      { "item": "demon_shield", "chance": 100 },
-      { "item": "demon_boots", "chance": 50 },
-      { "item": "thunder_wand", "chance": 500 },
-      { "item": "necro_rod", "chance": 500 },
-      { "item": "earth_crystal", "chance": 5000 },
-      { "item": "royal_axe", "chance": 100 },
-      { "item": "hylian_broadsword", "chance": 2000 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 700 },
+      { "item": "Thigh", "chance": 60000, "max": 4 },
+      { "item": "Great Mana Potion", "chance": 5500, "max": 3 },
+      { "item": "Great Health Potion", "chance": 5500, "max": 3 },
+      { "item": "Demon Shield", "chance": 100 },
+      { "item": "Demon Boots", "chance": 50 },
+      { "item": "Thunder Wand", "chance": 500 },
+      { "item": "Necro Rod", "chance": 500 },
+      { "item": "Earth Crystal", "chance": 5000 },
+      { "item": "Royal Axe", "chance": 100 },
+      { "item": "Hylian Broadsword", "chance": 2000 }
     ],
     "collisionRects": [
       {
@@ -807,17 +807,17 @@
       }
     ],
     "elements": [
-      { "name": "ice", "value": 112 },
-      { "name": "holy", "value": 112 },
-      { "name": "death", "value": 80 },
-      { "name": "physical", "value": 75 },
-      { "name": "earth", "value": 60 },
-      { "name": "energy", "value": 50 }
+      { "name": "Ice", "value": 112 },
+      { "name": "Holy", "value": 112 },
+      { "name": "Death", "value": 80 },
+      { "name": "Physical", "value": 75 },
+      { "name": "Earth", "value": 60 },
+      { "name": "Energy", "value": 50 }
     ],
     "immunities": [{ "name": "fire", "value": 1 }]
   },
   {
-    "id": "demon_skeleton",
+    "id": "Demon Skeleton",
     "hittable": true,
     "maxDirections": 4,
     "speed": 45,
@@ -834,12 +834,12 @@
     "experience": 240,
     "defense": 25,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 75 },
-      { "item": "bone_armor", "chance": 1000 },
-      { "item": "bone_shield", "chance": 1000 },
-      { "item": "human_bone", "chance": 1000 },
-      { "item": "human_skull", "chance": 5000 },
-      { "item": "steel_boots", "chance": 1000 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 75 },
+      { "item": "Bone Armor", "chance": 1000 },
+      { "item": "Bone Shield", "chance": 1000 },
+      { "item": "Human Bone", "chance": 1000 },
+      { "item": "Human Skull", "chance": 5000 },
+      { "item": "Steel Boots", "chance": 1000 }
     ],
     "collisionRects": [
       {
@@ -885,7 +885,7 @@
         "range": 8
       }
     ],
-    "elements": [{ "name": "holy", "value": 125 }],
+    "elements": [{ "name": "Holy", "value": 125 }],
     "immunities": [
       { "name": "death", "value": 1 },
       { "name": "earth", "value": 1 },
@@ -893,7 +893,7 @@
     ]
   },
   {
-    "id": "desert_scorpion",
+    "id": "Desert Scorpion",
     "hittable": true,
     "maxDirections": 4,
     "speed": 50,
@@ -910,8 +910,8 @@
     "experience": 260,
     "defense": 15,
     "drops": [
-      { "item": "gold", "chance": 10000, "min": 80, "max": 120 },
-      { "item": "earth_crystal", "chance": 3000 }
+      { "item": "Gold", "chance": 10000, "min": 80, "max": 120 },
+      { "item": "Earth Crystal", "chance": 3000 }
     ],
     "collisionRects": [
       {
@@ -944,7 +944,7 @@
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 45, "max": 130 }]
   },
   {
-    "id": "desert_snake",
+    "id": "Desert Snake",
     "hittable": true,
     "maxDirections": 4,
     "speed": 50,
@@ -961,9 +961,9 @@
     "experience": 450,
     "defense": 27,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 150 },
-      { "item": "halberd", "chance": 600 },
-      { "item": "earth_crystal", "chance": 1000 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 150 },
+      { "item": "Halberd", "chance": 600 },
+      { "item": "Earth Crystal", "chance": 1000 }
     ],
     "collisionRects": [
       {
@@ -1009,15 +1009,15 @@
       }
     ],
     "elements": [
-      { "name": "energy", "value": 110 },
-      { "name": "physical", "value": 105 },
-      { "name": "holy", "value": 70 },
-      { "name": "ice", "value": 50 }
+      { "name": "Energy", "value": 110 },
+      { "name": "Physical", "value": 105 },
+      { "name": "Holy", "value": 70 },
+      { "name": "Ice", "value": 50 }
     ],
     "immunities": [{ "name": "earth", "value": 1 }]
   },
   {
-    "id": "dragon",
+    "id": "Dragon",
     "hittable": true,
     "maxDirections": 4,
     "speed": 35,
@@ -1034,21 +1034,21 @@
     "experience": 700,
     "defense": 25,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 100 },
-      { "item": "thigh", "chance": 60000, "max": 4 },
-      { "item": "health_potion", "chance": 50000, "max": 2 },
-      { "item": "dragon_helmet", "chance": 50 },
-      { "item": "hylian_broadsword", "chance": 200 },
-      { "item": "dragon_shield", "chance": 400 },
-      { "item": "dragon_armor", "chance": 80 },
-      { "item": "dragon_legs", "chance": 80 },
-      { "item": "dragon_scale_boots", "chance": 80 },
-      { "item": "dragon_wand", "chance": 500 },
-      { "item": "dragon_key", "chance": 2 },
-      { "item": "dragon_ring", "chance": 30 },
-      { "item": "dragon_necklace", "chance": 30 },
-      { "item": "dragon_horn", "chance": 2000 },
-      { "item": "dragon_scale", "chance": 2000 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 100 },
+      { "item": "Thigh", "chance": 60000, "max": 4 },
+      { "item": "Health Potion", "chance": 50000, "max": 2 },
+      { "item": "Dragon Helmet", "chance": 50 },
+      { "item": "Hylian Broadsword", "chance": 200 },
+      { "item": "Dragon Shield", "chance": 400 },
+      { "item": "Dragon Armor", "chance": 80 },
+      { "item": "Dragon Legs", "chance": 80 },
+      { "item": "Dragon Scale Boots", "chance": 80 },
+      { "item": "Dragon Wand", "chance": 500 },
+      { "item": "Dragon Key", "chance": 2 },
+      { "item": "Dragon Ring", "chance": 30 },
+      { "item": "Dragon Necklace", "chance": 30 },
+      { "item": "Dragon Horn", "chance": 2000 },
+      { "item": "Dragon Scale", "chance": 2000 }
     ],
     "collisionRects": [
       {
@@ -1115,14 +1115,14 @@
       }
     ],
     "elements": [
-      { "name": "ice", "value": 110 },
-      { "name": "energy", "value": 80 },
-      { "name": "earth", "value": 20 }
+      { "name": "Ice", "value": 110 },
+      { "name": "Energy", "value": 80 },
+      { "name": "Earth", "value": 20 }
     ],
     "immunities": [{ "name": "fire", "value": 1 }]
   },
   {
-    "id": "dragonLord",
+    "id": "DragonLord",
     "hittable": true,
     "maxDirections": 4,
     "speed": 40,
@@ -1139,21 +1139,21 @@
     "experience": 2100,
     "defense": 34,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 250 },
-      { "item": "thigh", "chance": 60000, "max": 4 },
-      { "item": "strong_health_potion", "chance": 50000, "max": 2 },
-      { "item": "hylian_broadsword", "chance": 1000 },
-      { "item": "dragon_wand", "chance": 1000 },
-      { "item": "dragon_slayer_armor", "chance": 30 },
-      { "item": "dragon_slayer_legs", "chance": 25 },
-      { "item": "dragon_slayer_boots", "chance": 25 },
-      { "item": "dragon_slayer_helmet", "chance": 150 },
-      { "item": "dragon_slayer_shield", "chance": 20 },
-      { "item": "dragon_slayer_bow", "chance": 20 },
-      { "item": "dragon_slayer_crossbow", "chance": 20 },
-      { "item": "dragon_slayer_sword", "chance": 20 },
-      { "item": "dragon_horn", "chance": 2000 },
-      { "item": "earth_crystal", "chance": 2000 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 250 },
+      { "item": "Thigh", "chance": 60000, "max": 4 },
+      { "item": "Strong Health Potion", "chance": 50000, "max": 2 },
+      { "item": "Hylian Broadsword", "chance": 1000 },
+      { "item": "Dragon Wand", "chance": 1000 },
+      { "item": "Dragon Slayer Armor", "chance": 30 },
+      { "item": "Dragon Slayer Legs", "chance": 25 },
+      { "item": "Dragon Slayer Boots", "chance": 25 },
+      { "item": "Dragon Slayer Helmet", "chance": 150 },
+      { "item": "Dragon Slayer Shield", "chance": 20 },
+      { "item": "Dragon Slayer Bow", "chance": 20 },
+      { "item": "Dragon Slayer Crossbow", "chance": 20 },
+      { "item": "Dragon Slayer Sword", "chance": 20 },
+      { "item": "Dragon Horn", "chance": 2000 },
+      { "item": "Earth Crystal", "chance": 2000 }
     ],
     "collisionRects": [
       {
@@ -1233,14 +1233,14 @@
       }
     ],
     "elements": [
-      { "name": "ice", "value": 110 },
-      { "name": "energy", "value": 80 },
-      { "name": "earth", "value": 20 }
+      { "name": "Ice", "value": 110 },
+      { "name": "Energy", "value": 80 },
+      { "name": "Earth", "value": 20 }
     ],
     "immunities": [{ "name": "fire", "value": 1 }]
   },
   {
-    "id": "drill_machine",
+    "id": "Drill Machine",
     "hittable": true,
     "maxDirections": 4,
     "speed": 25,
@@ -1257,8 +1257,8 @@
     "experience": 380,
     "defense": 20,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 80, "max": 160 },
-      { "item": "earth_crystal", "chance": 2000 }
+      { "item": "Gold", "chance": 100000, "min": 80, "max": 160 },
+      { "item": "Earth Crystal", "chance": 2000 }
     ],
     "collisionRects": [
       {
@@ -1299,14 +1299,14 @@
       }
     ],
     "elements": [
-      { "name": "energy", "value": 110 },
-      { "name": "fire", "value": 110 },
-      { "name": "death", "value": 110 },
-      { "name": "ice", "value": 80 }
+      { "name": "Energy", "value": 110 },
+      { "name": "Fire", "value": 110 },
+      { "name": "Death", "value": 110 },
+      { "name": "Ice", "value": 80 }
     ]
   },
   {
-    "id": "dwarf",
+    "id": "Dwarf",
     "hittable": true,
     "maxDirections": 4,
     "speed": 50,
@@ -1323,10 +1323,10 @@
     "experience": 45,
     "defense": 8,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 10, "max": 30 },
-      { "item": "axe", "chance": 1000 },
-      { "item": "dwarf_shield", "chance": 300 },
-      { "item": "zillii_fish", "chance": 70000, "min": 1, "max": 2 }
+      { "item": "Gold", "chance": 100000, "min": 10, "max": 30 },
+      { "item": "Axe", "chance": 1000 },
+      { "item": "Dwarf Shield", "chance": 300 },
+      { "item": "Zillii Fish", "chance": 70000, "min": 1, "max": 2 }
     ],
     "collisionRects": [
       {
@@ -1360,7 +1360,7 @@
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 25 }]
   },
   {
-    "id": "dwarf_armored",
+    "id": "Dwarf Armored",
     "hittable": true,
     "maxDirections": 4,
     "speed": 50,
@@ -1377,14 +1377,14 @@
     "experience": 165,
     "defense": 15,
     "drops": [
-      { "item": "gold", "chance": 65000, "min": 0, "max": 35 },
-      { "item": "broadsword", "chance": 500 },
-      { "item": "steel_armor", "chance": 300 },
-      { "item": "steel_helmet", "chance": 300 },
-      { "item": "steel_boots", "chance": 300 },
-      { "item": "dwarf_shield", "chance": 350 },
-      { "item": "silver_necklace", "chance": 30 },
-      { "item": "double_axe", "chance": 200 }
+      { "item": "Gold", "chance": 65000, "min": 0, "max": 35 },
+      { "item": "Broadsword", "chance": 500 },
+      { "item": "Steel Armor", "chance": 300 },
+      { "item": "Steel Helmet", "chance": 300 },
+      { "item": "Steel Boots", "chance": 300 },
+      { "item": "Dwarf Shield", "chance": 350 },
+      { "item": "Silver Necklace", "chance": 30 },
+      { "item": "Double Axe", "chance": 200 }
     ],
     "collisionRects": [
       {
@@ -1417,14 +1417,14 @@
     ],
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 135 }],
     "elements": [
-      { "name": "fire", "value": 105 },
-      { "name": "death", "value": 105 },
-      { "name": "physical", "value": 80 },
-      { "name": "earth", "value": 80 }
+      { "name": "Fire", "value": 105 },
+      { "name": "Death", "value": 105 },
+      { "name": "Physical", "value": 80 },
+      { "name": "Earth", "value": 80 }
     ]
   },
   {
-    "id": "earth_snake",
+    "id": "Earth Snake",
     "hittable": true,
     "maxDirections": 4,
     "speed": 55,
@@ -1441,11 +1441,11 @@
     "experience": 800,
     "defense": 27,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 150 },
-      { "item": "halberd", "chance": 500 },
-      { "item": "tearing_fang", "chance": 500 },
-      { "item": "earth_crystal", "chance": 1000 },
-      { "item": "black_stone_amulet", "chance": 300 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 150 },
+      { "item": "Halberd", "chance": 500 },
+      { "item": "Tearing Fang", "chance": 500 },
+      { "item": "Earth Crystal", "chance": 1000 },
+      { "item": "Black Stone Amulet", "chance": 300 }
     ],
     "collisionRects": [
       {
@@ -1491,15 +1491,15 @@
       }
     ],
     "elements": [
-      { "name": "energy", "value": 110 },
-      { "name": "physical", "value": 105 },
-      { "name": "holy", "value": 70 },
-      { "name": "ice", "value": 50 }
+      { "name": "Energy", "value": 110 },
+      { "name": "Physical", "value": 105 },
+      { "name": "Holy", "value": 70 },
+      { "name": "Ice", "value": 50 }
     ],
     "immunities": [{ "name": "earth", "value": 1 }]
   },
   {
-    "id": "energy_wizard",
+    "id": "Energy Wizard",
     "hittable": true,
     "maxDirections": 4,
     "speed": 35,
@@ -1516,14 +1516,14 @@
     "experience": 2000,
     "defense": 33,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 120 },
-      { "item": "mana_potion", "chance": 5500, "max": 3 },
-      { "item": "health_potion", "chance": 5500, "max": 3 },
-      { "item": "blue_robe", "chance": 50 },
-      { "item": "centered_cape", "chance": 150 },
-      { "item": "centered_hat", "chance": 100 },
-      { "item": "earth_crystal", "chance": 10000 },
-      { "item": "black_stone_amulet", "chance": 100 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 120 },
+      { "item": "Mana Potion", "chance": 5500, "max": 3 },
+      { "item": "Health Potion", "chance": 5500, "max": 3 },
+      { "item": "Blue Robe", "chance": 50 },
+      { "item": "Centered Cape", "chance": 150 },
+      { "item": "Centered Hat", "chance": 100 },
+      { "item": "Earth Crystal", "chance": 10000 },
+      { "item": "Black Stone Amulet", "chance": 100 }
     ],
     "collisionRects": [
       {
@@ -1599,15 +1599,15 @@
       }
     ],
     "elements": [
-      { "name": "earth", "value": 115 },
-      { "name": "physical", "value": 105 },
-      { "name": "holy", "value": 70 },
-      { "name": "fire", "value": 50 }
+      { "name": "Earth", "value": 115 },
+      { "name": "Physical", "value": 105 },
+      { "name": "Holy", "value": 70 },
+      { "name": "Fire", "value": 50 }
     ],
     "immunities": [{ "name": "energy", "value": 1 }]
   },
   {
-    "id": "esganed_demon",
+    "id": "Esganed Demon",
     "hittable": true,
     "maxDirections": 4,
     "speed": 90,
@@ -1624,12 +1624,12 @@
     "experience": 6000,
     "defense": 44,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 350, "max": 550 },
-      { "item": "thigh", "chance": 60000, "max": 4 },
-      { "item": "demon_legs", "chance": 300 },
-      { "item": "thunder_wand", "chance": 200 },
-      { "item": "necro_rod", "chance": 200 },
-      { "item": "earth_crystal", "chance": 1000 }
+      { "item": "Gold", "chance": 100000, "min": 350, "max": 550 },
+      { "item": "Thigh", "chance": 60000, "max": 4 },
+      { "item": "Demon Legs", "chance": 300 },
+      { "item": "Thunder Wand", "chance": 200 },
+      { "item": "Necro Rod", "chance": 200 },
+      { "item": "Earth Crystal", "chance": 1000 }
     ],
     "collisionRects": [
       {
@@ -1717,14 +1717,14 @@
       }
     ],
     "elements": [
-      { "name": "ice", "value": 125 },
-      { "name": "holy", "value": 125 },
-      { "name": "energy", "value": 70 }
+      { "name": "Ice", "value": 125 },
+      { "name": "Holy", "value": 125 },
+      { "name": "Energy", "value": 70 }
     ],
     "immunities": [{ "name": "fire", "value": 1 }]
   },
   {
-    "id": "fire_master",
+    "id": "Fire Master",
     "hittable": true,
     "maxDirections": 4,
     "speed": 70,
@@ -1742,15 +1742,15 @@
     "experience": 12000,
     "defense": 30,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 900, "max": 1100 },
-      { "item": "thigh", "chance": 60000, "max": 4 },
-      { "item": "demon_armor", "chance": 500 },
-      { "item": "thunder_wand", "chance": 1000 },
-      { "item": "necro_rod", "chance": 1000 },
-      { "item": "strong_health_potion", "chance": 2000, "max": 5 },
-      { "item": "thick_flame_necklace", "chance": 500 },
-      { "item": "royal_axe", "chance": 500 },
-      { "item": "black_stone_amulet", "chance": 1000 }
+      { "item": "Gold", "chance": 100000, "min": 900, "max": 1100 },
+      { "item": "Thigh", "chance": 60000, "max": 4 },
+      { "item": "Demon Armor", "chance": 500 },
+      { "item": "Thunder Wand", "chance": 1000 },
+      { "item": "Necro Rod", "chance": 1000 },
+      { "item": "Strong Health Potion", "chance": 2000, "max": 5 },
+      { "item": "Thick Flame Necklace", "chance": 500 },
+      { "item": "Royal Axe", "chance": 500 },
+      { "item": "Black Stone Amulet", "chance": 1000 }
     ],
     "collisionRects": [
       {
@@ -1813,13 +1813,13 @@
       }
     ],
     "elements": [
-      { "name": "ice", "value": 125 },
-      { "name": "earth", "value": 70 }
+      { "name": "Ice", "value": 125 },
+      { "name": "Earth", "value": 70 }
     ],
     "immunities": [{ "name": "fire", "value": 1 }]
   },
   {
-    "id": "frost_baby_dragon",
+    "id": "Frost Baby Dragon",
     "hittable": true,
     "maxDirections": 4,
     "speed": 35,
@@ -1836,17 +1836,17 @@
     "experience": 745,
     "defense": 32,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 55 },
-      { "item": "thigh", "chance": 60000, "max": 4 },
-      { "item": "mana_potion", "chance": 2000, "max": 3 },
-      { "item": "health_potion", "chance": 2000, "max": 3 },
-      { "item": "dragon_ring", "chance": 30 },
-      { "item": "dragon_necklace", "chance": 30 },
-      { "item": "dragon_horn", "chance": 1000 },
-      { "item": "dragon_scale", "chance": 1000 },
-      { "item": "dragon_key", "chance": 10 },
-      { "item": "double_axe", "chance": 100 },
-      { "item": "royal_helmet", "chance": 100 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 55 },
+      { "item": "Thigh", "chance": 60000, "max": 4 },
+      { "item": "Mana Potion", "chance": 2000, "max": 3 },
+      { "item": "Health Potion", "chance": 2000, "max": 3 },
+      { "item": "Dragon Ring", "chance": 30 },
+      { "item": "Dragon Necklace", "chance": 30 },
+      { "item": "Dragon Horn", "chance": 1000 },
+      { "item": "Dragon Scale", "chance": 1000 },
+      { "item": "Dragon Key", "chance": 10 },
+      { "item": "Double Axe", "chance": 100 },
+      { "item": "Royal Helmet", "chance": 100 }
     ],
     "collisionRects": [
       {
@@ -1922,14 +1922,14 @@
         "max": 100
       }
     ],
-    "elements": [{ "name": "energy", "value": 105 }],
+    "elements": [{ "name": "Energy", "value": 105 }],
     "immunities": [
       { "name": "ice", "value": 1 },
       { "name": "earth", "value": 1 }
     ]
   },
   {
-    "id": "frost_demon",
+    "id": "Frost Demon",
     "hittable": true,
     "maxDirections": 4,
     "speed": 80,
@@ -1946,14 +1946,14 @@
     "experience": 6000,
     "defense": 30,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 600 },
-      { "item": "thigh", "chance": 60000, "max": 4 },
-      { "item": "crystalline_axe", "chance": 75 },
-      { "item": "earth_crystal", "chance": 2000 },
-      { "item": "strong_health_potion", "chance": 2000, "max": 5 },
-      { "item": "hylian_broadsword", "chance": 1000 },
-      { "item": "blue_robe", "chance": 100 },
-      { "item": "repressive_mask", "chance": 80 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 600 },
+      { "item": "Thigh", "chance": 60000, "max": 4 },
+      { "item": "Crystalline Axe", "chance": 75 },
+      { "item": "Earth Crystal", "chance": 2000 },
+      { "item": "Strong Health Potion", "chance": 2000, "max": 5 },
+      { "item": "Hylian Broadsword", "chance": 1000 },
+      { "item": "Blue Robe", "chance": 100 },
+      { "item": "Repressive Mask", "chance": 80 }
     ],
     "collisionRects": [
       {
@@ -2039,16 +2039,16 @@
       }
     ],
     "elements": [
-      { "name": "fire", "value": 125 },
-      { "name": "holy", "value": 115 },
-      { "name": "energy", "value": 115 },
-      { "name": "earth", "value": 75 },
-      { "name": "death", "value": 75 }
+      { "name": "Fire", "value": 125 },
+      { "name": "Holy", "value": 115 },
+      { "name": "Energy", "value": 115 },
+      { "name": "Earth", "value": 75 },
+      { "name": "Death", "value": 75 }
     ],
     "immunities": [{ "name": "ice", "value": 1 }]
   },
   {
-    "id": "frost_dragon",
+    "id": "Frost Dragon",
     "hittable": true,
     "maxDirections": 4,
     "speed": 45,
@@ -2065,16 +2065,16 @@
     "experience": 2100,
     "defense": 38,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 350 },
-      { "item": "thigh", "chance": 60000, "max": 4 },
-      { "item": "crystalline_sword", "chance": 10 },
-      { "item": "strong_mana_potion", "chance": 1500, "max": 3 },
-      { "item": "strong_health_potion", "chance": 1500, "max": 3 },
-      { "item": "earth_crystal", "chance": 1000 },
-      { "item": "royal_helmet", "chance": 800 },
-      { "item": "steel_armor", "chance": 800 },
-      { "item": "steel_shield", "chance": 800 },
-      { "item": "frost_rod", "chance": 200 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 350 },
+      { "item": "Thigh", "chance": 60000, "max": 4 },
+      { "item": "Crystalline Sword", "chance": 10 },
+      { "item": "Strong Mana Potion", "chance": 1500, "max": 3 },
+      { "item": "Strong Health Potion", "chance": 1500, "max": 3 },
+      { "item": "Earth Crystal", "chance": 1000 },
+      { "item": "Royal Helmet", "chance": 800 },
+      { "item": "Steel Armor", "chance": 800 },
+      { "item": "Steel Shield", "chance": 800 },
+      { "item": "Frost Rod", "chance": 200 }
     ],
     "collisionRects": [
       {
@@ -2150,14 +2150,14 @@
         "radius": 6
       }
     ],
-    "elements": [{ "name": "death", "value": 90 }],
+    "elements": [{ "name": "Death", "value": 90 }],
     "immunities": [
       { "name": "ice", "value": 1 },
       { "name": "earth", "value": 1 }
     ]
   },
   {
-    "id": "frost_soul",
+    "id": "Frost Soul",
     "hittable": true,
     "maxDirections": 4,
     "speed": 35,
@@ -2174,9 +2174,9 @@
     "experience": 210,
     "defense": 30,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 90 },
-      { "item": "earth_crystal", "chance": 3000 },
-      { "item": "soul_essence", "chance": 500 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 90 },
+      { "item": "Earth Crystal", "chance": 3000 },
+      { "item": "Soul Essence", "chance": 500 }
     ],
     "collisionRects": [
       {
@@ -2218,13 +2218,13 @@
       }
     ],
     "elements": [
-      { "name": "energy", "value": 115 },
-      { "name": "fire", "value": 110 }
+      { "name": "Energy", "value": 115 },
+      { "name": "Fire", "value": 110 }
     ],
     "immunities": [{ "name": "ice", "value": 1 }]
   },
   {
-    "id": "ghost",
+    "id": "Ghost",
     "hittable": true,
     "maxDirections": 4,
     "speed": 30,
@@ -2241,9 +2241,9 @@
     "experience": 120,
     "defense": 10,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 5, "max": 25 },
-      { "item": "soul_wand", "chance": 100 },
-      { "item": "soul_rod", "chance": 100 }
+      { "item": "Gold", "chance": 100000, "min": 5, "max": 25 },
+      { "item": "Soul Wand", "chance": 100 },
+      { "item": "Soul Rod", "chance": 100 }
     ],
     "collisionRects": [
       {
@@ -2293,7 +2293,7 @@
     ]
   },
   {
-    "id": "ghost_skull",
+    "id": "Ghost Skull",
     "hittable": true,
     "maxDirections": 4,
     "speed": 15,
@@ -2310,12 +2310,12 @@
     "experience": 180,
     "defense": 20,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 80 },
-      { "item": "mana_potion", "chance": 10000, "min": 1, "max": 5 },
-      { "item": "soul_essence", "chance": 500 },
-      { "item": "possessed_crystal", "chance": 500 },
-      { "item": "soul_book", "chance": 200 },
-      { "item": "noble_magic_wand", "chance": 100 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 80 },
+      { "item": "Mana Potion", "chance": 10000, "min": 1, "max": 5 },
+      { "item": "Soul Essence", "chance": 500 },
+      { "item": "Possessed Crystal", "chance": 500 },
+      { "item": "Soul Book", "chance": 200 },
+      { "item": "Noble Magic Wand", "chance": 100 }
     ],
     "collisionRects": [
       {
@@ -2349,7 +2349,7 @@
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 85 }]
   },
   {
-    "id": "glacier_warrior",
+    "id": "Glacier Warrior",
     "hittable": true,
     "maxDirections": 4,
     "speed": 55,
@@ -2366,18 +2366,18 @@
     "experience": 650,
     "defense": 40,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 130 },
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 130 },
       {
-        "item": "crystalline_prime_bolt",
+        "item": "Crystalline Prime Bolt",
         "chance": 20000,
         "min": 5,
         "max": 10
       },
-      { "item": "broadsword", "chance": 800 },
-      { "item": "steel_armor", "chance": 500 },
-      { "item": "steel_helmet", "chance": 500 },
-      { "item": "steel_shield", "chance": 800 },
-      { "item": "royal_boots", "chance": 300 }
+      { "item": "Broadsword", "chance": 800 },
+      { "item": "Steel Armor", "chance": 500 },
+      { "item": "Steel Helmet", "chance": 500 },
+      { "item": "Steel Shield", "chance": 800 },
+      { "item": "Royal Boots", "chance": 300 }
     ],
     "collisionRects": [
       {
@@ -2423,15 +2423,15 @@
       }
     ],
     "elements": [
-      { "name": "energy", "value": 115 },
-      { "name": "fire", "value": 110 },
-      { "name": "death", "value": 75 },
-      { "name": "earth", "value": 50 }
+      { "name": "Energy", "value": 115 },
+      { "name": "Fire", "value": 110 },
+      { "name": "Death", "value": 75 },
+      { "name": "Earth", "value": 50 }
     ],
     "immunities": [{ "name": "ice", "value": 1 }]
   },
   {
-    "id": "goblin",
+    "id": "Goblin",
     "hittable": true,
     "maxDirections": 4,
     "speed": 30,
@@ -2448,16 +2448,16 @@
     "experience": 60,
     "defense": 11,
     "drops": [
-      { "item": "basic_helmo", "chance": 5000 },
-      { "item": "basic_shield", "chance": 5000 },
-      { "item": "pants_basic", "chance": 5000 },
-      { "item": "boots_basic", "chance": 5000 },
-      { "item": "shirt_basic", "chance": 5000 },
-      { "item": "basic_crossbow", "chance": 200 },
-      { "item": "gold", "chance": 70000, "min": 5, "max": 25 },
-      { "item": "fish", "chance": 60000, "max": 1 },
-      { "item": "shovel", "chance": 500 },
-      { "item": "rope", "chance": 300 }
+      { "item": "Basic Helmo", "chance": 5000 },
+      { "item": "Basic Shield", "chance": 5000 },
+      { "item": "Pants Basic", "chance": 5000 },
+      { "item": "Boots Basic", "chance": 5000 },
+      { "item": "Shirt Basic", "chance": 5000 },
+      { "item": "Basic Crossbow", "chance": 200 },
+      { "item": "Gold", "chance": 70000, "min": 5, "max": 25 },
+      { "item": "Fish", "chance": 60000, "max": 1 },
+      { "item": "Shovel", "chance": 500 },
+      { "item": "Rope", "chance": 300 }
     ],
     "collisionRects": [
       {
@@ -2491,7 +2491,7 @@
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 15, "max": 20 }]
   },
   {
-    "id": "goblin_archer",
+    "id": "Goblin Archer",
     "hittable": true,
     "maxDirections": 4,
     "speed": 30,
@@ -2508,16 +2508,16 @@
     "experience": 70,
     "defense": 12,
     "drops": [
-      { "item": "basic_bow", "chance": 20000 },
-      { "item": "gold", "chance": 80000, "min": 10, "max": 30 },
-      { "item": "linen_boots", "chance": 300 },
-      { "item": "linen_armor", "chance": 300 },
-      { "item": "linen_hat", "chance": 300 },
-      { "item": "linen_bow", "chance": 300 },
-      { "item": "linen_legs", "chance": 300 },
-      { "item": "basic_arrow", "chance": 20000, "min": 1, "max": 10 },
-      { "item": "basic_crossbow", "chance": 1000 },
-      { "item": "basic_quiver", "chance": 200 }
+      { "item": "Basic Bow", "chance": 20000 },
+      { "item": "Gold", "chance": 80000, "min": 10, "max": 30 },
+      { "item": "Linen Boots", "chance": 300 },
+      { "item": "Linen Armor", "chance": 300 },
+      { "item": "Linen Hat", "chance": 300 },
+      { "item": "Linen Bow", "chance": 300 },
+      { "item": "Linen Legs", "chance": 300 },
+      { "item": "Basic Arrow", "chance": 20000, "min": 1, "max": 10 },
+      { "item": "Basic Crossbow", "chance": 1000 },
+      { "item": "Basic Quiver", "chance": 200 }
     ],
     "collisionRects": [
       {
@@ -2563,7 +2563,7 @@
     ]
   },
   {
-    "id": "goblin_guard",
+    "id": "Goblin Guard",
     "hittable": true,
     "maxDirections": 4,
     "speed": 50,
@@ -2580,12 +2580,12 @@
     "experience": 195,
     "defense": 12,
     "drops": [
-      { "item": "gold", "chance": 65000, "min": 10, "max": 35 },
-      { "item": "broadsword", "chance": 1000 },
-      { "item": "steel_armor", "chance": 1000 },
-      { "item": "steel_helmet", "chance": 1000 },
-      { "item": "steel_shield", "chance": 1000 },
-      { "item": "goblin_key", "chance": 20 }
+      { "item": "Gold", "chance": 65000, "min": 10, "max": 35 },
+      { "item": "Broadsword", "chance": 1000 },
+      { "item": "Steel Armor", "chance": 1000 },
+      { "item": "Steel Helmet", "chance": 1000 },
+      { "item": "Steel Shield", "chance": 1000 },
+      { "item": "Goblin Key", "chance": 20 }
     ],
     "collisionRects": [
       {
@@ -2619,7 +2619,7 @@
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 200 }]
   },
   {
-    "id": "hideosface",
+    "id": "Hideosface",
     "hittable": true,
     "maxDirections": 4,
     "speed": 100,
@@ -2636,15 +2636,15 @@
     "experience": 4000,
     "defense": 40,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 600 },
-      { "item": "thigh", "chance": 60000, "max": 4 },
-      { "item": "demon_shield", "chance": 100 },
-      { "item": "demon_boots", "chance": 50 },
-      { "item": "thunder_wand", "chance": 200 },
-      { "item": "necro_rod", "chance": 200 },
-      { "item": "earth_crystal", "chance": 2000 },
-      { "item": "royal_axe", "chance": 100 },
-      { "item": "black_stone_amulet", "chance": 300 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 600 },
+      { "item": "Thigh", "chance": 60000, "max": 4 },
+      { "item": "Demon Shield", "chance": 100 },
+      { "item": "Demon Boots", "chance": 50 },
+      { "item": "Thunder Wand", "chance": 200 },
+      { "item": "Necro Rod", "chance": 200 },
+      { "item": "Earth Crystal", "chance": 2000 },
+      { "item": "Royal Axe", "chance": 100 },
+      { "item": "Black Stone Amulet", "chance": 300 }
     ],
     "collisionRects": [
       {
@@ -2722,16 +2722,16 @@
       }
     ],
     "elements": [
-      { "name": "holy", "value": 125 },
-      { "name": "ice", "value": 115 },
-      { "name": "earth", "value": 75 },
-      { "name": "death", "value": 75 },
-      { "name": "energy", "value": 70 }
+      { "name": "Holy", "value": 125 },
+      { "name": "Ice", "value": 115 },
+      { "name": "Earth", "value": 75 },
+      { "name": "Death", "value": 75 },
+      { "name": "Energy", "value": 70 }
     ],
     "immunities": [{ "name": "fire", "value": 1 }]
   },
   {
-    "id": "hydra",
+    "id": "Hydra",
     "hittable": true,
     "maxDirections": 4,
     "speed": 35,
@@ -2748,14 +2748,14 @@
     "experience": 2100,
     "defense": 27,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 250 },
-      { "item": "thigh", "chance": 60000, "max": 4 },
-      { "item": "strong_mana_potion", "chance": 1500, "max": 3 },
-      { "item": "strong_health_potion", "chance": 1500, "max": 3 },
-      { "item": "royal_helmet", "chance": 1000 },
-      { "item": "dragon_scale_shield", "chance": 200 },
-      { "item": "black_stone_amulet", "chance": 100 },
-      { "item": "halberd", "chance": 200 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 250 },
+      { "item": "Thigh", "chance": 60000, "max": 4 },
+      { "item": "Strong Mana Potion", "chance": 1500, "max": 3 },
+      { "item": "Strong Health Potion", "chance": 1500, "max": 3 },
+      { "item": "Royal Helmet", "chance": 1000 },
+      { "item": "Dragon Scale Shield", "chance": 200 },
+      { "item": "Black Stone Amulet", "chance": 100 },
+      { "item": "Halberd", "chance": 200 }
     ],
     "collisionRects": [
       {
@@ -2827,15 +2827,15 @@
       }
     ],
     "elements": [
-      { "name": "energy", "value": 110 },
-      { "name": "physical", "value": 105 },
-      { "name": "holy", "value": 70 },
-      { "name": "ice", "value": 50 }
+      { "name": "Energy", "value": 110 },
+      { "name": "Physical", "value": 105 },
+      { "name": "Holy", "value": 70 },
+      { "name": "Ice", "value": 50 }
     ],
     "immunities": [{ "name": "earth", "value": 1 }]
   },
   {
-    "id": "ice_cube",
+    "id": "Ice Cube",
     "hittable": true,
     "maxDirections": 4,
     "speed": 30,
@@ -2852,8 +2852,8 @@
     "experience": 140,
     "defense": 15,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 65 },
-      { "item": "earth_crystal", "chance": 1000 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 65 },
+      { "item": "Earth Crystal", "chance": 1000 }
     ],
     "collisionRects": [
       {
@@ -2886,14 +2886,14 @@
     ],
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 25, "max": 70 }],
     "elements": [
-      { "name": "energy", "value": 115 },
-      { "name": "fire", "value": 115 },
-      { "name": "earth", "value": 60 }
+      { "name": "Energy", "value": 115 },
+      { "name": "Fire", "value": 115 },
+      { "name": "Earth", "value": 60 }
     ],
     "immunities": [{ "name": "ice", "value": 1 }]
   },
   {
-    "id": "ice_master",
+    "id": "Ice Master",
     "hittable": true,
     "maxDirections": 4,
     "speed": 70,
@@ -2911,13 +2911,13 @@
     "experience": 12000,
     "defense": 30,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 900, "max": 1100 },
-      { "item": "thigh", "chance": 60000, "max": 4 },
-      { "item": "crystalline_axe", "chance": 500 },
-      { "item": "crystalline_book", "chance": 500 },
-      { "item": "strong_health_potion", "chance": 5000, "max": 5 },
-      { "item": "thick_ice_stone_necklace", "chance": 500 },
-      { "item": "black_stone_amulet", "chance": 1000 }
+      { "item": "Gold", "chance": 100000, "min": 900, "max": 1100 },
+      { "item": "Thigh", "chance": 60000, "max": 4 },
+      { "item": "Crystalline Axe", "chance": 500 },
+      { "item": "Crystalline Book", "chance": 500 },
+      { "item": "Strong Health Potion", "chance": 5000, "max": 5 },
+      { "item": "Thick Ice Stone Necklace", "chance": 500 },
+      { "item": "Black Stone Amulet", "chance": 1000 }
     ],
     "collisionRects": [
       {
@@ -2979,14 +2979,14 @@
       }
     ],
     "elements": [
-      { "name": "energy", "value": 120 },
-      { "name": "fire", "value": 110 },
-      { "name": "earth", "value": 70 }
+      { "name": "Energy", "value": 120 },
+      { "name": "Fire", "value": 110 },
+      { "name": "Earth", "value": 70 }
     ],
     "immunities": [{ "name": "ice", "value": 1 }]
   },
   {
-    "id": "ice_mutated_rat",
+    "id": "Ice Mutated Rat",
     "hittable": true,
     "maxDirections": 4,
     "speed": 30,
@@ -3003,9 +3003,9 @@
     "experience": 450,
     "defense": 35,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 120 },
-      { "item": "frost_rod", "chance": 100 },
-      { "item": "earth_crystal", "chance": 1000 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 120 },
+      { "item": "Frost Rod", "chance": 100 },
+      { "item": "Earth Crystal", "chance": 1000 }
     ],
     "collisionRects": [
       {
@@ -3037,14 +3037,14 @@
       { "name": "deactivationZoneDistance", "type": "int" }
     ],
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 40, "max": 70 }],
-    "elements": [{ "name": "death", "value": 90 }],
+    "elements": [{ "name": "Death", "value": 90 }],
     "immunities": [
       { "name": "ice", "value": 1 },
       { "name": "earth", "value": 1 }
     ]
   },
   {
-    "id": "ice_skeleton",
+    "id": "Ice Skeleton",
     "hittable": true,
     "maxDirections": 4,
     "speed": 35,
@@ -3061,12 +3061,12 @@
     "experience": 125,
     "defense": 20,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 10, "max": 30 },
-      { "item": "axe", "chance": 1000 },
-      { "item": "bone_armor", "chance": 500 },
-      { "item": "bone_shield", "chance": 500 },
-      { "item": "human_bone", "chance": 1000 },
-      { "item": "human_skull", "chance": 5000 }
+      { "item": "Gold", "chance": 100000, "min": 10, "max": 30 },
+      { "item": "Axe", "chance": 1000 },
+      { "item": "Bone Armor", "chance": 500 },
+      { "item": "Bone Shield", "chance": 500 },
+      { "item": "Human Bone", "chance": 1000 },
+      { "item": "Human Skull", "chance": 5000 }
     ],
     "collisionRects": [
       {
@@ -3100,7 +3100,7 @@
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 35 }]
   },
   {
-    "id": "ice_spider",
+    "id": "Ice Spider",
     "hittable": true,
     "maxDirections": 4,
     "speed": 50,
@@ -3117,13 +3117,13 @@
     "experience": 900,
     "defense": 43,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 195 },
-      { "item": "steel_armor", "chance": 1000 },
-      { "item": "steel_helmet", "chance": 1000 },
-      { "item": "royal_helmet", "chance": 1000 },
-      { "item": "steel_shield", "chance": 1000 },
-      { "item": "earth_crystal", "chance": 4000 },
-      { "item": "steel_bow", "chance": 200 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 195 },
+      { "item": "Steel Armor", "chance": 1000 },
+      { "item": "Steel Helmet", "chance": 1000 },
+      { "item": "Royal Helmet", "chance": 1000 },
+      { "item": "Steel Shield", "chance": 1000 },
+      { "item": "Earth Crystal", "chance": 4000 },
+      { "item": "Steel Bow", "chance": 200 }
     ],
     "collisionRects": [
       {
@@ -3168,14 +3168,14 @@
       }
     ],
     "elements": [
-      { "name": "fire", "value": 115 },
-      { "name": "earth", "value": 80 },
-      { "name": "energy", "value": 80 }
+      { "name": "Fire", "value": 115 },
+      { "name": "Earth", "value": 80 },
+      { "name": "Energy", "value": 80 }
     ],
     "immunities": [{ "name": "ice", "value": 1 }]
   },
   {
-    "id": "ice_stone_golen",
+    "id": "Ice Stone Golen",
     "hittable": true,
     "maxDirections": 4,
     "speed": 35,
@@ -3192,9 +3192,9 @@
     "experience": 160,
     "defense": 30,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 10, "max": 50 },
-      { "item": "earth_crystal", "chance": 3000 },
-      { "item": "ice_stone_necklace", "chance": 30 }
+      { "item": "Gold", "chance": 100000, "min": 10, "max": 50 },
+      { "item": "Earth Crystal", "chance": 3000 },
+      { "item": "Ice Stone Necklace", "chance": 30 }
     ],
     "collisionRects": [
       {
@@ -3236,15 +3236,15 @@
       }
     ],
     "elements": [
-      { "name": "energy", "value": 110 },
-      { "name": "fire", "value": 110 },
-      { "name": "death", "value": 80 },
-      { "name": "earth", "value": 70 }
+      { "name": "Energy", "value": 110 },
+      { "name": "Fire", "value": 110 },
+      { "name": "Death", "value": 80 },
+      { "name": "Earth", "value": 70 }
     ],
     "immunities": [{ "name": "ice", "value": 1 }]
   },
   {
-    "id": "king_slime",
+    "id": "King Slime",
     "hittable": true,
     "maxDirections": 4,
     "speed": 60,
@@ -3262,12 +3262,12 @@
     "intervalResp": 600,
     "defense": 40,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 100, "max": 500 },
-      { "item": "earth_crystal", "chance": 10000 },
-      { "item": "halberd", "chance": 1000 },
-      { "item": "bagpack", "chance": 200 },
-      { "item": "thick_ice_stone_necklace", "chance": 200 },
-      { "item": "ring_of_nature", "chance": 200 }
+      { "item": "Gold", "chance": 100000, "min": 100, "max": 500 },
+      { "item": "Earth Crystal", "chance": 10000 },
+      { "item": "Halberd", "chance": 1000 },
+      { "item": "Bagpack", "chance": 200 },
+      { "item": "Thick Ice Stone Necklace", "chance": 200 },
+      { "item": "Ring Of Nature", "chance": 200 }
     ],
     "collisionRects": [
       {
@@ -3316,13 +3316,13 @@
       }
     ],
     "elements": [
-      { "name": "physical", "value": 110 },
-      { "name": "earth", "value": 20 },
-      { "name": "energy", "value": 20 }
+      { "name": "Physical", "value": 110 },
+      { "name": "Earth", "value": 20 },
+      { "name": "Energy", "value": 20 }
     ]
   },
   {
-    "id": "minotaur",
+    "id": "Minotaur",
     "hittable": true,
     "maxDirections": 4,
     "speed": 40,
@@ -3339,14 +3339,14 @@
     "experience": 50,
     "defense": 11,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 25 },
-      { "item": "axe", "chance": 1000 },
-      { "item": "wooden_sword", "chance": 1000 },
-      { "item": "minotaur_armor", "chance": 1000 },
-      { "item": "minotaur_legs", "chance": 1000 },
-      { "item": "minotaur_boots", "chance": 1000 },
-      { "item": "minotaur_paw", "chance": 500, "max": 1 },
-      { "item": "minotaur_horn", "chance": 500, "max": 1 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 25 },
+      { "item": "Axe", "chance": 1000 },
+      { "item": "Wooden Sword", "chance": 1000 },
+      { "item": "Minotaur Armor", "chance": 1000 },
+      { "item": "Minotaur Legs", "chance": 1000 },
+      { "item": "Minotaur Boots", "chance": 1000 },
+      { "item": "Minotaur Paw", "chance": 500, "max": 1 },
+      { "item": "Minotaur Horn", "chance": 500, "max": 1 }
     ],
     "collisionRects": [
       {
@@ -3379,14 +3379,14 @@
     ],
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 20 }],
     "elements": [
-      { "name": "ice", "value": 110 },
-      { "name": "death", "value": 105 },
-      { "name": "holy", "value": 90 },
-      { "name": "fire", "value": 80 }
+      { "name": "Ice", "value": 110 },
+      { "name": "Death", "value": 105 },
+      { "name": "Holy", "value": 90 },
+      { "name": "Fire", "value": 80 }
     ]
   },
   {
-    "id": "minotaur_archer",
+    "id": "Minotaur Archer",
     "hittable": true,
     "maxDirections": 4,
     "speed": 30,
@@ -3403,12 +3403,12 @@
     "experience": 65,
     "defense": 7,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 30 },
-      { "item": "basic_bow", "chance": 20000 },
-      { "item": "basic_crossbow", "chance": 1000 },
-      { "item": "basic_quiver", "chance": 200 },
-      { "item": "minotaur_paw", "chance": 500, "max": 1 },
-      { "item": "minotaur_horn", "chance": 500, "max": 1 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 30 },
+      { "item": "Basic Bow", "chance": 20000 },
+      { "item": "Basic Crossbow", "chance": 1000 },
+      { "item": "Basic Quiver", "chance": 200 },
+      { "item": "Minotaur Paw", "chance": 500, "max": 1 },
+      { "item": "Minotaur Horn", "chance": 500, "max": 1 }
     ],
     "collisionRects": [
       {
@@ -3453,14 +3453,14 @@
       }
     ],
     "elements": [
-      { "name": "ice", "value": 110 },
-      { "name": "death", "value": 105 },
-      { "name": "holy", "value": 90 },
-      { "name": "fire", "value": 80 }
+      { "name": "Ice", "value": 110 },
+      { "name": "Death", "value": 105 },
+      { "name": "Holy", "value": 90 },
+      { "name": "Fire", "value": 80 }
     ]
   },
   {
-    "id": "minotaur_mage",
+    "id": "Minotaur Mage",
     "hittable": true,
     "maxDirections": 4,
     "speed": 30,
@@ -3477,14 +3477,14 @@
     "experience": 150,
     "defense": 18,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 35 },
-      { "item": "minotaur_mage_hat", "chance": 150 },
-      { "item": "minotaur_mage_legs", "chance": 200 },
-      { "item": "minotaur_mage_boots", "chance": 200 },
-      { "item": "minotaur_mage_robe", "chance": 200 },
-      { "item": "mino_key", "chance": 10 },
-      { "item": "minotaur_paw", "chance": 500, "max": 1 },
-      { "item": "minotaur_horn", "chance": 500, "max": 1 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 35 },
+      { "item": "Minotaur Mage Hat", "chance": 150 },
+      { "item": "Minotaur Mage Legs", "chance": 200 },
+      { "item": "Minotaur Mage Boots", "chance": 200 },
+      { "item": "Minotaur Mage Robe", "chance": 200 },
+      { "item": "Mino Key", "chance": 10 },
+      { "item": "Minotaur Paw", "chance": 500, "max": 1 },
+      { "item": "Minotaur Horn", "chance": 500, "max": 1 }
     ],
     "collisionRects": [
       {
@@ -3529,15 +3529,15 @@
       }
     ],
     "elements": [
-      { "name": "ice", "value": 110 },
-      { "name": "death", "value": 105 },
-      { "name": "holy", "value": 90 },
-      { "name": "earth", "value": 80 },
-      { "name": "energy", "value": 80 }
+      { "name": "Ice", "value": 110 },
+      { "name": "Death", "value": 105 },
+      { "name": "Holy", "value": 90 },
+      { "name": "Earth", "value": 80 },
+      { "name": "Energy", "value": 80 }
     ]
   },
   {
-    "id": "monk",
+    "id": "Monk",
     "hittable": true,
     "maxDirections": 4,
     "speed": 45,
@@ -3554,14 +3554,14 @@
     "experience": 330,
     "defense": 25,
     "drops": [
-      { "item": "gold", "chance": 50000, "min": 0, "max": 70 },
-      { "item": "double_axe", "chance": 1000 },
-      { "item": "royal_helmet", "chance": 200 },
-      { "item": "royal_armor", "chance": 200 },
-      { "item": "royal_legs", "chance": 200 },
-      { "item": "royal_boots", "chance": 200 },
-      { "item": "royal_shield", "chance": 500 },
-      { "item": "earth_crystal", "chance": 2000 }
+      { "item": "Gold", "chance": 50000, "min": 0, "max": 70 },
+      { "item": "Double Axe", "chance": 1000 },
+      { "item": "Royal Helmet", "chance": 200 },
+      { "item": "Royal Armor", "chance": 200 },
+      { "item": "Royal Legs", "chance": 200 },
+      { "item": "Royal Boots", "chance": 200 },
+      { "item": "Royal Shield", "chance": 500 },
+      { "item": "Earth Crystal", "chance": 2000 }
     ],
     "collisionRects": [
       {
@@ -3603,7 +3603,7 @@
     ]
   },
   {
-    "id": "mutated_rat",
+    "id": "Mutated Rat",
     "hittable": true,
     "maxDirections": 4,
     "speed": 30,
@@ -3620,9 +3620,9 @@
     "experience": 450,
     "defense": 35,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 120 },
-      { "item": "necro_rod", "chance": 100 },
-      { "item": "earth_crystal", "chance": 1000 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 120 },
+      { "item": "Necro Rod", "chance": 100 },
+      { "item": "Earth Crystal", "chance": 1000 }
     ],
     "collisionRects": [
       {
@@ -3668,8 +3668,8 @@
       }
     ],
     "elements": [
-      { "name": "fire", "value": 110 },
-      { "name": "holy", "value": 90 }
+      { "name": "Fire", "value": 110 },
+      { "name": "Holy", "value": 90 }
     ],
     "immunities": [
       { "name": "earth", "value": 1 },
@@ -3677,7 +3677,7 @@
     ]
   },
   {
-    "id": "mutated_slime",
+    "id": "Mutated Slime",
     "hittable": true,
     "maxDirections": 4,
     "speed": 25,
@@ -3692,9 +3692,9 @@
     "experience": 220,
     "defense": 20,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 25, "max": 45 },
-      { "item": "earth_crystal", "chance": 3000 },
-      { "item": "slime_key", "chance": 10 }
+      { "item": "Gold", "chance": 100000, "min": 25, "max": 45 },
+      { "item": "Earth Crystal", "chance": 3000 },
+      { "item": "Slime Key", "chance": 10 }
     ],
     "collisionRects": [
       {
@@ -3736,9 +3736,9 @@
       }
     ],
     "elements": [
-      { "name": "energy", "value": 110 },
-      { "name": "fire", "value": 110 },
-      { "name": "ice", "value": 80 }
+      { "name": "Energy", "value": 110 },
+      { "name": "Fire", "value": 110 },
+      { "name": "Ice", "value": 80 }
     ],
     "immunities": [{ "name": "earth", "value": 1 }]
   },
@@ -3760,21 +3760,21 @@
     "experience": 16000,
     "defense": 50,
     "drops": [
-      { "item": "gold", "chance": 100000, "max": 10000 },
-      { "item": "gold", "chance": 100000, "max": 10000 },
-      { "item": "lightning_boots", "chance": 100000 },
-      { "item": "soul_essence", "chance": 50000 },
-      { "item": "corruption_boots", "chance": 5000 },
-      { "item": "corruption_axe", "chance": 3000 },
-      { "item": "corruption_sword", "chance": 2000 },
-      { "item": "corruption_shield", "chance": 2000 },
-      { "item": "corruption_book", "chance": 2000 },
-      { "item": "corruption_legs", "chance": 4000 },
-      { "item": "corruption_helmet", "chance": 5000 },
-      { "item": "corruption_ring", "chance": 3000 },
-      { "item": "corruption_necklace", "chance": 3000 },
-      { "item": "corruption_bow", "chance": 1000 },
-      { "item": "corruption_crossbow", "chance": 1000 }
+      { "item": "Gold", "chance": 100000, "max": 10000 },
+      { "item": "Gold", "chance": 100000, "max": 10000 },
+      { "item": "Lightning Boots", "chance": 100000 },
+      { "item": "Soul Essence", "chance": 50000 },
+      { "item": "Corruption Boots", "chance": 5000 },
+      { "item": "Corruption Axe", "chance": 3000 },
+      { "item": "Corruption Sword", "chance": 2000 },
+      { "item": "Corruption Shield", "chance": 2000 },
+      { "item": "Corruption Book", "chance": 2000 },
+      { "item": "Corruption Legs", "chance": 4000 },
+      { "item": "Corruption Helmet", "chance": 5000 },
+      { "item": "Corruption Ring", "chance": 3000 },
+      { "item": "Corruption Necklace", "chance": 3000 },
+      { "item": "Corruption Bow", "chance": 1000 },
+      { "item": "Corruption Crossbow", "chance": 1000 }
     ],
     "collisionRects": [
       {
@@ -3855,13 +3855,13 @@
       }
     ],
     "elements": [
-      { "name": "holy", "value": 125 },
-      { "name": "fire", "value": 30 },
-      { "name": "death", "value": 30 }
+      { "name": "Holy", "value": 125 },
+      { "name": "Fire", "value": 30 },
+      { "name": "Death", "value": 30 }
     ]
   },
   {
-    "id": "Nightmare_hand",
+    "id": "Nightmare Hand",
     "hittable": true,
     "maxDirections": 4,
     "speed": 40,
@@ -3877,7 +3877,7 @@
     "offsetY": 0,
     "experience": 200,
     "defense": 10,
-    "drops": [{ "item": "minotaur_mage_hat", "chance": 200 }],
+    "drops": [{ "item": "Minotaur Mage Hat", "chance": 200 }],
     "collisionRects": [
       {
         "name": "hit",
@@ -3921,13 +3921,13 @@
       }
     ],
     "elements": [
-      { "name": "holy", "value": 115 },
-      { "name": "fire", "value": 30 },
-      { "name": "death", "value": 30 }
+      { "name": "Holy", "value": 115 },
+      { "name": "Fire", "value": 30 },
+      { "name": "Death", "value": 30 }
     ]
   },
   {
-    "id": "orc",
+    "id": "Orc",
     "hittable": true,
     "maxDirections": 4,
     "speed": 30,
@@ -3944,8 +3944,8 @@
     "experience": 25,
     "defense": 4,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 5, "max": 25 },
-      { "item": "thigh", "chance": 70000, "min": 1, "max": 2 }
+      { "item": "Gold", "chance": 100000, "min": 5, "max": 25 },
+      { "item": "Thigh", "chance": 70000, "min": 1, "max": 2 }
     ],
     "collisionRects": [
       {
@@ -3978,7 +3978,7 @@
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 20, "max": 30 }]
   },
   {
-    "id": "orc_guard",
+    "id": "Orc Guard",
     "hittable": true,
     "maxDirections": 4,
     "speed": 60,
@@ -3995,11 +3995,11 @@
     "experience": 195,
     "defense": 12,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 10, "max": 35 },
-      { "item": "broadsword", "chance": 2000 },
-      { "item": "steel_boots", "chance": 1000 },
-      { "item": "steel_legs", "chance": 1000 },
-      { "item": "goblin_key", "chance": 20 }
+      { "item": "Gold", "chance": 100000, "min": 10, "max": 35 },
+      { "item": "Broadsword", "chance": 2000 },
+      { "item": "Steel Boots", "chance": 1000 },
+      { "item": "Steel Legs", "chance": 1000 },
+      { "item": "Goblin Key", "chance": 20 }
     ],
     "collisionRects": [
       {
@@ -4033,7 +4033,7 @@
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 200 }]
   },
   {
-    "id": "orc_shaman",
+    "id": "Orc Shaman",
     "hittable": true,
     "maxDirections": 4,
     "speed": 30,
@@ -4050,13 +4050,13 @@
     "experience": 110,
     "defense": 8,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 5, "max": 30 },
-      { "item": "noble_magic_robe", "chance": 30 },
-      { "item": "steel_boots", "chance": 1000 },
-      { "item": "noble_magic_book", "chance": 30 },
-      { "item": "noble_magic_boots", "chance": 30 },
-      { "item": "noble_magic_hat", "chance": 30 },
-      { "item": "noble_magic_legs", "chance": 50 }
+      { "item": "Gold", "chance": 100000, "min": 5, "max": 30 },
+      { "item": "Noble Magic Robe", "chance": 30 },
+      { "item": "Steel Boots", "chance": 1000 },
+      { "item": "Noble Magic Book", "chance": 30 },
+      { "item": "Noble Magic Boots", "chance": 30 },
+      { "item": "Noble Magic Hat", "chance": 30 },
+      { "item": "Noble Magic Legs", "chance": 50 }
     ],
     "collisionRects": [
       {
@@ -4112,7 +4112,7 @@
     ]
   },
   {
-    "id": "rat",
+    "id": "Rat",
     "hittable": true,
     "maxDirections": 4,
     "speed": 15,
@@ -4128,7 +4128,7 @@
     "offsetY": 0,
     "experience": 10,
     "defense": 1,
-    "drops": [{ "item": "gold", "chance": 100000, "min": 0, "max": 5 }],
+    "drops": [{ "item": "Gold", "chance": 100000, "min": 0, "max": 5 }],
     "collisionRects": [
       {
         "name": "hit",
@@ -4161,7 +4161,7 @@
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 8 }]
   },
   {
-    "id": "rot_worm",
+    "id": "Rot Worm",
     "hittable": true,
     "maxDirections": 4,
     "showHealthBar": true,
@@ -4178,12 +4178,12 @@
     "maxHealth": 65,
     "defense": 8,
     "drops": [
-      { "item": "gold", "chance": 60000, "min": 0, "max": 20 },
-      { "item": "thigh", "chance": 60000, "max": 2 },
-      { "item": "worm_rest", "chance": 15000 },
-      { "item": "worm_tooth", "chance": 15000 },
-      { "item": "earth_crystal", "chance": 500 },
-      { "item": "earthworm", "chance": 30000, "min": 3, "max": 6 }
+      { "item": "Gold", "chance": 60000, "min": 0, "max": 20 },
+      { "item": "Thigh", "chance": 60000, "max": 2 },
+      { "item": "Worm Rest", "chance": 15000 },
+      { "item": "Worm Tooth", "chance": 15000 },
+      { "item": "Earth Crystal", "chance": 500 },
+      { "item": "Earthworm", "chance": 30000, "min": 3, "max": 6 }
     ],
     "collisionRects": [
       {
@@ -4217,7 +4217,7 @@
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 40 }]
   },
   {
-    "id": "saberz",
+    "id": "Saberz",
     "hittable": true,
     "maxDirections": 4,
     "speed": 40,
@@ -4234,10 +4234,10 @@
     "offsetY": 0,
     "defense": 20,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 300, "max": 600 },
-      { "item": "earth_crystal", "chance": 5000 },
-      { "item": "crystalline_shield", "chance": 80 },
-      { "item": "blue_robe", "chance": 100 }
+      { "item": "Gold", "chance": 100000, "min": 300, "max": 600 },
+      { "item": "Earth Crystal", "chance": 5000 },
+      { "item": "Crystalline Shield", "chance": 80 },
+      { "item": "Blue Robe", "chance": 100 }
     ],
     "collisionRects": [
       {
@@ -4292,13 +4292,13 @@
       }
     ],
     "elements": [
-      { "name": "energy", "value": 125 },
-      { "name": "fire", "value": 125 }
+      { "name": "Energy", "value": 125 },
+      { "name": "Fire", "value": 125 }
     ],
     "immunities": [{ "name": "ice", "value": 1 }]
   },
   {
-    "id": "skeleton",
+    "id": "Skeleton",
     "hittable": true,
     "maxDirections": 4,
     "speed": 30,
@@ -4315,13 +4315,13 @@
     "experience": 35,
     "defense": 2,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 15 },
-      { "item": "axe", "chance": 800 },
-      { "item": "bone_armor", "chance": 1000 },
-      { "item": "bone_shield", "chance": 1000 },
-      { "item": "human_bone", "chance": 3000 },
-      { "item": "human_skull", "chance": 3000 },
-      { "item": "skull_helmet", "chance": 1000 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 15 },
+      { "item": "Axe", "chance": 800 },
+      { "item": "Bone Armor", "chance": 1000 },
+      { "item": "Bone Shield", "chance": 1000 },
+      { "item": "Human Bone", "chance": 3000 },
+      { "item": "Human Skull", "chance": 3000 },
+      { "item": "Skull Helmet", "chance": 1000 }
     ],
     "collisionRects": [
       {
@@ -4355,7 +4355,7 @@
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 15, "max": 25 }]
   },
   {
-    "id": "slime",
+    "id": "Slime",
     "hittable": true,
     "maxDirections": 4,
     "speed": 25,
@@ -4370,8 +4370,8 @@
     "experience": 160,
     "defense": 50,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 15, "max": 35 },
-      { "item": "earth_crystal", "chance": 2000 }
+      { "item": "Gold", "chance": 100000, "min": 15, "max": 35 },
+      { "item": "Earth Crystal", "chance": 2000 }
     ],
     "collisionRects": [
       {
@@ -4413,14 +4413,14 @@
       }
     ],
     "elements": [
-      { "name": "energy", "value": 110 },
-      { "name": "fire", "value": 110 },
-      { "name": "ice", "value": 80 }
+      { "name": "Energy", "value": 110 },
+      { "name": "Fire", "value": 110 },
+      { "name": "Ice", "value": 80 }
     ],
     "immunities": [{ "name": "earth", "value": 1 }]
   },
   {
-    "id": "slime",
+    "id": "Slime",
     "hittable": true,
     "maxDirections": 4,
     "speed": 20,
@@ -4490,13 +4490,13 @@
       }
     ],
     "elements": [
-      { "name": "energy", "value": 70 },
-      { "name": "earth", "value": 30 },
-      { "name": "fire", "value": 20 },
-      { "name": "physical", "value": 20 },
-      { "name": "death", "value": -10 },
-      { "name": "holy", "value": -20 },
-      { "name": "ice", "value": -50 }
+      { "name": "Energy", "value": 70 },
+      { "name": "Earth", "value": 30 },
+      { "name": "Fire", "value": 20 },
+      { "name": "Physical", "value": 20 },
+      { "name": "Death", "value": -10 },
+      { "name": "Holy", "value": -20 },
+      { "name": "Ice", "value": -50 }
     ],
     "immunities": [
       { "name": "fire", "value": 1 },
@@ -4505,7 +4505,7 @@
     ]
   },
   {
-    "id": "slime_crow",
+    "id": "Slime Crow",
     "hittable": true,
     "maxDirections": 4,
     "speed": 30,
@@ -4522,9 +4522,9 @@
     "experience": 360,
     "defense": 30,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 100, "max": 300 },
-      { "item": "earth_crystal", "chance": 10000 },
-      { "item": "slime_king_crown", "chance": 10000 }
+      { "item": "Gold", "chance": 100000, "min": 100, "max": 300 },
+      { "item": "Earth Crystal", "chance": 10000 },
+      { "item": "Slime King Crown", "chance": 10000 }
     ],
     "collisionRects": [
       {
@@ -4566,15 +4566,15 @@
       }
     ],
     "elements": [
-      { "name": "ice", "value": 30 },
-      { "name": "earth", "value": 30 },
-      { "name": "energy", "value": 30 },
-      { "name": "fire", "value": 30 },
-      { "name": "death", "value": 30 }
+      { "name": "Ice", "value": 30 },
+      { "name": "Earth", "value": 30 },
+      { "name": "Energy", "value": 30 },
+      { "name": "Fire", "value": 30 },
+      { "name": "Death", "value": 30 }
     ]
   },
   {
-    "id": "soul_devourer",
+    "id": "Soul Devourer",
     "hittable": true,
     "maxDirections": 4,
     "speed": 70,
@@ -4592,10 +4592,10 @@
     "experience": 6600,
     "defense": 50,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 900, "max": 1100 },
-      { "item": "thigh", "chance": 60000, "max": 4 },
-      { "item": "thick_silver_necklace", "chance": 200 },
-      { "item": "necro_rod", "chance": 200 }
+      { "item": "Gold", "chance": 100000, "min": 900, "max": 1100 },
+      { "item": "Thigh", "chance": 60000, "max": 4 },
+      { "item": "Thick Silver Necklace", "chance": 200 },
+      { "item": "Necro Rod", "chance": 200 }
     ],
     "collisionRects": [
       {
@@ -4635,16 +4635,16 @@
       }
     ],
     "elements": [
-      { "name": "holy", "value": 120 },
-      { "name": "fire", "value": 110 },
-      { "name": "energy", "value": 70 },
-      { "name": "earth", "value": 70 },
-      { "name": "ice", "value": 70 }
+      { "name": "Holy", "value": 120 },
+      { "name": "Fire", "value": 110 },
+      { "name": "Energy", "value": 70 },
+      { "name": "Earth", "value": 70 },
+      { "name": "Ice", "value": 70 }
     ],
     "immunities": [{ "name": "death", "value": 1 }]
   },
   {
-    "id": "spider",
+    "id": "Spider",
     "hittable": true,
     "maxDirections": 4,
     "speed": 15,
@@ -4660,7 +4660,7 @@
     "offsetY": 0,
     "experience": 18,
     "defense": 2,
-    "drops": [{ "item": "gold", "chance": 100000, "min": 1, "max": 5 }],
+    "drops": [{ "item": "Gold", "chance": 100000, "min": 1, "max": 5 }],
     "collisionRects": [
       {
         "name": "hit",
@@ -4692,7 +4692,7 @@
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 23 }]
   },
   {
-    "id": "stone_golen",
+    "id": "Stone Golen",
     "hittable": true,
     "maxDirections": 4,
     "speed": 35,
@@ -4709,9 +4709,9 @@
     "experience": 160,
     "defense": 30,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 40 },
-      { "item": "earth_crystal", "chance": 1000 },
-      { "item": "iron_hatchet", "chance": 300 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 40 },
+      { "item": "Earth Crystal", "chance": 1000 },
+      { "item": "Iron Hatchet", "chance": 300 }
     ],
     "collisionRects": [
       {
@@ -4753,10 +4753,10 @@
       }
     ],
     "elements": [
-      { "name": "ice", "value": 110 },
-      { "name": "physical", "value": 90 },
-      { "name": "fire", "value": 80 },
-      { "name": "death", "value": 80 }
+      { "name": "Ice", "value": 110 },
+      { "name": "Physical", "value": 90 },
+      { "name": "Fire", "value": 80 },
+      { "name": "Death", "value": 80 }
     ],
     "immunities": [
       { "name": "energy", "value": 1 },
@@ -4764,7 +4764,7 @@
     ]
   },
   {
-    "id": "storm_dragon",
+    "id": "Storm Dragon",
     "hittable": true,
     "maxDirections": 4,
     "speed": 45,
@@ -4781,16 +4781,16 @@
     "experience": 2100,
     "defense": 27,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 230 },
-      { "item": "thigh", "chance": 60000, "max": 4 },
-      { "item": "strong_mana_potion", "chance": 5500, "max": 3 },
-      { "item": "strong_health_potion", "chance": 5500, "max": 3 },
-      { "item": "royal_helmet", "chance": 800 },
-      { "item": "steel_armor", "chance": 800 },
-      { "item": "steel_shield", "chance": 800 },
-      { "item": "thunder_wand", "chance": 500 },
-      { "item": "centered_cape", "chance": 80 },
-      { "item": "centered_hat", "chance": 50 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 230 },
+      { "item": "Thigh", "chance": 60000, "max": 4 },
+      { "item": "Strong Mana Potion", "chance": 5500, "max": 3 },
+      { "item": "Strong Health Potion", "chance": 5500, "max": 3 },
+      { "item": "Royal Helmet", "chance": 800 },
+      { "item": "Steel Armor", "chance": 800 },
+      { "item": "Steel Shield", "chance": 800 },
+      { "item": "Thunder Wand", "chance": 500 },
+      { "item": "Centered Cape", "chance": 80 },
+      { "item": "Centered Hat", "chance": 50 }
     ],
     "collisionRects": [
       {
@@ -4878,15 +4878,15 @@
       }
     ],
     "elements": [
-      { "name": "earth", "value": 115 },
-      { "name": "physical", "value": 105 },
-      { "name": "holy", "value": 70 },
-      { "name": "fire", "value": 50 }
+      { "name": "Earth", "value": 115 },
+      { "name": "Physical", "value": 105 },
+      { "name": "Holy", "value": 70 },
+      { "name": "Fire", "value": 50 }
     ],
     "immunities": [{ "name": "energy", "value": 1 }]
   },
   {
-    "id": "tarantula",
+    "id": "Tarantula",
     "hittable": true,
     "maxDirections": 4,
     "speed": 50,
@@ -4903,13 +4903,13 @@
     "experience": 900,
     "defense": 30,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 189 },
-      { "item": "steel_armor", "chance": 1000 },
-      { "item": "steel_helmet", "chance": 1000 },
-      { "item": "royal_helmet", "chance": 1000 },
-      { "item": "steel_shield", "chance": 1000 },
-      { "item": "earth_crystal", "chance": 4000 },
-      { "item": "steel_bow", "chance": 200 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 189 },
+      { "item": "Steel Armor", "chance": 1000 },
+      { "item": "Steel Helmet", "chance": 1000 },
+      { "item": "Royal Helmet", "chance": 1000 },
+      { "item": "Steel Shield", "chance": 1000 },
+      { "item": "Earth Crystal", "chance": 4000 },
+      { "item": "Steel Bow", "chance": 200 }
     ],
     "collisionRects": [
       {
@@ -4954,14 +4954,14 @@
       }
     ],
     "elements": [
-      { "name": "fire", "value": 115 },
-      { "name": "ice", "value": 80 },
-      { "name": "energy", "value": 80 }
+      { "name": "Fire", "value": 115 },
+      { "name": "Ice", "value": 80 },
+      { "name": "Energy", "value": 80 }
     ],
     "immunities": [{ "name": "earth", "value": 1 }]
   },
   {
-    "id": "the_witch",
+    "id": "The Witch",
     "hittable": true,
     "maxDirections": 4,
     "speed": 35,
@@ -4978,11 +4978,11 @@
     "experience": 120,
     "defense": 8,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 40 },
-      { "item": "mana_potion", "chance": 5500, "max": 3 },
-      { "item": "necro_rod", "chance": 500 },
-      { "item": "silver_necklace", "chance": 200 },
-      { "item": "soul_book", "chance": 200 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 40 },
+      { "item": "Mana Potion", "chance": 5500, "max": 3 },
+      { "item": "Necro Rod", "chance": 500 },
+      { "item": "Silver Necklace", "chance": 200 },
+      { "item": "Soul Book", "chance": 200 }
     ],
     "collisionRects": [
       {
@@ -5029,14 +5029,14 @@
       }
     ],
     "elements": [
-      { "name": "physical", "value": 105 },
-      { "name": "death", "value": 105 },
-      { "name": "earth", "value": 80 }
+      { "name": "Physical", "value": 105 },
+      { "name": "Death", "value": 105 },
+      { "name": "Earth", "value": 80 }
     ],
     "immunities": [{ "name": "energy", "value": 1 }]
   },
   {
-    "id": "thunder_saberz",
+    "id": "Thunder Saberz",
     "hittable": true,
     "maxDirections": 4,
     "speed": 50,
@@ -5053,12 +5053,12 @@
     "offsetY": 0,
     "defense": 20,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 1000, "max": 5000 },
-      { "item": "earth_crystal", "chance": 5000 },
-      { "item": "thunder_bow", "chance": 1000 },
-      { "item": "thunder_crossbow", "chance": 1000 },
-      { "item": "thunder_quiver", "chance": 1000 },
-      { "item": "thunder_wand", "chance": 5000 }
+      { "item": "Gold", "chance": 100000, "min": 1000, "max": 5000 },
+      { "item": "Earth Crystal", "chance": 5000 },
+      { "item": "Thunder Bow", "chance": 1000 },
+      { "item": "Thunder Crossbow", "chance": 1000 },
+      { "item": "Thunder Quiver", "chance": 1000 },
+      { "item": "Thunder Wand", "chance": 5000 }
     ],
     "collisionRects": [
       {
@@ -5113,13 +5113,13 @@
       }
     ],
     "elements": [
-      { "name": "fire", "value": 120 },
-      { "name": "death", "value": 120 }
+      { "name": "Fire", "value": 120 },
+      { "name": "Death", "value": 120 }
     ],
     "immunities": [{ "name": "energy", "value": 1 }]
   },
   {
-    "id": "troll",
+    "id": "Troll",
     "hittable": true,
     "maxDirections": 4,
     "speed": 50,
@@ -5136,13 +5136,13 @@
     "experience": 150,
     "defense": 17,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 10, "max": 65 },
-      { "item": "double_axe", "chance": 1000 },
-      { "item": "royal_helmet", "chance": 50 },
-      { "item": "royal_armor", "chance": 200 },
-      { "item": "royal_legs", "chance": 200 },
-      { "item": "royal_boots", "chance": 500 },
-      { "item": "royal_shield", "chance": 80 }
+      { "item": "Gold", "chance": 100000, "min": 10, "max": 65 },
+      { "item": "Double Axe", "chance": 1000 },
+      { "item": "Royal Helmet", "chance": 50 },
+      { "item": "Royal Armor", "chance": 200 },
+      { "item": "Royal Legs", "chance": 200 },
+      { "item": "Royal Boots", "chance": 500 },
+      { "item": "Royal Shield", "chance": 80 }
     ],
     "collisionRects": [
       {
@@ -5173,13 +5173,13 @@
       { "name": "deactivationZoneDistance", "type": "int" }
     ],
     "elements": [
-      { "name": "earth", "value": 115 },
-      { "name": "fire", "value": 75 }
+      { "name": "Earth", "value": 115 },
+      { "name": "Fire", "value": 75 }
     ],
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 30, "max": 100 }]
   },
   {
-    "id": "troll_frost",
+    "id": "Troll Frost",
     "hittable": true,
     "maxDirections": 4,
     "speed": 50,
@@ -5196,21 +5196,21 @@
     "experience": 160,
     "defense": 17,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 10, "max": 65 },
+      { "item": "Gold", "chance": 100000, "min": 10, "max": 65 },
       {
-        "item": "crystalline_prime_bolt",
+        "item": "Crystalline Prime Bolt",
         "chance": 20000,
         "min": 5,
         "max": 10
       },
-      { "item": "double_axe", "chance": 1000 },
-      { "item": "shovel", "chance": 500 },
-      { "item": "rope", "chance": 300 },
-      { "item": "royal_helmet", "chance": 50 },
-      { "item": "royal_armor", "chance": 200 },
-      { "item": "royal_legs", "chance": 200 },
-      { "item": "royal_boots", "chance": 200 },
-      { "item": "royal_shield", "chance": 80 }
+      { "item": "Double Axe", "chance": 1000 },
+      { "item": "Shovel", "chance": 500 },
+      { "item": "Rope", "chance": 300 },
+      { "item": "Royal Helmet", "chance": 50 },
+      { "item": "Royal Armor", "chance": 200 },
+      { "item": "Royal Legs", "chance": 200 },
+      { "item": "Royal Boots", "chance": 200 },
+      { "item": "Royal Shield", "chance": 80 }
     ],
     "collisionRects": [
       {
@@ -5242,13 +5242,13 @@
     ],
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 40, "max": 100 }],
     "elements": [
-      { "name": "energy", "value": 115 },
-      { "name": "earth", "value": 75 }
+      { "name": "Energy", "value": 115 },
+      { "name": "Earth", "value": 75 }
     ],
     "immunities": [{ "name": "ice", "value": 1 }]
   },
   {
-    "id": "vampire",
+    "id": "Vampire",
     "hittable": true,
     "maxDirections": 4,
     "speed": 45,
@@ -5265,14 +5265,14 @@
     "experience": 305,
     "defense": 28,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 60 },
-      { "item": "strong_health_potion", "chance": 1000, "max": 5 },
-      { "item": "royal_helmet", "chance": 1500 },
-      { "item": "earth_crystal", "chance": 1000 },
-      { "item": "vamp_shield", "chance": 35 },
-      { "item": "vamp_boots", "chance": 35 },
-      { "item": "vamp_ring", "chance": 30 },
-      { "item": "vamp_necklace", "chance": 30 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 60 },
+      { "item": "Strong Health Potion", "chance": 1000, "max": 5 },
+      { "item": "Royal Helmet", "chance": 1500 },
+      { "item": "Earth Crystal", "chance": 1000 },
+      { "item": "Vamp Shield", "chance": 35 },
+      { "item": "Vamp Boots", "chance": 35 },
+      { "item": "Vamp Ring", "chance": 30 },
+      { "item": "Vamp Necklace", "chance": 30 }
     ],
     "collisionRects": [
       {
@@ -5319,9 +5319,9 @@
       }
     ],
     "elements": [
-      { "name": "holy", "value": 125 },
-      { "name": "fire", "value": 110 },
-      { "name": "physical", "value": 75 }
+      { "name": "Holy", "value": 125 },
+      { "name": "Fire", "value": 110 },
+      { "name": "Physical", "value": 75 }
     ],
     "immunities": [
       { "name": "death", "value": 1 },
@@ -5329,7 +5329,7 @@
     ]
   },
   {
-    "id": "winter_wolf",
+    "id": "Winter Wolf",
     "hittable": true,
     "maxDirections": 4,
     "speed": 35,
@@ -5346,8 +5346,8 @@
     "experience": 65,
     "defense": 5,
     "drops": [
-      { "item": "gold", "chance": 50000, "min": 10, "max": 35 },
-      { "item": "thigh", "chance": 70000, "min": 1, "max": 4 }
+      { "item": "Gold", "chance": 50000, "min": 10, "max": 35 },
+      { "item": "Thigh", "chance": 70000, "min": 1, "max": 4 }
     ],
     "collisionRects": [
       {
@@ -5380,7 +5380,7 @@
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 25 }]
   },
   {
-    "id": "wolf",
+    "id": "Wolf",
     "hittable": true,
     "maxDirections": 4,
     "speed": 35,
@@ -5397,8 +5397,8 @@
     "experience": 20,
     "defense": 1,
     "drops": [
-      { "item": "thigh", "chance": 70000, "min": 1, "max": 2 },
-      { "item": "gold", "chance": 100000, "min": 5, "max": 15 }
+      { "item": "Thigh", "chance": 70000, "min": 1, "max": 2 },
+      { "item": "Gold", "chance": 100000, "min": 5, "max": 15 }
     ],
     "collisionRects": [
       {
@@ -5431,7 +5431,7 @@
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 15 }]
   },
   {
-    "id": "zombie",
+    "id": "Zombie",
     "hittable": true,
     "maxDirections": 4,
     "speed": 25,
@@ -5448,12 +5448,12 @@
     "experience": 85,
     "defense": 8,
     "drops": [
-      { "item": "gold", "chance": 100000, "min": 0, "max": 30 },
-      { "item": "steel_boots", "chance": 100 },
-      { "item": "bone_shield", "chance": 100 },
-      { "item": "steel_legs", "chance": 100 },
-      { "item": "soul_rod", "chance": 50 },
-      { "item": "earth_crystal", "chance": 1000 }
+      { "item": "Gold", "chance": 100000, "min": 0, "max": 30 },
+      { "item": "Steel Boots", "chance": 100 },
+      { "item": "Bone Shield", "chance": 100 },
+      { "item": "Steel Legs", "chance": 100 },
+      { "item": "Soul Rod", "chance": 50 },
+      { "item": "Earth Crystal", "chance": 1000 }
     ],
     "collisionRects": [
       {
@@ -5486,10 +5486,10 @@
     ],
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 70 }],
     "elements": [
-      { "name": "holy", "value": 125 },
-      { "name": "ice", "value": 90 },
-      { "name": "earth", "value": 80 },
-      { "name": "energy", "value": 70 }
+      { "name": "Holy", "value": 125 },
+      { "name": "Ice", "value": 90 },
+      { "name": "Earth", "value": 80 },
+      { "name": "Energy", "value": 70 }
     ]
   }
 ]
