@@ -1,0 +1,119 @@
+{
+  "id": "frost_demon",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 80,
+  "maxHealth": 8200,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 48,
+  "imgHeight": 48,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 50,
+  "drawOrderOffsetY": 32,
+  "offsetX": -16,
+  "offsetY": 0,
+  "experience": 6000,
+  "defense": 30,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 0, "max": 600 },
+    { "item": "thigh", "chance": 60000, "max": 4 },
+    { "item": "crystalline_axe", "chance": 75 },
+    { "item": "earth_crystal", "chance": 2000 },
+    { "item": "strong_health_potion", "chance": 2000, "max": 5 },
+    { "item": "hylian_broadsword", "chance": 1000 },
+    { "item": "blue_robe", "chance": 100 },
+    { "item": "repressive_mask", "chance": 80 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.4,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 500 },
+    {
+      "attack": "ice",
+      "interval": 7000,
+      "chance": 30,
+      "min": 150,
+      "max": 500,
+      "type": "area",
+      "particle": 34,
+      "length": 10,
+      "spread": 20,
+      "range": 12
+    },
+    {
+      "attack": "ice",
+      "interval": 7000,
+      "chance": 50,
+      "min": 150,
+      "max": 280,
+      "type": "area",
+      "particle": 35,
+      "radius": 6,
+      "range": 8
+    }
+  ],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 15000,
+      "chance": 30,
+      "min": 220,
+      "max": 300
+    },
+    {
+      "name": "mana_drain",
+      "interval": 15000,
+      "chance": 30,
+      "min": 90,
+      "max": 160,
+      "type": "area",
+      "particle": 11,
+      "radius": 6
+    },
+    {
+      "name": "life_drain",
+      "interval": 15000,
+      "chance": 50,
+      "min": 100,
+      "max": 200,
+      "type": "area",
+      "particle": 12,
+      "radius": 6
+    }
+  ],
+  "elements": [
+    { "name": "holy", "value": 115 },
+    { "name": "energy", "value": 115 },
+    { "name": "fire", "value": 125 },
+    { "name": "earth", "value": 75 },
+    { "name": "death", "value": 75 }
+  ],
+  "immunities": [{ "name": "ice", "value": 1 }]
+}

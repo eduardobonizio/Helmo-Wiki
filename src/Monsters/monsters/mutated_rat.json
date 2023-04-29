@@ -1,0 +1,74 @@
+{
+  "id": "mutated_rat",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 30,
+  "maxHealth": 550,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 32,
+  "imgHeight": 32,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 22,
+  "drawOrderOffsetY": 16,
+  "offsetX": -8,
+  "offsetY": 0,
+  "experience": 450,
+  "defense": 35,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 0, "max": 120 },
+    { "item": "necro_rod", "chance": 100 },
+    { "item": "earth_crystal", "chance": 1000 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.6,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4,
+      "looping": true
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 120 },
+    {
+      "attack": "earth",
+      "interval": 5000,
+      "chance": 30,
+      "min": 45,
+      "max": 70,
+      "type": "area",
+      "particle": 28,
+      "radius": 4,
+      "range": 10
+    }
+  ],
+  "elements": [
+    { "name": "fire", "value": 110 },
+    { "name": "holy", "value": 90 }
+  ],
+  "immunities": [
+    { "name": "earth", "value": 1 },
+    { "name": "death", "value": 1 }
+  ]
+}

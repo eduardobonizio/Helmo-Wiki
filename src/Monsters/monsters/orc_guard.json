@@ -1,0 +1,55 @@
+{
+  "id": "orc_guard",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 60,
+  "maxHealth": 210,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 32,
+  "imgHeight": 32,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 34,
+  "drawOrderOffsetY": 32,
+  "offsetX": -8,
+  "offsetY": 0,
+  "experience": 195,
+  "defense": 12,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 10, "max": 35 },
+    { "item": "broadsword", "chance": 2000 },
+    { "item": "steel_boots", "chance": 1000 },
+    { "item": "steel_legs", "chance": 1000 },
+    { "item": "goblin_key", "chance": 20 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.4,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4,
+      "looping": true
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 200 }]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "ghost",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 30,
+  "maxHealth": 150,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 32,
+  "imgHeight": 32,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 22,
+  "drawOrderOffsetY": 16,
+  "offsetX": -8,
+  "offsetY": 0,
+  "experience": 120,
+  "defense": 10,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 5, "max": 25 },
+    { "item": "soul_wand", "chance": 100 },
+    { "item": "soul_rod", "chance": 100 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.8,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 80 }],
+  "defenses": [
+    {
+      "name": "life_drain",
+      "interval": 6000,
+      "chance": 50,
+      "min": 20,
+      "max": 45,
+      "type": "area",
+      "particle": 12,
+      "radius": 4
+    }
+  ],
+  "immunities": [
+    { "name": "physical", "value": 1 },
+    { "name": "earth", "value": 1 },
+    { "name": "death", "value": 1 }
+  ]
+}

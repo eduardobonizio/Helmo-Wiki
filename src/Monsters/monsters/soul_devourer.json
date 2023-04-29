@@ -1,0 +1,70 @@
+{
+  "id": "soul_devourer",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 70,
+  "maxHealth": 12000,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 32,
+  "imgHeight": 32,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 32,
+  "drawOrderOffsetY": 0,
+  "intervalResp": 600,
+  "offsetX": -8,
+  "offsetY": 0,
+  "experience": 6600,
+  "defense": 50,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 900, "max": 1100 },
+    { "item": "thigh", "chance": 60000, "max": 4 },
+    { "item": "thick_silver_necklace", "chance": 200 },
+    { "item": "necro_rod", "chance": 200 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    { "id": "walk", "totalRuntime": 0.4, "numberOfDirections": 4 },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 1200 },
+    {
+      "attack": "death",
+      "interval": 5000,
+      "chance": 50,
+      "min": 400,
+      "max": 900,
+      "type": "area",
+      "particle": 5,
+      "radius": 6,
+      "target": 0
+    }
+  ],
+  "elements": [
+    { "name": "fire", "value": 110 },
+    { "name": "energy", "value": 70 },
+    { "name": "earth", "value": 70 },
+    { "name": "ice", "value": 70 },
+    { "name": "holy", "value": 120 }
+  ],
+  "immunities": [{ "name": "death", "value": 1 }]
+}

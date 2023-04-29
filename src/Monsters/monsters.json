@@ -1,0 +1,5495 @@
+[
+  {
+    "id": "baby_dragon",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 32,
+    "maxHealth": 360,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 34,
+    "drawOrderOffsetY": 20,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 220,
+    "defense": 20,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 50 },
+      { "item": "thigh", "chance": 60000, "max": 4 },
+      { "item": "small_health_potion", "chance": 50000, "max": 2 },
+      { "item": "dragon_ring", "chance": 30 },
+      { "item": "dragon_hat", "chance": 50 },
+      { "item": "dragon_necklace", "chance": 30 },
+      { "item": "dragon_horn", "chance": 1000 },
+      { "item": "dragon_scale", "chance": 1000 },
+      { "item": "dragon_key", "chance": 10 },
+      { "item": "dragon_scale_arrow", "chance": 20000, "min": 5, "max": 10 },
+      { "item": "double_axe", "chance": 100 },
+      { "item": "royal_helmet", "chance": 50 },
+      { "item": "green_cape", "chance": 30 },
+      { "item": "green_legs", "chance": 30 },
+      { "item": "green_hat", "chance": 30 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.7,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      {
+        "attack": "fire",
+        "interval": 2000,
+        "chance": 100,
+        "range": 7,
+        "min": 40,
+        "max": 70,
+        "type": "shoot",
+        "anim": "fire-ball",
+        "particle": 3
+      }
+    ],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 10000,
+        "chance": 30,
+        "min": 20,
+        "max": 40
+      }
+    ],
+    "elements": [
+      { "name": "ice", "value": 110 },
+      { "name": "energy", "value": 80 },
+      { "name": "earth", "value": 20 }
+    ],
+    "immunities": [{ "name": "fire", "value": 1 }]
+  },
+  {
+    "id": "bear",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 35,
+    "maxHealth": 80,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 25,
+    "defense": 6,
+    "drops": [
+      { "item": "thigh", "chance": 70000, "min": 1, "max": 6 },
+      { "item": "fish", "chance": 60000, "max": 1 },
+      { "item": "bear_scalp", "chance": 100, "max": 1 },
+      { "item": "bear_paw", "chance": 200, "max": 1 },
+      { "item": "honey_comb", "chance": 200, "max": 1 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.8,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 5, "max": 10 }]
+  },
+  {
+    "id": "blood_frost",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 55,
+    "maxHealth": 500,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 325,
+    "defense": 28,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 10, "max": 70 },
+      { "item": "crystalline_quiver", "chance": 30 },
+      { "item": "strong_health_potion", "chance": 1000, "max": 5 },
+      { "item": "earth_crystal", "chance": 1000 },
+      { "item": "royal_helmet", "chance": 1000 },
+      { "item": "vamp_shield", "chance": 50 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.9,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 160 }],
+    "elements": [
+      { "name": "fire", "value": 125 },
+      { "name": "holy", "value": 110 },
+      { "name": "energy", "value": 110 }
+    ],
+    "immunities": [{ "name": "ice", "value": 1 }]
+  },
+  {
+    "id": "blue_slime",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 30,
+    "maxHealth": 900,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 16,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 760,
+    "defense": 30,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 65 },
+      { "item": "earth_crystal", "chance": 2000 },
+      { "item": "blue_legs", "chance": 200 },
+      { "item": "blue_robe", "chance": 50 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.7,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0.9,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 1, "max": 330 }],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 10000,
+        "chance": 20,
+        "min": 30,
+        "max": 35
+      }
+    ],
+    "elements": [
+      { "name": "ice", "value": 80 },
+      { "name": "earth", "value": 60 },
+      { "name": "energy", "value": 110 },
+      { "name": "fire", "value": 110 }
+    ]
+  },
+  {
+    "id": "butterfly",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 20,
+    "maxHealth": 1,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 0,
+    "defense": 0,
+    "harmless": true,
+    "drops": [],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.8,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0.8,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ]
+  },
+  {
+    "id": "candelabra",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 45,
+    "maxHealth": 1000,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 900,
+    "defense": 25,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 100 },
+      { "item": "strong_mana_potion", "chance": 1000, "max": 5 },
+      { "item": "royal_boots", "chance": 2000 },
+      { "item": "steel_helmet", "chance": 2000 },
+      { "item": "earth_crystal", "chance": 2000 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.7,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0.9,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 0, "max": 125 },
+      {
+        "attack": "fire",
+        "interval": 6000,
+        "chance": 50,
+        "min": 70,
+        "max": 180,
+        "type": "area",
+        "particle": 3,
+        "radius": 5,
+        "target": 1,
+        "range": 7
+      }
+    ],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 4000,
+        "chance": 25,
+        "min": 10,
+        "max": 25
+      }
+    ],
+    "elements": [
+      { "name": "ice", "value": 110 },
+      { "name": "earth", "value": 75 },
+      { "name": "energy", "value": 75 }
+    ],
+    "immunities": [{ "name": "fire", "value": 1 }]
+  },
+  {
+    "id": "cave_octopus",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 45,
+    "maxHealth": 1300,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 16,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 800,
+    "defense": 20,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 129 },
+      { "item": "earth_crystal", "chance": 5000 },
+      { "item": "royal_cape", "chance": 400 },
+      { "item": "royal_boots", "chance": 500 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.7,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0.9,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 180 }],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 10000,
+        "chance": 10,
+        "min": 15,
+        "max": 140
+      }
+    ],
+    "elements": [
+      { "name": "physical", "value": 105 },
+      { "name": "earth", "value": 70 },
+      { "name": "fire", "value": 15 },
+      { "name": "death", "value": 95 },
+      { "name": "energy", "value": 110 },
+      { "name": "holy", "value": 105 },
+      { "name": "ice", "value": 105 }
+    ]
+  },
+  {
+    "id": "corvo",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 15,
+    "maxHealth": 15,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "experience": 10,
+    "defense": -5,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 7, "max": 10 },
+      { "item": "thigh", "chance": 70000, "min": 1, "max": 2 },
+      { "item": "crow_beak", "chance": 15000 },
+      { "item": "crow_feather", "chance": 50000 },
+      { "item": "earthworm", "chance": 15000, "min": 1, "max": 3 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.6,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 5 }]
+  },
+  {
+    "id": "crab",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 15,
+    "maxHealth": 10,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 5,
+    "defense": 0,
+    "drops": [{ "item": "gold", "chance": 100000, "min": 2, "max": 7 }],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.8,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 8 }]
+  },
+  {
+    "id": "crystal_turtle",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 40,
+    "maxHealth": 260,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 16,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 170,
+    "defense": 10,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 60 },
+      { "item": "earth_crystal", "chance": 3000 },
+      { "item": "ice_stone_necklace", "chance": 200 },
+      { "item": "royal_shield", "chance": 100 },
+      { "item": "steel_armor", "chance": 500 },
+      { "item": "noble_magic_wand", "chance": 100 },
+      { "item": "noble_magic_rod", "chance": 100 },
+      { "item": "crystal_tortoiseshell", "chance": 500 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.7,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 20, "max": 40 },
+      {
+        "attack": "fire",
+        "interval": 4000,
+        "chance": 100,
+        "range": 7,
+        "min": 10,
+        "max": 30,
+        "type": "shoot",
+        "anim": "fire-ball",
+        "particle": 3
+      },
+      {
+        "attack": "earth",
+        "interval": 10000,
+        "chance": 100,
+        "min": 25,
+        "max": 45,
+        "type": "area",
+        "particle": 13,
+        "length": 8,
+        "spread": 3,
+        "range": 7
+      }
+    ],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 10000,
+        "chance": 10,
+        "min": 5,
+        "max": 15
+      }
+    ],
+    "elements": [
+      { "name": "earth", "value": 20 },
+      { "name": "ice", "value": 80 },
+      { "name": "fire", "value": 110 }
+    ]
+  },
+  {
+    "id": "demon",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 80,
+    "maxHealth": 8200,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 48,
+    "imgHeight": 48,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 50,
+    "drawOrderOffsetY": 32,
+    "offsetX": -16,
+    "offsetY": 0,
+    "experience": 6000,
+    "defense": 44,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 700 },
+      { "item": "thigh", "chance": 60000, "max": 4 },
+      { "item": "great_mana_potion", "chance": 5500, "max": 3 },
+      { "item": "great_health_potion", "chance": 5500, "max": 3 },
+      { "item": "demon_shield", "chance": 100 },
+      { "item": "demon_boots", "chance": 50 },
+      { "item": "thunder_wand", "chance": 500 },
+      { "item": "necro_rod", "chance": 500 },
+      { "item": "earth_crystal", "chance": 5000 },
+      { "item": "royal_axe", "chance": 100 },
+      { "item": "hylian_broadsword", "chance": 2000 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.4,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 0, "max": 450 },
+      {
+        "attack": "energy",
+        "interval": 6000,
+        "chance": 40,
+        "min": 200,
+        "max": 450,
+        "type": "area",
+        "particle": 12,
+        "length": 10,
+        "spread": 20,
+        "range": 12
+      },
+      {
+        "attack": "fire",
+        "interval": 6000,
+        "chance": 60,
+        "min": 150,
+        "max": 300,
+        "type": "area",
+        "particle": 3,
+        "radius": 6,
+        "target": 1,
+        "range": 12
+      },
+      {
+        "attack": "fire",
+        "interval": 6000,
+        "chance": 80,
+        "min": 150,
+        "max": 300,
+        "type": "area",
+        "particle": 3,
+        "radius": 3,
+        "target": 1,
+        "range": 7,
+        "field": 1
+      }
+    ],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 8000,
+        "chance": 30,
+        "min": 220,
+        "max": 300
+      },
+      {
+        "name": "mana_drain",
+        "interval": 8000,
+        "chance": 40,
+        "min": 40,
+        "max": 120,
+        "type": "area",
+        "particle": 11,
+        "radius": 6
+      },
+      {
+        "name": "life_drain",
+        "interval": 8000,
+        "chance": 60,
+        "min": 300,
+        "max": 500,
+        "type": "area",
+        "particle": 12,
+        "radius": 6
+      }
+    ],
+    "elements": [
+      { "name": "ice", "value": 112 },
+      { "name": "holy", "value": 112 },
+      { "name": "energy", "value": 50 },
+      { "name": "death", "value": 80 },
+      { "name": "earth", "value": 60 },
+      { "name": "physical", "value": 75 }
+    ],
+    "immunities": [{ "name": "fire", "value": 1 }]
+  },
+  {
+    "id": "demon_skeleton",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 45,
+    "maxHealth": 400,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 16,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "experience": 240,
+    "defense": 25,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 75 },
+      { "item": "bone_armor", "chance": 1000 },
+      { "item": "bone_shield", "chance": 1000 },
+      { "item": "human_bone", "chance": 1000 },
+      { "item": "human_skull", "chance": 5000 },
+      { "item": "steel_boots", "chance": 1000 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.9,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 0, "max": 185 },
+      {
+        "attack": "physical",
+        "interval": 8000,
+        "chance": 70,
+        "min": 100,
+        "max": 180,
+        "type": "area",
+        "particle": 10,
+        "radius": 3,
+        "target": 1,
+        "range": 8
+      }
+    ],
+    "elements": [{ "name": "holy", "value": 125 }],
+    "immunities": [
+      { "name": "death", "value": 1 },
+      { "name": "earth", "value": 1 },
+      { "name": "fire", "value": 1 }
+    ]
+  },
+  {
+    "id": "desert_scorpion",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 50,
+    "maxHealth": 350,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 260,
+    "defense": 15,
+    "drops": [
+      { "item": "gold", "chance": 10000, "min": 80, "max": 120 },
+      { "item": "earth_crystal", "chance": 3000 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.8,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 45, "max": 130 }]
+  },
+  {
+    "id": "desert_snake",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 50,
+    "maxHealth": 600,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 450,
+    "defense": 27,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 150 },
+      { "item": "halberd", "chance": 600 },
+      { "item": "earth_crystal", "chance": 1000 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.8,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 0, "max": 160 },
+      {
+        "attack": "earth",
+        "interval": 8000,
+        "chance": 10,
+        "min": 100,
+        "max": 210,
+        "type": "area",
+        "particle": 13,
+        "length": 8,
+        "spread": 3,
+        "range": 7
+      }
+    ],
+    "elements": [
+      { "name": "physical", "value": 105 },
+      { "name": "energy", "value": 110 },
+      { "name": "holy", "value": 70 },
+      { "name": "ice", "value": 50 }
+    ],
+    "immunities": [{ "name": "earth", "value": 1 }]
+  },
+  {
+    "id": "dragon",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 35,
+    "maxHealth": 1000,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 36,
+    "drawOrderOffsetY": 20,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 700,
+    "defense": 25,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 100 },
+      { "item": "thigh", "chance": 60000, "max": 4 },
+      { "item": "health_potion", "chance": 50000, "max": 2 },
+      { "item": "dragon_helmet", "chance": 50 },
+      { "item": "hylian_broadsword", "chance": 200 },
+      { "item": "dragon_shield", "chance": 400 },
+      { "item": "dragon_armor", "chance": 80 },
+      { "item": "dragon_legs", "chance": 80 },
+      { "item": "dragon_scale_boots", "chance": 80 },
+      { "item": "dragon_wand", "chance": 500 },
+      { "item": "dragon_key", "chance": 2 },
+      { "item": "dragon_ring", "chance": 30 },
+      { "item": "dragon_necklace", "chance": 30 },
+      { "item": "dragon_horn", "chance": 2000 },
+      { "item": "dragon_scale", "chance": 2000 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.7,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 0, "max": 130 },
+      {
+        "attack": "fire",
+        "interval": 6000,
+        "chance": 30,
+        "min": 100,
+        "max": 170,
+        "type": "area",
+        "particle": 3,
+        "length": 8,
+        "spread": 3,
+        "range": 7
+      },
+      {
+        "attack": "fire",
+        "interval": 6000,
+        "chance": 30,
+        "min": 60,
+        "max": 110,
+        "type": "area",
+        "particle": 3,
+        "radius": 4,
+        "target": 1,
+        "range": 7
+      }
+    ],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 10000,
+        "chance": 30,
+        "min": 38,
+        "max": 72
+      }
+    ],
+    "elements": [
+      { "name": "ice", "value": 110 },
+      { "name": "earth", "value": 20 },
+      { "name": "energy", "value": 80 }
+    ],
+    "immunities": [{ "name": "fire", "value": 1 }]
+  },
+  {
+    "id": "dragonLord",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 40,
+    "maxHealth": 1900,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 36,
+    "drawOrderOffsetY": 20,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 2100,
+    "defense": 34,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 250 },
+      { "item": "thigh", "chance": 60000, "max": 4 },
+      { "item": "strong_health_potion", "chance": 50000, "max": 2 },
+      { "item": "hylian_broadsword", "chance": 1000 },
+      { "item": "dragon_wand", "chance": 1000 },
+      { "item": "dragon_slayer_armor", "chance": 30 },
+      { "item": "dragon_slayer_legs", "chance": 25 },
+      { "item": "dragon_slayer_boots", "chance": 25 },
+      { "item": "dragon_slayer_helmet", "chance": 150 },
+      { "item": "dragon_slayer_shield", "chance": 20 },
+      { "item": "dragon_slayer_bow", "chance": 20 },
+      { "item": "dragon_slayer_crossbow", "chance": 20 },
+      { "item": "dragon_slayer_sword", "chance": 20 },
+      { "item": "dragon_horn", "chance": 2000 },
+      { "item": "earth_crystal", "chance": 2000 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.7,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 0, "max": 200 },
+      {
+        "attack": "fire",
+        "interval": 6000,
+        "chance": 50,
+        "min": 150,
+        "max": 280,
+        "type": "area",
+        "particle": 3,
+        "length": 8,
+        "spread": 3,
+        "range": 7
+      },
+      {
+        "attack": "fire",
+        "interval": 6000,
+        "chance": 60,
+        "min": 100,
+        "max": 180,
+        "type": "area",
+        "particle": 3,
+        "radius": 4,
+        "target": 1,
+        "range": 7
+      },
+      {
+        "attack": "fire",
+        "interval": 6000,
+        "chance": 80,
+        "min": 100,
+        "max": 180,
+        "type": "area",
+        "particle": 3,
+        "radius": 2,
+        "target": 1,
+        "range": 7,
+        "field": 1
+      }
+    ],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 10000,
+        "chance": 100,
+        "min": 67,
+        "max": 180
+      }
+    ],
+    "elements": [
+      { "name": "ice", "value": 110 },
+      { "name": "energy", "value": 80 },
+      { "name": "earth", "value": 20 }
+    ],
+    "immunities": [{ "name": "fire", "value": 1 }]
+  },
+  {
+    "id": "drill_machine",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 25,
+    "maxHealth": 700,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 16,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 380,
+    "defense": 20,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 80, "max": 160 },
+      { "item": "earth_crystal", "chance": 2000 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.7,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 180 }],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 10000,
+        "chance": 20,
+        "min": 5,
+        "max": 20
+      }
+    ],
+    "elements": [
+      { "name": "ice", "value": 80 },
+      { "name": "energy", "value": 110 },
+      { "name": "fire", "value": 110 },
+      { "name": "death", "value": 110 }
+    ]
+  },
+  {
+    "id": "dwarf",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 50,
+    "maxHealth": 90,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 32,
+    "drawOrderOffsetY": 32,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 45,
+    "defense": 8,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 10, "max": 30 },
+      { "item": "axe", "chance": 1000 },
+      { "item": "dwarf_shield", "chance": 300 },
+      { "item": "zillii_fish", "chance": 70000, "min": 1, "max": 2 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.6,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 25 }]
+  },
+  {
+    "id": "dwarf_armored",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 50,
+    "maxHealth": 245,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 32,
+    "drawOrderOffsetY": 32,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 165,
+    "defense": 15,
+    "drops": [
+      { "item": "gold", "chance": 65000, "min": 0, "max": 35 },
+      { "item": "broadsword", "chance": 500 },
+      { "item": "steel_armor", "chance": 300 },
+      { "item": "steel_helmet", "chance": 300 },
+      { "item": "steel_boots", "chance": 300 },
+      { "item": "dwarf_shield", "chance": 350 },
+      { "item": "silver_necklace", "chance": 30 },
+      { "item": "double_axe", "chance": 200 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.4,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 135 }],
+    "elements": [
+      { "name": "physical", "value": 80 },
+      { "name": "earth", "value": 80 },
+      { "name": "fire", "value": 105 },
+      { "name": "death", "value": 105 }
+    ]
+  },
+  {
+    "id": "earth_snake",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 55,
+    "maxHealth": 1100,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 26,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 800,
+    "defense": 27,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 150 },
+      { "item": "halberd", "chance": 500 },
+      { "item": "tearing_fang", "chance": 500 },
+      { "item": "earth_crystal", "chance": 1000 },
+      { "item": "black_stone_amulet", "chance": 300 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.8,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 0, "max": 190 },
+      {
+        "attack": "earth",
+        "interval": 8000,
+        "chance": 10,
+        "min": 100,
+        "max": 300,
+        "type": "area",
+        "particle": 13,
+        "length": 8,
+        "spread": 3,
+        "range": 7
+      }
+    ],
+    "elements": [
+      { "name": "physical", "value": 105 },
+      { "name": "energy", "value": 110 },
+      { "name": "holy", "value": 70 },
+      { "name": "ice", "value": 50 }
+    ],
+    "immunities": [{ "name": "earth", "value": 1 }]
+  },
+  {
+    "id": "energy_wizard",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 35,
+    "maxHealth": 1750,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 26,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 2000,
+    "defense": 33,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 120 },
+      { "item": "mana_potion", "chance": 5500, "max": 3 },
+      { "item": "health_potion", "chance": 5500, "max": 3 },
+      { "item": "blue_robe", "chance": 50 },
+      { "item": "centered_cape", "chance": 150 },
+      { "item": "centered_hat", "chance": 100 },
+      { "item": "earth_crystal", "chance": 10000 },
+      { "item": "black_stone_amulet", "chance": 100 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.8,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 0, "max": 130 },
+      {
+        "attack": "energy",
+        "interval": 2000,
+        "chance": 100,
+        "range": 6,
+        "min": 90,
+        "max": 180,
+        "type": "shoot",
+        "anim": "energy-ball",
+        "particle": 12
+      },
+      {
+        "attack": "energy",
+        "interval": 6000,
+        "chance": 30,
+        "min": 150,
+        "max": 230,
+        "type": "area",
+        "particle": 12,
+        "length": 10,
+        "spread": 20,
+        "range": 12
+      }
+    ],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 8000,
+        "chance": 30,
+        "min": 50,
+        "max": 150
+      },
+      {
+        "name": "mana_drain",
+        "interval": 8000,
+        "chance": 30,
+        "min": 0,
+        "max": 100,
+        "type": "area",
+        "particle": 11,
+        "radius": 6
+      }
+    ],
+    "elements": [
+      { "name": "physical", "value": 105 },
+      { "name": "fire", "value": 50 },
+      { "name": "earth", "value": 115 },
+      { "name": "holy", "value": 70 }
+    ],
+    "immunities": [{ "name": "energy", "value": 1 }]
+  },
+  {
+    "id": "esganed_demon",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 90,
+    "maxHealth": 8200,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 48,
+    "imgHeight": 48,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 50,
+    "drawOrderOffsetY": 32,
+    "offsetX": -16,
+    "offsetY": 0,
+    "experience": 6000,
+    "defense": 44,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 350, "max": 550 },
+      { "item": "thigh", "chance": 60000, "max": 4 },
+      { "item": "demon_legs", "chance": 300 },
+      { "item": "thunder_wand", "chance": 200 },
+      { "item": "necro_rod", "chance": 200 },
+      { "item": "earth_crystal", "chance": 1000 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.4,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0.6,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 0, "max": 950 },
+      {
+        "attack": "energy",
+        "interval": 7000,
+        "chance": 30,
+        "min": 900,
+        "max": 1400,
+        "type": "area",
+        "particle": 12,
+        "length": 10,
+        "spread": 20,
+        "range": 12
+      },
+      {
+        "attack": "fire",
+        "interval": 7000,
+        "chance": 30,
+        "min": 350,
+        "max": 800,
+        "type": "area",
+        "particle": 3,
+        "radius": 6,
+        "target": 1,
+        "range": 12
+      }
+    ],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 15000,
+        "chance": 30,
+        "min": 220,
+        "max": 350
+      },
+      {
+        "name": "mana_drain",
+        "interval": 15000,
+        "chance": 30,
+        "min": 600,
+        "max": 1200,
+        "type": "area",
+        "particle": 11,
+        "radius": 6
+      },
+      {
+        "name": "life_drain",
+        "interval": 15000,
+        "chance": 50,
+        "min": 300,
+        "max": 1100,
+        "type": "area",
+        "particle": 12,
+        "radius": 6
+      }
+    ],
+    "elements": [
+      { "name": "ice", "value": 125 },
+      { "name": "energy", "value": 70 },
+      { "name": "holy", "value": 125 }
+    ],
+    "immunities": [{ "name": "fire", "value": 1 }]
+  },
+  {
+    "id": "fire_master",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 70,
+    "maxHealth": 25000,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 32,
+    "drawOrderOffsetY": 0,
+    "intervalResp": 600,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 12000,
+    "defense": 30,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 900, "max": 1100 },
+      { "item": "thigh", "chance": 60000, "max": 4 },
+      { "item": "demon_armor", "chance": 500 },
+      { "item": "thunder_wand", "chance": 1000 },
+      { "item": "necro_rod", "chance": 1000 },
+      { "item": "strong_health_potion", "chance": 2000, "max": 5 },
+      { "item": "thick_flame_necklace", "chance": 500 },
+      { "item": "royal_axe", "chance": 500 },
+      { "item": "black_stone_amulet", "chance": 1000 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      { "id": "walk", "totalRuntime": 0.4, "numberOfDirections": 4 },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      {
+        "attack": "fire",
+        "interval": 2000,
+        "chance": 100,
+        "range": 7,
+        "min": 280,
+        "max": 550,
+        "type": "shoot",
+        "anim": "fire-ball",
+        "particle": 3
+      },
+      {
+        "attack": "fire",
+        "interval": 5000,
+        "chance": 30,
+        "min": 650,
+        "max": 900,
+        "type": "area",
+        "particle": 3,
+        "radius": 6,
+        "target": 0,
+        "range": 12
+      },
+      {
+        "attack": "fire",
+        "interval": 5000,
+        "chance": 30,
+        "min": 450,
+        "max": 700,
+        "type": "area",
+        "particle": 3,
+        "radius": 3,
+        "target": 1,
+        "range": 12
+      }
+    ],
+    "elements": [
+      { "name": "earth", "value": 70 },
+      { "name": "ice", "value": 125 }
+    ],
+    "immunities": [{ "name": "fire", "value": 1 }]
+  },
+  {
+    "id": "frost_baby_dragon",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 35,
+    "maxHealth": 800,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 36,
+    "drawOrderOffsetY": 20,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 745,
+    "defense": 32,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 55 },
+      { "item": "thigh", "chance": 60000, "max": 4 },
+      { "item": "mana_potion", "chance": 2000, "max": 3 },
+      { "item": "health_potion", "chance": 2000, "max": 3 },
+      { "item": "dragon_ring", "chance": 30 },
+      { "item": "dragon_necklace", "chance": 30 },
+      { "item": "dragon_horn", "chance": 1000 },
+      { "item": "dragon_scale", "chance": 1000 },
+      { "item": "dragon_key", "chance": 10 },
+      { "item": "double_axe", "chance": 100 },
+      { "item": "royal_helmet", "chance": 100 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.7,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      {
+        "attack": "ice",
+        "interval": 2000,
+        "chance": 100,
+        "range": 7,
+        "min": 0,
+        "max": 160,
+        "type": "shoot",
+        "anim": "ice-ball",
+        "particle": 2
+      },
+      {
+        "attack": "ice",
+        "interval": 8000,
+        "chance": 30,
+        "min": 60,
+        "max": 110,
+        "type": "area",
+        "particle": 34,
+        "length": 8,
+        "spread": 3,
+        "range": 10
+      },
+      {
+        "attack": "ice",
+        "interval": 8000,
+        "chance": 30,
+        "min": 60,
+        "max": 110,
+        "type": "area",
+        "particle": 34,
+        "radius": 3,
+        "target": 1,
+        "range": 10
+      }
+    ],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 10000,
+        "chance": 30,
+        "min": 50,
+        "max": 100
+      }
+    ],
+    "elements": [{ "name": "energy", "value": 105 }],
+    "immunities": [
+      { "name": "ice", "value": 1 },
+      { "name": "earth", "value": 1 }
+    ]
+  },
+  {
+    "id": "frost_demon",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 80,
+    "maxHealth": 8200,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 48,
+    "imgHeight": 48,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 50,
+    "drawOrderOffsetY": 32,
+    "offsetX": -16,
+    "offsetY": 0,
+    "experience": 6000,
+    "defense": 30,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 600 },
+      { "item": "thigh", "chance": 60000, "max": 4 },
+      { "item": "crystalline_axe", "chance": 75 },
+      { "item": "earth_crystal", "chance": 2000 },
+      { "item": "strong_health_potion", "chance": 2000, "max": 5 },
+      { "item": "hylian_broadsword", "chance": 1000 },
+      { "item": "blue_robe", "chance": 100 },
+      { "item": "repressive_mask", "chance": 80 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.4,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 0, "max": 500 },
+      {
+        "attack": "ice",
+        "interval": 7000,
+        "chance": 30,
+        "min": 150,
+        "max": 500,
+        "type": "area",
+        "particle": 34,
+        "length": 10,
+        "spread": 20,
+        "range": 12
+      },
+      {
+        "attack": "ice",
+        "interval": 7000,
+        "chance": 50,
+        "min": 150,
+        "max": 280,
+        "type": "area",
+        "particle": 35,
+        "radius": 6,
+        "range": 8
+      }
+    ],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 15000,
+        "chance": 30,
+        "min": 220,
+        "max": 300
+      },
+      {
+        "name": "mana_drain",
+        "interval": 15000,
+        "chance": 30,
+        "min": 90,
+        "max": 160,
+        "type": "area",
+        "particle": 11,
+        "radius": 6
+      },
+      {
+        "name": "life_drain",
+        "interval": 15000,
+        "chance": 50,
+        "min": 100,
+        "max": 200,
+        "type": "area",
+        "particle": 12,
+        "radius": 6
+      }
+    ],
+    "elements": [
+      { "name": "holy", "value": 115 },
+      { "name": "energy", "value": 115 },
+      { "name": "fire", "value": 125 },
+      { "name": "earth", "value": 75 },
+      { "name": "death", "value": 75 }
+    ],
+    "immunities": [{ "name": "ice", "value": 1 }]
+  },
+  {
+    "id": "frost_dragon",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 45,
+    "maxHealth": 1800,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 25,
+    "drawOrderOffsetY": 20,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 2100,
+    "defense": 38,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 350 },
+      { "item": "thigh", "chance": 60000, "max": 4 },
+      { "item": "crystalline_sword", "chance": 10 },
+      { "item": "strong_mana_potion", "chance": 1500, "max": 3 },
+      { "item": "strong_health_potion", "chance": 1500, "max": 3 },
+      { "item": "earth_crystal", "chance": 1000 },
+      { "item": "royal_helmet", "chance": 800 },
+      { "item": "steel_armor", "chance": 800 },
+      { "item": "steel_shield", "chance": 800 },
+      { "item": "frost_rod", "chance": 200 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.7,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 0, "max": 250 },
+      {
+        "attack": "ice",
+        "interval": 6000,
+        "chance": 30,
+        "min": 100,
+        "max": 240,
+        "type": "area",
+        "particle": 34,
+        "length": 8,
+        "spread": 3,
+        "range": 10
+      },
+      {
+        "attack": "ice",
+        "interval": 6000,
+        "chance": 30,
+        "min": 100,
+        "max": 240,
+        "type": "area",
+        "particle": 34,
+        "radius": 3,
+        "target": 1,
+        "range": 10
+      }
+    ],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 10000,
+        "chance": 30,
+        "min": 100,
+        "max": 200
+      },
+      {
+        "name": "life_drain",
+        "interval": 15000,
+        "chance": 50,
+        "min": 0,
+        "max": 380,
+        "type": "area",
+        "particle": 12,
+        "radius": 6
+      }
+    ],
+    "elements": [{ "name": "death", "value": 90 }],
+    "immunities": [
+      { "name": "ice", "value": 1 },
+      { "name": "earth", "value": 1 }
+    ]
+  },
+  {
+    "id": "frost_soul",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 35,
+    "maxHealth": 320,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 32,
+    "drawOrderOffsetY": 32,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 210,
+    "defense": 30,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 90 },
+      { "item": "earth_crystal", "chance": 3000 },
+      { "item": "soul_essence", "chance": 500 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.7,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0.9,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 450 }],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 10000,
+        "chance": 10,
+        "min": 30,
+        "max": 60
+      }
+    ],
+    "elements": [
+      { "name": "energy", "value": 115 },
+      { "name": "fire", "value": 110 }
+    ],
+    "immunities": [{ "name": "ice", "value": 1 }]
+  },
+  {
+    "id": "ghost",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 30,
+    "maxHealth": 150,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 120,
+    "defense": 10,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 5, "max": 25 },
+      { "item": "soul_wand", "chance": 100 },
+      { "item": "soul_rod", "chance": 100 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.8,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 80 }],
+    "defenses": [
+      {
+        "name": "life_drain",
+        "interval": 6000,
+        "chance": 50,
+        "min": 20,
+        "max": 45,
+        "type": "area",
+        "particle": 12,
+        "radius": 4
+      }
+    ],
+    "immunities": [
+      { "name": "physical", "value": 1 },
+      { "name": "earth", "value": 1 },
+      { "name": "death", "value": 1 }
+    ]
+  },
+  {
+    "id": "ghost_skull",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 15,
+    "maxHealth": 220,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 16,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "experience": 180,
+    "defense": 20,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 80 },
+      { "item": "mana_potion", "chance": 10000, "min": 1, "max": 5 },
+      { "item": "soul_essence", "chance": 500 },
+      { "item": "possessed_crystal", "chance": 500 },
+      { "item": "soul_book", "chance": 200 },
+      { "item": "noble_magic_wand", "chance": 100 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.8,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0.8,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 85 }]
+  },
+  {
+    "id": "glacier_warrior",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 55,
+    "maxHealth": 990,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 32,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 650,
+    "defense": 40,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 130 },
+      {
+        "item": "crystalline_prime_bolt",
+        "chance": 20000,
+        "min": 5,
+        "max": 10
+      },
+      { "item": "broadsword", "chance": 800 },
+      { "item": "steel_armor", "chance": 500 },
+      { "item": "steel_helmet", "chance": 500 },
+      { "item": "steel_shield", "chance": 800 },
+      { "item": "royal_boots", "chance": 300 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.4,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 0, "max": 180 },
+      {
+        "attack": "physical",
+        "interval": 6000,
+        "chance": 50,
+        "min": 0,
+        "max": 220,
+        "type": "area",
+        "particle": 10,
+        "radius": 3,
+        "target": 0
+      }
+    ],
+    "elements": [
+      { "name": "energy", "value": 115 },
+      { "name": "fire", "value": 110 },
+      { "name": "earth", "value": 50 },
+      { "name": "death", "value": 75 }
+    ],
+    "immunities": [{ "name": "ice", "value": 1 }]
+  },
+  {
+    "id": "goblin",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 30,
+    "maxHealth": 110,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 16,
+    "imgHeight": 20,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "experience": 60,
+    "defense": 11,
+    "drops": [
+      { "item": "basic_helmo", "chance": 5000 },
+      { "item": "basic_shield", "chance": 5000 },
+      { "item": "pants_basic", "chance": 5000 },
+      { "item": "boots_basic", "chance": 5000 },
+      { "item": "shirt_basic", "chance": 5000 },
+      { "item": "basic_crossbow", "chance": 200 },
+      { "item": "gold", "chance": 70000, "min": 5, "max": 25 },
+      { "item": "fish", "chance": 60000, "max": 1 },
+      { "item": "shovel", "chance": 500 },
+      { "item": "rope", "chance": 300 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.6,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 15, "max": 20 }]
+  },
+  {
+    "id": "goblin_archer",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 30,
+    "maxHealth": 140,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 16,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 32,
+    "offsetX": 0,
+    "offsetY": 0,
+    "experience": 70,
+    "defense": 12,
+    "drops": [
+      { "item": "basic_bow", "chance": 20000 },
+      { "item": "gold", "chance": 80000, "min": 10, "max": 30 },
+      { "item": "linen_boots", "chance": 300 },
+      { "item": "linen_armor", "chance": 300 },
+      { "item": "linen_hat", "chance": 300 },
+      { "item": "linen_bow", "chance": 300 },
+      { "item": "linen_legs", "chance": 300 },
+      { "item": "basic_arrow", "chance": 20000, "min": 1, "max": 10 },
+      { "item": "basic_crossbow", "chance": 1000 },
+      { "item": "basic_quiver", "chance": 200 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.6,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      {
+        "attack": "physical",
+        "interval": 2000,
+        "chance": 100,
+        "range": 8,
+        "min": 20,
+        "max": 35,
+        "type": "shoot",
+        "anim": "basic-arrow",
+        "particle": 10
+      }
+    ]
+  },
+  {
+    "id": "goblin_guard",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 50,
+    "maxHealth": 210,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 16,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 32,
+    "offsetX": 0,
+    "offsetY": 0,
+    "experience": 195,
+    "defense": 12,
+    "drops": [
+      { "item": "gold", "chance": 65000, "min": 10, "max": 35 },
+      { "item": "broadsword", "chance": 1000 },
+      { "item": "steel_armor", "chance": 1000 },
+      { "item": "steel_helmet", "chance": 1000 },
+      { "item": "steel_shield", "chance": 1000 },
+      { "item": "goblin_key", "chance": 20 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.4,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 200 }]
+  },
+  {
+    "id": "hideosface",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 100,
+    "maxHealth": 6200,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 40,
+    "drawOrderOffsetY": 32,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 4000,
+    "defense": 40,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 600 },
+      { "item": "thigh", "chance": 60000, "max": 4 },
+      { "item": "demon_shield", "chance": 100 },
+      { "item": "demon_boots", "chance": 50 },
+      { "item": "thunder_wand", "chance": 200 },
+      { "item": "necro_rod", "chance": 200 },
+      { "item": "earth_crystal", "chance": 2000 },
+      { "item": "royal_axe", "chance": 100 },
+      { "item": "black_stone_amulet", "chance": 300 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.4,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0.8,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 0, "max": 450 },
+      {
+        "attack": "energy",
+        "interval": 6000,
+        "chance": 50,
+        "min": 300,
+        "max": 450,
+        "type": "area",
+        "particle": 12,
+        "length": 10,
+        "spread": 20,
+        "range": 12
+      },
+      {
+        "attack": "fire",
+        "interval": 6000,
+        "chance": 80,
+        "min": 250,
+        "max": 350,
+        "type": "area",
+        "particle": 3,
+        "radius": 6,
+        "target": 1,
+        "range": 12
+      }
+    ],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 12000,
+        "chance": 30,
+        "min": 180,
+        "max": 280
+      },
+      {
+        "name": "mana_drain",
+        "interval": 12000,
+        "chance": 100,
+        "min": 200,
+        "max": 300,
+        "type": "area",
+        "particle": 11,
+        "radius": 6
+      }
+    ],
+    "elements": [
+      { "name": "ice", "value": 115 },
+      { "name": "holy", "value": 125 },
+      { "name": "energy", "value": 70 },
+      { "name": "earth", "value": 75 },
+      { "name": "death", "value": 75 }
+    ],
+    "immunities": [{ "name": "fire", "value": 1 }]
+  },
+  {
+    "id": "hydra",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 35,
+    "maxHealth": 2350,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 36,
+    "drawOrderOffsetY": 20,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 2100,
+    "defense": 27,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 250 },
+      { "item": "thigh", "chance": 60000, "max": 4 },
+      { "item": "strong_mana_potion", "chance": 1500, "max": 3 },
+      { "item": "strong_health_potion", "chance": 1500, "max": 3 },
+      { "item": "royal_helmet", "chance": 1000 },
+      { "item": "dragon_scale_shield", "chance": 200 },
+      { "item": "black_stone_amulet", "chance": 100 },
+      { "item": "halberd", "chance": 200 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      { "id": "walk", "totalRuntime": 0.7, "numberOfDirections": 4 },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 0, "max": 250 },
+      {
+        "attack": "earth",
+        "interval": 8000,
+        "chance": 30,
+        "min": 70,
+        "max": 290,
+        "type": "area",
+        "particle": 13,
+        "length": 8,
+        "spread": 3,
+        "range": 10
+      },
+      {
+        "attack": "earth",
+        "interval": 8000,
+        "chance": 40,
+        "min": 130,
+        "max": 250,
+        "type": "area",
+        "particle": 28,
+        "radius": 4,
+        "range": 10
+      },
+      {
+        "attack": "ice",
+        "interval": 8000,
+        "chance": 50,
+        "min": 135,
+        "max": 250,
+        "type": "area",
+        "particle": 31,
+        "radius": 4,
+        "range": 10
+      }
+    ],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 10000,
+        "chance": 30,
+        "min": 100,
+        "max": 450
+      }
+    ],
+    "elements": [
+      { "name": "physical", "value": 105 },
+      { "name": "energy", "value": 110 },
+      { "name": "holy", "value": 70 },
+      { "name": "ice", "value": 50 }
+    ],
+    "immunities": [{ "name": "earth", "value": 1 }]
+  },
+  {
+    "id": "ice_cube",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 30,
+    "maxHealth": 210,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 16,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 140,
+    "defense": 15,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 65 },
+      { "item": "earth_crystal", "chance": 1000 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.7,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0.9,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 25, "max": 70 }],
+    "elements": [
+      { "name": "earth", "value": 60 },
+      { "name": "energy", "value": 115 },
+      { "name": "fire", "value": 115 }
+    ],
+    "immunities": [{ "name": "ice", "value": 1 }]
+  },
+  {
+    "id": "ice_master",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 70,
+    "maxHealth": 25000,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 32,
+    "drawOrderOffsetY": 0,
+    "intervalResp": 600,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 12000,
+    "defense": 30,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 900, "max": 1100 },
+      { "item": "thigh", "chance": 60000, "max": 4 },
+      { "item": "crystalline_axe", "chance": 500 },
+      { "item": "crystalline_book", "chance": 500 },
+      { "item": "strong_health_potion", "chance": 5000, "max": 5 },
+      { "item": "thick_ice_stone_necklace", "chance": 500 },
+      { "item": "black_stone_amulet", "chance": 1000 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      { "id": "walk", "totalRuntime": 0.4, "numberOfDirections": 4 },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      {
+        "attack": "ice",
+        "interval": 2000,
+        "chance": 100,
+        "range": 7,
+        "min": 280,
+        "max": 550,
+        "type": "shoot",
+        "anim": "ice-ball",
+        "particle": 2
+      },
+      {
+        "attack": "ice",
+        "interval": 5000,
+        "chance": 30,
+        "min": 650,
+        "max": 900,
+        "type": "area",
+        "particle": 35,
+        "radius": 6,
+        "range": 8
+      },
+      {
+        "attack": "ice",
+        "interval": 5000,
+        "chance": 30,
+        "min": 450,
+        "max": 700,
+        "type": "area",
+        "particle": 35,
+        "radius": 3,
+        "range": 12,
+        "target": 1
+      }
+    ],
+    "elements": [
+      { "name": "fire", "value": 110 },
+      { "name": "energy", "value": 120 },
+      { "name": "earth", "value": 70 }
+    ],
+    "immunities": [{ "name": "ice", "value": 1 }]
+  },
+  {
+    "id": "ice_mutated_rat",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 30,
+    "maxHealth": 550,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 450,
+    "defense": 35,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 120 },
+      { "item": "frost_rod", "chance": 100 },
+      { "item": "earth_crystal", "chance": 1000 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.6,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 40, "max": 70 }],
+    "elements": [{ "name": "death", "value": 90 }],
+    "immunities": [
+      { "name": "ice", "value": 1 },
+      { "name": "earth", "value": 1 }
+    ]
+  },
+  {
+    "id": "ice_skeleton",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 35,
+    "maxHealth": 180,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 16,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "experience": 125,
+    "defense": 20,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 10, "max": 30 },
+      { "item": "axe", "chance": 1000 },
+      { "item": "bone_armor", "chance": 500 },
+      { "item": "bone_shield", "chance": 500 },
+      { "item": "human_bone", "chance": 1000 },
+      { "item": "human_skull", "chance": 5000 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.9,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 35 }]
+  },
+  {
+    "id": "ice_spider",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 50,
+    "maxHealth": 1250,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 48,
+    "imgHeight": 48,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": -16,
+    "offsetY": -16,
+    "experience": 900,
+    "defense": 43,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 195 },
+      { "item": "steel_armor", "chance": 1000 },
+      { "item": "steel_helmet", "chance": 1000 },
+      { "item": "royal_helmet", "chance": 1000 },
+      { "item": "steel_shield", "chance": 1000 },
+      { "item": "earth_crystal", "chance": 4000 },
+      { "item": "steel_bow", "chance": 200 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.8,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 120, "max": 250 },
+      {
+        "attack": "ice",
+        "interval": 2000,
+        "chance": 100,
+        "range": 7,
+        "min": 40,
+        "max": 70,
+        "type": "shoot",
+        "anim": "ice-ball",
+        "particle": 31
+      }
+    ],
+    "elements": [
+      { "name": "earth", "value": 80 },
+      { "name": "energy", "value": 80 },
+      { "name": "fire", "value": 115 }
+    ],
+    "immunities": [{ "name": "ice", "value": 1 }]
+  },
+  {
+    "id": "ice_stone_golen",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 35,
+    "maxHealth": 270,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 32,
+    "drawOrderOffsetY": 32,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 160,
+    "defense": 30,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 10, "max": 50 },
+      { "item": "earth_crystal", "chance": 3000 },
+      { "item": "ice_stone_necklace", "chance": 30 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.7,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0.9,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 110 }],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 10000,
+        "chance": 10,
+        "min": 30,
+        "max": 60
+      }
+    ],
+    "elements": [
+      { "name": "energy", "value": 110 },
+      { "name": "fire", "value": 110 },
+      { "name": "earth", "value": 70 },
+      { "name": "death", "value": 80 }
+    ],
+    "immunities": [{ "name": "ice", "value": 1 }]
+  },
+  {
+    "id": "king_slime",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 60,
+    "maxHealth": 6500,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 32,
+    "drawOrderOffsetY": 32,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 1300,
+    "intervalResp": 600,
+    "defense": 40,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 100, "max": 500 },
+      { "item": "earth_crystal", "chance": 10000 },
+      { "item": "halberd", "chance": 1000 },
+      { "item": "bagpack", "chance": 200 },
+      { "item": "thick_ice_stone_necklace", "chance": 200 },
+      { "item": "ring_of_nature", "chance": 200 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      { "id": "walk", "totalRuntime": 0.8, "numberOfDirections": 4 },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 1,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 0, "max": 350 },
+      {
+        "attack": "earth",
+        "interval": 6000,
+        "chance": 100,
+        "min": 150,
+        "max": 300,
+        "type": "area",
+        "particle": 28,
+        "radius": 8,
+        "range": 10
+      }
+    ],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 10000,
+        "chance": 10,
+        "min": 200,
+        "max": 250
+      }
+    ],
+    "elements": [
+      { "name": "earth", "value": 20 },
+      { "name": "energy", "value": 20 },
+      { "name": "physical", "value": 110 }
+    ]
+  },
+  {
+    "id": "minotaur",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 40,
+    "maxHealth": 100,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 16,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 32,
+    "drawOrderOffsetY": 0,
+    "offsetX": 0,
+    "offsetY": 0,
+    "experience": 50,
+    "defense": 11,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 25 },
+      { "item": "axe", "chance": 1000 },
+      { "item": "wooden_sword", "chance": 1000 },
+      { "item": "minotaur_armor", "chance": 1000 },
+      { "item": "minotaur_legs", "chance": 1000 },
+      { "item": "minotaur_boots", "chance": 1000 },
+      { "item": "minotaur_paw", "chance": 500, "max": 1 },
+      { "item": "minotaur_horn", "chance": 500, "max": 1 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.6,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 20 }],
+    "elements": [
+      { "name": "fire", "value": 80 },
+      { "name": "death", "value": 105 },
+      { "name": "ice", "value": 110 },
+      { "name": "holy", "value": 90 }
+    ]
+  },
+  {
+    "id": "minotaur_archer",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 30,
+    "maxHealth": 100,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 32,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 65,
+    "defense": 7,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 30 },
+      { "item": "basic_bow", "chance": 20000 },
+      { "item": "basic_crossbow", "chance": 1000 },
+      { "item": "basic_quiver", "chance": 200 },
+      { "item": "minotaur_paw", "chance": 500, "max": 1 },
+      { "item": "minotaur_horn", "chance": 500, "max": 1 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.6,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      {
+        "attack": "physical",
+        "interval": 2000,
+        "chance": 100,
+        "range": 8,
+        "min": 0,
+        "max": 80,
+        "type": "shoot",
+        "anim": "basic-arrow",
+        "particle": 10
+      }
+    ],
+    "elements": [
+      { "name": "fire", "value": 80 },
+      { "name": "death", "value": 105 },
+      { "name": "ice", "value": 110 },
+      { "name": "holy", "value": 90 }
+    ]
+  },
+  {
+    "id": "minotaur_mage",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 30,
+    "maxHealth": 155,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 16,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 32,
+    "drawOrderOffsetY": 0,
+    "offsetX": 0,
+    "offsetY": 0,
+    "experience": 150,
+    "defense": 18,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 35 },
+      { "item": "minotaur_mage_hat", "chance": 150 },
+      { "item": "minotaur_mage_legs", "chance": 200 },
+      { "item": "minotaur_mage_boots", "chance": 200 },
+      { "item": "minotaur_mage_robe", "chance": 200 },
+      { "item": "mino_key", "chance": 10 },
+      { "item": "minotaur_paw", "chance": 500, "max": 1 },
+      { "item": "minotaur_horn", "chance": 500, "max": 1 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.6,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      {
+        "attack": "energy",
+        "interval": 2000,
+        "chance": 100,
+        "range": 6,
+        "min": 0,
+        "max": 80,
+        "type": "shoot",
+        "anim": "energy-ball",
+        "particle": 12
+      }
+    ],
+    "elements": [
+      { "name": "earth", "value": 80 },
+      { "name": "death", "value": 105 },
+      { "name": "energy", "value": 80 },
+      { "name": "holy", "value": 90 },
+      { "name": "ice", "value": 110 }
+    ]
+  },
+  {
+    "id": "monk",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 45,
+    "maxHealth": 500,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 330,
+    "defense": 25,
+    "drops": [
+      { "item": "gold", "chance": 50000, "min": 0, "max": 70 },
+      { "item": "double_axe", "chance": 1000 },
+      { "item": "royal_helmet", "chance": 200 },
+      { "item": "royal_armor", "chance": 200 },
+      { "item": "royal_legs", "chance": 200 },
+      { "item": "royal_boots", "chance": 200 },
+      { "item": "royal_shield", "chance": 500 },
+      { "item": "earth_crystal", "chance": 2000 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.8,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 180 }],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 8000,
+        "chance": 50,
+        "min": 38,
+        "max": 72
+      }
+    ]
+  },
+  {
+    "id": "mutated_rat",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 30,
+    "maxHealth": 550,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 450,
+    "defense": 35,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 120 },
+      { "item": "necro_rod", "chance": 100 },
+      { "item": "earth_crystal", "chance": 1000 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.6,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 0, "max": 120 },
+      {
+        "attack": "earth",
+        "interval": 5000,
+        "chance": 30,
+        "min": 45,
+        "max": 70,
+        "type": "area",
+        "particle": 28,
+        "radius": 4,
+        "range": 10
+      }
+    ],
+    "elements": [
+      { "name": "fire", "value": 110 },
+      { "name": "holy", "value": 90 }
+    ],
+    "immunities": [
+      { "name": "earth", "value": 1 },
+      { "name": "death", "value": 1 }
+    ]
+  },
+  {
+    "id": "mutated_slime",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 25,
+    "maxHealth": 250,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 16,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 16,
+    "drawOrderOffsetY": 16,
+    "experience": 220,
+    "defense": 20,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 25, "max": 45 },
+      { "item": "earth_crystal", "chance": 3000 },
+      { "item": "slime_key", "chance": 10 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.7,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0.9,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 80, "max": 150 }],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 10000,
+        "chance": 10,
+        "min": 15,
+        "max": 25
+      }
+    ],
+    "elements": [
+      { "name": "ice", "value": 80 },
+      { "name": "energy", "value": 110 },
+      { "name": "fire", "value": 110 }
+    ],
+    "immunities": [{ "name": "earth", "value": 1 }]
+  },
+  {
+    "id": "night_mare",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 70,
+    "maxHealth": 120000,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 48,
+    "imgHeight": 48,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 50,
+    "drawOrderOffsetY": 32,
+    "offsetX": -16,
+    "offsetY": 0,
+    "experience": 16000,
+    "defense": 50,
+    "drops": [
+      { "item": "gold", "chance": 100000, "max": 10000 },
+      { "item": "gold", "chance": 100000, "max": 10000 },
+      { "item": "lightning_boots", "chance": 100000 },
+      { "item": "soul_essence", "chance": 50000 },
+      { "item": "corruption_boots", "chance": 5000 },
+      { "item": "corruption_axe", "chance": 3000 },
+      { "item": "corruption_sword", "chance": 2000 },
+      { "item": "corruption_shield", "chance": 2000 },
+      { "item": "corruption_book", "chance": 2000 },
+      { "item": "corruption_legs", "chance": 4000 },
+      { "item": "corruption_helmet", "chance": 5000 },
+      { "item": "corruption_ring", "chance": 3000 },
+      { "item": "corruption_necklace", "chance": 3000 },
+      { "item": "corruption_bow", "chance": 1000 },
+      { "item": "corruption_crossbow", "chance": 1000 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.4,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0.9,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 600, "max": 1600 },
+      {
+        "attack": "death",
+        "interval": 4000,
+        "chance": 50,
+        "min": 800,
+        "max": 1600,
+        "type": "area",
+        "particle": 5,
+        "length": 8,
+        "spread": 3,
+        "range": 10
+      },
+      {
+        "attack": "fire",
+        "interval": 4000,
+        "chance": 50,
+        "min": 550,
+        "max": 1200,
+        "type": "area",
+        "particle": 3,
+        "radius": 6,
+        "target": 0,
+        "range": 10
+      },
+      {
+        "attack": "fire",
+        "interval": 4000,
+        "chance": 30,
+        "min": 400,
+        "max": 900,
+        "type": "area",
+        "particle": 3,
+        "radius": 3,
+        "target": 1,
+        "range": 7,
+        "field": 1
+      }
+    ],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 10000,
+        "chance": 50,
+        "min": 1300,
+        "max": 2500
+      }
+    ],
+    "elements": [
+      { "name": "fire", "value": 30 },
+      { "name": "death", "value": 30 },
+      { "name": "holy", "value": 125 }
+    ]
+  },
+  {
+    "id": "night_mare_hand",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 40,
+    "maxHealth": 600,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 16,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 32,
+    "drawOrderOffsetY": 0,
+    "offsetX": 0,
+    "offsetY": 0,
+    "experience": 200,
+    "defense": 10,
+    "drops": [{ "item": "minotaur_mage_hat", "chance": 200 }],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.6,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0.9,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      {
+        "attack": "energy",
+        "interval": 3000,
+        "chance": 100,
+        "range": 8,
+        "min": 10,
+        "max": 120,
+        "type": "shoot",
+        "anim": "ice-ball",
+        "particle": 12
+      }
+    ],
+    "elements": [
+      { "name": "fire", "value": 30 },
+      { "name": "death", "value": 30 },
+      { "name": "holy", "value": 115 }
+    ]
+  },
+  {
+    "id": "orc",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 30,
+    "maxHealth": 70,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 34,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 25,
+    "defense": 4,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 5, "max": 25 },
+      { "item": "thigh", "chance": 70000, "min": 1, "max": 2 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.8,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 20, "max": 30 }]
+  },
+  {
+    "id": "orc_guard",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 60,
+    "maxHealth": 210,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 34,
+    "drawOrderOffsetY": 32,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 195,
+    "defense": 12,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 10, "max": 35 },
+      { "item": "broadsword", "chance": 2000 },
+      { "item": "steel_boots", "chance": 1000 },
+      { "item": "steel_legs", "chance": 1000 },
+      { "item": "goblin_key", "chance": 20 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.4,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 200 }]
+  },
+  {
+    "id": "orc_shaman",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 30,
+    "maxHealth": 115,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 34,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 110,
+    "defense": 8,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 5, "max": 30 },
+      { "item": "noble_magic_robe", "chance": 30 },
+      { "item": "steel_boots", "chance": 1000 },
+      { "item": "noble_magic_book", "chance": 30 },
+      { "item": "noble_magic_boots", "chance": 30 },
+      { "item": "noble_magic_hat", "chance": 30 },
+      { "item": "noble_magic_legs", "chance": 50 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.8,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      {
+        "attack": "energy",
+        "interval": 2000,
+        "chance": 100,
+        "range": 6,
+        "min": 10,
+        "max": 15,
+        "type": "shoot",
+        "anim": "energy-ball",
+        "particle": 12
+      },
+      {
+        "attack": "fire",
+        "interval": 5000,
+        "chance": 50,
+        "range": 6,
+        "min": 20,
+        "max": 31,
+        "type": "shoot",
+        "anim": "fire-ball",
+        "particle": 3
+      }
+    ]
+  },
+  {
+    "id": "rat",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 15,
+    "maxHealth": 15,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "experience": 10,
+    "defense": 1,
+    "drops": [{ "item": "gold", "chance": 100000, "min": 0, "max": 5 }],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.6,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 8 }]
+  },
+  {
+    "id": "rot_worm",
+    "hittable": true,
+    "maxDirections": 4,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 16,
+    "imgHeight": 20,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "experience": 40,
+    "speed": 17,
+    "maxHealth": 65,
+    "defense": 8,
+    "drops": [
+      { "item": "gold", "chance": 60000, "min": 0, "max": 20 },
+      { "item": "thigh", "chance": 60000, "max": 2 },
+      { "item": "worm_rest", "chance": 15000 },
+      { "item": "worm_tooth", "chance": 15000 },
+      { "item": "earth_crystal", "chance": 500 },
+      { "item": "earthworm", "chance": 30000, "min": 3, "max": 6 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.6,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0.9,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 40 }]
+  },
+  {
+    "id": "saberz",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 40,
+    "maxHealth": 2600,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 32,
+    "drawOrderOffsetY": 32,
+    "experience": 1900,
+    "offsetX": -8,
+    "offsetY": 0,
+    "defense": 20,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 300, "max": 600 },
+      { "item": "earth_crystal", "chance": 5000 },
+      { "item": "crystalline_shield", "chance": 80 },
+      { "item": "blue_robe", "chance": 100 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.7,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 0, "max": 600 },
+      {
+        "attack": "ice",
+        "interval": 5000,
+        "chance": 50,
+        "min": 350,
+        "max": 450,
+        "type": "area",
+        "particle": 34,
+        "length": 8,
+        "spread": 3,
+        "range": 7
+      }
+    ],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 8000,
+        "chance": 10,
+        "min": 100,
+        "max": 200
+      }
+    ],
+    "elements": [
+      { "name": "energy", "value": 125 },
+      { "name": "fire", "value": 125 }
+    ],
+    "immunities": [{ "name": "ice", "value": 1 }]
+  },
+  {
+    "id": "skeleton",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 30,
+    "maxHealth": 50,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 16,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "experience": 35,
+    "defense": 2,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 15 },
+      { "item": "axe", "chance": 800 },
+      { "item": "bone_armor", "chance": 1000 },
+      { "item": "bone_shield", "chance": 1000 },
+      { "item": "human_bone", "chance": 3000 },
+      { "item": "human_skull", "chance": 3000 },
+      { "item": "skull_helmet", "chance": 1000 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.9,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 15, "max": 25 }]
+  },
+  {
+    "id": "slime",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 25,
+    "maxHealth": 180,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 16,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 16,
+    "drawOrderOffsetY": 16,
+    "experience": 160,
+    "defense": 50,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 15, "max": 35 },
+      { "item": "earth_crystal", "chance": 2000 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.7,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0.9,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 60 }],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 10000,
+        "chance": 20,
+        "min": 10,
+        "max": 35
+      }
+    ],
+    "elements": [
+      { "name": "ice", "value": 80 },
+      { "name": "energy", "value": 110 },
+      { "name": "fire", "value": 110 }
+    ],
+    "immunities": [{ "name": "earth", "value": 1 }]
+  },
+  {
+    "id": "slime",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 20,
+    "maxHealth": 220,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 24,
+    "imgHeight": 16,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 16,
+    "drawOrderOffsetY": 16,
+    "experience": 120,
+    "defense": 10,
+    "drops": [],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.7,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0.9,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 30, "max": 65 },
+      {
+        "attack": "fire",
+        "interval": 4000,
+        "chance": 30,
+        "range": 8,
+        "min": 5,
+        "max": 13,
+        "type": "shoot",
+        "anim": "fire-ball"
+      },
+      {
+        "attack": "earth",
+        "interval": 5000,
+        "chance": 10,
+        "min": 11,
+        "max": 36,
+        "type": "area",
+        "particle": 13,
+        "length": 8,
+        "spread": 3,
+        "range": 7
+      }
+    ],
+    "elements": [
+      { "name": "energy", "value": 70 },
+      { "name": "earth", "value": 30 },
+      { "name": "ice", "value": -50 },
+      { "name": "fire", "value": 20 },
+      { "name": "physical", "value": 20 },
+      { "name": "death", "value": -10 },
+      { "name": "holy", "value": -20 }
+    ],
+    "immunities": [
+      { "name": "fire", "value": 1 },
+      { "name": "paralyze", "value": 1 },
+      { "name": "physical", "value": 1 }
+    ]
+  },
+  {
+    "id": "slime_crow",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 30,
+    "maxHealth": 460,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 16,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 360,
+    "defense": 30,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 100, "max": 300 },
+      { "item": "earth_crystal", "chance": 10000 },
+      { "item": "slime_king_crown", "chance": 10000 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.7,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0.9,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 1, "max": 480 }],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 10000,
+        "chance": 20,
+        "min": 30,
+        "max": 120
+      }
+    ],
+    "elements": [
+      { "name": "ice", "value": 30 },
+      { "name": "earth", "value": 30 },
+      { "name": "energy", "value": 30 },
+      { "name": "fire", "value": 30 },
+      { "name": "death", "value": 30 }
+    ]
+  },
+  {
+    "id": "soul_devourer",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 70,
+    "maxHealth": 12000,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 32,
+    "drawOrderOffsetY": 0,
+    "intervalResp": 600,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 6600,
+    "defense": 50,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 900, "max": 1100 },
+      { "item": "thigh", "chance": 60000, "max": 4 },
+      { "item": "thick_silver_necklace", "chance": 200 },
+      { "item": "necro_rod", "chance": 200 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      { "id": "walk", "totalRuntime": 0.4, "numberOfDirections": 4 },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 0, "max": 1200 },
+      {
+        "attack": "death",
+        "interval": 5000,
+        "chance": 50,
+        "min": 400,
+        "max": 900,
+        "type": "area",
+        "particle": 5,
+        "radius": 6,
+        "target": 0
+      }
+    ],
+    "elements": [
+      { "name": "fire", "value": 110 },
+      { "name": "energy", "value": 70 },
+      { "name": "earth", "value": 70 },
+      { "name": "ice", "value": 70 },
+      { "name": "holy", "value": 120 }
+    ],
+    "immunities": [{ "name": "death", "value": 1 }]
+  },
+  {
+    "id": "spider",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 15,
+    "maxHealth": 29,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 16,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "experience": 18,
+    "defense": 2,
+    "drops": [{ "item": "gold", "chance": 100000, "min": 1, "max": 5 }],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.8,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 23 }]
+  },
+  {
+    "id": "stone_golen",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 35,
+    "maxHealth": 270,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 32,
+    "drawOrderOffsetY": 32,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 160,
+    "defense": 30,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 40 },
+      { "item": "earth_crystal", "chance": 1000 },
+      { "item": "iron_hatchet", "chance": 300 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.7,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0.9,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 110 }],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 10000,
+        "chance": 10,
+        "min": 30,
+        "max": 60
+      }
+    ],
+    "elements": [
+      { "name": "fire", "value": 80 },
+      { "name": "death", "value": 80 },
+      { "name": "physical", "value": 90 },
+      { "name": "ice", "value": 110 }
+    ],
+    "immunities": [
+      { "name": "energy", "value": 1 },
+      { "name": "earth", "value": 1 }
+    ]
+  },
+  {
+    "id": "storm_dragon",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 45,
+    "maxHealth": 2350,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 36,
+    "drawOrderOffsetY": 20,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 2100,
+    "defense": 27,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 230 },
+      { "item": "thigh", "chance": 60000, "max": 4 },
+      { "item": "strong_mana_potion", "chance": 5500, "max": 3 },
+      { "item": "strong_health_potion", "chance": 5500, "max": 3 },
+      { "item": "royal_helmet", "chance": 800 },
+      { "item": "steel_armor", "chance": 800 },
+      { "item": "steel_shield", "chance": 800 },
+      { "item": "thunder_wand", "chance": 500 },
+      { "item": "centered_cape", "chance": 80 },
+      { "item": "centered_hat", "chance": 50 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.7,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 0, "max": 250 },
+      {
+        "attack": "energy",
+        "interval": 7000,
+        "chance": 30,
+        "min": 70,
+        "max": 290,
+        "type": "area",
+        "particle": 29,
+        "length": 8,
+        "spread": 3,
+        "range": 10
+      },
+      {
+        "attack": "energy",
+        "interval": 7000,
+        "chance": 40,
+        "min": 130,
+        "max": 250,
+        "type": "area",
+        "particle": 29,
+        "radius": 3,
+        "target": 1,
+        "range": 10
+      },
+      {
+        "attack": "ice",
+        "interval": 7000,
+        "chance": 50,
+        "min": 135,
+        "max": 250,
+        "type": "area",
+        "particle": 31,
+        "radius": 4,
+        "range": 10
+      }
+    ],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 10000,
+        "chance": 30,
+        "min": 50,
+        "max": 150
+      },
+      {
+        "name": "life_drain",
+        "interval": 15000,
+        "chance": 50,
+        "min": 0,
+        "max": 145,
+        "type": "area",
+        "particle": 12,
+        "radius": 6
+      }
+    ],
+    "elements": [
+      { "name": "physical", "value": 105 },
+      { "name": "fire", "value": 50 },
+      { "name": "earth", "value": 115 },
+      { "name": "holy", "value": 70 }
+    ],
+    "immunities": [{ "name": "energy", "value": 1 }]
+  },
+  {
+    "id": "tarantula",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 50,
+    "maxHealth": 1300,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 48,
+    "imgHeight": 48,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": -16,
+    "offsetY": -16,
+    "experience": 900,
+    "defense": 30,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 189 },
+      { "item": "steel_armor", "chance": 1000 },
+      { "item": "steel_helmet", "chance": 1000 },
+      { "item": "royal_helmet", "chance": 1000 },
+      { "item": "steel_shield", "chance": 1000 },
+      { "item": "earth_crystal", "chance": 4000 },
+      { "item": "steel_bow", "chance": 200 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.8,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 100, "max": 250 },
+      {
+        "attack": "earth",
+        "interval": 2000,
+        "chance": 100,
+        "range": 7,
+        "min": 40,
+        "max": 70,
+        "type": "shoot",
+        "anim": "earth-ball",
+        "particle": 28
+      }
+    ],
+    "elements": [
+      { "name": "ice", "value": 80 },
+      { "name": "energy", "value": 80 },
+      { "name": "fire", "value": 115 }
+    ],
+    "immunities": [{ "name": "earth", "value": 1 }]
+  },
+  {
+    "id": "the_witch",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 35,
+    "maxHealth": 300,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 26,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 120,
+    "defense": 8,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 40 },
+      { "item": "mana_potion", "chance": 5500, "max": 3 },
+      { "item": "necro_rod", "chance": 500 },
+      { "item": "silver_necklace", "chance": 200 },
+      { "item": "soul_book", "chance": 200 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.8,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 0, "max": 20 },
+      {
+        "attack": "fire",
+        "interval": 4000,
+        "chance": 80,
+        "min": 30,
+        "max": 75,
+        "type": "area",
+        "particle": 3,
+        "radius": 2,
+        "target": 1,
+        "range": 7,
+        "field": 1
+      }
+    ],
+    "elements": [
+      { "name": "physical", "value": 105 },
+      { "name": "earth", "value": 80 },
+      { "name": "death", "value": 105 }
+    ],
+    "immunities": [{ "name": "energy", "value": 1 }]
+  },
+  {
+    "id": "thunder_saberz",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 50,
+    "maxHealth": 20000,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 32,
+    "drawOrderOffsetY": 32,
+    "experience": 6000,
+    "offsetX": -8,
+    "offsetY": 0,
+    "defense": 20,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 1000, "max": 5000 },
+      { "item": "earth_crystal", "chance": 5000 },
+      { "item": "thunder_bow", "chance": 1000 },
+      { "item": "thunder_crossbow", "chance": 1000 },
+      { "item": "thunder_quiver", "chance": 1000 },
+      { "item": "thunder_wand", "chance": 5000 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.7,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 0, "max": 600 },
+      {
+        "attack": "energy",
+        "interval": 5000,
+        "chance": 50,
+        "min": 350,
+        "max": 750,
+        "type": "area",
+        "particle": 12,
+        "length": 8,
+        "spread": 3,
+        "range": 7
+      }
+    ],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 8000,
+        "chance": 10,
+        "min": 500,
+        "max": 700
+      }
+    ],
+    "elements": [
+      { "name": "fire", "value": 120 },
+      { "name": "death", "value": 120 }
+    ],
+    "immunities": [{ "name": "energy", "value": 1 }]
+  },
+  {
+    "id": "troll",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 50,
+    "maxHealth": 260,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 150,
+    "defense": 17,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 10, "max": 65 },
+      { "item": "double_axe", "chance": 1000 },
+      { "item": "royal_helmet", "chance": 50 },
+      { "item": "royal_armor", "chance": 200 },
+      { "item": "royal_legs", "chance": 200 },
+      { "item": "royal_boots", "chance": 500 },
+      { "item": "royal_shield", "chance": 80 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.8,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "elements": [
+      { "name": "earth", "value": 115 },
+      { "name": "fire", "value": 75 }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 30, "max": 100 }]
+  },
+  {
+    "id": "troll_frost",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 50,
+    "maxHealth": 280,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 160,
+    "defense": 17,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 10, "max": 65 },
+      {
+        "item": "crystalline_prime_bolt",
+        "chance": 20000,
+        "min": 5,
+        "max": 10
+      },
+      { "item": "double_axe", "chance": 1000 },
+      { "item": "shovel", "chance": 500 },
+      { "item": "rope", "chance": 300 },
+      { "item": "royal_helmet", "chance": 50 },
+      { "item": "royal_armor", "chance": 200 },
+      { "item": "royal_legs", "chance": 200 },
+      { "item": "royal_boots", "chance": 200 },
+      { "item": "royal_shield", "chance": 80 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.8,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 40, "max": 100 }],
+    "elements": [
+      { "name": "energy", "value": 115 },
+      { "name": "earth", "value": 75 }
+    ],
+    "immunities": [{ "name": "ice", "value": 1 }]
+  },
+  {
+    "id": "vampire",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 45,
+    "maxHealth": 475,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 305,
+    "defense": 28,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 60 },
+      { "item": "strong_health_potion", "chance": 1000, "max": 5 },
+      { "item": "royal_helmet", "chance": 1500 },
+      { "item": "earth_crystal", "chance": 1000 },
+      { "item": "vamp_shield", "chance": 35 },
+      { "item": "vamp_boots", "chance": 35 },
+      { "item": "vamp_ring", "chance": 30 },
+      { "item": "vamp_necklace", "chance": 30 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.9,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 0, "max": 150 },
+      {
+        "attack": "death",
+        "interval": 5000,
+        "chance": 70,
+        "min": 50,
+        "max": 200,
+        "type": "area",
+        "particle": 5,
+        "radius": 6,
+        "target": 1,
+        "range": 7
+      }
+    ],
+    "elements": [
+      { "name": "physical", "value": 75 },
+      { "name": "fire", "value": 110 },
+      { "name": "holy", "value": 125 }
+    ],
+    "immunities": [
+      { "name": "death", "value": 1 },
+      { "name": "earth", "value": 1 }
+    ]
+  },
+  {
+    "id": "winter_wolf",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 35,
+    "maxHealth": 90,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 65,
+    "defense": 5,
+    "drops": [
+      { "item": "gold", "chance": 50000, "min": 10, "max": 35 },
+      { "item": "thigh", "chance": 70000, "min": 1, "max": 4 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.8,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 25 }]
+  },
+  {
+    "id": "wolf",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 35,
+    "maxHealth": 25,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 20,
+    "defense": 1,
+    "drops": [
+      { "item": "thigh", "chance": 70000, "min": 1, "max": 2 },
+      { "item": "gold", "chance": 100000, "min": 5, "max": 15 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.8,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 15 }]
+  },
+  {
+    "id": "zombie",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 25,
+    "maxHealth": 100,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 16,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 22,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "experience": 85,
+    "defense": 8,
+    "drops": [
+      { "item": "gold", "chance": 100000, "min": 0, "max": 30 },
+      { "item": "steel_boots", "chance": 100 },
+      { "item": "bone_shield", "chance": 100 },
+      { "item": "steel_legs", "chance": 100 },
+      { "item": "soul_rod", "chance": 50 },
+      { "item": "earth_crystal", "chance": 1000 }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 1.2,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4,
+        "looping": true
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 70 }],
+    "elements": [
+      { "name": "energy", "value": 70 },
+      { "name": "earth", "value": 80 },
+      { "name": "ice", "value": 90 },
+      { "name": "holy", "value": 125 }
+    ]
+  }
+]

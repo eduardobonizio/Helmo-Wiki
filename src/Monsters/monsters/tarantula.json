@@ -1,0 +1,75 @@
+{
+  "id": "tarantula",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 50,
+  "maxHealth": 1300,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 48,
+  "imgHeight": 48,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 22,
+  "drawOrderOffsetY": 16,
+  "offsetX": -16,
+  "offsetY": -16,
+  "experience": 900,
+  "defense": 30,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 0, "max": 189 },
+    { "item": "steel_armor", "chance": 1000 },
+    { "item": "steel_helmet", "chance": 1000 },
+    { "item": "royal_helmet", "chance": 1000 },
+    { "item": "steel_shield", "chance": 1000 },
+    { "item": "earth_crystal", "chance": 4000 },
+    { "item": "steel_bow", "chance": 200 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.8,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 100, "max": 250 },
+    {
+      "attack": "earth",
+      "interval": 2000,
+      "chance": 100,
+      "range": 7,
+      "min": 40,
+      "max": 70,
+      "type": "shoot",
+      "anim": "earth-ball",
+      "particle": 28
+    }
+  ],
+  "elements": [
+    { "name": "ice", "value": 80 },
+    { "name": "energy", "value": 80 },
+    { "name": "fire", "value": 115 }
+  ],
+  "immunities": [{ "name": "earth", "value": 1 }]
+}
