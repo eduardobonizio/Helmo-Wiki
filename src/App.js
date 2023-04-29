@@ -35,16 +35,14 @@ function App() {
                 <p>
                   Weaknesses:
                   {monster.elements &&
-                    monster.elements
-                      .sort((a, b) => b.value - a.value)
-                      .map((element) => (
-                        <div className="card-text">
-                          {letrasMaiusculas(element.name) +
-                            " " +
-                            element.value +
-                            "%"}
-                        </div>
-                      ))}
+                    monster.elements.map((element) => (
+                      <div className="card-text">
+                        {letrasMaiusculas(element.name) +
+                          " " +
+                          element.value +
+                          "%"}
+                      </div>
+                    ))}
                 </p>
               </li>
               <li className="list-group-item">
