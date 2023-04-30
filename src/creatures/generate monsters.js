@@ -31,6 +31,7 @@ const monstersFix = monsters.map((monster) => {
 
   if (monster.drops) {
     monster.drops.forEach((current) => {
+      current.originalName = current.item;
       current.item = letrasMaiusculas(current.item);
     });
   }

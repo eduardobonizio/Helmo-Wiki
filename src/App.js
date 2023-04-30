@@ -26,7 +26,13 @@ function App() {
                   </thead>
                   {monster.drops.map((drop) => (
                     <tbody>
-                      <td>{drop.item}</td>
+                      <td>
+                        <img
+                          src={`../items/${drop.originalName}/icon.png`}
+                          alt={drop.item}
+                        ></img>
+                        {drop.item}
+                      </td>
                       <td>{drop.chance / 1000 + "%"}</td>
                       <td>{drop.max || 1}</td>
                     </tbody>
