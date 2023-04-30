@@ -6,7 +6,7 @@ function App() {
     <div className="container d-flex">
       <div className="row justify-content-around">
         {monsters.map((monster) => (
-          <div className="card d-block mt-2" style={{ width: "23rem" }}>
+          <div className="card d-block mt-2" style={{ width: "26rem" }}>
             <div className="card-body">
               <h5 className="card-title text-center">{monster.id}</h5>
               <p className="text-center">
