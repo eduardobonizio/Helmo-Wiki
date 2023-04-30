@@ -19,7 +19,8 @@
     { "item": "gold", "chance": 100000, "min": 300, "max": 600 },
     { "item": "earth_crystal", "chance": 5000 },
     { "item": "crystalline_shield", "chance": 80 },
-    { "item": "blue_robe", "chance": 100 }
+    { "item": "blue_robe", "chance": 100 },
+    { "item": "crystalline_kilt", "chance": 100 }
   ],
   "collisionRects": [
     {

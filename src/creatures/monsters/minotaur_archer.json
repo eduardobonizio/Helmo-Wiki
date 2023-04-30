@@ -16,7 +16,7 @@
   "experience": 65,
   "defense": 7,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 0, "max": 30 },
+    { "item": "gold", "chance": 100000, "min": 5, "max": 30 },
     { "item": "basic_bow", "chance": 20000 },
     { "item": "basic_crossbow", "chance": 1000 },
     { "item": "basic_quiver", "chance": 200 },

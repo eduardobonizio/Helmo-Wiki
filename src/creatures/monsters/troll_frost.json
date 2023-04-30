@@ -17,10 +17,7 @@
   "defense": 17,
   "drops": [
     { "item": "gold", "chance": 100000, "min": 10, "max": 65 },
-    { "item": "crystalline_prime_bolt", "chance": 20000, "min": 5, "max": 10 },
     { "item": "double_axe", "chance": 1000 },
-    { "item": "shovel", "chance": 500 },
-    { "item": "rope", "chance": 300 },
     { "item": "royal_helmet", "chance": 50 },
     { "item": "royal_armor", "chance": 200 },
     { "item": "royal_legs", "chance": 200 },

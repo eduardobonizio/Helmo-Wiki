@@ -20,10 +20,11 @@
     { "item": "thigh", "chance": 60000, "max": 4 },
     { "item": "strong_mana_potion", "chance": 1500, "max": 3 },
     { "item": "strong_health_potion", "chance": 1500, "max": 3 },
-    { "item": "royal_helmet", "chance": 1000 },
+    { "item": "royal_helmet", "chance": 2000 },
     { "item": "dragon_scale_shield", "chance": 200 },
-    { "item": "black_stone_amulet", "chance": 100 },
-    { "item": "halberd", "chance": 200 }
+    { "item": "black_stone_amulet", "chance": 300 },
+    { "item": "halberd", "chance": 200 },
+    { "item": "crystalline_coif", "chance": 200 }
   ],
   "collisionRects": [
     {

@@ -21,6 +21,7 @@
     { "item": "steel_armor", "chance": 1000 },
     { "item": "steel_helmet", "chance": 1000 },
     { "item": "steel_shield", "chance": 1000 },
+    { "item": "steel_boots", "chance": 1000 },
     { "item": "goblin_key", "chance": 20 }
   ],
   "collisionRects": [

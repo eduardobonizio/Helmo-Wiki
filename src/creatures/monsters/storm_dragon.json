@@ -16,16 +16,17 @@
   "experience": 2100,
   "defense": 27,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 0, "max": 230 },
+    { "item": "gold", "chance": 100000, "min": 1, "max": 230 },
     { "item": "thigh", "chance": 60000, "max": 4 },
     { "item": "strong_mana_potion", "chance": 5500, "max": 3 },
     { "item": "strong_health_potion", "chance": 5500, "max": 3 },
-    { "item": "royal_helmet", "chance": 800 },
-    { "item": "steel_armor", "chance": 800 },
-    { "item": "steel_shield", "chance": 800 },
+    { "item": "royal_helmet", "chance": 1000 },
+    { "item": "steel_armor", "chance": 1000 },
+    { "item": "steel_shield", "chance": 1000 },
     { "item": "thunder_wand", "chance": 500 },
-    { "item": "centered_cape", "chance": 80 },
-    { "item": "centered_hat", "chance": 50 }
+    { "item": "centered_cape", "chance": 100 },
+    { "item": "centered_hat", "chance": 500 },
+    { "item": "earth_crystal", "chance": 5000 }
   ],
   "collisionRects": [
     {

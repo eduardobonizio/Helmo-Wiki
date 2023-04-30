@@ -16,11 +16,14 @@
   "experience": 900,
   "defense": 25,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 0, "max": 100 },
+    { "item": "gold", "chance": 100000, "min": 10, "max": 100 },
     { "item": "strong_mana_potion", "chance": 1000, "max": 5 },
     { "item": "royal_boots", "chance": 2000 },
     { "item": "steel_helmet", "chance": 2000 },
-    { "item": "earth_crystal", "chance": 2000 }
+    { "item": "earth_crystal", "chance": 2000 },
+    { "item": "noble_magic_robe", "chance": 200 },
+    { "item": "noble_magic_wand", "chance": 200 },
+    { "item": "noble_magic_rod", "chance": 200 }
   ],
   "collisionRects": [
     {

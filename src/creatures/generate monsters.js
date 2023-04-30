@@ -7,6 +7,7 @@ const jsonsInDir = fs
   .readdirSync("./src/creatures/monsters")
   .filter((file) => path.extname(file) === ".json");
 jsonsInDir.forEach((file) => {
+  console.log("Last monster: ", file);
   const fileData = fs.readFileSync(path.join("./src/creatures/monsters", file));
   const json = JSON.parse(fileData.toString());
   monsters.push(json);

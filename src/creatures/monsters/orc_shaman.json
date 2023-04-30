@@ -17,8 +17,8 @@
   "defense": 8,
   "drops": [
     { "item": "gold", "chance": 100000, "min": 5, "max": 30 },
-    { "item": "noble_magic_robe", "chance": 30 },
     { "item": "steel_boots", "chance": 1000 },
+    { "item": "noble_magic_robe", "chance": 30 },
     { "item": "noble_magic_book", "chance": 30 },
     { "item": "noble_magic_boots", "chance": 30 },
     { "item": "noble_magic_hat", "chance": 30 },

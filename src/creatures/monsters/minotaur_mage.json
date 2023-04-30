@@ -16,7 +16,7 @@
   "experience": 150,
   "defense": 18,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 0, "max": 35 },
+    { "item": "gold", "chance": 100000, "min": 5, "max": 35 },
     { "item": "minotaur_mage_hat", "chance": 150 },
     { "item": "minotaur_mage_legs", "chance": 200 },
     { "item": "minotaur_mage_boots", "chance": 200 },

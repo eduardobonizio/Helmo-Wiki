@@ -16,7 +16,7 @@
   "experience": 50,
   "defense": 11,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 0, "max": 25 },
+    { "item": "gold", "chance": 100000, "min": 5, "max": 25 },
     { "item": "axe", "chance": 1000 },
     { "item": "wooden_sword", "chance": 1000 },
     { "item": "minotaur_armor", "chance": 1000 },

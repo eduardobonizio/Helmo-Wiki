@@ -16,10 +16,12 @@
   "experience": 800,
   "defense": 20,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 0, "max": 129 },
-    { "item": "earth_crystal", "chance": 5000 },
-    { "item": "royal_cape", "chance": 400 },
-    { "item": "royal_boots", "chance": 500 }
+    { "item": "gold", "chance": 100000, "min": 5, "max": 129 },
+    { "item": "earth_crystal", "chance": 3000 },
+    { "item": "royal_cape", "chance": 300 },
+    { "item": "royal_boots", "chance": 300 },
+    { "item": "noble_magic_hat", "chance": 200 },
+    { "item": "noble_magic_legs", "chance": 200 }
   ],
   "collisionRects": [
     {
@@ -50,7 +52,20 @@
     { "name": "activationZoneDistance", "type": "int" },
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
-  "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 180 }],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 180 },
+    {
+      "attack": "earth",
+      "interval": 2000,
+      "chance": 100,
+      "range": 7,
+      "min": 30,
+      "max": 50,
+      "type": "shoot",
+      "anim": "earth-ball",
+      "particle": 28
+    }
+  ],
   "defenses": [
     {
       "name": "healing",

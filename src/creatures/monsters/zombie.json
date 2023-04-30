@@ -16,7 +16,7 @@
   "experience": 85,
   "defense": 8,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 0, "max": 30 },
+    { "item": "gold", "chance": 100000, "min": 5, "max": 30 },
     { "item": "steel_boots", "chance": 100 },
     { "item": "bone_shield", "chance": 100 },
     { "item": "steel_legs", "chance": 100 },

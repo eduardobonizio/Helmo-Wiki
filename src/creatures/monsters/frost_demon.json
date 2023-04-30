@@ -18,12 +18,13 @@
   "drops": [
     { "item": "gold", "chance": 100000, "min": 0, "max": 600 },
     { "item": "thigh", "chance": 60000, "max": 4 },
-    { "item": "crystalline_axe", "chance": 75 },
+    { "item": "crystalline_axe", "chance": 20 },
+    { "item": "crystalline_sword", "chance": 20 },
     { "item": "earth_crystal", "chance": 2000 },
     { "item": "strong_health_potion", "chance": 2000, "max": 5 },
     { "item": "hylian_broadsword", "chance": 1000 },
     { "item": "blue_robe", "chance": 100 },
-    { "item": "repressive_mask", "chance": 80 }
+    { "item": "repressive_mask", "chance": 300 }
   ],
   "collisionRects": [
     {

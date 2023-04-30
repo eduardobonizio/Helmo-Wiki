@@ -16,21 +16,21 @@
   "experience": 2100,
   "defense": 34,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 0, "max": 250 },
+    { "item": "gold", "chance": 100000, "min": 1, "max": 250 },
     { "item": "thigh", "chance": 60000, "max": 4 },
     { "item": "strong_health_potion", "chance": 50000, "max": 2 },
-    { "item": "hylian_broadsword", "chance": 1000 },
-    { "item": "dragon_wand", "chance": 1000 },
-    { "item": "dragon_slayer_armor", "chance": 30 },
-    { "item": "dragon_slayer_legs", "chance": 25 },
-    { "item": "dragon_slayer_boots", "chance": 25 },
-    { "item": "dragon_slayer_helmet", "chance": 150 },
-    { "item": "dragon_slayer_shield", "chance": 20 },
-    { "item": "dragon_slayer_bow", "chance": 20 },
-    { "item": "dragon_slayer_crossbow", "chance": 20 },
-    { "item": "dragon_slayer_sword", "chance": 20 },
+    { "item": "hylian_broadsword", "chance": 2000 },
+    { "item": "dragon_wand", "chance": 1500 },
+    { "item": "dragon_slayer_armor", "chance": 35 },
+    { "item": "dragon_slayer_legs", "chance": 35 },
+    { "item": "dragon_slayer_boots", "chance": 35 },
+    { "item": "dragon_slayer_helmet", "chance": 35 },
+    { "item": "dragon_slayer_shield", "chance": 30 },
+    { "item": "dragon_slayer_bow", "chance": 30 },
+    { "item": "dragon_slayer_crossbow", "chance": 30 },
+    { "item": "dragon_slayer_sword", "chance": 30 },
     { "item": "dragon_horn", "chance": 2000 },
-    { "item": "earth_crystal", "chance": 2000 }
+    { "item": "earth_crystal", "chance": 5000 }
   ],
   "collisionRects": [
     {

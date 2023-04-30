@@ -19,7 +19,7 @@
     { "item": "gold", "chance": 100000, "min": 0, "max": 150 },
     { "item": "halberd", "chance": 500 },
     { "item": "tearing_fang", "chance": 500 },
-    { "item": "earth_crystal", "chance": 1000 },
+    { "item": "earth_crystal", "chance": 2000 },
     { "item": "black_stone_amulet", "chance": 300 }
   ],
   "collisionRects": [

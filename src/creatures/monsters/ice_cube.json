@@ -16,8 +16,9 @@
   "experience": 140,
   "defense": 15,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 0, "max": 65 },
-    { "item": "earth_crystal", "chance": 1000 }
+    { "item": "gold", "chance": 100000, "min": 5, "max": 65 },
+    { "item": "earth_crystal", "chance": 1000 },
+    { "item": "repressive_mask", "chance": 100 }
   ],
   "collisionRects": [
     {

@@ -16,9 +16,13 @@
   "experience": 450,
   "defense": 35,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 0, "max": 120 },
+    { "item": "gold", "chance": 100000, "min": 5, "max": 120 },
     { "item": "necro_rod", "chance": 100 },
-    { "item": "earth_crystal", "chance": 1000 }
+    { "item": "steel_necklace", "chance": 100 },
+    { "item": "earth_crystal", "chance": 500 },
+    { "item": "steel_boots", "chance": 800 },
+    { "item": "steel_shield", "chance": 800 },
+    { "item": "steel_legs", "chance": 800 }
   ],
   "collisionRects": [
     {

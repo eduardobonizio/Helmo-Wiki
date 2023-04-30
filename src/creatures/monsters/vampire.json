@@ -16,10 +16,10 @@
   "experience": 305,
   "defense": 28,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 0, "max": 60 },
+    { "item": "gold", "chance": 100000, "min": 10, "max": 60 },
     { "item": "strong_health_potion", "chance": 1000, "max": 5 },
-    { "item": "royal_helmet", "chance": 1500 },
-    { "item": "earth_crystal", "chance": 1000 },
+    { "item": "royal_helmet", "chance": 2000 },
+    { "item": "earth_crystal", "chance": 2000 },
     { "item": "vamp_shield", "chance": 35 },
     { "item": "vamp_boots", "chance": 35 },
     { "item": "vamp_ring", "chance": 30 },

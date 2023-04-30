@@ -18,7 +18,8 @@
   "drops": [
     { "item": "gold", "chance": 100000, "min": 0, "max": 90 },
     { "item": "earth_crystal", "chance": 3000 },
-    { "item": "soul_essence", "chance": 500 }
+    { "item": "soul_essence", "chance": 500 },
+    { "item": "repressive_mask", "chance": 100 }
   ],
   "collisionRects": [
     {

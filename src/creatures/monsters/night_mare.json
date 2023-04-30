@@ -62,13 +62,13 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 600, "max": 1600 },
+    { "attack": "melee", "interval": 2000, "min": 600, "max": 1800 },
     {
       "attack": "death",
       "interval": 4000,
-      "chance": 50,
-      "min": 800,
-      "max": 1600,
+      "chance": 30,
+      "min": 500,
+      "max": 1900,
       "type": "area",
       "particle": 5,
       "length": 8,
@@ -80,18 +80,18 @@
       "interval": 4000,
       "chance": 50,
       "min": 550,
-      "max": 1200,
+      "max": 1600,
       "type": "area",
       "particle": 3,
-      "radius": 6,
+      "radius": 8,
       "target": 0,
       "range": 10
     },
     {
       "attack": "fire",
       "interval": 4000,
-      "chance": 30,
-      "min": 400,
+      "chance": 70,
+      "min": 500,
       "max": 900,
       "type": "area",
       "particle": 3,
@@ -104,10 +104,10 @@
   "defenses": [
     {
       "name": "healing",
-      "interval": 10000,
+      "interval": 6000,
       "chance": 50,
       "min": 1300,
-      "max": 2500
+      "max": 4500
     }
   ],
   "elements": [

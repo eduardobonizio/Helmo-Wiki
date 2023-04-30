@@ -18,7 +18,6 @@
   "drops": [
     { "item": "gold", "chance": 100000, "min": 0, "max": 350 },
     { "item": "thigh", "chance": 60000, "max": 4 },
-    { "item": "crystalline_sword", "chance": 10 },
     { "item": "strong_mana_potion", "chance": 1500, "max": 3 },
     { "item": "strong_health_potion", "chance": 1500, "max": 3 },
     { "item": "earth_crystal", "chance": 1000 },

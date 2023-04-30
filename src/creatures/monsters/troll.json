@@ -17,6 +17,8 @@
   "defense": 17,
   "drops": [
     { "item": "gold", "chance": 100000, "min": 10, "max": 65 },
+    { "item": "shovel", "chance": 200 },
+    { "item": "rope", "chance": 200 },
     { "item": "double_axe", "chance": 1000 },
     { "item": "royal_helmet", "chance": 50 },
     { "item": "royal_armor", "chance": 200 },

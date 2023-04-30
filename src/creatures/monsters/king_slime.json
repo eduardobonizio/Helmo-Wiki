@@ -22,7 +22,9 @@
     { "item": "halberd", "chance": 1000 },
     { "item": "bagpack", "chance": 200 },
     { "item": "thick_ice_stone_necklace", "chance": 200 },
-    { "item": "ring_of_nature", "chance": 200 }
+    { "item": "ring_of_nature", "chance": 200 },
+    { "item": "noble_magic_book", "chance": 500 },
+    { "item": "noble_magic_boots", "chance": 500 }
   ],
   "collisionRects": [
     {

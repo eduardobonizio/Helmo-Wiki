@@ -18,14 +18,13 @@
   "drops": [
     { "item": "basic_bow", "chance": 20000 },
     { "item": "gold", "chance": 80000, "min": 10, "max": 30 },
-    { "item": "linen_boots", "chance": 300 },
-    { "item": "linen_armor", "chance": 300 },
-    { "item": "linen_hat", "chance": 300 },
-    { "item": "linen_bow", "chance": 300 },
-    { "item": "linen_legs", "chance": 300 },
-    { "item": "basic_arrow", "chance": 20000, "min": 1, "max": 10 },
+    { "item": "linen_boots", "chance": 500 },
+    { "item": "linen_armor", "chance": 500 },
+    { "item": "linen_hat", "chance": 500 },
+    { "item": "linen_bow", "chance": 500 },
+    { "item": "linen_legs", "chance": 500 },
     { "item": "basic_crossbow", "chance": 1000 },
-    { "item": "basic_quiver", "chance": 200 }
+    { "item": "basic_quiver", "chance": 300 }
   ],
   "collisionRects": [
     {
