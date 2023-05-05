@@ -20,7 +20,8 @@
     { "item": "broadsword", "chance": 2000 },
     { "item": "steel_boots", "chance": 1000 },
     { "item": "steel_legs", "chance": 1000 },
-    { "item": "goblin_key", "chance": 20 }
+    { "item": "goblin_key", "chance": 20 },
+    { "item": "steel_ring", "chance": 50 }
   ],
   "collisionRects": [
     {

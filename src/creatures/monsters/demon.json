@@ -16,7 +16,7 @@
   "experience": 6000,
   "defense": 44,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 0, "max": 700 },
+    { "item": "gold", "chance": 100000, "min": 100, "max": 700 },
     { "item": "thigh", "chance": 60000, "max": 4 },
     { "item": "great_mana_potion", "chance": 5500, "max": 3 },
     { "item": "great_health_potion", "chance": 5500, "max": 3 },

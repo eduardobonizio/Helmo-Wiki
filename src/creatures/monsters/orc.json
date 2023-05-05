@@ -3,7 +3,7 @@
   "hittable": true,
   "maxDirections": 4,
   "speed": 30,
-  "maxHealth": 70,
+  "maxHealth": 90,
   "showHealthBar": true,
   "footstepSound": "slime",
   "imgWidth": 32,
@@ -13,7 +13,7 @@
   "drawOrderOffsetY": 16,
   "offsetX": -8,
   "offsetY": 0,
-  "experience": 25,
+  "experience": 45,
   "defense": 4,
   "drops": [
     { "item": "gold", "chance": 100000, "min": 5, "max": 25 },

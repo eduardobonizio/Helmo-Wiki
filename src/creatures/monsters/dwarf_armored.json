@@ -18,12 +18,14 @@
   "drops": [
     { "item": "gold", "chance": 65000, "min": 0, "max": 35 },
     { "item": "broadsword", "chance": 500 },
-    { "item": "steel_armor", "chance": 300 },
-    { "item": "steel_helmet", "chance": 300 },
-    { "item": "steel_boots", "chance": 300 },
-    { "item": "dwarf_shield", "chance": 350 },
+    { "item": "steel_armor", "chance": 500 },
+    { "item": "steel_helmet", "chance": 500 },
+    { "item": "steel_boots", "chance": 500 },
+    { "item": "dwarf_shield", "chance": 550 },
     { "item": "silver_necklace", "chance": 30 },
-    { "item": "double_axe", "chance": 200 }
+    { "item": "double_axe", "chance": 500 },
+    { "item": "steel_ring", "chance": 200 },
+    { "item": "steel_legs", "chance": 500 }
   ],
   "collisionRects": [
     {
