@@ -1,11 +1,12 @@
 import monsters from "../../creatures/monsters.json";
+import React from "react";
 
 function Monsters() {
   return (
     <div className="container d-flex">
       <div className="row justify-content-around">
-        {monsters.map((monster) => (
-          <div className="card d-block mt-2" style={{ width: "23rem" }}>
+        {monsters.map((monster, i) => (
+          <div className="card d-block mt-2" style={{ width: "23rem" }} key={i}>
             <div className="card-body">
               <h5 className="card-title text-center">{monster.id}</h5>
               <p className="text-center">
@@ -23,38 +24,42 @@ function Monsters() {
                       <th scope="col">Amount</th>
                     </tr>
                   </thead>
-                  {monster.drops.map((drop) => (
-                    <tbody>
-                      <td>
-                        <img
-                          src={`../items/${drop.originalName}/icon.png`}
-                          alt={drop.item}
-                        ></img>
-                        {drop.item}
-                      </td>
-                      <td>{drop.chance / 1000 + "%"}</td>
-                      <td>{drop.max || 1}</td>
-                    </tbody>
-                  ))}
+                  <tbody>
+                    {monster.drops.map((drop, i) => (
+                      <tr key={i}>
+                        <td>
+                          <img
+                            src={`../items/${drop.originalName}/icon.png`}
+                            alt={drop.item}
+                          ></img>
+                          {drop.item}
+                        </td>
+                        <td>{drop.chance / 1000 + "%"}</td>
+                        <td>{drop.max || 1}</td>
+                      </tr>
+                    ))}
+                  </tbody>
                 </table>
               </li>
               <li className="list-group-item">
-                <p>
+                <div>
                   Weaknesses:
                   {monster.elements &&
-                    monster.elements.map((element) => (
-                      <div className="card-text">
+                    monster.elements.map((element, i) => (
+                      <p className="card-text" key={i}>
                         {element.name + " " + element.value + "%"}
-                      </div>
+                      </p>
                     ))}
-                </p>
+                </div>
               </li>
               <li className="list-group-item">
                 <p>
                   Immunity:{" "}
                   {monster.immunities &&
-                    monster.immunities.map((immunitie) => (
-                      <span className="card-text">{immunitie.name + " "}</span>
+                    monster.immunities.map((immunitie, i) => (
+                      <span className="card-text" key={i}>
+                        {immunitie.name + " "}
+                      </span>
                     ))}
                 </p>
               </li>

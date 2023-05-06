@@ -1,3 +1,5 @@
+import React from "react";
+
 function NavBar() {
   return (
     <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light">
@@ -26,6 +28,11 @@ function NavBar() {
             <li className="nav-item">
               <a className="nav-link" href="/pk">
                 Pk System
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/party">
+                Party System
               </a>
             </li>
             <li className="nav-item">
