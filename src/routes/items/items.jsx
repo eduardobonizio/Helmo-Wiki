@@ -1,3 +1,5 @@
+import React from "react";
+
 function Items() {
   return <div className="container">Items page under construction</div>;
 }
