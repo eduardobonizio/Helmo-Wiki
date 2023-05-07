@@ -1,7 +1,10 @@
 import monsters from "../../creatures/monsters.json";
-import React from "react";
+import React, { useState } from "react";
+import Popup from "../../elements/popup/popup";
 
 function Monsters() {
+  const [open, setOpen] = useState(false);
+  const [item, setItem] = useState({});
   return (
     <div className="container d-flex">
       <div className="row justify-content-around">
@@ -27,7 +30,13 @@ function Monsters() {
                   <tbody>
                     {monster.drops.map((drop, i) => (
                       <tr key={i}>
-                        <td>
+                        <td
+                          className="show-cursor"
+                          onClick={() => {
+                            setItem(drop);
+                            setOpen(true);
+                          }}
+                        >
                           <img
                             src={`../items/${drop.originalName}/icon.png`}
                             alt={drop.item}
@@ -66,6 +75,15 @@ function Monsters() {
             </ul>
           </div>
         ))}
+      </div>
+      <div>
+        {open ? (
+          <Popup
+            drop={item}
+            monsters={monsters}
+            closePopup={() => setOpen(false)}
+          />
+        ) : null}
       </div>
     </div>
   );
