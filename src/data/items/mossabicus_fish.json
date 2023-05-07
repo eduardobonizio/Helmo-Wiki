@@ -1,7 +1,0 @@
-{
-	iconSize: 16,
-	equipType: -1,
-	maxStackSize: 10,
-        minDamage: 60,
-        consumable: true
-}

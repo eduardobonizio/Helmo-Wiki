@@ -1,9 +1,0 @@
-{
-	"equipType":5,
-	"defense": 35,
-        "level": 200,
-        "protectIce": 10,
-        "vocations": [
-		{"name":"0"}
-	]
-}

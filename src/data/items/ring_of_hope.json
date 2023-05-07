@@ -1,7 +1,0 @@
-{
-	iconSize: 16,
-	buff: true,
-	equipType: 6,
-	minDamage: 4,
-	maxDamage: 5
-}
