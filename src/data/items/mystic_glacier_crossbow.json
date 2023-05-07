@@ -1,0 +1,22 @@
+{
+        "iconSize": 16,
+        "durability": 256,
+        "equipType": 3,
+        "numOfStyles": 1,
+        "rarity": 5,
+        "minDamage": 15,
+        "sounds": [
+                ["actions/hit"]
+        ],
+        "critMultiplier": 1.4,
+        "critChance": 20,
+        "hitRange": 6,
+        "level": 200,
+        
+        "weaponType": "cross",
+        "weight": "2300",
+        
+        "vocations": [
+		{"name":"1"}
+	]
+}

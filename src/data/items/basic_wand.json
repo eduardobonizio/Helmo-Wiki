@@ -1,0 +1,25 @@
+{
+        iconSize: 16,
+        durability: 256,
+        equipType: 3,
+        numOfStyles: 1,
+
+        sounds: [
+                ["actions/hit"],
+        ],
+        minDamage: 3,
+        maxDamage: 6,
+        hitRange: 6,
+        "manaCost": 2,
+        
+        elementDamage:"energy",
+        projectile: "ice-ball",
+        shootType:  12,
+        weaponType: "wand",
+        weight: "2300",
+        description: "Icecold rays of moonlight shimmer on its tip (Atk: 2 ~ 5).",
+        
+        vocations: [
+                {"name":"3"}
+	]
+}

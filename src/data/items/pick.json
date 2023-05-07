@@ -1,0 +1,11 @@
+{
+	iconSize: 16,
+	equipType: 3,
+        minDamage: 2,
+	maxDamage: 2,
+	hitRange: 1,
+        elementDamage:"physical",
+        weaponType:"axe",
+        tool: true,
+        clickUse: true
+}

@@ -1,0 +1,12 @@
+{
+	"equipType":10,
+	"defense": 3,
+    
+        "level": 25,
+        "rarity": 2,
+    
+        "vocations": [
+		{"name":"0"},
+                {"name":"1"}
+	]
+}

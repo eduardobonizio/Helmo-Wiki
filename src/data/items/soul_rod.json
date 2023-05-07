@@ -1,0 +1,28 @@
+{
+        iconSize: 16,
+        durability: 256,
+        equipType: 3,
+        numOfStyles: 1,
+        "rarity": 2,
+
+        sounds: [
+                ["actions/hit"],
+        ],
+        
+        minDamage: 7,
+        maxDamage: 10,
+        hitRange: 6,
+        manaCost: 3,
+        
+        elementDamage:"death",
+        projectile: "ice-ball",
+        shootType:  12,
+        weaponType: "rod",
+        weight: "2300",
+        description: "Icecold rays of moonlight shimmer on its tip (Atk: 4 ~ 7).",
+        
+        level: 15,
+        vocations: [
+		{"name":"2"}
+	]
+}

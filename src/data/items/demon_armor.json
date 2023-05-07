@@ -1,0 +1,14 @@
+{
+	"durability":400,
+	"equipType":4,
+        "defense": 16,
+    
+        "rarity": 4,
+    
+        "level": 130,
+    
+        "vocations": [
+	    {"name":"0"},
+            {"name":"1"}
+	]
+}

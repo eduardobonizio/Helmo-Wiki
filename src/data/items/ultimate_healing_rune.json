@@ -1,0 +1,10 @@
+{
+	iconSize: 16,
+	equipType: -1,
+        maxStackSize: 20,
+        spell: "ultimate_healing",
+        rune: true,
+        level: 24,
+        magic: 4,
+        durability: 1
+}

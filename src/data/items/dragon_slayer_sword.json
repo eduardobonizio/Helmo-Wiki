@@ -1,0 +1,26 @@
+{
+	iconSize: 16,
+	durability: 256,
+	equipType: 3,
+	numOfStyles: 1,
+        "rarity": 4,
+        
+	minDamage: 25,
+	maxDamage: 26,
+        
+	hitRange: 1,
+	sounds: [
+		["actions/hit"],
+	],
+        elementDamage:"physical",
+        extraElementDamage:"fire",
+        weaponType:"sword",
+        weight: "2250",
+        description: "A masterpiece of a dwarven smith. (Atk: 150 ~ 300).",
+        
+        level: 70,
+        vocations: [
+		{"name":"0"}
+	]
+        
+}

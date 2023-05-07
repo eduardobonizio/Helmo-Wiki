@@ -1,0 +1,27 @@
+{
+        iconSize: 16,
+        durability: 256,
+        "equipType": 3,
+        "numOfStyles": 1,
+        "rarity": 4,
+        "sounds": [
+                ["actions/hit"],
+        ],
+
+        "minDamage": 30,
+        "maxDamage": 35,
+        "hitRange": 6,
+        "level": 50,
+        "manaCost": 6,
+        
+        "elementDamage":"ice",
+        "projectile": "ice-ball",
+        "shootType":  "smallice",
+        "weaponType": "rod",
+        "weight": "2300",
+        "description": "Icecold rays of moonlight shimmer on its tip (Atk: 13 ~ 25).",
+        
+        "vocations": [
+		{"name":"2"}
+	]
+}

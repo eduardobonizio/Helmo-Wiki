@@ -1,0 +1,23 @@
+{
+        iconSize: 16,
+        equipType: 3,
+        numOfStyles: 1,
+
+        sounds: [
+                ["actions/hit"],
+        ],
+        
+        "minDamage": 1,
+        "maxDamage": 2,
+        "hitRange": 3,
+        "manaCost": 3,
+        
+        weaponType: "wand",
+        weight: "2300",
+        description: "Icecold rays of moonlight shimmer on its tip (Atk: 2 ~ 5).",
+        
+        "vocations": [
+		{"name":"2"},
+                {"name":"3"}
+	]
+}

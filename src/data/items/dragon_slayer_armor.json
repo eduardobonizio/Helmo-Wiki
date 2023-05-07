@@ -1,0 +1,12 @@
+{
+	"equipType":4,
+	"defense": 14,
+    
+        "protectFire":2,
+        "level": 90,
+        "rarity": 4,
+    
+        "vocations": [
+		{"name":"0"}
+	]
+}

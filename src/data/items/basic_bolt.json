@@ -1,0 +1,18 @@
+{
+        iconSize: 16,
+        equipType: 8,
+        maxStackSize: 200,
+        sounds: [
+                ["actions/hit"],
+        ],
+        minDamage: 30,
+        maxDamage: 30,
+        critChance: 0,
+        
+        elementDamage:"physical",
+        projectile: "basic-bolt",
+        shootType:  "smallphysical",
+        weaponType: "bolt",
+        weight: "5",
+        description: "Basic bolt (Atk: 3 ~ 12)."
+}

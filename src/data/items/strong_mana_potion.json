@@ -1,0 +1,14 @@
+{
+	iconSize: 16,
+	equipType: -1,
+	maxStackSize: 200,
+        minDamage: 150,
+        consumable: true,
+        level:50,
+        
+        vocations: [
+                {"name":"1"},
+                {"name":"2"},
+                {"name":"3"}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"iconSize": 16,
+	"equipType": -1,
+        "spell": "fire_field",
+        "rune": true,
+        "level": 27,
+        "magic": 5,
+        "durability": 2,
+        "clickUse": true,
+        "maxStackSize": 200,
+        "hitRange": 8
+}

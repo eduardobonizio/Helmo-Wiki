@@ -1,0 +1,13 @@
+{
+	"equipType":4,
+	"defense": 11,
+    
+        "level": 130,
+        "rarity": 4,
+        "protectIce":8,
+    
+        "vocations": [
+		{"name":"2"},
+                {"name":"3"}
+	]
+}

@@ -13,7 +13,14 @@ export const Popup = ({ drop, closePopup, monsters }) => {
               (item) => item.item === drop.item
             );
             if (monsterWithDrop.length > 0) {
-              return <span key={i}>{monster.id}, </span>;
+              return (
+                <div key={i}>
+                  {monster.id}{" "}
+                  {monster.drops.find((item) => item.item === drop.item)
+                    .chance / 1000}
+                  % ,{" "}
+                </div>
+              );
             }
             return false;
           })}

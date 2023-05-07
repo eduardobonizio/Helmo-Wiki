@@ -1,0 +1,12 @@
+{
+	"equipType":5,
+	"defense": 16,
+        "bonusMagic": 3,
+        "protectIce": 10,
+    
+        "level": 150,
+        "vocations": [
+		{"name":"2"},
+                {"name":"3"}
+	]
+}

@@ -1,0 +1,7 @@
+{
+	iconSize: 16,
+	equipType: -1,
+        clickUse: true,
+        "tool": true,
+        "hitRange": 2
+}

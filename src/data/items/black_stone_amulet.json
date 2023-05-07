@@ -1,0 +1,11 @@
+{
+	"iconSize": 16,
+	"buff": true,
+	"equipType": 0,
+        "level": 60,
+        "rarity": 4,
+        "durability": 5,
+        
+        "protectDeath": 80,
+        "protectPhysical": 80
+}

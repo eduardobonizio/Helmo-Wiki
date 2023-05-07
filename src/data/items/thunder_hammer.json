@@ -1,0 +1,24 @@
+{
+	iconSize: 16,
+	durability: 200,
+	equipType: 3,
+	numOfStyles: 1,
+
+	minDamage: 21,
+	maxDamage: 26,
+        
+	hitRange: 1,
+        
+	sounds: [
+		["actions/hit"],
+	],
+        
+        "vocations": [
+		{"name":"0"}
+	],
+        
+        elementDamage:"physical",
+        extraElementDamage:"energy",
+        weaponType:"club",
+        weight: "2250"
+}

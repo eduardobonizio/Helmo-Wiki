@@ -1,0 +1,13 @@
+{
+	"equipType":7,
+	"defense": 7,
+    
+        "rarity": 4,
+    
+        "level": 40,
+        "protectPhysical":3,
+    
+        "vocations": [
+                {"name":"1"}
+	]
+}

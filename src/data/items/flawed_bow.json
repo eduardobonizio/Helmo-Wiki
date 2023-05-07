@@ -1,0 +1,18 @@
+{
+        iconSize: 16,
+        equipType: 3,
+        numOfStyles: 1,
+        sounds: [
+                ["actions/hit"],
+        ],
+        minDamage: 1,
+        maxDamage: 1,
+        
+        hitRange: 3,
+        weaponType: "bow",
+        weight: "2300",
+        
+        "vocations": [
+		{"name":"1"}
+	]
+}

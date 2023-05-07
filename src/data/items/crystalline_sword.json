@@ -1,0 +1,27 @@
+{
+	iconSize: 16,
+	durability: 256,
+	equipType: 3,
+	numOfStyles: 1,
+        
+	minDamage: 35,
+	maxDamage: 12,
+        "rarity": 5,
+        
+	hitRange: 1,
+	sounds: [
+		["actions/hit"],
+	],
+        elementDamage:"physical",
+        extraElementDamage:"ice",
+        weaponType:"sword",
+        weight: "2250",
+        description: "",
+        
+        level: 110,
+        
+        vocations: [
+		{"name":"0"}
+	]
+        
+}

@@ -1,0 +1,10 @@
+{
+	"equipType":1,
+	"defense": 3,
+        "rarity": 2,
+    
+        "vocations": [
+		{"name":"0"},
+                {"name":"1"}
+	]
+}

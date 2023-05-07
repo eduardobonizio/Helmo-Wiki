@@ -1,0 +1,23 @@
+{
+        iconSize: 16,
+        durability: 256,
+        equipType: 3,
+        numOfStyles: 1,
+        "minDamage": 20,
+        "rarity": 5,
+        sounds: [
+                ["actions/hit"],
+        ],
+        "critMultiplier": 1.1,
+        "critChance": 25,
+        "hitRange": 7,
+        
+        "level": 210,
+        
+        "weaponType": "bow",
+        "weight": "2300",
+        
+        "vocations": [
+		{"name":"1"}
+	]
+}

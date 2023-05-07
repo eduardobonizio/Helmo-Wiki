@@ -1,0 +1,26 @@
+{
+        iconSize: 16,
+        durability: 256,
+        equipType: 3,
+        numOfStyles: 1,
+        "rarity": 4, 
+        sounds: [
+                ["actions/hit"],
+        ],
+        "minDamage": 20,
+        "maxDamage": 25,
+        "hitRange": 6,
+        "manaCost": 5,
+        
+        "elementDamage":"earth",
+        "projectile": "earth-ball",
+        "shootType":  13,
+        "weaponType": "rod",
+        "weight": "2300",
+        "description": "Icecold rays of moonlight shimmer on its tip (Atk: 20 ~ 30).",
+        
+        "level": 35,
+        "vocations": [
+		{"name":"2"}
+	]
+}

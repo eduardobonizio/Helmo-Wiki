@@ -1,0 +1,14 @@
+{
+	"equipType":4,
+	"defense": 6,
+    
+        "bonusMagic":1,
+        "rarity": 4,
+    
+        "level": 20,
+        
+        "vocations": [
+		{"name":"2"},
+                {"name":"3"}
+	]
+}

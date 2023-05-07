@@ -1,0 +1,9 @@
+{
+	"equipType":8,
+	"capacity": 6,
+        "container": true,
+        "bonusDistance":3,
+        "level": 180,
+        "rarity": 5,
+        "weaponType":"quiver"
+}

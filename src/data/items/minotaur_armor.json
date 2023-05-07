@@ -1,0 +1,12 @@
+{
+	"minDamage":1,
+	"durability":400,
+	"equipType":4,
+	"defense": 7,
+        "rarity": 2,
+    
+        "level": 15,
+        "vocations": [
+		{"name":"0"}
+	]
+}

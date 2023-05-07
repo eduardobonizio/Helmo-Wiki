@@ -1,0 +1,11 @@
+{
+	"equipType":1,
+	"defense": 3,
+	"bonusDistance": 1,
+        "level": 20,
+        "rarity": 3,
+
+        "vocations": [
+		{"name":"1"}
+	]
+}

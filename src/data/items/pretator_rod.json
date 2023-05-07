@@ -1,0 +1,29 @@
+{
+        "iconSize": 16,
+        "durability": 256,
+        "equipType": 3,
+        "numOfStyles": 1,
+        "rarity": 4,
+
+        "sounds": [
+                ["actions/hit"]
+        ],
+        
+        "bonusMagic": 2,
+        "minDamage": 60,
+        "maxDamage": 65 ,
+        "hitRange": 7,
+        "manaCost": 13,
+        
+        "elementDamage":"death",
+        "projectile": "death-ball",
+        "shootType":  12,
+        "weaponType": "rod",
+        "weight": "2300",
+        "description": "",
+        
+        "level": 110,
+        "vocations": [
+                {"name":"2"}
+	]
+}

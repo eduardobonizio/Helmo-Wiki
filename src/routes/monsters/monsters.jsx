@@ -1,4 +1,4 @@
-import monsters from "../../creatures/monsters.json";
+import monsters from "../../data/monsters.json";
 import React, { useState } from "react";
 import Popup from "../../elements/popup/popup";
 

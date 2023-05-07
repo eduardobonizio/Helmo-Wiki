@@ -1,0 +1,23 @@
+{
+	iconSize: 22,
+	durability: 35,
+	equipType: 3,
+	numOfStyles: 1,
+	useAnimData: [
+		{runtime: 0.2}
+	],
+	knockback: 16,
+	minDamage: 6,
+	maxDamage: 9,
+	critMultiplier: 1.5,
+	critChance: 25,
+	hitRange: 1,
+	sounds: [
+		["actions/hit"],
+	],
+        
+        elementDamage:"physical",
+        weaponType:"sword",
+        weight: "4250",
+        description: "A masterpiece of a dwarven smith. (Atk: 4 ~ 7)."
+}

@@ -1,0 +1,27 @@
+{
+	iconSize: 16,
+	durability: 256,
+	equipType: 3,
+	numOfStyles: 1,
+	knockback: 26,
+        "rarity": 5,
+        
+	minDamage: 35,
+	maxDamage: 20,
+        
+        level: 110,
+        vocations: [
+		{"name":"0"}
+	],
+        
+	hitRange: 1,
+	sounds: [
+		["actions/hit"],
+	],
+        elementDamage:"physical",
+        extraElementDamage:"fire",
+        weaponType:"axe",
+        weight: "2250",
+        description: "A masterpiece of a dwarven smith. (Atk: 4 ~ 7)."
+        
+}

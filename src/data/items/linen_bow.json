@@ -1,0 +1,22 @@
+{
+        "iconSize": 16,
+        "durability": 256,
+        "equipType": 3,
+        "minDamage": 0,
+        "numOfStyles": 1,
+        "rarity": 3, 
+        
+        "sounds": [
+                ["actions/hit"]
+        ],
+        
+        "hitRange": 5,
+        "bonusDistance": 1,
+        "weaponType": "bow",
+        "weight": "2300",
+        
+        "level": 20,
+        "vocations": [
+		{"name":"1"}
+	]
+}

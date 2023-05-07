@@ -1,0 +1,13 @@
+{
+	"equipType":5,
+	"defense": 30,
+        "level": 50,
+    
+        "rarity": 4,
+    
+        "protectEarth":10,
+    
+        "vocations": [
+		{"name":"0"}
+	]
+}

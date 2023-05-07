@@ -1,0 +1,10 @@
+{
+	"iconSize": 16,
+	"equipType": -1,
+        "spell": "suden_death",
+        "rune": true,
+        "level": 45,
+        "magic": 15,
+        "durability": 3,
+        "maxStackSize": 200
+}

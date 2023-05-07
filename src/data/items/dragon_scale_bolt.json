@@ -1,0 +1,21 @@
+{
+        iconSize: 16,
+        durability: 256,
+        equipType: 8,
+        maxStackSize: 200,
+        sounds: [
+                ["actions/hit"],
+        ],
+        minDamage: 56,
+        maxDamage: 56,
+        critChance: 0,
+        
+        level: 70,
+        
+        elementDamage:"physical",
+        projectile: "dragon-scale-bolt",
+        shootType:  "smallphysical",
+        weaponType: "bolt",
+        weight: "5",
+        description: "Dragon Scale bolt (Atk: 120 ~ 380)."
+}

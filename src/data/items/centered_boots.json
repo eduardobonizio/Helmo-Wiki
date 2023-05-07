@@ -1,0 +1,12 @@
+{
+	"equipType":10,
+	"defense": 7,
+        "bonusMelee": 2,
+        "bonusSpeed": 10,
+        "level": 110,
+        "rarity": 5,
+    
+        "vocations": [
+	    {"name":"0"}
+	]
+}
