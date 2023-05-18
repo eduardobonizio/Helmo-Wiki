@@ -17,8 +17,9 @@
   "defense": 45,
   "drops": [
     { "item": "gold", "chance": 100000, "min": 10, "max": 200 },
-    { "item": "royal_axe", "chance": 100 },
-    { "item": "dark_bagpack", "chance": 50 },
+    { "item": "royal_axe", "chance": 200 },
+    { "item": "pretator_rod", "chance": 100 },
+    { "item": "dark_bagpack", "chance": 100 },
     { "item": "club_with_spikes", "chance": 400 },
     { "item": "royal_helmet", "chance": 1000 },
     { "item": "earth_crystal", "chance": 5000 }

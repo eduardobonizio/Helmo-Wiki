@@ -23,7 +23,7 @@
     { "item": "steel_armor", "chance": 500 },
     { "item": "noble_magic_wand", "chance": 100 },
     { "item": "noble_magic_rod", "chance": 100 },
-    { "item": "crystal_tortoiseshell", "chance": 500 }
+    { "item": "crystal_tortoiseshell", "chance": 1000 }
   ],
   "collisionRects": [
     {

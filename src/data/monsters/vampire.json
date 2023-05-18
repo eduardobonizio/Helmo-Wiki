@@ -3,7 +3,7 @@
   "hittable": true,
   "maxDirections": 4,
   "speed": 45,
-  "maxHealth": 475,
+  "maxHealth": 685,
   "showHealthBar": true,
   "footstepSound": "slime",
   "imgWidth": 32,
@@ -13,7 +13,7 @@
   "drawOrderOffsetY": 16,
   "offsetX": -8,
   "offsetY": 0,
-  "experience": 305,
+  "experience": 505,
   "defense": 28,
   "drops": [
     { "item": "gold", "chance": 100000, "min": 10, "max": 60 },
@@ -55,7 +55,7 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 0, "max": 150 },
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 190 },
     {
       "attack": "death",
       "interval": 5000,

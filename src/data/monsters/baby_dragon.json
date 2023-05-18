@@ -61,6 +61,7 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 110 },
     {
       "attack": "fire",
       "interval": 2000,

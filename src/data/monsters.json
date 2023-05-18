@@ -87,6 +87,7 @@
       { "name": "deactivationZoneDistance", "type": "int" }
     ],
     "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 0, "max": 110 },
       {
         "attack": "fire",
         "interval": 2000,
@@ -808,7 +809,7 @@
       },
       {
         "item": "Crystal Tortoiseshell",
-        "chance": 500,
+        "chance": 1000,
         "originalName": "crystal_tortoiseshell"
       }
     ],
@@ -906,8 +907,9 @@
         "max": 200,
         "originalName": "gold"
       },
-      { "item": "Royal Axe", "chance": 100, "originalName": "royal_axe" },
-      { "item": "Dark Bagpack", "chance": 50, "originalName": "dark_bagpack" },
+      { "item": "Royal Axe", "chance": 200, "originalName": "royal_axe" },
+      { "item": "Pretator Rod", "chance": 100, "originalName": "pretator_rod" },
+      { "item": "Dark Bagpack", "chance": 100, "originalName": "dark_bagpack" },
       {
         "item": "Club With Spikes",
         "chance": 400,
@@ -1006,7 +1008,7 @@
       {
         "item": "Gold",
         "chance": 100000,
-        "min": 0,
+        "min": 100,
         "max": 700,
         "originalName": "gold"
       },
@@ -1025,18 +1027,22 @@
       },
       { "item": "Demon Shield", "chance": 100, "originalName": "demon_shield" },
       { "item": "Demon Boots", "chance": 50, "originalName": "demon_boots" },
-      { "item": "Thunder Wand", "chance": 500, "originalName": "thunder_wand" },
       { "item": "Necro Rod", "chance": 500, "originalName": "necro_rod" },
       {
         "item": "Earth Crystal",
         "chance": 5000,
         "originalName": "earth_crystal"
       },
-      { "item": "Royal Axe", "chance": 100, "originalName": "royal_axe" },
+      { "item": "Royal Axe", "chance": 300, "originalName": "royal_axe" },
       {
         "item": "Hylian Broadsword",
         "chance": 2000,
         "originalName": "hylian_broadsword"
+      },
+      {
+        "item": "Hellfire Wand",
+        "chance": 300,
+        "originalName": "hellfire_wand"
       }
     ],
     "collisionRects": [
@@ -1068,7 +1074,7 @@
       { "name": "deactivationZoneDistance", "type": "int" }
     ],
     "attacks": [
-      { "attack": "melee", "interval": 2000, "min": 0, "max": 450 },
+      { "attack": "melee", "interval": 2000, "min": 100, "max": 450 },
       {
         "attack": "energy",
         "interval": 6000,
@@ -1758,7 +1764,7 @@
     "hittable": true,
     "maxDirections": 4,
     "speed": 50,
-    "maxHealth": 90,
+    "maxHealth": 125,
     "showHealthBar": true,
     "footstepSound": "slime",
     "imgWidth": 32,
@@ -1768,7 +1774,7 @@
     "drawOrderOffsetY": 32,
     "offsetX": -8,
     "offsetY": 0,
-    "experience": 45,
+    "experience": 70,
     "defense": 8,
     "drops": [
       {
@@ -1786,7 +1792,8 @@
         "min": 1,
         "max": 2,
         "originalName": "zillii_fish"
-      }
+      },
+      { "item": "Steel Ring", "chance": 30, "originalName": "steel_ring" }
     ],
     "collisionRects": [
       {
@@ -1845,16 +1852,18 @@
         "originalName": "gold"
       },
       { "item": "Broadsword", "chance": 500, "originalName": "broadsword" },
-      { "item": "Steel Armor", "chance": 300, "originalName": "steel_armor" },
-      { "item": "Steel Helmet", "chance": 300, "originalName": "steel_helmet" },
-      { "item": "Steel Boots", "chance": 300, "originalName": "steel_boots" },
-      { "item": "Dwarf Shield", "chance": 350, "originalName": "dwarf_shield" },
+      { "item": "Steel Armor", "chance": 500, "originalName": "steel_armor" },
+      { "item": "Steel Helmet", "chance": 500, "originalName": "steel_helmet" },
+      { "item": "Steel Boots", "chance": 500, "originalName": "steel_boots" },
+      { "item": "Dwarf Shield", "chance": 550, "originalName": "dwarf_shield" },
       {
         "item": "Silver Necklace",
         "chance": 30,
         "originalName": "silver_necklace"
       },
-      { "item": "Double Axe", "chance": 200, "originalName": "double_axe" }
+      { "item": "Double Axe", "chance": 500, "originalName": "double_axe" },
+      { "item": "Steel Ring", "chance": 200, "originalName": "steel_ring" },
+      { "item": "Steel Legs", "chance": 500, "originalName": "steel_legs" }
     ],
     "collisionRects": [
       {
@@ -2517,24 +2526,24 @@
       {
         "item": "Gold",
         "chance": 100000,
-        "min": 0,
+        "min": 100,
         "max": 600,
         "originalName": "gold"
       },
       { "item": "Thigh", "chance": 60000, "max": 4, "originalName": "thigh" },
       {
         "item": "Crystalline Axe",
-        "chance": 20,
+        "chance": 100,
         "originalName": "crystalline_axe"
       },
       {
         "item": "Crystalline Sword",
-        "chance": 20,
+        "chance": 100,
         "originalName": "crystalline_sword"
       },
       {
         "item": "Earth Crystal",
-        "chance": 2000,
+        "chance": 5000,
         "originalName": "earth_crystal"
       },
       {
@@ -2553,7 +2562,8 @@
         "item": "Repressive Mask",
         "chance": 300,
         "originalName": "repressive_mask"
-      }
+      },
+      { "item": "Icestorm Rod", "chance": 300, "originalName": "icestorm_rod" }
     ],
     "collisionRects": [
       {
@@ -2584,7 +2594,7 @@
       { "name": "deactivationZoneDistance", "type": "int" }
     ],
     "attacks": [
-      { "attack": "melee", "interval": 2000, "min": 0, "max": 500 },
+      { "attack": "melee", "interval": 2000, "min": 100, "max": 500 },
       {
         "attack": "ice",
         "interval": 7000,
@@ -3007,6 +3017,126 @@
       { "name": "deactivationZoneDistance", "type": "int" }
     ],
     "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 85 }]
+  },
+  {
+    "id": "Giant Cockle",
+    "hittable": true,
+    "maxDirections": 4,
+    "speed": 80,
+    "maxHealth": 4100,
+    "showHealthBar": true,
+    "footstepSound": "slime",
+    "imgWidth": 32,
+    "imgHeight": 32,
+    "footstepOffsetX": 0,
+    "footstepOffsetY": 35,
+    "drawOrderOffsetY": 32,
+    "offsetX": -8,
+    "offsetY": 0,
+    "experience": 3700,
+    "defense": 74,
+    "drops": [
+      {
+        "item": "Gold",
+        "chance": 100000,
+        "min": 100,
+        "max": 800,
+        "originalName": "gold"
+      },
+      {
+        "item": "Earth Crystal",
+        "chance": 5000,
+        "originalName": "earth_crystal"
+      },
+      { "item": "Royal Axe", "chance": 200, "originalName": "royal_axe" },
+      { "item": "Voodoo Wand", "chance": 100, "originalName": "voodoo_wand" },
+      {
+        "item": "Style Bagpack",
+        "chance": 100,
+        "originalName": "style_bagpack"
+      },
+      {
+        "item": "Ruby Necklace",
+        "chance": 500,
+        "originalName": "ruby_necklace"
+      },
+      { "item": "Holy Helmet", "chance": 100, "originalName": "holy_helmet" },
+      { "item": "Tearing Fang", "chance": 500, "originalName": "tearing_fang" },
+      {
+        "item": "Mysteries Book",
+        "chance": 200,
+        "originalName": "mysteries_book"
+      }
+    ],
+    "collisionRects": [
+      {
+        "name": "hit",
+        "hard": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "totalRuntime": 0.5,
+        "numberOfDirections": 4,
+        "looping": true
+      },
+      {
+        "id": "default",
+        "fileName": "walk",
+        "totalRuntime": 0,
+        "numberOfDirections": 4
+      }
+    ],
+    "properties": [
+      { "name": "activationZoneDistance", "type": "int" },
+      { "name": "deactivationZoneDistance", "type": "int" }
+    ],
+    "attacks": [
+      { "attack": "melee", "interval": 2000, "min": 0, "max": 450 },
+      {
+        "attack": "physical",
+        "interval": 6000,
+        "chance": 100,
+        "min": 200,
+        "max": 450,
+        "type": "area",
+        "particle": 8,
+        "radius": 3
+      }
+    ],
+    "defenses": [
+      {
+        "name": "healing",
+        "interval": 8000,
+        "chance": 30,
+        "min": 100,
+        "max": 400
+      },
+      {
+        "name": "life_drain",
+        "interval": 8000,
+        "chance": 30,
+        "min": 350,
+        "max": 600,
+        "type": "area",
+        "particle": 12,
+        "radius": 6
+      }
+    ],
+    "elements": [
+      { "name": "Holy", "value": 105 },
+      { "name": "Physical", "value": 95 },
+      { "name": "Ice", "value": 95 },
+      { "name": "Fire", "value": 90 },
+      { "name": "Death", "value": 90 },
+      { "name": "Energy", "value": 85 },
+      { "name": "Earth", "value": 80 }
+    ]
   },
   {
     "id": "Glacier Warrior",
@@ -4339,7 +4469,12 @@
         "chance": 500,
         "max": 1,
         "originalName": "minotaur_horn"
-      }
+      },
+      { "item": "Linen Boots", "chance": 300, "originalName": "linen_boots" },
+      { "item": "Linen Armor", "chance": 300, "originalName": "linen_armor" },
+      { "item": "Linen Hat", "chance": 300, "originalName": "linen_hat" },
+      { "item": "Linen Bow", "chance": 300, "originalName": "linen_bow" },
+      { "item": "Linen Legs", "chance": 300, "originalName": "linen_legs" }
     ],
     "collisionRects": [
       {
@@ -4417,22 +4552,22 @@
       },
       {
         "item": "Minotaur Mage Hat",
-        "chance": 150,
+        "chance": 250,
         "originalName": "minotaur_mage_hat"
       },
       {
         "item": "Minotaur Mage Legs",
-        "chance": 200,
+        "chance": 300,
         "originalName": "minotaur_mage_legs"
       },
       {
         "item": "Minotaur Mage Boots",
-        "chance": 200,
+        "chance": 300,
         "originalName": "minotaur_mage_boots"
       },
       {
         "item": "Minotaur Mage Robe",
-        "chance": 200,
+        "chance": 300,
         "originalName": "minotaur_mage_robe"
       },
       { "item": "Mino Key", "chance": 10, "originalName": "mino_key" },
@@ -5000,7 +5135,7 @@
     "hittable": true,
     "maxDirections": 4,
     "speed": 30,
-    "maxHealth": 70,
+    "maxHealth": 90,
     "showHealthBar": true,
     "footstepSound": "slime",
     "imgWidth": 32,
@@ -5010,7 +5145,7 @@
     "drawOrderOffsetY": 16,
     "offsetX": -8,
     "offsetY": 0,
-    "experience": 25,
+    "experience": 45,
     "defense": 4,
     "drops": [
       {
@@ -5086,7 +5221,8 @@
       { "item": "Broadsword", "chance": 2000, "originalName": "broadsword" },
       { "item": "Steel Boots", "chance": 1000, "originalName": "steel_boots" },
       { "item": "Steel Legs", "chance": 1000, "originalName": "steel_legs" },
-      { "item": "Goblin Key", "chance": 20, "originalName": "goblin_key" }
+      { "item": "Goblin Key", "chance": 20, "originalName": "goblin_key" },
+      { "item": "Steel Ring", "chance": 50, "originalName": "steel_ring" }
     ],
     "collisionRects": [
       {
@@ -5124,7 +5260,7 @@
     "hittable": true,
     "maxDirections": 4,
     "speed": 30,
-    "maxHealth": 115,
+    "maxHealth": 135,
     "showHealthBar": true,
     "footstepSound": "slime",
     "imgWidth": 32,
@@ -5134,7 +5270,7 @@
     "drawOrderOffsetY": 16,
     "offsetX": -8,
     "offsetY": 0,
-    "experience": 110,
+    "experience": 125,
     "defense": 8,
     "drops": [
       {
@@ -5977,7 +6113,27 @@
         "chance": 1000,
         "originalName": "earth_crystal"
       },
-      { "item": "Iron Hatchet", "chance": 300, "originalName": "iron_hatchet" }
+      { "item": "Iron Hatchet", "chance": 300, "originalName": "iron_hatchet" },
+      {
+        "item": "Noble Magic Book",
+        "chance": 30,
+        "originalName": "noble_magic_book"
+      },
+      {
+        "item": "Noble Magic Boots",
+        "chance": 30,
+        "originalName": "noble_magic_boots"
+      },
+      {
+        "item": "Noble Magic Hat",
+        "chance": 30,
+        "originalName": "noble_magic_hat"
+      },
+      {
+        "item": "Noble Magic Legs",
+        "chance": 50,
+        "originalName": "noble_magic_legs"
+      }
     ],
     "collisionRects": [
       {
@@ -6612,7 +6768,7 @@
     "hittable": true,
     "maxDirections": 4,
     "speed": 45,
-    "maxHealth": 475,
+    "maxHealth": 685,
     "showHealthBar": true,
     "footstepSound": "slime",
     "imgWidth": 32,
@@ -6622,7 +6778,7 @@
     "drawOrderOffsetY": 16,
     "offsetX": -8,
     "offsetY": 0,
-    "experience": 305,
+    "experience": 505,
     "defense": 28,
     "drops": [
       {
@@ -6683,7 +6839,7 @@
       { "name": "deactivationZoneDistance", "type": "int" }
     ],
     "attacks": [
-      { "attack": "melee", "interval": 2000, "min": 0, "max": 150 },
+      { "attack": "melee", "interval": 2000, "min": 0, "max": 190 },
       {
         "attack": "death",
         "interval": 5000,

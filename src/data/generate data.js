@@ -5,18 +5,17 @@ const path = require("path");
 const monsters = [];
 
 const jsonsInDir = fs
-  .readdirSync("./src/creatures/monsters")
+  .readdirSync("./src/data/monsters")
   .filter((file) => path.extname(file) === ".json");
 jsonsInDir.forEach((file) => {
   console.log("Last monster: ", file);
-  const fileData = fs.readFileSync(path.join("./src/creatures/monsters", file));
+  const fileData = fs.readFileSync(path.join("./src/data/monsters", file));
   const json = JSON.parse(fileData.toString());
   monsters.push(json);
 });
 
 const letrasMaiusculas = (text) => {
   const palavras = text.replaceAll("_", " ").split(" ");
-
   for (let i = 0; i < palavras.length; i++) {
     palavras[i] = palavras[i][0].toUpperCase() + palavras[i].substr(1);
   }
@@ -46,7 +45,7 @@ const monstersFix = monsters.map((monster) => {
 });
 
 fs.writeFile(
-  "./src/creatures/monsters.json",
+  "./src/data/monsters.json",
   JSON.stringify(monstersFix),
   "utf8",
   function (err) {

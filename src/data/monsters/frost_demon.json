@@ -18,14 +18,14 @@
   "drops": [
     { "item": "gold", "chance": 100000, "min": 100, "max": 600 },
     { "item": "thigh", "chance": 60000, "max": 4 },
-    { "item": "crystalline_axe", "chance": 20 },
-    { "item": "demon_shield", "chance": 100 },
-    { "item": "crystalline_sword", "chance": 20 },
+    { "item": "crystalline_axe", "chance": 100 },
+    { "item": "crystalline_sword", "chance": 100 },
     { "item": "earth_crystal", "chance": 5000 },
     { "item": "strong_health_potion", "chance": 2000, "max": 5 },
     { "item": "hylian_broadsword", "chance": 1000 },
     { "item": "blue_robe", "chance": 100 },
-    { "item": "repressive_mask", "chance": 300 }
+    { "item": "repressive_mask", "chance": 300 },
+    { "item": "icestorm_rod", "chance": 300 }
   ],
   "collisionRects": [
     {
@@ -56,7 +56,7 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 0, "max": 500 },
+    { "attack": "melee", "interval": 2000, "min": 100, "max": 500 },
     {
       "attack": "ice",
       "interval": 7000,

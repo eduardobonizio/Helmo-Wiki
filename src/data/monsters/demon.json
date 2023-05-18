@@ -22,11 +22,11 @@
     { "item": "great_health_potion", "chance": 5500, "max": 3 },
     { "item": "demon_shield", "chance": 100 },
     { "item": "demon_boots", "chance": 50 },
-    { "item": "thunder_wand", "chance": 500 },
     { "item": "necro_rod", "chance": 500 },
     { "item": "earth_crystal", "chance": 5000 },
-    { "item": "royal_axe", "chance": 100 },
-    { "item": "hylian_broadsword", "chance": 2000 }
+    { "item": "royal_axe", "chance": 300 },
+    { "item": "hylian_broadsword", "chance": 2000 },
+    { "item": "hellfire_wand", "chance": 300 }
   ],
   "collisionRects": [
     {
@@ -57,7 +57,7 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 0, "max": 450 },
+    { "attack": "melee", "interval": 2000, "min": 100, "max": 450 },
     {
       "attack": "energy",
       "interval": 6000,
