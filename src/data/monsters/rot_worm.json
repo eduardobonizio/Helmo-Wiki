@@ -15,13 +15,16 @@
   "speed": 17,
   "maxHealth": 65,
   "defense": 8,
+  "bestiary": 7,
+  "charm": 2,
   "drops": [
     { "item": "gold", "chance": 60000, "min": 0, "max": 20 },
     { "item": "thigh", "chance": 60000, "max": 2 },
     { "item": "worm_rest", "chance": 15000 },
     { "item": "worm_tooth", "chance": 15000 },
     { "item": "earth_crystal", "chance": 500 },
-    { "item": "earthworm", "chance": 30000, "min": 3, "max": 6 }
+    { "item": "earthworm", "chance": 30000, "min": 3, "max": 6 },
+    { "item": "legion_helmet", "chance": 20 }
   ],
   "collisionRects": [
     {

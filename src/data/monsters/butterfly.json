@@ -4,8 +4,8 @@
   "maxDirections": 4,
   "speed": 20,
   "maxHealth": 1,
+  "deathParticle": 44,
   "showHealthBar": true,
-  "footstepSound": "slime",
   "imgWidth": 32,
   "imgHeight": 32,
   "footstepOffsetX": 0,
@@ -16,6 +16,8 @@
   "experience": 0,
   "defense": 0,
   "harmless": true,
+  "bestiary": 1,
+  "charm": 0,
   "drops": [],
   "collisionRects": [
     {

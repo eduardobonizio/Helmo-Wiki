@@ -15,9 +15,11 @@
   "offsetY": 0,
   "experience": 450,
   "defense": 35,
+  "bestiary": 15,
+  "charm": 5,
   "drops": [
     { "item": "gold", "chance": 100000, "min": 0, "max": 120 },
-    { "item": "frost_rod", "chance": 100 },
+    { "item": "frost_rod", "chance": 50 },
     { "item": "earth_crystal", "chance": 1000 }
   ],
   "collisionRects": [

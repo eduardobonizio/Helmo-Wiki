@@ -1,0 +1,67 @@
+{
+	"id":"cursed_fire_book",
+	"hittable":true,
+	"maxDirections":4,
+	"speed":80,
+	"maxHealth":18000,
+	"showHealthBar": true,
+	"footstepSound":"slime",
+	"imgWidth":40,
+	"imgHeight":40,
+	"footstepOffsetX":0,
+	"footstepOffsetY":35,
+	"drawOrderOffsetY":33,
+        "offsetX":-10,
+        "offsetY":0,
+        "experience": 12934,
+        "defense": 42,
+        "pushable": false,
+        "bestiary": 50,
+        "charm": 50,
+        "drops": [
+                    {"item":"gold", "chance": 100000, "min":800, "max":1400},
+                    {"item":"ruby_necklace", "chance": 2000},
+                    {"item":"mysteries_book", "chance": 1000},
+                    {"item":"earth_crystal", "chance": 2000},
+                    {"item":"boots_of_speed", "chance": 1000},
+                    {"item":"hellfire_wand", "chance": 50},
+                    {"item":"blue_robe", "chance": 1000},
+                    {"item":"blue_legs", "chance": 1000},
+                    {"item":"fire_axe", "chance": 1000},
+                    {"item":"thick_flame_necklace", "chance": 1000},
+                    {"item":"dust", "chance": 2000, "min":1, "max":2},
+                    
+                    {"item":"cursed_mage_hat", "chance": 30},
+                    {"item":"cursed_robe", "chance": 30},
+                    {"item":"cursed_shanks", "chance": 30},
+                    {"item":"cursed_mage_boots", "chance": 30}
+                    
+        ],
+	"collisionRects":[
+		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
+		],
+	"animations":[
+		{"id":"walk", "totalRuntime":0.5, "numberOfDirections":4, "looping":true},
+		{"id":"default", "totalRuntime":0.9, "fileName":"walk", "numberOfDirections": 4}
+		],
+	"properties": [
+		{"name":"activationZoneDistance", "type":"int"},
+		{"name":"deactivationZoneDistance", "type":"int"}
+	],
+        "attacks": [
+		{"attack":"melee", "interval":2000, "min":0, "max":700},
+                {"attack":"fire", "interval":3000, "chance":100, "range":8, "min":800, "max":1100, "type":"shoot", "anim":"fire-ball", "particle":3},
+                {"attack":"fire", "interval":6000, "chance":50, "min":700, "max":950, "type":"area", "particle":3,"radius":5},
+                {"attack":"fire", "interval":6000, "chance":50, "min":750, "max":950, "type":"area", "particle":3,"length":10,"spread":20,"range":12}
+	],
+        "defenses": [
+		{"name":"healing", "interval":8000, "chance": 30, "min":100, "max":400}
+	],
+        "elements": [
+                {"name":"ice", "value":110},
+                {"name":"holy", "value":115}
+	],
+        "immunities": [
+		{"name":"fire", "value":1}
+	]
+}

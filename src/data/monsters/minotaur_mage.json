@@ -15,15 +15,21 @@
   "offsetY": 0,
   "experience": 150,
   "defense": 18,
+  "bestiary": 15,
+  "charm": 5,
   "drops": [
     { "item": "gold", "chance": 100000, "min": 5, "max": 35 },
-    { "item": "minotaur_mage_hat", "chance": 250 },
-    { "item": "minotaur_mage_legs", "chance": 300 },
-    { "item": "minotaur_mage_boots", "chance": 300 },
-    { "item": "minotaur_mage_robe", "chance": 300 },
+    { "item": "minotaur_mage_hat", "chance": 600 },
+    { "item": "minotaur_mage_legs", "chance": 600 },
+    { "item": "minotaur_mage_boots", "chance": 600 },
+    { "item": "minotaur_mage_robe", "chance": 600 },
+    { "item": "garlic_necklace", "chance": 500 },
+    { "item": "bronze_amulet", "chance": 500 },
     { "item": "mino_key", "chance": 10 },
     { "item": "minotaur_paw", "chance": 500, "max": 1 },
-    { "item": "minotaur_horn", "chance": 500, "max": 1 }
+    { "item": "minotaur_horn", "chance": 500, "max": 1 },
+    { "item": "minotaur_leather", "chance": 350, "max": 1 },
+    { "item": "gray_bagpack", "chance": 600 }
   ],
   "collisionRects": [
     {

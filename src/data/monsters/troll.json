@@ -13,18 +13,20 @@
   "drawOrderOffsetY": 16,
   "offsetX": -8,
   "offsetY": 0,
-  "experience": 150,
+  "experience": 160,
   "defense": 17,
+  "bestiary": 25,
+  "charm": 15,
   "drops": [
     { "item": "gold", "chance": 100000, "min": 10, "max": 65 },
     { "item": "shovel", "chance": 200 },
     { "item": "rope", "chance": 200 },
     { "item": "double_axe", "chance": 1000 },
-    { "item": "royal_helmet", "chance": 50 },
-    { "item": "royal_armor", "chance": 200 },
-    { "item": "royal_legs", "chance": 200 },
+    { "item": "royal_helmet", "chance": 200 },
+    { "item": "royal_armor", "chance": 500 },
+    { "item": "royal_legs", "chance": 500 },
     { "item": "royal_boots", "chance": 500 },
-    { "item": "royal_shield", "chance": 80 }
+    { "item": "royal_shield", "chance": 200 }
   ],
   "collisionRects": [
     {
@@ -58,5 +60,12 @@
     { "name": "earth", "value": 115 },
     { "name": "fire", "value": 75 }
   ],
-  "attacks": [{ "attack": "melee", "interval": 2000, "min": 30, "max": 100 }]
+  "attacks": [{ "attack": "melee", "interval": 2000, "min": 30, "max": 100 }],
+
+  "elements": [
+    { "name": "earth", "value": 110 },
+    { "name": "death", "value": 110 },
+    { "name": "energy", "value": 75 },
+    { "name": "holy", "value": 80 }
+  ]
 }

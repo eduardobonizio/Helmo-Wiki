@@ -4,6 +4,7 @@
   "maxDirections": 4,
   "speed": 50,
   "maxHealth": 1300,
+  "deathParticle": 44,
   "showHealthBar": true,
   "footstepSound": "slime",
   "imgWidth": 48,
@@ -15,14 +16,19 @@
   "offsetY": -16,
   "experience": 900,
   "defense": 30,
+  "pushable": false,
+  "bestiary": 25,
+  "charm": 15,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 0, "max": 189 },
-    { "item": "steel_armor", "chance": 1000 },
-    { "item": "steel_helmet", "chance": 1000 },
+    { "item": "gold", "chance": 100000, "min": 50, "max": 189 },
+    { "item": "steel_armor", "chance": 2000 },
+    { "item": "steel_helmet", "chance": 2000 },
     { "item": "royal_helmet", "chance": 1000 },
-    { "item": "steel_shield", "chance": 1000 },
-    { "item": "earth_crystal", "chance": 4000 },
-    { "item": "steel_bow", "chance": 200 }
+    { "item": "steel_shield", "chance": 2000 },
+    { "item": "steel_legs", "chance": 2000 },
+    { "item": "earth_crystal", "chance": 5000 },
+    { "item": "time_ring", "chance": 300 },
+    { "item": "steel_bow", "chance": 500 }
   ],
   "collisionRects": [
     {
@@ -53,7 +59,7 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 100, "max": 250 },
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 280 },
     {
       "attack": "earth",
       "interval": 2000,
@@ -67,7 +73,6 @@
     }
   ],
   "elements": [
-    { "name": "ice", "value": 80 },
     { "name": "energy", "value": 80 },
     { "name": "fire", "value": 115 }
   ],

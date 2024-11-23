@@ -1,0 +1,70 @@
+{
+  "id": "stone_golen",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 35,
+  "maxHealth": 270,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 32,
+  "imgHeight": 32,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 32,
+  "drawOrderOffsetY": 32,
+  "offsetX": -8,
+  "offsetY": 0,
+  "experience": 160,
+  "defense": 30,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 0, "max": 40 },
+    { "item": "earth_crystal", "chance": 1000 },
+    { "item": "iron_hatchet", "chance": 300 },
+    { "item": "noble_magic_book", "chance": 30 },
+    { "item": "noble_magic_boots", "chance": 30 },
+    { "item": "noble_magic_hat", "chance": 30 },
+    { "item": "noble_magic_legs", "chance": 50 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.7,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0.9,
+      "numberOfDirections": 4,
+      "looping": true
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 110 }],
+  "defenses": [
+    { "name": "healing", "interval": 10000, "chance": 10, "min": 30, "max": 60 }
+  ],
+  "elements": [
+    { "name": "fire", "value": 80 },
+    { "name": "death", "value": 80 },
+    { "name": "physical", "value": 90 },
+    { "name": "ice", "value": 110 }
+  ],
+  "immunities": [
+    { "name": "energy", "value": 1 },
+    { "name": "earth", "value": 1 }
+  ]
+}

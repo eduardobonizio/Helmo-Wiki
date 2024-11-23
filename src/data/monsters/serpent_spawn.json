@@ -1,0 +1,97 @@
+{
+  "id": "serpent_spawn",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 70,
+  "maxHealth": 3000,
+  "showHealthBar": true,
+  "deathParticle": 44,
+  "footstepSound": "slime",
+  "imgWidth": 64,
+  "imgHeight": 64,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 58,
+  "drawOrderOffsetY": 32,
+  "offsetX": -24,
+  "offsetY": -16,
+  "experience": 3050,
+  "defense": 35,
+  "bestiary": 105,
+  "charm": 50,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 100, "max": 500 },
+    { "item": "hylian_broadsword", "chance": 2000 },
+    { "item": "boots_of_speed", "chance": 80 },
+    { "item": "black_stone_amulet", "chance": 300 },
+    { "item": "earth_crystal", "chance": 5000 },
+    { "item": "dragon_scale_shield", "chance": 80 },
+    { "item": "halberd", "chance": 300 },
+    { "item": "green_cape", "chance": 150 },
+    { "item": "green_legs", "chance": 150 },
+    { "item": "green_hat", "chance": 150 },
+    { "item": "tearing_fang", "chance": 500 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.4,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4,
+      "looping": true
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 250 },
+    {
+      "attack": "earth",
+      "interval": 8000,
+      "chance": 30,
+      "min": 100,
+      "max": 500,
+      "type": "area",
+      "particle": 13,
+      "length": 8,
+      "spread": 3,
+      "range": 10
+    }
+  ],
+
+  "defenses": [
+    {
+      "name": "paralize",
+      "interval": 10000,
+      "chance": 20,
+      "type": "area",
+      "particle": 40,
+      "length": 8,
+      "spread": 3
+    }
+  ],
+
+  "elements": [
+    { "name": "energy", "value": 110 },
+    { "name": "ice", "value": 80 }
+  ],
+
+  "immunities": [{ "name": "earth", "value": 1 }]
+}

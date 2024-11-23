@@ -15,14 +15,17 @@
   "offsetY": 0,
   "experience": 125,
   "defense": 8,
+  "bestiary": 25,
+  "charm": 15,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 5, "max": 30 },
-    { "item": "steel_boots", "chance": 1000 },
-    { "item": "noble_magic_robe", "chance": 30 },
-    { "item": "noble_magic_book", "chance": 30 },
-    { "item": "noble_magic_boots", "chance": 30 },
-    { "item": "noble_magic_hat", "chance": 30 },
-    { "item": "noble_magic_legs", "chance": 50 }
+    { "item": "gold", "chance": 100000, "min": 10, "max": 48 },
+    { "item": "steel_boots", "chance": 1500 },
+    { "item": "garlic_necklace", "chance": 600 },
+    { "item": "noble_magic_robe", "chance": 100 },
+    { "item": "noble_magic_book", "chance": 100 },
+    { "item": "noble_magic_boots", "chance": 100 },
+    { "item": "noble_magic_hat", "chance": 100 },
+    { "item": "noble_magic_legs", "chance": 100 }
   ],
   "collisionRects": [
     {
@@ -75,5 +78,12 @@
       "anim": "fire-ball",
       "particle": 3
     }
+  ],
+
+  "elements": [
+    { "name": "earth", "value": 110 },
+    { "name": "death", "value": 110 },
+    { "name": "energy", "value": 80 },
+    { "name": "holy", "value": 90 }
   ]
 }

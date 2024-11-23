@@ -1,0 +1,61 @@
+{
+  "id": "rot_worm",
+  "hittable": true,
+  "maxDirections": 4,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 16,
+  "imgHeight": 20,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 22,
+  "drawOrderOffsetY": 16,
+  "offsetX": 0,
+  "offsetY": 0,
+  "experience": 40,
+  "speed": 17,
+  "maxHealth": 40,
+  "defense": 5,
+  "drops": [{ "item": "gold", "chance": 70000, "max": 35 }],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.6,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0.9,
+      "numberOfDirections": 4,
+      "looping": true
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [{ "attack": "melee", "interval": 2000, "min": 5, "max": 10 }],
+  "defenses": [
+    { "name": "healing", "interval": 4000, "chance": 10, "min": 5, "max": 12 }
+  ],
+  "elements": [
+    { "name": "energy", "value": 70 },
+    { "name": "earth", "value": 30 },
+    { "name": "ice", "value": -50 },
+    { "name": "fire", "value": 20 },
+    { "name": "physical", "value": 20 },
+    { "name": "death", "value": -10 },
+    { "name": "holy", "value": -20 }
+  ]
+}

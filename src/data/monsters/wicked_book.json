@@ -1,0 +1,102 @@
+{
+  "id": "wicked_book",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 80,
+  "maxHealth": 48000,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 40,
+  "imgHeight": 40,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 35,
+  "drawOrderOffsetY": 33,
+  "offsetX": -10,
+  "offsetY": 0,
+  "experience": 11900,
+  "defense": 82,
+  "pushable": false,
+  "bestiary": 10,
+  "charm": 50,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 3000, "max": 6000 },
+    { "item": "ruby_necklace", "chance": 2000 },
+    { "item": "control_book", "chance": 2000 },
+    { "item": "boots_of_speed", "chance": 2000 },
+    { "item": "blue_robe", "chance": 2000 },
+    { "item": "blue_legs", "chance": 2000 },
+    { "item": "weak_necklace", "chance": 5000 },
+
+    { "item": "cursed_mage_hat", "chance": 300 },
+    { "item": "cursed_healer_hat", "chance": 300 },
+    { "item": "cursed_archer_helmet", "chance": 300 },
+    { "item": "cursed_warrior_helmet", "chance": 300 },
+    { "item": "cursed_quiver", "chance": 300 },
+    { "item": "cursed_shoulder", "chance": 300 },
+    { "item": "cursed_spellbook", "chance": 300 },
+    { "item": "cursed_shield", "chance": 300 },
+    { "item": "cursed_crossbow", "chance": 300 },
+    { "item": "cursed_bow", "chance": 300 },
+    { "item": "cursed_axe", "chance": 300 },
+    { "item": "cursed_sword", "chance": 300 },
+    { "item": "cursed_rod", "chance": 300 },
+    { "item": "cursed_wand", "chance": 300 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.5,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "totalRuntime": 0.9,
+      "fileName": "walk",
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 200, "max": 1000 },
+    {
+      "attack": "energy",
+      "interval": 5000,
+      "chance": 100,
+      "min": 900,
+      "max": 1800,
+      "type": "area",
+      "particle": 31,
+      "length": 10,
+      "spread": 20,
+      "range": 12
+    }
+  ],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 8000,
+      "chance": 30,
+      "min": 100,
+      "max": 400
+    }
+  ],
+  "elements": [
+    { "name": "earth", "value": 110 },
+    { "name": "holy", "value": 115 }
+  ],
+  "immunities": [{ "name": "energy", "value": 1 }]
+}

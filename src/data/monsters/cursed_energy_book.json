@@ -1,0 +1,67 @@
+{
+	"id":"cursed_energy_book",
+	"hittable":true,
+	"maxDirections":4,
+	"speed":80,
+	"maxHealth":18500,
+	"showHealthBar": true,
+	"footstepSound":"slime",
+	"imgWidth":40,
+	"imgHeight":40,
+	"footstepOffsetX":0,
+	"footstepOffsetY":35,
+	"drawOrderOffsetY":33,
+        "offsetX":-10,
+        "offsetY":0,
+        "experience": 13034,
+        "defense": 42,
+        "pushable": false,
+        "bestiary": 50,
+        "charm": 50,
+        "drops": [
+                    {"item":"gold", "chance": 100000, "min":800, "max":1400},
+                    {"item":"ruby_necklace", "chance": 2000},
+                    {"item":"earth_crystal", "chance": 2000},
+                    {"item":"control_book", "chance": 1500},
+                    {"item":"boots_of_speed", "chance": 1000},
+                    {"item":"thunder_wand", "chance": 1000},
+                    {"item":"blue_robe", "chance": 1000},
+                    {"item":"centered_cape", "chance": 1000},
+                    {"item":"thunder_cape", "chance": 1000},
+                    {"item":"thunder_legs", "chance": 1000},
+                    {"item":"dust", "chance": 2000, "min":1, "max":2},
+                    
+                    {"item":"cursed_warrior_helmet", "chance": 30},
+                    {"item":"cursed_plate", "chance": 30},
+                    {"item":"cursed_legs", "chance": 30},
+                    {"item":"cursed_warrior_boots", "chance": 30}
+                    
+        ],
+	"collisionRects":[
+		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
+		],
+	"animations":[
+		{"id":"walk", "totalRuntime":0.5, "numberOfDirections":4, "looping":true},
+		{"id":"default", "totalRuntime":0.9, "fileName":"walk", "numberOfDirections": 4}
+		],
+	"properties": [
+		{"name":"activationZoneDistance", "type":"int"},
+		{"name":"deactivationZoneDistance", "type":"int"}
+	],
+        "attacks": [
+		{"attack":"melee", "interval":2000,  "min":0, "max":1000},
+                {"attack":"energy", "interval":3000, "chance":100, "range":8, "min":660, "max":800, "type":"shoot", "anim":"energy-ball", "particle":12},
+                {"attack":"energy", "interval":6000, "chance":50, "min":800, "max":1100, "type":"area", "particle":31,"radius":5},
+                {"attack":"holy", "interval":6000, "chance":50, "min":650, "max":800, "type":"area", "particle":9,"length":10,"spread":20,"range":12}
+	],
+        "defenses": [
+		{"name":"healing", "interval":8000, "chance": 30, "min":100, "max":400}
+	],
+        "elements": [
+                {"name":"earth", "value":110},
+                {"name":"holy", "value":115}
+	],
+        "immunities": [
+		{"name":"energy", "value":1}
+	]
+}

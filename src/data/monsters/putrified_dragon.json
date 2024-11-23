@@ -1,0 +1,102 @@
+{
+  "id": "putrified_dragon",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 50,
+  "maxHealth": 55000,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 64,
+  "imgHeight": 64,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 34,
+  "drawOrderOffsetY": 32,
+  "offsetX": -22,
+  "offsetY": 0,
+  "experience": 10000,
+  "defense": 25,
+  "pushable": false,
+  "bestiary": 30,
+  "charm": 15,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 80, "max": 150 },
+    { "item": "thigh", "chance": 60000, "max": 2 },
+    { "item": "health_potion", "chance": 50000, "max": 2 },
+    { "item": "dragon_helmet", "chance": 50 },
+    { "item": "hylian_broadsword", "chance": 200 },
+    { "item": "dragon_shield", "chance": 400 },
+    { "item": "dragon_armor", "chance": 80 },
+    { "item": "dragon_legs", "chance": 80 },
+    { "item": "dragon_scale_boots", "chance": 80 },
+    { "item": "dragon_wand", "chance": 500 },
+    { "item": "dragon_key", "chance": 2 },
+    { "item": "dragon_ring", "chance": 30 },
+    { "item": "dragon_necklace", "chance": 30 },
+    { "item": "dragon_horn", "chance": 2000 },
+    { "item": "dragon_scale", "chance": 2000 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.7,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 400 },
+    {
+      "attack": "fire",
+      "interval": 8000,
+      "chance": 30,
+      "min": 100,
+      "max": 470,
+      "type": "area",
+      "particle": 3,
+      "length": 8,
+      "spread": 3,
+      "range": 7
+    },
+    {
+      "attack": "death",
+      "interval": 8000,
+      "chance": 30,
+      "min": 100,
+      "max": 470,
+      "type": "area",
+      "particle": 37,
+      "radius": 4,
+      "target": 1,
+      "range": 7
+    }
+  ],
+  "defenses": [
+    { "name": "healing", "interval": 10000, "chance": 30, "min": 38, "max": 72 }
+  ],
+  "elements": [
+    { "name": "ice", "value": 110 },
+    { "name": "earth", "value": 20 },
+    { "name": "energy", "value": 80 }
+  ],
+  "immunities": [{ "name": "fire", "value": 1 }]
+}

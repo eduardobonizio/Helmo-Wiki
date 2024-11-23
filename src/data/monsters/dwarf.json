@@ -3,7 +3,7 @@
   "hittable": true,
   "maxDirections": 4,
   "speed": 50,
-  "maxHealth": 125,
+  "maxHealth": 190,
   "showHealthBar": true,
   "footstepSound": "slime",
   "imgWidth": 32,
@@ -13,14 +13,15 @@
   "drawOrderOffsetY": 32,
   "offsetX": -8,
   "offsetY": 0,
-  "experience": 70,
-  "defense": 8,
+  "experience": 130,
+  "defense": 12,
+  "bestiary": 20,
+  "charm": 10,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 10, "max": 30 },
+    { "item": "gold", "chance": 100000, "min": 10, "max": 55 },
     { "item": "axe", "chance": 1000 },
-    { "item": "dwarf_shield", "chance": 300 },
     { "item": "zillii_fish", "chance": 70000, "min": 1, "max": 2 },
-    { "item": "steel_ring", "chance": 30 }
+    { "item": "red_bagpack", "chance": 600 }
   ],
   "collisionRects": [
     {
@@ -51,5 +52,11 @@
     { "name": "activationZoneDistance", "type": "int" },
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
-  "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 25 }]
+  "attacks": [{ "attack": "melee", "interval": 2000, "min": 30, "max": 80 }],
+
+  "elements": [
+    { "name": "earth", "value": 90 },
+    { "name": "death", "value": 105 },
+    { "name": "fire", "value": 105 }
+  ]
 }

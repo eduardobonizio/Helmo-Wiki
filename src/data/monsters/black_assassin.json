@@ -1,0 +1,58 @@
+{
+	"id":"black_assassin",
+	"hittable":true,
+	"maxDirections":4,
+	"speed":60,
+	"maxHealth":4300,
+	"showHealthBar": true,
+	"footstepSound":"slime",
+	"imgWidth":32,
+	"imgHeight":32,
+	"footstepOffsetX":0,
+	"footstepOffsetY":30,
+	"drawOrderOffsetY":16,
+        "offsetX":-8,
+        "offsetY":0,
+        "experience": 3300,
+        "defense": 60,
+        "bestiary": 30,
+        "charm": 15,
+        "drops": [
+                 {"item":"gold", "chance": 100000, "min":100, "max":600},
+                 {"item":"earth_crystal", "chance": 5000},
+                 {"item":"royal_axe", "chance": 300},
+                 {"item":"club_with_spikes", "chance": 600},
+                 {"item":"living_armor", "chance": 50},
+                 {"item":"royal_helmet", "chance": 3000},
+                 {"item":"earth_crystal", "chance": 5000},
+                 {"item":"boots_of_speed", "chance": 50}
+        ],
+	"collisionRects":[
+		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
+		],
+	"animations":[
+		{"id":"walk", "totalRuntime":0.8, "numberOfDirections":4, "looping":true},
+		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4}
+		],
+	"properties": [
+		{"name":"activationZoneDistance", "type":"int"},
+		{"name":"deactivationZoneDistance", "type":"int"}
+	],
+        "attacks": [
+		{"attack":"melee", "interval":2000, "min":0, "max":370},
+                {"attack":"earth", "interval":6000, "chance":50, "min":100, "max":480, "type":"area", "particle":28,"radius":4,"range":10}
+	],
+        "defenses": [
+		{"name":"healing", "interval":8000, "chance": 50, "min":160, "max":240}
+	],
+        "elements": [
+                {"name":"physical", "value":115},
+                {"name":"energy", "value":70},
+                {"name":"earth", "value":70},
+                {"name":"holy", "value":110},
+                {"name":"ice", "value":110}
+	],
+        "immunities": [
+		{"name":"death", "value":1}
+	]
+}

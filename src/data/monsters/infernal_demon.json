@@ -1,0 +1,130 @@
+{
+  "id": "infernal_demon",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 80,
+  "maxHealth": 32000,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 48,
+  "imgHeight": 48,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 40,
+  "drawOrderOffsetY": 32,
+  "offsetX": -16,
+  "offsetY": -8,
+  "experience": 15560,
+  "defense": 60,
+  "pushable": false,
+  "bestiary": 105,
+  "charm": 100,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 800, "max": 1600 },
+    { "item": "thigh", "chance": 60000, "max": 4 },
+    { "item": "great_mana_potion", "chance": 5500, "max": 3 },
+    { "item": "great_health_potion", "chance": 5500, "max": 3 },
+    { "item": "demon_shield", "chance": 2000 },
+    { "item": "demon_boots", "chance": 50 },
+    { "item": "demon_legs", "chance": 50 },
+    { "item": "thick_silver_necklace", "chance": 50 },
+    { "item": "necro_rod", "chance": 5000 },
+    { "item": "earth_crystal", "chance": 20000 },
+    { "item": "royal_axe", "chance": 2000 },
+    { "item": "hellfire_wand", "chance": 500 },
+    { "item": "dust", "chance": 500, "min": 1, "max": 3 },
+    { "item": "fire_axe", "chance": 3000 },
+    { "item": "red_robe", "chance": 3000 },
+    { "item": "red_legs", "chance": 3000 },
+    { "item": "red_boots", "chance": 3000 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.4,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 400, "max": 1450 },
+    {
+      "attack": "fire",
+      "interval": 2000,
+      "chance": 50,
+      "range": 7,
+      "min": 1150,
+      "max": 1450,
+      "type": "shoot",
+      "anim": "fire-ball",
+      "particle": 3
+    },
+    {
+      "attack": "fire",
+      "interval": 8000,
+      "chance": 30,
+      "min": 650,
+      "max": 1200,
+      "type": "area",
+      "particle": 3,
+      "length": 10,
+      "spread": 20,
+      "range": 12
+    },
+    {
+      "attack": "death",
+      "interval": 8000,
+      "chance": 30,
+      "min": 1000,
+      "max": 1350,
+      "type": "area",
+      "particle": 37,
+      "radius": 8
+    }
+  ],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 8000,
+      "chance": 30,
+      "min": 500,
+      "max": 1200
+    },
+    {
+      "name": "mana_drain",
+      "interval": 15000,
+      "chance": 10,
+      "min": 90,
+      "max": 160,
+      "type": "area",
+      "particle": 11,
+      "radius": 6
+    }
+  ],
+  "elements": [
+    { "name": "physical", "value": 70 },
+    { "name": "fire", "value": 60 },
+    { "name": "death", "value": 60 },
+    { "name": "ice", "value": 125 },
+    { "name": "holy", "value": 125 }
+  ]
+}

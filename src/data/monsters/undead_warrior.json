@@ -1,0 +1,93 @@
+{
+  "id": "undead_warrior",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 70,
+  "maxHealth": 7800,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 64,
+  "imgHeight": 64,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 50,
+  "drawOrderOffsetY": 50,
+  "offsetX": -22,
+  "offsetY": 0,
+  "experience": 4800,
+  "defense": 75,
+  "pushable": false,
+  "bestiary": 70,
+  "charm": 50,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 600, "max": 1200 },
+    { "item": "boots_of_speed", "chance": 500 },
+    { "item": "royal_axe", "chance": 500 },
+    { "item": "thunder_hammer", "chance": 500 },
+    { "item": "ruby_necklace", "chance": 500 },
+    { "item": "black_stone_amulet", "chance": 500 },
+    { "item": "death_armor", "chance": 500 },
+    { "item": "fire_axe", "chance": 500 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    { "id": "walk", "totalRuntime": 0.4, "numberOfDirections": 4 },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 200, "max": 800 },
+    {
+      "attack": "physical",
+      "interval": 2000,
+      "chance": 100,
+      "range": 8,
+      "min": 380,
+      "max": 600,
+      "type": "shoot",
+      "anim": "death-ball",
+      "particle": 5
+    }
+  ],
+  "elements": [
+    { "name": "earth", "value": 90 },
+    { "name": "fire", "value": 90 },
+    { "name": "holy", "value": 115 },
+    { "name": "death", "value": 90 }
+  ],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 6000,
+      "chance": 50,
+      "min": 160,
+      "max": 240
+    },
+    {
+      "name": "life_drain",
+      "interval": 10000,
+      "chance": 20,
+      "min": 300,
+      "max": 480,
+      "type": "area",
+      "particle": 12,
+      "radius": 6
+    }
+  ]
+}

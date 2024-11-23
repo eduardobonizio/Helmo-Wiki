@@ -1,0 +1,80 @@
+{
+  "id": "king_slime",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 60,
+  "maxHealth": 6500,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 32,
+  "imgHeight": 32,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 32,
+  "drawOrderOffsetY": 32,
+  "offsetX": -8,
+  "offsetY": 0,
+  "experience": 1300,
+  "intervalResp": 600,
+  "defense": 40,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 100, "max": 500 },
+    { "item": "earth_crystal", "chance": 10000 },
+    { "item": "halberd", "chance": 1000 },
+    { "item": "bagpack", "chance": 200 },
+    { "item": "thick_ice_stone_necklace", "chance": 200 },
+    { "item": "ring_of_nature", "chance": 200 },
+    { "item": "noble_magic_book", "chance": 500 },
+    { "item": "noble_magic_boots", "chance": 500 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    { "id": "walk", "totalRuntime": 0.8, "numberOfDirections": 4 },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 1.0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 350 },
+    {
+      "attack": "earth",
+      "interval": 6000,
+      "chance": 100,
+      "min": 150,
+      "max": 300,
+      "type": "area",
+      "particle": 28,
+      "radius": 8,
+      "range": 10
+    }
+  ],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 10000,
+      "chance": 10,
+      "min": 200,
+      "max": 250
+    }
+  ],
+  "elements": [
+    { "name": "earth", "value": 20 },
+    { "name": "energy", "value": 20 },
+    { "name": "physical", "value": 110 }
+  ]
+}

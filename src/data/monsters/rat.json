@@ -15,6 +15,8 @@
   "offsetY": 0,
   "experience": 10,
   "defense": 1,
+  "bestiary": 1,
+  "charm": 1,
   "drops": [{ "item": "gold", "chance": 100000, "min": 0, "max": 5 }],
   "collisionRects": [
     {

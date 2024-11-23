@@ -1,0 +1,94 @@
+{
+  "id": "fire_master",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 70,
+  "maxHealth": 25000,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 32,
+  "imgHeight": 32,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 32,
+  "drawOrderOffsetY": 0,
+  "intervalResp": 600,
+  "offsetX": -8,
+  "offsetY": 0,
+  "experience": 12000,
+  "defense": 30,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 900, "max": 1100 },
+    { "item": "thigh", "chance": 60000, "max": 4 },
+    { "item": "thunder_wand", "chance": 1000 },
+    { "item": "necro_rod", "chance": 1000 },
+    { "item": "strong_health_potion", "chance": 2000, "max": 5 },
+    { "item": "thick_flame_necklace", "chance": 500 },
+    { "item": "royal_axe", "chance": 500 },
+    { "item": "black_stone_amulet", "chance": 1000 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    { "id": "walk", "totalRuntime": 0.4, "numberOfDirections": 4 },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    {
+      "attack": "fire",
+      "interval": 2000,
+      "chance": 100,
+      "range": 7,
+      "min": 280,
+      "max": 550,
+      "type": "shoot",
+      "anim": "fire-ball",
+      "particle": 3
+    },
+    {
+      "attack": "fire",
+      "interval": 5000,
+      "chance": 30,
+      "min": 650,
+      "max": 900,
+      "type": "area",
+      "particle": 3,
+      "radius": 6,
+      "target": 0,
+      "range": 12
+    },
+    {
+      "attack": "fire",
+      "interval": 5000,
+      "chance": 30,
+      "min": 450,
+      "max": 700,
+      "type": "area",
+      "particle": 3,
+      "radius": 3,
+      "target": 1,
+      "range": 12
+    }
+  ],
+  "elements": [
+    { "name": "earth", "value": 70 },
+    { "name": "ice", "value": 125 }
+  ],
+  "immunities": [{ "name": "fire", "value": 1 }]
+}

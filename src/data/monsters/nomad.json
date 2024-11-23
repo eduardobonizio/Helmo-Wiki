@@ -1,0 +1,65 @@
+{
+  "id": "nomad",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 40,
+  "maxHealth": 400,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 32,
+  "imgHeight": 40,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 30,
+  "drawOrderOffsetY": 45,
+  "offsetX": -8,
+  "offsetY": 0,
+  "experience": 320,
+  "defense": 30,
+  "bestiary": 50,
+  "charm": 15,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 50, "max": 160 },
+    { "item": "earth_crystal", "chance": 1000 },
+    { "item": "steel_shield", "chance": 800 },
+    { "item": "steel_boots", "chance": 800 },
+    { "item": "mace", "chance": 100 },
+    { "item": "green_bagpack", "chance": 600 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.8,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 120 }],
+
+  "elements": [
+    { "name": "physical", "value": 110 },
+    { "name": "ice", "value": 110 },
+    { "name": "death", "value": 110 },
+    { "name": "fire", "value": 80 },
+    { "name": "holy", "value": 80 }
+  ]
+}

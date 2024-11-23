@@ -15,10 +15,12 @@
   "offsetY": 0,
   "experience": 360,
   "defense": 30,
+  "bestiary": 5,
+  "charm": 50,
   "drops": [
     { "item": "gold", "chance": 100000, "min": 100, "max": 300 },
     { "item": "earth_crystal", "chance": 10000 },
-    { "item": "slime_king_crown", "chance": 10000 }
+    { "item": "slime_king_crown", "chance": 15000 }
   ],
   "collisionRects": [
     {

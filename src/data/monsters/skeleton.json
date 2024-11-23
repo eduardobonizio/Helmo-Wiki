@@ -4,6 +4,7 @@
   "maxDirections": 4,
   "speed": 30,
   "maxHealth": 50,
+  "deathParticle": 43,
   "showHealthBar": true,
   "footstepSound": "slime",
   "imgWidth": 16,
@@ -15,14 +16,17 @@
   "offsetY": 0,
   "experience": 35,
   "defense": 2,
+  "bestiary": 15,
+  "charm": 5,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 0, "max": 15 },
+    { "item": "gold", "chance": 100000, "min": 10, "max": 35 },
     { "item": "axe", "chance": 800 },
     { "item": "bone_armor", "chance": 1000 },
     { "item": "bone_shield", "chance": 1000 },
     { "item": "human_bone", "chance": 3000 },
     { "item": "human_skull", "chance": 3000 },
-    { "item": "skull_helmet", "chance": 1000 }
+    { "item": "skull_helmet", "chance": 1000 },
+    { "item": "rope", "chance": 1000 }
   ],
   "collisionRects": [
     {
@@ -53,5 +57,6 @@
     { "name": "activationZoneDistance", "type": "int" },
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
-  "attacks": [{ "attack": "melee", "interval": 2000, "min": 15, "max": 25 }]
+  "attacks": [{ "attack": "melee", "interval": 2000, "min": 15, "max": 25 }],
+  "immunities": [{ "name": "death", "value": 1 }]
 }

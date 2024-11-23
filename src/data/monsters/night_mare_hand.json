@@ -3,7 +3,7 @@
   "hittable": true,
   "maxDirections": 4,
   "speed": 40,
-  "maxHealth": 600,
+  "maxHealth": 5000,
   "showHealthBar": true,
   "footstepSound": "slime",
   "imgWidth": 16,
@@ -13,8 +13,11 @@
   "drawOrderOffsetY": 0,
   "offsetX": 0,
   "offsetY": 0,
-  "experience": 200,
+  "experience": 100,
   "defense": 10,
+  "pushable": false,
+  "bestiary": 5,
+  "charm": 25,
   "drops": [{ "item": "minotaur_mage_hat", "chance": 200 }],
   "collisionRects": [
     {
@@ -50,9 +53,9 @@
       "attack": "energy",
       "interval": 2000,
       "chance": 100,
-      "range": 8,
-      "min": 200,
-      "max": 480,
+      "range": 10,
+      "min": 400,
+      "max": 580,
       "type": "shoot",
       "anim": "ice-ball",
       "particle": 12
@@ -60,7 +63,8 @@
   ],
   "elements": [
     { "name": "fire", "value": 30 },
+    { "name": "ice", "value": 30 },
     { "name": "death", "value": 30 },
-    { "name": "holy", "value": 115 }
+    { "name": "holy", "value": 30 }
   ]
 }

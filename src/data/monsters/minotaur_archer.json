@@ -15,18 +15,22 @@
   "offsetY": 0,
   "experience": 65,
   "defense": 7,
+  "bestiary": 15,
+  "charm": 5,
   "drops": [
     { "item": "gold", "chance": 100000, "min": 5, "max": 30 },
     { "item": "basic_bow", "chance": 20000 },
-    { "item": "basic_crossbow", "chance": 1000 },
-    { "item": "basic_quiver", "chance": 200 },
-    { "item": "minotaur_paw", "chance": 500, "max": 1 },
-    { "item": "minotaur_horn", "chance": 500, "max": 1 },
-    { "item": "linen_boots", "chance": 300 },
-    { "item": "linen_armor", "chance": 300 },
-    { "item": "linen_hat", "chance": 300 },
-    { "item": "linen_bow", "chance": 300 },
-    { "item": "linen_legs", "chance": 300 }
+    { "item": "basic_crossbow", "chance": 1500 },
+    { "item": "basic_quiver", "chance": 400 },
+    { "item": "minotaur_paw", "chance": 350, "max": 1 },
+    { "item": "minotaur_horn", "chance": 300, "max": 1 },
+    { "item": "minotaur_armor", "chance": 1000 },
+    { "item": "linen_boots", "chance": 600 },
+    { "item": "linen_armor", "chance": 600 },
+    { "item": "linen_hat", "chance": 600 },
+    { "item": "linen_bow", "chance": 600 },
+    { "item": "linen_legs", "chance": 600 },
+    { "item": "minotaur_leather", "chance": 250, "max": 1 }
   ],
   "collisionRects": [
     {
@@ -72,7 +76,7 @@
   ],
   "elements": [
     { "name": "fire", "value": 80 },
-    { "name": "death", "value": 105 },
+    { "name": "death", "value": 110 },
     { "name": "ice", "value": 110 },
     { "name": "holy", "value": 90 }
   ]

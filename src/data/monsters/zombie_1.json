@@ -1,0 +1,54 @@
+{
+  "id": "zombie",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 15,
+  "maxHealth": 160,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 16,
+  "imgHeight": 32,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 22,
+  "drawOrderOffsetY": 16,
+  "offsetX": 0,
+  "offsetY": 0,
+  "experience": 130,
+  "defense": 15,
+  "drops": [{ "item": "gold", "chance": 100000, "min": 30, "max": 45 }],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 1.2,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4,
+      "looping": true
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [{ "attack": "melee", "interval": 2000, "min": 10, "max": 17 }],
+  "immunities": [{ "name": "death", "value": 1 }],
+  "elements": [
+    { "name": "energy", "value": 30 },
+    { "name": "physical", "value": -20 }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "troll_swamp",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 35,
+  "maxHealth": 120,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 32,
+  "imgHeight": 32,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 34,
+  "drawOrderOffsetY": 16,
+  "offsetX": -8,
+  "offsetY": 0,
+  "experience": 65,
+  "defense": 5,
+  "bestiary": 5,
+  "charm": 5,
+  "drops": [
+    { "item": "gold", "chance": 50000, "min": 10, "max": 35 },
+    { "item": "fish", "chance": 70000, "min": 1, "max": 3 },
+    { "item": "candy", "chance": 320, "max": 1 },
+    { "item": "spear", "chance": 1000, "max": 3 },
+    { "item": "fishing_rod", "chance": 100, "max": 1 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.8,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 35 }],
+  "elements": [
+    { "name": "earth", "value": 85 },
+    { "name": "fire", "value": 105 }
+  ]
+}

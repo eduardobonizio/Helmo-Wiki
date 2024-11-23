@@ -15,13 +15,16 @@
   "offsetY": 0,
   "experience": 180,
   "defense": 20,
+  "bestiary": 15,
+  "charm": 5,
   "drops": [
     { "item": "gold", "chance": 100000, "min": 0, "max": 80 },
     { "item": "mana_potion", "chance": 10000, "min": 1, "max": 5 },
-    { "item": "soul_essence", "chance": 500 },
-    { "item": "possessed_crystal", "chance": 500 },
+    { "item": "soul_essence", "chance": 300 },
+    { "item": "possessed_crystal", "chance": 300 },
     { "item": "soul_book", "chance": 200 },
-    { "item": "noble_magic_wand", "chance": 100 }
+    { "item": "noble_magic_wand", "chance": 100 },
+    { "item": "dust", "chance": 200, "min": 1, "max": 2 }
   ],
   "collisionRects": [
     {

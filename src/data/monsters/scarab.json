@@ -1,0 +1,84 @@
+{
+  "id": "scarab",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 50,
+  "maxHealth": 1000,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 68,
+  "imgHeight": 58,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 35,
+  "drawOrderOffsetY": 32,
+  "offsetX": -26,
+  "offsetY": -8,
+  "experience": 720,
+  "defense": 25,
+  "bestiary": 40,
+  "charm": 20,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 200, "max": 400 },
+    { "item": "earth_crystal", "chance": 5000 },
+    { "item": "hylian_broadsword", "chance": 1000 },
+    { "item": "royal_armor", "chance": 1000 },
+    { "item": "royal_helmet", "chance": 1000 },
+    { "item": "royal_boots", "chance": 1000 },
+    { "item": "royal_legs", "chance": 1000 },
+    { "item": "steel_ring", "chance": 200 },
+    { "item": "steel_necklace", "chance": 200 },
+    { "item": "steel_crossbow", "chance": 200 },
+    { "item": "steel_quiver", "chance": 100 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.4,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4,
+      "looping": true
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 200 },
+    {
+      "attack": "earth",
+      "interval": 6000,
+      "chance": 30,
+      "min": 15,
+      "max": 140,
+      "type": "area",
+      "particle": 28,
+      "radius": 4,
+      "range": 10
+    }
+  ],
+
+  "elements": [
+    { "name": "physical", "value": 90 },
+    { "name": "energy", "value": 80 },
+    { "name": "fire", "value": 120 },
+    { "name": "ice", "value": 105 }
+  ],
+  "immunities": [{ "name": "earth", "value": 1 }]
+}

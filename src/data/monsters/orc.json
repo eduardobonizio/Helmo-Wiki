@@ -3,7 +3,7 @@
   "hittable": true,
   "maxDirections": 4,
   "speed": 30,
-  "maxHealth": 90,
+  "maxHealth": 120,
   "showHealthBar": true,
   "footstepSound": "slime",
   "imgWidth": 32,
@@ -13,10 +13,12 @@
   "drawOrderOffsetY": 16,
   "offsetX": -8,
   "offsetY": 0,
-  "experience": 45,
+  "experience": 90,
   "defense": 4,
+  "bestiary": 25,
+  "charm": 15,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 5, "max": 25 },
+    { "item": "gold", "chance": 100000, "min": 10, "max": 47 },
     { "item": "thigh", "chance": 70000, "min": 1, "max": 2 }
   ],
   "collisionRects": [
@@ -47,5 +49,12 @@
     { "name": "activationZoneDistance", "type": "int" },
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
-  "attacks": [{ "attack": "melee", "interval": 2000, "min": 20, "max": 30 }]
+  "attacks": [{ "attack": "melee", "interval": 2000, "min": 20, "max": 30 }],
+
+  "elements": [
+    { "name": "earth", "value": 110 },
+    { "name": "death", "value": 110 },
+    { "name": "energy", "value": 80 },
+    { "name": "holy", "value": 90 }
+  ]
 }

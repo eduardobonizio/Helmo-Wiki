@@ -1,0 +1,86 @@
+{
+  "id": "green_djinn",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 70,
+  "maxHealth": 5800,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 32,
+  "imgHeight": 50,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 30,
+  "drawOrderOffsetY": 45,
+  "offsetX": -8,
+  "offsetY": 0,
+  "experience": 4700,
+  "defense": 77,
+  "bestiary": 70,
+  "charm": 50,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 300, "max": 600 },
+    { "item": "earth_crystal", "chance": 6000 },
+    { "item": "fire_axe", "chance": 330 },
+    { "item": "pretator_rod", "chance": 210 },
+    { "item": "green_cape", "chance": 210 },
+    { "item": "green_legs", "chance": 210 },
+    { "item": "green_bagpack", "chance": 110 },
+    { "item": "club_with_spikes", "chance": 660 },
+    { "item": "earth_crystal", "chance": 5500 },
+    { "item": "boots_of_speed", "chance": 110 },
+    { "item": "dust", "chance": 800, "min": 1, "max": 2 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.8,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 1.2,
+      "numberOfDirections": 4,
+      "looping": true
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 350 },
+    {
+      "attack": "death",
+      "interval": 2000,
+      "chance": 100,
+      "range": 8,
+      "min": 200,
+      "max": 350,
+      "type": "shoot",
+      "anim": "sd-skull",
+      "particle": 37
+    }
+  ],
+  "defenses": [
+    { "name": "healing", "interval": 8000, "chance": 50, "min": 0, "max": 300 }
+  ],
+  "elements": [
+    { "name": "fire", "value": 120 },
+    { "name": "death", "value": 80 },
+    { "name": "earth", "value": 120 },
+    { "name": "energy", "value": 115 },
+    { "name": "ice", "value": 60 }
+  ]
+}

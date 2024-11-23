@@ -1,0 +1,62 @@
+{
+	"id":"falcon_warrior",
+	"hittable":true,
+	"maxDirections":4,
+	"speed":80,
+	"maxHealth":12800,
+	"showHealthBar": true,
+	"footstepSound":"slime",
+	"imgWidth":32,
+	"imgHeight":38,
+	"footstepOffsetX":0,
+	"footstepOffsetY":32,
+	"drawOrderOffsetY":0,
+        "offsetX":-8,
+        "offsetY":0,
+        "experience": 9900,
+        "defense": 76,
+        "pushable": false,
+        "bestiary": 60,
+        "charm": 50,
+        "drops": [
+                    {"item":"gold", "chance": 100000, "min":600, "max":1200},
+                    {"item":"assassin_star", "chance": 10000, "min":1, "max":10},
+                    {"item":"thick_silver_necklace", "chance": 1000},
+                    {"item":"dust", "chance": 1000, "min":1, "max":2},
+                    {"item":"earth_crystal", "chance": 3000},
+                    {"item":"necro_rod", "chance": 1000},
+                    {"item":"club_with_spikes", "chance": 800},
+                    {"item":"ruby_necklace", "chance": 800},
+                    {"item":"black_stone_amulet", "chance": 800},
+                    {"item":"boots_of_speed", "chance": 500},
+                    {"item":"death_armor", "chance": 800},
+                    {"item":"fire_axe", "chance": 800},
+                    {"item":"royal_axe", "chance": 800},
+                    {"item":"divine_plate", "chance": 100},
+                    {"item":"yellow_bagpack", "chance": 600}
+        ],
+	"collisionRects":[
+		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
+		],
+	"animations":[
+		{"id":"walk", "totalRuntime":0.4, "numberOfDirections":4},
+		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4}
+		],
+	"properties": [
+		{"name":"activationZoneDistance", "type":"int"},
+		{"name":"deactivationZoneDistance", "type":"int"}
+	],
+        "attacks": [
+                {"attack":"melee", "interval":2000, "min":500, "max":900},
+                {"attack":"earth", "interval":5000, "chance":50, "min":500, "max":950, "type":"area", "particle":28,"radius":4,"range":10},
+                {"attack":"holy", "interval":5000, "chance":50, "min":500, "max":950, "type":"area", "particle":9,"length":10,"spread":20,"range":12}
+	],
+        "elements": [
+                {"name":"physical", "value":70},
+                {"name":"holy", "value":110},
+                {"name":"death", "value":50}
+	],
+        "defenses": [
+		{"name":"healing", "interval":8000, "chance": 70, "min":100, "max":200}
+	]
+}

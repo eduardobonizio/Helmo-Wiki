@@ -1,0 +1,135 @@
+{
+  "id": "mystic_esganed",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 90,
+  "maxHealth": 120000,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 64,
+  "imgHeight": 48,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 50,
+  "drawOrderOffsetY": 32,
+  "intervalResp": 600,
+  "offsetX": -24,
+  "offsetY": 0,
+  "experience": 12000,
+  "defense": 50,
+  "pushable": false,
+  "bestiary": 1,
+  "charm": 50,
+  "drops": [
+    { "item": "gold", "chance": 100000, "max": 10000 },
+    { "item": "gold", "chance": 100000, "max": 10000 },
+    { "item": "crystalline_axe", "chance": 8000 },
+    { "item": "crystalline_sword", "chance": 8000 },
+    { "item": "crystalline_book", "chance": 8000 },
+    { "item": "strong_health_potion", "chance": 50000, "max": 5 },
+    { "item": "thick_ice_stone_necklace", "chance": 8000 },
+    { "item": "black_stone_amulet", "chance": 10000 },
+    { "item": "boots_of_speed", "chance": 10000 },
+    { "item": "crystalline_hat", "chance": 2000 },
+    { "item": "crystalline_helmet", "chance": 2000 },
+
+    { "item": "mystic_glacier_sword", "chance": 5000 },
+    { "item": "mystic_glacier_bow", "chance": 5000 },
+    { "item": "mystic_glacier_crossbow", "chance": 5000 },
+    { "item": "mystic_glacier_rod", "chance": 5000 },
+    { "item": "mystic_glacier_wand", "chance": 5000 },
+    { "item": "mystic_glacier_book", "chance": 5000 },
+    { "item": "mystic_glacier_shield", "chance": 5000 },
+    { "item": "weak_necklace", "chance": 5000 },
+
+    { "item": "green_plasma_amulet", "chance": 5000 },
+    { "item": "red_plasma_amulet", "chance": 5000 },
+    { "item": "blue_plasma_amulet", "chance": 5000 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    { "id": "walk", "totalRuntime": 0.4, "numberOfDirections": 4 },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0.8,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 100, "max": 1200 },
+    {
+      "attack": "ice",
+      "interval": 5000,
+      "chance": 30,
+      "min": 400,
+      "max": 1400,
+      "type": "area",
+      "particle": 34,
+      "length": 10,
+      "spread": 20,
+      "range": 12
+    },
+    {
+      "attack": "ice",
+      "interval": 5000,
+      "chance": 50,
+      "min": 300,
+      "max": 1100,
+      "type": "area",
+      "particle": 35,
+      "radius": 6,
+      "range": 8
+    }
+  ],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 5000,
+      "chance": 30,
+      "min": 1000,
+      "max": 5000
+    },
+    {
+      "name": "mana_drain",
+      "interval": 5000,
+      "chance": 30,
+      "min": 300,
+      "max": 600,
+      "type": "area",
+      "particle": 11,
+      "radius": 6
+    },
+    {
+      "name": "life_drain",
+      "interval": 5000,
+      "chance": 50,
+      "min": 300,
+      "max": 600,
+      "type": "area",
+      "particle": 12,
+      "radius": 6
+    }
+  ],
+  "elements": [
+    { "name": "fire", "value": 120 },
+    { "name": "earth", "value": 70 },
+    { "name": "death", "value": 70 }
+  ],
+  "immunities": [
+    { "name": "ice", "value": 1 },
+    { "name": "energy", "value": 1 }
+  ]
+}

@@ -4,6 +4,7 @@
   "maxDirections": 4,
   "speed": 50,
   "maxHealth": 350,
+  "deathParticle": 44,
   "showHealthBar": true,
   "footstepSound": "slime",
   "imgWidth": 32,
@@ -15,6 +16,8 @@
   "offsetY": 0,
   "experience": 260,
   "defense": 15,
+  "bestiary": 20,
+  "charm": 5,
   "drops": [
     { "item": "gold", "chance": 10000, "min": 80, "max": 120 },
     { "item": "earth_crystal", "chance": 3000 }

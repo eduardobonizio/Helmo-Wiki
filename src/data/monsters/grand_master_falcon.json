@@ -1,0 +1,118 @@
+{
+  "id": "grand_master_falcon",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 70,
+  "maxHealth": 90000,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 32,
+  "imgHeight": 38,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 32,
+  "drawOrderOffsetY": 0,
+  "offsetX": -8,
+  "offsetY": 0,
+  "experience": 30000,
+  "defense": 86,
+  "pushable": false,
+  "bestiary": 10,
+  "charm": 50,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 5000, "max": 7000 },
+    { "item": "ruby_necklace", "chance": 2000 },
+    { "item": "black_stone_amulet", "chance": 2000 },
+    { "item": "boots_of_speed", "chance": 2000 },
+    { "item": "death_armor", "chance": 2000 },
+    { "item": "fire_axe", "chance": 2000 },
+    { "item": "divine_plate", "chance": 2000 },
+
+    { "item": "falcon_battleaxe", "chance": 200 },
+    { "item": "falcon_sword", "chance": 200 },
+    { "item": "falcon_coif", "chance": 200 },
+    { "item": "falcon_crown", "chance": 200 },
+    { "item": "falcon_wand", "chance": 200 },
+    { "item": "falcon_rod", "chance": 200 },
+    { "item": "falcon_bow", "chance": 200 },
+    { "item": "falcon_quiver", "chance": 200 },
+    { "item": "falcon_armor", "chance": 100 },
+    { "item": "falcon_legs", "chance": 100 },
+    { "item": "falcon_shield", "chance": 100 },
+    { "item": "falcon_escutcheon", "chance": 10 },
+    { "item": "dust", "chance": 3000, "min": 1, "max": 5 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    { "id": "walk", "totalRuntime": 0.4, "numberOfDirections": 4 },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 300, "max": 1375 },
+    {
+      "attack": "death",
+      "interval": 2000,
+      "chance": 100,
+      "range": 8,
+      "min": 450,
+      "max": 1025,
+      "type": "shoot",
+      "anim": "sd-skull",
+      "particle": 37
+    },
+    {
+      "attack": "earth",
+      "interval": 6000,
+      "chance": 30,
+      "min": 570,
+      "max": 1170,
+      "type": "area",
+      "particle": 28,
+      "radius": 4,
+      "range": 10
+    },
+    {
+      "attack": "holy",
+      "interval": 6000,
+      "chance": 30,
+      "min": 875,
+      "max": 1975,
+      "type": "area",
+      "particle": 9,
+      "length": 10,
+      "spread": 20,
+      "range": 12
+    }
+  ],
+  "elements": [
+    { "name": "physical", "value": 70 },
+    { "name": "holy", "value": 110 },
+    { "name": "death", "value": 50 }
+  ],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 8000,
+      "chance": 70,
+      "min": 1000,
+      "max": 2000
+    }
+  ]
+}

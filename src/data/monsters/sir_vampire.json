@@ -1,0 +1,106 @@
+{
+  "id": "sir_vampire",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 60,
+  "maxHealth": 4200,
+  "deathParticle": 43,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 32,
+  "imgHeight": 32,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 32,
+  "drawOrderOffsetY": 32,
+  "offsetX": -8,
+  "offsetY": 0,
+  "experience": 3500,
+  "defense": 28,
+  "bestiary": 5,
+  "charm": 50,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 300, "max": 550 },
+    { "item": "strong_health_potion", "chance": 50000, "max": 5 },
+    { "item": "earth_crystal", "chance": 5000 },
+    { "item": "bronze_amulet", "chance": 2000 },
+    { "item": "vamp_shield", "chance": 1000 },
+    { "item": "vamp_boots", "chance": 1000 },
+    { "item": "vamp_cape", "chance": 1000 },
+    { "item": "vamp_legs", "chance": 1000 },
+    { "item": "vamp_hat", "chance": 1000 },
+    { "item": "vamp_ring", "chance": 1000 },
+
+    { "item": "green_plasma_ring", "chance": 9000 },
+    { "item": "blue_plasma_ring", "chance": 9000 },
+    { "item": "red_plasma_ring", "chance": 9000 },
+
+    { "item": "vamp_necklace", "chance": 1000 },
+    { "item": "dust", "chance": 100000, "min": 1, "max": 5 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.9,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4,
+      "looping": true
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 700 },
+    {
+      "attack": "death",
+      "interval": 2000,
+      "chance": 100,
+      "range": 8,
+      "min": 100,
+      "max": 600,
+      "type": "shoot",
+      "anim": "sd-skull",
+      "particle": 37
+    }
+  ],
+  "defenses": [
+    {
+      "name": "paralize",
+      "interval": 8000,
+      "chance": 50,
+      "type": "area",
+      "particle": 11,
+      "radius": 5
+    },
+    {
+      "name": "healing",
+      "interval": 8000,
+      "chance": 50,
+      "min": 260,
+      "max": 540
+    }
+  ],
+  "elements": [
+    { "name": "earth", "value": 50 },
+    { "name": "ice", "value": 90 },
+    { "name": "fire", "value": 80 }
+  ],
+  "immunities": [{ "name": "death", "value": 1 }]
+}

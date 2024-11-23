@@ -1,0 +1,105 @@
+{
+  "id": "hydra",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 35,
+  "maxHealth": 2350,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 32,
+  "imgHeight": 32,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 36,
+  "drawOrderOffsetY": 20,
+  "offsetX": -8,
+  "offsetY": 0,
+  "experience": 2100,
+  "defense": 27,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 0, "max": 250 },
+    { "item": "thigh", "chance": 60000, "max": 4 },
+    { "item": "strong_mana_potion", "chance": 1500, "max": 3 },
+    { "item": "strong_health_potion", "chance": 1500, "max": 3 },
+    { "item": "royal_helmet", "chance": 2000 },
+    { "item": "dragon_scale_shield", "chance": 200 },
+    { "item": "black_stone_amulet", "chance": 300 },
+    { "item": "halberd", "chance": 200 },
+    { "item": "crystalline_coif", "chance": 200 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    { "id": "walk", "totalRuntime": 0.7, "numberOfDirections": 4 },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 250 },
+    {
+      "attack": "earth",
+      "interval": 8000,
+      "chance": 30,
+      "min": 70,
+      "max": 290,
+      "type": "area",
+      "particle": 13,
+      "length": 8,
+      "spread": 3,
+      "range": 10
+    },
+    {
+      "attack": "earth",
+      "interval": 8000,
+      "chance": 40,
+      "min": 130,
+      "max": 250,
+      "type": "area",
+      "particle": 28,
+      "radius": 4,
+      "range": 10
+    },
+    {
+      "attack": "ice",
+      "interval": 8000,
+      "chance": 50,
+      "min": 135,
+      "max": 250,
+      "type": "area",
+      "particle": 31,
+      "radius": 4,
+      "range": 10
+    }
+  ],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 10000,
+      "chance": 30,
+      "min": 100,
+      "max": 450
+    }
+  ],
+  "elements": [
+    { "name": "physical", "value": 105 },
+    { "name": "energy", "value": 110 },
+    { "name": "holy", "value": 70 },
+    { "name": "ice", "value": 50 }
+  ],
+  "immunities": [{ "name": "earth", "value": 1 }]
+}

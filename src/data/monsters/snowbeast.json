@@ -1,0 +1,86 @@
+{
+  "id": "snowbeast",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 60,
+  "maxHealth": 3800,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 48,
+  "imgHeight": 48,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 50,
+  "drawOrderOffsetY": 32,
+  "offsetX": -16,
+  "offsetY": 0,
+  "experience": 2750,
+  "defense": 50,
+  "bestiary": 50,
+  "charm": 25,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 200, "max": 500 },
+    { "item": "hylian_broadsword", "chance": 2000 },
+    { "item": "dust", "chance": 500, "min": 1, "max": 2 },
+    { "item": "crystalline_armor", "chance": 20 },
+    { "item": "boots_of_speed", "chance": 100 },
+    { "item": "blue_robe", "chance": 100 },
+    { "item": "crystalline_ranger_legs", "chance": 30 },
+    { "item": "crystalline_coif", "chance": 30 },
+    { "item": "crystalline_robe", "chance": 30 },
+    { "item": "crystalline_sword", "chance": 30 },
+    { "item": "crystalline_boots", "chance": 30 },
+    { "item": "crystalline_kilt", "chance": 30 },
+    { "item": "crystalline_quiver", "chance": 20 },
+    { "item": "black_stone_amulet", "chance": 100 },
+    { "item": "thick_ice_stone_necklace", "chance": 50 },
+    { "item": "earth_crystal", "chance": 8000 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.4,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4,
+      "looping": true
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 100, "max": 450 },
+    {
+      "attack": "ice",
+      "interval": 8000,
+      "chance": 20,
+      "min": 100,
+      "max": 200,
+      "type": "area",
+      "particle": 34,
+      "radius": 6
+    }
+  ],
+  "elements": [
+    { "name": "death", "value": 80 },
+    { "name": "earth", "value": 110 },
+    { "name": "physical", "value": 120 }
+  ],
+  "immunities": [{ "name": "ice", "value": 1 }]
+}

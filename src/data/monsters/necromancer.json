@@ -1,0 +1,96 @@
+{
+  "id": "necromancer",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 70,
+  "maxHealth": 4500,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 32,
+  "imgHeight": 40,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 30,
+  "drawOrderOffsetY": 40,
+  "offsetX": -8,
+  "offsetY": 0,
+  "experience": 3950,
+  "defense": 45,
+  "bestiary": 50,
+  "charm": 30,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 100, "max": 600 },
+    { "item": "earth_crystal", "chance": 7000 },
+    { "item": "royal_axe", "chance": 400 },
+    { "item": "necro_rod", "chance": 200 },
+    { "item": "voodoo_wand", "chance": 100 },
+    { "item": "pretator_rod", "chance": 70 },
+    { "item": "dark_bagpack", "chance": 20 },
+    { "item": "club_with_spikes", "chance": 600 },
+    { "item": "royal_helmet", "chance": 2000 },
+    { "item": "earth_crystal", "chance": 5000 },
+    { "item": "boots_of_speed", "chance": 25 },
+    { "item": "death_armor", "chance": 30 },
+    { "item": "dust", "chance": 500, "min": 1, "max": 3 },
+    { "item": "dark_floor", "chance": 50 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.8,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 390 },
+    {
+      "attack": "death",
+      "interval": 2000,
+      "chance": 100,
+      "range": 8,
+      "min": 150,
+      "max": 390,
+      "type": "shoot",
+      "anim": "sd-skull",
+      "particle": 37
+    }
+  ],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 8000,
+      "chance": 50,
+      "min": 160,
+      "max": 240
+    }
+  ],
+  "elements": [
+    { "name": "physical", "value": 115 },
+    { "name": "fire", "value": 105 },
+    { "name": "death", "value": 50 },
+    { "name": "energy", "value": 50 },
+    { "name": "earth", "value": 50 },
+    { "name": "holy", "value": 115 },
+    { "name": "ice", "value": 105 }
+  ]
+}

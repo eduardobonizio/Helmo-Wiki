@@ -2,8 +2,8 @@
   "id": "thunder_saberz",
   "hittable": true,
   "maxDirections": 4,
-  "speed": 50,
-  "maxHealth": 20000,
+  "speed": 60,
+  "maxHealth": 1900,
   "showHealthBar": true,
   "footstepSound": "slime",
   "imgWidth": 32,
@@ -11,17 +11,27 @@
   "footstepOffsetX": 0,
   "footstepOffsetY": 32,
   "drawOrderOffsetY": 32,
-  "experience": 6000,
+  "experience": 1550,
   "offsetX": -8,
   "offsetY": 0,
   "defense": 20,
+  "bestiary": 40,
+  "charm": 25,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 1000, "max": 5000 },
+    { "item": "gold", "chance": 100000, "min": 100, "max": 200 },
     { "item": "earth_crystal", "chance": 5000 },
-    { "item": "thunder_bow", "chance": 1000 },
-    { "item": "thunder_crossbow", "chance": 1000 },
-    { "item": "thunder_quiver", "chance": 1000 },
-    { "item": "thunder_wand", "chance": 5000 }
+    { "item": "thunder_bow", "chance": 100 },
+    { "item": "thunder_crossbow", "chance": 100 },
+    { "item": "thunder_quiver", "chance": 60 },
+    { "item": "thunder_cape", "chance": 60 },
+    { "item": "thunder_boots", "chance": 60 },
+    { "item": "thunder_helmet", "chance": 60 },
+    { "item": "thunder_legs", "chance": 60 },
+    { "item": "royal_helmet", "chance": 1000 },
+    { "item": "steel_armor", "chance": 1000 },
+    { "item": "steel_shield", "chance": 1000 },
+    { "item": "boots_of_speed", "chance": 50 },
+    { "item": "purple_book", "chance": 20 }
   ],
   "collisionRects": [
     {
@@ -52,13 +62,13 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 0, "max": 600 },
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 350 },
     {
       "attack": "energy",
-      "interval": 5000,
-      "chance": 50,
+      "interval": 6000,
+      "chance": 100,
       "min": 350,
-      "max": 750,
+      "max": 550,
       "type": "area",
       "particle": 12,
       "length": 8,
@@ -66,18 +76,9 @@
       "range": 7
     }
   ],
-  "defenses": [
-    {
-      "name": "healing",
-      "interval": 8000,
-      "chance": 10,
-      "min": 500,
-      "max": 700
-    }
-  ],
   "elements": [
-    { "name": "fire", "value": 120 },
-    { "name": "death", "value": 120 }
+    { "name": "physical", "value": 115 },
+    { "name": "earth", "value": 115 }
   ],
   "immunities": [{ "name": "energy", "value": 1 }]
 }

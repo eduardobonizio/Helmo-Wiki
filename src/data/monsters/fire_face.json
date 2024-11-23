@@ -1,0 +1,68 @@
+{
+	"id":"fire_face",
+	"hittable":true,
+	"maxDirections":4,
+	"speed":100,
+	"maxHealth":7500,
+	"showHealthBar": true,
+	"footstepSound":"slime",
+	"imgWidth":32,
+	"imgHeight":32,
+	"footstepOffsetX":0,
+	"footstepOffsetY":40,
+	"drawOrderOffsetY":32,
+        "offsetX":-8,
+        "offsetY":0,
+        "experience": 5440,
+        "defense": 40,
+        "pushable": false,
+        "bestiary": 105,
+        "charm": 60,
+        "drops": [
+                    {"item":"gold", "chance": 100000, "min":400, "max":900},
+                    {"item":"thigh", "chance": 60000, "max":4},
+                    {"item":"demon_shield", "chance": 1000},
+                    {"item":"time_ring", "chance": 700},
+                    {"item":"demon_boots", "chance": 50},
+                    {"item":"thunder_wand", "chance": 200},
+                    {"item":"hellfire_wand", "chance": 50},
+                    {"item":"necro_rod", "chance": 1000},
+                    {"item":"earth_crystal", "chance": 2000},
+                    {"item":"royal_axe", "chance": 100},
+                    {"item":"black_stone_amulet", "chance": 300},
+                    {"item":"demon_heart", "chance": 50},
+                    {"item":"holy_armor", "chance": 50},
+                    {"item":"holy_legs", "chance": 50},
+                    {"item":"holy_helmet", "chance": 50},
+                    {"item":"dust", "chance": 800, "min":1, "max":5},
+                    {"item":"fire_axe", "chance": 1000}
+                 ],
+	"collisionRects":[
+		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
+		],
+	"animations":[
+		{"id":"walk", "totalRuntime":0.4, "numberOfDirections":4, "looping":true},
+		{"id":"default", "fileName":"walk", "totalRuntime":0.8, "numberOfDirections": 4, "looping":true}
+		],
+	"properties": [
+		{"name":"activationZoneDistance", "type":"int"},
+		{"name":"deactivationZoneDistance", "type":"int"}
+	],
+        "attacks": [
+		{"attack":"melee", "interval":2000, "min":100, "max":590},
+                {"attack":"death", "interval":2000, "chance":100, "range":8, "min":100, "max":480, "type":"shoot", "anim":"sd-skull", "particle":37},
+                {"attack":"fire", "interval":6000, "chance":30, "min":100, "max":620, "type":"area", "particle":3,"radius":6,"target":1,"range":12}
+	],
+        "defenses": [
+		{"name":"healing", "interval":8000, "chance": 30, "min":180, "max":500}
+	],
+        "elements": [
+                {"name":"ice", "value":105},
+                {"name":"earth", "value":80},
+                {"name":"energy", "value":90},
+                {"name":"holy", "value":105}
+	],
+        "immunities": [
+		{"name":"fire", "value":1}
+	]
+}

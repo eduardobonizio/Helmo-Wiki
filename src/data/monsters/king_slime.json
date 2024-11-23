@@ -4,6 +4,7 @@
   "maxDirections": 4,
   "speed": 60,
   "maxHealth": 6500,
+  "deathParticle": 44,
   "showHealthBar": true,
   "footstepSound": "slime",
   "imgWidth": 32,
@@ -16,15 +17,20 @@
   "experience": 1300,
   "intervalResp": 600,
   "defense": 40,
+  "bestiary": 5,
+  "charm": 20,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 100, "max": 500 },
+    { "item": "gold", "chance": 100000, "min": 100, "max": 2000 },
     { "item": "earth_crystal", "chance": 10000 },
     { "item": "halberd", "chance": 1000 },
+    { "item": "iron_hatchet", "chance": 800 },
     { "item": "bagpack", "chance": 200 },
     { "item": "thick_ice_stone_necklace", "chance": 200 },
     { "item": "ring_of_nature", "chance": 200 },
     { "item": "noble_magic_book", "chance": 500 },
-    { "item": "noble_magic_boots", "chance": 500 }
+    { "item": "noble_magic_boots", "chance": 500 },
+    { "item": "green_book", "chance": 40 },
+    { "item": "dust", "chance": 1000, "min": 1, "max": 3 }
   ],
   "collisionRects": [
     {
@@ -70,6 +76,14 @@
       "chance": 10,
       "min": 200,
       "max": 250
+    },
+    {
+      "name": "paralize",
+      "interval": 10000,
+      "chance": 20,
+      "type": "area",
+      "particle": 11,
+      "radius": 8
     }
   ],
   "elements": [

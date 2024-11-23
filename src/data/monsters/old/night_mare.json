@@ -1,0 +1,118 @@
+{
+  "id": "night_mare",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 70,
+  "maxHealth": 120000,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 48,
+  "imgHeight": 48,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 50,
+  "drawOrderOffsetY": 32,
+  "offsetX": -16,
+  "offsetY": 0,
+  "experience": 16000,
+  "defense": 50,
+  "drops": [
+    { "item": "gold", "chance": 100000, "max": 10000 },
+    { "item": "gold", "chance": 100000, "max": 10000 },
+    { "item": "lightning_boots", "chance": 100000 },
+    { "item": "soul_essence", "chance": 50000 },
+    { "item": "corruption_boots", "chance": 5000 },
+    { "item": "corruption_axe", "chance": 3000 },
+    { "item": "corruption_sword", "chance": 2000 },
+    { "item": "corruption_shield", "chance": 2000 },
+    { "item": "corruption_book", "chance": 2000 },
+    { "item": "corruption_legs", "chance": 4000 },
+    { "item": "corruption_helmet", "chance": 5000 },
+    { "item": "corruption_ring", "chance": 3000 },
+    { "item": "corruption_necklace", "chance": 3000 },
+    { "item": "corruption_bow", "chance": 1000 },
+    { "item": "corruption_crossbow", "chance": 1000 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.4,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0.9,
+      "numberOfDirections": 4,
+      "looping": true
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 600, "max": 1800 },
+    {
+      "attack": "death",
+      "interval": 4000,
+      "chance": 30,
+      "min": 500,
+      "max": 1900,
+      "type": "area",
+      "particle": 5,
+      "length": 8,
+      "spread": 3,
+      "range": 10
+    },
+    {
+      "attack": "fire",
+      "interval": 4000,
+      "chance": 50,
+      "min": 550,
+      "max": 1600,
+      "type": "area",
+      "particle": 3,
+      "radius": 8,
+      "target": 0,
+      "range": 10
+    },
+    {
+      "attack": "fire",
+      "interval": 4000,
+      "chance": 70,
+      "min": 500,
+      "max": 900,
+      "type": "area",
+      "particle": 3,
+      "radius": 3,
+      "target": 1,
+      "range": 7,
+      "field": 1
+    }
+  ],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 6000,
+      "chance": 50,
+      "min": 1300,
+      "max": 4500
+    }
+  ],
+  "elements": [
+    { "name": "fire", "value": 30 },
+    { "name": "death", "value": 30 },
+    { "name": "holy", "value": 125 }
+  ]
+}

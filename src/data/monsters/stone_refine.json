@@ -1,0 +1,87 @@
+{
+  "id": "stone_refine",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 60,
+  "maxHealth": 1200,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 48,
+  "imgHeight": 48,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 35,
+  "drawOrderOffsetY": 32,
+  "offsetX": -16,
+  "offsetY": -12,
+  "experience": 950,
+  "defense": 30,
+  "bestiary": 50,
+  "charm": 25,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 100, "max": 220 },
+    { "item": "earth_crystal", "chance": 2500 },
+    { "item": "royal_armor", "chance": 800 },
+    { "item": "royal_helmet", "chance": 800 },
+    { "item": "royal_boots", "chance": 800 },
+    { "item": "royal_legs", "chance": 800 },
+    { "item": "steel_ring", "chance": 200 },
+    { "item": "steel_necklace", "chance": 200 },
+    { "item": "steel_crossbow", "chance": 200 },
+    { "item": "steel_quiver", "chance": 100 },
+    { "item": "mace", "chance": 200 },
+    { "item": "royal_cape", "chance": 200 },
+    { "item": "club_with_spikes", "chance": 200 },
+    { "item": "ruby_necklace", "chance": 250 },
+    { "item": "candy", "chance": 800, "max": 1 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.4,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4,
+      "looping": true
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 300 },
+    {
+      "attack": "physical",
+      "interval": 8000,
+      "chance": 50,
+      "min": 100,
+      "max": 280,
+      "type": "area",
+      "particle": 10,
+      "radius": 3
+    }
+  ],
+
+  "elements": [
+    { "name": "energy", "value": 125 },
+    { "name": "fire", "value": 110 },
+    { "name": "earth", "value": 80 },
+    { "name": "physical", "value": 120 },
+    { "name": "ice", "value": 120 }
+  ]
+}

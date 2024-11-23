@@ -4,26 +4,31 @@
   "maxDirections": 4,
   "speed": 45,
   "maxHealth": 685,
+  "deathParticle": 43,
   "showHealthBar": true,
   "footstepSound": "slime",
   "imgWidth": 32,
   "imgHeight": 32,
   "footstepOffsetX": 0,
-  "footstepOffsetY": 22,
-  "drawOrderOffsetY": 16,
+  "footstepOffsetY": 32,
+  "drawOrderOffsetY": 32,
   "offsetX": -8,
   "offsetY": 0,
   "experience": 505,
   "defense": 28,
+  "bestiary": 50,
+  "charm": 25,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 10, "max": 60 },
+    { "item": "gold", "chance": 100000, "min": 30, "max": 80 },
     { "item": "strong_health_potion", "chance": 1000, "max": 5 },
-    { "item": "royal_helmet", "chance": 2000 },
+    { "item": "royal_helmet", "chance": 1000 },
     { "item": "earth_crystal", "chance": 2000 },
-    { "item": "vamp_shield", "chance": 35 },
+    { "item": "iron_hatchet", "chance": 300 },
+    { "item": "bronze_amulet", "chance": 600 },
     { "item": "vamp_boots", "chance": 35 },
-    { "item": "vamp_ring", "chance": 30 },
-    { "item": "vamp_necklace", "chance": 30 }
+    { "item": "vamp_cape", "chance": 35 },
+    { "item": "vamp_legs", "chance": 35 },
+    { "item": "vamp_hat", "chance": 35 }
   ],
   "collisionRects": [
     {
@@ -59,7 +64,7 @@
     {
       "attack": "death",
       "interval": 5000,
-      "chance": 70,
+      "chance": 50,
       "min": 50,
       "max": 200,
       "type": "area",
@@ -67,6 +72,26 @@
       "radius": 6,
       "target": 1,
       "range": 7
+    }
+  ],
+  "defenses": [
+    {
+      "name": "paralize",
+      "interval": 10000,
+      "chance": 10,
+      "type": "area",
+      "particle": 11,
+      "radius": 5
+    },
+    {
+      "name": "life_drain",
+      "interval": 10000,
+      "chance": 10,
+      "min": 50,
+      "max": 200,
+      "type": "area",
+      "particle": 12,
+      "radius": 6
     }
   ],
   "elements": [
@@ -77,5 +102,6 @@
   "immunities": [
     { "name": "death", "value": 1 },
     { "name": "earth", "value": 1 }
-  ]
+  ],
+  "hards": [{ "name": "fire", "value": 1 }]
 }

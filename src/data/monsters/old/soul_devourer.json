@@ -1,0 +1,106 @@
+{
+  "id": "soul_devourer",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 70,
+  "maxHealth": 3900,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 32,
+  "imgHeight": 32,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 32,
+  "drawOrderOffsetY": 0,
+  "intervalResp": 120,
+  "offsetX": -8,
+  "offsetY": 0,
+  "experience": 5500,
+  "defense": 30,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 1, "max": 256 },
+    { "item": "thick_silver_necklace", "chance": 1000 },
+    { "item": "earth_crystal", "chance": 3000 },
+    { "item": "necro_rod", "chance": 1000 },
+    { "item": "ruby_necklace", "chance": 500 },
+    { "item": "crystalline_kilt", "chance": 200 },
+    { "item": "black_stone_amulet", "chance": 1000 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    { "id": "walk", "totalRuntime": 0.4, "numberOfDirections": 4 },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 700 },
+    {
+      "attack": "physical",
+      "interval": 2000,
+      "chance": 100,
+      "range": 7,
+      "min": 50,
+      "max": 100,
+      "type": "shoot",
+      "anim": "death-ball",
+      "particle": 5
+    },
+    {
+      "attack": "death",
+      "interval": 4000,
+      "chance": 50,
+      "min": 230,
+      "max": 280,
+      "type": "area",
+      "particle": 5,
+      "radius": 4,
+      "target": 0
+    },
+    {
+      "attack": "death",
+      "interval": 4000,
+      "chance": 50,
+      "min": 370,
+      "max": 650,
+      "type": "area",
+      "particle": 5,
+      "length": 10,
+      "spread": 20,
+      "range": 12
+    }
+  ],
+  "elements": [
+    { "name": "physical", "value": 75 },
+    { "name": "earth", "value": 60 },
+    { "name": "fire", "value": 110 },
+    { "name": "energy", "value": 110 },
+    { "name": "holy", "value": 110 },
+    { "name": "ice", "value": 35 }
+  ],
+  "immunities": [{ "name": "death", "value": 1 }],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 8000,
+      "chance": 70,
+      "min": 140,
+      "max": 200
+    }
+  ]
+}

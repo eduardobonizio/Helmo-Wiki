@@ -1,108 +1,61 @@
 {
-  "id": "energy_wizard",
-  "hittable": true,
-  "maxDirections": 4,
-  "speed": 35,
-  "maxHealth": 1750,
-  "showHealthBar": true,
-  "footstepSound": "slime",
-  "imgWidth": 32,
-  "imgHeight": 32,
-  "footstepOffsetX": 0,
-  "footstepOffsetY": 26,
-  "drawOrderOffsetY": 16,
-  "offsetX": -8,
-  "offsetY": 0,
-  "experience": 2000,
-  "defense": 33,
-  "drops": [
-    { "item": "gold", "chance": 100000, "min": 0, "max": 120 },
-    { "item": "mana_potion", "chance": 5500, "max": 3 },
-    { "item": "health_potion", "chance": 5500, "max": 3 },
-    { "item": "blue_robe", "chance": 50 },
-    { "item": "centered_cape", "chance": 150 },
-    { "item": "centered_hat", "chance": 100 },
-    { "item": "earth_crystal", "chance": 10000 },
-    { "item": "black_stone_amulet", "chance": 100 }
-  ],
-  "collisionRects": [
-    {
-      "name": "hit",
-      "hard": true,
-      "offsetX": 0,
-      "offsetY": 0,
-      "width": 16,
-      "height": 16
-    }
-  ],
-  "animations": [
-    {
-      "id": "walk",
-      "totalRuntime": 0.8,
-      "numberOfDirections": 4,
-      "looping": true
-    },
-    {
-      "id": "default",
-      "fileName": "walk",
-      "totalRuntime": 0,
-      "numberOfDirections": 4
-    }
-  ],
-  "properties": [
-    { "name": "activationZoneDistance", "type": "int" },
-    { "name": "deactivationZoneDistance", "type": "int" }
-  ],
-  "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 0, "max": 130 },
-    {
-      "attack": "energy",
-      "interval": 2000,
-      "chance": 100,
-      "range": 6,
-      "min": 90,
-      "max": 180,
-      "type": "shoot",
-      "anim": "energy-ball",
-      "particle": 12
-    },
-    {
-      "attack": "energy",
-      "interval": 6000,
-      "chance": 30,
-      "min": 150,
-      "max": 230,
-      "type": "area",
-      "particle": 12,
-      "length": 10,
-      "spread": 20,
-      "range": 12
-    }
-  ],
-  "defenses": [
-    {
-      "name": "healing",
-      "interval": 8000,
-      "chance": 30,
-      "min": 50,
-      "max": 150
-    },
-    {
-      "name": "mana_drain",
-      "interval": 8000,
-      "chance": 30,
-      "min": 0,
-      "max": 100,
-      "type": "area",
-      "particle": 11,
-      "radius": 6
-    }
-  ],
-  "elements": [
-    { "name": "physical", "value": 105 },
-    { "name": "fire", "value": 50 },
-    { "name": "earth", "value": 115 },
-    { "name": "holy", "value": 70 }
-  ],
-  "immunities": [{ "name": "energy", "value": 1 }]
+	"id":"energy_wizard",
+	"hittable":true,
+	"maxDirections":4,
+	"speed":35,
+	"maxHealth":1750,
+	"showHealthBar": true,
+	"footstepSound":"slime",
+	"imgWidth":32,
+	"imgHeight":32,
+	"footstepOffsetX":0,
+	"footstepOffsetY":26,
+	"drawOrderOffsetY":16,
+        "offsetX":-8,
+        "offsetY":0,
+        "experience": 2000,
+        "defense": 33,
+        "bestiary": 70,
+        "charm": 40,
+        "drops": [
+                    {"item":"gold", "chance": 100000, "min":50, "max":160},
+                    {"item":"mana_potion", "chance": 5500, "max":3},
+                    {"item":"health_potion", "chance": 5500, "max":3},
+                    {"item":"garlic_necklace", "chance": 800},
+                    {"item":"bronze_amulet", "chance": 800},
+                    {"item":"blue_robe", "chance": 50},
+                    {"item":"centered_cape", "chance": 150},
+                    {"item":"centered_hat", "chance": 100},
+                    {"item":"earth_crystal", "chance": 10000},
+                    {"item":"black_stone_amulet", "chance": 100}
+                    
+        ],
+	"collisionRects":[
+		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
+		],
+	"animations":[
+		{"id":"walk", "totalRuntime":0.8, "numberOfDirections":4, "looping":true},
+		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4}
+		],
+	"properties": [
+		{"name":"activationZoneDistance", "type":"int"},
+		{"name":"deactivationZoneDistance", "type":"int"}
+	],
+        "attacks": [
+		{"attack":"melee", "interval":2000, "min":0, "max":130},
+                {"attack":"energy", "interval":2000, "chance":100, "range":6, "min":90, "max":180, "type":"shoot", "anim":"energy-ball", "particle":12},
+                {"attack":"energy", "interval":4000, "chance":30, "min":150, "max":230, "type":"area", "particle":12,"length":10,"spread":20,"range":12}
+	],
+        "defenses": [
+		{"name":"healing", "interval":8000, "chance": 30, "min":50, "max":150},
+                {"name":"mana_drain", "interval":8000, "chance": 30, "min":0, "max":100, "type":"area", "particle":11,"radius":6}
+	],
+        "elements": [
+                {"name":"physical", "value":115},
+                {"name":"fire", "value":50},
+                {"name":"earth", "value":115}
+	],
+        "immunities": [
+		{"name":"energy", "value":1}
+	]
 }

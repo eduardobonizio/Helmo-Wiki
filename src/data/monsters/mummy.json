@@ -1,0 +1,88 @@
+{
+  "id": "mummy",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 60,
+  "maxHealth": 4500,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 32,
+  "imgHeight": 50,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 30,
+  "drawOrderOffsetY": 40,
+  "offsetX": -8,
+  "offsetY": 0,
+  "experience": 3950,
+  "defense": 30,
+  "bestiary": 60,
+  "charm": 35,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 100, "max": 600 },
+    { "item": "earth_crystal", "chance": 6000 },
+    { "item": "ruby_necklace", "chance": 2000 },
+    { "item": "royal_helmet", "chance": 2000 },
+    { "item": "club_with_spikes", "chance": 600 },
+    { "item": "dust", "chance": 500, "min": 1, "max": 5 },
+    { "item": "control_book", "chance": 300 },
+    { "item": "possessed_crystal", "chance": 300 },
+    { "item": "royal_axe", "chance": 300 },
+    { "item": "pharaoh_sword", "chance": 80 },
+    { "item": "death_armor", "chance": 30 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.8,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 300 },
+    {
+      "attack": "death",
+      "interval": 2000,
+      "chance": 100,
+      "range": 8,
+      "min": 100,
+      "max": 290,
+      "type": "shoot",
+      "anim": "sd-skull",
+      "particle": 37
+    }
+  ],
+  "defenses": [
+    {
+      "name": "paralize",
+      "interval": 5000,
+      "chance": 10,
+      "type": "area",
+      "particle": 40,
+      "length": 8,
+      "spread": 3
+    }
+  ],
+  "elements": [{ "name": "holy", "value": 125 }],
+  "immunities": [{ "name": "death", "value": 1 }]
+}

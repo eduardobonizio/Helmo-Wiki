@@ -15,10 +15,11 @@
   "offsetY": 0,
   "experience": 160,
   "defense": 30,
+  "bestiary": 20,
+  "charm": 5,
   "drops": [
     { "item": "gold", "chance": 100000, "min": 0, "max": 40 },
     { "item": "earth_crystal", "chance": 1000 },
-    { "item": "iron_hatchet", "chance": 300 },
     { "item": "noble_magic_book", "chance": 30 },
     { "item": "noble_magic_boots", "chance": 30 },
     { "item": "noble_magic_hat", "chance": 30 },

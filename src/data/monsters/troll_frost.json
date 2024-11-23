@@ -15,14 +15,16 @@
   "offsetY": 0,
   "experience": 160,
   "defense": 17,
+  "bestiary": 25,
+  "charm": 15,
   "drops": [
     { "item": "gold", "chance": 100000, "min": 10, "max": 65 },
     { "item": "double_axe", "chance": 1000 },
-    { "item": "royal_helmet", "chance": 50 },
-    { "item": "royal_armor", "chance": 200 },
-    { "item": "royal_legs", "chance": 200 },
-    { "item": "royal_boots", "chance": 200 },
-    { "item": "royal_shield", "chance": 80 }
+    { "item": "royal_helmet", "chance": 100 },
+    { "item": "royal_armor", "chance": 500 },
+    { "item": "royal_legs", "chance": 500 },
+    { "item": "royal_boots", "chance": 500 },
+    { "item": "royal_shield", "chance": 120 }
   ],
   "collisionRects": [
     {

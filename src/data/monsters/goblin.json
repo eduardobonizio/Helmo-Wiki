@@ -13,8 +13,10 @@
   "drawOrderOffsetY": 16,
   "offsetX": 0,
   "offsetY": 0,
-  "experience": 60,
+  "experience": 80,
   "defense": 11,
+  "bestiary": 15,
+  "charm": 5,
   "drops": [
     { "item": "basic_helmo", "chance": 5000 },
     { "item": "basic_shield", "chance": 5000 },
@@ -22,10 +24,11 @@
     { "item": "boots_basic", "chance": 5000 },
     { "item": "shirt_basic", "chance": 5000 },
     { "item": "basic_crossbow", "chance": 200 },
-    { "item": "gold", "chance": 70000, "min": 5, "max": 25 },
+    { "item": "gold", "chance": 70000, "min": 10, "max": 45 },
     { "item": "fish", "chance": 60000, "max": 1 },
     { "item": "shovel", "chance": 500 },
-    { "item": "rope", "chance": 300 }
+    { "item": "rope", "chance": 300 },
+    { "item": "green_bagpack", "chance": 400 }
   ],
   "collisionRects": [
     {

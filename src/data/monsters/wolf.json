@@ -15,6 +15,8 @@
   "offsetY": 0,
   "experience": 20,
   "defense": 1,
+  "bestiary": 10,
+  "charm": 3,
   "drops": [
     { "item": "thigh", "chance": 70000, "min": 1, "max": 2 },
     { "item": "gold", "chance": 100000, "min": 5, "max": 15 }

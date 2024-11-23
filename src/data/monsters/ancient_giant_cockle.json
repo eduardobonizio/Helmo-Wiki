@@ -1,0 +1,78 @@
+{
+	"id":"ancient_giant_cockle",
+	"hittable":true,
+	"maxDirections":4,
+	"speed":80,
+	"maxHealth":26400,
+	"showHealthBar": true,
+	"footstepSound":"slime",
+	"imgWidth":48,
+	"imgHeight":48,
+	"footstepOffsetX":0,
+	"footstepOffsetY":50,
+	"drawOrderOffsetY":48,
+        "offsetX":-14,
+        "offsetY":0,
+        "experience": 11500,
+        "intervalResp":3600,
+        "defense": 74,
+        "pushable": false,
+        "bestiary": 20,
+        "charm": 75,
+        "drops": [
+                    {"item":"gold", "chance": 100000, "min":1000, "max":5000},
+                    {"item":"earth_crystal", "chance": 8000},
+                    {"item":"legendary_crossbow", "chance": 500},
+                    {"item":"legendary_bow", "chance": 500},
+                    {"item":"voodoo_wand", "chance": 800},
+                    {"item":"style_bagpack", "chance": 300},
+                    {"item":"holy_helmet", "chance": 800},
+                    {"item":"mysteries_book", "chance": 500},
+                    {"item":"royal_axe", "chance": 500},
+                    {"item":"purple_book", "chance": 300},
+                    {"item":"bronze_amulet", "chance": 5000},
+                    {"item":"garlic_necklace", "chance": 5000},
+                    {"item":"weak_necklace", "chance": 5000},
+                    {"item":"might_ring", "chance": 5000},
+                    
+                    {"item":"prismatic_ring", "chance": 1000},
+                    {"item":"prismatic_necklace", "chance": 1000},
+                    
+                    {"item":"red_plasma_amulet", "chance": 2000},      
+                    {"item":"blue_plasma_amulet", "chance": 2000},
+                    {"item":"green_plasma_amulet", "chance": 2000},
+                    
+                    {"item":"dust", "chance": 5000, "min":1, "max":5}
+                    
+        ],
+	"collisionRects":[
+		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
+		],
+	"animations":[
+		{"id":"walk", "totalRuntime":0.5, "numberOfDirections":4, "looping":true},
+		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4}
+		],
+	"properties": [
+		{"name":"activationZoneDistance", "type":"int"},
+		{"name":"deactivationZoneDistance", "type":"int"}
+	],
+        "attacks": [
+		{"attack":"melee", "interval":2000, "min":400, "max":1200},
+                {"attack":"physical", "interval":6000, "chance":30, "min":650, "max":1250, "type":"area", "particle":8,"radius":5},
+                {"attack":"physical", "interval":6000, "chance":30, "min":650, "max":1250, "type":"area", "particle":8,"length":8,"spread":3,"range":8}
+	],
+        "defenses": [
+		{"name":"healing", "interval":8000, "chance": 20, "min":100, "max":400},
+                {"name":"paralize", "interval":8000, "chance": 20, "type":"area", "particle":11,"radius":6},
+                {"name":"mana_drain", "interval":8000, "chance": 10, "min":400, "max":800, "type":"area", "particle":12,"radius":6}
+	],
+        "elements": [
+                {"name":"physical", "value":95},
+                {"name":"earth", "value":80},
+                {"name":"fire", "value":90},
+                {"name":"death", "value":90},
+                {"name":"energy", "value":85},
+                {"name":"ice", "value":95},
+                {"name":"holy", "value":105}
+	]
+}

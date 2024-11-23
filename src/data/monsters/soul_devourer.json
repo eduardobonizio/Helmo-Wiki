@@ -3,7 +3,7 @@
   "hittable": true,
   "maxDirections": 4,
   "speed": 70,
-  "maxHealth": 3900,
+  "maxHealth": 8500,
   "showHealthBar": true,
   "footstepSound": "slime",
   "imgWidth": 32,
@@ -14,16 +14,25 @@
   "intervalResp": 120,
   "offsetX": -8,
   "offsetY": 0,
-  "experience": 5500,
+  "experience": 7000,
   "defense": 30,
+  "pushable": false,
+  "bestiary": 130,
+  "charm": 75,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 1, "max": 256 },
+    { "item": "gold", "chance": 100000, "min": 200, "max": 900 },
     { "item": "thick_silver_necklace", "chance": 1000 },
     { "item": "earth_crystal", "chance": 3000 },
     { "item": "necro_rod", "chance": 1000 },
     { "item": "ruby_necklace", "chance": 500 },
     { "item": "crystalline_kilt", "chance": 200 },
-    { "item": "black_stone_amulet", "chance": 1000 }
+    { "item": "vamp_shield", "chance": 30 },
+    { "item": "mysteries_book", "chance": 200 },
+    { "item": "pretator_rod", "chance": 200 },
+    { "item": "demon_shield", "chance": 500 },
+    { "item": "black_stone_amulet", "chance": 500 },
+    { "item": "boots_of_speed", "chance": 200 },
+    { "item": "death_armor", "chance": 500 }
   ],
   "collisionRects": [
     {
@@ -49,58 +58,34 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 0, "max": 700 },
+    { "attack": "melee", "interval": 2000, "min": 200, "max": 650 },
     {
       "attack": "physical",
       "interval": 2000,
-      "chance": 100,
+      "chance": 50,
       "range": 7,
-      "min": 50,
-      "max": 100,
+      "min": 200,
+      "max": 750,
       "type": "shoot",
       "anim": "death-ball",
       "particle": 5
-    },
+    }
+  ],
+  "defenses": [
     {
-      "attack": "death",
-      "interval": 4000,
-      "chance": 50,
-      "min": 230,
-      "max": 280,
+      "name": "mana_drain",
+      "interval": 15000,
+      "chance": 10,
+      "min": 100,
+      "max": 200,
       "type": "area",
-      "particle": 5,
-      "radius": 4,
-      "target": 0
-    },
-    {
-      "attack": "death",
-      "interval": 4000,
-      "chance": 50,
-      "min": 370,
-      "max": 650,
-      "type": "area",
-      "particle": 5,
-      "length": 10,
-      "spread": 20,
-      "range": 12
+      "particle": 11,
+      "radius": 6
     }
   ],
   "elements": [
-    { "name": "physical", "value": 75 },
-    { "name": "earth", "value": 60 },
-    { "name": "fire", "value": 110 },
-    { "name": "energy", "value": 110 },
-    { "name": "holy", "value": 110 },
-    { "name": "ice", "value": 35 }
+    { "name": "physical", "value": 115 },
+    { "name": "holy", "value": 115 }
   ],
-  "immunities": [{ "name": "death", "value": 1 }],
-  "defenses": [
-    {
-      "name": "healing",
-      "interval": 8000,
-      "chance": 70,
-      "min": 140,
-      "max": 200
-    }
-  ]
+  "immunities": [{ "name": "death", "value": 1 }]
 }

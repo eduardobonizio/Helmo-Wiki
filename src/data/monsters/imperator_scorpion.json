@@ -1,0 +1,79 @@
+{
+  "id": "imperator_scorpion",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 70,
+  "maxHealth": 6200,
+  "deathParticle": 44,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 48,
+  "imgHeight": 48,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 30,
+  "drawOrderOffsetY": 16,
+  "offsetX": -16,
+  "offsetY": -8,
+  "experience": 5600,
+  "defense": 40,
+  "bestiary": 70,
+  "charm": 30,
+  "drops": [
+    { "item": "gold", "chance": 10000, "min": 260, "max": 720 },
+    { "item": "earth_crystal", "chance": 5500 },
+    { "item": "royal_cape", "chance": 1200 },
+    { "item": "mace", "chance": 1200 },
+    { "item": "tearing_fang", "chance": 700 },
+    { "item": "halberd", "chance": 700 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.8,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 680 },
+    {
+      "attack": "earth",
+      "interval": 2000,
+      "chance": 100,
+      "range": 8,
+      "min": 100,
+      "max": 350,
+      "type": "shoot",
+      "anim": "earth-ball",
+      "particle": 28
+    }
+  ],
+
+  "elements": [
+    { "name": "energy", "value": 90 },
+    { "name": "fire", "value": 105 },
+    { "name": "holy", "value": 105 }
+  ],
+
+  "immunities": [{ "name": "earth", "value": 1 }]
+}

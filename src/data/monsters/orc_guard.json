@@ -15,13 +15,18 @@
   "offsetY": 0,
   "experience": 195,
   "defense": 12,
+  "bestiary": 25,
+  "charm": 15,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 10, "max": 35 },
+    { "item": "gold", "chance": 100000, "min": 10, "max": 50 },
     { "item": "broadsword", "chance": 2000 },
-    { "item": "steel_boots", "chance": 1000 },
-    { "item": "steel_legs", "chance": 1000 },
+    { "item": "steel_boots", "chance": 1500 },
+    { "item": "steel_legs", "chance": 1500 },
+    { "item": "time_ring", "chance": 100 },
     { "item": "goblin_key", "chance": 20 },
-    { "item": "steel_ring", "chance": 50 }
+    { "item": "steel_ring", "chance": 60 },
+    { "item": "steel_necklace", "chance": 60 },
+    { "item": "steel_crossbow", "chance": 30 }
   ],
   "collisionRects": [
     {
@@ -52,5 +57,12 @@
     { "name": "activationZoneDistance", "type": "int" },
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
-  "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 200 }]
+  "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 200 }],
+
+  "elements": [
+    { "name": "earth", "value": 110 },
+    { "name": "death", "value": 110 },
+    { "name": "energy", "value": 80 },
+    { "name": "holy", "value": 90 }
+  ]
 }

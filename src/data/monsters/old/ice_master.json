@@ -1,0 +1,94 @@
+{
+  "id": "ice_master",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 70,
+  "maxHealth": 25000,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 32,
+  "imgHeight": 32,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 32,
+  "drawOrderOffsetY": 0,
+  "intervalResp": 600,
+  "offsetX": -8,
+  "offsetY": 0,
+  "experience": 12000,
+  "defense": 30,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 900, "max": 1100 },
+    { "item": "thigh", "chance": 60000, "max": 4 },
+    { "item": "crystalline_axe", "chance": 500 },
+    { "item": "crystalline_sword", "chance": 500 },
+    { "item": "crystalline_book", "chance": 500 },
+    { "item": "strong_health_potion", "chance": 5000, "max": 5 },
+    { "item": "thick_ice_stone_necklace", "chance": 1000 },
+    { "item": "black_stone_amulet", "chance": 1000 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    { "id": "walk", "totalRuntime": 0.4, "numberOfDirections": 4 },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    {
+      "attack": "ice",
+      "interval": 2000,
+      "chance": 100,
+      "range": 7,
+      "min": 280,
+      "max": 550,
+      "type": "shoot",
+      "anim": "ice-ball",
+      "particle": 2
+    },
+    {
+      "attack": "ice",
+      "interval": 5000,
+      "chance": 30,
+      "min": 650,
+      "max": 900,
+      "type": "area",
+      "particle": 35,
+      "radius": 6,
+      "range": 8
+    },
+    {
+      "attack": "ice",
+      "interval": 5000,
+      "chance": 30,
+      "min": 450,
+      "max": 700,
+      "type": "area",
+      "particle": 35,
+      "radius": 3,
+      "range": 12,
+      "target": 1
+    }
+  ],
+  "elements": [
+    { "name": "fire", "value": 110 },
+    { "name": "energy", "value": 120 },
+    { "name": "earth", "value": 70 }
+  ],
+  "immunities": [{ "name": "ice", "value": 1 }]
+}

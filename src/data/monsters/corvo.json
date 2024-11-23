@@ -1,55 +1,41 @@
 {
-  "id": "corvo",
-  "hittable": true,
-  "maxDirections": 4,
-  "speed": 15,
-  "maxHealth": 15,
-  "showHealthBar": true,
-  "footstepSound": "slime",
-  "imgWidth": 16,
-  "imgHeight": 16,
-  "footstepOffsetX": 0,
-  "footstepOffsetY": 22,
-  "drawOrderOffsetY": 16,
-  "offsetX": 0,
-  "offsetY": 0,
-  "experience": 10,
-  "defense": -5,
-  "drops": [
-    { "item": "gold", "chance": 100000, "min": 7, "max": 10 },
-    { "item": "thigh", "chance": 70000, "min": 1, "max": 2 },
-    { "item": "crow_beak", "chance": 15000 },
-    { "item": "crow_feather", "chance": 50000 },
-    { "item": "earthworm", "chance": 15000, "min": 1, "max": 3 }
-  ],
-  "collisionRects": [
-    {
-      "name": "hit",
-      "hard": true,
-      "offsetX": 0,
-      "offsetY": 0,
-      "width": 16,
-      "height": 16
-    }
-  ],
-  "animations": [
-    {
-      "id": "walk",
-      "totalRuntime": 0.6,
-      "numberOfDirections": 4,
-      "looping": true
-    },
-    {
-      "id": "default",
-      "fileName": "walk",
-      "totalRuntime": 0,
-      "numberOfDirections": 4,
-      "looping": true
-    }
-  ],
-  "properties": [
-    { "name": "activationZoneDistance", "type": "int" },
-    { "name": "deactivationZoneDistance", "type": "int" }
-  ],
-  "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 5 }]
+	"id":"corvo",
+	"hittable":true,
+	"maxDirections":4,
+	"speed":15,
+	"maxHealth":15,
+	"showHealthBar": true,
+	"footstepSound":"slime",
+	"imgWidth":16,
+	"imgHeight":16,
+	"footstepOffsetX":0,
+	"footstepOffsetY":22,
+	"drawOrderOffsetY":16,
+        "offsetX":0,
+        "offsetY":0,
+        "experience": 10,
+        "defense": -5,
+        "bestiary": 2,
+        "charm": 1,
+        "drops": [
+                 {"item":"gold", "chance": 100000, "min":7, "max":10},
+                 {"item":"thigh", "chance": 70000, "min":1, "max":2},
+                 {"item":"crow_beak", "chance": 15000},
+                 {"item":"crow_feather", "chance": 50000},
+                 {"item":"earthworm", "chance": 15000, "min":1, "max":3}
+        ],
+	"collisionRects":[
+		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
+		],
+	"animations":[
+		{"id":"walk", "totalRuntime":0.6, "numberOfDirections":4, "looping":true},
+		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4, "looping": true}
+		],
+	"properties": [
+		{"name":"activationZoneDistance", "type":"int"},
+		{"name":"deactivationZoneDistance", "type":"int"}
+	],
+        "attacks": [
+		{"attack":"melee", "interval":2000, "min":0, "max":5}
+	]
 }

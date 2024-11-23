@@ -13,14 +13,19 @@
   "drawOrderOffsetY": 16,
   "offsetX": -8,
   "offsetY": 0,
-  "experience": 120,
+  "experience": 270,
   "defense": 8,
+  "bestiary": 25,
+  "charm": 15,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 0, "max": 40 },
+    { "item": "gold", "chance": 100000, "min": 10, "max": 60 },
     { "item": "mana_potion", "chance": 5500, "max": 3 },
-    { "item": "necro_rod", "chance": 500 },
+    { "item": "necro_rod", "chance": 800 },
+    { "item": "ruby_necklace", "chance": 800 },
+    { "item": "garlic_necklace", "chance": 800 },
     { "item": "silver_necklace", "chance": 200 },
-    { "item": "soul_book", "chance": 200 }
+    { "item": "soul_book", "chance": 200 },
+    { "item": "legion_helmet", "chance": 10 }
   ],
   "collisionRects": [
     {
@@ -51,7 +56,18 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 0, "max": 20 },
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 30 },
+    {
+      "attack": "death",
+      "interval": 2000,
+      "chance": 100,
+      "range": 8,
+      "min": 10,
+      "max": 30,
+      "type": "shoot",
+      "anim": "death-ball",
+      "particle": 27
+    },
     {
       "attack": "fire",
       "interval": 4000,
@@ -67,9 +83,10 @@
     }
   ],
   "elements": [
-    { "name": "physical", "value": 105 },
+    { "name": "physical", "value": 115 },
     { "name": "earth", "value": 80 },
-    { "name": "death", "value": 105 }
+    { "name": "death", "value": 80 },
+    { "name": "energy", "value": 80 }
   ],
-  "immunities": [{ "name": "energy", "value": 1 }]
+  "immunities": [{ "name": "fire", "value": 1 }]
 }

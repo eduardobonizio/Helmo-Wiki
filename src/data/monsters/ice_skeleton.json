@@ -4,6 +4,7 @@
   "maxDirections": 4,
   "speed": 35,
   "maxHealth": 180,
+  "deathParticle": 43,
   "showHealthBar": true,
   "footstepSound": "slime",
   "imgWidth": 16,
@@ -15,13 +16,16 @@
   "offsetY": 0,
   "experience": 125,
   "defense": 20,
+  "bestiary": 15,
+  "charm": 5,
   "drops": [
     { "item": "gold", "chance": 100000, "min": 10, "max": 30 },
     { "item": "axe", "chance": 1000 },
     { "item": "bone_armor", "chance": 500 },
     { "item": "bone_shield", "chance": 500 },
     { "item": "human_bone", "chance": 1000 },
-    { "item": "human_skull", "chance": 5000 }
+    { "item": "human_skull", "chance": 5000 },
+    { "item": "dust", "chance": 200, "min": 1, "max": 2 }
   ],
   "collisionRects": [
     {
@@ -52,5 +56,9 @@
     { "name": "activationZoneDistance", "type": "int" },
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
-  "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 35 }]
+  "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 35 }],
+  "immunities": [
+    { "name": "death", "value": 1 },
+    { "name": "ice", "value": 1 }
+  ]
 }

@@ -1,0 +1,93 @@
+{
+  "id": "plague_saberz",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 60,
+  "maxHealth": 4000,
+  "deathParticle": 44,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 32,
+  "imgHeight": 32,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 32,
+  "drawOrderOffsetY": 32,
+  "experience": 3100,
+  "offsetX": -8,
+  "offsetY": 0,
+  "defense": 20,
+  "bestiary": 30,
+  "charm": 20,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 100, "max": 500 },
+    { "item": "earth_crystal", "chance": 5000 },
+    { "item": "terra_mantle", "chance": 800 },
+    { "item": "terra_legs", "chance": 800 },
+    { "item": "living_armor", "chance": 300 },
+    { "item": "viper_rod", "chance": 300 },
+    { "item": "royal_helmet", "chance": 2000 },
+    { "item": "halberd", "chance": 800 },
+    { "item": "boots_of_speed", "chance": 50 },
+    { "item": "dust", "chance": 200, "min": 1, "max": 2 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.7,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 450 },
+    {
+      "attack": "earth",
+      "interval": 8000,
+      "chance": 30,
+      "min": 400,
+      "max": 650,
+      "type": "area",
+      "particle": 13,
+      "length": 8,
+      "spread": 3,
+      "range": 10
+    },
+    {
+      "attack": "earth",
+      "interval": 8000,
+      "chance": 40,
+      "min": 400,
+      "max": 650,
+      "type": "area",
+      "particle": 28,
+      "radius": 4,
+      "range": 10
+    }
+  ],
+  "elements": [
+    { "name": "fire", "value": 115 },
+    { "name": "energy", "value": 75 },
+    { "name": "death", "value": 75 }
+  ],
+  "immunities": [{ "name": "earth", "value": 1 }]
+}

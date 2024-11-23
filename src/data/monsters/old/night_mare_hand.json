@@ -1,0 +1,66 @@
+{
+  "id": "night_mare_hand",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 40,
+  "maxHealth": 600,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 16,
+  "imgHeight": 32,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 32,
+  "drawOrderOffsetY": 0,
+  "offsetX": 0,
+  "offsetY": 0,
+  "experience": 200,
+  "defense": 10,
+  "drops": [{ "item": "minotaur_mage_hat", "chance": 200 }],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.6,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0.9,
+      "numberOfDirections": 4,
+      "looping": true
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    {
+      "attack": "energy",
+      "interval": 2000,
+      "chance": 100,
+      "range": 8,
+      "min": 200,
+      "max": 480,
+      "type": "shoot",
+      "anim": "ice-ball",
+      "particle": 12
+    }
+  ],
+  "elements": [
+    { "name": "fire", "value": 30 },
+    { "name": "death", "value": 30 },
+    { "name": "holy", "value": 115 }
+  ]
+}
