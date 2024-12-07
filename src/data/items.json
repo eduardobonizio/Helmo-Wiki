@@ -1,0 +1,4408 @@
+[
+  {
+    "id": "Arbalest Crossbow.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Axe.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Basic Arrow.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Basic Bolt.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Basic Bow.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Basic Crossbow.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Basic Helmo.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Basic Quiver.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Basic Rod.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Basic Shield.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Basic Sword.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Basic Wand.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Black Pearl.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      { "id": "default", "totalRuntime": 1, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Black Robe.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Bonecutter.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Bone Armor.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Bone Scythe.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Bone Shield.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Boots Basic.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Broadsword.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Candle Rest.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Candy.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      { "id": "default", "totalRuntime": 1, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Corruption Armor.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Corruption Axe.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Corruption Book.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Corruption Boots.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Corruption Bow.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Corruption Crossbow.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Corruption Helmet.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Corruption Legs.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Corruption Necklace.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Corruption Quiver.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      { "id": "default", "totalRuntime": 1, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Corruption Ring.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Corruption Shield.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Corruption Sword.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Crow Beak.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Crow Feather.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Crystalline Armor.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Crystalline Axe.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      { "id": "default", "totalRuntime": 1, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Crystalline Book.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      { "id": "default", "totalRuntime": 1, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Crystalline Boots.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Crystalline Cape.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Crystalline Prime Bolt.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      { "id": "default", "totalRuntime": 1, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Crystalline Quiver.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      { "id": "default", "totalRuntime": 1, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Crystalline Robe.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Crystalline Shield.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      { "id": "default", "totalRuntime": 1, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Crystalline Sword.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      { "id": "default", "totalRuntime": 1, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Dark Floor.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "displaceY": 1,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Demon Armor.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Demon Boots.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Demon Helmet.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Demon Legs.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Demon Shield.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      { "id": "default", "totalRuntime": 1.6, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Destroy Field.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Die.json",
+    "numberOfStyles": 7,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 0.8,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Doll.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      { "id": "default", "totalRuntime": 1, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Double Axe.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Dragon Armor.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Dragon Hat.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Dragon Helmet.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Dragon Horn.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Dragon Key.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Dragon Legs.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Dragon Necklace.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Dragon Ring.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Dragon Scale.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Dragon Scale Armor.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Dragon Scale Arrow.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Dragon Scale Bolt.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Dragon Scale Boots.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Dragon Scale Shield.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Dragon Slayer Armor.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Dragon Slayer Boots.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Dragon Slayer Bow.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Dragon Slayer Crossbow.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Dragon Slayer Helmet.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Dragon Slayer Legs.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Dragon Slayer Shield.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Dragon Slayer Sword.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Dragon Wand.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 32 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Earthworm.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Earth Crystal.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Energized Arrow.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Energized Bolt.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Exercise Wand.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1.2,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Fish.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      { "id": "default", "totalRuntime": 0.6, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Fishing Rod.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      { "id": "default", "totalRuntime": 1, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Flame Necklace.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      { "id": "default", "totalRuntime": 0, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Flawed Bow.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Frost Rod.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Frozen Arrow.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Frozen Bolt.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Furmeros Hat.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Glacier Sword.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 0.8,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ],
+    "properties": [{ "name": "quantity", "type": "int" }]
+  },
+  {
+    "id": "Goblin Key.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Gold.json",
+    "numberOfStyles": 8,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Gold Floor.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "displaceY": 1,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Great Health Potion.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Great Mana Potion.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Great Spirit Potion.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Green Cape.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Green Hat.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Green Legs.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Halberd.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Health Potion.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Hedge Rune.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Human Bone.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Human Skull.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Hylian Broadsword.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 32 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Icestorm Rod.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1.8,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ],
+    "properties": [{ "name": "quantity", "type": "int" }]
+  },
+  {
+    "id": "Ice Cube.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "displaceY": 4,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Ice Stone Necklace.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      { "id": "default", "totalRuntime": 0, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Iron Hatchet.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Knife.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Legion Helmet.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Library Key 1.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Library Key 2.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Library Key 3.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Library Key 4.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Lightning Boots.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Linen Armor.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Linen Boots.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Linen Bow.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Linen Hat.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Linen Legs.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Magic Stick.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 32 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Magic Wall Rune.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Mana Potion.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Minotaur Armor.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Minotaur Boots.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Minotaur Helmet.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Minotaur Legs.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Minotaur Mage Boots.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Minotaur Mage Hat.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Minotaur Mage Legs.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Minotaur Mage Robe.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Minotaur Shield.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Mino Key.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Mystic Glacier Book.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1.8,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ],
+    "properties": [{ "name": "quantity", "type": "int" }]
+  },
+  {
+    "id": "Mystic Glacier Bow.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1.8,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ],
+    "properties": [{ "name": "quantity", "type": "int" }]
+  },
+  {
+    "id": "Mystic Glacier Crossbow.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1.8,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ],
+    "properties": [{ "name": "quantity", "type": "int" }]
+  },
+  {
+    "id": "Mystic Glacier Rod.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1.8,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ],
+    "properties": [{ "name": "quantity", "type": "int" }]
+  },
+  {
+    "id": "Mystic Glacier Shield.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1.8,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ],
+    "properties": [{ "name": "quantity", "type": "int" }]
+  },
+  {
+    "id": "Mystic Glacier Sword.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1.8,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ],
+    "properties": [{ "name": "quantity", "type": "int" }]
+  },
+  {
+    "id": "Mystic Glacier Wand.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1.8,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ],
+    "properties": [{ "name": "quantity", "type": "int" }]
+  },
+  {
+    "id": "Necro Rod.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 32 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1.8,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Noble Magic Book.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Noble Magic Boots.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Noble Magic Hat.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Noble Magic Legs.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Noble Magic Robe.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Noble Magic Rod.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Noble Magic Wand.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 32 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Pants Basic.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Paralize.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Pick.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Poison Arrow.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Poison Bolt.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Possessed Crystal.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Potion Boost Skill.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      { "id": "default", "totalRuntime": 0, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Prismatic Ring.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 2,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Rope.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Royal Armor.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Royal Boots.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Royal Helmet.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Royal Legs.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Royal Shield.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Sacred Necklace.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      { "id": "default", "totalRuntime": 0, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Scroll Buff Exp.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 0.8,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Scroll Hc 100.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Scroll Loot.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      { "id": "default", "totalRuntime": 0, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Scroll Of Runes.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Scroll Temple.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Shirt Basic.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Shovel.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Silver Necklace.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      { "id": "default", "totalRuntime": 0, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Skull Helmet.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Slime Floor.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "displaceY": 1,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Slime Key.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Slime King Crown.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Small Health Potion.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Small Mana Potion.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Soul Book.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Soul Essence.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Soul Rod.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 32 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Soul Sword.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Soul Wand.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 32 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Steel Armor.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Steel Boots.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Steel Bow.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Steel Helmet.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Steel Legs.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Steel Necklace.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Steel Ring.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Steel Shield.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Strong Health Potion.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Strong Mana Potion.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Strong Necklace.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      { "id": "default", "totalRuntime": 0, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Strong Ring.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      { "id": "default", "totalRuntime": 0, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Suden Death Rune.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Thick Flame Necklace.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      { "id": "default", "totalRuntime": 0, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Thick Ice Stone Necklace.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      { "id": "default", "totalRuntime": 0, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Thick Sacred Necklace.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      { "id": "default", "totalRuntime": 0, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Thick Silver Necklace.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      { "id": "default", "totalRuntime": 0, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Thigh.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      { "id": "default", "totalRuntime": 0.6, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Thunder Boots.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Thunder Bow.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Thunder Cape.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Thunder Crossbow.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Thunder Hammer.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1.8,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ],
+    "properties": [{ "name": "quantity", "type": "int" }]
+  },
+  {
+    "id": "Thunder Helmet.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Thunder Legs.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Thunder Quiver.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Thunder Wand.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 32 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1.8,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Ultimate Healing Rune.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Ultimate Health Potion.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      { "id": "default", "totalRuntime": 0, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Ultimate Spirit Potion.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Vamp Boots.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Vamp Cape.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Vamp Hat.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Vamp Key.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Vamp Legs.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Vamp Necklace.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Vamp Ring.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Vamp Shield.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Viper Rod.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 32 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1.8,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Wand Frost.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 32 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Weak Necklace.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      { "id": "default", "totalRuntime": 0, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Weak Ring.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      { "id": "default", "totalRuntime": 0, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "White Pearl.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      { "id": "default", "totalRuntime": 1, "numberOfDirections": 1 }
+    ]
+  },
+  {
+    "id": "Wooden Sword.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 16,
+    "offsetX": 0,
+    "offsetY": 0,
+    "collisionRects": [{ "height": 16 }],
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": false
+      }
+    ]
+  },
+  {
+    "id": "Worm Rest.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  },
+  {
+    "id": "Worm Tooth.json",
+    "numberOfStyles": 1,
+    "maxDirections": 1,
+    "hittable": false,
+    "imgWidth": 16,
+    "imgHeight": 16,
+    "drawOrderOffsetY": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "animations": [
+      {
+        "id": "default",
+        "totalRuntime": 1,
+        "numberOfDirections": 1,
+        "looping": true
+      }
+    ]
+  }
+]

@@ -54,6 +54,33 @@ fs.writeFile(
       return console.log(err);
     }
 
-    console.log("JSON file has been saved.");
+    console.log("Monsters JSON file has been saved.");
+  }
+);
+
+const items = [];
+
+const jsonsInDirItems = fs
+  .readdirSync("./src/data/items")
+  .filter((file) => path.extname(file) === ".json");
+jsonsInDirItems.forEach((file) => {
+  console.log("Last item: ", file);
+  const fileData = fs.readFileSync(path.join("./src/data/items", file));
+  const json = JSON.parse(fileData.toString());
+  json.id = letrasMaiusculas(file);
+  items.push(json);
+});
+
+fs.writeFile(
+  "./src/data/items.json",
+  JSON.stringify(items),
+  "utf8",
+  function (err) {
+    if (err) {
+      console.log("An error occured while writing JSON Object to File.");
+      return console.log(err);
+    }
+
+    console.log("Items JSON file has been saved.");
   }
 );
