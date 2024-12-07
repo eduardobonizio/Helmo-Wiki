@@ -1,62 +1,87 @@
 {
-	"id":"baby_dragon",
-	"hittable":true,
-	"maxDirections":4,
-	"speed":32,
-	"maxHealth":360,
-	"showHealthBar": true,
-	"footstepSound":"slime",
-	"imgWidth":32,
-	"imgHeight":32,
-	"footstepOffsetX":0,
-	"footstepOffsetY":34,
-	"drawOrderOffsetY":20,
-        "offsetX":-8,
-        "offsetY":0,
-        "experience": 220,
-        "defense": 20,
-        "bestiary": 20,
-        "charm": 5,
-        "drops": [
-                 {"item":"gold", "chance": 100000, "min":25, "max":50},
-                 {"item":"thigh", "chance": 60000, "max":4},
-                 {"item":"small_health_potion", "chance": 50000, "max":2},
-                 {"item":"dragon_ring", "chance": 30},
-                 {"item":"dragon_hat", "chance": 50},
-                 {"item":"dragon_necklace", "chance": 30},
-                 {"item":"dragon_horn", "chance": 1000},
-                 {"item":"dragon_scale", "chance": 1000},
-                 {"item":"dragon_key", "chance": 10},
-                 {"item":"dragon_scale_arrow", "chance": 20000, "min":5, "max":10},
-                 {"item":"double_axe", "chance": 100},
-                 {"item":"green_cape", "chance": 30},
-                 {"item":"green_legs", "chance": 30},
-                 {"item":"green_hat", "chance": 30}
-        ],
-	"collisionRects":[
-		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
-		],
-	"animations":[
-		{"id":"walk", "totalRuntime":0.7, "numberOfDirections":4, "looping":true},
-		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4}
-		],
-	"properties": [
-		{"name":"activationZoneDistance", "type":"int"},
-		{"name":"deactivationZoneDistance", "type":"int"}
-	],
-        "attacks": [
-                {"attack":"melee", "interval":2000, "min":0, "max":110},
-                {"attack":"fire", "interval":2000, "chance":50, "range":7, "min":40, "max":70, "type":"shoot", "anim":"fire-ball", "particle":3}
-	],
-        "defenses": [
-		{"name":"healing", "interval":10000, "chance": 30, "min":20, "max":40}
-	],
-        "elements": [
-		{"name":"ice", "value":110},
-                {"name":"energy", "value":80},
-                {"name":"earth", "value":20}
-	],
-        "immunities": [
-		{"name":"fire", "value":1}
-	]
+  "id": "baby_dragon",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 32,
+  "maxHealth": 360,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 32,
+  "imgHeight": 32,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 34,
+  "drawOrderOffsetY": 20,
+  "offsetX": -8,
+  "offsetY": 0,
+  "experience": 220,
+  "defense": 20,
+  "bestiary": 20,
+  "charm": 5,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 25, "max": 50 },
+    { "item": "thigh", "chance": 60000, "max": 4 },
+    { "item": "small_health_potion", "chance": 50000, "max": 2 },
+    { "item": "dragon_ring", "chance": 30 },
+    { "item": "dragon_hat", "chance": 50 },
+    { "item": "dragon_necklace", "chance": 30 },
+    { "item": "dragon_horn", "chance": 1000 },
+    { "item": "dragon_scale", "chance": 1000 },
+    { "item": "dragon_key", "chance": 10 },
+    { "item": "dragon_scale_arrow", "chance": 20000, "min": 5, "max": 10 },
+    { "item": "double_axe", "chance": 100 },
+    { "item": "green_cape", "chance": 30 },
+    { "item": "green_legs", "chance": 30 },
+    { "item": "green_hat", "chance": 30 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.7,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 110 },
+    {
+      "attack": "fire",
+      "interval": 2000,
+      "chance": 50,
+      "range": 7,
+      "min": 40,
+      "max": 70,
+      "type": "shoot",
+      "anim": "fire-ball",
+      "particle": 3
+    }
+  ],
+  "defenses": [
+    { "name": "healing", "interval": 10000, "chance": 30, "min": 20, "max": 40 }
+  ],
+  "elements": [
+    { "name": "ice", "value": 110 },
+    { "name": "energy", "value": 80 },
+    { "name": "earth", "value": 20 }
+  ],
+  "immunities": [{ "name": "fire", "value": 1 }]
 }

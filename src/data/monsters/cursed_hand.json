@@ -1,57 +1,104 @@
 {
-	"id":"cursed_hand",
-	"hittable":true,
-	"maxDirections":4,
-	"speed":80,
-	"maxHealth":14000,
-	"showHealthBar": true,
-	"footstepSound":"slime",
-	"imgWidth":64,
-	"imgHeight":64,
-	"footstepOffsetX":0,
-	"footstepOffsetY":40,
-	"drawOrderOffsetY":40,
-        "offsetX":-26,
-        "offsetY":-24,
-        "experience": 12000,
-        "defense": 40,
-        "pushable": false,
-        "bestiary": 70,
-        "charm": 50,
-        "drops": [
-                    {"item":"gold", "chance": 100000, "min":200, "max":1200},
-                    {"item":"pretator_rod", "chance": 500},
-                    {"item":"death_armor", "chance": 500},
-                    {"item":"ruby_necklace", "chance": 800},
-                    {"item":"boots_of_speed", "chance": 500},
-                    {"item":"royal_axe", "chance": 500},
-                    {"item":"control_book", "chance": 500},
-                    {"item":"dust", "chance": 100000, "min":1, "max":2}
-        ],
-	"collisionRects":[
-		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
-		],
-	"animations":[
-		{"id":"walk", "totalRuntime":0.4, "numberOfDirections":4},
-		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4}
-		],
-	"properties": [
-		{"name":"activationZoneDistance", "type":"int"},
-		{"name":"deactivationZoneDistance", "type":"int"}
-	],
-        "attacks": [
-                {"attack":"melee", "interval":2000, "min":0, "max":800},
-                {"attack":"death", "interval":8000, "chance":30, "min":800, "max":1200, "type":"area", "particle":37,"radius":3,"target":1,"range":7}
-	],
-        "elements": [
-                {"name":"earth", "value":50},
-                {"name":"fire", "value":50},
-                {"name":"holy", "value":115},
-                {"name":"death", "value":90}
-	],
-        "defenses": [
-		{"name":"healing", "interval":6000, "chance": 50, "min":160, "max":240},
-                {"name":"mana_drain", "interval":9000, "chance": 10, "min":100, "max":920, "type":"area", "particle":12,"radius":5},
-                {"name":"life_drain", "interval":9000, "chance": 10, "min":100, "max":880, "type":"area", "particle":12,"radius":5}
-	]
+  "id": "cursed_hand",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 80,
+  "maxHealth": 14000,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 64,
+  "imgHeight": 64,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 40,
+  "drawOrderOffsetY": 40,
+  "offsetX": -26,
+  "offsetY": -24,
+  "experience": 12000,
+  "defense": 40,
+  "pushable": false,
+  "bestiary": 70,
+  "charm": 50,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 200, "max": 1200 },
+    { "item": "pretator_rod", "chance": 500 },
+    { "item": "death_armor", "chance": 500 },
+    { "item": "ruby_necklace", "chance": 800 },
+    { "item": "boots_of_speed", "chance": 500 },
+    { "item": "royal_axe", "chance": 500 },
+    { "item": "control_book", "chance": 500 },
+    { "item": "dust", "chance": 100000, "min": 1, "max": 2 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    { "id": "walk", "totalRuntime": 0.4, "numberOfDirections": 4 },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 800 },
+    {
+      "attack": "death",
+      "interval": 8000,
+      "chance": 30,
+      "min": 800,
+      "max": 1200,
+      "type": "area",
+      "particle": 37,
+      "radius": 3,
+      "target": 1,
+      "range": 7
+    }
+  ],
+  "elements": [
+    { "name": "earth", "value": 50 },
+    { "name": "fire", "value": 50 },
+    { "name": "holy", "value": 115 },
+    { "name": "death", "value": 90 }
+  ],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 6000,
+      "chance": 50,
+      "min": 160,
+      "max": 240
+    },
+    {
+      "name": "mana_drain",
+      "interval": 9000,
+      "chance": 10,
+      "min": 100,
+      "max": 920,
+      "type": "area",
+      "particle": 12,
+      "radius": 5
+    },
+    {
+      "name": "life_drain",
+      "interval": 9000,
+      "chance": 10,
+      "min": 100,
+      "max": 880,
+      "type": "area",
+      "particle": 12,
+      "radius": 5
+    }
+  ]
 }

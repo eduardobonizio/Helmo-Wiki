@@ -1,20 +1,11 @@
 {
-  "id": "dragon_legs",
-  "numberOfStyles": 1,
-  "maxDirections": 1,
-  "hittable": false,
-  "imgWidth": 16,
-  "imgHeight": 16,
-  "drawOrderOffsetY": 64,
-  "offsetX": 0,
-  "offsetY": 0,
-  "collisionRects": [{ "height": 16 }],
-  "animations": [
-    {
-      "id": "default",
-      "totalRuntime": 1,
-      "numberOfDirections": 1,
-      "looping": false
-    }
-  ]
+  "equipType": 7,
+  "defense": 8,
+  "bonusDistance": 1,
+  "protectEnergy": 3,
+  "level": 60,
+  "rarity": 4,
+  "vocations": [{ "name": "1" }],
+
+  "classification": 2
 }

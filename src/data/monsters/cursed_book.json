@@ -1,60 +1,102 @@
 {
-	"id":"cursed_book",
-	"hittable":true,
-	"maxDirections":4,
-	"speed":80,
-	"maxHealth":15000,
-	"showHealthBar": true,
-	"footstepSound":"slime",
-	"imgWidth":32,
-	"imgHeight":32,
-	"footstepOffsetX":0,
-	"footstepOffsetY":35,
-	"drawOrderOffsetY":33,
-        "offsetX":-8,
-        "offsetY":0,
-        "experience": 10800,
-        "defense": 35,
-        "pushable": false,
-        "bestiary": 20,
-        "charm": 30,
-        "drops": [
-                    {"item":"gold", "chance": 100000, "min":450, "max":1000},
-                    {"item":"earth_crystal", "chance": 5000},
-                    {"item":"royal_axe", "chance": 1000},
-                    {"item":"style_bagpack", "chance": 100},
-                    {"item":"ruby_necklace", "chance": 1000},
-                    {"item":"control_book", "chance": 1000},
-                    {"item":"pretator_rod", "chance": 1000},
-                    {"item":"boots_of_speed", "chance": 500},
-                    {"item":"dust", "chance": 500, "min":1, "max":2}
-        ],
-	"collisionRects":[
-		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
-		],
-	"animations":[
-		{"id":"walk", "totalRuntime":0.5, "numberOfDirections":4, "looping":true},
-		{"id":"default", "totalRuntime":0.9, "fileName":"walk", "numberOfDirections": 4}
-		],
-	"properties": [
-		{"name":"activationZoneDistance", "type":"int"},
-		{"name":"deactivationZoneDistance", "type":"int"}
-	],
-        "attacks": [
-		{"attack":"melee", "interval":2000, "min":0, "max":600},
-                {"attack":"physical", "interval":3000, "chance":100, "range":8, "min":400, "max":900, "type":"shoot", "anim":"basic-arrow", "particle":10},
-                {"attack":"physical", "interval":6000, "chance":100, "min":450, "max":850, "type":"area", "particle":8,"radius":3}
-	],
-        "defenses": [
-		{"name":"healing", "interval":8000, "chance": 30, "min":100, "max":400}
-	],
-        "elements": [
-                {"name":"physical", "value":115},
-                {"name":"earth", "value":80},
-                {"name":"fire", "value":90},
-                {"name":"death", "value":90},
-                {"name":"energy", "value":85},
-                {"name":"ice", "value":95},
-                {"name":"holy", "value":115}
-	]
+  "id": "cursed_book",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 80,
+  "maxHealth": 15000,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 32,
+  "imgHeight": 32,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 35,
+  "drawOrderOffsetY": 33,
+  "offsetX": -8,
+  "offsetY": 0,
+  "experience": 10800,
+  "defense": 35,
+  "pushable": false,
+  "bestiary": 20,
+  "charm": 30,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 450, "max": 1000 },
+    { "item": "earth_crystal", "chance": 5000 },
+    { "item": "royal_axe", "chance": 1000 },
+    { "item": "style_bagpack", "chance": 100 },
+    { "item": "ruby_necklace", "chance": 1000 },
+    { "item": "control_book", "chance": 1000 },
+    { "item": "pretator_rod", "chance": 1000 },
+    { "item": "boots_of_speed", "chance": 500 },
+    { "item": "dust", "chance": 500, "min": 1, "max": 2 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.5,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "totalRuntime": 0.9,
+      "fileName": "walk",
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 600 },
+    {
+      "attack": "physical",
+      "interval": 3000,
+      "chance": 100,
+      "range": 8,
+      "min": 400,
+      "max": 900,
+      "type": "shoot",
+      "anim": "basic-arrow",
+      "particle": 10
+    },
+    {
+      "attack": "physical",
+      "interval": 6000,
+      "chance": 100,
+      "min": 450,
+      "max": 850,
+      "type": "area",
+      "particle": 8,
+      "radius": 3
+    }
+  ],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 8000,
+      "chance": 30,
+      "min": 100,
+      "max": 400
+    }
+  ],
+  "elements": [
+    { "name": "physical", "value": 115 },
+    { "name": "earth", "value": 80 },
+    { "name": "fire", "value": 90 },
+    { "name": "death", "value": 90 },
+    { "name": "energy", "value": 85 },
+    { "name": "ice", "value": 95 },
+    { "name": "holy", "value": 115 }
+  ]
 }

@@ -1,0 +1,12 @@
+{
+  "iconSize": 16,
+  "buff": true,
+  "equipType": 6,
+  "level": 150,
+  "rarity": 4,
+  "vocations": [{ "name": "1" }],
+  "durability": 1800,
+  "durabilityType": 1,
+  "bonusDistance": 3,
+  "bonusMagic": 1
+}

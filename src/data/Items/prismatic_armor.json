@@ -1,0 +1,15 @@
+{
+  "equipType": 4,
+  "defense": 16,
+
+  "protectPhysical": 5,
+  "protectFire": 5,
+  "bonusSpeed": 10,
+  "rarity": 5,
+
+  "level": 200,
+
+  "vocations": [{ "name": "0" }, { "name": "1" }],
+
+  "classification": 2
+}

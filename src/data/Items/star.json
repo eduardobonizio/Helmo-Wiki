@@ -1,0 +1,17 @@
+{
+  "iconSize": 16,
+  "equipType": 3,
+  "maxStackSize": 300,
+  "sounds": [["actions/hit"]],
+  "minDamage": 35,
+  "maxDamage": 35,
+  "hitRange": 8,
+  "level": 40,
+  "vocations": [{ "name": "1" }],
+
+  "elementDamage": "physical",
+  "projectile": "basic-star",
+  "shootType": "smallphysical",
+  "weaponType": "star",
+  "weight": "5"
+}

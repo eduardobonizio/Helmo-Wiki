@@ -1,0 +1,26 @@
+{
+  "iconSize": 16,
+  "equipType": 3,
+  "numOfStyles": 1,
+  "rarity": 3,
+
+  "sounds": [["actions/hit"]],
+
+  "bonusMagic": 3,
+  "minDamage": 74,
+  "maxDamage": 86,
+  "hitRange": 6,
+  "manaCost": 15,
+
+  "elementDamage": "death",
+  "projectile": "death-ball",
+  "shootType": 12,
+  "weaponType": "wand",
+  "weight": "2300",
+  "description": "",
+
+  "level": 120,
+  "vocations": [{ "name": "3" }],
+
+  "classification": 2
+}

@@ -1,0 +1,11 @@
+{
+  "equipType": 1,
+  "defense": 9,
+  "protectEarth": 5,
+  "protectPhysical": 3,
+  "bonusMelee": 2,
+  "level": 250,
+  "rarity": 5,
+  "vocations": [{ "name": "0" }],
+  "classification": 4
+}

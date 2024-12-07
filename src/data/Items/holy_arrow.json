@@ -1,0 +1,16 @@
+{
+  "iconSize": 16,
+  "equipType": 8,
+  "maxStackSize": 200,
+  "sounds": [["actions/hit"]],
+  "minDamage": 22,
+  "maxDamage": 22,
+
+  "level": 100,
+
+  "elementDamage": "holy",
+  "projectile": "basic-arrow",
+  "shootType": "smallphysical",
+  "weaponType": "arrow",
+  "weight": "5"
+}

@@ -1,0 +1,21 @@
+{
+  "iconSize": 16,
+  "equipType": 3,
+  "maxStackSize": 600,
+  "sounds": [["actions/hit"]],
+
+  "minDamage": 60,
+  "maxDamage": 6,
+
+  "level": 160,
+  "hitRange": 5,
+
+  "vocations": [{ "name": "1" }],
+
+  "elementDamage": "physical",
+  "extraElementDamage": "fire",
+  "projectile": "assassin-star",
+  "shootType": "smallphysical",
+  "weaponType": "star",
+  "weight": 2
+}

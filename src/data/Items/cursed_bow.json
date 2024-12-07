@@ -1,0 +1,21 @@
+{
+  "iconSize": 16,
+  "equipType": 3,
+  "numOfStyles": 1,
+  "minDamage": 20,
+  "sounds": [["actions/hit"]],
+  "hitRange": 8,
+  "twoHand": true,
+  "classification": 4,
+
+  "critMultiplier": 1.1,
+  "critChance": 5,
+
+  "level": 300,
+  "bonusDistance": 4,
+
+  "weaponType": "bow",
+  "weight": "2300",
+
+  "vocations": [{ "name": "1" }]
+}

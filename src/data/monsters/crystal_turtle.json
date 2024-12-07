@@ -1,54 +1,92 @@
 {
-	"id":"crystal_turtle",
-	"hittable":true,
-	"maxDirections":4,
-	"speed":40,
-	"maxHealth":260,
-	"showHealthBar": true,
-	"footstepSound":"slime",
-	"imgWidth":32,
-	"imgHeight":32,
-	"footstepOffsetX":0,
-	"footstepOffsetY":25,
-	"drawOrderOffsetY":25,
-        "offsetX":-8,
-        "offsetY":0,
-        "experience": 170,
-        "defense": 10,
-        "bestiary": 15,
-        "charm": 5,
-        "drops": [
-                    {"item":"gold", "chance": 100000, "min":30, "max":70},
-                    {"item":"earth_crystal", "chance": 3000},
-                    {"item":"ice_stone_necklace", "chance": 200},
-                    {"item":"royal_shield", "chance": 100},
-                    {"item":"steel_armor", "chance": 800},
-                    {"item":"noble_magic_wand", "chance": 100},
-                    {"item":"noble_magic_rod", "chance": 100},
-                    {"item":"crystal_tortoiseshell", "chance": 800}
-                 ],
-	"collisionRects":[
-		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
-		],
-	"animations":[
-		{"id":"walk", "totalRuntime":0.7, "numberOfDirections":4, "looping":true},
-		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4}
-		],
-	"properties": [
-		{"name":"activationZoneDistance", "type":"int"},
-		{"name":"deactivationZoneDistance", "type":"int"}
-	],
-        "attacks": [
-		{"attack":"melee", "interval":2000, "min":20, "max":40},
-                {"attack":"fire", "interval":4000, "chance":100, "range":7, "min":10, "max":30, "type":"shoot", "anim":"fire-ball", "particle":3},
-                {"attack":"earth", "interval":10000, "chance":100, "min":25, "max":45, "type":"area", "particle":13,"length":8,"spread":3,"range":7}
-	],
-        "defenses": [
-		{"name":"healing", "interval":10000, "chance": 10, "min":5, "max":15}
-	],
-        "elements": [
-                {"name":"earth", "value":20},
-                {"name":"ice", "value":80},
-                {"name":"fire", "value":110}
-	]
+  "id": "crystal_turtle",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 40,
+  "maxHealth": 260,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 32,
+  "imgHeight": 32,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 25,
+  "drawOrderOffsetY": 25,
+  "offsetX": -8,
+  "offsetY": 0,
+  "experience": 170,
+  "defense": 10,
+  "bestiary": 15,
+  "charm": 5,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 30, "max": 70 },
+    { "item": "earth_crystal", "chance": 3000 },
+    { "item": "ice_stone_necklace", "chance": 200 },
+    { "item": "royal_shield", "chance": 100 },
+    { "item": "steel_armor", "chance": 800 },
+    { "item": "noble_magic_wand", "chance": 100 },
+    { "item": "noble_magic_rod", "chance": 100 },
+    { "item": "crystal_tortoiseshell", "chance": 800 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.7,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 20, "max": 40 },
+    {
+      "attack": "fire",
+      "interval": 4000,
+      "chance": 100,
+      "range": 7,
+      "min": 10,
+      "max": 30,
+      "type": "shoot",
+      "anim": "fire-ball",
+      "particle": 3
+    },
+    {
+      "attack": "earth",
+      "interval": 10000,
+      "chance": 100,
+      "min": 25,
+      "max": 45,
+      "type": "area",
+      "particle": 13,
+      "length": 8,
+      "spread": 3,
+      "range": 7
+    }
+  ],
+  "defenses": [
+    { "name": "healing", "interval": 10000, "chance": 10, "min": 5, "max": 15 }
+  ],
+  "elements": [
+    { "name": "earth", "value": 20 },
+    { "name": "ice", "value": 80 },
+    { "name": "fire", "value": 110 }
+  ]
 }

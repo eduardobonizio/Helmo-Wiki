@@ -1,0 +1,9 @@
+{
+  "equipType": 8,
+  "container": true,
+  "capacity": 4,
+  "defense": 1,
+  "level": 40,
+  "weaponType": "quiver",
+  "vocations": [{ "name": "1" }]
+}

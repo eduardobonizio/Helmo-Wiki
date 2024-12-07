@@ -1,0 +1,16 @@
+{
+  "iconSize": 16,
+  "equipType": 8,
+  "maxStackSize": 200,
+  "sounds": [["actions/hit"]],
+  "minDamage": 78,
+  "maxDamage": 78,
+
+  "level": 240,
+
+  "elementDamage": "physical",
+  "projectile": "crystalline-prime-bolt",
+  "shootType": "smallphysical",
+  "weaponType": "bolt",
+  "weight": "5"
+}

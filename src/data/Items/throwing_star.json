@@ -1,0 +1,15 @@
+{
+  "iconSize": 16,
+  "equipType": 3,
+  "maxStackSize": 600,
+  "sounds": [["actions/hit"]],
+  "minDamage": 30,
+  "maxDamage": 30,
+  "hitRange": 4,
+
+  "elementDamage": "physical",
+  "projectile": "basic-bolt",
+  "shootType": "smallphysical",
+  "weaponType": "star",
+  "weight": "5"
+}

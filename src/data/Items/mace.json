@@ -1,0 +1,20 @@
+{
+  "iconSize": 16,
+  "equipType": 3,
+  "numOfStyles": 1,
+
+  "rarity": 2,
+  "defense": 15,
+
+  "minDamage": 25,
+  "maxDamage": 25,
+
+  "hitRange": 1,
+  "level": 20,
+  "sounds": [["actions/hit"]],
+
+  "elementDamage": "physical",
+  "weaponType": "club",
+  "weight": "2250",
+  "description": "A masterpiece of a dwarven smith. (Atk: 5 ~ 8)."
+}

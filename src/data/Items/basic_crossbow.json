@@ -1,20 +1,16 @@
 {
-  "id": "basic_crossbow",
-  "numberOfStyles": 1,
-  "maxDirections": 1,
-  "hittable": false,
-  "imgWidth": 16,
-  "imgHeight": 16,
-  "drawOrderOffsetY": 64,
-  "offsetX": 0,
-  "offsetY": 0,
-  "collisionRects": [{ "height": 16 }],
-  "animations": [
-    {
-      "id": "default",
-      "totalRuntime": 1,
-      "numberOfDirections": 1,
-      "looping": false
-    }
-  ]
+  "iconSize": 16,
+  "equipType": 3,
+  "numOfStyles": 1,
+  "minDamage": 4,
+  "rarity": 2,
+  "sounds": [["actions/hit"]],
+  "hitRange": 5,
+  "level": 20,
+
+  "twoHand": true,
+
+  "vocations": [{ "name": "1" }],
+  "weaponType": "cross",
+  "weight": "2300"
 }

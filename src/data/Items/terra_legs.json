@@ -1,0 +1,15 @@
+{
+  "equipType": 7,
+  "defense": 8,
+
+  "rarity": 3,
+
+  "protectEarth": 6,
+  "protectFire": -6,
+  "level": 40,
+  "weight": 19,
+
+  "vocations": [{ "name": "2" }, { "name": "3" }],
+
+  "classification": 2
+}

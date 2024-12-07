@@ -1,14 +1,5 @@
 {
-  "id": "demon_shield",
-  "numberOfStyles": 1,
-  "maxDirections": 1,
-  "hittable": false,
-  "imgWidth": 16,
-  "imgHeight": 16,
-  "drawOrderOffsetY": 64,
-  "offsetX": 0,
-  "offsetY": 0,
-  "animations": [
-    { "id": "default", "totalRuntime": 1.6, "numberOfDirections": 1 }
-  ]
+  "equipType": 5,
+  "defense": 35,
+  "rarity": 3
 }

@@ -1,0 +1,26 @@
+{
+  "iconSize": 16,
+  "equipType": 3,
+  "numOfStyles": 1,
+  "rarity": 3,
+
+  "sounds": [["actions/hit"]],
+
+  "bonusMagic": 4,
+  "minDamage": 100,
+  "maxDamage": 112,
+  "hitRange": 7,
+  "manaCost": 20,
+
+  "elementDamage": "fire",
+  "projectile": "fire-ball",
+  "shootType": 12,
+  "weaponType": "wand",
+  "weight": "2300",
+  "description": "",
+
+  "level": 200,
+  "vocations": [{ "name": "3" }],
+
+  "classification": 3
+}

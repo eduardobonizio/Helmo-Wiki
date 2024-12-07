@@ -1,0 +1,27 @@
+{
+  "iconSize": 16,
+  "equipType": 3,
+  "rarity": 4,
+  "defense": 40,
+  "numOfStyles": 1,
+  "classification": 4,
+
+  "minDamage": 60,
+  "maxDamage": 60,
+
+  "hitRange": 1,
+  "sounds": [["actions/hit"]],
+
+  "critMultiplier": 1.1,
+  "critChance": 5,
+
+  "elementDamage": "physical",
+  "weaponType": "sword",
+  "weight": 43,
+
+  "level": 200,
+
+  "vocations": [{ "name": "0" }],
+
+  "description": "A special sword for the warlord."
+}

@@ -1,61 +1,120 @@
 {
-	"id":"giant_cockle",
-	"hittable":true,
-	"maxDirections":4,
-	"speed":80,
-	"maxHealth":4100,
-	"showHealthBar": true,
-	"footstepSound":"slime",
-	"imgWidth":32,
-	"imgHeight":32,
-	"footstepOffsetX":0,
-	"footstepOffsetY":35,
-	"drawOrderOffsetY":32,
-        "offsetX":-8,
-        "offsetY":0,
-        "experience": 3700,
-        "defense": 74,
-        "bestiary": 105,
-        "charm": 50,
-        "pushable": false,
-        "drops": [
-                    {"item":"gold", "chance": 100000, "min":400, "max":800},
-                    {"item":"earth_crystal", "chance": 5000},
-                    {"item":"voodoo_wand", "chance": 500},
-                    {"item":"style_bagpack", "chance": 50},
-                    {"item":"ruby_necklace", "chance": 1500},
-                    {"item":"holy_helmet", "chance": 500},
-                    {"item":"tearing_fang", "chance": 800},
-                    {"item":"dust", "chance": 500, "min":1, "max":5}
-        ],
-	"collisionRects":[
-		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
-		],
-	"animations":[
-		{"id":"walk", "totalRuntime":0.5, "numberOfDirections":4, "looping":true},
-		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4}
-		],
-	"properties": [
-		{"name":"activationZoneDistance", "type":"int"},
-		{"name":"deactivationZoneDistance", "type":"int"}
-	],
-        "attacks": [
-		{"attack":"melee", "interval":2000, "min":300, "max":600},
-                {"attack":"physical", "interval":8000, "chance":30, "min":400, "max":750, "type":"area", "particle":8,"radius":3},
-                {"attack":"physical", "interval":8000, "chance":30, "min":400, "max":750, "type":"area", "particle":8,"length":6,"spread":3,"range":6}
-	],
-        "defenses": [
-		{"name":"healing", "interval":8000, "chance": 20, "min":100, "max":400},
-                {"name":"paralize", "interval":8000, "chance": 10, "type":"area", "particle":11,"radius":6},
-                {"name":"mana_drain", "interval":8000, "chance": 10, "min":100, "max":500, "type":"area", "particle":12,"radius":6}
-	],
-        "elements": [
-                {"name":"physical", "value":95},
-                {"name":"earth", "value":80},
-                {"name":"fire", "value":90},
-                {"name":"death", "value":90},
-                {"name":"energy", "value":85},
-                {"name":"ice", "value":95},
-                {"name":"holy", "value":105}
-	]
+  "id": "giant_cockle",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 80,
+  "maxHealth": 4100,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 32,
+  "imgHeight": 32,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 35,
+  "drawOrderOffsetY": 32,
+  "offsetX": -8,
+  "offsetY": 0,
+  "experience": 3700,
+  "defense": 74,
+  "bestiary": 105,
+  "charm": 50,
+  "pushable": false,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 400, "max": 800 },
+    { "item": "earth_crystal", "chance": 5000 },
+    { "item": "voodoo_wand", "chance": 500 },
+    { "item": "style_bagpack", "chance": 50 },
+    { "item": "ruby_necklace", "chance": 1500 },
+    { "item": "holy_helmet", "chance": 500 },
+    { "item": "tearing_fang", "chance": 800 },
+    { "item": "dust", "chance": 500, "min": 1, "max": 5 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.5,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 300, "max": 600 },
+    {
+      "attack": "physical",
+      "interval": 8000,
+      "chance": 30,
+      "min": 400,
+      "max": 750,
+      "type": "area",
+      "particle": 8,
+      "radius": 3
+    },
+    {
+      "attack": "physical",
+      "interval": 8000,
+      "chance": 30,
+      "min": 400,
+      "max": 750,
+      "type": "area",
+      "particle": 8,
+      "length": 6,
+      "spread": 3,
+      "range": 6
+    }
+  ],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 8000,
+      "chance": 20,
+      "min": 100,
+      "max": 400
+    },
+    {
+      "name": "paralize",
+      "interval": 8000,
+      "chance": 10,
+      "type": "area",
+      "particle": 11,
+      "radius": 6
+    },
+    {
+      "name": "mana_drain",
+      "interval": 8000,
+      "chance": 10,
+      "min": 100,
+      "max": 500,
+      "type": "area",
+      "particle": 12,
+      "radius": 6
+    }
+  ],
+  "elements": [
+    { "name": "physical", "value": 95 },
+    { "name": "earth", "value": 80 },
+    { "name": "fire", "value": 90 },
+    { "name": "death", "value": 90 },
+    { "name": "energy", "value": 85 },
+    { "name": "ice", "value": 95 },
+    { "name": "holy", "value": 105 }
+  ]
 }

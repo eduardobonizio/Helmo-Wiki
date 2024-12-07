@@ -1,19 +1,15 @@
 {
-  "id": "prismatic_ring",
-  "numberOfStyles": 1,
-  "maxDirections": 1,
-  "hittable": false,
-  "imgWidth": 16,
-  "imgHeight": 16,
-  "drawOrderOffsetY": 64,
-  "offsetX": 0,
-  "offsetY": 0,
-  "animations": [
-    {
-      "id": "default",
-      "totalRuntime": 2,
-      "numberOfDirections": 1,
-      "looping": true
-    }
-  ]
+  "iconSize": 16,
+  "buff": true,
+  "equipType": 6,
+
+  "defense": 0,
+
+  "level": 120,
+  "rarity": 5,
+  "durability": 3600,
+  "durabilityType": 1,
+
+  "protectEnergy": 8,
+  "protectPhysical": 10
 }

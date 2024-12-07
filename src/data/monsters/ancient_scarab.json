@@ -1,57 +1,83 @@
 {
-	"id":"ancient_scarab",
-	"hittable":true,
-	"maxDirections":4,
-	"speed":60,
-	"maxHealth":2000,
-	"showHealthBar": true,
-	"footstepSound":"slime",
-	"imgWidth":68,
-	"imgHeight":58,
-	"footstepOffsetX":0,
-	"footstepOffsetY":35,
-	"drawOrderOffsetY":32,
-        "offsetX":-26,
-        "offsetY":-12,
-        "experience": 1480,
-        "defense": 36,
-        "bestiary": 50,
-        "charm": 25,
-        "drops": [
-                 {"item":"gold", "chance": 100000, "min":200, "max":400},
-                 {"item":"earth_crystal", "chance": 7000},
-                 {"item":"terra_mantle", "chance": 300},
-                 {"item":"terra_legs", "chance": 300},
-                 {"item":"terra_boots", "chance": 300},
-                 {"item":"terra_hood", "chance": 300},
-                 {"item":"terra_amulet", "chance": 200},
-                 {"item":"club_with_spikes", "chance": 200},
-                 {"item":"ruby_necklace", "chance": 250}
-        ],
-	"collisionRects":[
-		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
-	],
-	"animations":[
-		{"id":"walk", "totalRuntime":0.8, "numberOfDirections":4, "looping":true},
-		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4, "looping": true}
-	],
-	"properties": [
-		{"name":"activationZoneDistance", "type":"int"},
-		{"name":"deactivationZoneDistance", "type":"int"}
-	],
-        
-        "attacks": [
-		{"attack":"melee", "interval":2000, "min":0, "max":400},
-                {"attack":"earth", "interval":6000, "chance":30, "min":30, "max":280, "type":"area", "particle":28,"radius":4,"range":10}
-	],
-        
-        "elements": [
-                {"name":"physical", "value":90},
-                {"name":"energy", "value":80},
-                {"name":"fire", "value":120},
-                {"name":"ice", "value":105}
-	],
-        "immunities": [
-		{"name":"earth", "value":1}
-	]
+  "id": "ancient_scarab",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 60,
+  "maxHealth": 2000,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 68,
+  "imgHeight": 58,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 35,
+  "drawOrderOffsetY": 32,
+  "offsetX": -26,
+  "offsetY": -12,
+  "experience": 1480,
+  "defense": 36,
+  "bestiary": 50,
+  "charm": 25,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 200, "max": 400 },
+    { "item": "earth_crystal", "chance": 7000 },
+    { "item": "terra_mantle", "chance": 300 },
+    { "item": "terra_legs", "chance": 300 },
+    { "item": "terra_boots", "chance": 300 },
+    { "item": "terra_hood", "chance": 300 },
+    { "item": "terra_amulet", "chance": 200 },
+    { "item": "club_with_spikes", "chance": 200 },
+    { "item": "ruby_necklace", "chance": 250 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.8,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4,
+      "looping": true
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 400 },
+    {
+      "attack": "earth",
+      "interval": 6000,
+      "chance": 30,
+      "min": 30,
+      "max": 280,
+      "type": "area",
+      "particle": 28,
+      "radius": 4,
+      "range": 10
+    }
+  ],
+
+  "elements": [
+    { "name": "physical", "value": 90 },
+    { "name": "energy", "value": 80 },
+    { "name": "fire", "value": 120 },
+    { "name": "ice", "value": 105 }
+  ],
+  "immunities": [{ "name": "earth", "value": 1 }]
 }

@@ -1,60 +1,86 @@
 {
-	"id":"ancient_slime",
-	"hittable":true,
-	"maxDirections":4,
-	"speed":50,
-	"maxHealth":6500,
-        "deathParticle": 44,
-	"showHealthBar": true,
-	"footstepSound":"slime",
-	"imgWidth":32,
-	"imgHeight":32,
-	"footstepOffsetX":0,
-	"footstepOffsetY":32,
-	"drawOrderOffsetY":28,
-        "offsetX":-8,
-        "offsetY":0,
-        "experience": 5300,
-        "defense": 30,
-        "bestiary": 80,
-        "charm": 50,
-        "drops": [
-                    {"item":"gold", "chance": 100000, "min":200, "max":700},
-                    {"item":"earth_crystal", "chance": 10000},
-                    {"item":"halberd", "chance": 1000},
-                    {"item":"iron_hatchet", "chance": 800},
-                    {"item":"bagpack", "chance": 200},
-                    {"item":"thick_ice_stone_necklace", "chance": 200},
-                    {"item":"ring_of_nature", "chance": 200},
-                    {"item":"noble_magic_book", "chance": 500},
-                    {"item":"noble_magic_boots", "chance": 500},
-                    {"item":"green_book", "chance": 10},
-                    {"item":"dust", "chance": 500}
-        ],
-	"collisionRects":[
-		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
-		],
-	"animations":[
-		{"id":"walk", "totalRuntime":0.8, "numberOfDirections":4},
-		{"id":"default", "fileName":"walk", "totalRuntime":1.0, "numberOfDirections": 4}
-		],
-	"properties": [
-		{"name":"activationZoneDistance", "type":"int"},
-		{"name":"deactivationZoneDistance", "type":"int"}
-	],
-        "attacks": [
-		{"attack":"melee", "interval":2000, "min":100, "max":550},
-                {"attack":"earth", "interval":6000, "chance":100, "min":350, "max":600, "type":"area", "particle":28,"radius":8,"range":10}
-	],
-        "defenses": [
-		{"name":"healing", "interval":5000, "chance": 20, "min":200, "max":250}
-	],
-        "elements": [
-                {"name":"ice", "value":20},
-                {"name":"fire", "value":110},
-                {"name":"physical", "value":110}
-	],
-        "immunities": [
-		{"name":"earth", "value":1}
-	]
+  "id": "ancient_slime",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 50,
+  "maxHealth": 6500,
+  "deathParticle": 44,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 32,
+  "imgHeight": 32,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 32,
+  "drawOrderOffsetY": 28,
+  "offsetX": -8,
+  "offsetY": 0,
+  "experience": 5300,
+  "defense": 30,
+  "bestiary": 80,
+  "charm": 50,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 200, "max": 700 },
+    { "item": "earth_crystal", "chance": 10000 },
+    { "item": "halberd", "chance": 1000 },
+    { "item": "iron_hatchet", "chance": 800 },
+    { "item": "bagpack", "chance": 200 },
+    { "item": "thick_ice_stone_necklace", "chance": 200 },
+    { "item": "ring_of_nature", "chance": 200 },
+    { "item": "noble_magic_book", "chance": 500 },
+    { "item": "noble_magic_boots", "chance": 500 },
+    { "item": "green_book", "chance": 10 },
+    { "item": "dust", "chance": 500 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    { "id": "walk", "totalRuntime": 0.8, "numberOfDirections": 4 },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 1.0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 100, "max": 550 },
+    {
+      "attack": "earth",
+      "interval": 6000,
+      "chance": 100,
+      "min": 350,
+      "max": 600,
+      "type": "area",
+      "particle": 28,
+      "radius": 8,
+      "range": 10
+    }
+  ],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 5000,
+      "chance": 20,
+      "min": 200,
+      "max": 250
+    }
+  ],
+  "elements": [
+    { "name": "ice", "value": 20 },
+    { "name": "fire", "value": 110 },
+    { "name": "physical", "value": 110 }
+  ],
+  "immunities": [{ "name": "earth", "value": 1 }]
 }

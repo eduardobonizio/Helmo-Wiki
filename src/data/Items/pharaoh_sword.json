@@ -1,0 +1,22 @@
+{
+  "iconSize": 16,
+  "equipType": 3,
+  "rarity": 4,
+  "defense": 22,
+  "numOfStyles": 1,
+  "classification": 3,
+
+  "minDamage": 41,
+  "maxDamage": 41,
+
+  "hitRange": 1,
+  "sounds": [["actions/hit"]],
+
+  "elementDamage": "physical",
+  "weaponType": "sword",
+  "weight": "52",
+
+  "level": 45,
+
+  "vocations": [{ "name": "0" }]
+}

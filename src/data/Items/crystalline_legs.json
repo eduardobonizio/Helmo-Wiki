@@ -1,0 +1,12 @@
+{
+  "equipType": 7,
+  "defense": 9,
+  "protectIce": 5,
+  "protectPhysical": 2,
+  "rarity": 5,
+
+  "level": 130,
+  "vocations": [{ "name": "0" }],
+
+  "classification": 3
+}

@@ -1,20 +1,26 @@
 {
-  "id": "thunder_hammer",
-  "numberOfStyles": 1,
-  "maxDirections": 1,
-  "hittable": false,
-  "imgWidth": 16,
-  "imgHeight": 16,
-  "drawOrderOffsetY": 64,
-  "offsetX": 0,
-  "offsetY": 0,
-  "animations": [
-    {
-      "id": "default",
-      "totalRuntime": 1.8,
-      "numberOfDirections": 1,
-      "looping": true
-    }
-  ],
-  "properties": [{ "name": "quantity", "type": "int" }]
+  "iconSize": 16,
+  "equipType": 3,
+  "numOfStyles": 1,
+
+  "rarity": 2,
+  "defense": 23,
+  "bonusDefense": 2,
+
+  "minDamage": 26,
+  "maxDamage": 26,
+
+  "hitRange": 1,
+  "level": 80,
+
+  "sounds": [["actions/hit"]],
+
+  "vocations": [{ "name": "0" }],
+
+  "elementDamage": "physical",
+  "extraElementDamage": "energy",
+  "weaponType": "club",
+  "weight": 80,
+
+  "classification": 2
 }

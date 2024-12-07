@@ -1,62 +1,89 @@
 {
-	"id":"behebull",
-	"hittable":true,
-	"maxDirections":4,
-	"speed":70,
-	"maxHealth":5200,
-	"showHealthBar": true,
-	"footstepSound":"slime",
-	"imgWidth":40,
-	"imgHeight":54,
-	"footstepOffsetX":0,
-	"footstepOffsetY":50,
-	"drawOrderOffsetY":32,
-        "offsetX":-10,
-        "offsetY":0,
-        "experience": 4000,
-        "defense": 50,
-        "bestiary": 70,
-        "charm": 40,
-        "drops": [
-                 {"item":"gold", "chance": 100000, "min":200, "max":790},
-                 {"item":"thigh", "chance": 20000, "min":1, "max":6},
-                 {"item":"assassin_star", "chance": 20000, "min":1, "max":5},
-                 {"item":"dust", "chance": 500, "min":1, "max":2},
-                 {"item":"royal_armor", "chance": 2000},
-                 {"item":"royal_boots", "chance": 2000},
-                 {"item":"hylian_broadsword", "chance": 1000},
-                 {"item":"club_with_spikes", "chance": 1000},
-                 {"item":"royal_axe", "chance": 1000},
-                 {"item":"time_ring", "chance": 500},
-                 {"item":"magic_sword", "chance": 20},
-                 {"item":"green_bagpack", "chance": 600},
-                 {"item":"death_armor", "chance": 100},
-                 {"item":"divine_plate", "chance": 100},
-                 {"item":"fire_axe", "chance": 100}
-                 
-        ],
-	"collisionRects":[
-		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
-	],
-	"animations":[
-		{"id":"walk", "totalRuntime":0.4, "numberOfDirections":4, "looping":true},
-		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4, "looping": true}
-	],
-	"properties": [
-		{"name":"activationZoneDistance", "type":"int"},
-		{"name":"deactivationZoneDistance", "type":"int"}
-	],
-        "attacks": [
-		{"attack":"melee", "interval":2000, "min":100, "max":490},
-                {"attack":"physical", "interval":2000, "chance":100, "range":8, "min":100, "max":400, "type":"shoot", "anim":"stone", "particle":15}
-	],
-        
-        "elements": [
-                {"name":"physical", "value":90},
-                {"name":"fire", "value":70},
-                {"name":"energy", "value":90},
-                {"name":"death", "value":105},
-                {"name":"holy", "value":70},
-                {"name":"ice", "value":120}
-	]
+  "id": "behebull",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 70,
+  "maxHealth": 5200,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 40,
+  "imgHeight": 54,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 50,
+  "drawOrderOffsetY": 32,
+  "offsetX": -10,
+  "offsetY": 0,
+  "experience": 4000,
+  "defense": 50,
+  "bestiary": 70,
+  "charm": 40,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 200, "max": 790 },
+    { "item": "thigh", "chance": 20000, "min": 1, "max": 6 },
+    { "item": "assassin_star", "chance": 20000, "min": 1, "max": 5 },
+    { "item": "dust", "chance": 500, "min": 1, "max": 2 },
+    { "item": "royal_armor", "chance": 2000 },
+    { "item": "royal_boots", "chance": 2000 },
+    { "item": "hylian_broadsword", "chance": 1000 },
+    { "item": "club_with_spikes", "chance": 1000 },
+    { "item": "royal_axe", "chance": 1000 },
+    { "item": "time_ring", "chance": 500 },
+    { "item": "magic_sword", "chance": 20 },
+    { "item": "green_bagpack", "chance": 600 },
+    { "item": "death_armor", "chance": 100 },
+    { "item": "divine_plate", "chance": 100 },
+    { "item": "fire_axe", "chance": 100 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.4,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4,
+      "looping": true
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 100, "max": 490 },
+    {
+      "attack": "physical",
+      "interval": 2000,
+      "chance": 100,
+      "range": 8,
+      "min": 100,
+      "max": 400,
+      "type": "shoot",
+      "anim": "stone",
+      "particle": 15
+    }
+  ],
+
+  "elements": [
+    { "name": "physical", "value": 90 },
+    { "name": "fire", "value": 70 },
+    { "name": "energy", "value": 90 },
+    { "name": "death", "value": 105 },
+    { "name": "holy", "value": 70 },
+    { "name": "ice", "value": 120 }
+  ]
 }

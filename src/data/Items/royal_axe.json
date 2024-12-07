@@ -1,0 +1,26 @@
+{
+  "iconSize": 16,
+  "equipType": 3,
+  "numOfStyles": 1,
+  "rarity": 4,
+  "defense": 25,
+  "bonusMelee": 2,
+  "critMultiplier": 1.2,
+  "critChance": 10,
+
+  "minDamage": 42,
+  "maxDamage": 42,
+
+  "hitRange": 1,
+  "sounds": [["actions/hit"]],
+
+  "elementDamage": "physical",
+  "weaponType": "axe",
+  "weight": "4250",
+
+  "level": 80,
+
+  "vocations": [{ "name": "0" }],
+
+  "classification": 2
+}

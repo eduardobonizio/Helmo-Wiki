@@ -1,0 +1,18 @@
+{
+  "iconSize": 16,
+  "equipType": 3,
+  "maxStackSize": 300,
+  "sounds": [["actions/hit"]],
+
+  "minDamage": 30,
+  "maxDamage": 30,
+  "hitRange": 9,
+  "level": 20,
+  "vocations": [{ "name": "1" }],
+
+  "elementDamage": "physical",
+  "projectile": "basic-spear",
+  "shootType": "smallphysical",
+  "weaponType": "spear",
+  "weight": "5"
+}

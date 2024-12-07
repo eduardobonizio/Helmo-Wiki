@@ -10,7 +10,7 @@ export const Popup = ({ drop, closePopup, monsters }) => {
           <div>Drop From:</div>
           {monsters.map((monster, i) => {
             const monsterWithDrop = monster.drops.filter(
-              (item) => item.item === drop.item
+              (item) => item.item === drop.item,
             );
             if (monsterWithDrop.length > 0) {
               return (

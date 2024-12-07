@@ -1,59 +1,109 @@
 {
-	"id":"furmeros",
-	"hittable":true,
-	"maxDirections":4,
-	"speed":70,
-	"maxHealth":250000,
-	"showHealthBar": true,
-	"footstepSound":"slime",
-	"imgWidth":80,
-	"imgHeight":69,
-	"footstepOffsetX":0,
-	"footstepOffsetY":50,
-	"drawOrderOffsetY":60,
-        "offsetX":-29,
-        "offsetY":-8,
-        "experience": 16000,
-        "defense": 60,
-        "pushable": false,
-        "bestiary": 2,
-        "charm": 100,
-        "drops": [
-                    {"item":"gold", "chance": 100000, "min":1000, "max":5000},
-                    {"item":"supreme_mana_potion", "chance": 70500, "max":20},
-                    {"item":"supreme_health_potion", "chance": 70500, "max":20},
-                    {"item":"demon_shield", "chance": 50000},
-                    {"item":"demon_boots", "chance": 15000},
-                    {"item":"demon_legs", "chance": 15000},
-                    {"item":"royal_crossbow", "chance": 20000},
-                    {"item":"jewelled_bagpack", "chance": 20000},
-                    {"item":"ruby_necklace", "chance": 70000},
-                    {"item":"boots_of_speed", "chance": 70000},
-                    {"item":"royal_axe", "chance": 70000},
-                    {"item":"solar_axe", "chance": 50000},
-                    {"item":"thunder_hammer", "chance": 70000},
-                    {"item":"furmeros_hat", "chance": 100000},
-                    {"item":"gold", "chance": 100000, "min":1000, "max":5000},
-                    {"item":"dust", "chance": 100000, "min":10, "max":30}
-        ],
-	"collisionRects":[
-		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
-		],
-	"animations":[
-		{"id":"walk", "totalRuntime":0.4, "numberOfDirections":4, "looping":true},
-		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4}
-		],
-	"properties": [
-		{"name":"activationZoneDistance", "type":"int"},
-		{"name":"deactivationZoneDistance", "type":"int"}
-	],
-        "attacks": [
-		{"attack":"melee", "interval":2000, "min":700, "max":1600},
-                {"attack":"fire", "interval":4000, "chance":30, "min":800, "max":1800, "type":"area", "particle":3,"radius":10},
-                {"attack":"death", "interval":4000, "chance":30, "min":800, "max":1800, "type":"area", "particle":37,"radius":10}
-	],
-        "defenses": [
-		{"name":"healing", "interval":8000, "chance": 50, "min":520, "max":2000},
-                {"name":"mana_drain", "interval":8000, "chance": 50, "min":1000, "max":2500, "type":"area", "particle":12,"radius":9}
-	]
+  "id": "furmeros",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 70,
+  "maxHealth": 250000,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 80,
+  "imgHeight": 69,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 50,
+  "drawOrderOffsetY": 60,
+  "offsetX": -29,
+  "offsetY": -8,
+  "experience": 16000,
+  "defense": 60,
+  "pushable": false,
+  "bestiary": 2,
+  "charm": 100,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 1000, "max": 5000 },
+    { "item": "supreme_mana_potion", "chance": 70500, "max": 20 },
+    { "item": "supreme_health_potion", "chance": 70500, "max": 20 },
+    { "item": "demon_shield", "chance": 50000 },
+    { "item": "demon_boots", "chance": 15000 },
+    { "item": "demon_legs", "chance": 15000 },
+    { "item": "royal_crossbow", "chance": 20000 },
+    { "item": "jewelled_bagpack", "chance": 20000 },
+    { "item": "ruby_necklace", "chance": 70000 },
+    { "item": "boots_of_speed", "chance": 70000 },
+    { "item": "royal_axe", "chance": 70000 },
+    { "item": "solar_axe", "chance": 50000 },
+    { "item": "thunder_hammer", "chance": 70000 },
+    { "item": "furmeros_hat", "chance": 100000 },
+    { "item": "gold", "chance": 100000, "min": 1000, "max": 5000 },
+    { "item": "dust", "chance": 100000, "min": 10, "max": 30 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.4,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 700, "max": 1600 },
+    {
+      "attack": "fire",
+      "interval": 4000,
+      "chance": 30,
+      "min": 800,
+      "max": 1800,
+      "type": "area",
+      "particle": 3,
+      "radius": 10
+    },
+    {
+      "attack": "death",
+      "interval": 4000,
+      "chance": 30,
+      "min": 800,
+      "max": 1800,
+      "type": "area",
+      "particle": 37,
+      "radius": 10
+    }
+  ],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 8000,
+      "chance": 50,
+      "min": 520,
+      "max": 2000
+    },
+    {
+      "name": "mana_drain",
+      "interval": 8000,
+      "chance": 50,
+      "min": 1000,
+      "max": 2500,
+      "type": "area",
+      "particle": 12,
+      "radius": 9
+    }
+  ]
 }

@@ -1,0 +1,13 @@
+{
+  "iconSize": 16,
+  "buff": true,
+  "equipType": 1,
+  "level": 300,
+  "rarity": 5,
+  "defense": 8,
+  "bonusMagic": 3,
+  "protectFire": 10,
+  "protectDeath": 5,
+  "vocations": [{ "name": "2" }, { "name": "3" }],
+  "classification": 4
+}

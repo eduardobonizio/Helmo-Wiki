@@ -1,60 +1,109 @@
 {
-	"id":"cursed_death_book",
-	"hittable":true,
-	"maxDirections":4,
-	"speed":80,
-	"maxHealth":22000,
-	"showHealthBar": true,
-	"footstepSound":"slime",
-	"imgWidth":40,
-	"imgHeight":40,
-	"footstepOffsetX":0,
-	"footstepOffsetY":35,
-	"drawOrderOffsetY":33,
-        "offsetX":-10,
-        "offsetY":0,
-        "experience": 17900,
-        "defense": 42,
-        "pushable": false,
-        "bestiary": 50,
-        "charm": 50,
-        "drops": [
-                    {"item":"gold", "chance": 100000, "min":800, "max":1400},
-                    {"item":"ruby_necklace", "chance": 2000},
-                    {"item":"earth_crystal", "chance": 2000},
-                    {"item":"mysteries_book", "chance": 1500},
-                    {"item":"pretator_rod", "chance": 1500},
-                    {"item":"voodoo_wand", "chance": 1500},
-                    {"item":"boots_of_speed", "chance": 1000},
-                    {"item":"blue_robe", "chance": 1500},
-                    {"item":"blue_legs", "chance": 1500},
-                    {"item":"death_armor", "chance": 1500},
-                    {"item":"dust", "chance": 2000, "min":1, "max":2}
-        ],
-	"collisionRects":[
-		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
-		],
-	"animations":[
-		{"id":"walk", "totalRuntime":0.5, "numberOfDirections":4, "looping":true},
-		{"id":"default", "totalRuntime":0.9, "fileName":"walk", "numberOfDirections": 4}
-		],
-	"properties": [
-		{"name":"activationZoneDistance", "type":"int"},
-		{"name":"deactivationZoneDistance", "type":"int"}
-	],
-        "attacks": [
-		{"attack":"melee", "interval":2000, "min":0, "max":800},
-                {"attack":"death", "interval":3000, "chance":100, "range":8, "min":700, "max":900, "type":"shoot", "anim":"death-ball", "particle":37},
-                {"attack":"death", "interval":6000, "chance":50, "min":700, "max":1000, "type":"area", "particle":37,"radius":5},
-                {"attack":"death", "interval":6000, "chance":50, "min":900, "max":1450, "type":"area", "particle":37,"length":10,"spread":20,"range":12}
-	],
-        "defenses": [
-		{"name":"healing", "interval":8000, "chance": 30, "min":100, "max":400}
-	],
-        "elements": [
-                {"name":"holy", "value":125}
-	],
-        "immunities": [
-		{"name":"death", "value":1}
-	]
+  "id": "cursed_death_book",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 80,
+  "maxHealth": 22000,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 40,
+  "imgHeight": 40,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 35,
+  "drawOrderOffsetY": 33,
+  "offsetX": -10,
+  "offsetY": 0,
+  "experience": 17900,
+  "defense": 42,
+  "pushable": false,
+  "bestiary": 50,
+  "charm": 50,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 800, "max": 1400 },
+    { "item": "ruby_necklace", "chance": 2000 },
+    { "item": "earth_crystal", "chance": 2000 },
+    { "item": "mysteries_book", "chance": 1500 },
+    { "item": "pretator_rod", "chance": 1500 },
+    { "item": "voodoo_wand", "chance": 1500 },
+    { "item": "boots_of_speed", "chance": 1000 },
+    { "item": "blue_robe", "chance": 1500 },
+    { "item": "blue_legs", "chance": 1500 },
+    { "item": "death_armor", "chance": 1500 },
+    { "item": "dust", "chance": 2000, "min": 1, "max": 2 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.5,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "totalRuntime": 0.9,
+      "fileName": "walk",
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 800 },
+    {
+      "attack": "death",
+      "interval": 3000,
+      "chance": 100,
+      "range": 8,
+      "min": 700,
+      "max": 900,
+      "type": "shoot",
+      "anim": "death-ball",
+      "particle": 37
+    },
+    {
+      "attack": "death",
+      "interval": 6000,
+      "chance": 50,
+      "min": 700,
+      "max": 1000,
+      "type": "area",
+      "particle": 37,
+      "radius": 5
+    },
+    {
+      "attack": "death",
+      "interval": 6000,
+      "chance": 50,
+      "min": 900,
+      "max": 1450,
+      "type": "area",
+      "particle": 37,
+      "length": 10,
+      "spread": 20,
+      "range": 12
+    }
+  ],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 8000,
+      "chance": 30,
+      "min": 100,
+      "max": 400
+    }
+  ],
+  "elements": [{ "name": "holy", "value": 125 }],
+  "immunities": [{ "name": "death", "value": 1 }]
 }

@@ -1,0 +1,28 @@
+{
+  "iconSize": 16,
+  "equipType": 3,
+  "rarity": 4,
+  "defense": 60,
+  "numOfStyles": 1,
+  "classification": 4,
+
+  "minDamage": 80,
+  "maxDamage": 80,
+
+  "hitRange": 1,
+  "sounds": [["actions/hit"]],
+
+  "critMultiplier": 1.1,
+  "critChance": 5,
+  "twoHand": true,
+
+  "elementDamage": "physical",
+  "weaponType": "sword",
+  "weight": 43,
+
+  "level": 170,
+
+  "vocations": [{ "name": "0" }],
+
+  "description": "It's the magic Helmomania Sword."
+}

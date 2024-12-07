@@ -1,0 +1,12 @@
+{
+  "iconSize": 16,
+  "equipType": -1,
+  "spell": "explosive",
+  "rune": true,
+  "level": 60,
+  "magic": 5,
+  "durability": 1,
+  "clickUse": true,
+  "maxStackSize": 10,
+  "hitRange": 8
+}

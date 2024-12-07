@@ -1,0 +1,17 @@
+{
+  "equipType": 7,
+  "defense": 10,
+
+  "rarity": 5,
+
+  "protectPhysical": 7,
+  "protectIce": 7,
+  "bonusDistance": 3,
+  "bonusMelee": 3,
+
+  "level": 400,
+
+  "vocations": [{ "name": "0" }, { "name": "1" }],
+
+  "classification": 4
+}

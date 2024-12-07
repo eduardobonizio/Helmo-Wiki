@@ -1,0 +1,18 @@
+{
+  "iconSize": 16,
+  "equipType": 3,
+  "maxStackSize": 300,
+  "sounds": [["actions/hit"]],
+  "minDamage": 40,
+  "maxDamage": 40,
+  "level": 60,
+  "hitRange": 9,
+  "vocations": [{ "name": "1" }],
+
+  "elementDamage": "physical",
+  "projectile": "royal-spear",
+  "shootType": "smallphysical",
+  "weaponType": "spear",
+  "weight": "5",
+  "description": "Basic bolt (Atk: 3 ~ 12)."
+}

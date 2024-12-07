@@ -1,0 +1,27 @@
+{
+  "iconSize": 16,
+  "equipType": 3,
+  "numOfStyles": 1,
+  "rarity": 4,
+  "defense": 17,
+
+  "classification": 2,
+
+  "minDamage": 25,
+  "maxDamage": 15,
+
+  "hitRange": 1,
+  "sounds": [["actions/hit"]],
+
+  "critMultiplier": 1.1,
+  "critChance": 10,
+
+  "elementDamage": "physical",
+  "extraElementDamage": "fire",
+  "weaponType": "axe",
+  "weight": "40",
+
+  "level": 40,
+
+  "vocations": [{ "name": "0" }]
+}

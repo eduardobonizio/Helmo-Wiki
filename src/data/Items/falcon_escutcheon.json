@@ -1,0 +1,11 @@
+{
+  "equipType": 5,
+  "defense": 40,
+  "level": 400,
+  "rarity": 5,
+
+  "protectPhysical": 7,
+  "protectFire": 15,
+
+  "vocations": [{ "name": "0" }, { "name": "1" }]
+}

@@ -1,0 +1,12 @@
+{
+  "equipType": 1,
+  "defense": 7,
+  "bonusMagic": 3,
+  "rarity": 5,
+  "protectEarth": 7,
+
+  "level": 250,
+
+  "vocations": [{ "name": "2" }],
+  "classification": 4
+}

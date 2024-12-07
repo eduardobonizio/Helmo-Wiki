@@ -1,19 +1,16 @@
 {
-  "id": "exercise_wand",
-  "numberOfStyles": 1,
-  "maxDirections": 1,
-  "hittable": false,
-  "imgWidth": 16,
-  "imgHeight": 16,
-  "drawOrderOffsetY": 16,
-  "offsetX": 0,
-  "offsetY": 0,
-  "animations": [
-    {
-      "id": "default",
-      "totalRuntime": 1.2,
-      "numberOfDirections": 1,
-      "looping": true
-    }
-  ]
+  "iconSize": 16,
+  "equipType": -1,
+  "numOfStyles": 1,
+
+  "sounds": [["actions/hit"]],
+
+  "marketable": false,
+  "durability": 2000,
+  "hitRange": 10,
+  "tool": true,
+  "clickUse": true,
+
+  "weaponType": "wand",
+  "weight": "2300"
 }

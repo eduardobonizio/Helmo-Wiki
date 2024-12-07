@@ -1,0 +1,19 @@
+{
+  "iconSize": 16,
+  "buff": true,
+  "equipType": 6,
+
+  "defense": 0,
+
+  "rarity": 3,
+  "durability": 20,
+  "durabilityType": 0,
+
+  "protectEnergy": 20,
+  "protectPhysical": 20,
+  "protectIce": 20,
+  "protectFire": 20,
+  "protectDeath": 20,
+  "protectEarth": 20,
+  "protectHoly": 20
+}

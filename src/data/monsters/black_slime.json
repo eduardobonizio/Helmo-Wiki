@@ -1,46 +1,95 @@
 {
-	"id":"black_slime",
-	"hittable":true,
-	"maxDirections":4,
-	"speed":80,
-	"maxHealth":9500,
-	"showHealthBar": true,
-        "deathParticle": 43,
-	"footstepSound":"slime",
-	"imgWidth":32,
-	"imgHeight":32,
-	"footstepOffsetX":0,
-	"footstepOffsetY":16,
-	"drawOrderOffsetY":16,
-        "offsetX":-8,
-        "offsetY":0,
-        "experience": 14000,
-        "defense": 70,
-        "bestiary": 40,
-        "charm": 50,
-        "drops": [
-        ],
-	"collisionRects":[
-		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
-	],
-	"animations":[
-		{"id":"walk", "totalRuntime":0.7, "numberOfDirections":4, "looping":true},
-		{"id":"default", "fileName":"walk", "totalRuntime":0.9, "numberOfDirections": 4, "looping": true}
-        ],
-	"properties": [
-		{"name":"activationZoneDistance", "type":"int"},
-		{"name":"deactivationZoneDistance", "type":"int"}
-	],
-        "attacks": [
-		{"attack":"melee", "interval":2000, "min":0, "max":550},
-                {"attack":"earth", "interval":2000, "chance":80, "range":7, "min":600, "max":900, "type":"shoot", "anim":"earth-ball", "particle":28},
-                {"attack":"earth", "interval":8000, "chance":30, "min":1200, "max":1650, "type":"area", "particle":8,"length":5,"spread":3,"range":7}
-	],
-        "defenses": [
-		{"name":"healing", "interval":8000, "chance": 20, "min":300, "max":800},
-                {"name":"paralize", "interval":8000, "chance": 20, "type":"area", "particle":11,"radius":6}
-	],
-        "elements": [
-                {"name":"energy", "value":110}
-	]
+  "id": "black_slime",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 80,
+  "maxHealth": 9500,
+  "showHealthBar": true,
+  "deathParticle": 43,
+  "footstepSound": "slime",
+  "imgWidth": 32,
+  "imgHeight": 32,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 16,
+  "drawOrderOffsetY": 16,
+  "offsetX": -8,
+  "offsetY": 0,
+  "experience": 14000,
+  "defense": 70,
+  "bestiary": 40,
+  "charm": 50,
+  "drops": [],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.7,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0.9,
+      "numberOfDirections": 4,
+      "looping": true
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 550 },
+    {
+      "attack": "earth",
+      "interval": 2000,
+      "chance": 80,
+      "range": 7,
+      "min": 600,
+      "max": 900,
+      "type": "shoot",
+      "anim": "earth-ball",
+      "particle": 28
+    },
+    {
+      "attack": "earth",
+      "interval": 8000,
+      "chance": 30,
+      "min": 1200,
+      "max": 1650,
+      "type": "area",
+      "particle": 8,
+      "length": 5,
+      "spread": 3,
+      "range": 7
+    }
+  ],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 8000,
+      "chance": 20,
+      "min": 300,
+      "max": 800
+    },
+    {
+      "name": "paralize",
+      "interval": 8000,
+      "chance": 20,
+      "type": "area",
+      "particle": 11,
+      "radius": 6
+    }
+  ],
+  "elements": [{ "name": "energy", "value": 110 }]
 }

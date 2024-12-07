@@ -1,64 +1,95 @@
 {
-	"id":"dark_monk",
-	"hittable":true,
-	"maxDirections":4,
-	"speed":60,
-	"maxHealth":3500,
-	"showHealthBar": true,
-	"footstepSound":"slime",
-	"imgWidth":32,
-	"imgHeight":32,
-	"footstepOffsetX":0,
-	"footstepOffsetY":30,
-	"drawOrderOffsetY":16,
-        "offsetX":-8,
-        "offsetY":0,
-        "experience": 2950,
-        "defense": 45,
-        "bestiary": 30,
-        "charm": 15,
-        "drops": [
-                 {"item":"gold", "chance": 100000, "min":100, "max":500},
-                 {"item":"earth_crystal", "chance": 5000},
-                 {"item":"royal_axe", "chance": 200},
-                 {"item":"pretator_rod", "chance": 50},
-                 {"item":"dark_bagpack", "chance": 10},
-                 {"item":"club_with_spikes", "chance": 600},
-                 {"item":"royal_helmet", "chance": 2000},
-                 {"item":"earth_crystal", "chance": 5000},
-                 {"item":"boots_of_speed", "chance": 25},
-                 {"item":"holy_armor", "chance": 80},
-                 {"item":"holy_legs", "chance": 80},
-                 {"item":"holy_helmet", "chance": 80},
-                 {"item":"dust", "chance": 500, "min":1, "max":2}
-        ],
-	"collisionRects":[
-		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
-		],
-	"animations":[
-		{"id":"walk", "totalRuntime":0.8, "numberOfDirections":4, "looping":true},
-		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4}
-		],
-	"properties": [
-		{"name":"activationZoneDistance", "type":"int"},
-		{"name":"deactivationZoneDistance", "type":"int"}
-	],
-        "attacks": [
-		{"attack":"melee", "interval":2000, "min":0, "max":350},
-                {"attack":"death", "interval":2000, "chance":100, "range":8, "min":100, "max":360, "type":"shoot", "anim":"sd-skull", "particle":37}
-	],
-        "defenses": [
-		{"name":"healing", "interval":8000, "chance": 50, "min":160, "max":240}
-	],
-        "elements": [
-                {"name":"physical", "value":105},
-                {"name":"fire", "value":90},
-                {"name":"energy", "value":70},
-                {"name":"earth", "value":70},
-                {"name":"holy", "value":110},
-                {"name":"ice", "value":110}
-	],
-        "immunities": [
-		{"name":"death", "value":1}
-	]
+  "id": "dark_monk",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 60,
+  "maxHealth": 3500,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 32,
+  "imgHeight": 32,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 30,
+  "drawOrderOffsetY": 16,
+  "offsetX": -8,
+  "offsetY": 0,
+  "experience": 2950,
+  "defense": 45,
+  "bestiary": 30,
+  "charm": 15,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 100, "max": 500 },
+    { "item": "earth_crystal", "chance": 5000 },
+    { "item": "royal_axe", "chance": 200 },
+    { "item": "pretator_rod", "chance": 50 },
+    { "item": "dark_bagpack", "chance": 10 },
+    { "item": "club_with_spikes", "chance": 600 },
+    { "item": "royal_helmet", "chance": 2000 },
+    { "item": "earth_crystal", "chance": 5000 },
+    { "item": "boots_of_speed", "chance": 25 },
+    { "item": "holy_armor", "chance": 80 },
+    { "item": "holy_legs", "chance": 80 },
+    { "item": "holy_helmet", "chance": 80 },
+    { "item": "dust", "chance": 500, "min": 1, "max": 2 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.8,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 350 },
+    {
+      "attack": "death",
+      "interval": 2000,
+      "chance": 100,
+      "range": 8,
+      "min": 100,
+      "max": 360,
+      "type": "shoot",
+      "anim": "sd-skull",
+      "particle": 37
+    }
+  ],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 8000,
+      "chance": 50,
+      "min": 160,
+      "max": 240
+    }
+  ],
+  "elements": [
+    { "name": "physical", "value": 105 },
+    { "name": "fire", "value": 90 },
+    { "name": "energy", "value": 70 },
+    { "name": "earth", "value": 70 },
+    { "name": "holy", "value": 110 },
+    { "name": "ice", "value": 110 }
+  ],
+  "immunities": [{ "name": "death", "value": 1 }]
 }

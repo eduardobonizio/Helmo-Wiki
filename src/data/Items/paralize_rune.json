@@ -1,0 +1,13 @@
+{
+  "iconSize": 16,
+  "equipType": -1,
+  "spell": "paralize",
+  "rune": true,
+  "level": 54,
+  "magic": 15,
+  "durability": 1,
+  "maxStackSize": 200,
+  "hitRange": 7,
+
+  "vocations": [{ "name": "2" }]
+}

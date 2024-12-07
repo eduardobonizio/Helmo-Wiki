@@ -1,0 +1,11 @@
+{
+  "equipType": 5,
+  "defense": 20,
+  "bonusMagic": 4,
+  "protectFire": 10,
+  "protectEarth": -10,
+  "rarity": 5,
+  "group": "Book",
+  "level": 300,
+  "vocations": [{ "name": "2" }]
+}

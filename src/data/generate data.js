@@ -55,7 +55,7 @@ fs.writeFile(
     }
 
     console.log("Monsters JSON file has been saved.");
-  }
+  },
 );
 
 const items = [];
@@ -82,5 +82,5 @@ fs.writeFile(
     }
 
     console.log("Items JSON file has been saved.");
-  }
+  },
 );

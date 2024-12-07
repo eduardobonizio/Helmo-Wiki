@@ -1,0 +1,30 @@
+{
+  "iconSize": 16,
+  "equipType": 3,
+  "numOfStyles": 1,
+  "rarity": 5,
+  "defense": 35,
+  "bonusMelee": 5,
+  "critMultiplier": 1.2,
+  "critChance": 10,
+  "twoHand": true,
+
+  "lifeLeech": 5,
+  "manaLeech": 3,
+  "classification": 4,
+
+  "minDamage": 15,
+  "maxDamage": 52,
+
+  "level": 400,
+  "vocations": [{ "name": "0" }],
+
+  "protectEnergy": 12,
+
+  "hitRange": 1,
+  "sounds": [["actions/hit"]],
+  "elementDamage": "physical",
+  "extraElementDamage": "energy",
+  "weaponType": "axe",
+  "weight": 95
+}

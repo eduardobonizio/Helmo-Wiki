@@ -1,0 +1,11 @@
+{
+  "equipType": 4,
+  "defense": 16,
+  "protectDeath": 5,
+  "protectHoly": -5,
+  "rarity": 4,
+  "level": 85,
+  "classification": 2,
+  "vocations": [{ "name": "0" }],
+  "weight": 110
+}

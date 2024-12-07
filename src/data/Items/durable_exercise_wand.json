@@ -1,0 +1,16 @@
+{
+  "iconSize": 16,
+  "equipType": -1,
+  "numOfStyles": 1,
+
+  "sounds": [["actions/hit"]],
+
+  "marketable": false,
+  "durability": 10000,
+  "hitRange": 10,
+  "tool": true,
+  "clickUse": true,
+
+  "weaponType": "wand",
+  "weight": 50
+}

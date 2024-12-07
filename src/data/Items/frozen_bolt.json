@@ -1,20 +1,18 @@
 {
-  "id": "frozen_bolt",
-  "numberOfStyles": 1,
-  "maxDirections": 1,
-  "hittable": false,
-  "imgWidth": 16,
-  "imgHeight": 16,
-  "drawOrderOffsetY": 64,
-  "offsetX": 0,
-  "offsetY": 0,
-  "collisionRects": [{ "height": 16 }],
-  "animations": [
-    {
-      "id": "default",
-      "totalRuntime": 1,
-      "numberOfDirections": 1,
-      "looping": false
-    }
-  ]
+  "iconSize": 16,
+  "equipType": 8,
+  "maxStackSize": 200,
+  "sounds": [["actions/hit"]],
+  "minDamage": 34,
+  "maxDamage": 34,
+  "critChance": 0,
+
+  "level": 40,
+
+  "elementDamage": "physical",
+  "projectile": "frozen-bolt",
+  "shootType": "smallphysical",
+  "weaponType": "bolt",
+  "weight": "5",
+  "description": "Frozen bolt (Atk: 3 ~ 12)."
 }

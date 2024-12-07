@@ -1,20 +1,20 @@
 {
-  "id": "dragon_slayer_bow",
-  "numberOfStyles": 1,
-  "maxDirections": 1,
-  "hittable": false,
-  "imgWidth": 16,
-  "imgHeight": 16,
-  "drawOrderOffsetY": 64,
-  "offsetX": 0,
-  "offsetY": 0,
-  "collisionRects": [{ "height": 16 }],
-  "animations": [
-    {
-      "id": "default",
-      "totalRuntime": 1,
-      "numberOfDirections": 1,
-      "looping": false
-    }
-  ]
+  "iconSize": 16,
+  "equipType": 3,
+  "numOfStyles": 1,
+  "minDamage": 6,
+  "bonusDistance": 1,
+  "twoHand": true,
+  "rarity": 4,
+  "sounds": [["actions/hit"]],
+
+  "classification": 2,
+
+  "hitRange": 6,
+
+  "level": 60,
+  "weaponType": "bow",
+  "weight": "2300",
+
+  "vocations": [{ "name": "1" }]
 }

@@ -1,0 +1,28 @@
+{
+  "iconSize": 16,
+  "equipType": 3,
+  "numOfStyles": 1,
+  "rarity": 5,
+  "defense": 34,
+  "bonusMelee": 5,
+
+  "lifeLeech": 5,
+  "manaLeech": 3,
+  "classification": 4,
+  "protectEarth": 10,
+
+  "critMultiplier": 1.3,
+  "critChance": 15,
+
+  "minDamage": 58,
+  "maxDamage": 58,
+
+  "hitRange": 1,
+  "sounds": [["actions/hit"]],
+  "elementDamage": "physical",
+  "weaponType": "sword",
+  "weight": 82,
+
+  "level": 400,
+  "vocations": [{ "name": "0" }]
+}

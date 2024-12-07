@@ -1,0 +1,13 @@
+{
+  "iconSize": 16,
+  "equipType": -1,
+  "spell": "great_iceball",
+  "rune": true,
+  "level": 30,
+  "magic": 3,
+  "durability": 4,
+  "clickUse": true,
+  "maxStackSize": 200,
+  "hotConfig": true,
+  "hitRange": 8
+}

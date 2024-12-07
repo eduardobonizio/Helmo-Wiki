@@ -1,0 +1,16 @@
+{
+  "equipType": 4,
+  "defense": 11,
+
+  "protectEarth": 8,
+  "protectFire": -8,
+  "classification": 2,
+  "rarity": 4,
+
+  "bonusMagic": 1,
+
+  "level": 50,
+  "weight": "22",
+
+  "vocations": [{ "name": "2" }, { "name": "3" }]
+}

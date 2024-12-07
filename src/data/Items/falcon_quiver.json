@@ -1,0 +1,13 @@
+{
+  "equipType": 8,
+  "capacity": 12,
+  "container": true,
+  "bonusDistance": 4,
+  "bonusMagic": 1,
+  "protectFire": 6,
+  "defense": 3,
+  "level": 400,
+  "rarity": 5,
+  "weaponType": "quiver",
+  "vocations": [{ "name": "1" }]
+}

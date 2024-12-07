@@ -1,0 +1,12 @@
+{
+  "iconSize": 16,
+  "equipType": -1,
+  "spell": "destroy_field",
+  "rune": true,
+  "level": 17,
+  "magic": 3,
+  "durability": 3,
+  "clickUse": true,
+  "maxStackSize": 200,
+  "hitRange": 3
+}

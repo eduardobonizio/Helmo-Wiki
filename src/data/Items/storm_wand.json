@@ -1,0 +1,24 @@
+{
+  "iconSize": 16,
+  "equipType": 3,
+  "numOfStyles": 1,
+  "rarity": 4,
+
+  "sounds": [["actions/hit"]],
+
+  "minDamage": 87,
+  "maxDamage": 99,
+  "hitRange": 7,
+  "manaCost": 17,
+  "bonusMagic": 3,
+
+  "elementDamage": "energy",
+  "projectile": "energy-ball",
+  "shootType": 12,
+  "weaponType": "wand",
+  "weight": "2300",
+  "description": "",
+
+  "level": 140,
+  "vocations": [{ "name": "3" }]
+}

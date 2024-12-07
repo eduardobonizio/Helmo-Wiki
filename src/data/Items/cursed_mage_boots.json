@@ -1,0 +1,11 @@
+{
+  "equipType": 10,
+  "defense": 3,
+  "bonusMagic": 2,
+  "protectIce": 10,
+  "bonusSpeed": 10,
+  "level": 300,
+  "rarity": 5,
+
+  "vocations": [{ "name": "3" }]
+}
