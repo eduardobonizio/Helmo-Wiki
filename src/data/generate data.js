@@ -73,7 +73,7 @@ jsonsInDirItems.forEach((file) => {
   if (json.vocations) {
     json.vocations.forEach((vocation) => vocs.push(vocation.name));
   }
-  vocs.push("all");
+  if (!json.vocations) vocs.push("all");
   json.vocations = vocs;
   if (!json.level) json.level = 0;
   if (json.equipType && json.equipType == -1) json.equipType = "Resource";

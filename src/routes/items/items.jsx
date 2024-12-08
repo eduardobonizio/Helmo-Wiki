@@ -173,6 +173,7 @@ function Item() {
             if (classe == -1 && item[sortByResis]) return item;
             if (
               (item.vocations.includes(classe) && item[sortByResis]) ||
+              (item.vocations.includes("all") && item[sortByResis]) ||
               (item.vocations.includes(classe) && sortByResis == "all")
             )
               return item;
