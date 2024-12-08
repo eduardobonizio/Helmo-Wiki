@@ -1,28 +1,34 @@
 [
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Ambite Bar.json"
+    "id": "Ambite Bar",
+    "originalName": "ambite_bar",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Ambite Ore.json"
+    "id": "Ambite Ore",
+    "originalName": "ambite_ore",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 0,
-    "id": "Amulet Of Salvation.json"
+    "equipType": "Amulet",
+    "id": "Amulet Of Salvation",
+    "originalName": "amulet_of_salvation",
+    "vocations": ["all"]
   },
   {
     "iconSize": 46,
     "durability": 500,
-    "equipType": 9,
+    "equipType": "Accessory",
     "numOfStyles": 1,
     "useAnimData": [{ "timings": [0.08, 0.1, 0.15, 0.08] }],
     "knockback": 30,
@@ -32,12 +38,14 @@
     "critChance": 25,
     "hitRange": 36,
     "sounds": [["actions/hit"]],
-    "id": "Angelic Claymore.json"
+    "id": "Angelic Claymore",
+    "originalName": "angelic_claymore",
+    "vocations": ["all"]
   },
   {
     "iconSize": 46,
     "durability": 500,
-    "equipType": 9,
+    "equipType": "Accessory",
     "numOfStyles": 1,
     "useAnimData": [{ "timings": [0.08, 0.1, 0.15, 0.08] }],
     "knockback": 30,
@@ -47,11 +55,13 @@
     "critChance": 33,
     "hitRange": 36,
     "sounds": [["actions/hit"]],
-    "id": "Angel Blade.json"
+    "id": "Angel Blade",
+    "originalName": "angel_blade",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 4,
     "twoHand": true,
@@ -64,31 +74,33 @@
     "level": 100,
     "weaponType": "cross",
     "weight": "2300",
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "classification": 3,
-    "id": "Arbalest Crossbow.json"
+    "id": "Arbalest Crossbow",
+    "originalName": "arbalest_crossbow"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "maxStackSize": 600,
     "sounds": [["actions/hit"]],
     "minDamage": 65,
     "maxDamage": 65,
     "level": 120,
     "hitRange": 8,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "elementDamage": "physical",
     "projectile": "assassin-star",
     "shootType": "smallphysical",
     "weaponType": "star",
     "weight": "5",
-    "id": "Assassin Star.json"
+    "id": "Assassin Star",
+    "originalName": "assassin_star"
   },
   {
     "iconSize": 48,
     "durability": 300,
-    "equipType": 9,
+    "equipType": "Accessory",
     "numOfStyles": 1,
     "useAnimData": [{ "timings": [0.08, 0.1, 0.15, 0.1] }],
     "knockback": 16,
@@ -98,11 +110,13 @@
     "critChance": 15,
     "hitRange": 36,
     "sounds": [["actions/hit"]],
-    "id": "Assistant General.json"
+    "id": "Assistant General",
+    "originalName": "assistant_general",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "minDamage": 20,
     "maxDamage": 21,
@@ -113,32 +127,40 @@
     "weaponType": "axe",
     "weight": "2250",
     "description": "A masterpiece of a dwarven smith. (Atk: 5 ~ 8).",
-    "id": "Axe.json"
+    "id": "Axe",
+    "originalName": "axe",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 2,
+    "equipType": "Backpack",
     "container": true,
     "capacity": 20,
-    "id": "Bagpack.json"
+    "id": "Bagpack",
+    "originalName": "bagpack",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Balsam Log.json"
+    "id": "Balsam Log",
+    "originalName": "balsam_log",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Balsam Planks.json"
+    "id": "Balsam Planks",
+    "originalName": "balsam_planks",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 8,
+    "equipType": "Ammo",
     "maxStackSize": 200,
     "sounds": [["actions/hit"]],
     "minDamage": 25,
@@ -149,11 +171,13 @@
     "weaponType": "arrow",
     "weight": "5",
     "description": "Basic arrow (Atk: 3 ~ 12).",
-    "id": "Basic Arrow.json"
+    "id": "Basic Arrow",
+    "originalName": "basic_arrow",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 8,
+    "equipType": "Ammo",
     "maxStackSize": 200,
     "sounds": [["actions/hit"]],
     "minDamage": 30,
@@ -165,23 +189,26 @@
     "weaponType": "bolt",
     "weight": "5",
     "description": "Basic bolt (Atk: 3 ~ 12).",
-    "id": "Basic Bolt.json"
+    "id": "Basic Bolt",
+    "originalName": "basic_bolt",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "minDamage": 0,
     "sounds": [["actions/hit"]],
     "hitRange": 5,
     "weaponType": "bow",
     "weight": "2300",
-    "vocations": [{ "name": "1" }],
-    "id": "Basic Bow.json"
+    "vocations": ["1", "all"],
+    "id": "Basic Bow",
+    "originalName": "basic_bow"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "minDamage": 4,
     "rarity": 2,
@@ -189,25 +216,33 @@
     "hitRange": 5,
     "level": 20,
     "twoHand": true,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "weaponType": "cross",
     "weight": "2300",
-    "id": "Basic Crossbow.json"
+    "id": "Basic Crossbow",
+    "originalName": "basic_crossbow"
   },
-  { "equipType": 1, "defense": 1, "id": "Basic Helmo.json" },
   {
-    "equipType": 8,
+    "equipType": "Head",
+    "defense": 1,
+    "id": "Basic Helmo",
+    "originalName": "basic_helmo",
+    "vocations": ["all"]
+  },
+  {
+    "equipType": "Ammo",
     "container": true,
     "capacity": 3,
     "defense": 1,
     "level": 20,
     "weaponType": "quiver",
-    "vocations": [{ "name": "1" }],
-    "id": "Basic Quiver.json"
+    "vocations": ["1", "all"],
+    "id": "Basic Quiver",
+    "originalName": "basic_quiver"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "sounds": [["actions/hit"]],
     "minDamage": 9,
@@ -220,13 +255,20 @@
     "weaponType": "rod",
     "weight": "2300",
     "description": "Icecold rays of moonlight shimmer on its tip (Atk: 2 ~ 5).",
-    "vocations": [{ "name": "2" }],
-    "id": "Basic Rod.json"
+    "vocations": ["2", "all"],
+    "id": "Basic Rod",
+    "originalName": "basic_rod"
   },
-  { "equipType": 5, "defense": 5, "id": "Basic Shield.json" },
+  {
+    "equipType": "Shield",
+    "defense": 5,
+    "id": "Basic Shield",
+    "originalName": "basic_shield",
+    "vocations": ["all"]
+  },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "minDamage": 15,
     "maxDamage": 16,
@@ -237,11 +279,13 @@
     "weaponType": "sword",
     "weight": "2250",
     "description": "A masterpiece of a dwarven smith. (Atk: 4 ~ 7).",
-    "id": "Basic Sword.json"
+    "id": "Basic Sword",
+    "originalName": "basic_sword",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "sounds": [["actions/hit"]],
     "minDamage": 9,
@@ -254,29 +298,34 @@
     "weaponType": "wand",
     "weight": "2300",
     "description": "Icecold rays of moonlight shimmer on its tip (Atk: 2 ~ 5).",
-    "vocations": [{ "name": "3" }],
-    "id": "Basic Wand.json"
+    "vocations": ["3", "all"],
+    "id": "Basic Wand",
+    "originalName": "basic_wand"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 50,
     "rarity": 3,
     "material": true,
-    "id": "Bear Paw.json"
+    "id": "Bear Paw",
+    "originalName": "bear_paw",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 10,
     "rarity": 3,
     "material": true,
-    "id": "Bear Scalp.json"
+    "id": "Bear Scalp",
+    "originalName": "bear_scalp",
+    "vocations": ["all"]
   },
   {
     "iconSize": 32,
     "durability": 190,
-    "equipType": 9,
+    "equipType": "Accessory",
     "numOfStyles": 1,
     "useAnimData": [{ "timings": [0.1, 0.2, 0.2, 0.2] }],
     "knockback": 20,
@@ -286,115 +335,152 @@
     "critChance": 50,
     "hitRange": 28,
     "sounds": [["actions/hit"]],
-    "id": "Beast Fury.json"
+    "id": "Beast Fury",
+    "originalName": "beast_fury",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 5,
     "rarity": 3,
-    "id": "Black Pearl.json"
+    "id": "Black Pearl",
+    "originalName": "black_pearl",
+    "vocations": ["all"]
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 12,
     "bonusMagic": 2,
     "level": 150,
     "rarity": 4,
     "protectDeath": 8,
     "protectFire": 8,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
+    "vocations": ["2", "3", "all"],
     "classification": 2,
-    "id": "Black Robe.json"
+    "id": "Black Robe",
+    "originalName": "black_robe"
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 0,
+    "equipType": "Amulet",
     "level": 60,
     "rarity": 4,
     "durability": 5,
     "marketable": false,
     "protectDeath": 80,
     "protectPhysical": 80,
-    "id": "Black Stone Amulet.json"
+    "id": "Black Stone Amulet",
+    "originalName": "black_stone_amulet",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 200,
-    "id": "Blank Rune.json"
+    "id": "Blank Rune",
+    "originalName": "blank_rune",
+    "vocations": ["all"]
   },
-  { "maxStackSize": 81, "id": "Blobby Ashes.json" },
+  {
+    "maxStackSize": 81,
+    "id": "Blobby Ashes",
+    "originalName": "blobby_ashes",
+    "vocations": ["all"]
+  },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
-    "id": "Block Of Ice.json"
+    "id": "Block Of Ice",
+    "originalName": "block_of_ice",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Bloodstone Bar.json"
+    "id": "Bloodstone Bar",
+    "originalName": "bloodstone_bar",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Bloodstone Ore.json"
+    "id": "Bloodstone Ore",
+    "originalName": "bloodstone_ore",
+    "vocations": ["all"]
   },
-  { "iconSize": 16, "equipType": -1, "rarity": 5, "id": "Blue Book.json" },
   {
-    "equipType": 7,
+    "iconSize": 16,
+    "equipType": "Resource",
+    "rarity": 5,
+    "id": "Blue Book",
+    "originalName": "blue_book",
+    "vocations": ["all"]
+  },
+  {
+    "equipType": "Pants",
     "defense": 8,
     "rarity": 4,
     "protectIce": 6,
     "classification": 2,
-    "id": "Blue Legs.json"
+    "id": "Blue Legs",
+    "originalName": "blue_legs",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 0,
+    "equipType": "Amulet",
     "level": 180,
     "rarity": 4,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "durability": 1800,
     "durabilityType": 1,
     "bonusDistance": 4,
     "bonusMagic": 2,
-    "id": "Blue Plasma Amulet.json"
+    "id": "Blue Plasma Amulet",
+    "originalName": "blue_plasma_amulet"
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 6,
+    "equipType": "Ring",
     "level": 150,
     "rarity": 4,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "durability": 1800,
     "durabilityType": 1,
     "bonusDistance": 3,
     "bonusMagic": 1,
-    "id": "Blue Plasma Ring.json"
+    "id": "Blue Plasma Ring",
+    "originalName": "blue_plasma_ring"
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 11,
     "level": 130,
     "rarity": 4,
     "protectIce": 8,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
+    "vocations": ["2", "3", "all"],
     "classification": 2,
-    "id": "Blue Robe.json"
+    "id": "Blue Robe",
+    "originalName": "blue_robe"
   },
-  { "equipType": 5, "id": "Body.json" },
+  {
+    "equipType": "Shield",
+    "id": "Body",
+    "originalName": "body",
+    "vocations": ["all"]
+  },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 4,
     "defense": 30,
@@ -409,30 +495,48 @@
     "weaponType": "axe",
     "weight": "4250",
     "level": 120,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "classification": 2,
-    "id": "Bonecutter.json"
+    "id": "Bonecutter",
+    "originalName": "bonecutter"
   },
   {
     "minDamage": 1,
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 5,
     "rarity": 2,
     "level": 10,
-    "id": "Bone Armor.json"
+    "id": "Bone Armor",
+    "originalName": "bone_armor",
+    "vocations": ["all"]
   },
-  { "equipType": 5, "defense": 15, "rarity": 2, "id": "Bone Shield.json" },
-  { "equipType": 10, "defense": 1, "id": "Boots Basic.json" },
   {
-    "equipType": 10,
+    "equipType": "Shield",
+    "defense": 15,
+    "rarity": 2,
+    "id": "Bone Shield",
+    "originalName": "bone_shield",
+    "vocations": ["all"]
+  },
+  {
+    "equipType": "Shoes",
+    "defense": 1,
+    "id": "Boots Basic",
+    "originalName": "boots_basic",
+    "vocations": ["all"]
+  },
+  {
+    "equipType": "Shoes",
     "defense": 1,
     "bonusSpeed": 15,
     "rarity": 3,
-    "id": "Boots Of Speed.json"
+    "id": "Boots Of Speed",
+    "originalName": "boots_of_speed",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 2,
     "defense": 13,
@@ -442,33 +546,45 @@
     "hitRange": 1,
     "sounds": [["actions/hit"]],
     "level": 40,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "elementDamage": "physical",
     "weaponType": "sword",
     "weight": "5250",
     "description": "A masterpiece of a dwarven smith. (Atk: 12 ~ 18).",
-    "id": "Broadsword.json"
+    "id": "Broadsword",
+    "originalName": "broadsword"
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 0,
+    "equipType": "Amulet",
     "rarity": 2,
     "durability": 200,
     "protectMana": 20,
-    "id": "Bronze Amulet.json"
+    "id": "Bronze Amulet",
+    "originalName": "bronze_amulet",
+    "vocations": ["all"]
   },
-  { "iconSize": 16, "equipType": -1, "rarity": 5, "id": "Broom.json" },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
+    "rarity": 5,
+    "id": "Broom",
+    "originalName": "broom",
+    "vocations": ["all"]
+  },
+  {
+    "iconSize": 16,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Brown Fur.json"
+    "id": "Brown Fur",
+    "originalName": "brown_fur",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 8,
+    "equipType": "Ammo",
     "maxStackSize": 200,
     "sounds": [["actions/hit"]],
     "minDamage": 22,
@@ -479,62 +595,73 @@
     "shootType": "smallphysical",
     "weaponType": "arrow",
     "weight": "5",
-    "id": "Burst Arrow.json"
+    "id": "Burst Arrow",
+    "originalName": "burst_arrow",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 50,
     "material": true,
-    "id": "Candle Rest.json"
+    "id": "Candle Rest",
+    "originalName": "candle_rest",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "rarity": 3,
-    "id": "Candy.json"
+    "id": "Candy",
+    "originalName": "candy",
+    "vocations": ["all"]
   },
   {
-    "equipType": 10,
+    "equipType": "Shoes",
     "defense": 7,
     "bonusMelee": 2,
     "bonusSpeed": 10,
     "level": 110,
     "rarity": 5,
-    "vocations": [{ "name": "0" }],
-    "id": "Centered Boots.json"
+    "vocations": ["0", "all"],
+    "id": "Centered Boots",
+    "originalName": "centered_boots"
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 9,
     "level": 100,
     "rarity": 4,
     "protectEnergy": 3,
     "bonusMagic": 2,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
+    "vocations": ["2", "3", "all"],
     "classification": 2,
-    "id": "Centered Cape.json"
+    "id": "Centered Cape",
+    "originalName": "centered_cape"
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 3,
     "bonusMagic": 2,
     "rarity": 4,
     "protectEnergy": 4,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
+    "vocations": ["2", "3", "all"],
     "classification": 2,
-    "id": "Centered Hat.json"
+    "id": "Centered Hat",
+    "originalName": "centered_hat"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
-    "id": "Chunk Of Meteor.json"
+    "id": "Chunk Of Meteor",
+    "originalName": "chunk_of_meteor",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 2,
     "defense": 22,
@@ -544,53 +671,60 @@
     "level": 60,
     "hitRange": 1,
     "sounds": [["actions/hit"]],
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "classification": 2,
     "elementDamage": "physical",
     "weaponType": "club",
     "weight": "2250",
     "description": "A masterpiece of a dwarven smith. (Atk: 5 ~ 8).",
-    "id": "Club With Spikes.json"
+    "id": "Club With Spikes",
+    "originalName": "club_with_spikes"
   },
   {
-    "equipType": 5,
+    "equipType": "Shield",
     "defense": 15,
     "bonusMagic": 3,
     "protectEarth": 5,
     "level": 130,
     "rarity": 3,
     "group": "Book",
-    "vocations": [{ "name": "2" }, { "name": "3" }],
-    "id": "Control Book.json"
+    "vocations": ["2", "3", "all"],
+    "id": "Control Book",
+    "originalName": "control_book"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Copper Bar.json"
+    "id": "Copper Bar",
+    "originalName": "copper_bar",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Copper Ore.json"
+    "id": "Copper Ore",
+    "originalName": "copper_ore",
+    "vocations": ["all"]
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 22,
     "rarity": 5,
     "protectDeath": 6,
     "bonusMelee": 3,
     "classification": 4,
     "level": 200,
-    "vocations": [{ "name": "0" }],
-    "id": "Corruption Armor.json"
+    "vocations": ["0", "all"],
+    "id": "Corruption Armor",
+    "originalName": "corruption_armor"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 5,
     "defense": 35,
@@ -602,7 +736,7 @@
     "minDamage": 20,
     "maxDamage": 45,
     "level": 200,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "hitRange": 1,
     "sounds": [["actions/hit"]],
     "elementDamage": "physical",
@@ -610,17 +744,20 @@
     "weaponType": "axe",
     "weight": "2250",
     "description": "A masterpiece of a dwarven smith. (Atk: 4 ~ 7).",
-    "id": "Corruption Axe.json"
+    "id": "Corruption Axe",
+    "originalName": "corruption_axe"
   },
   {
     "iconSize": 16,
-    "equipType": 2,
+    "equipType": "Backpack",
     "container": true,
     "capacity": 20,
-    "id": "Corruption Bagpack.json"
+    "id": "Corruption Bagpack",
+    "originalName": "corruption_bagpack",
+    "vocations": ["all"]
   },
   {
-    "equipType": 5,
+    "equipType": "Shield",
     "defense": 20,
     "bonusMagic": 4,
     "protectFire": 8,
@@ -628,23 +765,25 @@
     "rarity": 5,
     "group": "Book",
     "level": 200,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
-    "id": "Corruption Book.json"
+    "vocations": ["2", "3", "all"],
+    "id": "Corruption Book",
+    "originalName": "corruption_book"
   },
   {
-    "equipType": 10,
+    "equipType": "Shoes",
     "defense": 7,
     "bonusMelee": 2,
     "protectDeath": 5,
     "bonusSpeed": 10,
     "level": 110,
     "rarity": 5,
-    "vocations": [{ "name": "0" }],
-    "id": "Corruption Boots.json"
+    "vocations": ["0", "all"],
+    "id": "Corruption Boots",
+    "originalName": "corruption_boots"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "minDamage": 19,
     "rarity": 5,
@@ -658,12 +797,13 @@
     "level": 200,
     "weaponType": "bow",
     "weight": "2300",
-    "vocations": [{ "name": "1" }],
-    "id": "Corruption Bow.json"
+    "vocations": ["1", "all"],
+    "id": "Corruption Bow",
+    "originalName": "corruption_bow"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "twoHand": true,
     "numOfStyles": 1,
     "rarity": 5,
@@ -677,45 +817,50 @@
     "level": 200,
     "weaponType": "cross",
     "weight": "2300",
-    "vocations": [{ "name": "1" }],
-    "id": "Corruption Crossbow.json"
+    "vocations": ["1", "all"],
+    "id": "Corruption Crossbow",
+    "originalName": "corruption_crossbow"
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 12,
     "protectDeath": 3,
     "level": 110,
     "classification": 4,
     "rarity": 5,
-    "vocations": [{ "name": "0" }],
-    "id": "Corruption Helmet.json"
+    "vocations": ["0", "all"],
+    "id": "Corruption Helmet",
+    "originalName": "corruption_helmet"
   },
   {
-    "equipType": 7,
+    "equipType": "Pants",
     "defense": 11,
     "protectDeath": 6,
     "protectPhysical": 6,
     "bonusMelee": 3,
     "rarity": 5,
     "level": 180,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "classification": 4,
-    "id": "Corruption Legs.json"
+    "id": "Corruption Legs",
+    "originalName": "corruption_legs"
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 0,
+    "equipType": "Amulet",
     "level": 60,
     "rarity": 5,
     "defense": 3,
     "bonusMagic": 1,
     "bonusDistance": 1,
     "protectFire": 5,
-    "id": "Corruption Necklace.json"
+    "id": "Corruption Necklace",
+    "originalName": "corruption_necklace",
+    "vocations": ["all"]
   },
   {
-    "equipType": 8,
+    "equipType": "Ammo",
     "capacity": 12,
     "container": true,
     "bonusDistance": 5,
@@ -723,33 +868,37 @@
     "level": 200,
     "rarity": 5,
     "weaponType": "quiver",
-    "vocations": [{ "name": "1" }],
-    "id": "Corruption Quiver.json"
+    "vocations": ["1", "all"],
+    "id": "Corruption Quiver",
+    "originalName": "corruption_quiver"
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 6,
+    "equipType": "Ring",
     "defense": 3,
     "bonusMagic": 1,
     "bonusDistance": 1,
     "level": 60,
     "rarity": 5,
     "protectFire": 5,
-    "id": "Corruption Ring.json"
+    "id": "Corruption Ring",
+    "originalName": "corruption_ring",
+    "vocations": ["all"]
   },
   {
-    "equipType": 5,
+    "equipType": "Shield",
     "defense": 40,
     "rarity": 5,
     "protectFire": 8,
     "protectPhysical": 6,
-    "vocations": [{ "name": "0" }],
-    "id": "Corruption Shield.json"
+    "vocations": ["0", "all"],
+    "id": "Corruption Shield",
+    "originalName": "corruption_shield"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "minDamage": 45,
     "maxDamage": 10,
@@ -765,36 +914,42 @@
     "weight": "2250",
     "description": "A masterpiece of a dwarven smith. (Atk: 4 ~ 7).",
     "level": 200,
-    "vocations": [{ "name": "0" }],
-    "id": "Corruption Sword.json"
+    "vocations": ["0", "all"],
+    "id": "Corruption Sword",
+    "originalName": "corruption_sword"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 50,
     "material": true,
-    "id": "Crow Beak.json"
+    "id": "Crow Beak",
+    "originalName": "crow_beak",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 50,
     "material": true,
-    "id": "Crow Feather.json"
+    "id": "Crow Feather",
+    "originalName": "crow_feather",
+    "vocations": ["all"]
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 16,
     "protectIce": 5,
     "rarity": 4,
     "level": 150,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "classification": 3,
-    "id": "Crystalline Armor.json"
+    "id": "Crystalline Armor",
+    "originalName": "crystalline_armor"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "twoHand": true,
     "rarity": 5,
@@ -805,7 +960,7 @@
     "minDamage": 10,
     "maxDamage": 35,
     "level": 100,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "hitRange": 1,
     "sounds": [["actions/hit"]],
     "elementDamage": "physical",
@@ -814,96 +969,105 @@
     "weight": "2250",
     "description": "",
     "classification": 3,
-    "id": "Crystalline Axe.json"
+    "id": "Crystalline Axe",
+    "originalName": "crystalline_axe"
   },
   {
-    "equipType": 5,
+    "equipType": "Shield",
     "defense": 14,
     "bonusMagic": 2,
     "protectIce": 5,
     "protectEnergy": 5,
     "level": 80,
     "group": "Book",
-    "vocations": [{ "name": "2" }, { "name": "3" }],
-    "id": "Crystalline Book.json"
+    "vocations": ["2", "3", "all"],
+    "id": "Crystalline Book",
+    "originalName": "crystalline_book"
   },
   {
-    "equipType": 10,
+    "equipType": "Shoes",
     "defense": 6,
     "level": 110,
     "protectIce": 3,
     "rarity": 4,
-    "vocations": [{ "name": "0" }],
-    "id": "Crystalline Boots.json"
+    "vocations": ["0", "all"],
+    "id": "Crystalline Boots",
+    "originalName": "crystalline_boots"
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 9,
     "bonusDistance": 2,
     "protectIce": 5,
     "classification": 3,
     "level": 110,
     "rarity": 4,
-    "vocations": [{ "name": "1" }],
-    "id": "Crystalline Cape.json"
+    "vocations": ["1", "all"],
+    "id": "Crystalline Cape",
+    "originalName": "crystalline_cape"
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 7,
     "bonusDistance": 2,
     "protectIce": 5,
     "level": 110,
     "rarity": 4,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "classification": 3,
-    "id": "Crystalline Coif.json"
+    "id": "Crystalline Coif",
+    "originalName": "crystalline_coif"
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 7,
     "bonusMagic": 2,
     "protectIce": 3,
     "level": 110,
     "rarity": 4,
     "classification": 3,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
-    "id": "Crystalline Hat.json"
+    "vocations": ["2", "3", "all"],
+    "id": "Crystalline Hat",
+    "originalName": "crystalline_hat"
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 7,
     "rarity": 4,
     "bonusMelee": 2,
     "protectIce": 3,
     "classification": 3,
     "level": 110,
-    "vocations": [{ "name": "0" }],
-    "id": "Crystalline Helmet.json"
+    "vocations": ["0", "all"],
+    "id": "Crystalline Helmet",
+    "originalName": "crystalline_helmet"
   },
   {
-    "equipType": 7,
+    "equipType": "Pants",
     "defense": 8,
     "rarity": 4,
     "bonusSpeed": 2,
     "level": 120,
     "protectIce": 5,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
-    "id": "Crystalline Kilt.json"
+    "vocations": ["2", "3", "all"],
+    "id": "Crystalline Kilt",
+    "originalName": "crystalline_kilt"
   },
   {
-    "equipType": 7,
+    "equipType": "Pants",
     "defense": 9,
     "protectIce": 5,
     "protectPhysical": 2,
     "rarity": 5,
     "level": 130,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "classification": 3,
-    "id": "Crystalline Legs.json"
+    "id": "Crystalline Legs",
+    "originalName": "crystalline_legs"
   },
   {
     "iconSize": 16,
-    "equipType": 8,
+    "equipType": "Ammo",
     "maxStackSize": 200,
     "sounds": [["actions/hit"]],
     "minDamage": 66,
@@ -915,10 +1079,12 @@
     "weaponType": "bolt",
     "weight": "5",
     "description": "",
-    "id": "Crystalline Prime Bolt.json"
+    "id": "Crystalline Prime Bolt",
+    "originalName": "crystalline_prime_bolt",
+    "vocations": ["all"]
   },
   {
-    "equipType": 8,
+    "equipType": "Ammo",
     "capacity": 5,
     "container": true,
     "bonusDistance": 2,
@@ -926,43 +1092,47 @@
     "level": 80,
     "rarity": 3,
     "weaponType": "quiver",
-    "vocations": [{ "name": "1" }],
-    "id": "Crystalline Quiver.json"
+    "vocations": ["1", "all"],
+    "id": "Crystalline Quiver",
+    "originalName": "crystalline_quiver"
   },
   {
-    "equipType": 7,
+    "equipType": "Pants",
     "defense": 8,
     "bonusDistance": 2,
     "protectIce": 5,
     "level": 110,
     "rarity": 4,
-    "vocations": [{ "name": "1" }],
-    "id": "Crystalline Ranger Legs.json"
+    "vocations": ["1", "all"],
+    "id": "Crystalline Ranger Legs",
+    "originalName": "crystalline_ranger_legs"
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 8,
     "rarity": 4,
     "bonusMagic": 2,
     "protectIce": 5,
     "classification": 3,
     "level": 110,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
-    "id": "Crystalline Robe.json"
+    "vocations": ["2", "3", "all"],
+    "id": "Crystalline Robe",
+    "originalName": "crystalline_robe"
   },
   {
-    "equipType": 5,
+    "equipType": "Shield",
     "defense": 33,
     "rarity": 5,
     "protectEnergy": 10,
     "protectPhysical": 4,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "level": 110,
-    "id": "Crystalline Shield.json"
+    "id": "Crystalline Shield",
+    "originalName": "crystalline_shield"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "minDamage": 33,
     "maxDamage": 10,
@@ -977,20 +1147,23 @@
     "weight": "2250",
     "description": "",
     "level": 120,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "classification": 3,
-    "id": "Crystalline Sword.json"
+    "id": "Crystalline Sword",
+    "originalName": "crystalline_sword"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 50,
     "rarity": 3,
     "material": true,
-    "id": "Crystal Tortoiseshell.json"
+    "id": "Crystal Tortoiseshell",
+    "originalName": "crystal_tortoiseshell",
+    "vocations": ["all"]
   },
   {
-    "equipType": 10,
+    "equipType": "Shoes",
     "defense": 5,
     "bonusDistance": 2,
     "protectFire": 5,
@@ -998,35 +1171,38 @@
     "bonusSpeed": 10,
     "level": 300,
     "rarity": 5,
-    "vocations": [{ "name": "1" }],
-    "id": "Cursed Archer Boots.json"
+    "vocations": ["1", "all"],
+    "id": "Cursed Archer Boots",
+    "originalName": "cursed_archer_boots"
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 9,
     "protectEarth": 5,
     "protectPhysical": 3,
     "bonusDistance": 2,
     "level": 250,
     "rarity": 5,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "classification": 4,
-    "id": "Cursed Archer Helmet.json"
+    "id": "Cursed Archer Helmet",
+    "originalName": "cursed_archer_helmet"
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 16,
     "rarity": 5,
     "protectPhysical": 5,
     "bonusDistance": 3,
     "level": 300,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "classification": 4,
-    "id": "Cursed Armor.json"
+    "id": "Cursed Armor",
+    "originalName": "cursed_armor"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 5,
     "defense": 34,
@@ -1040,7 +1216,7 @@
     "minDamage": 10,
     "maxDamage": 47,
     "level": 300,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "hitRange": 1,
     "sounds": [["actions/hit"]],
     "elementDamage": "physical",
@@ -1048,11 +1224,12 @@
     "weaponType": "axe",
     "weight": "2250",
     "description": "A masterpiece of a dwarven smith. (Atk: 4 ~ 7).",
-    "id": "Cursed Axe.json"
+    "id": "Cursed Axe",
+    "originalName": "cursed_axe"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "minDamage": 20,
     "sounds": [["actions/hit"]],
@@ -1065,24 +1242,26 @@
     "bonusDistance": 4,
     "weaponType": "bow",
     "weight": "2300",
-    "vocations": [{ "name": "1" }],
-    "id": "Cursed Bow.json"
+    "vocations": ["1", "all"],
+    "id": "Cursed Bow",
+    "originalName": "cursed_bow"
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 14,
     "rarity": 5,
     "protectDeath": 8,
     "bonusMagic": 4,
     "classification": 4,
     "level": 300,
-    "vocations": [{ "name": "2" }],
-    "id": "Cursed Cape.json"
+    "vocations": ["2", "all"],
+    "id": "Cursed Cape",
+    "originalName": "cursed_cape"
   },
   {
     "iconSize": 16,
     "twoHand": true,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 5,
     "minDamage": 38,
@@ -1095,89 +1274,97 @@
     "level": 300,
     "weaponType": "cross",
     "weight": "2300",
-    "vocations": [{ "name": "1" }],
-    "id": "Cursed Crossbow.json"
+    "vocations": ["1", "all"],
+    "id": "Cursed Crossbow",
+    "originalName": "cursed_crossbow"
   },
   {
-    "equipType": 10,
+    "equipType": "Shoes",
     "defense": 3,
     "bonusMagic": 2,
     "protectFire": 10,
     "bonusSpeed": 10,
     "level": 300,
     "rarity": 5,
-    "vocations": [{ "name": "2" }],
-    "id": "Cursed Healer Boots.json"
+    "vocations": ["2", "all"],
+    "id": "Cursed Healer Boots",
+    "originalName": "cursed_healer_boots"
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 7,
     "bonusMagic": 3,
     "rarity": 5,
     "protectEarth": 7,
     "level": 250,
-    "vocations": [{ "name": "2" }],
+    "vocations": ["2", "all"],
     "classification": 4,
-    "id": "Cursed Healer Hat.json"
+    "id": "Cursed Healer Hat",
+    "originalName": "cursed_healer_hat"
   },
   {
-    "equipType": 7,
+    "equipType": "Pants",
     "defense": 9,
     "protectEarth": 4,
     "protectPhysical": 4,
     "bonusDistance": 2,
     "rarity": 5,
     "level": 300,
-    "vocations": [{ "name": "1" }],
-    "id": "Cursed Kilt.json"
+    "vocations": ["1", "all"],
+    "id": "Cursed Kilt",
+    "originalName": "cursed_kilt"
   },
   {
-    "equipType": 7,
+    "equipType": "Pants",
     "defense": 9,
     "protectEarth": 5,
     "protectPhysical": 5,
     "bonusMelee": 2,
     "rarity": 5,
     "level": 300,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "classification": 4,
-    "id": "Cursed Legs.json"
+    "id": "Cursed Legs",
+    "originalName": "cursed_legs"
   },
   {
-    "equipType": 10,
+    "equipType": "Shoes",
     "defense": 3,
     "bonusMagic": 2,
     "protectIce": 10,
     "bonusSpeed": 10,
     "level": 300,
     "rarity": 5,
-    "vocations": [{ "name": "3" }],
-    "id": "Cursed Mage Boots.json"
+    "vocations": ["3", "all"],
+    "id": "Cursed Mage Boots",
+    "originalName": "cursed_mage_boots"
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 7,
     "bonusMagic": 3,
     "rarity": 5,
     "protectIce": 7,
     "level": 250,
-    "vocations": [{ "name": "3" }],
+    "vocations": ["3", "all"],
     "classification": 4,
-    "id": "Cursed Mage Hat.json"
+    "id": "Cursed Mage Hat",
+    "originalName": "cursed_mage_hat"
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 17,
     "rarity": 5,
     "protectPhysical": 10,
     "bonusMelee": 3,
     "classification": 4,
     "level": 300,
-    "vocations": [{ "name": "0" }],
-    "id": "Cursed Plate.json"
+    "vocations": ["0", "all"],
+    "id": "Cursed Plate",
+    "originalName": "cursed_plate"
   },
   {
-    "equipType": 8,
+    "equipType": "Ammo",
     "capacity": 9,
     "container": true,
     "bonusDistance": 3,
@@ -1186,23 +1373,25 @@
     "level": 300,
     "rarity": 5,
     "weaponType": "quiver",
-    "vocations": [{ "name": "1" }],
-    "id": "Cursed Quiver.json"
+    "vocations": ["1", "all"],
+    "id": "Cursed Quiver",
+    "originalName": "cursed_quiver"
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 14,
     "rarity": 5,
     "protectFire": 8,
     "bonusMagic": 4,
     "classification": 4,
     "level": 300,
-    "vocations": [{ "name": "3" }],
-    "id": "Cursed Robe.json"
+    "vocations": ["3", "all"],
+    "id": "Cursed Robe",
+    "originalName": "cursed_robe"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 5,
     "sounds": [["actions/hit"]],
@@ -1223,30 +1412,33 @@
     "weight": "2300",
     "description": "Icecold rays of moonlight shimmer on its tip (Atk: 20 ~ 30).",
     "level": 300,
-    "vocations": [{ "name": "2" }],
-    "id": "Cursed Rod.json"
+    "vocations": ["2", "all"],
+    "id": "Cursed Rod",
+    "originalName": "cursed_rod"
   },
   {
-    "equipType": 7,
+    "equipType": "Pants",
     "defense": 8,
     "protectFire": 10,
     "bonusMagic": 2,
     "rarity": 5,
     "level": 300,
-    "vocations": [{ "name": "3" }],
-    "id": "Cursed Shanks.json"
+    "vocations": ["3", "all"],
+    "id": "Cursed Shanks",
+    "originalName": "cursed_shanks"
   },
   {
-    "equipType": 5,
+    "equipType": "Shield",
     "defense": 38,
     "rarity": 5,
     "protectDeath": 10,
     "protectPhysical": 10,
-    "vocations": [{ "name": "0" }],
-    "id": "Cursed Shield.json"
+    "vocations": ["0", "all"],
+    "id": "Cursed Shield",
+    "originalName": "cursed_shield"
   },
   {
-    "equipType": 5,
+    "equipType": "Shield",
     "defense": 20,
     "bonusMagic": 4,
     "protectFire": 10,
@@ -1254,11 +1446,12 @@
     "rarity": 5,
     "group": "Book",
     "level": 300,
-    "vocations": [{ "name": "2" }],
-    "id": "Cursed Shoulder.json"
+    "vocations": ["2", "all"],
+    "id": "Cursed Shoulder",
+    "originalName": "cursed_shoulder"
   },
   {
-    "equipType": 5,
+    "equipType": "Shield",
     "defense": 20,
     "bonusMagic": 5,
     "protectEarth": 10,
@@ -1266,22 +1459,24 @@
     "rarity": 5,
     "group": "Book",
     "level": 300,
-    "vocations": [{ "name": "3" }],
-    "id": "Cursed Spellbook.json"
+    "vocations": ["3", "all"],
+    "id": "Cursed Spellbook",
+    "originalName": "cursed_spellbook"
   },
   {
-    "equipType": 7,
+    "equipType": "Pants",
     "defense": 8,
     "protectIce": 10,
     "bonusMagic": 2,
     "rarity": 5,
     "level": 300,
-    "vocations": [{ "name": "2" }],
-    "id": "Cursed Strider.json"
+    "vocations": ["2", "all"],
+    "id": "Cursed Strider",
+    "originalName": "cursed_strider"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 5,
     "defense": 32,
@@ -1300,12 +1495,13 @@
     "weight": "2250",
     "description": "A masterpiece of a dwarven smith. (Atk: 150 ~ 300).",
     "level": 300,
-    "vocations": [{ "name": "0" }],
-    "id": "Cursed Sword.json"
+    "vocations": ["0", "all"],
+    "id": "Cursed Sword",
+    "originalName": "cursed_sword"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 5,
     "lifeLeech": 6,
@@ -1326,11 +1522,12 @@
     "weight": "2300",
     "description": "Icecold rays of moonlight shimmer on its tip (Atk: 20 ~ 30).",
     "level": 300,
-    "vocations": [{ "name": "3" }],
-    "id": "Cursed Wand.json"
+    "vocations": ["3", "all"],
+    "id": "Cursed Wand",
+    "originalName": "cursed_wand"
   },
   {
-    "equipType": 10,
+    "equipType": "Shoes",
     "defense": 7,
     "bonusMelee": 2,
     "protectFire": 5,
@@ -1338,66 +1535,84 @@
     "bonusSpeed": 10,
     "level": 300,
     "rarity": 5,
-    "vocations": [{ "name": "0" }],
-    "id": "Cursed Warrior Boots.json"
+    "vocations": ["0", "all"],
+    "id": "Cursed Warrior Boots",
+    "originalName": "cursed_warrior_boots"
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 9,
     "protectEarth": 5,
     "protectPhysical": 3,
     "bonusMelee": 2,
     "level": 250,
     "rarity": 5,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "classification": 4,
-    "id": "Cursed Warrior Helmet.json"
+    "id": "Cursed Warrior Helmet",
+    "originalName": "cursed_warrior_helmet"
   },
   {
     "iconSize": 16,
-    "equipType": 2,
+    "equipType": "Backpack",
     "container": true,
     "capacity": 20,
-    "id": "Dark Bagpack.json"
-  },
-  { "iconSize": 16, "equipType": -1, "rarity": 2, "id": "Dark Floor.json" },
-  {
-    "iconSize": 16,
-    "equipType": -1,
-    "maxStackSize": 20,
-    "material": true,
-    "id": "Dark Fur.json"
+    "id": "Dark Bagpack",
+    "originalName": "dark_bagpack",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
-    "maxStackSize": 20,
-    "material": true,
-    "id": "Dark Oakwood Log.json"
+    "equipType": "Resource",
+    "rarity": 2,
+    "id": "Dark Floor",
+    "originalName": "dark_floor",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Dark Oakwood Planks.json"
+    "id": "Dark Fur",
+    "originalName": "dark_fur",
+    "vocations": ["all"]
   },
   {
-    "equipType": 4,
+    "iconSize": 16,
+    "equipType": "Resource",
+    "maxStackSize": 20,
+    "material": true,
+    "id": "Dark Oakwood Log",
+    "originalName": "dark_oakwood_log",
+    "vocations": ["all"]
+  },
+  {
+    "iconSize": 16,
+    "equipType": "Resource",
+    "maxStackSize": 20,
+    "material": true,
+    "id": "Dark Oakwood Planks",
+    "originalName": "dark_oakwood_planks",
+    "vocations": ["all"]
+  },
+  {
+    "equipType": "Armor",
     "defense": 16,
     "protectDeath": 5,
     "protectHoly": -5,
     "rarity": 4,
     "level": 85,
     "classification": 2,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "weight": 110,
-    "id": "Death Armor.json"
+    "id": "Death Armor",
+    "originalName": "death_armor"
   },
   {
     "iconSize": 40,
     "durability": 280,
-    "equipType": 9,
+    "equipType": "Accessory",
     "numOfStyles": 1,
     "useAnimData": [{ "stick": true, "timings": [0.06, 0.06, 0.07, 0.08] }],
     "knockback": 12,
@@ -1407,63 +1622,82 @@
     "critChance": 15,
     "hitRange": 34,
     "sounds": [["actions/hit"]],
-    "id": "Demons Tongue.json"
+    "id": "Demons Tongue",
+    "originalName": "demons_tongue",
+    "vocations": ["all"]
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 16,
     "rarity": 4,
     "classification": 4,
     "protectFire": 8,
     "level": 130,
-    "vocations": [{ "name": "0" }, { "name": "1" }],
-    "id": "Demon Armor.json"
+    "vocations": ["0", "1", "all"],
+    "id": "Demon Armor",
+    "originalName": "demon_armor"
   },
   {
     "iconSize": 16,
-    "equipType": 2,
+    "equipType": "Backpack",
     "container": true,
     "capacity": 20,
-    "id": "Demon Bagpack.json"
+    "id": "Demon Bagpack",
+    "originalName": "demon_bagpack",
+    "vocations": ["all"]
   },
   {
-    "equipType": 10,
+    "equipType": "Shoes",
     "defense": 7,
     "level": 100,
     "rarity": 4,
     "bonusDefense": 2,
     "protectFire": 5,
-    "vocations": [{ "name": "0" }, { "name": "1" }],
-    "id": "Demon Boots.json"
+    "vocations": ["0", "1", "all"],
+    "id": "Demon Boots",
+    "originalName": "demon_boots"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 50,
     "rarity": 3,
     "material": true,
-    "id": "Demon Heart.json"
+    "id": "Demon Heart",
+    "originalName": "demon_heart",
+    "vocations": ["all"]
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 10,
     "rarity": 5,
     "classification": 4,
-    "id": "Demon Helmet.json"
+    "id": "Demon Helmet",
+    "originalName": "demon_helmet",
+    "vocations": ["all"]
   },
   {
-    "equipType": 7,
+    "equipType": "Pants",
     "defense": 9,
     "rarity": 5,
     "protectFire": 5,
     "classification": 4,
-    "id": "Demon Legs.json"
+    "id": "Demon Legs",
+    "originalName": "demon_legs",
+    "vocations": ["all"]
   },
-  { "equipType": 5, "defense": 35, "rarity": 3, "id": "Demon Shield.json" },
+  {
+    "equipType": "Shield",
+    "defense": 35,
+    "rarity": 3,
+    "id": "Demon Shield",
+    "originalName": "demon_shield",
+    "vocations": ["all"]
+  },
   {
     "iconSize": 32,
     "durability": 160,
-    "equipType": 9,
+    "equipType": "Accessory",
     "numOfStyles": 1,
     "useAnimData": [{ "timings": [0.05, 0.04, 0.05, 0.05] }],
     "knockback": 10,
@@ -1473,11 +1707,13 @@
     "critChance": 12,
     "hitRange": 28,
     "sounds": [["actions/hit"]],
-    "id": "Desert Rapier.json"
+    "id": "Desert Rapier",
+    "originalName": "desert_rapier",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "spell": "destroy_field",
     "rune": true,
     "level": 17,
@@ -1486,25 +1722,42 @@
     "clickUse": true,
     "maxStackSize": 200,
     "hitRange": 3,
-    "id": "Destroy Field Rune.json"
+    "id": "Destroy Field Rune",
+    "originalName": "destroy_field_rune",
+    "vocations": ["all"]
   },
-  { "iconSize": 16, "equipType": -1, "tool": true, "id": "Die.json" },
   {
-    "equipType": 4,
+    "iconSize": 16,
+    "equipType": "Resource",
+    "tool": true,
+    "id": "Die",
+    "originalName": "die",
+    "vocations": ["all"]
+  },
+  {
+    "equipType": "Armor",
     "defense": 13,
     "protectDeath": 10,
     "protectHoly": -10,
     "rarity": 4,
     "level": 75,
     "classification": 2,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "weight": 75,
-    "id": "Divine Plate.json"
+    "id": "Divine Plate",
+    "originalName": "divine_plate"
   },
-  { "iconSize": 16, "equipType": -1, "rarity": 5, "id": "Doll.json" },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Resource",
+    "rarity": 5,
+    "id": "Doll",
+    "originalName": "doll",
+    "vocations": ["all"]
+  },
+  {
+    "iconSize": 16,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 2,
     "defense": 12,
@@ -1518,13 +1771,14 @@
     "weight": "4250",
     "description": "A masterpiece of a dwarven smith. (Atk: 8 ~ 12).",
     "level": 20,
-    "vocations": [{ "name": "0" }],
-    "id": "Double Axe.json"
+    "vocations": ["0", "all"],
+    "id": "Double Axe",
+    "originalName": "double_axe"
   },
   {
     "iconSize": 28,
     "durability": 280,
-    "equipType": 9,
+    "equipType": "Accessory",
     "numOfStyles": 1,
     "useAnimData": [{ "timings": [0.07, 0.08, 0.09, 0.04] }],
     "knockback": 30,
@@ -1534,94 +1788,116 @@
     "critChance": 30,
     "hitRange": 26,
     "sounds": [["actions/hit"]],
-    "id": "Dragons Breath.json"
+    "id": "Dragons Breath",
+    "originalName": "dragons_breath",
+    "vocations": ["all"]
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 12,
     "level": 50,
     "rarity": 4,
     "classification": 2,
-    "vocations": [{ "name": "0" }, { "name": "1" }],
-    "id": "Dragon Armor.json"
+    "vocations": ["0", "1", "all"],
+    "id": "Dragon Armor",
+    "originalName": "dragon_armor"
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 5,
     "rarity": 4,
     "bonusMagic": 1,
     "level": 50,
     "protectFire": 3,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
+    "vocations": ["2", "3", "all"],
     "classification": 2,
-    "id": "Dragon Hat.json"
+    "id": "Dragon Hat",
+    "originalName": "dragon_hat"
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 6,
     "protectFire": 3,
     "rarity": 4,
     "level": 50,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "classification": 2,
-    "id": "Dragon Helmet.json"
+    "id": "Dragon Helmet",
+    "originalName": "dragon_helmet"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 50,
     "rarity": 3,
     "material": true,
-    "id": "Dragon Horn.json"
+    "id": "Dragon Horn",
+    "originalName": "dragon_horn",
+    "vocations": ["all"]
   },
-  { "iconSize": 16, "equipType": -1, "rarity": 3, "id": "Dragon Key.json" },
   {
-    "equipType": 7,
+    "iconSize": 16,
+    "equipType": "Resource",
+    "rarity": 3,
+    "id": "Dragon Key",
+    "originalName": "dragon_key",
+    "vocations": ["all"]
+  },
+  {
+    "equipType": "Pants",
     "defense": 8,
     "protectPhysical": 3,
     "bonusMelee": 1,
     "rarity": 4,
     "level": 50,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "classification": 2,
-    "id": "Dragon Legs.json"
+    "id": "Dragon Legs",
+    "originalName": "dragon_legs"
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 0,
+    "equipType": "Amulet",
     "rarity": 4,
     "protectFire": 3,
-    "id": "Dragon Necklace.json"
+    "id": "Dragon Necklace",
+    "originalName": "dragon_necklace",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 6,
+    "equipType": "Ring",
     "rarity": 4,
     "protectFire": 2,
-    "id": "Dragon Ring.json"
+    "id": "Dragon Ring",
+    "originalName": "dragon_ring",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 50,
     "rarity": 2,
     "material": true,
-    "id": "Dragon Scale.json"
+    "id": "Dragon Scale",
+    "originalName": "dragon_scale",
+    "vocations": ["all"]
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 13,
     "rarity": 4,
     "level": 70,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "classification": 2,
-    "id": "Dragon Scale Armor.json"
+    "id": "Dragon Scale Armor",
+    "originalName": "dragon_scale_armor"
   },
   {
     "iconSize": 16,
-    "equipType": 8,
+    "equipType": "Ammo",
     "maxStackSize": 200,
     "sounds": [["actions/hit"]],
     "minDamage": 20,
@@ -1633,11 +1909,13 @@
     "weaponType": "arrow",
     "weight": "5",
     "description": "Dragon Scale arrow (Atk: 90 ~ 320).",
-    "id": "Dragon Scale Arrow.json"
+    "id": "Dragon Scale Arrow",
+    "originalName": "dragon_scale_arrow",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 8,
+    "equipType": "Ammo",
     "maxStackSize": 200,
     "sounds": [["actions/hit"]],
     "minDamage": 56,
@@ -1650,52 +1928,65 @@
     "weaponType": "bolt",
     "weight": "5",
     "description": "Dragon Scale bolt (Atk: 120 ~ 380).",
-    "id": "Dragon Scale Bolt.json"
+    "id": "Dragon Scale Bolt",
+    "originalName": "dragon_scale_bolt",
+    "vocations": ["all"]
   },
   {
-    "equipType": 10,
+    "equipType": "Shoes",
     "defense": 5,
     "level": 50,
     "protectFire": 2,
     "bonusDefense": 1,
     "rarity": 4,
-    "vocations": [{ "name": "0" }, { "name": "1" }],
-    "id": "Dragon Scale Boots.json"
+    "vocations": ["0", "1", "all"],
+    "id": "Dragon Scale Boots",
+    "originalName": "dragon_scale_boots"
   },
   {
-    "equipType": 5,
+    "equipType": "Shield",
     "defense": 30,
     "level": 50,
     "rarity": 4,
     "protectEarth": 10,
-    "vocations": [{ "name": "0" }],
-    "id": "Dragon Scale Shield.json"
+    "vocations": ["0", "all"],
+    "id": "Dragon Scale Shield",
+    "originalName": "dragon_scale_shield"
   },
-  { "equipType": 5, "defense": 30, "rarity": 3, "id": "Dragon Shield.json" },
   {
-    "equipType": 4,
+    "equipType": "Shield",
+    "defense": 30,
+    "rarity": 3,
+    "id": "Dragon Shield",
+    "originalName": "dragon_shield",
+    "vocations": ["all"]
+  },
+  {
+    "equipType": "Armor",
     "defense": 14,
     "protectFire": 5,
     "protectPhysical": 4,
     "level": 90,
     "rarity": 4,
     "classification": 2,
-    "vocations": [{ "name": "0" }],
-    "id": "Dragon Slayer Armor.json"
+    "vocations": ["0", "all"],
+    "id": "Dragon Slayer Armor",
+    "originalName": "dragon_slayer_armor"
   },
   {
-    "equipType": 10,
+    "equipType": "Shoes",
     "defense": 6,
     "level": 80,
     "protectFire": 3,
     "bonusMelee": 2,
     "rarity": 4,
-    "vocations": [{ "name": "0" }],
-    "id": "Dragon Slayer Boots.json"
+    "vocations": ["0", "all"],
+    "id": "Dragon Slayer Boots",
+    "originalName": "dragon_slayer_boots"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "minDamage": 6,
     "bonusDistance": 1,
@@ -1707,12 +1998,13 @@
     "level": 60,
     "weaponType": "bow",
     "weight": "2300",
-    "vocations": [{ "name": "1" }],
-    "id": "Dragon Slayer Bow.json"
+    "vocations": ["1", "all"],
+    "id": "Dragon Slayer Bow",
+    "originalName": "dragon_slayer_bow"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 5,
     "twoHand": true,
@@ -1726,45 +2018,49 @@
     "level": 60,
     "weaponType": "cross",
     "weight": "2300",
-    "vocations": [{ "name": "1" }],
-    "id": "Dragon Slayer Crossbow.json"
+    "vocations": ["1", "all"],
+    "id": "Dragon Slayer Crossbow",
+    "originalName": "dragon_slayer_crossbow"
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 7,
     "rarity": 4,
     "bonusMelee": 2,
     "protectFire": 3,
     "level": 80,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "classification": 2,
-    "id": "Dragon Slayer Helmet.json"
+    "id": "Dragon Slayer Helmet",
+    "originalName": "dragon_slayer_helmet"
   },
   {
-    "equipType": 7,
+    "equipType": "Pants",
     "defense": 9,
     "rarity": 4,
     "protectFire": 3,
     "protectPhysical": 2,
     "bonusMelee": 2,
     "level": 80,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "classification": 2,
-    "id": "Dragon Slayer Legs.json"
+    "id": "Dragon Slayer Legs",
+    "originalName": "dragon_slayer_legs"
   },
   {
-    "equipType": 5,
+    "equipType": "Shield",
     "defense": 30,
     "rarity": 4,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "protectFire": 10,
     "protectPhysical": 2,
     "level": 70,
-    "id": "Dragon Slayer Shield.json"
+    "id": "Dragon Slayer Shield",
+    "originalName": "dragon_slayer_shield"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 4,
     "defense": 16,
@@ -1779,13 +2075,14 @@
     "weight": "2250",
     "description": "A masterpiece of a dwarven smith. (Atk: 150 ~ 300).",
     "level": 100,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "classification": 2,
-    "id": "Dragon Slayer Sword.json"
+    "id": "Dragon Slayer Sword",
+    "originalName": "dragon_slayer_sword"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "rarity": 3,
     "numOfStyles": 1,
     "sounds": [["actions/hit"]],
@@ -1801,13 +2098,14 @@
     "weight": "2300",
     "description": "Fire rays of moonlight shimmer on its tip (Atk: 6 ~ 9).",
     "level": 100,
-    "vocations": [{ "name": "3" }],
+    "vocations": ["3", "all"],
     "classification": 2,
-    "id": "Dragon Wand.json"
+    "id": "Dragon Wand",
+    "originalName": "dragon_wand"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "numOfStyles": 1,
     "sounds": [["actions/hit"]],
     "marketable": false,
@@ -1817,11 +2115,13 @@
     "clickUse": true,
     "weaponType": "bow",
     "weight": 50,
-    "id": "Durable Exercise Bow.json"
+    "id": "Durable Exercise Bow",
+    "originalName": "durable_exercise_bow",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "numOfStyles": 1,
     "sounds": [["actions/hit"]],
     "marketable": false,
@@ -1831,11 +2131,13 @@
     "clickUse": true,
     "weaponType": "sword",
     "weight": 50,
-    "id": "Durable Exercise Melee.json"
+    "id": "Durable Exercise Melee",
+    "originalName": "durable_exercise_melee",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "numOfStyles": 1,
     "sounds": [["actions/hit"]],
     "marketable": false,
@@ -1845,11 +2147,13 @@
     "clickUse": true,
     "weaponType": "shield",
     "weight": 80,
-    "id": "Durable Exercise Shield.json"
+    "id": "Durable Exercise Shield",
+    "originalName": "durable_exercise_shield",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "numOfStyles": 1,
     "sounds": [["actions/hit"]],
     "marketable": false,
@@ -1859,86 +2163,112 @@
     "clickUse": true,
     "weaponType": "wand",
     "weight": 50,
-    "id": "Durable Exercise Wand.json"
+    "id": "Durable Exercise Wand",
+    "originalName": "durable_exercise_wand",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 100,
     "material": true,
-    "id": "Dust.json"
+    "id": "Dust",
+    "originalName": "dust",
+    "vocations": ["all"]
   },
-  { "equipType": 5, "defense": 27, "rarity": 3, "id": "Dwarf Shield.json" },
+  {
+    "equipType": "Shield",
+    "defense": 27,
+    "rarity": 3,
+    "id": "Dwarf Shield",
+    "originalName": "dwarf_shield",
+    "vocations": ["all"]
+  },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 200,
     "material": true,
-    "id": "Earthworm.json"
+    "id": "Earthworm",
+    "originalName": "earthworm",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 50,
     "rarity": 2,
     "material": true,
-    "id": "Earth Crystal.json"
+    "id": "Earth Crystal",
+    "originalName": "earth_crystal",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 2,
+    "equipType": "Backpack",
     "container": true,
     "capacity": 20,
-    "id": "Easter Bagpack.json"
+    "id": "Easter Bagpack",
+    "originalName": "easter_bagpack",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Eclipse Bar.json"
+    "id": "Eclipse Bar",
+    "originalName": "eclipse_bar",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Elementium Bar.json"
+    "id": "Elementium Bar",
+    "originalName": "elementium_bar",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Elementium Ore.json"
+    "id": "Elementium Ore",
+    "originalName": "elementium_ore",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": -1,
+    "equipType": "Resource",
     "defense": 5,
-    "id": "Emerald Ring.json"
+    "id": "Emerald Ring",
+    "originalName": "emerald_ring",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "maxStackSize": 300,
     "sounds": [["actions/hit"]],
     "minDamage": 50,
     "maxDamage": 50,
     "level": 100,
     "hitRange": 9,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "elementDamage": "physical",
     "projectile": "enchanted-spear",
     "shootType": "smallphysical",
     "weaponType": "spear",
     "weight": "5",
-    "id": "Enchanted Spear.json"
+    "id": "Enchanted Spear",
+    "originalName": "enchanted_spear"
   },
   {
     "iconSize": 16,
-    "equipType": 8,
+    "equipType": "Ammo",
     "maxStackSize": 200,
     "sounds": [["actions/hit"]],
     "minDamage": 18,
@@ -1950,11 +2280,13 @@
     "weaponType": "arrow",
     "weight": "5",
     "description": "Energized arrow (Atk: 3 ~ 12).",
-    "id": "Energized Arrow.json"
+    "id": "Energized Arrow",
+    "originalName": "energized_arrow",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 8,
+    "equipType": "Ammo",
     "maxStackSize": 200,
     "sounds": [["actions/hit"]],
     "minDamage": 38,
@@ -1967,11 +2299,13 @@
     "weaponType": "bolt",
     "weight": "5",
     "description": "Energized bolt (Atk: 3 ~ 12).",
-    "id": "Energized Bolt.json"
+    "id": "Energized Bolt",
+    "originalName": "energized_bolt",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "numOfStyles": 1,
     "sounds": [["actions/hit"]],
     "marketable": false,
@@ -1981,11 +2315,13 @@
     "clickUse": true,
     "weaponType": "bow",
     "weight": "2300",
-    "id": "Exercise Bow.json"
+    "id": "Exercise Bow",
+    "originalName": "exercise_bow",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "numOfStyles": 1,
     "sounds": [["actions/hit"]],
     "marketable": false,
@@ -1995,11 +2331,13 @@
     "clickUse": true,
     "weaponType": "sword",
     "weight": "2300",
-    "id": "Exercise Melee.json"
+    "id": "Exercise Melee",
+    "originalName": "exercise_melee",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "numOfStyles": 1,
     "sounds": [["actions/hit"]],
     "marketable": false,
@@ -2009,11 +2347,13 @@
     "clickUse": true,
     "weaponType": "shield",
     "weight": 80,
-    "id": "Exercise Shield.json"
+    "id": "Exercise Shield",
+    "originalName": "exercise_shield",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "numOfStyles": 1,
     "sounds": [["actions/hit"]],
     "marketable": false,
@@ -2023,11 +2363,13 @@
     "clickUse": true,
     "weaponType": "wand",
     "weight": "2300",
-    "id": "Exercise Wand.json"
+    "id": "Exercise Wand",
+    "originalName": "exercise_wand",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "spell": "explosive",
     "rune": true,
     "level": 60,
@@ -2036,44 +2378,59 @@
     "clickUse": true,
     "maxStackSize": 10,
     "hitRange": 8,
-    "id": "Explosive Rune.json"
+    "id": "Explosive Rune",
+    "originalName": "explosive_rune",
+    "vocations": ["all"]
   },
-  { "numOfStyles": 3, "equipType": 6, "id": "Face1.json" },
+  {
+    "numOfStyles": 3,
+    "equipType": "Ring",
+    "id": "Face1",
+    "originalName": "face1",
+    "vocations": ["all"]
+  },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Faewood Log.json"
+    "id": "Faewood Log",
+    "originalName": "faewood_log",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Faewood Planks.json"
+    "id": "Faewood Planks",
+    "originalName": "faewood_planks",
+    "vocations": ["all"]
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 18,
     "protectPhysical": 12,
     "bonusDefense": 4,
     "rarity": 5,
     "classification": 4,
     "level": 400,
-    "vocations": [{ "name": "0" }],
-    "id": "Falcon Armor.json"
+    "vocations": ["0", "all"],
+    "id": "Falcon Armor",
+    "originalName": "falcon_armor"
   },
   {
     "iconSize": 16,
-    "equipType": 2,
+    "equipType": "Backpack",
     "container": true,
     "capacity": 20,
-    "id": "Falcon Bagpack.json"
+    "id": "Falcon Bagpack",
+    "originalName": "falcon_bagpack",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 5,
     "defense": 35,
@@ -2087,7 +2444,7 @@
     "minDamage": 15,
     "maxDamage": 52,
     "level": 400,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "protectEnergy": 12,
     "hitRange": 1,
     "sounds": [["actions/hit"]],
@@ -2095,11 +2452,12 @@
     "extraElementDamage": "energy",
     "weaponType": "axe",
     "weight": 95,
-    "id": "Falcon Battleaxe.json"
+    "id": "Falcon Battleaxe",
+    "originalName": "falcon_battleaxe"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "minDamage": 21,
     "sounds": [["actions/hit"]],
@@ -2113,48 +2471,52 @@
     "protectFire": 5,
     "weaponType": "bow",
     "weight": 35,
-    "vocations": [{ "name": "1" }],
-    "id": "Falcon Bow.json"
+    "vocations": ["1", "all"],
+    "id": "Falcon Bow",
+    "originalName": "falcon_bow"
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 10,
     "protectFire": 10,
     "protectPhysical": 3,
     "level": 400,
     "rarity": 5,
-    "vocations": [{ "name": "0" }, { "name": "1" }],
+    "vocations": ["0", "1", "all"],
     "bonusDefense": 2,
     "bonusDistance": 2,
     "classification": 4,
-    "id": "Falcon Coif.json"
+    "id": "Falcon Coif",
+    "originalName": "falcon_coif"
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 1,
+    "equipType": "Head",
     "level": 300,
     "rarity": 5,
     "defense": 8,
     "bonusMagic": 3,
     "protectFire": 10,
     "protectDeath": 5,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
+    "vocations": ["2", "3", "all"],
     "classification": 4,
-    "id": "Falcon Crown.json"
+    "id": "Falcon Crown",
+    "originalName": "falcon_crown"
   },
   {
-    "equipType": 5,
+    "equipType": "Shield",
     "defense": 40,
     "level": 400,
     "rarity": 5,
     "protectPhysical": 7,
     "protectFire": 15,
-    "vocations": [{ "name": "0" }, { "name": "1" }],
-    "id": "Falcon Escutcheon.json"
+    "vocations": ["0", "1", "all"],
+    "id": "Falcon Escutcheon",
+    "originalName": "falcon_escutcheon"
   },
   {
-    "equipType": 7,
+    "equipType": "Pants",
     "defense": 10,
     "rarity": 5,
     "protectPhysical": 7,
@@ -2162,12 +2524,13 @@
     "bonusDistance": 3,
     "bonusMelee": 3,
     "level": 400,
-    "vocations": [{ "name": "0" }, { "name": "1" }],
+    "vocations": ["0", "1", "all"],
     "classification": 4,
-    "id": "Falcon Legs.json"
+    "id": "Falcon Legs",
+    "originalName": "falcon_legs"
   },
   {
-    "equipType": 8,
+    "equipType": "Ammo",
     "capacity": 12,
     "container": true,
     "bonusDistance": 4,
@@ -2177,12 +2540,13 @@
     "level": 400,
     "rarity": 5,
     "weaponType": "quiver",
-    "vocations": [{ "name": "1" }],
-    "id": "Falcon Quiver.json"
+    "vocations": ["1", "all"],
+    "id": "Falcon Quiver",
+    "originalName": "falcon_quiver"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 5,
     "sounds": [["actions/hit"]],
@@ -2202,22 +2566,24 @@
     "description": "",
     "protectFire": 8,
     "level": 400,
-    "vocations": [{ "name": "2" }],
-    "id": "Falcon Rod.json"
+    "vocations": ["2", "all"],
+    "id": "Falcon Rod",
+    "originalName": "falcon_rod"
   },
   {
-    "equipType": 5,
+    "equipType": "Shield",
     "defense": 39,
     "level": 400,
     "rarity": 5,
     "protectPhysical": 6,
     "protectFire": 10,
-    "vocations": [{ "name": "0" }, { "name": "1" }],
-    "id": "Falcon Shield.json"
+    "vocations": ["0", "1", "all"],
+    "id": "Falcon Shield",
+    "originalName": "falcon_shield"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 5,
     "defense": 34,
@@ -2236,12 +2602,13 @@
     "weaponType": "sword",
     "weight": 82,
     "level": 400,
-    "vocations": [{ "name": "0" }],
-    "id": "Falcon Sword.json"
+    "vocations": ["0", "all"],
+    "id": "Falcon Sword",
+    "originalName": "falcon_sword"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 5,
     "sounds": [["actions/hit"]],
@@ -2261,13 +2628,14 @@
     "description": "",
     "protectFire": 8,
     "level": 400,
-    "vocations": [{ "name": "3" }],
-    "id": "Falcon Wand.json"
+    "vocations": ["3", "all"],
+    "id": "Falcon Wand",
+    "originalName": "falcon_wand"
   },
   {
     "iconSize": 46,
     "durability": 500,
-    "equipType": 9,
+    "equipType": "Accessory",
     "numOfStyles": 1,
     "useAnimData": [{ "timings": [0.08, 0.1, 0.15, 0.08] }],
     "knockback": 16,
@@ -2277,12 +2645,14 @@
     "critChance": 2,
     "hitRange": 36,
     "sounds": [["actions/hit"]],
-    "id": "Fallen Angel Blade.json"
+    "id": "Fallen Angel Blade",
+    "originalName": "fallen_angel_blade",
+    "vocations": ["all"]
   },
   {
     "iconSize": 26,
     "durability": 150,
-    "equipType": 9,
+    "equipType": "Accessory",
     "numOfStyles": 1,
     "useAnimData": [{ "timings": [0.09, 0.04, 0.05, 0.04] }],
     "knockback": 30,
@@ -2292,11 +2662,13 @@
     "critChance": 10,
     "hitRange": 24,
     "sounds": [["actions/hit"]],
-    "id": "Fann Katana.json"
+    "id": "Fann Katana",
+    "originalName": "fann_katana",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 4,
     "defense": 17,
@@ -2312,12 +2684,13 @@
     "weaponType": "axe",
     "weight": "40",
     "level": 40,
-    "vocations": [{ "name": "0" }],
-    "id": "Fire Axe.json"
+    "vocations": ["0", "all"],
+    "id": "Fire Axe",
+    "originalName": "fire_axe"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "spell": "fire_field",
     "rune": true,
     "level": 27,
@@ -2326,37 +2699,45 @@
     "clickUse": true,
     "maxStackSize": 200,
     "hitRange": 8,
-    "id": "Fire Field Rune.json"
+    "id": "Fire Field Rune",
+    "originalName": "fire_field_rune",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 100,
     "minDamage": 30,
     "consumable": true,
-    "id": "Fish.json"
+    "id": "Fish",
+    "originalName": "fish",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "tool": true,
     "clickUse": true,
     "hitRange": 7,
     "level": 10,
-    "id": "Fishing Rod.json"
+    "id": "Fishing Rod",
+    "originalName": "fishing_rod",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 0,
+    "equipType": "Amulet",
     "rarity": 3,
     "level": 90,
     "protectFire": 2,
-    "id": "Flame Necklace.json"
+    "id": "Flame Necklace",
+    "originalName": "flame_necklace",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "sounds": [["actions/hit"]],
     "minDamage": 1,
@@ -2364,12 +2745,13 @@
     "hitRange": 3,
     "weaponType": "bow",
     "weight": "2300",
-    "vocations": [{ "name": "1" }],
-    "id": "Flawed Bow.json"
+    "vocations": ["1", "all"],
+    "id": "Flawed Bow",
+    "originalName": "flawed_bow"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 4,
     "twoHand": true,
@@ -2382,12 +2764,13 @@
     "level": 400,
     "weaponType": "cross",
     "weight": "2300",
-    "vocations": [{ "name": "1" }],
-    "id": "Forged Crossbow.json"
+    "vocations": ["1", "all"],
+    "id": "Forged Crossbow",
+    "originalName": "forged_crossbow"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 4,
     "sounds": [["actions/hit"]],
@@ -2402,13 +2785,14 @@
     "weaponType": "rod",
     "weight": "2300",
     "description": "Icecold rays of moonlight shimmer on its tip (Atk: 13 ~ 25).",
-    "vocations": [{ "name": "2" }],
+    "vocations": ["2", "all"],
     "classification": 2,
-    "id": "Frost Rod.json"
+    "id": "Frost Rod",
+    "originalName": "frost_rod"
   },
   {
     "iconSize": 16,
-    "equipType": 8,
+    "equipType": "Ammo",
     "maxStackSize": 200,
     "sounds": [["actions/hit"]],
     "minDamage": 20,
@@ -2420,11 +2804,13 @@
     "weaponType": "arrow",
     "weight": "5",
     "description": "Frozen arrow (Atk: 3 ~ 12).",
-    "id": "Frozen Arrow.json"
+    "id": "Frozen Arrow",
+    "originalName": "frozen_arrow",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 8,
+    "equipType": "Ammo",
     "maxStackSize": 200,
     "sounds": [["actions/hit"]],
     "minDamage": 34,
@@ -2437,21 +2823,32 @@
     "weaponType": "bolt",
     "weight": "5",
     "description": "Frozen bolt (Atk: 3 ~ 12).",
-    "id": "Frozen Bolt.json"
+    "id": "Frozen Bolt",
+    "originalName": "frozen_bolt",
+    "vocations": ["all"]
   },
-  { "equipType": 1, "defense": 1, "rarity": 5, "id": "Furmeros Hat.json" },
+  {
+    "equipType": "Head",
+    "defense": 1,
+    "rarity": 5,
+    "id": "Furmeros Hat",
+    "originalName": "furmeros_hat",
+    "vocations": ["all"]
+  },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 0,
+    "equipType": "Amulet",
     "rarity": 2,
     "durability": 150,
     "protectLife": 20,
-    "id": "Garlic Necklace.json"
+    "id": "Garlic Necklace",
+    "originalName": "garlic_necklace",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "minDamage": 6,
     "maxDamage": 50,
@@ -2471,60 +2868,93 @@
     "weaponType": "sword",
     "weight": "86",
     "level": 350,
-    "vocations": [{ "name": "0" }],
-    "id": "Gilded Sword.json"
+    "vocations": ["0", "all"],
+    "id": "Gilded Sword",
+    "originalName": "gilded_sword"
   },
   {
     "minDamage": 1,
     "durability": 400,
-    "equipType": 3,
+    "equipType": "Weapon",
     "defense": 1,
-    "id": "Gloves Basic.json"
+    "id": "Gloves Basic",
+    "originalName": "gloves_basic",
+    "vocations": ["all"]
   },
-  { "iconSize": 16, "equipType": -1, "rarity": 4, "id": "Goblin Key.json" },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
+    "rarity": 4,
+    "id": "Goblin Key",
+    "originalName": "goblin_key",
+    "vocations": ["all"]
+  },
+  {
+    "iconSize": 16,
+    "equipType": "Resource",
     "maxStackSize": 10000000,
     "material": true,
     "marketable": false,
     "autoCollect": true,
     "dropable": false,
-    "id": "Gold.json"
+    "id": "Gold",
+    "originalName": "gold",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": -1,
+    "equipType": "Resource",
     "defense": 3,
-    "id": "Golden Band.json"
+    "id": "Golden Band",
+    "originalName": "golden_band",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Gold Bar.json"
+    "id": "Gold Bar",
+    "originalName": "gold_bar",
+    "vocations": ["all"]
   },
-  { "iconSize": 16, "equipType": -1, "rarity": 2, "id": "Gold Floor.json" },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
+    "rarity": 2,
+    "id": "Gold Floor",
+    "originalName": "gold_floor",
+    "vocations": ["all"]
+  },
+  {
+    "iconSize": 16,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Gold Ore.json"
+    "id": "Gold Ore",
+    "originalName": "gold_ore",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 2,
+    "equipType": "Backpack",
     "container": true,
     "capacity": 20,
-    "id": "Gray Bagpack.json"
+    "id": "Gray Bagpack",
+    "originalName": "gray_bagpack",
+    "vocations": ["all"]
   },
-  { "iconSize": 16, "equipType": -1, "id": "Gray Book.json" },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
+    "id": "Gray Book",
+    "originalName": "gray_book",
+    "vocations": ["all"]
+  },
+  {
+    "iconSize": 16,
+    "equipType": "Resource",
     "spell": "great_earthball",
     "rune": true,
     "level": 28,
@@ -2534,11 +2964,13 @@
     "hotConfig": true,
     "maxStackSize": 200,
     "hitRange": 8,
-    "id": "Great Earthball Rune.json"
+    "id": "Great Earthball Rune",
+    "originalName": "great_earthball_rune",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "spell": "great_energyball",
     "rune": true,
     "level": 28,
@@ -2548,11 +2980,13 @@
     "hotConfig": true,
     "maxStackSize": 200,
     "hitRange": 8,
-    "id": "Great Energyball Rune.json"
+    "id": "Great Energyball Rune",
+    "originalName": "great_energyball_rune",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "spell": "great_fireball",
     "rune": true,
     "level": 30,
@@ -2562,22 +2996,25 @@
     "hotConfig": true,
     "maxStackSize": 200,
     "hitRange": 8,
-    "id": "Great Fireball Rune.json"
+    "id": "Great Fireball Rune",
+    "originalName": "great_fireball_rune",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 200,
     "minDamage": 600,
     "consumable": true,
     "level": 80,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "autoCollect": true,
-    "id": "Great Health Potion.json"
+    "id": "Great Health Potion",
+    "originalName": "great_health_potion"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "spell": "great_iceball",
     "rune": true,
     "level": 30,
@@ -2587,111 +3024,139 @@
     "maxStackSize": 200,
     "hotConfig": true,
     "hitRange": 8,
-    "id": "Great Iceball Rune.json"
+    "id": "Great Iceball Rune",
+    "originalName": "great_iceball_rune",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 200,
     "minDamage": 350,
     "consumable": true,
     "level": 80,
     "autoCollect": true,
-    "id": "Great Mana Potion.json"
+    "id": "Great Mana Potion",
+    "originalName": "great_mana_potion",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 200,
     "minDamage": 150,
     "maxDamage": 300,
     "consumable": true,
     "level": 80,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "autoCollect": true,
-    "id": "Great Spirit Potion.json"
+    "id": "Great Spirit Potion",
+    "originalName": "great_spirit_potion"
   },
   {
     "iconSize": 16,
-    "equipType": 2,
+    "equipType": "Backpack",
     "container": true,
     "capacity": 20,
-    "id": "Green Bagpack.json"
+    "id": "Green Bagpack",
+    "originalName": "green_bagpack",
+    "vocations": ["all"]
   },
-  { "iconSize": 16, "equipType": -1, "rarity": 5, "id": "Green Book.json" },
   {
-    "equipType": 4,
+    "iconSize": 16,
+    "equipType": "Resource",
+    "rarity": 5,
+    "id": "Green Book",
+    "originalName": "green_book",
+    "vocations": ["all"]
+  },
+  {
+    "equipType": "Armor",
     "defense": 7,
     "level": 60,
     "rarity": 4,
     "bonusMagic": 2,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
+    "vocations": ["2", "3", "all"],
     "classification": 2,
-    "id": "Green Cape.json"
+    "id": "Green Cape",
+    "originalName": "green_cape"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Green Fur.json"
+    "id": "Green Fur",
+    "originalName": "green_fur",
+    "vocations": ["all"]
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 6,
     "rarity": 4,
     "bonusMagic": 1,
     "protectEarth": 2,
     "level": 50,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
+    "vocations": ["2", "3", "all"],
     "classification": 2,
-    "id": "Green Hat.json"
+    "id": "Green Hat",
+    "originalName": "green_hat"
   },
   {
-    "equipType": 7,
+    "equipType": "Pants",
     "defense": 8,
     "rarity": 4,
     "bonusMagic": 1,
     "level": 50,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
+    "vocations": ["2", "3", "all"],
     "classification": 2,
-    "id": "Green Legs.json"
+    "id": "Green Legs",
+    "originalName": "green_legs"
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 0,
+    "equipType": "Amulet",
     "level": 180,
     "rarity": 4,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
+    "vocations": ["2", "3", "all"],
     "durability": 1800,
     "durabilityType": 1,
     "bonusMagic": 4,
-    "id": "Green Plasma Amulet.json"
+    "id": "Green Plasma Amulet",
+    "originalName": "green_plasma_amulet"
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 6,
+    "equipType": "Ring",
     "level": 150,
     "rarity": 4,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
+    "vocations": ["2", "3", "all"],
     "durability": 1800,
     "durabilityType": 1,
     "bonusMagic": 2,
-    "id": "Green Plasma Ring.json"
+    "id": "Green Plasma Ring",
+    "originalName": "green_plasma_ring"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Grey Fur.json"
+    "id": "Grey Fur",
+    "originalName": "grey_fur",
+    "vocations": ["all"]
   },
-  { "equipType": 7, "id": "Hair1.json" },
+  {
+    "equipType": "Pants",
+    "id": "Hair1",
+    "originalName": "hair1",
+    "vocations": ["all"]
+  },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 3,
     "defense": 14,
@@ -2707,31 +3172,36 @@
     "weight": "4250",
     "description": "A masterpiece of a dwarven smith. (Atk: 8 ~ 12).",
     "level": 60,
-    "vocations": [{ "name": "0" }],
-    "id": "Halberd.json"
+    "vocations": ["0", "all"],
+    "id": "Halberd",
+    "originalName": "halberd"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "tool": true,
     "rarity": 5,
     "weight": 1,
     "description": "Contains a platinum outfit.",
-    "id": "Hanger Platinum.json"
+    "id": "Hanger Platinum",
+    "originalName": "hanger_platinum",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 200,
     "minDamage": 150,
     "consumable": true,
     "level": 20,
     "autoCollect": true,
-    "id": "Health Potion.json"
+    "id": "Health Potion",
+    "originalName": "health_potion",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "spell": "hedge",
     "rune": true,
     "clickUse": true,
@@ -2740,11 +3210,13 @@
     "durability": 3,
     "maxStackSize": 200,
     "hitRange": 7,
-    "id": "Hedge Rune.json"
+    "id": "Hedge Rune",
+    "originalName": "hedge_rune",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 3,
     "sounds": [["actions/hit"]],
@@ -2760,24 +3232,26 @@
     "weight": "2300",
     "description": "",
     "level": 200,
-    "vocations": [{ "name": "3" }],
+    "vocations": ["3", "all"],
     "classification": 3,
-    "id": "Hellfire Wand.json"
+    "id": "Hellfire Wand",
+    "originalName": "hellfire_wand"
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 16,
     "protectDeath": 5,
     "bonusDistance": 3,
     "rarity": 5,
     "level": 150,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "classification": 2,
-    "id": "Holy Armor.json"
+    "id": "Holy Armor",
+    "originalName": "holy_armor"
   },
   {
     "iconSize": 16,
-    "equipType": 8,
+    "equipType": "Ammo",
     "maxStackSize": 200,
     "sounds": [["actions/hit"]],
     "minDamage": 22,
@@ -2788,55 +3262,65 @@
     "shootType": "smallphysical",
     "weaponType": "arrow",
     "weight": "5",
-    "id": "Holy Arrow.json"
+    "id": "Holy Arrow",
+    "originalName": "holy_arrow",
+    "vocations": ["all"]
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 9,
     "level": 100,
     "rarity": 5,
     "protectDeath": 2,
     "bonusDistance": 1,
     "classification": 2,
-    "vocations": [{ "name": "1" }],
-    "id": "Holy Helmet.json"
+    "vocations": ["1", "all"],
+    "id": "Holy Helmet",
+    "originalName": "holy_helmet"
   },
   {
-    "equipType": 7,
+    "equipType": "Pants",
     "defense": 8,
     "rarity": 4,
     "bonusDistance": 2,
     "protectDeath": 5,
     "level": 80,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "classification": 2,
-    "id": "Holy Legs.json"
+    "id": "Holy Legs",
+    "originalName": "holy_legs"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 50,
     "rarity": 3,
     "material": true,
-    "id": "Honey Comb.json"
+    "id": "Honey Comb",
+    "originalName": "honey_comb",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 50,
     "material": true,
-    "id": "Human Bone.json"
+    "id": "Human Bone",
+    "originalName": "human_bone",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 50,
     "material": true,
-    "id": "Human Skull.json"
+    "id": "Human Skull",
+    "originalName": "human_skull",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "rarity": 4,
     "defense": 14,
     "numOfStyles": 1,
@@ -2850,12 +3334,13 @@
     "weight": "5250",
     "description": "A masterpiece of a dwarven smith. (Atk: 57 ~ 78).",
     "level": 60,
-    "vocations": [{ "name": "0" }],
-    "id": "Hylian Broadsword.json"
+    "vocations": ["0", "all"],
+    "id": "Hylian Broadsword",
+    "originalName": "hylian_broadsword"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 3,
     "sounds": [["actions/hit"]],
@@ -2871,23 +3356,33 @@
     "weight": "2300",
     "description": "",
     "level": 90,
-    "vocations": [{ "name": "2" }],
+    "vocations": ["2", "all"],
     "classification": 2,
-    "id": "Icestorm Rod.json"
+    "id": "Icestorm Rod",
+    "originalName": "icestorm_rod"
   },
-  { "iconSize": 16, "equipType": -1, "rarity": 2, "id": "Ice Cube.json" },
+  {
+    "iconSize": 16,
+    "equipType": "Resource",
+    "rarity": 2,
+    "id": "Ice Cube",
+    "originalName": "ice_cube",
+    "vocations": ["all"]
+  },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 0,
+    "equipType": "Amulet",
     "level": 100,
     "rarity": 4,
     "protectIce": 2,
-    "id": "Ice Stone Necklace.json"
+    "id": "Ice Stone Necklace",
+    "originalName": "ice_stone_necklace",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 8,
+    "equipType": "Ammo",
     "maxStackSize": 200,
     "sounds": [["actions/hit"]],
     "minDamage": 72,
@@ -2900,19 +3395,23 @@
     "weaponType": "bolt",
     "weight": "5",
     "description": "Dragon Scale bolt (Atk: 120 ~ 380).",
-    "id": "Infernal Bolt.json"
+    "id": "Infernal Bolt",
+    "originalName": "infernal_bolt",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Iron Bar.json"
+    "id": "Iron Bar",
+    "originalName": "iron_bar",
+    "vocations": ["all"]
   },
   {
     "iconSize": 28,
     "durability": 210,
-    "equipType": 9,
+    "equipType": "Accessory",
     "numOfStyles": 1,
     "useAnimData": [{ "timings": [0.09, 0.05, 0.07, 0.1] }],
     "knockback": 32,
@@ -2922,11 +3421,13 @@
     "critChance": 0,
     "hitRange": 24,
     "sounds": [["actions/hit"]],
-    "id": "Iron Buldge.json"
+    "id": "Iron Buldge",
+    "originalName": "iron_buldge",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 3,
     "defense": 16,
@@ -2937,24 +3438,27 @@
     "hitRange": 1,
     "sounds": [["actions/hit"]],
     "level": 40,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "elementDamage": "physical",
     "weaponType": "axe",
     "weight": 80,
     "description": "A masterpiece of a dwarven smith. (Atk: 8 ~ 12).",
-    "id": "Iron Hatchet.json"
+    "id": "Iron Hatchet",
+    "originalName": "iron_hatchet"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Iron Ore.json"
+    "id": "Iron Ore",
+    "originalName": "iron_ore",
+    "vocations": ["all"]
   },
   {
     "iconSize": 30,
     "durability": 300,
-    "equipType": 9,
+    "equipType": "Accessory",
     "numOfStyles": 1,
     "useAnimData": [{ "timings": [0.09, 0.04, 0.05, 0.1] }],
     "knockback": 28,
@@ -2964,18 +3468,22 @@
     "critChance": 20,
     "hitRange": 26,
     "sounds": [["actions/hit"]],
-    "id": "Iron Scepter.json"
+    "id": "Iron Scepter",
+    "originalName": "iron_scepter",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 2,
+    "equipType": "Backpack",
     "container": true,
     "capacity": 20,
-    "id": "Jewelled Bagpack.json"
+    "id": "Jewelled Bagpack",
+    "originalName": "jewelled_bagpack",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "minDamage": 1,
     "maxDamage": 1,
@@ -2985,29 +3493,32 @@
     "weaponType": "sword",
     "weight": "2250",
     "description": "A masterpiece of a dwarven smith. (Atk: 4 ~ 7).",
-    "id": "Knife.json"
+    "id": "Knife",
+    "originalName": "knife",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "maxStackSize": 300,
     "sounds": [["actions/hit"]],
     "minDamage": 44,
     "maxDamage": 6,
     "hitRange": 8,
     "level": 120,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "elementDamage": "physical",
     "extraElementDamage": "earth",
     "projectile": "viper-star",
     "shootType": "smallphysical",
     "weaponType": "star",
     "weight": 2,
-    "id": "Leaf Star.json"
+    "id": "Leaf Star",
+    "originalName": "leaf_star"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "minDamage": 10,
     "rarity": 4,
@@ -3020,13 +3531,14 @@
     "level": 100,
     "weaponType": "bow",
     "weight": "2300",
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "classification": 2,
-    "id": "Legendary Bow.json"
+    "id": "Legendary Bow",
+    "originalName": "legendary_bow"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 4,
     "twoHand": true,
@@ -3039,50 +3551,85 @@
     "level": 120,
     "weaponType": "cross",
     "weight": "2300",
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "classification": 2,
-    "id": "Legendary Crossbow.json"
+    "id": "Legendary Crossbow",
+    "originalName": "legendary_crossbow"
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 3,
     "rarity": 4,
     "classification": 2,
-    "id": "Legion Helmet.json"
+    "id": "Legion Helmet",
+    "originalName": "legion_helmet",
+    "vocations": ["all"]
   },
-  { "iconSize": 16, "equipType": -1, "rarity": 4, "id": "Library Key 1.json" },
-  { "iconSize": 16, "equipType": -1, "rarity": 4, "id": "Library Key 2.json" },
-  { "iconSize": 16, "equipType": -1, "rarity": 4, "id": "Library Key 3.json" },
-  { "iconSize": 16, "equipType": -1, "rarity": 4, "id": "Library Key 4.json" },
   {
-    "equipType": 10,
+    "iconSize": 16,
+    "equipType": "Resource",
+    "rarity": 4,
+    "id": "Library Key 1",
+    "originalName": "library_key_1",
+    "vocations": ["all"]
+  },
+  {
+    "iconSize": 16,
+    "equipType": "Resource",
+    "rarity": 4,
+    "id": "Library Key 2",
+    "originalName": "library_key_2",
+    "vocations": ["all"]
+  },
+  {
+    "iconSize": 16,
+    "equipType": "Resource",
+    "rarity": 4,
+    "id": "Library Key 3",
+    "originalName": "library_key_3",
+    "vocations": ["all"]
+  },
+  {
+    "iconSize": 16,
+    "equipType": "Resource",
+    "rarity": 4,
+    "id": "Library Key 4",
+    "originalName": "library_key_4",
+    "vocations": ["all"]
+  },
+  {
+    "equipType": "Shoes",
     "defense": 3,
     "bonusSpeed": 30,
     "rarity": 5,
-    "id": "Lightning Boots.json"
+    "id": "Lightning Boots",
+    "originalName": "lightning_boots",
+    "vocations": ["all"]
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 6,
     "rarity": 3,
     "bonusDistance": 1,
     "level": 15,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "classification": 1,
-    "id": "Linen Armor.json"
+    "id": "Linen Armor",
+    "originalName": "linen_armor"
   },
   {
-    "equipType": 10,
+    "equipType": "Shoes",
     "defense": 2,
     "rarity": 3,
     "bonusSpeed": 5,
     "level": 20,
-    "vocations": [{ "name": "1" }],
-    "id": "Linen Boots.json"
+    "vocations": ["1", "all"],
+    "id": "Linen Boots",
+    "originalName": "linen_boots"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "minDamage": 2,
     "numOfStyles": 1,
     "rarity": 3,
@@ -3092,33 +3639,36 @@
     "weaponType": "bow",
     "weight": "2300",
     "level": 20,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "classification": 1,
-    "id": "Linen Bow.json"
+    "id": "Linen Bow",
+    "originalName": "linen_bow"
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 3,
     "bonusDistance": 1,
     "level": 20,
     "rarity": 3,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "classification": 1,
-    "id": "Linen Hat.json"
+    "id": "Linen Hat",
+    "originalName": "linen_hat"
   },
   {
-    "equipType": 7,
+    "equipType": "Pants",
     "defense": 6,
     "level": 20,
     "rarity": 3,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "classification": 1,
-    "id": "Linen Legs.json"
+    "id": "Linen Legs",
+    "originalName": "linen_legs"
   },
   {
     "iconSize": 20,
     "durability": 80,
-    "equipType": 9,
+    "equipType": "Accessory",
     "numOfStyles": 1,
     "useAnimData": [{ "timings": [0.05, 0.05, 0.05, 0.06] }],
     "knockback": 10,
@@ -3128,23 +3678,26 @@
     "critChance": 20,
     "hitRange": 20,
     "sounds": [["actions/hit"]],
-    "id": "Little Red.json"
+    "id": "Little Red",
+    "originalName": "little_red",
+    "vocations": ["all"]
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 13,
     "level": 180,
     "rarity": 4,
     "bonusMagic": 2,
     "protectEarth": 12,
     "protectFire": -5,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
+    "vocations": ["2", "3", "all"],
     "classification": 3,
-    "id": "Living Armor.json"
+    "id": "Living Armor",
+    "originalName": "living_armor"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 2,
     "defense": 15,
@@ -3157,25 +3710,31 @@
     "weaponType": "club",
     "weight": "2250",
     "description": "A masterpiece of a dwarven smith. (Atk: 5 ~ 8).",
-    "id": "Mace.json"
+    "id": "Mace",
+    "originalName": "mace",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Magewood Log.json"
+    "id": "Magewood Log",
+    "originalName": "magewood_log",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Magewood Planks.json"
+    "id": "Magewood Planks",
+    "originalName": "magewood_planks",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "rarity": 4,
     "defense": 60,
     "numOfStyles": 1,
@@ -3191,13 +3750,14 @@
     "weaponType": "sword",
     "weight": 43,
     "level": 170,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "description": "It's the magic Helmomania Sword.",
-    "id": "Magic Longsword.json"
+    "id": "Magic Longsword",
+    "originalName": "magic_longsword"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "sounds": [["actions/hit"]],
     "minDamage": 1,
@@ -3207,12 +3767,13 @@
     "weaponType": "wand",
     "weight": "2300",
     "description": "Icecold rays of moonlight shimmer on its tip (Atk: 2 ~ 5).",
-    "vocations": [{ "name": "2" }, { "name": "3" }],
-    "id": "Magic Stick.json"
+    "vocations": ["2", "3", "all"],
+    "id": "Magic Stick",
+    "originalName": "magic_stick"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "rarity": 4,
     "defense": 38,
     "numOfStyles": 1,
@@ -3226,12 +3787,13 @@
     "weight": "42",
     "description": "A masterpiece of a dwarven smith. (Atk: 57 ~ 78).",
     "level": 80,
-    "vocations": [{ "name": "0" }],
-    "id": "Magic Sword.json"
+    "vocations": ["0", "all"],
+    "id": "Magic Sword",
+    "originalName": "magic_sword"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "spell": "magic_wall",
     "rune": true,
     "clickUse": true,
@@ -3240,29 +3802,35 @@
     "durability": 3,
     "maxStackSize": 200,
     "hitRange": 7,
-    "id": "Magic Wall Rune.json"
+    "id": "Magic Wall Rune",
+    "originalName": "magic_wall_rune",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 200,
     "minDamage": 100,
     "consumable": true,
     "autoCollect": true,
     "level": 25,
-    "id": "Mana Potion.json"
+    "id": "Mana Potion",
+    "originalName": "mana_potion",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Maroon Fur.json"
+    "id": "Maroon Fur",
+    "originalName": "maroon_fur",
+    "vocations": ["all"]
   },
   {
     "iconSize": 30,
     "durability": 450,
-    "equipType": 9,
+    "equipType": "Accessory",
     "numOfStyles": 1,
     "useAnimData": [{ "timings": [0.09, 0.01, 0.01, 0.2], "thrust": true }],
     "knockback": 50,
@@ -3272,12 +3840,14 @@
     "critChance": 50,
     "hitRange": 28,
     "sounds": [["actions/hit"]],
-    "id": "Mighty Hammer.json"
+    "id": "Mighty Hammer",
+    "originalName": "mighty_hammer",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 6,
+    "equipType": "Ring",
     "defense": 0,
     "rarity": 3,
     "durability": 20,
@@ -3289,112 +3859,149 @@
     "protectDeath": 20,
     "protectEarth": 20,
     "protectHoly": 20,
-    "id": "Might Ring.json"
+    "id": "Might Ring",
+    "originalName": "might_ring",
+    "vocations": ["all"]
   },
   {
     "minDamage": 1,
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 7,
     "rarity": 2,
     "level": 15,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "classification": 1,
-    "id": "Minotaur Armor.json"
+    "id": "Minotaur Armor",
+    "originalName": "minotaur_armor"
   },
-  { "equipType": 10, "defense": 2, "rarity": 2, "id": "Minotaur Boots.json" },
   {
-    "equipType": 1,
+    "equipType": "Shoes",
+    "defense": 2,
+    "rarity": 2,
+    "id": "Minotaur Boots",
+    "originalName": "minotaur_boots",
+    "vocations": ["all"]
+  },
+  {
+    "equipType": "Head",
     "defense": 3,
     "rarity": 2,
-    "vocations": [{ "name": "0" }, { "name": "1" }],
+    "vocations": ["0", "1", "all"],
     "classification": 1,
-    "id": "Minotaur Helmet.json"
+    "id": "Minotaur Helmet",
+    "originalName": "minotaur_helmet"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 50,
     "rarity": 3,
     "material": true,
-    "id": "Minotaur Horn.json"
+    "id": "Minotaur Horn",
+    "originalName": "minotaur_horn",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 50,
     "rarity": 3,
     "material": true,
-    "id": "Minotaur Leather.json"
+    "id": "Minotaur Leather",
+    "originalName": "minotaur_leather",
+    "vocations": ["all"]
   },
   {
-    "equipType": 7,
+    "equipType": "Pants",
     "defense": 4,
     "rarity": 2,
-    "vocations": [{ "name": "0" }, { "name": "1" }],
-    "id": "Minotaur Legs.json"
+    "vocations": ["0", "1", "all"],
+    "id": "Minotaur Legs",
+    "originalName": "minotaur_legs"
   },
   {
-    "equipType": 10,
+    "equipType": "Shoes",
     "defense": 2,
     "rarity": 3,
     "bonusSpeed": 5,
     "level": 20,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
-    "id": "Minotaur Mage Boots.json"
+    "vocations": ["2", "3", "all"],
+    "id": "Minotaur Mage Boots",
+    "originalName": "minotaur_mage_boots"
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 3,
     "bonusMagic": 1,
     "rarity": 4,
     "level": 20,
     "protectEnergy": 3,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
+    "vocations": ["2", "3", "all"],
     "classification": 1,
-    "id": "Minotaur Mage Hat.json"
+    "id": "Minotaur Mage Hat",
+    "originalName": "minotaur_mage_hat"
   },
   {
-    "equipType": 7,
+    "equipType": "Pants",
     "defense": 5,
     "rarity": 4,
     "bonusSpeed": 1,
     "protectEnergy": 1,
     "level": 20,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
+    "vocations": ["2", "3", "all"],
     "classification": 1,
-    "id": "Minotaur Mage Legs.json"
+    "id": "Minotaur Mage Legs",
+    "originalName": "minotaur_mage_legs"
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 6,
     "bonusMagic": 1,
     "rarity": 4,
     "level": 20,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
+    "vocations": ["2", "3", "all"],
     "classification": 1,
-    "id": "Minotaur Mage Robe.json"
+    "id": "Minotaur Mage Robe",
+    "originalName": "minotaur_mage_robe"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 50,
     "rarity": 3,
     "material": true,
-    "id": "Minotaur Paw.json"
+    "id": "Minotaur Paw",
+    "originalName": "minotaur_paw",
+    "vocations": ["all"]
   },
-  { "equipType": 5, "defense": 20, "rarity": 2, "id": "Minotaur Shield.json" },
-  { "iconSize": 16, "equipType": -1, "id": "Mino Key.json" },
+  {
+    "equipType": "Shield",
+    "defense": 20,
+    "rarity": 2,
+    "id": "Minotaur Shield",
+    "originalName": "minotaur_shield",
+    "vocations": ["all"]
+  },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
+    "id": "Mino Key",
+    "originalName": "mino_key",
+    "vocations": ["all"]
+  },
+  {
+    "iconSize": 16,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Moonstone Ore.json"
+    "id": "Moonstone Ore",
+    "originalName": "moonstone_ore",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "durability": 200,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 2,
     "defense": 21,
@@ -3404,46 +4011,51 @@
     "level": 40,
     "hitRange": 1,
     "sounds": [["actions/hit"]],
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "classification": 1,
     "elementDamage": "physical",
     "weaponType": "club",
     "weight": "2250",
     "description": "A masterpiece of a dwarven smith. (Atk: 5 ~ 8).",
-    "id": "Morning Star.json"
+    "id": "Morning Star",
+    "originalName": "morning_star"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 100,
     "minDamage": 60,
     "consumable": true,
-    "id": "Mossabicus Fish.json"
+    "id": "Mossabicus Fish",
+    "originalName": "mossabicus_fish",
+    "vocations": ["all"]
   },
   {
-    "equipType": 5,
+    "equipType": "Shield",
     "defense": 14,
     "bonusMagic": 3,
     "protectDeath": 5,
     "level": 100,
     "rarity": 3,
     "group": "Book",
-    "vocations": [{ "name": "2" }, { "name": "3" }],
-    "id": "Mysteries Book.json"
+    "vocations": ["2", "3", "all"],
+    "id": "Mysteries Book",
+    "originalName": "mysteries_book"
   },
   {
-    "equipType": 5,
+    "equipType": "Shield",
     "defense": 16,
     "bonusMagic": 3,
     "protectIce": 10,
     "group": "Book",
     "level": 150,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
-    "id": "Mystic Glacier Book.json"
+    "vocations": ["2", "3", "all"],
+    "id": "Mystic Glacier Book",
+    "originalName": "mystic_glacier_book"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "minDamage": 18,
     "sounds": [["actions/hit"]],
@@ -3455,14 +4067,15 @@
     "critChance": 10,
     "weaponType": "bow",
     "weight": "2300",
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "classification": 4,
-    "id": "Mystic Glacier Bow.json"
+    "id": "Mystic Glacier Bow",
+    "originalName": "mystic_glacier_bow"
   },
   {
     "iconSize": 16,
     "twoHand": true,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 5,
     "minDamage": 36,
@@ -3474,13 +4087,14 @@
     "level": 180,
     "weaponType": "cross",
     "weight": "2300",
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "classification": 4,
-    "id": "Mystic Glacier Crossbow.json"
+    "id": "Mystic Glacier Crossbow",
+    "originalName": "mystic_glacier_crossbow"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "sounds": [["actions/hit"]],
     "minDamage": 90,
@@ -3497,21 +4111,23 @@
     "weight": "2300",
     "description": "Icecold rays of moonlight shimmer on its tip (Atk: 20 ~ 30).",
     "level": 170,
-    "vocations": [{ "name": "2" }],
+    "vocations": ["2", "all"],
     "classification": 4,
-    "id": "Mystic Glacier Rod.json"
+    "id": "Mystic Glacier Rod",
+    "originalName": "mystic_glacier_rod"
   },
   {
-    "equipType": 5,
+    "equipType": "Shield",
     "defense": 35,
     "level": 200,
     "protectIce": 10,
-    "vocations": [{ "name": "0" }],
-    "id": "Mystic Glacier Shield.json"
+    "vocations": ["0", "all"],
+    "id": "Mystic Glacier Shield",
+    "originalName": "mystic_glacier_shield"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 5,
     "defense": 20,
@@ -3529,13 +4145,14 @@
     "weight": "2250",
     "description": "A masterpiece of a dwarven smith. (Atk: 150 ~ 300).",
     "level": 180,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "classification": 4,
-    "id": "Mystic Glacier Sword.json"
+    "id": "Mystic Glacier Sword",
+    "originalName": "mystic_glacier_sword"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "sounds": [["actions/hit"]],
     "minDamage": 95,
@@ -3552,13 +4169,14 @@
     "weight": "2300",
     "description": "Icecold rays of moonlight shimmer on its tip (Atk: 20 ~ 30).",
     "level": 170,
-    "vocations": [{ "name": "3" }],
+    "vocations": ["3", "all"],
     "classification": 4,
-    "id": "Mystic Glacier Wand.json"
+    "id": "Mystic Glacier Wand",
+    "originalName": "mystic_glacier_wand"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 4,
     "sounds": [["actions/hit"]],
@@ -3574,64 +4192,70 @@
     "weight": "2300",
     "description": "",
     "level": 60,
-    "vocations": [{ "name": "2" }],
+    "vocations": ["2", "all"],
     "classification": 2,
-    "id": "Necro Rod.json"
+    "id": "Necro Rod",
+    "originalName": "necro_rod"
   },
   {
-    "equipType": 5,
+    "equipType": "Shield",
     "defense": 12,
     "bonusMagic": 1,
     "rarity": 4,
     "level": 30,
     "group": "Book",
-    "vocations": [{ "name": "2" }, { "name": "3" }],
-    "id": "Noble Magic Book.json"
+    "vocations": ["2", "3", "all"],
+    "id": "Noble Magic Book",
+    "originalName": "noble_magic_book"
   },
   {
-    "equipType": 10,
+    "equipType": "Shoes",
     "defense": 3,
     "bonusMagic": 2,
     "rarity": 4,
     "level": 40,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
-    "id": "Noble Magic Boots.json"
+    "vocations": ["2", "3", "all"],
+    "id": "Noble Magic Boots",
+    "originalName": "noble_magic_boots"
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 4,
     "bonusMagic": 1,
     "rarity": 4,
     "level": 40,
     "protectIce": 2,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
+    "vocations": ["2", "3", "all"],
     "classification": 2,
-    "id": "Noble Magic Hat.json"
+    "id": "Noble Magic Hat",
+    "originalName": "noble_magic_hat"
   },
   {
-    "equipType": 7,
+    "equipType": "Pants",
     "defense": 6,
     "rarity": 4,
     "bonusSpeed": 1,
     "protectEnergy": 2,
     "level": 40,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
-    "id": "Noble Magic Legs.json"
+    "vocations": ["2", "3", "all"],
+    "id": "Noble Magic Legs",
+    "originalName": "noble_magic_legs"
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 7,
     "rarity": 4,
     "bonusMagic": 2,
     "protectEnergy": 4,
     "level": 40,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
+    "vocations": ["2", "3", "all"],
     "classification": 2,
-    "id": "Noble Magic Robe.json"
+    "id": "Noble Magic Robe",
+    "originalName": "noble_magic_robe"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 4,
     "sounds": [["actions/hit"]],
@@ -3647,13 +4271,14 @@
     "weight": "2300",
     "description": "Icecold rays of moonlight shimmer on its tip (Atk: 20 ~ 30).",
     "level": 80,
-    "vocations": [{ "name": "2" }],
+    "vocations": ["2", "all"],
     "classification": 2,
-    "id": "Noble Magic Rod.json"
+    "id": "Noble Magic Rod",
+    "originalName": "noble_magic_rod"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 4,
     "bonusMagic": 1,
@@ -3669,35 +4294,48 @@
     "weight": "2300",
     "description": "Icecold rays of moonlight shimmer on its tip (Atk: 20 ~ 30).",
     "level": 60,
-    "vocations": [{ "name": "3" }],
+    "vocations": ["3", "all"],
     "classification": 2,
-    "id": "Noble Magic Wand.json"
+    "id": "Noble Magic Wand",
+    "originalName": "noble_magic_wand"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Oakwood Log.json"
+    "id": "Oakwood Log",
+    "originalName": "oakwood_log",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Oakwood Planks.json"
+    "id": "Oakwood Planks",
+    "originalName": "oakwood_planks",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 2,
+    "equipType": "Backpack",
     "container": true,
     "capacity": 20,
-    "id": "Orange Bagpack.json"
+    "id": "Orange Bagpack",
+    "originalName": "orange_bagpack",
+    "vocations": ["all"]
   },
-  { "equipType": 7, "defense": 1, "id": "Pants Basic.json" },
+  {
+    "equipType": "Pants",
+    "defense": 1,
+    "id": "Pants Basic",
+    "originalName": "pants_basic",
+    "vocations": ["all"]
+  },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "spell": "paralize",
     "rune": true,
     "level": 54,
@@ -3705,12 +4343,13 @@
     "durability": 1,
     "maxStackSize": 200,
     "hitRange": 7,
-    "vocations": [{ "name": "2" }],
-    "id": "Paralize Rune.json"
+    "vocations": ["2", "all"],
+    "id": "Paralize Rune",
+    "originalName": "paralize_rune"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "rarity": 4,
     "defense": 22,
     "numOfStyles": 1,
@@ -3723,12 +4362,13 @@
     "weaponType": "sword",
     "weight": "52",
     "level": 45,
-    "vocations": [{ "name": "0" }],
-    "id": "Pharaoh Sword.json"
+    "vocations": ["0", "all"],
+    "id": "Pharaoh Sword",
+    "originalName": "pharaoh_sword"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "minDamage": 2,
     "maxDamage": 2,
     "hitRange": 1,
@@ -3737,17 +4377,21 @@
     "tool": true,
     "clickUse": true,
     "level": 10,
-    "id": "Pick.json"
+    "id": "Pick",
+    "originalName": "pick",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
-    "id": "Piece Of Meteor.json"
+    "id": "Piece Of Meteor",
+    "originalName": "piece_of_meteor",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 8,
+    "equipType": "Ammo",
     "maxStackSize": 200,
     "sounds": [["actions/hit"]],
     "minDamage": 18,
@@ -3759,11 +4403,13 @@
     "weaponType": "arrow",
     "weight": "5",
     "description": "Poison arrow (Atk: 3 ~ 12).",
-    "id": "Poison Arrow.json"
+    "id": "Poison Arrow",
+    "originalName": "poison_arrow",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 8,
+    "equipType": "Ammo",
     "maxStackSize": 200,
     "sounds": [["actions/hit"]],
     "minDamage": 34,
@@ -3776,28 +4422,34 @@
     "weaponType": "bolt",
     "weight": "5",
     "description": "Poison bolt (Atk: 3 ~ 12).",
-    "id": "Poison Bolt.json"
+    "id": "Poison Bolt",
+    "originalName": "poison_bolt",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 50,
     "rarity": 4,
     "material": true,
-    "id": "Possessed Crystal.json"
+    "id": "Possessed Crystal",
+    "originalName": "possessed_crystal",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "tool": true,
     "maxStackSize": 1,
     "dropable": false,
-    "id": "Potion Boost Skill.json"
+    "id": "Potion Boost Skill",
+    "originalName": "potion_boost_skill",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "durability": 256,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 4,
     "sounds": [["actions/hit"]],
@@ -3813,34 +4465,37 @@
     "weight": "2300",
     "description": "",
     "level": 120,
-    "vocations": [{ "name": "2" }],
-    "id": "Pretator Rod.json"
+    "vocations": ["2", "all"],
+    "id": "Pretator Rod",
+    "originalName": "pretator_rod"
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 16,
     "protectPhysical": 5,
     "protectFire": 5,
     "bonusSpeed": 10,
     "rarity": 5,
     "level": 200,
-    "vocations": [{ "name": "0" }, { "name": "1" }],
+    "vocations": ["0", "1", "all"],
     "classification": 2,
-    "id": "Prismatic Armor.json"
+    "id": "Prismatic Armor",
+    "originalName": "prismatic_armor"
   },
   {
-    "equipType": 10,
+    "equipType": "Shoes",
     "defense": 6,
     "level": 150,
     "bonusSpeed": 10,
     "protectFire": 3,
     "rarity": 4,
-    "vocations": [{ "name": "1" }],
-    "id": "Prismatic Boots.json"
+    "vocations": ["1", "all"],
+    "id": "Prismatic Boots",
+    "originalName": "prismatic_boots"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "minDamage": 15,
     "rarity": 4,
@@ -3853,12 +4508,13 @@
     "level": 150,
     "weaponType": "bow",
     "weight": "2300",
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "classification": 4,
-    "id": "Prismatic Bow.json"
+    "id": "Prismatic Bow",
+    "originalName": "prismatic_bow"
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 9,
     "level": 150,
     "rarity": 5,
@@ -3866,37 +4522,41 @@
     "protectFire": 5,
     "bonusDefense": 1,
     "classification": 2,
-    "vocations": [{ "name": "0" }, { "name": "1" }],
-    "id": "Prismatic Helmet.json"
+    "vocations": ["0", "1", "all"],
+    "id": "Prismatic Helmet",
+    "originalName": "prismatic_helmet"
   },
   {
-    "equipType": 7,
+    "equipType": "Pants",
     "defense": 8,
     "rarity": 4,
     "bonusDistance": 2,
     "protectFire": 5,
     "protectPhysical": 2,
     "level": 180,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "classification": 2,
-    "id": "Prismatic Legs.json"
+    "id": "Prismatic Legs",
+    "originalName": "prismatic_legs"
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 0,
+    "equipType": "Amulet",
     "level": 150,
     "rarity": 4,
     "durability": 750,
     "marketable": false,
     "protectFire": 15,
     "protectPhysical": 10,
-    "id": "Prismatic Necklace.json"
+    "id": "Prismatic Necklace",
+    "originalName": "prismatic_necklace",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 6,
+    "equipType": "Ring",
     "defense": 0,
     "level": 120,
     "rarity": 5,
@@ -3904,168 +4564,214 @@
     "durabilityType": 1,
     "protectEnergy": 8,
     "protectPhysical": 10,
-    "id": "Prismatic Ring.json"
+    "id": "Prismatic Ring",
+    "originalName": "prismatic_ring",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "rarity": 5,
     "maxStackSize": 10,
-    "id": "Pumpkin.json"
+    "id": "Pumpkin",
+    "originalName": "pumpkin",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 2,
+    "equipType": "Backpack",
     "container": true,
     "capacity": 20,
-    "id": "Purple Bagpack.json"
+    "id": "Purple Bagpack",
+    "originalName": "purple_bagpack",
+    "vocations": ["all"]
   },
-  { "iconSize": 16, "equipType": -1, "rarity": 5, "id": "Purple Book.json" },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
+    "rarity": 5,
+    "id": "Purple Book",
+    "originalName": "purple_book",
+    "vocations": ["all"]
+  },
+  {
+    "iconSize": 16,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Radium Bar.json"
+    "id": "Radium Bar",
+    "originalName": "radium_bar",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Radium Ore.json"
+    "id": "Radium Ore",
+    "originalName": "radium_ore",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Redwood Log.json"
+    "id": "Redwood Log",
+    "originalName": "redwood_log",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Redwood Planks.json"
+    "id": "Redwood Planks",
+    "originalName": "redwood_planks",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 2,
+    "equipType": "Backpack",
     "container": true,
     "capacity": 20,
-    "id": "Red Bagpack.json"
+    "id": "Red Bagpack",
+    "originalName": "red_bagpack",
+    "vocations": ["all"]
   },
-  { "iconSize": 16, "equipType": -1, "rarity": 5, "id": "Red Book.json" },
   {
-    "equipType": 10,
+    "iconSize": 16,
+    "equipType": "Resource",
+    "rarity": 5,
+    "id": "Red Book",
+    "originalName": "red_book",
+    "vocations": ["all"]
+  },
+  {
+    "equipType": "Shoes",
     "defense": 5,
     "level": 40,
     "protectFire": 5,
     "rarity": 4,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
-    "id": "Red Boots.json"
+    "vocations": ["2", "3", "all"],
+    "id": "Red Boots",
+    "originalName": "red_boots"
   },
   {
-    "equipType": 7,
+    "equipType": "Pants",
     "defense": 7,
     "rarity": 4,
     "protectFire": 6,
     "level": 50,
     "classification": 2,
-    "id": "Red Legs.json"
+    "id": "Red Legs",
+    "originalName": "red_legs",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 0,
+    "equipType": "Amulet",
     "level": 180,
     "rarity": 4,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "durability": 1800,
     "durabilityType": 1,
     "bonusMelee": 4,
     "protectPhysical": 5,
-    "id": "Red Plasma Amulet.json"
+    "id": "Red Plasma Amulet",
+    "originalName": "red_plasma_amulet"
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 6,
+    "equipType": "Ring",
     "level": 150,
     "rarity": 4,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "durability": 1800,
     "durabilityType": 1,
     "bonusMelee": 3,
     "protectPhysical": 3,
-    "id": "Red Plasma Ring.json"
+    "id": "Red Plasma Ring",
+    "originalName": "red_plasma_ring"
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 7,
     "level": 60,
     "rarity": 4,
     "protectFire": 8,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
+    "vocations": ["2", "3", "all"],
     "classification": 2,
-    "id": "Red Robe.json"
+    "id": "Red Robe",
+    "originalName": "red_robe"
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 5,
     "level": 30,
     "protectIce": 4,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
-    "id": "Repressive Mask.json"
+    "vocations": ["2", "3", "all"],
+    "id": "Repressive Mask",
+    "originalName": "repressive_mask"
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 6,
+    "equipType": "Ring",
     "minDamage": 4,
     "maxDamage": 5,
-    "id": "Ring Of Hope.json"
+    "id": "Ring Of Hope",
+    "originalName": "ring_of_hope",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 6,
+    "equipType": "Ring",
     "level": 50,
     "rarity": 4,
     "protectEarth": 3,
-    "id": "Ring Of Nature.json"
+    "id": "Ring Of Nature",
+    "originalName": "ring_of_nature",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 6,
+    "equipType": "Ring",
     "rarity": 4,
     "critChance": 10,
-    "id": "Ring Of Water.json"
+    "id": "Ring Of Water",
+    "originalName": "ring_of_water",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "clickUse": true,
     "tool": true,
     "hitRange": 2,
-    "id": "Rope.json"
+    "id": "Rope",
+    "originalName": "rope",
+    "vocations": ["all"]
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 7,
     "rarity": 3,
     "bonusDistance": 1,
     "protectPhysical": 2,
     "level": 30,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "classification": 2,
-    "id": "Royal Armor.json"
+    "id": "Royal Armor",
+    "originalName": "royal_armor"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 4,
     "defense": 25,
@@ -4080,32 +4786,35 @@
     "weaponType": "axe",
     "weight": "4250",
     "level": 80,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "classification": 2,
-    "id": "Royal Axe.json"
+    "id": "Royal Axe",
+    "originalName": "royal_axe"
   },
   {
-    "equipType": 10,
+    "equipType": "Shoes",
     "defense": 5,
     "level": 40,
     "rarity": 3,
-    "vocations": [{ "name": "1" }],
-    "id": "Royal Boots.json"
+    "vocations": ["1", "all"],
+    "id": "Royal Boots",
+    "originalName": "royal_boots"
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 10,
     "level": 100,
     "rarity": 3,
     "bonusDistance": 2,
     "protectEarth": 5,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "classification": 2,
-    "id": "Royal Cape.json"
+    "id": "Royal Cape",
+    "originalName": "royal_cape"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 4,
     "twoHand": true,
@@ -4118,207 +4827,280 @@
     "level": 160,
     "weaponType": "cross",
     "weight": "2300",
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "classification": 2,
-    "id": "Royal Crossbow.json"
+    "id": "Royal Crossbow",
+    "originalName": "royal_crossbow"
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 5,
     "level": 40,
     "rarity": 3,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "classification": 2,
-    "id": "Royal Helmet.json"
+    "id": "Royal Helmet",
+    "originalName": "royal_helmet"
   },
   {
-    "equipType": 7,
+    "equipType": "Pants",
     "defense": 7,
     "rarity": 4,
     "level": 40,
     "protectPhysical": 3,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "classification": 2,
-    "id": "Royal Legs.json"
+    "id": "Royal Legs",
+    "originalName": "royal_legs"
   },
-  { "equipType": 5, "defense": 28, "rarity": 3, "id": "Royal Shield.json" },
+  {
+    "equipType": "Shield",
+    "defense": 28,
+    "rarity": 3,
+    "id": "Royal Shield",
+    "originalName": "royal_shield",
+    "vocations": ["all"]
+  },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "maxStackSize": 300,
     "sounds": [["actions/hit"]],
     "minDamage": 40,
     "maxDamage": 40,
     "level": 60,
     "hitRange": 9,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "elementDamage": "physical",
     "projectile": "royal-spear",
     "shootType": "smallphysical",
     "weaponType": "spear",
     "weight": "5",
     "description": "Basic bolt (Atk: 3 ~ 12).",
-    "id": "Royal Spear.json"
+    "id": "Royal Spear",
+    "originalName": "royal_spear"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "maxStackSize": 600,
     "sounds": [["actions/hit"]],
     "minDamage": 60,
     "maxDamage": 6,
     "level": 160,
     "hitRange": 5,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "elementDamage": "physical",
     "extraElementDamage": "fire",
     "projectile": "assassin-star",
     "shootType": "smallphysical",
     "weaponType": "star",
     "weight": 2,
-    "id": "Royal Star.json"
+    "id": "Royal Star",
+    "originalName": "royal_star"
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 0,
+    "equipType": "Amulet",
     "rarity": 4,
-    "id": "Ruby Necklace.json"
+    "id": "Ruby Necklace",
+    "originalName": "ruby_necklace",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 6,
+    "equipType": "Ring",
     "minDamage": 2,
     "maxDamage": 3,
-    "id": "Ruby Ring.json"
+    "id": "Ruby Ring",
+    "originalName": "ruby_ring",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 0,
+    "equipType": "Amulet",
     "level": 130,
     "protectHoly": 5,
-    "id": "Sacred Necklace.json"
+    "id": "Sacred Necklace",
+    "originalName": "sacred_necklace",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 6,
+    "equipType": "Ring",
     "critChance": 5,
-    "id": "Sapphire Ring.json"
+    "id": "Sapphire Ring",
+    "originalName": "sapphire_ring",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "tool": true,
     "maxStackSize": 1,
     "dropable": false,
     "rarity": 5,
-    "id": "Scroll Buff Exp.json"
+    "id": "Scroll Buff Exp",
+    "originalName": "scroll_buff_exp",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 1,
     "tool": true,
     "level": 30,
     "dropable": false,
     "rarity": 5,
-    "id": "Scroll Hc 100.json"
+    "id": "Scroll Hc 100",
+    "originalName": "scroll_hc_100",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "tool": true,
     "maxStackSize": 1,
     "dropable": false,
     "rarity": 5,
-    "id": "Scroll Loot.json"
+    "id": "Scroll Loot",
+    "originalName": "scroll_loot",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 1,
     "tool": true,
     "rarity": 5,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
-    "id": "Scroll Of Runes.json"
+    "vocations": ["2", "3", "all"],
+    "id": "Scroll Of Runes",
+    "originalName": "scroll_of_runes"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
-    "maxStackSize": 1,
-    "tool": true,
-    "dropable": false,
-    "rarity": 5,
-    "id": "Scroll Reset Runes.json"
-  },
-  {
-    "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 1,
     "tool": true,
     "dropable": false,
     "rarity": 5,
-    "id": "Scroll Temple.json"
+    "id": "Scroll Reset Runes",
+    "originalName": "scroll_reset_runes",
+    "vocations": ["all"]
   },
-  { "equipType": 4, "defense": 1, "id": "Shirt Basic.json" },
+  {
+    "iconSize": 16,
+    "equipType": "Resource",
+    "maxStackSize": 1,
+    "tool": true,
+    "dropable": false,
+    "rarity": 5,
+    "id": "Scroll Temple",
+    "originalName": "scroll_temple",
+    "vocations": ["all"]
+  },
+  {
+    "equipType": "Armor",
+    "defense": 1,
+    "id": "Shirt Basic",
+    "originalName": "shirt_basic",
+    "vocations": ["all"]
+  },
   {
     "minDamage": 1,
     "durability": 400,
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 1,
-    "id": "Shoulderpads Basic.json"
+    "id": "Shoulderpads Basic",
+    "originalName": "shoulderpads_basic",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "tool": true,
     "clickUse": true,
-    "id": "Shovel.json"
+    "id": "Shovel",
+    "originalName": "shovel",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": -1,
+    "equipType": "Resource",
     "defense": 2,
-    "id": "Silver Band.json"
+    "id": "Silver Band",
+    "originalName": "silver_band",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 0,
+    "equipType": "Amulet",
     "level": 60,
     "defense": 3,
-    "vocations": [{ "name": "0" }],
-    "id": "Silver Necklace.json"
+    "vocations": ["0", "all"],
+    "id": "Silver Necklace",
+    "originalName": "silver_necklace"
   },
-  { "equipType": 1, "defense": 2, "id": "Skull Helmet.json" },
-  { "iconSize": 16, "equipType": -1, "rarity": 2, "id": "Slime Floor.json" },
-  { "iconSize": 16, "equipType": -1, "id": "Slime Key.json" },
-  { "iconSize": 16, "equipType": -1, "id": "Slime King Crown.json" },
+  {
+    "equipType": "Head",
+    "defense": 2,
+    "id": "Skull Helmet",
+    "originalName": "skull_helmet",
+    "vocations": ["all"]
+  },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
+    "rarity": 2,
+    "id": "Slime Floor",
+    "originalName": "slime_floor",
+    "vocations": ["all"]
+  },
+  {
+    "iconSize": 16,
+    "equipType": "Resource",
+    "id": "Slime Key",
+    "originalName": "slime_key",
+    "vocations": ["all"]
+  },
+  {
+    "iconSize": 16,
+    "equipType": "Resource",
+    "id": "Slime King Crown",
+    "originalName": "slime_king_crown",
+    "vocations": ["all"]
+  },
+  {
+    "iconSize": 16,
+    "equipType": "Resource",
     "maxStackSize": 200,
     "minDamage": 75,
     "consumable": true,
     "autoCollect": true,
-    "id": "Small Health Potion.json"
+    "id": "Small Health Potion",
+    "originalName": "small_health_potion",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 200,
     "minDamage": 50,
     "consumable": true,
     "autoCollect": true,
-    "id": "Small Mana Potion.json"
+    "id": "Small Mana Potion",
+    "originalName": "small_mana_potion",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 5,
     "defense": 32,
@@ -4334,23 +5116,25 @@
     "level": 130,
     "critMultiplier": 1.2,
     "critChance": 10,
-    "vocations": [{ "name": "0" }],
-    "id": "Solar Axe.json"
+    "vocations": ["0", "all"],
+    "id": "Solar Axe",
+    "originalName": "solar_axe"
   },
   {
-    "equipType": 5,
+    "equipType": "Shield",
     "defense": 13,
     "bonusMagic": 2,
     "level": 50,
     "rarity": 3,
     "group": "Book",
-    "vocations": [{ "name": "2" }, { "name": "3" }],
-    "id": "Soul Book.json"
+    "vocations": ["2", "3", "all"],
+    "id": "Soul Book",
+    "originalName": "soul_book"
   },
   {
     "iconSize": 40,
     "durability": 250,
-    "equipType": 9,
+    "equipType": "Accessory",
     "numOfStyles": 1,
     "useAnimData": [{ "stick": true, "timings": [0.08, 0.05, 0.07, 0.08] }],
     "knockback": 20,
@@ -4360,19 +5144,23 @@
     "critChance": 5,
     "hitRange": 36,
     "sounds": [["actions/hit"]],
-    "id": "Soul Disruptor.json"
+    "id": "Soul Disruptor",
+    "originalName": "soul_disruptor",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 50,
     "rarity": 3,
     "material": true,
-    "id": "Soul Essence.json"
+    "id": "Soul Essence",
+    "originalName": "soul_essence",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 2,
     "sounds": [["actions/hit"]],
@@ -4388,12 +5176,13 @@
     "weight": "2300",
     "description": "Icecold rays of moonlight shimmer on its tip (Atk: 4 ~ 7).",
     "level": 40,
-    "vocations": [{ "name": "2" }],
-    "id": "Soul Rod.json"
+    "vocations": ["2", "all"],
+    "id": "Soul Rod",
+    "originalName": "soul_rod"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 2,
     "bonusMagic": 1,
@@ -4409,30 +5198,32 @@
     "weight": "2300",
     "description": "Icecold rays of moonlight shimmer on its tip (Atk: 4 ~ 7).",
     "level": 40,
-    "vocations": [{ "name": "3" }],
-    "id": "Soul Wand.json"
+    "vocations": ["3", "all"],
+    "id": "Soul Wand",
+    "originalName": "soul_wand"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "maxStackSize": 300,
     "sounds": [["actions/hit"]],
     "minDamage": 30,
     "maxDamage": 30,
     "hitRange": 9,
     "level": 20,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "elementDamage": "physical",
     "projectile": "basic-spear",
     "shootType": "smallphysical",
     "weaponType": "spear",
     "weight": "5",
-    "id": "Spear.json"
+    "id": "Spear",
+    "originalName": "spear"
   },
   {
     "iconSize": 26,
     "durability": 100,
-    "equipType": 9,
+    "equipType": "Accessory",
     "numOfStyles": 1,
     "useAnimData": [{ "stick": true, "runtime": 0.2, "canEndEarly": true }],
     "knockback": 20,
@@ -4442,11 +5233,13 @@
     "critChance": 15,
     "hitRange": 9,
     "sounds": [["actions/hit"]],
-    "id": "Spear Basic.json"
+    "id": "Spear Basic",
+    "originalName": "spear_basic",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 8,
+    "equipType": "Ammo",
     "maxStackSize": 200,
     "sounds": [["actions/hit"]],
     "minDamage": 78,
@@ -4457,26 +5250,32 @@
     "shootType": "smallphysical",
     "weaponType": "bolt",
     "weight": "5",
-    "id": "Spectral Bolt.json"
+    "id": "Spectral Bolt",
+    "originalName": "spectral_bolt",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Spellstone Bar.json"
+    "id": "Spellstone Bar",
+    "originalName": "spellstone_bar",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Spellstone Ore.json"
+    "id": "Spellstone Ore",
+    "originalName": "spellstone_ore",
+    "vocations": ["all"]
   },
   {
     "iconSize": 40,
     "durability": 250,
-    "equipType": 9,
+    "equipType": "Accessory",
     "numOfStyles": 1,
     "useAnimData": [{ "stick": true, "timings": [0.08, 0.05, 0.07, 0.08] }],
     "knockback": 20,
@@ -4486,46 +5285,51 @@
     "critChance": 50,
     "hitRange": 36,
     "sounds": [["actions/hit"]],
-    "id": "Spirit Disruptor.json"
+    "id": "Spirit Disruptor",
+    "originalName": "spirit_disruptor",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "maxStackSize": 300,
     "sounds": [["actions/hit"]],
     "minDamage": 35,
     "maxDamage": 35,
     "hitRange": 8,
     "level": 40,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "elementDamage": "physical",
     "projectile": "basic-star",
     "shootType": "smallphysical",
     "weaponType": "star",
     "weight": "5",
-    "id": "Star.json"
+    "id": "Star",
+    "originalName": "star"
   },
   {
     "minDamage": 1,
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 10,
     "rarity": 2,
     "level": 25,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "classification": 1,
-    "id": "Steel Armor.json"
+    "id": "Steel Armor",
+    "originalName": "steel_armor"
   },
   {
-    "equipType": 10,
+    "equipType": "Shoes",
     "defense": 3,
     "level": 25,
     "rarity": 2,
-    "vocations": [{ "name": "0" }, { "name": "1" }],
-    "id": "Steel Boots.json"
+    "vocations": ["0", "1", "all"],
+    "id": "Steel Boots",
+    "originalName": "steel_boots"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "minDamage": 4,
     "numOfStyles": 1,
     "rarity": 2,
@@ -4535,14 +5339,15 @@
     "twoHand": true,
     "bonusDistance": 1,
     "level": 40,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "weaponType": "bow",
     "weight": 60,
-    "id": "Steel Bow.json"
+    "id": "Steel Bow",
+    "originalName": "steel_bow"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 4,
     "twoHand": true,
@@ -4556,80 +5361,101 @@
     "level": 40,
     "weaponType": "cross",
     "weight": "2300",
-    "vocations": [{ "name": "1" }],
-    "id": "Steel Crossbow.json"
+    "vocations": ["1", "all"],
+    "id": "Steel Crossbow",
+    "originalName": "steel_crossbow"
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 5,
     "rarity": 2,
     "protectPhysical": 3,
     "level": 20,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "classification": 1,
-    "id": "Steel Helmet.json"
+    "id": "Steel Helmet",
+    "originalName": "steel_helmet"
   },
   {
-    "equipType": 7,
+    "equipType": "Pants",
     "defense": 6,
     "level": 25,
     "rarity": 2,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "classification": 1,
-    "id": "Steel Legs.json"
+    "id": "Steel Legs",
+    "originalName": "steel_legs"
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 0,
+    "equipType": "Amulet",
     "rarity": 2,
     "defense": 1,
-    "id": "Steel Necklace.json"
+    "id": "Steel Necklace",
+    "originalName": "steel_necklace",
+    "vocations": ["all"]
   },
   {
-    "equipType": 8,
+    "equipType": "Ammo",
     "container": true,
     "capacity": 4,
     "defense": 1,
     "level": 40,
     "weaponType": "quiver",
-    "vocations": [{ "name": "1" }],
-    "id": "Steel Quiver.json"
+    "vocations": ["1", "all"],
+    "id": "Steel Quiver",
+    "originalName": "steel_quiver"
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 6,
+    "equipType": "Ring",
     "rarity": 2,
     "defense": 1,
-    "id": "Steel Ring.json"
+    "id": "Steel Ring",
+    "originalName": "steel_ring",
+    "vocations": ["all"]
   },
-  { "equipType": 5, "defense": 25, "rarity": 2, "id": "Steel Shield.json" },
+  {
+    "equipType": "Shield",
+    "defense": 25,
+    "rarity": 2,
+    "id": "Steel Shield",
+    "originalName": "steel_shield",
+    "vocations": ["all"]
+  },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": -1,
+    "equipType": "Resource",
     "defense": 6,
-    "id": "Stone Of Life.json"
+    "id": "Stone Of Life",
+    "originalName": "stone_of_life",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": -1,
+    "equipType": "Resource",
     "minDamage": 3,
     "maxDamage": 4,
-    "id": "Stone Of Mana.json"
+    "id": "Stone Of Mana",
+    "originalName": "stone_of_mana",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": -1,
+    "equipType": "Resource",
     "critChance": 8,
-    "id": "Stone Of Treasure.json"
+    "id": "Stone Of Treasure",
+    "originalName": "stone_of_treasure",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 4,
     "sounds": [["actions/hit"]],
@@ -4645,95 +5471,112 @@
     "weight": "2300",
     "description": "",
     "level": 140,
-    "vocations": [{ "name": "3" }],
-    "id": "Storm Wand.json"
+    "vocations": ["3", "all"],
+    "id": "Storm Wand",
+    "originalName": "storm_wand"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 200,
     "minDamage": 300,
     "consumable": true,
     "level": 50,
     "autoCollect": true,
-    "id": "Strong Health Potion.json"
+    "id": "Strong Health Potion",
+    "originalName": "strong_health_potion",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 200,
     "minDamage": 200,
     "consumable": true,
     "level": 50,
     "autoCollect": true,
-    "id": "Strong Mana Potion.json"
+    "id": "Strong Mana Potion",
+    "originalName": "strong_mana_potion",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 0,
+    "equipType": "Amulet",
     "level": 140,
     "protectFire": 5,
-    "id": "Strong Necklace.json"
+    "id": "Strong Necklace",
+    "originalName": "strong_necklace",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 6,
+    "equipType": "Ring",
     "level": 100,
     "protectFire": 4,
-    "id": "Strong Ring.json"
+    "id": "Strong Ring",
+    "originalName": "strong_ring",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 2,
+    "equipType": "Backpack",
     "container": true,
     "capacity": 20,
-    "id": "Style Bagpack.json"
+    "id": "Style Bagpack",
+    "originalName": "style_bagpack",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "spell": "suden_death",
     "rune": true,
     "level": 45,
     "magic": 15,
     "durability": 3,
     "maxStackSize": 200,
-    "id": "Suden Death Rune.json"
+    "id": "Suden Death Rune",
+    "originalName": "suden_death_rune",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Sunstone Ore.json"
+    "id": "Sunstone Ore",
+    "originalName": "sunstone_ore",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 200,
     "minDamage": 1200,
     "consumable": true,
     "level": 200,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "autoCollect": true,
-    "id": "Supreme Health Potion.json"
+    "id": "Supreme Health Potion",
+    "originalName": "supreme_health_potion"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 200,
     "minDamage": 700,
     "consumable": true,
     "level": 200,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
+    "vocations": ["2", "3", "all"],
     "autoCollect": true,
-    "id": "Supreme Mana Potion.json"
+    "id": "Supreme Mana Potion",
+    "originalName": "supreme_mana_potion"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 3,
     "defense": 15,
@@ -4742,38 +5585,42 @@
     "hitRange": 1,
     "sounds": [["actions/hit"]],
     "level": 80,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "elementDamage": "physical",
     "weaponType": "sword",
     "weight": "5250",
     "description": "A masterpiece of a dwarven smith. (Atk: 12 ~ 18).",
-    "id": "Tearing Fang.json"
+    "id": "Tearing Fang",
+    "originalName": "tearing_fang"
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 0,
+    "equipType": "Amulet",
     "level": 60,
     "rarity": 4,
     "durability": 200,
     "marketable": false,
     "protectEarth": 20,
     "protectFire": -10,
-    "id": "Terra Amulet.json"
+    "id": "Terra Amulet",
+    "originalName": "terra_amulet",
+    "vocations": ["all"]
   },
   {
-    "equipType": 10,
+    "equipType": "Shoes",
     "defense": 2,
     "rarity": 3,
     "protectEarth": 5,
     "protectFire": -5,
     "level": 35,
     "weight": 22,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
-    "id": "Terra Boots.json"
+    "vocations": ["2", "3", "all"],
+    "id": "Terra Boots",
+    "originalName": "terra_boots"
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 5,
     "rarity": 3,
     "protectEarth": 5,
@@ -4781,23 +5628,25 @@
     "classification": 2,
     "bonusMagic": 1,
     "weight": 10,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
-    "id": "Terra Hood.json"
+    "vocations": ["2", "3", "all"],
+    "id": "Terra Hood",
+    "originalName": "terra_hood"
   },
   {
-    "equipType": 7,
+    "equipType": "Pants",
     "defense": 8,
     "rarity": 3,
     "protectEarth": 6,
     "protectFire": -6,
     "level": 40,
     "weight": 19,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
+    "vocations": ["2", "3", "all"],
     "classification": 2,
-    "id": "Terra Legs.json"
+    "id": "Terra Legs",
+    "originalName": "terra_legs"
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 11,
     "protectEarth": 8,
     "protectFire": -8,
@@ -4806,13 +5655,14 @@
     "bonusMagic": 1,
     "level": 50,
     "weight": "22",
-    "vocations": [{ "name": "2" }, { "name": "3" }],
-    "id": "Terra Mantle.json"
+    "vocations": ["2", "3", "all"],
+    "id": "Terra Mantle",
+    "originalName": "terra_mantle"
   },
   {
     "iconSize": 28,
     "durability": 240,
-    "equipType": 9,
+    "equipType": "Accessory",
     "numOfStyles": 1,
     "useAnimData": [{ "runtime": 0.12 }],
     "knockback": 12,
@@ -4822,52 +5672,63 @@
     "critChance": 40,
     "hitRange": 24,
     "sounds": [["actions/hit"]],
-    "id": "The Fairy Man.json"
+    "id": "The Fairy Man",
+    "originalName": "the_fairy_man",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 0,
+    "equipType": "Amulet",
     "level": 130,
     "protectFire": 5,
-    "id": "Thick Flame Necklace.json"
+    "id": "Thick Flame Necklace",
+    "originalName": "thick_flame_necklace",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 0,
+    "equipType": "Amulet",
     "level": 130,
     "protectIce": 5,
-    "id": "Thick Ice Stone Necklace.json"
+    "id": "Thick Ice Stone Necklace",
+    "originalName": "thick_ice_stone_necklace",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 0,
+    "equipType": "Amulet",
     "level": 90,
     "protectHoly": 2,
-    "id": "Thick Sacred Necklace.json"
+    "id": "Thick Sacred Necklace",
+    "originalName": "thick_sacred_necklace",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 0,
+    "equipType": "Amulet",
     "level": 130,
     "defense": 5,
-    "vocations": [{ "name": "0" }],
-    "id": "Thick Silver Necklace.json"
+    "vocations": ["0", "all"],
+    "id": "Thick Silver Necklace",
+    "originalName": "thick_silver_necklace"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 200,
     "minDamage": 180,
     "consumable": true,
-    "id": "Thigh.json"
+    "id": "Thigh",
+    "originalName": "thigh",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "maxStackSize": 600,
     "sounds": [["actions/hit"]],
     "minDamage": 30,
@@ -4878,20 +5739,23 @@
     "shootType": "smallphysical",
     "weaponType": "star",
     "weight": "5",
-    "id": "Throwing Star.json"
+    "id": "Throwing Star",
+    "originalName": "throwing_star",
+    "vocations": ["all"]
   },
   {
-    "equipType": 10,
+    "equipType": "Shoes",
     "defense": 6,
     "rarity": 4,
     "bonusSpeed": 5,
     "level": 60,
-    "vocations": [{ "name": "1" }],
-    "id": "Thunder Boots.json"
+    "vocations": ["1", "all"],
+    "id": "Thunder Boots",
+    "originalName": "thunder_boots"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "minDamage": 8,
     "rarity": 4,
@@ -4902,24 +5766,26 @@
     "level": 80,
     "weaponType": "bow",
     "weight": "2300",
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "classification": 2,
-    "id": "Thunder Bow.json"
+    "id": "Thunder Bow",
+    "originalName": "thunder_bow"
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 9,
     "bonusDistance": 2,
     "protectEnergy": 4,
     "level": 70,
     "rarity": 4,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "classification": 2,
-    "id": "Thunder Cape.json"
+    "id": "Thunder Cape",
+    "originalName": "thunder_cape"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 4,
     "twoHand": true,
@@ -4932,13 +5798,14 @@
     "level": 80,
     "weaponType": "cross",
     "weight": "2300",
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "classification": 2,
-    "id": "Thunder Crossbow.json"
+    "id": "Thunder Crossbow",
+    "originalName": "thunder_crossbow"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 2,
     "defense": 23,
@@ -4948,38 +5815,41 @@
     "hitRange": 1,
     "level": 80,
     "sounds": [["actions/hit"]],
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "elementDamage": "physical",
     "extraElementDamage": "energy",
     "weaponType": "club",
     "weight": 80,
     "classification": 2,
-    "id": "Thunder Hammer.json"
+    "id": "Thunder Hammer",
+    "originalName": "thunder_hammer"
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 7,
     "bonusDistance": 2,
     "protectEnergy": 5,
     "level": 60,
     "rarity": 4,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "classification": 2,
-    "id": "Thunder Helmet.json"
+    "id": "Thunder Helmet",
+    "originalName": "thunder_helmet"
   },
   {
-    "equipType": 7,
+    "equipType": "Pants",
     "defense": 8,
     "bonusDistance": 1,
     "protectEnergy": 3,
     "level": 60,
     "rarity": 4,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "classification": 2,
-    "id": "Thunder Legs.json"
+    "id": "Thunder Legs",
+    "originalName": "thunder_legs"
   },
   {
-    "equipType": 8,
+    "equipType": "Ammo",
     "capacity": 5,
     "container": true,
     "bonusDistance": 1,
@@ -4987,12 +5857,13 @@
     "rarity": 4,
     "defense": 2,
     "weaponType": "quiver",
-    "vocations": [{ "name": "1" }],
-    "id": "Thunder Quiver.json"
+    "vocations": ["1", "all"],
+    "id": "Thunder Quiver",
+    "originalName": "thunder_quiver"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 4,
     "sounds": [["actions/hit"]],
@@ -5008,51 +5879,62 @@
     "weight": "2300",
     "description": "",
     "level": 80,
-    "vocations": [{ "name": "3" }],
+    "vocations": ["3", "all"],
     "classification": 2,
-    "id": "Thunder Wand.json"
+    "id": "Thunder Wand",
+    "originalName": "thunder_wand"
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 6,
+    "equipType": "Ring",
     "rarity": 2,
     "bonusSpeed": 30,
     "durability": 600,
     "durabilityType": 1,
-    "id": "Time Ring.json"
+    "id": "Time Ring",
+    "originalName": "time_ring",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Tin Bar.json"
+    "id": "Tin Bar",
+    "originalName": "tin_bar",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Tin Ore.json"
+    "id": "Tin Ore",
+    "originalName": "tin_ore",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Tormentium Bar.json"
+    "id": "Tormentium Bar",
+    "originalName": "tormentium_bar",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Tormentium Ore.json"
+    "id": "Tormentium Ore",
+    "originalName": "tormentium_ore",
+    "vocations": ["all"]
   },
   {
     "iconSize": 22,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "useAnimData": [{ "runtime": 0.2 }],
     "knockback": 16,
@@ -5066,55 +5948,62 @@
     "weaponType": "sword",
     "weight": "4250",
     "description": "A masterpiece of a dwarven smith. (Atk: 4 ~ 7).",
-    "id": "Training Sword.json"
+    "id": "Training Sword",
+    "originalName": "training_sword",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "spell": "ultimate_healing",
     "rune": true,
     "level": 24,
     "magic": 4,
     "durability": 1,
-    "id": "Ultimate Healing Rune.json"
+    "id": "Ultimate Healing Rune",
+    "originalName": "ultimate_healing_rune",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 200,
     "minDamage": 900,
     "consumable": true,
     "level": 130,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "autoCollect": true,
-    "id": "Ultimate Health Potion.json"
+    "id": "Ultimate Health Potion",
+    "originalName": "ultimate_health_potion"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 200,
     "minDamage": 500,
     "consumable": true,
     "level": 130,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
+    "vocations": ["2", "3", "all"],
     "autoCollect": true,
-    "id": "Ultimate Mana Potion.json"
+    "id": "Ultimate Mana Potion",
+    "originalName": "ultimate_mana_potion"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 200,
     "minDamage": 250,
     "maxDamage": 600,
     "consumable": true,
     "level": 130,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "autoCollect": true,
-    "id": "Ultimate Spirit Potion.json"
+    "id": "Ultimate Spirit Potion",
+    "originalName": "ultimate_spirit_potion"
   },
   {
-    "equipType": 5,
+    "equipType": "Shield",
     "defense": 20,
     "bonusMagic": 4,
     "protectEarth": 5,
@@ -5124,112 +6013,138 @@
     "level": 250,
     "rarity": 5,
     "group": "Book",
-    "vocations": [{ "name": "2" }, { "name": "3" }],
-    "id": "Umbral Spellbook.json"
+    "vocations": ["2", "3", "all"],
+    "id": "Umbral Spellbook",
+    "originalName": "umbral_spellbook"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Unique Fur.json"
+    "id": "Unique Fur",
+    "originalName": "unique_fur",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Unknown Fur.json"
+    "id": "Unknown Fur",
+    "originalName": "unknown_fur",
+    "vocations": ["all"]
   },
   {
-    "equipType": 10,
+    "equipType": "Shoes",
     "defense": 4,
     "bonusMagic": 2,
     "protectDeath": 5,
     "bonusSpeed": 5,
     "level": 80,
     "rarity": 4,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
-    "id": "Vamp Boots.json"
+    "vocations": ["2", "3", "all"],
+    "id": "Vamp Boots",
+    "originalName": "vamp_boots"
   },
   {
-    "equipType": 4,
+    "equipType": "Armor",
     "defense": 8,
     "rarity": 4,
     "bonusMagic": 2,
     "protectDeath": 5,
     "protectPhysical": 2,
     "level": 80,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
+    "vocations": ["2", "3", "all"],
     "classification": 2,
-    "id": "Vamp Cape.json"
+    "id": "Vamp Cape",
+    "originalName": "vamp_cape"
   },
   {
-    "equipType": 1,
+    "equipType": "Head",
     "defense": 6,
     "bonusMagic": 2,
     "protectDeath": 2,
     "level": 80,
     "rarity": 4,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
+    "vocations": ["2", "3", "all"],
     "classification": 2,
-    "id": "Vamp Hat.json"
+    "id": "Vamp Hat",
+    "originalName": "vamp_hat"
   },
-  { "iconSize": 16, "equipType": -1, "rarity": 4, "id": "Vamp Key.json" },
   {
-    "equipType": 7,
+    "iconSize": 16,
+    "equipType": "Resource",
+    "rarity": 4,
+    "id": "Vamp Key",
+    "originalName": "vamp_key",
+    "vocations": ["all"]
+  },
+  {
+    "equipType": "Pants",
     "defense": 8,
     "rarity": 4,
     "bonusSpeed": 1,
     "level": 80,
     "protectDeath": 2,
-    "vocations": [{ "name": "2" }, { "name": "3" }],
+    "vocations": ["2", "3", "all"],
     "classification": 2,
-    "id": "Vamp Legs.json"
+    "id": "Vamp Legs",
+    "originalName": "vamp_legs"
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 0,
+    "equipType": "Amulet",
     "rarity": 4,
     "level": 80,
     "protectDeath": 3,
-    "id": "Vamp Necklace.json"
+    "id": "Vamp Necklace",
+    "originalName": "vamp_necklace",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 6,
+    "equipType": "Ring",
     "rarity": 4,
     "level": 80,
     "protectDeath": 2,
-    "id": "Vamp Ring.json"
+    "id": "Vamp Ring",
+    "originalName": "vamp_ring",
+    "vocations": ["all"]
   },
   {
-    "equipType": 5,
+    "equipType": "Shield",
     "defense": 32,
     "rarity": 4,
     "protectDeath": 10,
     "level": 80,
-    "id": "Vamp Shield.json"
+    "id": "Vamp Shield",
+    "originalName": "vamp_shield",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Vanium Bar.json"
+    "id": "Vanium Bar",
+    "originalName": "vanium_bar",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Vanium Ore.json"
+    "id": "Vanium Ore",
+    "originalName": "vanium_ore",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 2,
     "sounds": [["actions/hit"]],
@@ -5245,38 +6160,42 @@
     "weight": "2300",
     "description": "Icecold rays of moonlight shimmer on its tip (Atk: 4 ~ 7).",
     "level": 140,
-    "vocations": [{ "name": "2" }],
-    "id": "Viper Rod.json"
+    "vocations": ["2", "all"],
+    "id": "Viper Rod",
+    "originalName": "viper_rod"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "maxStackSize": 300,
     "sounds": [["actions/hit"]],
     "minDamage": 45,
     "maxDamage": 45,
     "hitRange": 8,
     "level": 80,
-    "vocations": [{ "name": "1" }],
+    "vocations": ["1", "all"],
     "elementDamage": "physical",
     "projectile": "viper-star",
     "shootType": "smallphysical",
     "weaponType": "star",
     "weight": "5",
-    "id": "Viper Star.json"
+    "id": "Viper Star",
+    "originalName": "viper_star"
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "tool": true,
     "maxStackSize": 1,
     "dropable": false,
     "rarity": 5,
-    "id": "Vip 15 Days.json"
+    "id": "Vip 15 Days",
+    "originalName": "vip_15_days",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 3,
     "sounds": [["actions/hit"]],
@@ -5292,14 +6211,15 @@
     "weight": "2300",
     "description": "",
     "level": 120,
-    "vocations": [{ "name": "3" }],
+    "vocations": ["3", "all"],
     "classification": 2,
-    "id": "Voodoo Wand.json"
+    "id": "Voodoo Wand",
+    "originalName": "voodoo_wand"
   },
   {
     "iconSize": 16,
     "durability": 256,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "sounds": [["actions/hit"]],
     "minDamage": 10,
@@ -5312,12 +6232,13 @@
     "weaponType": "rod",
     "weight": "2300",
     "description": "Icecold rays of moonlight shimmer on its tip (Atk: 13 ~ 25).",
-    "vocations": [{ "name": "2" }],
-    "id": "Wand Frost.json"
+    "vocations": ["2", "all"],
+    "id": "Wand Frost",
+    "originalName": "wand_frost"
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "rarity": 4,
     "defense": 40,
     "numOfStyles": 1,
@@ -5332,49 +6253,57 @@
     "weaponType": "sword",
     "weight": 43,
     "level": 200,
-    "vocations": [{ "name": "0" }],
+    "vocations": ["0", "all"],
     "description": "A special sword for the warlord.",
-    "id": "Warlord Sword.json"
+    "id": "Warlord Sword",
+    "originalName": "warlord_sword"
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 0,
+    "equipType": "Amulet",
     "rarity": 4,
     "level": 150,
     "protectPhysical": 5,
     "bonusMelee": 4,
     "durability": 1800,
     "durabilityType": 1,
-    "vocations": [{ "name": "0" }],
-    "id": "Weak Necklace.json"
+    "vocations": ["0", "all"],
+    "id": "Weak Necklace",
+    "originalName": "weak_necklace"
   },
   {
     "iconSize": 16,
     "buff": true,
-    "equipType": 6,
+    "equipType": "Ring",
     "rarity": 4,
     "level": 80,
     "protectFire": 2,
-    "id": "Weak Ring.json"
+    "id": "Weak Ring",
+    "originalName": "weak_ring",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 5,
     "rarity": 3,
-    "id": "White Pearl.json"
+    "id": "White Pearl",
+    "originalName": "white_pearl",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 2,
+    "equipType": "Backpack",
     "container": true,
     "capacity": 20,
-    "id": "Wolf Bagpack.json"
+    "id": "Wolf Bagpack",
+    "originalName": "wolf_bagpack",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 3,
+    "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 2,
     "defense": 12,
@@ -5387,13 +6316,14 @@
     "weight": "3250",
     "description": "A masterpiece of a dwarven smith. (Atk: 8 ~ 16).",
     "level": 20,
-    "vocations": [{ "name": "0" }],
-    "id": "Wooden Sword.json"
+    "vocations": ["0", "all"],
+    "id": "Wooden Sword",
+    "originalName": "wooden_sword"
   },
   {
     "iconSize": 32,
     "durability": 1000,
-    "equipType": 9,
+    "equipType": "Accessory",
     "numOfStyles": 1,
     "useAnimData": [{ "timings": [0.1, 0.2, 0.2, 0.2] }],
     "knockback": 22,
@@ -5403,49 +6333,63 @@
     "critChance": 0,
     "hitRange": 30,
     "sounds": [["actions/hit"]],
-    "id": "World Breaker.json"
+    "id": "World Breaker",
+    "originalName": "world_breaker",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 50,
     "material": true,
-    "id": "Worm Rest.json"
+    "id": "Worm Rest",
+    "originalName": "worm_rest",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 50,
     "material": true,
-    "id": "Worm Tooth.json"
+    "id": "Worm Tooth",
+    "originalName": "worm_tooth",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Wraithwood Log.json"
+    "id": "Wraithwood Log",
+    "originalName": "wraithwood_log",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 20,
     "material": true,
-    "id": "Wraithwood Planks.json"
+    "id": "Wraithwood Planks",
+    "originalName": "wraithwood_planks",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": 2,
+    "equipType": "Backpack",
     "container": true,
     "capacity": 20,
-    "id": "Yellow Bagpack.json"
+    "id": "Yellow Bagpack",
+    "originalName": "yellow_bagpack",
+    "vocations": ["all"]
   },
   {
     "iconSize": 16,
-    "equipType": -1,
+    "equipType": "Resource",
     "maxStackSize": 100,
     "minDamage": 40,
     "consumable": true,
-    "id": "Zillii Fish.json"
+    "id": "Zillii Fish",
+    "originalName": "zillii_fish",
+    "vocations": ["all"]
   }
 ]

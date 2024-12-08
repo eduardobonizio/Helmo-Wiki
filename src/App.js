@@ -1,4 +1,4 @@
-import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "./elements/nav/navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Monsters from "./routes/monsters/monsters";

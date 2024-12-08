@@ -67,7 +67,28 @@ jsonsInDirItems.forEach((file) => {
   console.log("Last item: ", file);
   const fileData = fs.readFileSync(path.join("./src/data/items", file));
   const json = JSON.parse(fileData.toString());
-  json.id = letrasMaiusculas(file);
+  json.id = letrasMaiusculas(file.replace(".json", ""));
+  json.originalName = file.replace(".json", "");
+  const vocs = [];
+  if (json.vocations) {
+    json.vocations.forEach((vocation) => vocs.push(vocation.name));
+  }
+  vocs.push("all");
+  json.vocations = vocs;
+  if (json.equipType && json.equipType == -1) json.equipType = "Resource";
+  if ((json.equipType && json.equipType == 0) || json.equipType == false)
+    json.equipType = "Amulet";
+
+  if (json.equipType && json.equipType == 1) json.equipType = "Head";
+  if (json.equipType && json.equipType == 2) json.equipType = "Backpack";
+  if (json.equipType && json.equipType == 3) json.equipType = "Weapon";
+  if (json.equipType && json.equipType == 4) json.equipType = "Armor";
+  if (json.equipType && json.equipType == 5) json.equipType = "Shield";
+  if (json.equipType && json.equipType == 6) json.equipType = "Ring";
+  if (json.equipType && json.equipType == 7) json.equipType = "Pants";
+  if (json.equipType && json.equipType == 8) json.equipType = "Ammo";
+  if (json.equipType && json.equipType == 9) json.equipType = "Accessory";
+  if (json.equipType && json.equipType == 10) json.equipType = "Shoes";
   items.push(json);
 });
 
