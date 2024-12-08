@@ -26,16 +26,6 @@ function NavBar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/pk">
-                Pk System
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/party">
-                Party System
-              </a>
-            </li>
-            <li className="nav-item">
               <a className="nav-link" href="/items">
                 Items
               </a>
