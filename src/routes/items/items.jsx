@@ -199,55 +199,96 @@ function Item() {
                 <p className="text-center">Level: {item.level}</p>
 
                 <p className="text-center">Slot: {item.equipType}</p>
-                {item.defense && (
-                  <p className="text-center">Defense: {item.defense || 0}</p>
+
+                {item.weaponType && item.weaponType != 0 && (
+                  <p className="text-center">Weapon Type: {item.weaponType}</p>
                 )}
-                {item.bonusDistance && (
+
+                {item.twoHand && item.twoHand != 0 && (
+                  <p className="text-center">Two Handed: Yes</p>
+                )}
+
+                {item.defense && item.defense != 0 && (
+                  <p className="text-center">Defense: {item.defense}</p>
+                )}
+
+                {item.bonusDistance && item.bonusDistance != 0 && (
                   <p className="text-center">
-                    Bonus Distance: {item.bonusDistance || 0}
+                    Bonus Distance: {item.bonusDistance}
                   </p>
                 )}
-                {item.protectPhysical && (
+
+                {item.critChance && item.critChance != 0 && (
+                  <p className="text-center">Crit Chance: {item.critChance}</p>
+                )}
+
+                {item.critMultiplier && item.critMultiplier != 0 && (
                   <p className="text-center">
-                    Protect Physical: {item.protectPhysical || 0}
+                    Crit Mult: {item.critMultiplier}
                   </p>
                 )}
-                {item.protectDeath && (
+
+                {item.hitRange && item.hitRange != 0 && (
+                  <p className="text-center">Hit Range: {item.hitRange}</p>
+                )}
+
+                {item.protectPhysical && item.protectPhysical != 0 && (
                   <p className="text-center">
-                    Protect Death: {item.protectDeath || 0}
+                    Protect Physical: {item.protectPhysical}
                   </p>
                 )}
-                {item.protectFire && (
+                {item.protectDeath && item.protectDeath != 0 && (
                   <p className="text-center">
-                    Protect Fire: {item.protectFire || 0}
+                    Protect Death: {item.protectDeath}
                   </p>
                 )}
-                {item.protectEarth && (
+                {item.protectFire && item.protectFire != 0 && (
                   <p className="text-center">
-                    Protect Earth: {item.protectEarth || 0}
+                    Protect Fire: {item.protectFire}
                   </p>
                 )}
-                {item.protectIce && (
+                {item.protectEarth && item.protectEarth != 0 && (
                   <p className="text-center">
-                    Protect Ice: {item.protectIce || 0}
+                    Protect Earth: {item.protectEarth}
                   </p>
                 )}
-                {item.protectHoly && (
+                {item.protectIce && item.protectIce != 0 && (
+                  <p className="text-center">Protect Ice: {item.protectIce}</p>
+                )}
+                {item.protectHoly && item.protectHoly != 0 && (
                   <p className="text-center">
-                    Protect Holy: {item.protectHoly || 0}
+                    Protect Holy: {item.protectHoly}
                   </p>
                 )}
-                {item.minDamage && (
-                  <p className="text-center">Min dmg: {item.minDamage || 0}</p>
-                )}
-                {item.maxDamage && (
-                  <p className="text-center">Max dmg: {item.maxDamage || 0}</p>
-                )}
-                {item.elementDamage && (
+
+                {item.extraElementDamage && item.elementDamage && (
                   <p className="text-center">
-                    Element damage: {item.elementDamage || 0}
+                    {item.elementDamage} dmage: {item.minDamage}
                   </p>
                 )}
+                {item.extraElementDamage && item.elementDamage && (
+                  <p className="text-center">
+                    {item.extraElementDamage} dmage: {item.maxDamage}
+                  </p>
+                )}
+
+                {!item.extraElementDamage &&
+                  item.minDamage &&
+                  item.minDamage != 0 && (
+                    <p className="text-center">Min dmg: {item.minDamage}</p>
+                  )}
+                {!item.extraElementDamage &&
+                  item.maxDamage &&
+                  item.maxDamage != 0 && (
+                    <p className="text-center">Max dmg: {item.maxDamage}</p>
+                  )}
+                {!item.extraElementDamage &&
+                  item.elementDamage &&
+                  item.elementDamage != 0 && (
+                    <p className="text-center">
+                      Element damage: {item.elementDamage}
+                    </p>
+                  )}
               </div>
             </div>
           ))}
