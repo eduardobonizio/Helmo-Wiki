@@ -6,7 +6,8 @@
     "material": true,
     "id": "Ambite Bar",
     "originalName": "ambite_bar",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -15,7 +16,8 @@
     "material": true,
     "id": "Ambite Ore",
     "originalName": "ambite_ore",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -23,7 +25,8 @@
     "equipType": "Amulet",
     "id": "Amulet Of Salvation",
     "originalName": "amulet_of_salvation",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 46,
@@ -40,7 +43,8 @@
     "sounds": [["actions/hit"]],
     "id": "Angelic Claymore",
     "originalName": "angelic_claymore",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 46,
@@ -57,7 +61,8 @@
     "sounds": [["actions/hit"]],
     "id": "Angel Blade",
     "originalName": "angel_blade",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -112,7 +117,8 @@
     "sounds": [["actions/hit"]],
     "id": "Assistant General",
     "originalName": "assistant_general",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -129,7 +135,8 @@
     "description": "A masterpiece of a dwarven smith. (Atk: 5 ~ 8).",
     "id": "Axe",
     "originalName": "axe",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -138,7 +145,8 @@
     "capacity": 20,
     "id": "Bagpack",
     "originalName": "bagpack",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -147,7 +155,8 @@
     "material": true,
     "id": "Balsam Log",
     "originalName": "balsam_log",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -156,7 +165,8 @@
     "material": true,
     "id": "Balsam Planks",
     "originalName": "balsam_planks",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -173,7 +183,8 @@
     "description": "Basic arrow (Atk: 3 ~ 12).",
     "id": "Basic Arrow",
     "originalName": "basic_arrow",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -191,7 +202,8 @@
     "description": "Basic bolt (Atk: 3 ~ 12).",
     "id": "Basic Bolt",
     "originalName": "basic_bolt",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -204,7 +216,8 @@
     "weight": "2300",
     "vocations": ["1", "all"],
     "id": "Basic Bow",
-    "originalName": "basic_bow"
+    "originalName": "basic_bow",
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -227,7 +240,8 @@
     "defense": 1,
     "id": "Basic Helmo",
     "originalName": "basic_helmo",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Ammo",
@@ -257,14 +271,16 @@
     "description": "Icecold rays of moonlight shimmer on its tip (Atk: 2 ~ 5).",
     "vocations": ["2", "all"],
     "id": "Basic Rod",
-    "originalName": "basic_rod"
+    "originalName": "basic_rod",
+    "level": 0
   },
   {
     "equipType": "Shield",
     "defense": 5,
     "id": "Basic Shield",
     "originalName": "basic_shield",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -281,7 +297,8 @@
     "description": "A masterpiece of a dwarven smith. (Atk: 4 ~ 7).",
     "id": "Basic Sword",
     "originalName": "basic_sword",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -300,7 +317,8 @@
     "description": "Icecold rays of moonlight shimmer on its tip (Atk: 2 ~ 5).",
     "vocations": ["3", "all"],
     "id": "Basic Wand",
-    "originalName": "basic_wand"
+    "originalName": "basic_wand",
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -310,7 +328,8 @@
     "material": true,
     "id": "Bear Paw",
     "originalName": "bear_paw",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -320,7 +339,8 @@
     "material": true,
     "id": "Bear Scalp",
     "originalName": "bear_scalp",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 32,
@@ -337,7 +357,8 @@
     "sounds": [["actions/hit"]],
     "id": "Beast Fury",
     "originalName": "beast_fury",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -346,7 +367,8 @@
     "rarity": 3,
     "id": "Black Pearl",
     "originalName": "black_pearl",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Armor",
@@ -381,13 +403,15 @@
     "maxStackSize": 200,
     "id": "Blank Rune",
     "originalName": "blank_rune",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "maxStackSize": 81,
     "id": "Blobby Ashes",
     "originalName": "blobby_ashes",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -395,7 +419,8 @@
     "maxStackSize": 20,
     "id": "Block Of Ice",
     "originalName": "block_of_ice",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -404,7 +429,8 @@
     "material": true,
     "id": "Bloodstone Bar",
     "originalName": "bloodstone_bar",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -413,7 +439,8 @@
     "material": true,
     "id": "Bloodstone Ore",
     "originalName": "bloodstone_ore",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -421,7 +448,8 @@
     "rarity": 5,
     "id": "Blue Book",
     "originalName": "blue_book",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Pants",
@@ -431,7 +459,8 @@
     "classification": 2,
     "id": "Blue Legs",
     "originalName": "blue_legs",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -476,7 +505,8 @@
     "equipType": "Shield",
     "id": "Body",
     "originalName": "body",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -516,14 +546,16 @@
     "rarity": 2,
     "id": "Bone Shield",
     "originalName": "bone_shield",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Shoes",
     "defense": 1,
     "id": "Boots Basic",
     "originalName": "boots_basic",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Shoes",
@@ -532,7 +564,8 @@
     "rarity": 3,
     "id": "Boots Of Speed",
     "originalName": "boots_of_speed",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -563,7 +596,8 @@
     "protectMana": 20,
     "id": "Bronze Amulet",
     "originalName": "bronze_amulet",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -571,7 +605,8 @@
     "rarity": 5,
     "id": "Broom",
     "originalName": "broom",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -580,7 +615,8 @@
     "material": true,
     "id": "Brown Fur",
     "originalName": "brown_fur",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -606,7 +642,8 @@
     "material": true,
     "id": "Candle Rest",
     "originalName": "candle_rest",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -615,7 +652,8 @@
     "rarity": 3,
     "id": "Candy",
     "originalName": "candy",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Shoes",
@@ -649,7 +687,8 @@
     "vocations": ["2", "3", "all"],
     "classification": 2,
     "id": "Centered Hat",
-    "originalName": "centered_hat"
+    "originalName": "centered_hat",
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -657,7 +696,8 @@
     "maxStackSize": 20,
     "id": "Chunk Of Meteor",
     "originalName": "chunk_of_meteor",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -699,7 +739,8 @@
     "material": true,
     "id": "Copper Bar",
     "originalName": "copper_bar",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -708,7 +749,8 @@
     "material": true,
     "id": "Copper Ore",
     "originalName": "copper_ore",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Armor",
@@ -754,7 +796,8 @@
     "capacity": 20,
     "id": "Corruption Bagpack",
     "originalName": "corruption_bagpack",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Shield",
@@ -894,7 +937,8 @@
     "protectPhysical": 6,
     "vocations": ["0", "all"],
     "id": "Corruption Shield",
-    "originalName": "corruption_shield"
+    "originalName": "corruption_shield",
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -925,7 +969,8 @@
     "material": true,
     "id": "Crow Beak",
     "originalName": "crow_beak",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -934,7 +979,8 @@
     "material": true,
     "id": "Crow Feather",
     "originalName": "crow_feather",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Armor",
@@ -1160,7 +1206,8 @@
     "material": true,
     "id": "Crystal Tortoiseshell",
     "originalName": "crystal_tortoiseshell",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Shoes",
@@ -1435,7 +1482,8 @@
     "protectPhysical": 10,
     "vocations": ["0", "all"],
     "id": "Cursed Shield",
-    "originalName": "cursed_shield"
+    "originalName": "cursed_shield",
+    "level": 0
   },
   {
     "equipType": "Shield",
@@ -1559,7 +1607,8 @@
     "capacity": 20,
     "id": "Dark Bagpack",
     "originalName": "dark_bagpack",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -1567,7 +1616,8 @@
     "rarity": 2,
     "id": "Dark Floor",
     "originalName": "dark_floor",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -1576,7 +1626,8 @@
     "material": true,
     "id": "Dark Fur",
     "originalName": "dark_fur",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -1585,7 +1636,8 @@
     "material": true,
     "id": "Dark Oakwood Log",
     "originalName": "dark_oakwood_log",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -1594,7 +1646,8 @@
     "material": true,
     "id": "Dark Oakwood Planks",
     "originalName": "dark_oakwood_planks",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Armor",
@@ -1624,7 +1677,8 @@
     "sounds": [["actions/hit"]],
     "id": "Demons Tongue",
     "originalName": "demons_tongue",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Armor",
@@ -1644,7 +1698,8 @@
     "capacity": 20,
     "id": "Demon Bagpack",
     "originalName": "demon_bagpack",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Shoes",
@@ -1665,7 +1720,8 @@
     "material": true,
     "id": "Demon Heart",
     "originalName": "demon_heart",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Head",
@@ -1674,7 +1730,8 @@
     "classification": 4,
     "id": "Demon Helmet",
     "originalName": "demon_helmet",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Pants",
@@ -1684,7 +1741,8 @@
     "classification": 4,
     "id": "Demon Legs",
     "originalName": "demon_legs",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Shield",
@@ -1692,7 +1750,8 @@
     "rarity": 3,
     "id": "Demon Shield",
     "originalName": "demon_shield",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 32,
@@ -1709,7 +1768,8 @@
     "sounds": [["actions/hit"]],
     "id": "Desert Rapier",
     "originalName": "desert_rapier",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -1732,7 +1792,8 @@
     "tool": true,
     "id": "Die",
     "originalName": "die",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Armor",
@@ -1753,7 +1814,8 @@
     "rarity": 5,
     "id": "Doll",
     "originalName": "doll",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -1790,7 +1852,8 @@
     "sounds": [["actions/hit"]],
     "id": "Dragons Breath",
     "originalName": "dragons_breath",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Armor",
@@ -1833,7 +1896,8 @@
     "material": true,
     "id": "Dragon Horn",
     "originalName": "dragon_horn",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -1841,7 +1905,8 @@
     "rarity": 3,
     "id": "Dragon Key",
     "originalName": "dragon_key",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Pants",
@@ -1863,7 +1928,8 @@
     "protectFire": 3,
     "id": "Dragon Necklace",
     "originalName": "dragon_necklace",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -1873,7 +1939,8 @@
     "protectFire": 2,
     "id": "Dragon Ring",
     "originalName": "dragon_ring",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -1883,7 +1950,8 @@
     "material": true,
     "id": "Dragon Scale",
     "originalName": "dragon_scale",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Armor",
@@ -1959,7 +2027,8 @@
     "rarity": 3,
     "id": "Dragon Shield",
     "originalName": "dragon_shield",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Armor",
@@ -2117,7 +2186,8 @@
     "weight": 50,
     "id": "Durable Exercise Bow",
     "originalName": "durable_exercise_bow",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2133,7 +2203,8 @@
     "weight": 50,
     "id": "Durable Exercise Melee",
     "originalName": "durable_exercise_melee",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2149,7 +2220,8 @@
     "weight": 80,
     "id": "Durable Exercise Shield",
     "originalName": "durable_exercise_shield",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2165,7 +2237,8 @@
     "weight": 50,
     "id": "Durable Exercise Wand",
     "originalName": "durable_exercise_wand",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2174,7 +2247,8 @@
     "material": true,
     "id": "Dust",
     "originalName": "dust",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Shield",
@@ -2182,7 +2256,8 @@
     "rarity": 3,
     "id": "Dwarf Shield",
     "originalName": "dwarf_shield",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2191,7 +2266,8 @@
     "material": true,
     "id": "Earthworm",
     "originalName": "earthworm",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2201,7 +2277,8 @@
     "material": true,
     "id": "Earth Crystal",
     "originalName": "earth_crystal",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2210,7 +2287,8 @@
     "capacity": 20,
     "id": "Easter Bagpack",
     "originalName": "easter_bagpack",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2219,7 +2297,8 @@
     "material": true,
     "id": "Eclipse Bar",
     "originalName": "eclipse_bar",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2228,7 +2307,8 @@
     "material": true,
     "id": "Elementium Bar",
     "originalName": "elementium_bar",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2237,7 +2317,8 @@
     "material": true,
     "id": "Elementium Ore",
     "originalName": "elementium_ore",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2246,7 +2327,8 @@
     "defense": 5,
     "id": "Emerald Ring",
     "originalName": "emerald_ring",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2317,7 +2399,8 @@
     "weight": "2300",
     "id": "Exercise Bow",
     "originalName": "exercise_bow",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2333,7 +2416,8 @@
     "weight": "2300",
     "id": "Exercise Melee",
     "originalName": "exercise_melee",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2349,7 +2433,8 @@
     "weight": 80,
     "id": "Exercise Shield",
     "originalName": "exercise_shield",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2365,7 +2450,8 @@
     "weight": "2300",
     "id": "Exercise Wand",
     "originalName": "exercise_wand",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2387,7 +2473,8 @@
     "equipType": "Ring",
     "id": "Face1",
     "originalName": "face1",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2396,7 +2483,8 @@
     "material": true,
     "id": "Faewood Log",
     "originalName": "faewood_log",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2405,7 +2493,8 @@
     "material": true,
     "id": "Faewood Planks",
     "originalName": "faewood_planks",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Armor",
@@ -2426,7 +2515,8 @@
     "capacity": 20,
     "id": "Falcon Bagpack",
     "originalName": "falcon_bagpack",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2647,7 +2737,8 @@
     "sounds": [["actions/hit"]],
     "id": "Fallen Angel Blade",
     "originalName": "fallen_angel_blade",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 26,
@@ -2664,7 +2755,8 @@
     "sounds": [["actions/hit"]],
     "id": "Fann Katana",
     "originalName": "fann_katana",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2711,7 +2803,8 @@
     "consumable": true,
     "id": "Fish",
     "originalName": "fish",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2747,7 +2840,8 @@
     "weight": "2300",
     "vocations": ["1", "all"],
     "id": "Flawed Bow",
-    "originalName": "flawed_bow"
+    "originalName": "flawed_bow",
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2833,7 +2927,8 @@
     "rarity": 5,
     "id": "Furmeros Hat",
     "originalName": "furmeros_hat",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2844,7 +2939,8 @@
     "protectLife": 20,
     "id": "Garlic Necklace",
     "originalName": "garlic_necklace",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2879,7 +2975,8 @@
     "defense": 1,
     "id": "Gloves Basic",
     "originalName": "gloves_basic",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2887,7 +2984,8 @@
     "rarity": 4,
     "id": "Goblin Key",
     "originalName": "goblin_key",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2899,7 +2997,8 @@
     "dropable": false,
     "id": "Gold",
     "originalName": "gold",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2908,7 +3007,8 @@
     "defense": 3,
     "id": "Golden Band",
     "originalName": "golden_band",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2917,7 +3017,8 @@
     "material": true,
     "id": "Gold Bar",
     "originalName": "gold_bar",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2925,7 +3026,8 @@
     "rarity": 2,
     "id": "Gold Floor",
     "originalName": "gold_floor",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2934,7 +3036,8 @@
     "material": true,
     "id": "Gold Ore",
     "originalName": "gold_ore",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -2943,14 +3046,16 @@
     "capacity": 20,
     "id": "Gray Bagpack",
     "originalName": "gray_bagpack",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
     "equipType": "Resource",
     "id": "Gray Book",
     "originalName": "gray_book",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -3060,7 +3165,8 @@
     "capacity": 20,
     "id": "Green Bagpack",
     "originalName": "green_bagpack",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -3068,7 +3174,8 @@
     "rarity": 5,
     "id": "Green Book",
     "originalName": "green_book",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Armor",
@@ -3088,7 +3195,8 @@
     "material": true,
     "id": "Green Fur",
     "originalName": "green_fur",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Head",
@@ -3146,13 +3254,15 @@
     "material": true,
     "id": "Grey Fur",
     "originalName": "grey_fur",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Pants",
     "id": "Hair1",
     "originalName": "hair1",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -3185,7 +3295,8 @@
     "description": "Contains a platinum outfit.",
     "id": "Hanger Platinum",
     "originalName": "hanger_platinum",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -3298,7 +3409,8 @@
     "material": true,
     "id": "Honey Comb",
     "originalName": "honey_comb",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -3307,7 +3419,8 @@
     "material": true,
     "id": "Human Bone",
     "originalName": "human_bone",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -3316,7 +3429,8 @@
     "material": true,
     "id": "Human Skull",
     "originalName": "human_skull",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -3367,7 +3481,8 @@
     "rarity": 2,
     "id": "Ice Cube",
     "originalName": "ice_cube",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -3406,7 +3521,8 @@
     "material": true,
     "id": "Iron Bar",
     "originalName": "iron_bar",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 28,
@@ -3423,7 +3539,8 @@
     "sounds": [["actions/hit"]],
     "id": "Iron Buldge",
     "originalName": "iron_buldge",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -3453,7 +3570,8 @@
     "material": true,
     "id": "Iron Ore",
     "originalName": "iron_ore",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 30,
@@ -3470,7 +3588,8 @@
     "sounds": [["actions/hit"]],
     "id": "Iron Scepter",
     "originalName": "iron_scepter",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -3479,7 +3598,8 @@
     "capacity": 20,
     "id": "Jewelled Bagpack",
     "originalName": "jewelled_bagpack",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -3495,7 +3615,8 @@
     "description": "A masterpiece of a dwarven smith. (Atk: 4 ~ 7).",
     "id": "Knife",
     "originalName": "knife",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -3563,7 +3684,8 @@
     "classification": 2,
     "id": "Legion Helmet",
     "originalName": "legion_helmet",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -3571,7 +3693,8 @@
     "rarity": 4,
     "id": "Library Key 1",
     "originalName": "library_key_1",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -3579,7 +3702,8 @@
     "rarity": 4,
     "id": "Library Key 2",
     "originalName": "library_key_2",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -3587,7 +3711,8 @@
     "rarity": 4,
     "id": "Library Key 3",
     "originalName": "library_key_3",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -3595,7 +3720,8 @@
     "rarity": 4,
     "id": "Library Key 4",
     "originalName": "library_key_4",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Shoes",
@@ -3604,7 +3730,8 @@
     "rarity": 5,
     "id": "Lightning Boots",
     "originalName": "lightning_boots",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Armor",
@@ -3680,7 +3807,8 @@
     "sounds": [["actions/hit"]],
     "id": "Little Red",
     "originalName": "little_red",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Armor",
@@ -3721,7 +3849,8 @@
     "material": true,
     "id": "Magewood Log",
     "originalName": "magewood_log",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -3730,7 +3859,8 @@
     "material": true,
     "id": "Magewood Planks",
     "originalName": "magewood_planks",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -3769,7 +3899,8 @@
     "description": "Icecold rays of moonlight shimmer on its tip (Atk: 2 ~ 5).",
     "vocations": ["2", "3", "all"],
     "id": "Magic Stick",
-    "originalName": "magic_stick"
+    "originalName": "magic_stick",
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -3825,7 +3956,8 @@
     "material": true,
     "id": "Maroon Fur",
     "originalName": "maroon_fur",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 30,
@@ -3842,7 +3974,8 @@
     "sounds": [["actions/hit"]],
     "id": "Mighty Hammer",
     "originalName": "mighty_hammer",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -3861,7 +3994,8 @@
     "protectHoly": 20,
     "id": "Might Ring",
     "originalName": "might_ring",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "minDamage": 1,
@@ -3880,7 +4014,8 @@
     "rarity": 2,
     "id": "Minotaur Boots",
     "originalName": "minotaur_boots",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Head",
@@ -3889,7 +4024,8 @@
     "vocations": ["0", "1", "all"],
     "classification": 1,
     "id": "Minotaur Helmet",
-    "originalName": "minotaur_helmet"
+    "originalName": "minotaur_helmet",
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -3899,7 +4035,8 @@
     "material": true,
     "id": "Minotaur Horn",
     "originalName": "minotaur_horn",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -3909,7 +4046,8 @@
     "material": true,
     "id": "Minotaur Leather",
     "originalName": "minotaur_leather",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Pants",
@@ -3917,7 +4055,8 @@
     "rarity": 2,
     "vocations": ["0", "1", "all"],
     "id": "Minotaur Legs",
-    "originalName": "minotaur_legs"
+    "originalName": "minotaur_legs",
+    "level": 0
   },
   {
     "equipType": "Shoes",
@@ -3972,7 +4111,8 @@
     "material": true,
     "id": "Minotaur Paw",
     "originalName": "minotaur_paw",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Shield",
@@ -3980,14 +4120,16 @@
     "rarity": 2,
     "id": "Minotaur Shield",
     "originalName": "minotaur_shield",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
     "equipType": "Resource",
     "id": "Mino Key",
     "originalName": "mino_key",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -3996,7 +4138,8 @@
     "material": true,
     "id": "Moonstone Ore",
     "originalName": "moonstone_ore",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -4028,7 +4171,8 @@
     "consumable": true,
     "id": "Mossabicus Fish",
     "originalName": "mossabicus_fish",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Shield",
@@ -4306,7 +4450,8 @@
     "material": true,
     "id": "Oakwood Log",
     "originalName": "oakwood_log",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -4315,7 +4460,8 @@
     "material": true,
     "id": "Oakwood Planks",
     "originalName": "oakwood_planks",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -4324,14 +4470,16 @@
     "capacity": 20,
     "id": "Orange Bagpack",
     "originalName": "orange_bagpack",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Pants",
     "defense": 1,
     "id": "Pants Basic",
     "originalName": "pants_basic",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -4387,7 +4535,8 @@
     "maxStackSize": 20,
     "id": "Piece Of Meteor",
     "originalName": "piece_of_meteor",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -4434,7 +4583,8 @@
     "material": true,
     "id": "Possessed Crystal",
     "originalName": "possessed_crystal",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -4444,7 +4594,8 @@
     "dropable": false,
     "id": "Potion Boost Skill",
     "originalName": "potion_boost_skill",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -4575,7 +4726,8 @@
     "maxStackSize": 10,
     "id": "Pumpkin",
     "originalName": "pumpkin",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -4584,7 +4736,8 @@
     "capacity": 20,
     "id": "Purple Bagpack",
     "originalName": "purple_bagpack",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -4592,7 +4745,8 @@
     "rarity": 5,
     "id": "Purple Book",
     "originalName": "purple_book",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -4601,7 +4755,8 @@
     "material": true,
     "id": "Radium Bar",
     "originalName": "radium_bar",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -4610,7 +4765,8 @@
     "material": true,
     "id": "Radium Ore",
     "originalName": "radium_ore",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -4619,7 +4775,8 @@
     "material": true,
     "id": "Redwood Log",
     "originalName": "redwood_log",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -4628,7 +4785,8 @@
     "material": true,
     "id": "Redwood Planks",
     "originalName": "redwood_planks",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -4637,7 +4795,8 @@
     "capacity": 20,
     "id": "Red Bagpack",
     "originalName": "red_bagpack",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -4645,7 +4804,8 @@
     "rarity": 5,
     "id": "Red Book",
     "originalName": "red_book",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Shoes",
@@ -4724,7 +4884,8 @@
     "maxDamage": 5,
     "id": "Ring Of Hope",
     "originalName": "ring_of_hope",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -4745,7 +4906,8 @@
     "critChance": 10,
     "id": "Ring Of Water",
     "originalName": "ring_of_water",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -4755,7 +4917,8 @@
     "hitRange": 2,
     "id": "Rope",
     "originalName": "rope",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Armor",
@@ -4859,7 +5022,8 @@
     "rarity": 3,
     "id": "Royal Shield",
     "originalName": "royal_shield",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -4906,7 +5070,8 @@
     "rarity": 4,
     "id": "Ruby Necklace",
     "originalName": "ruby_necklace",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -4916,7 +5081,8 @@
     "maxDamage": 3,
     "id": "Ruby Ring",
     "originalName": "ruby_ring",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -4935,7 +5101,8 @@
     "critChance": 5,
     "id": "Sapphire Ring",
     "originalName": "sapphire_ring",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -4946,7 +5113,8 @@
     "rarity": 5,
     "id": "Scroll Buff Exp",
     "originalName": "scroll_buff_exp",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -4969,7 +5137,8 @@
     "rarity": 5,
     "id": "Scroll Loot",
     "originalName": "scroll_loot",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -4979,7 +5148,8 @@
     "rarity": 5,
     "vocations": ["2", "3", "all"],
     "id": "Scroll Of Runes",
-    "originalName": "scroll_of_runes"
+    "originalName": "scroll_of_runes",
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -4990,7 +5160,8 @@
     "rarity": 5,
     "id": "Scroll Reset Runes",
     "originalName": "scroll_reset_runes",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -5001,14 +5172,16 @@
     "rarity": 5,
     "id": "Scroll Temple",
     "originalName": "scroll_temple",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Armor",
     "defense": 1,
     "id": "Shirt Basic",
     "originalName": "shirt_basic",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "minDamage": 1,
@@ -5017,7 +5190,8 @@
     "defense": 1,
     "id": "Shoulderpads Basic",
     "originalName": "shoulderpads_basic",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -5026,7 +5200,8 @@
     "clickUse": true,
     "id": "Shovel",
     "originalName": "shovel",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -5035,7 +5210,8 @@
     "defense": 2,
     "id": "Silver Band",
     "originalName": "silver_band",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -5052,7 +5228,8 @@
     "defense": 2,
     "id": "Skull Helmet",
     "originalName": "skull_helmet",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -5060,21 +5237,24 @@
     "rarity": 2,
     "id": "Slime Floor",
     "originalName": "slime_floor",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
     "equipType": "Resource",
     "id": "Slime Key",
     "originalName": "slime_key",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
     "equipType": "Resource",
     "id": "Slime King Crown",
     "originalName": "slime_king_crown",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -5085,7 +5265,8 @@
     "autoCollect": true,
     "id": "Small Health Potion",
     "originalName": "small_health_potion",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -5096,7 +5277,8 @@
     "autoCollect": true,
     "id": "Small Mana Potion",
     "originalName": "small_mana_potion",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -5146,7 +5328,8 @@
     "sounds": [["actions/hit"]],
     "id": "Soul Disruptor",
     "originalName": "soul_disruptor",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -5156,7 +5339,8 @@
     "material": true,
     "id": "Soul Essence",
     "originalName": "soul_essence",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -5235,7 +5419,8 @@
     "sounds": [["actions/hit"]],
     "id": "Spear Basic",
     "originalName": "spear_basic",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -5261,7 +5446,8 @@
     "material": true,
     "id": "Spellstone Bar",
     "originalName": "spellstone_bar",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -5270,7 +5456,8 @@
     "material": true,
     "id": "Spellstone Ore",
     "originalName": "spellstone_ore",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 40,
@@ -5287,7 +5474,8 @@
     "sounds": [["actions/hit"]],
     "id": "Spirit Disruptor",
     "originalName": "spirit_disruptor",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -5394,7 +5582,8 @@
     "defense": 1,
     "id": "Steel Necklace",
     "originalName": "steel_necklace",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Ammo",
@@ -5415,7 +5604,8 @@
     "defense": 1,
     "id": "Steel Ring",
     "originalName": "steel_ring",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Shield",
@@ -5423,7 +5613,8 @@
     "rarity": 2,
     "id": "Steel Shield",
     "originalName": "steel_shield",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -5432,7 +5623,8 @@
     "defense": 6,
     "id": "Stone Of Life",
     "originalName": "stone_of_life",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -5442,7 +5634,8 @@
     "maxDamage": 4,
     "id": "Stone Of Mana",
     "originalName": "stone_of_mana",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -5451,7 +5644,8 @@
     "critChance": 8,
     "id": "Stone Of Treasure",
     "originalName": "stone_of_treasure",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -5526,7 +5720,8 @@
     "capacity": 20,
     "id": "Style Bagpack",
     "originalName": "style_bagpack",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -5548,7 +5743,8 @@
     "material": true,
     "id": "Sunstone Ore",
     "originalName": "sunstone_ore",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -5630,7 +5826,8 @@
     "weight": 10,
     "vocations": ["2", "3", "all"],
     "id": "Terra Hood",
-    "originalName": "terra_hood"
+    "originalName": "terra_hood",
+    "level": 0
   },
   {
     "equipType": "Pants",
@@ -5674,7 +5871,8 @@
     "sounds": [["actions/hit"]],
     "id": "The Fairy Man",
     "originalName": "the_fairy_man",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -5724,7 +5922,8 @@
     "consumable": true,
     "id": "Thigh",
     "originalName": "thigh",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -5741,7 +5940,8 @@
     "weight": "5",
     "id": "Throwing Star",
     "originalName": "throwing_star",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Shoes",
@@ -5894,7 +6094,8 @@
     "durabilityType": 1,
     "id": "Time Ring",
     "originalName": "time_ring",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -5903,7 +6104,8 @@
     "material": true,
     "id": "Tin Bar",
     "originalName": "tin_bar",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -5912,7 +6114,8 @@
     "material": true,
     "id": "Tin Ore",
     "originalName": "tin_ore",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -5921,7 +6124,8 @@
     "material": true,
     "id": "Tormentium Bar",
     "originalName": "tormentium_bar",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -5930,7 +6134,8 @@
     "material": true,
     "id": "Tormentium Ore",
     "originalName": "tormentium_ore",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 22,
@@ -5950,7 +6155,8 @@
     "description": "A masterpiece of a dwarven smith. (Atk: 4 ~ 7).",
     "id": "Training Sword",
     "originalName": "training_sword",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -6024,7 +6230,8 @@
     "material": true,
     "id": "Unique Fur",
     "originalName": "unique_fur",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -6033,7 +6240,8 @@
     "material": true,
     "id": "Unknown Fur",
     "originalName": "unknown_fur",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Shoes",
@@ -6078,7 +6286,8 @@
     "rarity": 4,
     "id": "Vamp Key",
     "originalName": "vamp_key",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "equipType": "Pants",
@@ -6131,7 +6340,8 @@
     "material": true,
     "id": "Vanium Bar",
     "originalName": "vanium_bar",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -6140,7 +6350,8 @@
     "material": true,
     "id": "Vanium Ore",
     "originalName": "vanium_ore",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -6191,7 +6402,8 @@
     "rarity": 5,
     "id": "Vip 15 Days",
     "originalName": "vip_15_days",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -6290,7 +6502,8 @@
     "rarity": 3,
     "id": "White Pearl",
     "originalName": "white_pearl",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -6299,7 +6512,8 @@
     "capacity": 20,
     "id": "Wolf Bagpack",
     "originalName": "wolf_bagpack",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -6335,7 +6549,8 @@
     "sounds": [["actions/hit"]],
     "id": "World Breaker",
     "originalName": "world_breaker",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -6344,7 +6559,8 @@
     "material": true,
     "id": "Worm Rest",
     "originalName": "worm_rest",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -6353,7 +6569,8 @@
     "material": true,
     "id": "Worm Tooth",
     "originalName": "worm_tooth",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -6362,7 +6579,8 @@
     "material": true,
     "id": "Wraithwood Log",
     "originalName": "wraithwood_log",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -6371,7 +6589,8 @@
     "material": true,
     "id": "Wraithwood Planks",
     "originalName": "wraithwood_planks",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -6380,7 +6599,8 @@
     "capacity": 20,
     "id": "Yellow Bagpack",
     "originalName": "yellow_bagpack",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   },
   {
     "iconSize": 16,
@@ -6390,6 +6610,7 @@
     "consumable": true,
     "id": "Zillii Fish",
     "originalName": "zillii_fish",
-    "vocations": ["all"]
+    "vocations": ["all"],
+    "level": 0
   }
 ]

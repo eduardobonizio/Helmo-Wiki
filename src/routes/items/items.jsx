@@ -177,6 +177,7 @@ function Item() {
             )
               return item;
           })
+          .sort((a, b) => b.level - a.level)
           .map((item, i) => (
             <div
               className="card d-block mt-2"
@@ -193,9 +194,9 @@ function Item() {
                   ></img>
                   <h5 className="card-title text-center">{item.id}</h5>
                 </div>
-                {item.level && (
-                  <p className="text-center">Level: {item.level || 0}</p>
-                )}
+
+                <p className="text-center">Level: {item.level}</p>
+
                 <p className="text-center">Slot: {item.equipType}</p>
                 {item.defense && (
                   <p className="text-center">Defense: {item.defense || 0}</p>

@@ -75,6 +75,7 @@ jsonsInDirItems.forEach((file) => {
   }
   vocs.push("all");
   json.vocations = vocs;
+  if (!json.level) json.level = 0;
   if (json.equipType && json.equipType == -1) json.equipType = "Resource";
   if ((json.equipType && json.equipType == 0) || json.equipType == false)
     json.equipType = "Amulet";
