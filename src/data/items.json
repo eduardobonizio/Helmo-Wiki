@@ -3108,18 +3108,6 @@
   {
     "iconSize": 16,
     "equipType": "Resource",
-    "maxStackSize": 200,
-    "minDamage": 600,
-    "consumable": true,
-    "level": 80,
-    "vocations": ["0"],
-    "autoCollect": true,
-    "id": "Great Health Potion",
-    "originalName": "great_health_potion"
-  },
-  {
-    "iconSize": 16,
-    "equipType": "Resource",
     "spell": "great_iceball",
     "rune": true,
     "level": 30,
@@ -3132,31 +3120,6 @@
     "id": "Great Iceball Rune",
     "originalName": "great_iceball_rune",
     "vocations": ["all"]
-  },
-  {
-    "iconSize": 16,
-    "equipType": "Resource",
-    "maxStackSize": 200,
-    "minDamage": 350,
-    "consumable": true,
-    "level": 80,
-    "autoCollect": true,
-    "id": "Great Mana Potion",
-    "originalName": "great_mana_potion",
-    "vocations": ["all"]
-  },
-  {
-    "iconSize": 16,
-    "equipType": "Resource",
-    "maxStackSize": 200,
-    "minDamage": 150,
-    "maxDamage": 300,
-    "consumable": true,
-    "level": 80,
-    "vocations": ["1"],
-    "autoCollect": true,
-    "id": "Great Spirit Potion",
-    "originalName": "great_spirit_potion"
   },
   {
     "iconSize": 16,
@@ -3297,18 +3260,6 @@
     "originalName": "hanger_platinum",
     "vocations": ["all"],
     "level": 0
-  },
-  {
-    "iconSize": 16,
-    "equipType": "Resource",
-    "maxStackSize": 200,
-    "minDamage": 150,
-    "consumable": true,
-    "level": 20,
-    "autoCollect": true,
-    "id": "Health Potion",
-    "originalName": "health_potion",
-    "vocations": ["all"]
   },
   {
     "iconSize": 16,
@@ -3935,18 +3886,6 @@
     "hitRange": 7,
     "id": "Magic Wall Rune",
     "originalName": "magic_wall_rune",
-    "vocations": ["all"]
-  },
-  {
-    "iconSize": 16,
-    "equipType": "Resource",
-    "maxStackSize": 200,
-    "minDamage": 100,
-    "consumable": true,
-    "autoCollect": true,
-    "level": 25,
-    "id": "Mana Potion",
-    "originalName": "mana_potion",
     "vocations": ["all"]
   },
   {
@@ -4583,17 +4522,6 @@
     "material": true,
     "id": "Possessed Crystal",
     "originalName": "possessed_crystal",
-    "vocations": ["all"],
-    "level": 0
-  },
-  {
-    "iconSize": 16,
-    "equipType": "Resource",
-    "tool": true,
-    "maxStackSize": 1,
-    "dropable": false,
-    "id": "Potion Boost Skill",
-    "originalName": "potion_boost_skill",
     "vocations": ["all"],
     "level": 0
   },
@@ -5258,30 +5186,6 @@
   },
   {
     "iconSize": 16,
-    "equipType": "Resource",
-    "maxStackSize": 200,
-    "minDamage": 75,
-    "consumable": true,
-    "autoCollect": true,
-    "id": "Small Health Potion",
-    "originalName": "small_health_potion",
-    "vocations": ["all"],
-    "level": 0
-  },
-  {
-    "iconSize": 16,
-    "equipType": "Resource",
-    "maxStackSize": 200,
-    "minDamage": 50,
-    "consumable": true,
-    "autoCollect": true,
-    "id": "Small Mana Potion",
-    "originalName": "small_mana_potion",
-    "vocations": ["all"],
-    "level": 0
-  },
-  {
-    "iconSize": 16,
     "equipType": "Weapon",
     "numOfStyles": 1,
     "rarity": 5,
@@ -5671,30 +5575,6 @@
   },
   {
     "iconSize": 16,
-    "equipType": "Resource",
-    "maxStackSize": 200,
-    "minDamage": 300,
-    "consumable": true,
-    "level": 50,
-    "autoCollect": true,
-    "id": "Strong Health Potion",
-    "originalName": "strong_health_potion",
-    "vocations": ["all"]
-  },
-  {
-    "iconSize": 16,
-    "equipType": "Resource",
-    "maxStackSize": 200,
-    "minDamage": 200,
-    "consumable": true,
-    "level": 50,
-    "autoCollect": true,
-    "id": "Strong Mana Potion",
-    "originalName": "strong_mana_potion",
-    "vocations": ["all"]
-  },
-  {
-    "iconSize": 16,
     "buff": true,
     "equipType": "Amulet",
     "level": 140,
@@ -5745,30 +5625,6 @@
     "originalName": "sunstone_ore",
     "vocations": ["all"],
     "level": 0
-  },
-  {
-    "iconSize": 16,
-    "equipType": "Resource",
-    "maxStackSize": 200,
-    "minDamage": 1200,
-    "consumable": true,
-    "level": 200,
-    "vocations": ["0"],
-    "autoCollect": true,
-    "id": "Supreme Health Potion",
-    "originalName": "supreme_health_potion"
-  },
-  {
-    "iconSize": 16,
-    "equipType": "Resource",
-    "maxStackSize": 200,
-    "minDamage": 700,
-    "consumable": true,
-    "level": 200,
-    "vocations": ["2", "3"],
-    "autoCollect": true,
-    "id": "Supreme Mana Potion",
-    "originalName": "supreme_mana_potion"
   },
   {
     "iconSize": 16,
@@ -6170,43 +6026,6 @@
     "id": "Ultimate Healing Rune",
     "originalName": "ultimate_healing_rune",
     "vocations": ["all"]
-  },
-  {
-    "iconSize": 16,
-    "equipType": "Resource",
-    "maxStackSize": 200,
-    "minDamage": 900,
-    "consumable": true,
-    "level": 130,
-    "vocations": ["0"],
-    "autoCollect": true,
-    "id": "Ultimate Health Potion",
-    "originalName": "ultimate_health_potion"
-  },
-  {
-    "iconSize": 16,
-    "equipType": "Resource",
-    "maxStackSize": 200,
-    "minDamage": 500,
-    "consumable": true,
-    "level": 130,
-    "vocations": ["2", "3"],
-    "autoCollect": true,
-    "id": "Ultimate Mana Potion",
-    "originalName": "ultimate_mana_potion"
-  },
-  {
-    "iconSize": 16,
-    "equipType": "Resource",
-    "maxStackSize": 200,
-    "minDamage": 250,
-    "maxDamage": 600,
-    "consumable": true,
-    "level": 130,
-    "vocations": ["1"],
-    "autoCollect": true,
-    "id": "Ultimate Spirit Potion",
-    "originalName": "ultimate_spirit_potion"
   },
   {
     "equipType": "Shield",

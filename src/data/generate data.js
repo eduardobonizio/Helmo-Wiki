@@ -69,6 +69,7 @@ jsonsInDirItems.forEach((file) => {
   const json = JSON.parse(fileData.toString());
   json.id = letrasMaiusculas(file.replace(".json", ""));
   json.originalName = file.replace(".json", "");
+  if (json.originalName.includes("potion")) return;
   const vocs = [];
   if (json.vocations) {
     json.vocations.forEach((vocation) => vocs.push(vocation.name));
