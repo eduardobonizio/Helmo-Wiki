@@ -36,6 +36,9 @@ const monstersFix = monsters.map((monster) => {
     });
   }
 
+  const expPerHp = monster.experience / monster.maxHealth;
+  monster.expPerHp = expPerHp;
+
   if (!monster.elements) return monster;
   monster.elements.forEach((element) => {
     element.name = letrasMaiusculas(element.name);
@@ -69,7 +72,13 @@ jsonsInDirItems.forEach((file) => {
   const json = JSON.parse(fileData.toString());
   json.id = letrasMaiusculas(file.replace(".json", ""));
   json.originalName = file.replace(".json", "");
+
+  //Itens ignorados pois não são equipamentos
   if (json.originalName.includes("potion")) return;
+  if (json.originalName.includes("_bar")) return;
+  if (json.originalName.includes("_ore")) return;
+  ///////////////////////////////////////////
+
   const vocs = [];
   if (json.vocations) {
     json.vocations.forEach((vocation) => vocs.push(vocation.name));

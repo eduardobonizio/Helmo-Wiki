@@ -14,7 +14,8 @@ function Monsters() {
               <h5 className="card-title text-center">{monster.id}</h5>
               <p className="text-center">
                 HP: {monster.maxHealth} EXP: {monster.experience} SPEED:{" "}
-                {monster.speed} DEF: {monster.defense}
+                {monster.speed} DEF: {monster.defense} Exp/HP:{" "}
+                {monster.expPerHp.toFixed(2)}
               </p>
             </div>
             <ul className="list-group list-group-flush">
