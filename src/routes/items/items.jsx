@@ -287,6 +287,18 @@ function Item() {
                   </p>
                 )}
 
+                {item.bonusMelee != 0 && item.bonusMelee && (
+                  <p className="text-center">
+                    Bonus Bonus Melee: {item.bonusMelee}
+                  </p>
+                )}
+
+                {item.bonusMagic != 0 && item.bonusMagic && (
+                  <p className="text-center">
+                    Bonus Bonus Magic: {item.bonusMagic}
+                  </p>
+                )}
+
                 {item.critChance && item.critChance != 0 && (
                   <p className="text-center">Crit Chance: {item.critChance}</p>
                 )}
@@ -363,6 +375,11 @@ function Item() {
                       Element damage: {item.elementDamage}
                     </p>
                   )}
+                {item.classification != 0 && item.classification && (
+                  <p className="text-center">
+                    Classification: {item.classification}
+                  </p>
+                )}
               </div>
             </div>
           ))}
