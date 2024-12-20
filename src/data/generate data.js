@@ -24,8 +24,20 @@ const letrasMaiusculas = (text) => {
 };
 
 const monstersFix = monsters.map((monster) => {
-  if (monster.id === "night_mare") monster.id = "Nightmare";
-  if (monster.id === "night_mare_hand") monster.id = "Nightmare_Hand";
+  monster.originalName = monster.id;
+
+  if (monster.id === "night_mare") {
+    monster.id = "Nightmare";
+    monster.originalName = "night_mare";
+  }
+  if (monster.id === "night_mare_hand") {
+    monster.id = "Nightmare Hand";
+    monster.originalName = "night_mare_hand";
+  }
+  if (monster.id === "dragonLord") {
+    monster.id = "Dragon Lord";
+    monster.originalName = "dragon_lord";
+  }
 
   monster.id = letrasMaiusculas(monster.id);
 

@@ -71,6 +71,16 @@ function Monsters() {
           <div className="card d-block mt-2" style={{ width: "23rem" }} key={i}>
             <div className="card-body">
               <h5 className="card-title text-center">{monster.id}</h5>
+              <div
+                className="display-flex justify-content-center"
+                style={{ display: "flex" }}
+              >
+                <img
+                  src={`../monsters/${monster.originalName}/walk.gif`}
+                  alt={monster.id}
+                  style={{ height: "128px" }}
+                ></img>
+              </div>
               <p className="text-center">
                 HP: {monster.maxHealth} EXP: {monster.experience} SPEED:{" "}
                 {monster.speed} DEF: {monster.defense} Exp/HP:{" "}
@@ -78,7 +88,7 @@ function Monsters() {
               </p>
             </div>
             <ul className="list-group list-group-flush">
-              <li className="list-group-item">
+              <li className="list-group-item" style={{ padding: "0px" }}>
                 <table className="table">
                   <thead>
                     <tr>
@@ -104,8 +114,10 @@ function Monsters() {
                           ></img>
                           {drop.item}
                         </td>
-                        <td>{drop.chance / 1000 + "%"}</td>
-                        <td>{drop.max || 1}</td>
+                        <td style={{ textAlign: "center" }}>
+                          {drop.chance / 1000 + "%"}
+                        </td>
+                        <td style={{ textAlign: "center" }}>{drop.max || 1}</td>
                       </tr>
                     ))}
                   </tbody>
