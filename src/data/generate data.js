@@ -39,6 +39,11 @@ const monstersFix = monsters.map((monster) => {
     monster.originalName = "dragon_lord";
   }
 
+  if (monster.id === "slime_crow") {
+    monster.id = "Slime Crown";
+    monster.originalName = "slime_crown";
+  }
+
   monster.id = letrasMaiusculas(monster.id);
 
   if (monster.drops) {
