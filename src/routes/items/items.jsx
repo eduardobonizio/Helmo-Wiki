@@ -219,6 +219,17 @@ function Item() {
                 Holy
               </a>
             </li>
+            <li>
+              <a
+                className="dropdown-item"
+                href="#"
+                onClick={() => {
+                  setSortByResis("protectEnergy");
+                }}
+              >
+                Energy
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -316,6 +327,11 @@ function Item() {
                 {item.protectHoly != 0 && item.protectHoly && (
                   <p className="text-center">
                     Protect Holy: {item.protectHoly}
+                  </p>
+                )}
+                {item.protectEnergy != 0 && item.protectEnergy && (
+                  <p className="text-center">
+                    Protect Energy: {item.protectEnergy}
                   </p>
                 )}
 
