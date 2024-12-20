@@ -262,7 +262,13 @@ function Item() {
                       height: "32px",
                     }}
                   ></img>
-                  <h5 className="card-title text-center">{item.id}</h5>
+                  <h5 className="card-title text-center">
+                    {item.id}
+                    {item.twoHand && <p style={{ display: "inline" }}> 2H</p>}
+                    {item.equipType === "Weapon" && !item.twoHand && (
+                      <p style={{ display: "inline" }}> 1H</p>
+                    )}
+                  </h5>
                 </div>
 
                 <p className="text-center">Level: {item.level}</p>
