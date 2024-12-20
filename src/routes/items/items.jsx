@@ -1,7 +1,65 @@
 import items from "../../data/items.json";
 import React, { useState } from "react";
 
-React;
+const gifImg = (item) => {
+  const itensWithGif = [
+    "sanguine_axe",
+    "sanguine_blade",
+    "sanguine_boots",
+    "sanguine_bow",
+    "sanguine_crossbow",
+    "sanguine_galoshes",
+    "sanguine_greaves",
+    "sanguine_hatchet",
+    "sanguine_legs",
+    "sanguine_rod",
+    "sanguine_sword",
+    "sanguine_wand",
+    "mystic_glacier_shield",
+    "warlord_sword",
+    "blue_plasma_amulet",
+    "blue_plasma_ring",
+    "green_plasma_amulet",
+    "green_plasma_ring",
+    "red_plasma_amulet",
+    "red_plasma_ring",
+    "mystic_glacier_book",
+    "mystic_glacier_bow",
+    "mystic_glacier_crossbow",
+    "mystic_glacier_rod",
+    "mystic_glacier_sword",
+    "mystic_glacier_wand",
+    "prismatic_ring",
+    "icestorm_rod",
+    "thunder_hammer",
+    "thunder_wand",
+    "necro_rod",
+    "demon_shield",
+    "durable_exercise_bow",
+    "durable_exercise_melee",
+    "durable_exercise_shield",
+    "durable_exercise_wand",
+    "exercise_bow",
+    "exercise_melee",
+    "exercise_shield",
+    "exercise_wand",
+    "gold_floor",
+    "hanger_ghost_skeleton",
+    "hanger_platinum",
+    "moonsun",
+    "sanguine_bagpack",
+    "santa_doll",
+    "scroll_buff_exp",
+  ];
+  console.log(item.originalName);
+
+  if (itensWithGif.includes(item.originalName)) {
+    return `../items/${item.originalName}/download.gif`;
+  } else {
+    return `../items/${item.originalName}/icon.png`;
+  }
+};
+
 function Item() {
   const [classe, setClasse] = useState("-1");
   const [sortByResis, setSortByResis] = useState("all");
@@ -188,10 +246,11 @@ function Item() {
               <div className="card-body">
                 <div className="d-flex justify-content-center">
                   <img
-                    src={`../items/${item.originalName}/icon.png`}
+                    src={gifImg(item)}
                     alt={item.item}
-                    width={"32px"}
-                    height={"32px"}
+                    style={{
+                      height: "32px",
+                    }}
                   ></img>
                   <h5 className="card-title text-center">{item.id}</h5>
                 </div>
