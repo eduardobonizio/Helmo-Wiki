@@ -8,5 +8,7 @@
   "level": 35,
   "weight": 22,
 
-  "vocations": [{ "name": "2" }, { "name": "3" }]
+  "vocations": [{ "name": "2" }, { "name": "3" }],
+
+  "classification": 2
 }

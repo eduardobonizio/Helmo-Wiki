@@ -8,5 +8,7 @@
   "level": 300,
   "rarity": 5,
 
-  "vocations": [{ "name": "0" }]
+  "vocations": [{ "name": "0" }],
+
+  "classification": 4
 }

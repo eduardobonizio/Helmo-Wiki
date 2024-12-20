@@ -1,0 +1,15 @@
+{
+  "equipType": 1,
+  "defense": 9,
+  "bonusMagic": 3,
+  "rarity": 5,
+
+  "protectEarth": 7,
+  "protectPhysical": 3,
+
+  "level": 400,
+
+  "vocations": [{ "name": "3" }],
+
+  "classification": 4
+}

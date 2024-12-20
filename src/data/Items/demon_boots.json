@@ -7,5 +7,7 @@
   "bonusDefense": 2,
   "protectFire": 5,
 
-  "vocations": [{ "name": "0" }, { "name": "1" }]
+  "vocations": [{ "name": "0" }, { "name": "1" }],
+
+  "classification": 2
 }

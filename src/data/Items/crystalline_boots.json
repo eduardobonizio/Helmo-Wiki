@@ -4,5 +4,7 @@
   "level": 110,
   "protectIce": 3,
   "rarity": 4,
-  "vocations": [{ "name": "0" }]
+  "vocations": [{ "name": "0" }],
+
+  "classification": 3
 }

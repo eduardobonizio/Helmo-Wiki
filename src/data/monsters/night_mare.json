@@ -36,6 +36,7 @@
     { "item": "corruption_crossbow", "chance": 3000 },
     { "item": "corruption_quiver", "chance": 3000 },
     { "item": "corruption_bagpack", "chance": 3000 },
+    { "item": "corruption_armor", "chance": 3000 },
     { "item": "weak_necklace", "chance": 5000 }
   ],
   "collisionRects": [

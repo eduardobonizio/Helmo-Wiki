@@ -2,8 +2,8 @@
   "id": "putrified_dragon",
   "hittable": true,
   "maxDirections": 4,
-  "speed": 50,
-  "maxHealth": 55000,
+  "speed": 80,
+  "maxHealth": 120000,
   "showHealthBar": true,
   "footstepSound": "slime",
   "imgWidth": 64,
@@ -11,29 +11,25 @@
   "footstepOffsetX": 0,
   "footstepOffsetY": 34,
   "drawOrderOffsetY": 32,
-  "offsetX": -22,
+  "offsetX": -24,
   "offsetY": 0,
   "experience": 10000,
-  "defense": 25,
+  "defense": 30,
   "pushable": false,
+  "intervalResp": 3600,
   "bestiary": 30,
   "charm": 15,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 80, "max": 150 },
-    { "item": "thigh", "chance": 60000, "max": 2 },
-    { "item": "health_potion", "chance": 50000, "max": 2 },
-    { "item": "dragon_helmet", "chance": 50 },
-    { "item": "hylian_broadsword", "chance": 200 },
-    { "item": "dragon_shield", "chance": 400 },
-    { "item": "dragon_armor", "chance": 80 },
-    { "item": "dragon_legs", "chance": 80 },
-    { "item": "dragon_scale_boots", "chance": 80 },
-    { "item": "dragon_wand", "chance": 500 },
-    { "item": "dragon_key", "chance": 2 },
-    { "item": "dragon_ring", "chance": 30 },
-    { "item": "dragon_necklace", "chance": 30 },
-    { "item": "dragon_horn", "chance": 2000 },
-    { "item": "dragon_scale", "chance": 2000 }
+    { "item": "gold", "chance": 100000, "min": 2000, "max": 3000 },
+    { "item": "dragon_helmet", "chance": 1000 },
+    { "item": "dragon_shield", "chance": 1000 },
+    { "item": "dragon_armor", "chance": 1000 },
+    { "item": "dragon_legs", "chance": 1000 },
+    { "item": "dragon_scale_boots", "chance": 1000 },
+    { "item": "dragon_wand", "chance": 1000 },
+    { "item": "fear_helmet", "chance": 300 },
+    { "item": "umbral_spellbook", "chance": 200 },
+    { "item": "sanguine_galoshes", "chance": 30 }
   ],
   "collisionRects": [
     {
@@ -64,13 +60,13 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 0, "max": 400 },
+    { "attack": "melee", "interval": 2000, "min": 2000, "max": 5000 },
     {
       "attack": "fire",
-      "interval": 8000,
+      "interval": 6000,
       "chance": 30,
-      "min": 100,
-      "max": 470,
+      "min": 2000,
+      "max": 3000,
       "type": "area",
       "particle": 3,
       "length": 8,
@@ -79,19 +75,33 @@
     },
     {
       "attack": "death",
-      "interval": 8000,
+      "interval": 6000,
       "chance": 30,
-      "min": 100,
-      "max": 470,
+      "min": 2000,
+      "max": 4000,
       "type": "area",
       "particle": 37,
-      "radius": 4,
-      "target": 1,
-      "range": 7
+      "radius": 8
+    },
+    {
+      "attack": "fire",
+      "interval": 6000,
+      "chance": 30,
+      "min": 2000,
+      "max": 3000,
+      "type": "area",
+      "particle": 3,
+      "radius": 8
     }
   ],
   "defenses": [
-    { "name": "healing", "interval": 10000, "chance": 30, "min": 38, "max": 72 }
+    {
+      "name": "healing",
+      "interval": 10000,
+      "chance": 30,
+      "min": 500,
+      "max": 1200
+    }
   ],
   "elements": [
     { "name": "ice", "value": 110 },

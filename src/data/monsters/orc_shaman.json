@@ -25,7 +25,9 @@
     { "item": "noble_magic_book", "chance": 100 },
     { "item": "noble_magic_boots", "chance": 100 },
     { "item": "noble_magic_hat", "chance": 100 },
-    { "item": "noble_magic_legs", "chance": 100 }
+    { "item": "noble_magic_legs", "chance": 100 },
+    { "item": "blue_amulet", "chance": 100 },
+    { "item": "broom", "chance": 500 }
   ],
   "collisionRects": [
     {

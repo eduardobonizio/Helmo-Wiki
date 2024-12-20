@@ -16,6 +16,7 @@
   "experience": 30000,
   "defense": 86,
   "pushable": false,
+  "individualReward": true,
   "bestiary": 10,
   "charm": 50,
   "drops": [

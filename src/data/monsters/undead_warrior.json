@@ -3,7 +3,7 @@
   "hittable": true,
   "maxDirections": 4,
   "speed": 70,
-  "maxHealth": 7800,
+  "maxHealth": 8800,
   "showHealthBar": true,
   "footstepSound": "slime",
   "imgWidth": 64,
@@ -13,9 +13,10 @@
   "drawOrderOffsetY": 50,
   "offsetX": -22,
   "offsetY": 0,
-  "experience": 4800,
+  "experience": 6800,
   "defense": 75,
   "pushable": false,
+  "intervalResp": 60,
   "bestiary": 70,
   "charm": 50,
   "drops": [
@@ -26,7 +27,8 @@
     { "item": "ruby_necklace", "chance": 500 },
     { "item": "black_stone_amulet", "chance": 500 },
     { "item": "death_armor", "chance": 500 },
-    { "item": "fire_axe", "chance": 500 }
+    { "item": "fire_axe", "chance": 500 },
+    { "item": "warrior_skull", "chance": 50 }
   ],
   "collisionRects": [
     {
@@ -68,8 +70,7 @@
   "elements": [
     { "name": "earth", "value": 90 },
     { "name": "fire", "value": 90 },
-    { "name": "holy", "value": 115 },
-    { "name": "death", "value": 90 }
+    { "name": "holy", "value": 115 }
   ],
   "defenses": [
     {
@@ -89,5 +90,6 @@
       "particle": 12,
       "radius": 6
     }
-  ]
+  ],
+  "immunities": [{ "name": "death", "value": 1 }]
 }

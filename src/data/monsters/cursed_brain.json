@@ -1,0 +1,108 @@
+{
+  "id": "cursed_brain",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 80,
+  "maxHealth": 18000,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 64,
+  "imgHeight": 64,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 50,
+  "drawOrderOffsetY": 32,
+  "offsetX": -24,
+  "offsetY": 0,
+  "experience": 18000,
+  "defense": 45,
+  "pushable": false,
+  "bestiary": 105,
+  "charm": 50,
+  "intervalResp": 70,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 600, "max": 2000 },
+    { "item": "great_mana_potion", "chance": 5500, "max": 3 },
+    { "item": "great_health_potion", "chance": 5500, "max": 3 },
+    { "item": "demon_shield", "chance": 1500 },
+    { "item": "thick_silver_necklace", "chance": 50 },
+    { "item": "necro_rod", "chance": 1500 },
+    { "item": "earth_crystal", "chance": 10000 },
+    { "item": "royal_axe", "chance": 2500 },
+    { "item": "hylian_broadsword", "chance": 2000 },
+    { "item": "dust", "chance": 500, "min": 1, "max": 3 },
+    { "item": "fire_axe", "chance": 1500 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.4,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 800, "max": 2500 },
+    {
+      "attack": "death",
+      "interval": 6000,
+      "chance": 30,
+      "min": 650,
+      "max": 1500,
+      "type": "area",
+      "particle": 37,
+      "radius": 3,
+      "target": 1,
+      "range": 7
+    },
+    {
+      "attack": "physical",
+      "interval": 6000,
+      "chance": 30,
+      "min": 650,
+      "max": 1500,
+      "type": "area",
+      "particle": 8,
+      "radius": 5
+    }
+  ],
+  "defenses": [
+    {
+      "name": "mana_drain",
+      "interval": 10000,
+      "chance": 10,
+      "min": 500,
+      "max": 1000,
+      "type": "area",
+      "particle": 11,
+      "radius": 6
+    },
+    {
+      "name": "paralize",
+      "interval": 6000,
+      "chance": 10,
+      "type": "area",
+      "particle": 11,
+      "radius": 6
+    }
+  ]
+}

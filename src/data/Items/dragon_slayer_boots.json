@@ -8,5 +8,7 @@
   "bonusMelee": 2,
   "rarity": 4,
 
-  "vocations": [{ "name": "0" }]
+  "vocations": [{ "name": "0" }],
+
+  "classification": 2
 }

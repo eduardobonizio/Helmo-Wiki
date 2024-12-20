@@ -1,0 +1,29 @@
+{
+  "iconSize": 16,
+  "equipType": 3,
+  "numOfStyles": 1,
+  "rarity": 5,
+  "defense": 32,
+  "bonusMelee": 6,
+
+  "lifeLeech": 6,
+  "manaLeech": 4,
+  "classification": 4,
+
+  "minDamage": 10,
+  "maxDamage": 50,
+
+  "critMultiplier": 1.2,
+  "critChance": 10,
+
+  "hitRange": 1,
+  "sounds": [["actions/hit"]],
+  "elementDamage": "physical",
+  "extraElementDamage": "ice",
+  "weaponType": "sword",
+  "weight": 61,
+  "description": "A masterpiece of a dwarven smith. (Atk: 150 ~ 300).",
+
+  "level": 600,
+  "vocations": [{ "name": "0" }]
+}

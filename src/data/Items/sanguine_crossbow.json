@@ -1,0 +1,23 @@
+{
+  "iconSize": 16,
+  "twoHand": true,
+  "equipType": 3,
+  "numOfStyles": 1,
+  "rarity": 5,
+  "minDamage": 40,
+  "sounds": [["actions/hit"]],
+  "classification": 4,
+  "bonusDistance": 4,
+
+  "protectFire": 7,
+
+  "critMultiplier": 1.52,
+  "critChance": 20,
+  "hitRange": 7,
+  "level": 600,
+
+  "weaponType": "cross",
+  "weight": "2300",
+
+  "vocations": [{ "name": "1" }]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "putrified_demon",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 80,
+  "maxHealth": 120000,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 64,
+  "imgHeight": 64,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 48,
+  "drawOrderOffsetY": 48,
+  "offsetX": -24,
+  "offsetY": 0,
+  "experience": 10000,
+  "intervalResp": 3600,
+  "defense": 60,
+  "pushable": false,
+  "bestiary": 30,
+  "charm": 15,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 2000, "max": 3000 },
+    { "item": "great_mana_potion", "chance": 5500, "max": 3 },
+    { "item": "great_health_potion", "chance": 5500, "max": 3 },
+    { "item": "demon_shield", "chance": 2200 },
+    { "item": "agony_armor", "chance": 300 },
+    { "item": "necro_rod", "chance": 2200 },
+    { "item": "royal_axe", "chance": 2500 },
+    { "item": "hylian_broadsword", "chance": 2000 },
+    { "item": "hellfire_wand", "chance": 100 },
+    { "item": "demon_heart", "chance": 100 },
+    { "item": "dust", "chance": 500, "min": 1, "max": 3 },
+    { "item": "fire_axe", "chance": 5000 },
+    { "item": "umbral_spellbook", "chance": 200 },
+    { "item": "sanguine_greaves", "chance": 30 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.7,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 2000, "max": 8000 },
+    {
+      "attack": "fire",
+      "interval": 6000,
+      "chance": 30,
+      "min": 2000,
+      "max": 4000,
+      "type": "area",
+      "particle": 3,
+      "length": 8,
+      "spread": 3,
+      "range": 7
+    },
+    {
+      "attack": "death",
+      "interval": 6000,
+      "chance": 30,
+      "min": 4000,
+      "max": 6000,
+      "type": "area",
+      "particle": 37,
+      "radius": 8
+    },
+    {
+      "attack": "fire",
+      "interval": 6000,
+      "chance": 30,
+      "min": 2000,
+      "max": 4000,
+      "type": "area",
+      "particle": 3,
+      "radius": 8
+    }
+  ],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 15000,
+      "chance": 10,
+      "min": 500,
+      "max": 2000
+    },
+    {
+      "name": "mana_drain",
+      "interval": 15000,
+      "chance": 10,
+      "min": 500,
+      "max": 2000,
+      "type": "area",
+      "particle": 11,
+      "radius": 6
+    },
+    {
+      "name": "life_drain",
+      "interval": 15000,
+      "chance": 10,
+      "min": 500,
+      "max": 1000,
+      "type": "area",
+      "particle": 12,
+      "radius": 6
+    }
+  ],
+  "elements": [
+    { "name": "ice", "value": 110 },
+    { "name": "earth", "value": 20 },
+    { "name": "energy", "value": 80 }
+  ],
+  "immunities": [{ "name": "fire", "value": 1 }]
+}

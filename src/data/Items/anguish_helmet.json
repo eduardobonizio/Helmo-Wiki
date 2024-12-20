@@ -1,0 +1,20 @@
+{
+  "equipType": 1,
+  "defense": 11,
+
+  "protectPhysical": 5,
+  "protectEarth": 5,
+  "protectFire": 5,
+  "protectEnergy": 5,
+  "protectDeath": 5,
+  "protectHoly": 5,
+
+  "bonusDistance": 3,
+
+  "level": 400,
+  "rarity": 5,
+
+  "vocations": [{ "name": "1" }],
+
+  "classification": 4
+}

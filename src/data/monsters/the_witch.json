@@ -25,7 +25,8 @@
     { "item": "garlic_necklace", "chance": 800 },
     { "item": "silver_necklace", "chance": 200 },
     { "item": "soul_book", "chance": 200 },
-    { "item": "legion_helmet", "chance": 10 }
+    { "item": "legion_helmet", "chance": 10 },
+    { "item": "broom", "chance": 2000 }
   ],
   "collisionRects": [
     {

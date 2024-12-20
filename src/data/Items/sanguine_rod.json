@@ -1,0 +1,33 @@
+{
+  "iconSize": 16,
+  "equipType": 3,
+  "numOfStyles": 1,
+  "rarity": 5,
+
+  "sounds": [["actions/hit"]],
+
+  "lifeLeech": 8,
+  "manaLeech": 5,
+  "classification": 4,
+
+  "minDamage": 122,
+  "maxDamage": 128,
+  "hitRange": 6,
+  "bonusMagic": 6,
+  "manaCost": 25,
+
+  "protectDeath": 7,
+
+  "critMultiplier": 1.25,
+  "critChance": 20,
+
+  "elementDamage": "earth",
+  "projectile": "earth-ball",
+  "shootType": 12,
+  "weaponType": "rod",
+  "weight": 22,
+  "description": "(Atk: 122 ~ 128).",
+
+  "level": 600,
+  "vocations": [{ "name": "2" }]
+}

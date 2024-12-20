@@ -29,7 +29,8 @@
     { "item": "possessed_crystal", "chance": 300 },
     { "item": "royal_axe", "chance": 300 },
     { "item": "pharaoh_sword", "chance": 80 },
-    { "item": "death_armor", "chance": 30 }
+    { "item": "death_armor", "chance": 30 },
+    { "item": "blue_amulet", "chance": 200 }
   ],
   "collisionRects": [
     {

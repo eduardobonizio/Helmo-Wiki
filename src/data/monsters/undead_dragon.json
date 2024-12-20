@@ -3,7 +3,7 @@
   "hittable": true,
   "maxDirections": 4,
   "speed": 50,
-  "maxHealth": 14000,
+  "maxHealth": 10000,
   "showHealthBar": true,
   "footstepSound": "slime",
   "imgWidth": 64,
@@ -11,29 +11,24 @@
   "footstepOffsetX": 0,
   "footstepOffsetY": 34,
   "drawOrderOffsetY": 32,
-  "offsetX": -22,
+  "offsetX": -24,
   "offsetY": 0,
-  "experience": 13000,
+  "experience": 7000,
   "defense": 25,
   "pushable": false,
+  "intervalResp": 60,
   "bestiary": 30,
   "charm": 15,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 80, "max": 150 },
-    { "item": "thigh", "chance": 60000, "max": 2 },
+    { "item": "gold", "chance": 100000, "min": 300, "max": 1200 },
     { "item": "health_potion", "chance": 50000, "max": 2 },
     { "item": "dragon_helmet", "chance": 50 },
-    { "item": "hylian_broadsword", "chance": 200 },
-    { "item": "dragon_shield", "chance": 400 },
-    { "item": "dragon_armor", "chance": 80 },
+    { "item": "dragon_shield", "chance": 1000 },
+    { "item": "dragon_armor", "chance": 1000 },
     { "item": "dragon_legs", "chance": 80 },
     { "item": "dragon_scale_boots", "chance": 80 },
     { "item": "dragon_wand", "chance": 500 },
-    { "item": "dragon_key", "chance": 2 },
-    { "item": "dragon_ring", "chance": 30 },
-    { "item": "dragon_necklace", "chance": 30 },
-    { "item": "dragon_horn", "chance": 2000 },
-    { "item": "dragon_scale", "chance": 2000 }
+    { "item": "rotten_dragon_paw", "chance": 50 }
   ],
   "collisionRects": [
     {
@@ -64,13 +59,13 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 0, "max": 400 },
+    { "attack": "melee", "interval": 2000, "min": 300, "max": 600 },
     {
       "attack": "fire",
       "interval": 8000,
       "chance": 30,
-      "min": 100,
-      "max": 470,
+      "min": 200,
+      "max": 770,
       "type": "area",
       "particle": 3,
       "length": 8,
@@ -81,8 +76,8 @@
       "attack": "death",
       "interval": 8000,
       "chance": 30,
-      "min": 100,
-      "max": 470,
+      "min": 200,
+      "max": 670,
       "type": "area",
       "particle": 37,
       "radius": 4,
@@ -95,8 +90,11 @@
   ],
   "elements": [
     { "name": "ice", "value": 110 },
-    { "name": "earth", "value": 20 },
-    { "name": "energy", "value": 80 }
+    { "name": "holy", "value": 115 },
+    { "name": "physical", "value": 115 }
   ],
-  "immunities": [{ "name": "fire", "value": 1 }]
+  "immunities": [
+    { "name": "fire", "value": 1 },
+    { "name": "death", "value": 1 }
+  ]
 }

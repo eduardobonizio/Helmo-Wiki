@@ -1,0 +1,16 @@
+{
+  "equipType": 7,
+  "defense": 12,
+
+  "protectDeath": 6,
+  "protectPhysical": 9,
+  "bonusMelee": 4,
+  "rarity": 5,
+
+  "level": 600,
+  "vocations": [{ "name": "0" }],
+
+  "weight": 40,
+
+  "classification": 4
+}

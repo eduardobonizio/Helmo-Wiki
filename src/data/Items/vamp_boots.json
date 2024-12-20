@@ -6,5 +6,7 @@
   "bonusSpeed": 5,
   "level": 80,
   "rarity": 4,
-  "vocations": [{ "name": "2" }, { "name": "3" }]
+  "vocations": [{ "name": "2" }, { "name": "3" }],
+
+  "classification": 3
 }

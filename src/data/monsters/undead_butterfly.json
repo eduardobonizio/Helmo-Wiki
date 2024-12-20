@@ -1,0 +1,51 @@
+{
+  "id": "undead_butterfly",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 20,
+  "maxHealth": 1,
+  "deathParticle": 44,
+  "showHealthBar": true,
+  "imgWidth": 32,
+  "imgHeight": 32,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 22,
+  "drawOrderOffsetY": 16,
+  "offsetX": -8,
+  "offsetY": 0,
+  "experience": 0,
+  "defense": 0,
+  "harmless": true,
+  "bestiary": 1,
+  "charm": 0,
+  "drops": [],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.8,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0.8,
+      "numberOfDirections": 4,
+      "looping": true
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ]
+}

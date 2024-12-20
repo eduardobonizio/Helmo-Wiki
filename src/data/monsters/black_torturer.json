@@ -3,7 +3,7 @@
   "hittable": true,
   "maxDirections": 4,
   "speed": 80,
-  "maxHealth": 9000,
+  "maxHealth": 12000,
   "showHealthBar": true,
   "footstepSound": "slime",
   "imgWidth": 64,
@@ -13,14 +13,19 @@
   "drawOrderOffsetY": 50,
   "offsetX": -16,
   "offsetY": 0,
-  "experience": 6000,
+  "experience": 9000,
   "defense": 45,
   "pushable": false,
   "bestiary": 70,
   "charm": 50,
   "drops": [
     { "item": "gold", "chance": 100000, "min": 600, "max": 1200 },
-    { "item": "assassin_star", "chance": 10000, "min": 1, "max": 10 }
+    { "item": "assassin_star", "chance": 10000, "min": 1, "max": 10 },
+    { "item": "death_armor", "chance": 500 },
+    { "item": "ruby_necklace", "chance": 800 },
+    { "item": "boots_of_speed", "chance": 500 },
+    { "item": "royal_axe", "chance": 500 },
+    { "item": "breast_clip", "chance": 50 }
   ],
   "collisionRects": [
     {
@@ -46,13 +51,13 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 200, "max": 800 },
+    { "attack": "melee", "interval": 2000, "min": 500, "max": 900 },
     {
       "attack": "physical",
       "interval": 2000,
       "chance": 100,
       "range": 8,
-      "min": 200,
+      "min": 500,
       "max": 900,
       "type": "shoot",
       "anim": "death-ball",

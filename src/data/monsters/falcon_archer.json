@@ -26,13 +26,13 @@
     { "item": "dust", "chance": 1000, "min": 1, "max": 2 },
     { "item": "earth_crystal", "chance": 3000 },
     { "item": "legendary_crossbow", "chance": 800 },
-    { "item": "legendary_bow", "chance": 800 },
-    { "item": "ruby_necklace", "chance": 800 },
+    { "item": "legendary_bow", "chance": 1000 },
+    { "item": "ruby_necklace", "chance": 1000 },
     { "item": "black_stone_amulet", "chance": 800 },
-    { "item": "boots_of_speed", "chance": 500 },
+    { "item": "boots_of_speed", "chance": 800 },
     { "item": "death_armor", "chance": 500 },
-    { "item": "divine_plate", "chance": 100 },
-    { "item": "royal_cape", "chance": 500 },
+    { "item": "divine_plate", "chance": 1000 },
+    { "item": "royal_cape", "chance": 1500 },
     { "item": "orange_bagpack", "chance": 600 }
   ],
   "collisionRects": [

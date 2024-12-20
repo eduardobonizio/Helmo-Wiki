@@ -22,6 +22,7 @@
     { "item": "earth_crystal", "chance": 6000 },
     { "item": "fire_axe", "chance": 330 },
     { "item": "pretator_rod", "chance": 210 },
+    { "item": "blue_amulet", "chance": 300 },
     { "item": "blue_robe", "chance": 210 },
     { "item": "blue_legs", "chance": 210 },
     { "item": "purple_bagpack", "chance": 110 },

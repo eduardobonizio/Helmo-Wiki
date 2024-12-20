@@ -26,16 +26,17 @@
     { "item": "demon_shield", "chance": 2000 },
     { "item": "demon_boots", "chance": 50 },
     { "item": "demon_legs", "chance": 50 },
-    { "item": "thick_silver_necklace", "chance": 50 },
-    { "item": "necro_rod", "chance": 5000 },
     { "item": "earth_crystal", "chance": 20000 },
     { "item": "royal_axe", "chance": 2000 },
     { "item": "hellfire_wand", "chance": 500 },
     { "item": "dust", "chance": 500, "min": 1, "max": 3 },
-    { "item": "fire_axe", "chance": 3000 },
-    { "item": "red_robe", "chance": 3000 },
-    { "item": "red_legs", "chance": 3000 },
-    { "item": "red_boots", "chance": 3000 }
+    { "item": "red_robe", "chance": 1000 },
+    { "item": "red_legs", "chance": 1000 },
+    { "item": "red_boots", "chance": 1000 },
+    { "item": "fear_legs", "chance": 60 },
+    { "item": "dread_legs", "chance": 60 },
+    { "item": "anguish_legs", "chance": 60 },
+    { "item": "agony_legs", "chance": 60 }
   ],
   "collisionRects": [
     {
@@ -66,14 +67,14 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 400, "max": 1450 },
+    { "attack": "melee", "interval": 2000, "min": 900, "max": 2450 },
     {
       "attack": "fire",
       "interval": 2000,
       "chance": 50,
       "range": 7,
       "min": 1150,
-      "max": 1450,
+      "max": 1950,
       "type": "shoot",
       "anim": "fire-ball",
       "particle": 3
@@ -103,16 +104,18 @@
   ],
   "defenses": [
     {
-      "name": "healing",
+      "name": "paralize",
       "interval": 8000,
       "chance": 30,
-      "min": 500,
-      "max": 1200
+      "type": "area",
+      "particle": 40,
+      "length": 8,
+      "spread": 3
     },
     {
       "name": "mana_drain",
-      "interval": 15000,
-      "chance": 10,
+      "interval": 8000,
+      "chance": 30,
       "min": 90,
       "max": 160,
       "type": "area",

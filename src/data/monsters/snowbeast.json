@@ -18,12 +18,12 @@
   "bestiary": 50,
   "charm": 25,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 200, "max": 500 },
-    { "item": "hylian_broadsword", "chance": 2000 },
+    { "item": "gold", "chance": 100000, "min": 250, "max": 500 },
+    { "item": "hylian_broadsword", "chance": 3000 },
     { "item": "dust", "chance": 500, "min": 1, "max": 2 },
     { "item": "crystalline_armor", "chance": 20 },
     { "item": "boots_of_speed", "chance": 100 },
-    { "item": "blue_robe", "chance": 100 },
+    { "item": "blue_robe", "chance": 150 },
     { "item": "crystalline_ranger_legs", "chance": 30 },
     { "item": "crystalline_coif", "chance": 30 },
     { "item": "crystalline_robe", "chance": 30 },
@@ -33,7 +33,7 @@
     { "item": "crystalline_quiver", "chance": 20 },
     { "item": "black_stone_amulet", "chance": 100 },
     { "item": "thick_ice_stone_necklace", "chance": 50 },
-    { "item": "earth_crystal", "chance": 8000 }
+    { "item": "earth_crystal", "chance": 9000 }
   ],
   "collisionRects": [
     {

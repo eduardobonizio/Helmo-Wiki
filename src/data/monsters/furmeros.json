@@ -31,6 +31,7 @@
     { "item": "boots_of_speed", "chance": 70000 },
     { "item": "royal_axe", "chance": 70000 },
     { "item": "solar_axe", "chance": 50000 },
+    { "item": "umbral_spellbook", "chance": 10000 },
     { "item": "thunder_hammer", "chance": 70000 },
     { "item": "furmeros_hat", "chance": 100000 },
     { "item": "gold", "chance": 100000, "min": 1000, "max": 5000 },
@@ -65,13 +66,13 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 700, "max": 1600 },
+    { "attack": "melee", "interval": 2000, "min": 2000, "max": 5000 },
     {
       "attack": "fire",
       "interval": 4000,
       "chance": 30,
-      "min": 800,
-      "max": 1800,
+      "min": 2200,
+      "max": 6800,
       "type": "area",
       "particle": 3,
       "radius": 10
@@ -80,8 +81,8 @@
       "attack": "death",
       "interval": 4000,
       "chance": 30,
-      "min": 800,
-      "max": 1800,
+      "min": 2200,
+      "max": 6800,
       "type": "area",
       "particle": 37,
       "radius": 10
@@ -92,14 +93,14 @@
       "name": "healing",
       "interval": 8000,
       "chance": 50,
-      "min": 520,
+      "min": 1000,
       "max": 2000
     },
     {
       "name": "mana_drain",
       "interval": 8000,
       "chance": 50,
-      "min": 1000,
+      "min": 2000,
       "max": 2500,
       "type": "area",
       "particle": 12,

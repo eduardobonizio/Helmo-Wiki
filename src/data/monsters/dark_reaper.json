@@ -3,7 +3,7 @@
   "hittable": true,
   "maxDirections": 4,
   "speed": 50,
-  "maxHealth": 4200,
+  "maxHealth": 9200,
   "showHealthBar": true,
   "footstepSound": "slime",
   "imgWidth": 64,
@@ -13,8 +13,9 @@
   "drawOrderOffsetY": 50,
   "offsetX": -22,
   "offsetY": 0,
-  "experience": 5800,
+  "experience": 7800,
   "defense": 30,
+  "intervalResp": 60,
   "pushable": false,
   "bestiary": 70,
   "charm": 50,
@@ -26,6 +27,7 @@
     { "item": "boots_of_speed", "chance": 500 },
     { "item": "royal_axe", "chance": 500 },
     { "item": "control_book", "chance": 500 },
+    { "item": "reapers_hood", "chance": 50 },
     { "item": "dust", "chance": 100000, "min": 1, "max": 2 }
   ],
   "collisionRects": [
@@ -52,14 +54,14 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 200, "max": 800 },
+    { "attack": "melee", "interval": 2000, "min": 400, "max": 800 },
     {
       "attack": "death",
       "interval": 2000,
       "chance": 100,
       "range": 8,
-      "min": 100,
-      "max": 200,
+      "min": 200,
+      "max": 600,
       "type": "shoot",
       "anim": "death-ball",
       "particle": 5
@@ -68,8 +70,8 @@
       "attack": "physical",
       "interval": 6000,
       "chance": 30,
-      "min": 300,
-      "max": 600,
+      "min": 400,
+      "max": 900,
       "type": "area",
       "particle": 8,
       "length": 8,
@@ -106,5 +108,6 @@
       "min": 200,
       "max": 320
     }
-  ]
+  ],
+  "hards": [{ "name": "fire", "value": 1 }]
 }

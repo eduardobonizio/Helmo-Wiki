@@ -30,6 +30,7 @@
     { "item": "holy_armor", "chance": 80 },
     { "item": "holy_legs", "chance": 80 },
     { "item": "holy_helmet", "chance": 80 },
+    { "item": "blue_amulet", "chance": 100 },
     { "item": "dust", "chance": 500, "min": 1, "max": 2 }
   ],
   "collisionRects": [

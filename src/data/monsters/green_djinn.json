@@ -26,6 +26,7 @@
     { "item": "green_legs", "chance": 210 },
     { "item": "green_bagpack", "chance": 110 },
     { "item": "club_with_spikes", "chance": 660 },
+    { "item": "blue_amulet", "chance": 300 },
     { "item": "earth_crystal", "chance": 5500 },
     { "item": "boots_of_speed", "chance": 110 },
     { "item": "dust", "chance": 800, "min": 1, "max": 2 }

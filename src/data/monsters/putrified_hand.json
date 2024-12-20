@@ -1,0 +1,113 @@
+{
+  "id": "putrified_hand",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 80,
+  "maxHealth": 120000,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 64,
+  "imgHeight": 64,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 34,
+  "drawOrderOffsetY": 32,
+  "offsetX": -26,
+  "offsetY": -24,
+  "experience": 10000,
+  "intervalResp": 3600,
+  "defense": 40,
+  "pushable": false,
+  "bestiary": 30,
+  "charm": 15,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 2000, "max": 3000 },
+    { "item": "pretator_rod", "chance": 1500 },
+    { "item": "death_armor", "chance": 1500 },
+    { "item": "anguish_legs", "chance": 300 },
+    { "item": "ruby_necklace", "chance": 1800 },
+    { "item": "boots_of_speed", "chance": 1500 },
+    { "item": "royal_axe", "chance": 1500 },
+    { "item": "control_book", "chance": 1500 },
+    { "item": "dust", "chance": 100000, "min": 1, "max": 2 },
+    { "item": "umbral_spellbook", "chance": 200 },
+    { "item": "sanguine_boots", "chance": 30 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.7,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 2000, "max": 5000 },
+    {
+      "attack": "fire",
+      "interval": 6000,
+      "chance": 30,
+      "min": 2000,
+      "max": 4500,
+      "type": "area",
+      "particle": 3,
+      "length": 8,
+      "spread": 3,
+      "range": 7
+    },
+    {
+      "attack": "death",
+      "interval": 6000,
+      "chance": 30,
+      "min": 2000,
+      "max": 5500,
+      "type": "area",
+      "particle": 37,
+      "radius": 8
+    },
+    {
+      "attack": "fire",
+      "interval": 6000,
+      "chance": 30,
+      "min": 2000,
+      "max": 4500,
+      "type": "area",
+      "particle": 3,
+      "radius": 8
+    }
+  ],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 10000,
+      "chance": 30,
+      "min": 500,
+      "max": 12000
+    }
+  ],
+  "elements": [
+    { "name": "ice", "value": 110 },
+    { "name": "earth", "value": 20 },
+    { "name": "energy", "value": 80 }
+  ],
+  "immunities": [{ "name": "fire", "value": 1 }]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "undead_guardian",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 80,
+  "maxHealth": 20000,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 64,
+  "imgHeight": 64,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 50,
+  "drawOrderOffsetY": 50,
+  "offsetX": -22,
+  "offsetY": 0,
+  "experience": 18000,
+  "defense": 75,
+  "pushable": false,
+  "intervalResp": 120,
+  "bestiary": 70,
+  "charm": 50,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 600, "max": 1800 },
+    { "item": "boots_of_speed", "chance": 500 },
+    { "item": "royal_axe", "chance": 500 },
+    { "item": "thunder_hammer", "chance": 500 },
+    { "item": "ruby_necklace", "chance": 500 },
+    { "item": "black_stone_amulet", "chance": 500 },
+    { "item": "death_armor", "chance": 500 },
+    { "item": "fire_axe", "chance": 500 },
+    { "item": "warrior_skull", "chance": 50 },
+    { "item": "fear_armor", "chance": 60 },
+    { "item": "dread_armor", "chance": 60 },
+    { "item": "anguish_armor", "chance": 60 },
+    { "item": "agony_armor", "chance": 60 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    { "id": "walk", "totalRuntime": 0.4, "numberOfDirections": 4 },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 800, "max": 2500 },
+    {
+      "attack": "physical",
+      "interval": 2000,
+      "chance": 100,
+      "range": 8,
+      "min": 900,
+      "max": 1800,
+      "type": "shoot",
+      "anim": "death-ball",
+      "particle": 5
+    }
+  ],
+  "elements": [
+    { "name": "earth", "value": 90 },
+    { "name": "fire", "value": 90 },
+    { "name": "holy", "value": 115 },
+    { "name": "death", "value": 90 }
+  ],
+  "defenses": [
+    {
+      "name": "paralize",
+      "interval": 10000,
+      "chance": 50,
+      "type": "area",
+      "particle": 40,
+      "length": 8,
+      "spread": 3
+    },
+    {
+      "name": "life_drain",
+      "interval": 10000,
+      "chance": 20,
+      "min": 300,
+      "max": 480,
+      "type": "area",
+      "particle": 12,
+      "radius": 6
+    }
+  ]
+}

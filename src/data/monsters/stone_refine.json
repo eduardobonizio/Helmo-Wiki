@@ -83,5 +83,6 @@
     { "name": "earth", "value": 80 },
     { "name": "physical", "value": 120 },
     { "name": "ice", "value": 120 }
-  ]
+  ],
+  "hards": [{ "name": "fire", "value": 1 }]
 }

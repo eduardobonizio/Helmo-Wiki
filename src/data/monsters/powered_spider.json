@@ -27,7 +27,8 @@
     { "item": "steel_shield", "chance": 1000 },
     { "item": "earth_crystal", "chance": 4000 },
     { "item": "time_ring", "chance": 300 },
-    { "item": "steel_bow", "chance": 200 }
+    { "item": "steel_bow", "chance": 200 },
+    { "item": "blue_amulet", "chance": 100 }
   ],
   "collisionRects": [
     {

@@ -1,0 +1,13 @@
+{
+  "equipType": 7,
+  "defense": 10,
+
+  "protectDeath": 10,
+  "bonusMagic": 3,
+  "rarity": 5,
+
+  "level": 400,
+  "vocations": [{ "name": "3" }],
+
+  "classification": 4
+}

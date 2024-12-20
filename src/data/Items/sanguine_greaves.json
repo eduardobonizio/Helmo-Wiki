@@ -1,0 +1,16 @@
+{
+  "equipType": 7,
+  "defense": 11,
+
+  "protectDeath": 6,
+  "protectPhysical": 7,
+  "bonusDistance": 4,
+  "rarity": 5,
+
+  "level": 600,
+  "vocations": [{ "name": "1" }],
+
+  "weight": 40,
+
+  "classification": 4
+}

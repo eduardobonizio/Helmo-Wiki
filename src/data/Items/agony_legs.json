@@ -1,0 +1,14 @@
+{
+  "equipType": 7,
+  "defense": 10,
+
+  "protectDeath": 10,
+  "protectPhysical": 5,
+  "bonusMelee": 2,
+  "rarity": 5,
+
+  "level": 400,
+  "vocations": [{ "name": "0" }],
+
+  "classification": 4
+}

@@ -16,6 +16,7 @@
   "experience": 12000,
   "defense": 40,
   "pushable": false,
+  "intervalResp": 60,
   "bestiary": 70,
   "charm": 50,
   "drops": [
@@ -26,6 +27,7 @@
     { "item": "boots_of_speed", "chance": 500 },
     { "item": "royal_axe", "chance": 500 },
     { "item": "control_book", "chance": 500 },
+    { "item": "cursed_fingers", "chance": 50 },
     { "item": "dust", "chance": 100000, "min": 1, "max": 2 }
   ],
   "collisionRects": [
@@ -52,7 +54,7 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 0, "max": 800 },
+    { "attack": "melee", "interval": 2000, "min": 300, "max": 900 },
     {
       "attack": "death",
       "interval": 8000,

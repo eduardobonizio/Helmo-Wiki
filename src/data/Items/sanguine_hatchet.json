@@ -1,0 +1,28 @@
+{
+  "iconSize": 16,
+  "equipType": 3,
+  "numOfStyles": 1,
+  "rarity": 5,
+  "defense": 32,
+  "bonusDefense": 3,
+  "bonusMelee": 6,
+
+  "classification": 4,
+
+  "minDamage": 10,
+  "maxDamage": 48,
+
+  "critMultiplier": 1.25,
+  "critChance": 10,
+
+  "hitRange": 1,
+  "sounds": [["actions/hit"]],
+  "elementDamage": "physical",
+  "extraElementDamage": "earth",
+  "weaponType": "axe",
+  "weight": 85,
+  "description": "A masterpiece of a dwarven smith. (Atk: 150 ~ 300).",
+
+  "level": 600,
+  "vocations": [{ "name": "0" }]
+}

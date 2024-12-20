@@ -23,7 +23,8 @@
     { "item": "steel_shield", "chance": 800 },
     { "item": "steel_boots", "chance": 800 },
     { "item": "mace", "chance": 100 },
-    { "item": "green_bagpack", "chance": 600 }
+    { "item": "green_bagpack", "chance": 600 },
+    { "item": "blue_amulet", "chance": 100 }
   ],
   "collisionRects": [
     {
