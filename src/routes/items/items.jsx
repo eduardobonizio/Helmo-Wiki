@@ -51,7 +51,6 @@ const gifImg = (item) => {
     "santa_doll",
     "scroll_buff_exp",
   ];
-  console.log(item.originalName);
 
   if (itensWithGif.includes(item.originalName)) {
     return `../items/${item.originalName}/download.gif`;
