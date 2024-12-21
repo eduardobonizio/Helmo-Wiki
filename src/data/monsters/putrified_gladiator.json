@@ -14,7 +14,7 @@
   "offsetX": -22,
   "offsetY": 0,
   "experience": 10000,
-  "intervalResp": 3600,
+  "intervalResp": 1800,
   "defense": 45,
   "pushable": false,
   "bestiary": 30,
@@ -24,13 +24,14 @@
     { "item": "boots_of_speed", "chance": 1500 },
     { "item": "royal_axe", "chance": 1500 },
     { "item": "thunder_hammer", "chance": 1500 },
-    { "item": "dread_helmet", "chance": 300 },
     { "item": "ruby_necklace", "chance": 1500 },
     { "item": "black_stone_amulet", "chance": 1500 },
     { "item": "death_armor", "chance": 1500 },
     { "item": "fire_axe", "chance": 1500 },
     { "item": "umbral_spellbook", "chance": 200 },
-    { "item": "sanguine_legs", "chance": 30 }
+    { "item": "anguish_helmet", "chance": 300 },
+    { "item": "anguish_armor", "chance": 300 },
+    { "item": "anguish_legs", "chance": 300 }
   ],
   "collisionRects": [
     {

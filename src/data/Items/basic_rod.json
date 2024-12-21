@@ -1,20 +1,20 @@
 {
-  "iconSize": 16,
-  "equipType": 3,
-  "numOfStyles": 1,
-  "sounds": [["actions/hit"]],
-
-  "minDamage": 9,
-  "maxDamage": 21,
-  "hitRange": 5,
-  "manaCost": 2,
-
-  "elementDamage": "earth",
-  "projectile": "earth-ball",
-  "shootType": 13,
-  "weaponType": "rod",
-  "weight": "2300",
-  "description": "Icecold rays of moonlight shimmer on its tip (Atk: 2 ~ 5).",
-
-  "vocations": [{ "name": "2" }]
+  "id": "basic_rod",
+  "numberOfStyles": 1,
+  "maxDirections": 1,
+  "hittable": false,
+  "imgWidth": 16,
+  "imgHeight": 16,
+  "drawOrderOffsetY": 16,
+  "offsetX": 0,
+  "offsetY": 0,
+  "collisionRects": [{ "height": 16 }],
+  "animations": [
+    {
+      "id": "default",
+      "totalRuntime": 1,
+      "numberOfDirections": 1,
+      "looping": true
+    }
+  ]
 }

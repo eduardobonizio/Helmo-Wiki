@@ -1,22 +1,20 @@
 {
-  "iconSize": 16,
-  "equipType": 3,
-  "numOfStyles": 1,
-  "rarity": 5,
-  "twoHand": true,
-  "minDamage": 12,
-  "sounds": [["actions/hit"]],
-
-  "bonusDistance": 1,
-  "classification": 2,
-
-  "critMultiplier": 1.1,
-  "critChance": 4,
-  "hitRange": 6,
-
-  "level": 60,
-  "weaponType": "cross",
-  "weight": "2300",
-
-  "vocations": [{ "name": "1" }]
+  "id": "dragon_slayer_crossbow",
+  "numberOfStyles": 1,
+  "maxDirections": 1,
+  "hittable": false,
+  "imgWidth": 16,
+  "imgHeight": 16,
+  "drawOrderOffsetY": 64,
+  "offsetX": 0,
+  "offsetY": 0,
+  "collisionRects": [{ "height": 16 }],
+  "animations": [
+    {
+      "id": "default",
+      "totalRuntime": 1,
+      "numberOfDirections": 1,
+      "looping": false
+    }
+  ]
 }

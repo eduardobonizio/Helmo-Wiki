@@ -1,10 +1,19 @@
 {
-  "iconSize": 16,
-  "equipType": -1,
-  "maxStackSize": 20,
-  "spell": "ultimate_healing",
-  "rune": true,
-  "level": 24,
-  "magic": 4,
-  "durability": 1
+  "id": "default",
+  "numberOfStyles": 1,
+  "maxDirections": 1,
+  "hittable": false,
+  "imgWidth": 16,
+  "imgHeight": 16,
+  "drawOrderOffsetY": 64,
+  "offsetX": 0,
+  "offsetY": 0,
+  "animations": [
+    {
+      "id": "default",
+      "totalRuntime": 1,
+      "numberOfDirections": 1,
+      "looping": true
+    }
+  ]
 }

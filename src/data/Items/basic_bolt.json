@@ -1,16 +1,20 @@
 {
-  "iconSize": 16,
-  "equipType": 8,
-  "maxStackSize": 200,
-  "sounds": [["actions/hit"]],
-  "minDamage": 30,
-  "maxDamage": 30,
-  "critChance": 0,
-
-  "elementDamage": "physical",
-  "projectile": "basic-bolt",
-  "shootType": "smallphysical",
-  "weaponType": "bolt",
-  "weight": "5",
-  "description": "Basic bolt (Atk: 3 ~ 12)."
+  "id": "basic_bolt",
+  "numberOfStyles": 1,
+  "maxDirections": 1,
+  "hittable": false,
+  "imgWidth": 16,
+  "imgHeight": 16,
+  "drawOrderOffsetY": 64,
+  "offsetX": 0,
+  "offsetY": 0,
+  "collisionRects": [{ "height": 16 }],
+  "animations": [
+    {
+      "id": "default",
+      "totalRuntime": 1,
+      "numberOfDirections": 1,
+      "looping": false
+    }
+  ]
 }

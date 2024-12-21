@@ -1,23 +1,20 @@
 {
-  "iconSize": 16,
-  "equipType": 3,
-  "numOfStyles": 1,
-  "rarity": 2,
-  "defense": 13,
-  "classification": 1,
-
-  "minDamage": 31,
-  "maxDamage": 31,
-  "hitRange": 1,
-  "sounds": [["actions/hit"]],
-
-  "level": 40,
-  "vocations": [{ "name": "0" }],
-
-  "classification": 1,
-
-  "elementDamage": "physical",
-  "weaponType": "sword",
-  "weight": "5250",
-  "description": "A masterpiece of a dwarven smith. (Atk: 12 ~ 18)."
+  "id": "broadsword",
+  "numberOfStyles": 1,
+  "maxDirections": 1,
+  "hittable": false,
+  "imgWidth": 16,
+  "imgHeight": 16,
+  "drawOrderOffsetY": 16,
+  "offsetX": 0,
+  "offsetY": 0,
+  "collisionRects": [{ "height": 16 }],
+  "animations": [
+    {
+      "id": "default",
+      "totalRuntime": 1,
+      "numberOfDirections": 1,
+      "looping": true
+    }
+  ]
 }

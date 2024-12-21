@@ -26,6 +26,7 @@
     { "item": "ruby_necklace", "chance": 1500 },
     { "item": "holy_helmet", "chance": 500 },
     { "item": "tearing_fang", "chance": 800 },
+    { "item": "white_pearl", "chance": 200 },
     { "item": "dust", "chance": 500, "min": 1, "max": 5 }
   ],
   "collisionRects": [

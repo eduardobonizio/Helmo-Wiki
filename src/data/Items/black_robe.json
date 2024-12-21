@@ -1,15 +1,19 @@
 {
-  "equipType": 4,
-  "defense": 12,
-  "bonusMagic": 2,
-
-  "level": 150,
-  "rarity": 4,
-
-  "protectDeath": 8,
-  "protectFire": 8,
-
-  "vocations": [{ "name": "2" }, { "name": "3" }],
-
-  "classification": 2
+  "id": "default",
+  "numberOfStyles": 1,
+  "maxDirections": 1,
+  "hittable": false,
+  "imgWidth": 16,
+  "imgHeight": 16,
+  "drawOrderOffsetY": 64,
+  "offsetX": 0,
+  "offsetY": 0,
+  "animations": [
+    {
+      "id": "default",
+      "totalRuntime": 1,
+      "numberOfDirections": 1,
+      "looping": true
+    }
+  ]
 }

@@ -52,7 +52,6 @@ const gifImg = (item) => {
     "santa_doll",
     "scroll_buff_exp",
   ];
-  console.log(item);
 
   if (itensWithGif.includes(item.originalName)) {
     return `../items/${item.originalName}/download.gif`;
@@ -86,6 +85,28 @@ function Monsters() {
                 {monster.speed} DEF: {monster.defense} Exp/HP:{" "}
                 {monster.expPerHp.toFixed(2)}
               </p>
+              {monster.attacks &&
+                monster.attacks.map((attack, i) => (
+                  <p key={i}>
+                    Attack: {attack.attack}
+                    {` `} CD: {attack.interval}
+                    {` `} Min: {attack.min}
+                    {` `}Max: {attack.max}
+                    {` `}
+                    {attack.type && `Type: ${attack.type}`}
+                  </p>
+                ))}
+              {monster.defenses &&
+                monster.defenses.map((defense, i) => (
+                  <p key={i}>
+                    {(defense.name == "healing" && "Heal") ||
+                      `Attack: ${defense.name}`}
+                    {` `} CD: {defense.interval}
+                    {` `} {defense.min && `Min: ${defense.min}`}
+                    {` `} {defense.max && `Min: ${defense.max}`}
+                    {` `} {defense.type && `Type: ${defense.type}`}
+                  </p>
+                ))}
             </div>
             <ul className="list-group list-group-flush">
               <li className="list-group-item" style={{ padding: "0px" }}>

@@ -1,24 +1,19 @@
 {
-  "iconSize": 16,
-  "equipType": 3,
-  "numOfStyles": 1,
-  "rarity": 3,
-  "defense": 16,
-  "bonusMelee": 1,
-
-  "minDamage": 36,
-  "maxDamage": 36,
-  "classification": 1,
-
-  "hitRange": 1,
-  "sounds": [["actions/hit"]],
-
-  "level": 40,
-
-  "vocations": [{ "name": "0" }],
-
-  "elementDamage": "physical",
-  "weaponType": "axe",
-  "weight": 80,
-  "description": "A masterpiece of a dwarven smith. (Atk: 8 ~ 12)."
+  "id": "iron_hatchet",
+  "numberOfStyles": 1,
+  "maxDirections": 1,
+  "hittable": false,
+  "imgWidth": 16,
+  "imgHeight": 16,
+  "drawOrderOffsetY": 16,
+  "offsetX": 0,
+  "offsetY": 0,
+  "animations": [
+    {
+      "id": "default",
+      "totalRuntime": 1,
+      "numberOfDirections": 1,
+      "looping": true
+    }
+  ]
 }

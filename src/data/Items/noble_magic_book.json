@@ -1,9 +1,19 @@
 {
-  "equipType": 5,
-  "defense": 12,
-  "bonusMagic": 1,
-  "rarity": 4,
-  "level": 30,
-  "group": "Book",
-  "vocations": [{ "name": "2" }, { "name": "3" }]
+  "id": "noble_magic_book",
+  "numberOfStyles": 1,
+  "maxDirections": 1,
+  "hittable": false,
+  "imgWidth": 16,
+  "imgHeight": 16,
+  "drawOrderOffsetY": 64,
+  "offsetX": 0,
+  "offsetY": 0,
+  "animations": [
+    {
+      "id": "default",
+      "totalRuntime": 1,
+      "numberOfDirections": 1,
+      "looping": true
+    }
+  ]
 }

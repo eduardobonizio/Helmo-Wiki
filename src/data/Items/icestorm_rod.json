@@ -1,26 +1,20 @@
 {
-  "iconSize": 16,
-  "equipType": 3,
-  "numOfStyles": 1,
-  "rarity": 3,
-
-  "sounds": [["actions/hit"]],
-
-  "bonusMagic": 2,
-  "minDamage": 50,
-  "maxDamage": 55,
-  "hitRange": 7,
-  "manaCost": 10,
-
-  "elementDamage": "ice",
-  "projectile": "ice-ball",
-  "shootType": 12,
-  "weaponType": "rod",
-  "weight": "2300",
-  "description": "",
-
-  "level": 90,
-  "vocations": [{ "name": "2" }],
-
-  "classification": 2
+  "id": "icestorm_rod",
+  "numberOfStyles": 1,
+  "maxDirections": 1,
+  "hittable": false,
+  "imgWidth": 16,
+  "imgHeight": 16,
+  "drawOrderOffsetY": 64,
+  "offsetX": 0,
+  "offsetY": 0,
+  "animations": [
+    {
+      "id": "default",
+      "totalRuntime": 1.8,
+      "numberOfDirections": 1,
+      "looping": true
+    }
+  ],
+  "properties": [{ "name": "quantity", "type": "int" }]
 }

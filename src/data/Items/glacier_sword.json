@@ -1,5 +1,5 @@
 {
-  "id": "dragon_helmet",
+  "id": "glacier_sword",
   "numberOfStyles": 1,
   "maxDirections": 1,
   "hittable": false,
@@ -8,13 +8,13 @@
   "drawOrderOffsetY": 64,
   "offsetX": 0,
   "offsetY": 0,
-  "collisionRects": [{ "height": 16 }],
   "animations": [
     {
       "id": "default",
-      "totalRuntime": 1,
+      "totalRuntime": 0.8,
       "numberOfDirections": 1,
-      "looping": false
+      "looping": true
     }
-  ]
+  ],
+  "properties": [{ "name": "quantity", "type": "int" }]
 }

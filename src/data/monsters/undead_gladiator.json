@@ -21,13 +21,14 @@
   "charm": 50,
   "drops": [
     { "item": "gold", "chance": 100000, "min": 600, "max": 1200 },
-    { "item": "boots_of_speed", "chance": 500 },
-    { "item": "royal_axe", "chance": 500 },
-    { "item": "thunder_hammer", "chance": 500 },
-    { "item": "ruby_necklace", "chance": 500 },
-    { "item": "black_stone_amulet", "chance": 500 },
-    { "item": "death_armor", "chance": 500 },
-    { "item": "fire_axe", "chance": 500 },
+    { "item": "earth_crystal", "chance": 5000 },
+    { "item": "boots_of_speed", "chance": 600 },
+    { "item": "royal_axe", "chance": 1000 },
+    { "item": "thunder_hammer", "chance": 600 },
+    { "item": "ruby_necklace", "chance": 600 },
+    { "item": "black_stone_amulet", "chance": 600 },
+    { "item": "death_armor", "chance": 1000 },
+    { "item": "fire_axe", "chance": 1000 },
     { "item": "warrior_skull", "chance": 50 }
   ],
   "collisionRects": [

@@ -1,17 +1,20 @@
 {
-  "iconSize": 16,
-  "equipType": 8,
-  "maxStackSize": 200,
-  "sounds": [["actions/hit"]],
-  "minDamage": 18,
-  "maxDamage": 18,
-
-  "level": 40,
-
-  "elementDamage": "earth",
-  "projectile": "poison-arrow",
-  "shootType": "smallphysical",
-  "weaponType": "arrow",
-  "weight": "5",
-  "description": "Poison arrow (Atk: 3 ~ 12)."
+  "id": "poison_arrow",
+  "numberOfStyles": 1,
+  "maxDirections": 1,
+  "hittable": false,
+  "imgWidth": 16,
+  "imgHeight": 16,
+  "drawOrderOffsetY": 64,
+  "offsetX": 0,
+  "offsetY": 0,
+  "collisionRects": [{ "height": 16 }],
+  "animations": [
+    {
+      "id": "default",
+      "totalRuntime": 1,
+      "numberOfDirections": 1,
+      "looping": false
+    }
+  ]
 }

@@ -31,6 +31,7 @@
     { "item": "mysteries_book", "chance": 800 },
     { "item": "royal_axe", "chance": 800 },
     { "item": "purple_book", "chance": 30 },
+    { "item": "black_pearl", "chance": 200 },
     { "item": "dust", "chance": 500, "min": 1, "max": 5 }
   ],
   "collisionRects": [

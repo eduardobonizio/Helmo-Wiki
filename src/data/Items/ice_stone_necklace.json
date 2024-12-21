@@ -1,8 +1,14 @@
 {
-  "iconSize": 16,
-  "buff": true,
-  "equipType": 0,
-  "level": 100,
-  "rarity": 4,
-  "protectIce": 2
+  "id": "ice_stone_necklace",
+  "numberOfStyles": 1,
+  "maxDirections": 1,
+  "hittable": false,
+  "imgWidth": 16,
+  "imgHeight": 16,
+  "drawOrderOffsetY": 64,
+  "offsetX": 0,
+  "offsetY": 0,
+  "animations": [
+    { "id": "default", "totalRuntime": 0, "numberOfDirections": 1 }
+  ]
 }

@@ -1,22 +1,20 @@
 {
-  "iconSize": 16,
-  "durability": 256,
-  "equipType": 3,
-  "numOfStyles": 1,
-  "sounds": [["actions/hit"]],
-
-  "minDamage": 10,
-  "maxDamage": 15,
-
-  "hitRange": 8,
-  "level": 30,
-
-  "elementDamage": "ice",
-  "projectile": "ice-ball",
-  "shootType": "smallice",
-  "weaponType": "rod",
-  "weight": "2300",
-  "description": "Icecold rays of moonlight shimmer on its tip (Atk: 13 ~ 25).",
-
-  "vocations": [{ "name": "2" }]
+  "id": "wand_frost",
+  "numberOfStyles": 1,
+  "maxDirections": 1,
+  "hittable": false,
+  "imgWidth": 16,
+  "imgHeight": 16,
+  "drawOrderOffsetY": 64,
+  "offsetX": 0,
+  "offsetY": 0,
+  "collisionRects": [{ "height": 32 }],
+  "animations": [
+    {
+      "id": "default",
+      "totalRuntime": 1,
+      "numberOfDirections": 1,
+      "looping": true
+    }
+  ]
 }

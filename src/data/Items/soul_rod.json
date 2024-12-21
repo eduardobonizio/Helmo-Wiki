@@ -1,25 +1,20 @@
 {
-  "iconSize": 16,
-  "equipType": 3,
-  "numOfStyles": 1,
-  "rarity": 2,
-
-  "sounds": [["actions/hit"]],
-
-  "bonusMagic": 1,
-  "minDamage": 20,
-  "maxDamage": 31,
-  "hitRange": 6,
-  "manaCost": 5,
-
-  "elementDamage": "ice",
-  "projectile": "ice-ball",
-  "shootType": 12,
-  "weaponType": "rod",
-  "weight": "2300",
-  "description": "Icecold rays of moonlight shimmer on its tip (Atk: 4 ~ 7).",
-
-  "level": 40,
-
-  "vocations": [{ "name": "2" }]
+  "id": "soul_rod",
+  "numberOfStyles": 1,
+  "maxDirections": 1,
+  "hittable": false,
+  "imgWidth": 16,
+  "imgHeight": 16,
+  "drawOrderOffsetY": 64,
+  "offsetX": 0,
+  "offsetY": 0,
+  "collisionRects": [{ "height": 32 }],
+  "animations": [
+    {
+      "id": "default",
+      "totalRuntime": 1,
+      "numberOfDirections": 1,
+      "looping": true
+    }
+  ]
 }

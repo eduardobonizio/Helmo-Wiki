@@ -1,12 +1,20 @@
 {
-  "equipType": 4,
-  "defense": 7,
-
-  "level": 60,
-  "rarity": 4,
-  "bonusMagic": 2,
-
-  "vocations": [{ "name": "2" }, { "name": "3" }],
-
-  "classification": 2
+  "id": "green_cape",
+  "numberOfStyles": 1,
+  "maxDirections": 1,
+  "hittable": false,
+  "imgWidth": 16,
+  "imgHeight": 16,
+  "drawOrderOffsetY": 64,
+  "offsetX": 0,
+  "offsetY": 0,
+  "collisionRects": [{ "height": 16 }],
+  "animations": [
+    {
+      "id": "default",
+      "totalRuntime": 1,
+      "numberOfDirections": 1,
+      "looping": false
+    }
+  ]
 }

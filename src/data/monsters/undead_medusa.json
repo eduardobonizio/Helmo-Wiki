@@ -19,19 +19,18 @@
   "bestiary": 105,
   "charm": 50,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 200, "max": 690 },
-    { "item": "hylian_broadsword", "chance": 2000 },
-    { "item": "boots_of_speed", "chance": 100 },
-    { "item": "black_stone_amulet", "chance": 500 },
+    { "item": "gold", "chance": 100000, "min": 400, "max": 1200 },
     { "item": "earth_crystal", "chance": 5000 },
-    { "item": "green_book", "chance": 20 },
-    { "item": "viper_rod", "chance": 100 },
-    { "item": "living_armor", "chance": 100 },
-    { "item": "green_cape", "chance": 100 },
-    { "item": "green_legs", "chance": 100 },
-    { "item": "green_hat", "chance": 100 },
-    { "item": "dust", "chance": 500, "min": 1, "max": 2 },
-    { "item": "slime_floor", "chance": 50 }
+    { "item": "boots_of_speed", "chance": 600 },
+    { "item": "black_stone_amulet", "chance": 800 },
+    { "item": "terra_mantle", "chance": 800 },
+    { "item": "earth_crystal", "chance": 5000 },
+    { "item": "viper_rod", "chance": 600 },
+    { "item": "living_armor", "chance": 600 },
+    { "item": "green_cape", "chance": 600 },
+    { "item": "green_legs", "chance": 600 },
+    { "item": "green_hat", "chance": 600 },
+    { "item": "dust", "chance": 500, "min": 1, "max": 2 }
   ],
   "collisionRects": [
     {

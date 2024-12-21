@@ -21,10 +21,11 @@
   "drops": [
     { "item": "gold", "chance": 100000, "min": 600, "max": 1200 },
     { "item": "assassin_star", "chance": 10000, "min": 1, "max": 10 },
-    { "item": "death_armor", "chance": 500 },
-    { "item": "ruby_necklace", "chance": 800 },
-    { "item": "boots_of_speed", "chance": 500 },
-    { "item": "royal_axe", "chance": 500 },
+    { "item": "death_armor", "chance": 600 },
+    { "item": "ruby_necklace", "chance": 1000 },
+    { "item": "boots_of_speed", "chance": 600 },
+    { "item": "royal_axe", "chance": 600 },
+    { "item": "fire_axe", "chance": 600 },
     { "item": "breast_clip", "chance": 50 }
   ],
   "collisionRects": [

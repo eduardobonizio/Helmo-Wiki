@@ -42,7 +42,9 @@
     { "item": "blue_plasma_amulet", "chance": 2000 },
     { "item": "green_plasma_amulet", "chance": 2000 },
 
-    { "item": "dust", "chance": 5000, "min": 1, "max": 5 }
+    { "item": "dust", "chance": 5000, "min": 1, "max": 5 },
+    { "item": "white_pearl", "chance": 500 },
+    { "item": "black_pearl", "chance": 500 }
   ],
   "collisionRects": [
     {

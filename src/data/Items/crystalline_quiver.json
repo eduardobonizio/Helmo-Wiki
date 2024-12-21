@@ -1,11 +1,15 @@
 {
-  "equipType": 8,
-  "capacity": 5,
-  "container": true,
-  "bonusDistance": 2,
-  "defense": 2,
-  "level": 80,
-  "rarity": 3,
-  "weaponType": "quiver",
-  "vocations": [{ "name": "1" }]
+  "id": "crystalline_quiver",
+  "numberOfStyles": 1,
+  "maxDirections": 1,
+  "hittable": false,
+  "imgWidth": 16,
+  "imgHeight": 16,
+  "drawOrderOffsetY": 64,
+  "offsetX": 0,
+  "offsetY": 0,
+  "collisionRects": [{ "height": 16 }],
+  "animations": [
+    { "id": "default", "totalRuntime": 1, "numberOfDirections": 1 }
+  ]
 }

@@ -1,12 +1,19 @@
 {
-  "iconSize": 16,
-  "equipType": -1,
-  "maxStackSize": 200,
-  "minDamage": 250,
-  "maxDamage": 600,
-  "consumable": true,
-  "level": 130,
-
-  "vocations": [{ "name": "1" }],
-  "autoCollect": true
+  "id": "ultimate_spirit_potion",
+  "numberOfStyles": 1,
+  "maxDirections": 1,
+  "hittable": false,
+  "imgWidth": 16,
+  "imgHeight": 16,
+  "drawOrderOffsetY": 64,
+  "offsetX": 0,
+  "offsetY": 0,
+  "animations": [
+    {
+      "id": "default",
+      "totalRuntime": 1,
+      "numberOfDirections": 1,
+      "looping": false
+    }
+  ]
 }

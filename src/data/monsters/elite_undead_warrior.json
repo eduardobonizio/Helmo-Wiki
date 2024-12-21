@@ -27,7 +27,9 @@
     { "item": "fear_helmet", "chance": 60 },
     { "item": "dread_helmet", "chance": 60 },
     { "item": "anguish_helmet", "chance": 60 },
-    { "item": "agony_helmet", "chance": 60 }
+    { "item": "agony_helmet", "chance": 60 },
+    { "item": "mace", "chance": 1000 },
+    { "item": "morning_star", "chance": 1000 }
   ],
   "collisionRects": [
     {

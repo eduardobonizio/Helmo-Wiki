@@ -1,9 +1,19 @@
 {
-  "equipType": 5,
-  "defense": 13,
-  "bonusMagic": 2,
-  "level": 50,
-  "rarity": 3,
-  "group": "Book",
-  "vocations": [{ "name": "2" }, { "name": "3" }]
+  "id": "default",
+  "numberOfStyles": 1,
+  "maxDirections": 1,
+  "hittable": false,
+  "imgWidth": 16,
+  "imgHeight": 16,
+  "drawOrderOffsetY": 64,
+  "offsetX": 0,
+  "offsetY": 0,
+  "animations": [
+    {
+      "id": "default",
+      "totalRuntime": 1,
+      "numberOfDirections": 1,
+      "looping": true
+    }
+  ]
 }

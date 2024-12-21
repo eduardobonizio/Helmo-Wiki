@@ -1,21 +1,20 @@
 {
-  "iconSize": 16,
-  "twoHand": true,
-  "equipType": 3,
-  "numOfStyles": 1,
-  "rarity": 5,
-  "minDamage": 36,
-  "sounds": [["actions/hit"]],
-  "bonusDistance": 3,
-  "critMultiplier": 1.4,
-  "critChance": 18,
-  "hitRange": 7,
-  "level": 180,
-
-  "weaponType": "cross",
-  "weight": "2300",
-
-  "vocations": [{ "name": "1" }],
-
-  "classification": 4
+  "id": "mystic_glacier_crossbow",
+  "numberOfStyles": 1,
+  "maxDirections": 1,
+  "hittable": false,
+  "imgWidth": 16,
+  "imgHeight": 16,
+  "drawOrderOffsetY": 64,
+  "offsetX": 0,
+  "offsetY": 0,
+  "animations": [
+    {
+      "id": "default",
+      "totalRuntime": 1.8,
+      "numberOfDirections": 1,
+      "looping": true
+    }
+  ],
+  "properties": [{ "name": "quantity", "type": "int" }]
 }

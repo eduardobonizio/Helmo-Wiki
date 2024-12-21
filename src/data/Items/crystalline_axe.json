@@ -1,27 +1,14 @@
 {
-  "iconSize": 16,
-  "equipType": 3,
-  "numOfStyles": 1,
-  "twoHand": true,
-  "rarity": 5,
-  "defense": 25,
-  "bonusMelee": 2,
-  "critMultiplier": 1.2,
-  "critChance": 10,
-
-  "minDamage": 10,
-  "maxDamage": 35,
-
-  "level": 100,
-  "vocations": [{ "name": "0" }],
-
-  "hitRange": 1,
-  "sounds": [["actions/hit"]],
-  "elementDamage": "physical",
-  "extraElementDamage": "ice",
-  "weaponType": "axe",
-  "weight": "2250",
-  "description": "",
-
-  "classification": 3
+  "id": "crystalline_axe",
+  "numberOfStyles": 1,
+  "maxDirections": 1,
+  "hittable": false,
+  "imgWidth": 16,
+  "imgHeight": 16,
+  "drawOrderOffsetY": 64,
+  "offsetX": 0,
+  "offsetY": 0,
+  "animations": [
+    { "id": "default", "totalRuntime": 1, "numberOfDirections": 1 }
+  ]
 }

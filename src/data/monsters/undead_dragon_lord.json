@@ -22,13 +22,14 @@
   "drops": [
     { "item": "gold", "chance": 100000, "min": 300, "max": 1200 },
     { "item": "health_potion", "chance": 50000, "max": 2 },
-    { "item": "dragon_helmet", "chance": 50 },
+    { "item": "earth_crystal", "chance": 5000 },
+    { "item": "dragon_helmet", "chance": 200 },
     { "item": "hylian_broadsword", "chance": 200 },
     { "item": "dragon_shield", "chance": 1000 },
     { "item": "dragon_armor", "chance": 1000 },
     { "item": "dragon_legs", "chance": 1000 },
     { "item": "dragon_scale_boots", "chance": 80 },
-    { "item": "dragon_wand", "chance": 500 },
+    { "item": "dragon_wand", "chance": 1000 },
     { "item": "rotten_dragon_paw", "chance": 50 }
   ],
   "collisionRects": [

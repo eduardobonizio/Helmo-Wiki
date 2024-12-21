@@ -1,9 +1,19 @@
 {
-  "iconSize": 16,
-  "equipType": -1,
-  "maxStackSize": 1,
-  "tool": true,
-  "level": 30,
-  "dropable": false,
-  "rarity": 5
+  "id": "scroll_hc_100",
+  "numberOfStyles": 1,
+  "maxDirections": 1,
+  "hittable": false,
+  "imgWidth": 16,
+  "imgHeight": 16,
+  "drawOrderOffsetY": 64,
+  "offsetX": 0,
+  "offsetY": 0,
+  "animations": [
+    {
+      "id": "default",
+      "totalRuntime": 1,
+      "numberOfDirections": 1,
+      "looping": true
+    }
+  ]
 }
