@@ -1,20 +1,21 @@
 {
-  "id": "steel_bow",
-  "numberOfStyles": 1,
-  "maxDirections": 1,
-  "hittable": false,
-  "imgWidth": 16,
-  "imgHeight": 16,
-  "drawOrderOffsetY": 64,
-  "offsetX": 0,
-  "offsetY": 0,
-  "collisionRects": [{ "height": 16 }],
-  "animations": [
-    {
-      "id": "default",
-      "totalRuntime": 1,
-      "numberOfDirections": 1,
-      "looping": false
-    }
-  ]
+  "iconSize": 16,
+  "equipType": 3,
+  "minDamage": 4,
+  "numOfStyles": 1,
+
+  "rarity": 2,
+  "classification": 1,
+
+  "sounds": [["actions/hit"]],
+
+  "hitRange": 6,
+  "twoHand": true,
+  "bonusDistance": 1,
+
+  "level": 40,
+  "vocations": [{ "name": "1" }],
+
+  "weaponType": "bow",
+  "weight": 60
 }

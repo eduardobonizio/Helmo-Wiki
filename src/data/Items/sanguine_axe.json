@@ -9,8 +9,8 @@
 
   "classification": 4,
 
-  "minDamage": 10,
-  "maxDamage": 52,
+  "minDamage": 15,
+  "maxDamage": 54,
 
   "critMultiplier": 1.32,
   "critChance": 10,

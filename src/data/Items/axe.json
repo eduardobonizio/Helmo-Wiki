@@ -1,19 +1,16 @@
 {
-  "id": "axe",
-  "numberOfStyles": 1,
-  "maxDirections": 1,
-  "hittable": false,
-  "imgWidth": 16,
-  "imgHeight": 16,
-  "drawOrderOffsetY": 16,
-  "offsetX": 0,
-  "offsetY": 0,
-  "animations": [
-    {
-      "id": "default",
-      "totalRuntime": 1,
-      "numberOfDirections": 1,
-      "looping": true
-    }
-  ]
+  "iconSize": 16,
+  "equipType": 3,
+  "numOfStyles": 1,
+  "minDamage": 20,
+  "maxDamage": 21,
+  "defense": 6,
+
+  "hitRange": 1,
+  "sounds": [["actions/hit"]],
+
+  "elementDamage": "physical",
+  "weaponType": "axe",
+  "weight": "2250",
+  "description": "A masterpiece of a dwarven smith. (Atk: 5 ~ 8)."
 }

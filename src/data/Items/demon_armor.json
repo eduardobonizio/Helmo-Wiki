@@ -1,20 +1,12 @@
 {
-  "id": "demon_armor",
-  "numberOfStyles": 1,
-  "maxDirections": 1,
-  "hittable": false,
-  "imgWidth": 16,
-  "imgHeight": 16,
-  "drawOrderOffsetY": 64,
-  "offsetX": 0,
-  "offsetY": 0,
-  "collisionRects": [{ "height": 16 }],
-  "animations": [
-    {
-      "id": "default",
-      "totalRuntime": 1,
-      "numberOfDirections": 1,
-      "looping": false
-    }
-  ]
+  "equipType": 4,
+  "defense": 16,
+
+  "rarity": 4,
+  "classification": 4,
+  "protectFire": 8,
+
+  "level": 130,
+
+  "vocations": [{ "name": "0" }, { "name": "1" }]
 }

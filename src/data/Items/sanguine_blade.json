@@ -10,7 +10,7 @@
   "manaLeech": 4,
   "classification": 4,
 
-  "minDamage": 10,
+  "minDamage": 15,
   "maxDamage": 50,
 
   "critMultiplier": 1.2,

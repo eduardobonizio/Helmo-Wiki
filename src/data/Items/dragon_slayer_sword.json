@@ -1,20 +1,25 @@
 {
-  "id": "dragon_slayer_sword",
-  "numberOfStyles": 1,
-  "maxDirections": 1,
-  "hittable": false,
-  "imgWidth": 16,
-  "imgHeight": 16,
-  "drawOrderOffsetY": 16,
-  "offsetX": 0,
-  "offsetY": 0,
-  "collisionRects": [{ "height": 16 }],
-  "animations": [
-    {
-      "id": "default",
-      "totalRuntime": 1,
-      "numberOfDirections": 1,
-      "looping": false
-    }
-  ]
+  "iconSize": 16,
+  "equipType": 3,
+  "numOfStyles": 1,
+  "rarity": 4,
+  "defense": 16,
+
+  "minDamage": 30,
+  "maxDamage": 10,
+
+  "bonusMelee": 1,
+
+  "hitRange": 1,
+  "sounds": [["actions/hit"]],
+  "elementDamage": "physical",
+  "extraElementDamage": "fire",
+  "weaponType": "sword",
+  "weight": "2250",
+  "description": "A masterpiece of a dwarven smith. (Atk: 150 ~ 300).",
+
+  "level": 100,
+  "vocations": [{ "name": "0" }],
+
+  "classification": 2
 }

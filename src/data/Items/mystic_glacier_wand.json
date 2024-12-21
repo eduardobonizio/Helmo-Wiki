@@ -1,20 +1,28 @@
 {
-  "id": "mystic_glacier_wand",
-  "numberOfStyles": 1,
-  "maxDirections": 1,
-  "hittable": false,
-  "imgWidth": 16,
-  "imgHeight": 16,
-  "drawOrderOffsetY": 64,
-  "offsetX": 0,
-  "offsetY": 0,
-  "animations": [
-    {
-      "id": "default",
-      "totalRuntime": 1.8,
-      "numberOfDirections": 1,
-      "looping": true
-    }
-  ],
-  "properties": [{ "name": "quantity", "type": "int" }]
+  "iconSize": 16,
+  "equipType": 3,
+  "numOfStyles": 1,
+
+  "sounds": [["actions/hit"]],
+
+  "minDamage": 95,
+  "maxDamage": 107,
+  "hitRange": 6,
+  "bonusMagic": 4,
+  "manaCost": 22,
+
+  "critMultiplier": 1.1,
+  "critChance": 10,
+
+  "elementDamage": "ice",
+  "projectile": "ice-ball",
+  "shootType": 12,
+  "weaponType": "wand",
+  "weight": "2300",
+  "description": "Icecold rays of moonlight shimmer on its tip (Atk: 20 ~ 30).",
+
+  "level": 170,
+  "vocations": [{ "name": "3" }],
+
+  "classification": 4
 }

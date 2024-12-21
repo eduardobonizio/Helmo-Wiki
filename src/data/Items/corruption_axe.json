@@ -1,19 +1,27 @@
 {
-  "id": "corruption_axe",
-  "numberOfStyles": 1,
-  "maxDirections": 1,
-  "hittable": false,
-  "imgWidth": 16,
-  "imgHeight": 16,
-  "drawOrderOffsetY": 64,
-  "offsetX": 0,
-  "offsetY": 0,
-  "animations": [
-    {
-      "id": "default",
-      "totalRuntime": 1,
-      "numberOfDirections": 1,
-      "looping": true
-    }
-  ]
+  "iconSize": 16,
+  "equipType": 3,
+  "numOfStyles": 1,
+  "rarity": 5,
+  "defense": 35,
+  "bonusMelee": 5,
+  "critMultiplier": 1.4,
+  "critChance": 10,
+  "twoHand": true,
+
+  "classification": 4,
+
+  "minDamage": 20,
+  "maxDamage": 45,
+
+  "level": 200,
+  "vocations": [{ "name": "0" }],
+
+  "hitRange": 1,
+  "sounds": [["actions/hit"]],
+  "elementDamage": "physical",
+  "extraElementDamage": "fire",
+  "weaponType": "axe",
+  "weight": "2250",
+  "description": "A masterpiece of a dwarven smith. (Atk: 4 ~ 7)."
 }

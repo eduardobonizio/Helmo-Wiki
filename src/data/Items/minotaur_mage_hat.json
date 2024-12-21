@@ -1,20 +1,13 @@
 {
-  "id": "minotaur_mage_hat",
-  "numberOfStyles": 1,
-  "maxDirections": 1,
-  "hittable": false,
-  "imgWidth": 16,
-  "imgHeight": 16,
-  "drawOrderOffsetY": 64,
-  "offsetX": 0,
-  "offsetY": 0,
-  "collisionRects": [{ "height": 16 }],
-  "animations": [
-    {
-      "id": "default",
-      "totalRuntime": 1,
-      "numberOfDirections": 1,
-      "looping": false
-    }
-  ]
+  "equipType": 1,
+  "defense": 3,
+  "bonusMagic": 1,
+  "rarity": 4,
+  "level": 20,
+
+  "protectEnergy": 3,
+
+  "vocations": [{ "name": "2" }, { "name": "3" }],
+
+  "classification": 1
 }

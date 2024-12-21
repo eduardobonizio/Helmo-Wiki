@@ -11,7 +11,7 @@
   "manaLeech": 4,
   "classification": 4,
 
-  "minDamage": 8,
+  "minDamage": 15,
   "maxDamage": 52,
 
   "critMultiplier": 1.2,

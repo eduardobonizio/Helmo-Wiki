@@ -1,19 +1,11 @@
 {
-  "id": "dragon_scale_shield",
-  "numberOfStyles": 1,
-  "maxDirections": 1,
-  "hittable": false,
-  "imgWidth": 16,
-  "imgHeight": 16,
-  "drawOrderOffsetY": 64,
-  "offsetX": 0,
-  "offsetY": 0,
-  "animations": [
-    {
-      "id": "default",
-      "totalRuntime": 1,
-      "numberOfDirections": 1,
-      "looping": true
-    }
-  ]
+  "equipType": 5,
+  "defense": 30,
+  "level": 50,
+
+  "rarity": 4,
+
+  "protectEarth": 10,
+
+  "vocations": [{ "name": "0" }]
 }

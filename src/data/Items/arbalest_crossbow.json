@@ -1,19 +1,24 @@
 {
-  "id": "default",
-  "numberOfStyles": 1,
-  "maxDirections": 1,
-  "hittable": false,
-  "imgWidth": 16,
-  "imgHeight": 16,
-  "drawOrderOffsetY": 64,
-  "offsetX": 0,
-  "offsetY": 0,
-  "animations": [
-    {
-      "id": "default",
-      "totalRuntime": 1,
-      "numberOfDirections": 1,
-      "looping": true
-    }
-  ]
+  "iconSize": 16,
+  "equipType": 3,
+  "numOfStyles": 1,
+  "rarity": 5,
+  "twoHand": true,
+  "minDamage": 20,
+  "rarity": 4,
+  "sounds": [["actions/hit"]],
+
+  "bonusDistance": 2,
+
+  "critMultiplier": 1.2,
+  "critChance": 10,
+  "hitRange": 7,
+  "level": 100,
+
+  "weaponType": "cross",
+  "weight": "2300",
+
+  "vocations": [{ "name": "1" }],
+
+  "classification": 3
 }

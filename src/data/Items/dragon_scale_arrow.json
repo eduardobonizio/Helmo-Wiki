@@ -1,20 +1,19 @@
 {
-  "id": "dragon_scale_arrow",
-  "numberOfStyles": 1,
-  "maxDirections": 1,
-  "hittable": false,
-  "imgWidth": 16,
-  "imgHeight": 16,
-  "drawOrderOffsetY": 64,
-  "offsetX": 0,
-  "offsetY": 0,
-  "collisionRects": [{ "height": 16 }],
-  "animations": [
-    {
-      "id": "default",
-      "totalRuntime": 1,
-      "numberOfDirections": 1,
-      "looping": false
-    }
-  ]
+  "iconSize": 16,
+  "equipType": 8,
+  "maxStackSize": 200,
+
+  "sounds": [["actions/hit"]],
+
+  "minDamage": 20,
+  "maxDamage": 20,
+
+  "level": 60,
+
+  "elementDamage": "fire",
+  "projectile": "dragon-scale-arrow",
+  "shootType": "smallphysical",
+  "weaponType": "arrow",
+  "weight": "5",
+  "description": "Dragon Scale arrow (Atk: 90 ~ 320)."
 }

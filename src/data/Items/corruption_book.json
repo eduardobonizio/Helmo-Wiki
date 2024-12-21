@@ -1,19 +1,11 @@
 {
-  "id": "corruption_book",
-  "numberOfStyles": 1,
-  "maxDirections": 1,
-  "hittable": false,
-  "imgWidth": 16,
-  "imgHeight": 16,
-  "drawOrderOffsetY": 64,
-  "offsetX": 0,
-  "offsetY": 0,
-  "animations": [
-    {
-      "id": "default",
-      "totalRuntime": 1,
-      "numberOfDirections": 1,
-      "looping": true
-    }
-  ]
+  "equipType": 5,
+  "defense": 20,
+  "bonusMagic": 4,
+  "protectFire": 8,
+  "protectDeath": 8,
+  "rarity": 5,
+  "group": "Book",
+  "level": 200,
+  "vocations": [{ "name": "2" }, { "name": "3" }]
 }

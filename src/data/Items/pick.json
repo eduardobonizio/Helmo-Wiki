@@ -1,19 +1,12 @@
 {
-  "id": "default",
-  "numberOfStyles": 1,
-  "maxDirections": 1,
-  "hittable": false,
-  "imgWidth": 16,
-  "imgHeight": 16,
-  "drawOrderOffsetY": 64,
-  "offsetX": 0,
-  "offsetY": 0,
-  "animations": [
-    {
-      "id": "default",
-      "totalRuntime": 1,
-      "numberOfDirections": 1,
-      "looping": true
-    }
-  ]
+  "iconSize": 16,
+  "equipType": 3,
+  "minDamage": 2,
+  "maxDamage": 2,
+  "hitRange": 1,
+  "elementDamage": "physical",
+  "weaponType": "axe",
+  "tool": true,
+  "clickUse": true,
+  "level": 10
 }

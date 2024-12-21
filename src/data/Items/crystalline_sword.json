@@ -1,15 +1,25 @@
 {
-  "id": "crystalline_sword",
-  "numberOfStyles": 1,
-  "maxDirections": 1,
-  "hittable": false,
-  "imgWidth": 16,
-  "imgHeight": 16,
-  "drawOrderOffsetY": 16,
-  "offsetX": 0,
-  "offsetY": 0,
-  "collisionRects": [{ "height": 16 }],
-  "animations": [
-    { "id": "default", "totalRuntime": 1, "numberOfDirections": 1 }
-  ]
+  "iconSize": 16,
+  "equipType": 3,
+  "numOfStyles": 1,
+
+  "minDamage": 33,
+  "maxDamage": 10,
+  "rarity": 5,
+  "defense": 17,
+  "bonusMelee": 1,
+
+  "hitRange": 1,
+  "sounds": [["actions/hit"]],
+  "elementDamage": "physical",
+  "extraElementDamage": "ice",
+  "weaponType": "sword",
+  "weight": "2250",
+  "description": "",
+
+  "level": 120,
+
+  "vocations": [{ "name": "0" }],
+
+  "classification": 3
 }

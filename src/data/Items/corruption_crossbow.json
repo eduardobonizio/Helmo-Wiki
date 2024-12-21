@@ -1,20 +1,22 @@
 {
-  "id": "thunder_bow",
-  "numberOfStyles": 1,
-  "maxDirections": 1,
-  "hittable": false,
-  "imgWidth": 16,
-  "imgHeight": 16,
-  "drawOrderOffsetY": 64,
-  "offsetX": 0,
-  "offsetY": 0,
-  "collisionRects": [{ "height": 16 }],
-  "animations": [
-    {
-      "id": "default",
-      "totalRuntime": 1,
-      "numberOfDirections": 1,
-      "looping": false
-    }
-  ]
+  "iconSize": 16,
+  "equipType": 3,
+  "twoHand": true,
+  "numOfStyles": 1,
+  "rarity": 5,
+  "minDamage": 40,
+  "sounds": [["actions/hit"]],
+
+  "classification": 4,
+
+  "bonusDistance": 5,
+  "critMultiplier": 1.5,
+  "critChance": 20,
+  "hitRange": 8,
+  "level": 200,
+
+  "weaponType": "cross",
+  "weight": "2300",
+
+  "vocations": [{ "name": "1" }]
 }
