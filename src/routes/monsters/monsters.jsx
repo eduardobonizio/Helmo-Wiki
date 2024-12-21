@@ -103,7 +103,7 @@ function Monsters() {
                       `Attack: ${defense.name}`}
                     {` `} CD: {defense.interval}
                     {` `} {defense.min && `Min: ${defense.min}`}
-                    {` `} {defense.max && `Min: ${defense.max}`}
+                    {` `} {defense.max && `Max: ${defense.max}`}
                     {` `} {defense.type && `Type: ${defense.type}`}
                   </p>
                 ))}
