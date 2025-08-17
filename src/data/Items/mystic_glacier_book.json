@@ -4,6 +4,9 @@
   "bonusMagic": 3,
   "protectIce": 10,
   "group": "Book",
+  "rarity": 4,
   "level": 150,
-  "vocations": [{ "name": "2" }, { "name": "3" }]
+  "vocations": [{ "name": "2" }, { "name": "3" }],
+  "imbueSlots": 1,
+  "weight": 30
 }

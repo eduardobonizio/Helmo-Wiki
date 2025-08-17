@@ -14,23 +14,27 @@
   "offsetX": -24,
   "offsetY": 0,
   "experience": 18000,
-  "defense": 45,
+  "defense": 30,
   "pushable": false,
-  "bestiary": 105,
-  "charm": 50,
+  "bestiary": 120,
+  "charm": 70,
   "intervalResp": 70,
   "drops": [
     { "item": "gold", "chance": 100000, "min": 600, "max": 2000 },
     { "item": "great_mana_potion", "chance": 5500, "max": 3 },
     { "item": "great_health_potion", "chance": 5500, "max": 3 },
-    { "item": "demon_shield", "chance": 1500 },
+    { "item": "demon_shield", "chance": 1000 },
     { "item": "thick_silver_necklace", "chance": 50 },
-    { "item": "necro_rod", "chance": 1500 },
+    { "item": "necro_rod", "chance": 1000 },
+    { "item": "terra_mantle", "chance": 1000 },
+    { "item": "terra_boots", "chance": 1000 },
+    { "item": "mysteries_book", "chance": 500 },
     { "item": "earth_crystal", "chance": 10000 },
-    { "item": "royal_axe", "chance": 2500 },
-    { "item": "hylian_broadsword", "chance": 2000 },
-    { "item": "dust", "chance": 500, "min": 1, "max": 3 },
-    { "item": "fire_axe", "chance": 1500 }
+    { "item": "royal_axe", "chance": 1000 },
+    { "item": "hylian_broadsword", "chance": 1000 },
+    { "item": "dust", "chance": 400, "min": 1, "max": 3 },
+    { "item": "fire_axe", "chance": 1000 },
+    { "item": "golden_legs", "chance": 20 }
   ],
   "collisionRects": [
     {
@@ -61,13 +65,13 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 800, "max": 2500 },
+    { "attack": "melee", "interval": 2000, "min": 300, "max": 2500 },
     {
       "attack": "death",
       "interval": 6000,
       "chance": 30,
-      "min": 650,
-      "max": 1500,
+      "min": 1000,
+      "max": 3500,
       "type": "area",
       "particle": 37,
       "radius": 3,
@@ -78,8 +82,8 @@
       "attack": "physical",
       "interval": 6000,
       "chance": 30,
-      "min": 650,
-      "max": 1500,
+      "min": 1000,
+      "max": 3500,
       "type": "area",
       "particle": 8,
       "radius": 5
@@ -89,20 +93,25 @@
     {
       "name": "mana_drain",
       "interval": 10000,
-      "chance": 10,
-      "min": 500,
-      "max": 1000,
+      "chance": 30,
+      "min": 1000,
+      "max": 3000,
       "type": "area",
       "particle": 11,
       "radius": 6
     },
     {
       "name": "paralize",
-      "interval": 6000,
-      "chance": 10,
+      "interval": 4000,
+      "chance": 30,
       "type": "area",
       "particle": 11,
       "radius": 6
     }
-  ]
+  ],
+  "elements": [
+    { "name": "holy", "value": 110 },
+    { "name": "physical", "value": 115 }
+  ],
+  "immunities": [{ "name": "death", "value": 1 }]
 }

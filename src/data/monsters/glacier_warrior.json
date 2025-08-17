@@ -26,7 +26,8 @@
     { "item": "steel_shield", "chance": 1000 },
     { "item": "royal_boots", "chance": 1000 },
     { "item": "steel_crossbow", "chance": 100 },
-    { "item": "blue_amulet", "chance": 100 }
+    { "item": "blue_amulet", "chance": 100 },
+    { "item": "war_crystal", "chance": 1000 }
   ],
   "collisionRects": [
     {

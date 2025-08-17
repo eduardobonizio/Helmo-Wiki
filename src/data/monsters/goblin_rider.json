@@ -24,7 +24,8 @@
     { "item": "linen_armor", "chance": 700 },
     { "item": "linen_hat", "chance": 700 },
     { "item": "linen_bow", "chance": 700 },
-    { "item": "linen_legs", "chance": 700 }
+    { "item": "linen_legs", "chance": 700 },
+    { "item": "tactical_leather", "chance": 1000 }
   ],
   "collisionRects": [
     {

@@ -28,7 +28,8 @@
     { "item": "double_axe", "chance": 1000 },
     { "item": "steel_ring", "chance": 200 },
     { "item": "steel_legs", "chance": 1000 },
-    { "item": "steel_crossbow", "chance": 500 }
+    { "item": "steel_crossbow", "chance": 500 },
+    { "item": "war_league", "chance": 1000 }
   ],
   "collisionRects": [
     {

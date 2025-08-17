@@ -8,5 +8,7 @@
   "vocations": [{ "name": "0" }, { "name": "1" }],
   "bonusDefense": 2,
   "bonusDistance": 2,
-  "classification": 4
+  "classification": 4,
+  "imbueSlots": 2,
+  "weight": 25
 }

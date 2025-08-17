@@ -1,0 +1,7 @@
+{
+  "iconSize": 16,
+  "equipType": -1,
+  "maxStackSize": 1,
+  "dropable": false,
+  "description": "Used for transfer between worlds."
+}

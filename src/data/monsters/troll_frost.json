@@ -24,7 +24,8 @@
     { "item": "royal_armor", "chance": 500 },
     { "item": "royal_legs", "chance": 500 },
     { "item": "royal_boots", "chance": 500 },
-    { "item": "royal_shield", "chance": 120 }
+    { "item": "royal_shield", "chance": 120 },
+    { "item": "ice_crystal", "chance": 1000 }
   ],
   "collisionRects": [
     {

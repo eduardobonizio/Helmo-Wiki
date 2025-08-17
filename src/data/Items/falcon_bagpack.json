@@ -3,5 +3,6 @@
   "equipType": 2,
   "container": true,
   "capacity": 22,
-  "protectPhysical": 1
+  "protectPhysical": 1,
+  "weight": 15
 }

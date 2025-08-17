@@ -17,9 +17,11 @@
   "defense": 5,
   "bestiary": 25,
   "charm": 15,
+  "flee": true,
   "drops": [
     { "item": "gold", "chance": 50000, "min": 10, "max": 35 },
-    { "item": "thigh", "chance": 70000, "min": 1, "max": 4 }
+    { "item": "thigh", "chance": 70000 },
+    { "item": "winter_wolf_fur", "chance": 1000 }
   ],
   "collisionRects": [
     {

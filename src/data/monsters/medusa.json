@@ -30,8 +30,9 @@
     { "item": "green_cape", "chance": 100 },
     { "item": "green_legs", "chance": 100 },
     { "item": "green_hat", "chance": 100 },
-    { "item": "dust", "chance": 500, "min": 1, "max": 2 },
-    { "item": "slime_floor", "chance": 50 }
+    { "item": "dust", "chance": 400, "min": 1, "max": 2 },
+    { "item": "slime_floor", "chance": 50 },
+    { "item": "medusa_hair", "chance": 1000 }
   ],
   "collisionRects": [
     {

@@ -24,7 +24,8 @@
     { "item": "earth_crystal", "chance": 500 },
     { "item": "steel_boots", "chance": 800 },
     { "item": "steel_shield", "chance": 800 },
-    { "item": "steel_legs", "chance": 800 }
+    { "item": "steel_legs", "chance": 800 },
+    { "item": "soul_essence", "chance": 300 }
   ],
   "collisionRects": [
     {

@@ -18,5 +18,6 @@
 
   "level": 45,
 
-  "vocations": [{ "name": "0" }]
+  "vocations": [{ "name": "0" }],
+  "imbueSlots": 3
 }

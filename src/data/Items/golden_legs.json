@@ -1,0 +1,9 @@
+{
+  "equipType": 7,
+  "defense": 9,
+  "rarity": 5,
+  "classification": 2,
+
+  "vocations": [{ "name": "0" }, { "name": "1" }],
+  "weight": 56
+}

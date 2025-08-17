@@ -29,7 +29,8 @@
     { "item": "blue_amulet", "chance": 300 },
     { "item": "earth_crystal", "chance": 5500 },
     { "item": "boots_of_speed", "chance": 110 },
-    { "item": "dust", "chance": 800, "min": 1, "max": 2 }
+    { "item": "dust", "chance": 500, "min": 1, "max": 2 },
+    { "item": "djinn_talisman", "chance": 1000 }
   ],
   "collisionRects": [
     {
@@ -81,7 +82,6 @@
     { "name": "fire", "value": 120 },
     { "name": "death", "value": 80 },
     { "name": "earth", "value": 120 },
-    { "name": "energy", "value": 115 },
-    { "name": "ice", "value": 60 }
+    { "name": "energy", "value": 115 }
   ]
 }

@@ -22,6 +22,7 @@
   "elementDamage": "physical",
   "extraElementDamage": "fire",
   "weaponType": "axe",
-  "weight": "2250",
-  "description": "A masterpiece of a dwarven smith. (Atk: 4 ~ 7)."
+  "weight": 60,
+  "description": "A masterpiece of a dwarven smith. (Atk: 4 ~ 7).",
+  "imbueSlots": 2
 }

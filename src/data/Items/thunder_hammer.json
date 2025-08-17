@@ -13,6 +13,9 @@
   "hitRange": 1,
   "level": 80,
 
+  "critMultiplier": 1.2,
+  "critChance": 8,
+
   "sounds": [["actions/hit"]],
 
   "vocations": [{ "name": "0" }],
@@ -22,5 +25,6 @@
   "weaponType": "club",
   "weight": 80,
 
-  "classification": 2
+  "classification": 2,
+  "imbueSlots": 1
 }

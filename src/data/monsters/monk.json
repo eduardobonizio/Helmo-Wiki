@@ -25,7 +25,8 @@
     { "item": "royal_legs", "chance": 200 },
     { "item": "royal_boots", "chance": 200 },
     { "item": "royal_shield", "chance": 500 },
-    { "item": "earth_crystal", "chance": 2000 }
+    { "item": "earth_crystal", "chance": 2000 },
+    { "item": "cult_cloak", "chance": 1000 }
   ],
   "collisionRects": [
     {

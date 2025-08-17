@@ -1,12 +1,12 @@
 {
   "iconSize": 16,
   "equipType": 8,
-  "maxStackSize": 200,
+  "maxStackSize": 400,
 
   "sounds": [["actions/hit"]],
 
-  "minDamage": 22,
-  "maxDamage": 22,
+  "minDamage": 27,
+  "maxDamage": 27,
 
   "level": 80,
 

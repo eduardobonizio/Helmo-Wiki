@@ -14,12 +14,13 @@
   "elementDamage": "physical",
   "extraElementDamage": "ice",
   "weaponType": "sword",
-  "weight": "2250",
+  "weight": 45,
   "description": "",
 
   "level": 120,
 
   "vocations": [{ "name": "0" }],
 
-  "classification": 3
+  "classification": 3,
+  "imbueSlots": 2
 }

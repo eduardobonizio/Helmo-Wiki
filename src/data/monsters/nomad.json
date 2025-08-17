@@ -18,13 +18,15 @@
   "bestiary": 50,
   "charm": 15,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 50, "max": 160 },
+    { "item": "gold", "chance": 100000, "min": 80, "max": 180 },
     { "item": "earth_crystal", "chance": 1000 },
     { "item": "steel_shield", "chance": 800 },
     { "item": "steel_boots", "chance": 800 },
     { "item": "mace", "chance": 100 },
     { "item": "green_bagpack", "chance": 600 },
-    { "item": "blue_amulet", "chance": 100 }
+    { "item": "blue_amulet", "chance": 100 },
+    { "item": "mystical_hourglass", "chance": 800 },
+    { "item": "rope_belt", "chance": 500 }
   ],
   "collisionRects": [
     {

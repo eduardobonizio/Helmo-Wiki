@@ -23,7 +23,8 @@
     { "item": "halberd", "chance": 100 },
     { "item": "tearing_fang", "chance": 100 },
     { "item": "earth_crystal", "chance": 1000 },
-    { "item": "black_stone_amulet", "chance": 300 }
+    { "item": "black_stone_amulet", "chance": 300 },
+    { "item": "snake_skin", "chance": 800 }
   ],
   "collisionRects": [
     {

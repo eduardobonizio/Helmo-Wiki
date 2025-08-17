@@ -1,7 +1,7 @@
 {
   "iconSize": 16,
   "equipType": 3,
-  "rarity": 4,
+  "rarity": 2,
   "defense": 14,
   "numOfStyles": 1,
   "classification": 1,
@@ -14,12 +14,13 @@
 
   "elementDamage": "physical",
   "weaponType": "sword",
-  "weight": "5250",
+  "weight": 65,
   "description": "A masterpiece of a dwarven smith. (Atk: 57 ~ 78).",
 
   "level": 60,
 
   "vocations": [{ "name": "0" }],
 
-  "classification": 2
+  "classification": 2,
+  "imbueSlots": 2
 }

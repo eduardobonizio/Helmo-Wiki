@@ -8,5 +8,6 @@
   "weaponType": "axe",
   "tool": true,
   "clickUse": true,
-  "level": 10
+  "level": 10,
+  "weight": 56
 }

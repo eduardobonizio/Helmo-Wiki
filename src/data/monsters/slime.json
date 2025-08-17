@@ -18,7 +18,8 @@
   "charm": 5,
   "drops": [
     { "item": "gold", "chance": 100000, "min": 15, "max": 35 },
-    { "item": "earth_crystal", "chance": 2000 }
+    { "item": "earth_crystal", "chance": 2000 },
+    { "item": "poisonous_slime", "chance": 500 }
   ],
   "collisionRects": [
     {

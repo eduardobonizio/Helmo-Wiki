@@ -9,5 +9,6 @@
   "level": 50,
   "vocations": [{ "name": "0" }],
 
-  "classification": 2
+  "classification": 2,
+  "weight": 40
 }

@@ -2,6 +2,7 @@
   "iconSize": 16,
   "equipType": 3,
   "numOfStyles": 1,
+  "rarity": 4,
   "sounds": [["actions/hit"]],
   "minDamage": 90,
   "maxDamage": 101,
@@ -16,11 +17,12 @@
   "projectile": "ice-ball",
   "shootType": 13,
   "weaponType": "rod",
-  "weight": "2300",
+  "weight": 23,
   "description": "Icecold rays of moonlight shimmer on its tip (Atk: 20 ~ 30).",
 
   "level": 170,
   "vocations": [{ "name": "2" }],
 
-  "classification": 4
+  "classification": 4,
+  "imbueSlots": 2
 }

@@ -2,7 +2,7 @@
   "id": "undead_storm_dragon",
   "hittable": true,
   "maxDirections": 4,
-  "speed": 55,
+  "speed": 80,
   "maxHealth": 12000,
   "showHealthBar": true,
   "footstepSound": "slime",
@@ -13,24 +13,26 @@
   "drawOrderOffsetY": 32,
   "offsetX": -24,
   "offsetY": 0,
-  "experience": 9000,
+  "experience": 9900,
   "defense": 34,
   "pushable": false,
-  "bestiary": 30,
-  "charm": 15,
+  "bestiary": 100,
+  "charm": 50,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 500, "max": 1200 },
+    { "item": "gold", "chance": 100000, "min": 600, "max": 1200 },
     { "item": "strong_mana_potion", "chance": 5500, "max": 3 },
-    { "item": "strong_health_potion", "chance": 5500, "max": 3 },
     { "item": "earth_crystal", "chance": 5000 },
     { "item": "royal_helmet", "chance": 1000 },
-    { "item": "dragon_shield", "chance": 2000 },
-    { "item": "thunder_wand", "chance": 2000 },
-    { "item": "centered_cape", "chance": 500 },
-    { "item": "centered_hat", "chance": 500 },
-    { "item": "storm_wand", "chance": 500 },
+    { "item": "dragon_shield", "chance": 1000 },
+    { "item": "centered_cape", "chance": 1000 },
+    { "item": "centered_hat", "chance": 1000 },
+    { "item": "storm_wand", "chance": 1000 },
+    { "item": "pretator_rod", "chance": 1000 },
     { "item": "earth_crystal", "chance": 5000 },
-    { "item": "rotten_dragon_paw", "chance": 50 }
+    { "item": "rotten_dragon_paw", "chance": 100 },
+    { "item": "magic_plate_armor", "chance": 20 },
+    { "item": "royal_axe", "chance": 1000 },
+    { "item": "death_armor", "chance": 1000 }
   ],
   "collisionRects": [
     {
@@ -61,13 +63,13 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 200, "max": 950 },
+    { "attack": "melee", "interval": 2000, "min": 700, "max": 1050 },
     {
       "attack": "energy",
       "interval": 8000,
       "chance": 30,
-      "min": 300,
-      "max": 1200,
+      "min": 800,
+      "max": 1900,
       "type": "area",
       "particle": 29,
       "length": 8,
@@ -78,8 +80,8 @@
       "attack": "death",
       "interval": 8000,
       "chance": 40,
-      "min": 300,
-      "max": 900,
+      "min": 800,
+      "max": 1500,
       "type": "area",
       "particle": 37,
       "radius": 3,
@@ -92,13 +94,13 @@
       "name": "healing",
       "interval": 10000,
       "chance": 100,
-      "min": 50,
-      "max": 150
+      "min": 200,
+      "max": 350
     }
   ],
   "elements": [
     { "name": "holy", "value": 115 },
-    { "name": "earth", "value": 110 },
+    { "name": "earth", "value": 115 },
     { "name": "physical", "value": 115 }
   ],
   "immunities": [

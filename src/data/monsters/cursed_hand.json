@@ -14,7 +14,7 @@
   "offsetX": -26,
   "offsetY": -24,
   "experience": 12000,
-  "defense": 40,
+  "defense": 30,
   "pushable": false,
   "intervalResp": 60,
   "bestiary": 70,
@@ -24,11 +24,13 @@
     { "item": "pretator_rod", "chance": 500 },
     { "item": "death_armor", "chance": 500 },
     { "item": "ruby_necklace", "chance": 800 },
+    { "item": "terra_mantle", "chance": 800 },
+    { "item": "terra_boots", "chance": 800 },
     { "item": "boots_of_speed", "chance": 500 },
     { "item": "royal_axe", "chance": 500 },
     { "item": "control_book", "chance": 500 },
     { "item": "cursed_fingers", "chance": 50 },
-    { "item": "dust", "chance": 100000, "min": 1, "max": 2 }
+    { "item": "dust", "chance": 1000, "min": 1, "max": 2 }
   ],
   "collisionRects": [
     {
@@ -72,7 +74,8 @@
     { "name": "earth", "value": 50 },
     { "name": "fire", "value": 50 },
     { "name": "holy", "value": 115 },
-    { "name": "death", "value": 90 }
+    { "name": "death", "value": 90 },
+    { "name": "physical", "value": 115 }
   ],
   "defenses": [
     {

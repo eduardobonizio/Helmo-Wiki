@@ -2,7 +2,7 @@
   "iconSize": 16,
   "equipType": 3,
   "numOfStyles": 1,
-  "rarity": 4,
+  "rarity": 2,
 
   "sounds": [["actions/hit"]],
 
@@ -16,11 +16,12 @@
   "projectile": "death-ball",
   "shootType": 12,
   "weaponType": "rod",
-  "weight": "2300",
+  "weight": 22,
   "description": "",
 
   "level": 60,
   "vocations": [{ "name": "2" }],
 
-  "classification": 2
+  "classification": 2,
+  "imbueSlots": 1
 }

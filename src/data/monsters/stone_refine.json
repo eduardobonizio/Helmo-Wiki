@@ -32,7 +32,8 @@
     { "item": "royal_cape", "chance": 200 },
     { "item": "club_with_spikes", "chance": 200 },
     { "item": "ruby_necklace", "chance": 250 },
-    { "item": "candy", "chance": 800, "max": 1 }
+    { "item": "candy", "chance": 800, "max": 1 },
+    { "item": "fire_crystal", "chance": 1000 }
   ],
   "collisionRects": [
     {

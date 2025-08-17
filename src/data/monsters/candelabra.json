@@ -27,7 +27,8 @@
     { "item": "noble_magic_robe", "chance": 200 },
     { "item": "noble_magic_wand", "chance": 200 },
     { "item": "noble_magic_rod", "chance": 200 },
-    { "item": "candle_rest", "chance": 1000 }
+    { "item": "candle_rest", "chance": 1000 },
+    { "item": "sulfur_of_hell", "chance": 1000 }
   ],
   "collisionRects": [
     {

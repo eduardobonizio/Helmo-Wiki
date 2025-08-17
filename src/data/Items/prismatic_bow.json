@@ -15,9 +15,10 @@
   "level": 150,
 
   "weaponType": "bow",
-  "weight": "2300",
+  "weight": 25,
 
   "vocations": [{ "name": "1" }],
 
-  "classification": 4
+  "classification": 4,
+  "imbueSlots": 1
 }

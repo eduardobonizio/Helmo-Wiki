@@ -21,13 +21,14 @@
   "drops": [
     { "item": "gold", "chance": 100000, "min": 400, "max": 800 },
     { "item": "earth_crystal", "chance": 5000 },
-    { "item": "voodoo_wand", "chance": 500 },
+    { "item": "voodoo_wand", "chance": 400 },
     { "item": "style_bagpack", "chance": 50 },
     { "item": "ruby_necklace", "chance": 1500 },
-    { "item": "holy_helmet", "chance": 500 },
+    { "item": "holy_helmet", "chance": 400 },
     { "item": "tearing_fang", "chance": 800 },
-    { "item": "white_pearl", "chance": 200 },
-    { "item": "dust", "chance": 500, "min": 1, "max": 5 }
+    { "item": "white_pearl", "chance": 10 },
+    { "item": "dust", "chance": 450, "min": 1, "max": 5 },
+    { "item": "carapace_skin", "chance": 500 }
   ],
   "collisionRects": [
     {

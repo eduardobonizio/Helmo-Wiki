@@ -23,7 +23,8 @@
     { "item": "noble_magic_book", "chance": 30 },
     { "item": "noble_magic_boots", "chance": 30 },
     { "item": "noble_magic_hat", "chance": 30 },
-    { "item": "noble_magic_legs", "chance": 50 }
+    { "item": "noble_magic_legs", "chance": 50 },
+    { "item": "stone_golem_heart", "chance": 1000 }
   ],
   "collisionRects": [
     {

@@ -9,5 +9,7 @@
   "level": 250,
   "rarity": 5,
   "group": "Book",
-  "vocations": [{ "name": "2" }, { "name": "3" }]
+  "vocations": [{ "name": "2" }, { "name": "3" }],
+  "imbueSlots": 1,
+  "weight": 40
 }

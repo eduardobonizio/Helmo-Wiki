@@ -19,15 +19,15 @@
   "bestiary": 20,
   "charm": 30,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 450, "max": 1000 },
-    { "item": "earth_crystal", "chance": 5000 },
-    { "item": "royal_axe", "chance": 1000 },
+    { "item": "gold", "chance": 100000, "min": 450, "max": 1200 },
+    { "item": "earth_crystal", "chance": 6000 },
+    { "item": "royal_axe", "chance": 1100 },
     { "item": "style_bagpack", "chance": 100 },
-    { "item": "ruby_necklace", "chance": 1000 },
-    { "item": "control_book", "chance": 1000 },
-    { "item": "pretator_rod", "chance": 1000 },
-    { "item": "boots_of_speed", "chance": 500 },
-    { "item": "dust", "chance": 500, "min": 1, "max": 2 }
+    { "item": "ruby_necklace", "chance": 1100 },
+    { "item": "control_book", "chance": 1100 },
+    { "item": "pretator_rod", "chance": 1100 },
+    { "item": "boots_of_speed", "chance": 600 },
+    { "item": "dust", "chance": 400, "min": 1, "max": 2 }
   ],
   "collisionRects": [
     {

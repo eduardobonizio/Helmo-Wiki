@@ -1,0 +1,111 @@
+{
+  "id": "esganed_torturer",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 50,
+  "maxHealth": 500000,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 48,
+  "imgHeight": 48,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 50,
+  "drawOrderOffsetY": 64,
+  "offsetX": -16,
+  "offsetY": 0,
+  "experience": 30000,
+  "defense": 30,
+  "pushable": false,
+  "individualReward": true,
+  "bestiary": 20,
+  "charm": 50,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 5000, "max": 10000 },
+    { "item": "red_plasma_amulet", "chance": 6000 },
+    { "item": "blue_plasma_amulet", "chance": 6000 },
+    { "item": "green_plasma_amulet", "chance": 6000 },
+    { "item": "red_plasma_ring", "chance": 6000 },
+    { "item": "blue_plasma_ring", "chance": 6000 },
+    { "item": "green_plasma_ring", "chance": 6000 },
+
+    { "item": "boots_of_speed", "chance": 50000 },
+    { "item": "jewelled_bagpack", "chance": 5000 },
+    { "item": "golden_legs", "chance": 20000 },
+
+    { "item": "enchanted_torch", "chance": 3000 },
+    { "item": "lunar_mirror", "chance": 3000 },
+    { "item": "moon_light_bottle", "chance": 3000 },
+    { "item": "seashell_ornament", "chance": 3000 },
+    { "item": "skull_violin", "chance": 3000 },
+    { "item": "sun_sucker", "chance": 3000 },
+    { "item": "scarab_carina", "chance": 3000 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 1.3,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "totalRuntime": 1.3,
+      "fileName": "walk",
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 900 },
+    {
+      "attack": "death",
+      "interval": 6000,
+      "chance": 50,
+      "min": 800,
+      "max": 1200,
+      "type": "area",
+      "particle": 5,
+      "radius": 12
+    },
+    {
+      "attack": "fire",
+      "interval": 6000,
+      "chance": 50,
+      "min": 800,
+      "max": 1200,
+      "type": "area",
+      "particle": 3,
+      "radius": 12
+    }
+  ],
+  "defenses": [
+    {
+      "name": "paralize",
+      "interval": 6000,
+      "chance": 50,
+      "type": "area",
+      "particle": 40,
+      "radius": 12
+    },
+    {
+      "name": "healing",
+      "interval": 6000,
+      "chance": 50,
+      "min": 500,
+      "max": 1000
+    }
+  ]
+}

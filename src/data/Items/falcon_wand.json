@@ -20,10 +20,11 @@
   "projectile": "energy-ball",
   "shootType": 12,
   "weaponType": "wand",
-  "weight": "2300",
+  "weight": 30,
   "description": "",
   "protectFire": 8,
 
   "level": 400,
-  "vocations": [{ "name": "3" }]
+  "vocations": [{ "name": "3" }],
+  "imbueSlots": 2
 }

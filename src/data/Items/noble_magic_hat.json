@@ -2,10 +2,11 @@
   "equipType": 1,
   "defense": 4,
   "bonusMagic": 1,
-  "rarity": 4,
+  "rarity": 3,
   "level": 40,
   "protectIce": 2,
   "vocations": [{ "name": "2" }, { "name": "3" }],
 
-  "classification": 2
+  "classification": 2,
+  "weight": 35
 }

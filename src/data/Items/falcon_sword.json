@@ -6,8 +6,6 @@
   "defense": 34,
   "bonusMelee": 5,
 
-  "lifeLeech": 5,
-  "manaLeech": 3,
   "classification": 4,
   "protectEarth": 10,
 
@@ -24,5 +22,6 @@
   "weight": 82,
 
   "level": 400,
-  "vocations": [{ "name": "0" }]
+  "vocations": [{ "name": "0" }],
+  "imbueSlots": 2
 }

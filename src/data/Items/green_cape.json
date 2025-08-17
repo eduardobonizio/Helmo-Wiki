@@ -3,10 +3,12 @@
   "defense": 7,
 
   "level": 60,
-  "rarity": 4,
+  "rarity": 3,
   "bonusMagic": 2,
 
   "vocations": [{ "name": "2" }, { "name": "3" }],
 
-  "classification": 2
+  "classification": 2,
+  "imbueSlots": 2,
+  "weight": 25
 }

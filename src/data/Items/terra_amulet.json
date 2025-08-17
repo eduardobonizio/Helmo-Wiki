@@ -7,5 +7,6 @@
   "durability": 200,
   "marketable": false,
   "protectEarth": 20,
-  "protectFire": -10
+  "protectFire": -10,
+  "weight": 5
 }

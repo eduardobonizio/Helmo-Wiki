@@ -3,5 +3,6 @@
   "buff": true,
   "equipType": 6,
   "rarity": 4,
-  "critChance": 10
+  "critChance": 10,
+  "weight": 5
 }

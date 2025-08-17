@@ -6,5 +6,7 @@
   "level": 110,
   "rarity": 4,
   "classification": 3,
-  "vocations": [{ "name": "2" }, { "name": "3" }]
+  "vocations": [{ "name": "2" }, { "name": "3" }],
+  "imbueSlots": 2,
+  "weight": 15
 }

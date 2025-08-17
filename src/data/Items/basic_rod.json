@@ -13,7 +13,7 @@
   "projectile": "earth-ball",
   "shootType": 13,
   "weaponType": "rod",
-  "weight": "2300",
+  "weight": 5,
   "description": "Icecold rays of moonlight shimmer on its tip (Atk: 2 ~ 5).",
 
   "vocations": [{ "name": "2" }]

@@ -16,7 +16,7 @@
   "projectile": "fire-ball",
   "shootType": 12,
   "weaponType": "wand",
-  "weight": "2300",
+  "weight": 30,
   "description": "Fire rays of moonlight shimmer on its tip (Atk: 6 ~ 9).",
 
   "level": 100,

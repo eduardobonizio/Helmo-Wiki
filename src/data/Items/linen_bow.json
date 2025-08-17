@@ -10,10 +10,12 @@
   "hitRange": 6,
   "twoHand": true,
   "weaponType": "bow",
-  "weight": "2300",
+  "weight": 23,
 
   "level": 20,
   "vocations": [{ "name": "1" }],
 
-  "classification": 1
+  "classification": 1,
+  "imbueSlots": 1,
+  "imbueSlots": 2
 }

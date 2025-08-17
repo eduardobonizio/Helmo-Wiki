@@ -9,8 +9,6 @@
   "critChance": 10,
   "twoHand": true,
 
-  "lifeLeech": 5,
-  "manaLeech": 3,
   "classification": 4,
 
   "minDamage": 15,
@@ -26,5 +24,6 @@
   "elementDamage": "physical",
   "extraElementDamage": "energy",
   "weaponType": "axe",
-  "weight": 95
+  "weight": 95,
+  "imbueSlots": 2
 }

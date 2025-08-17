@@ -28,7 +28,8 @@
     { "item": "vamp_boots", "chance": 35 },
     { "item": "vamp_cape", "chance": 35 },
     { "item": "vamp_legs", "chance": 35 },
-    { "item": "vamp_hat", "chance": 35 }
+    { "item": "vamp_hat", "chance": 35 },
+    { "item": "vampire_teeth", "chance": 1100 }
   ],
   "collisionRects": [
     {

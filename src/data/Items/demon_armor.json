@@ -6,7 +6,10 @@
   "classification": 4,
   "protectFire": 8,
 
+  "imbueSlots": 2,
+
   "level": 130,
 
-  "vocations": [{ "name": "0" }, { "name": "1" }]
+  "vocations": [{ "name": "0" }, { "name": "1" }],
+  "weight": 70
 }

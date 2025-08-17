@@ -17,6 +17,7 @@
   "defense": 1,
   "bestiary": 1,
   "charm": 1,
+  "flee": true,
   "drops": [{ "item": "gold", "chance": 100000, "min": 0, "max": 5 }],
   "collisionRects": [
     {

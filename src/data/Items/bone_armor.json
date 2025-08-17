@@ -4,5 +4,6 @@
   "defense": 5,
   "rarity": 2,
 
-  "level": 10
+  "level": 10,
+  "weight": 30
 }

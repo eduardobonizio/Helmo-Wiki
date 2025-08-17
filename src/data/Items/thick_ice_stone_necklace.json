@@ -3,5 +3,6 @@
   "buff": true,
   "equipType": 0,
   "level": 130,
-  "protectIce": 5
+  "protectIce": 5,
+  "weight": 10
 }

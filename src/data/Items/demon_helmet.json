@@ -3,5 +3,8 @@
   "defense": 10,
   "rarity": 5,
 
-  "classification": 4
+  "classification": 4,
+
+  "imbueSlots": 2,
+  "weight": 30
 }

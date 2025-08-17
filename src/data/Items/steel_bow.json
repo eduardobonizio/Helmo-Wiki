@@ -17,5 +17,6 @@
   "vocations": [{ "name": "1" }],
 
   "weaponType": "bow",
-  "weight": 60
+  "weight": 60,
+  "imbueSlots": 2
 }

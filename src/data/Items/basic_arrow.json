@@ -10,6 +10,6 @@
   "projectile": "basic-arrow",
   "shootType": "smallphysical",
   "weaponType": "arrow",
-  "weight": "5",
+  "weight": 0.8,
   "description": "Basic arrow (Atk: 3 ~ 12)."
 }

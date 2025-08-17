@@ -8,5 +8,6 @@
   "bonusMelee": 4,
   "durability": 1800,
   "durabilityType": 1,
-  "vocations": [{ "name": "0" }]
+  "vocations": [{ "name": "0" }],
+  "weight": 10
 }

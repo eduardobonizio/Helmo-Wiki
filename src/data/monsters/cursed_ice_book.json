@@ -3,7 +3,7 @@
   "hittable": true,
   "maxDirections": 4,
   "speed": 80,
-  "maxHealth": 21000,
+  "maxHealth": 20000,
   "showHealthBar": true,
   "footstepSound": "slime",
   "imgWidth": 40,
@@ -13,28 +13,28 @@
   "drawOrderOffsetY": 33,
   "offsetX": -10,
   "offsetY": 0,
-  "experience": 13750,
+  "experience": 14450,
   "defense": 42,
   "pushable": false,
   "bestiary": 50,
   "charm": 50,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 800, "max": 1400 },
-    { "item": "ruby_necklace", "chance": 2000 },
-    { "item": "earth_crystal", "chance": 2000 },
-    { "item": "control_book", "chance": 1000 },
-    { "item": "boots_of_speed", "chance": 1000 },
-    { "item": "icestorm_rod", "chance": 1000 },
-    { "item": "crystalline_cape", "chance": 1000 },
-    { "item": "crystalline_legs", "chance": 1000 },
-    { "item": "blue_robe", "chance": 1000 },
-    { "item": "thick_ice_stone_necklace", "chance": 1000 },
-    { "item": "dust", "chance": 2000, "min": 1, "max": 2 },
+    { "item": "gold", "chance": 100000, "min": 800, "max": 1500 },
+    { "item": "ruby_necklace", "chance": 2100 },
+    { "item": "earth_crystal", "chance": 2100 },
+    { "item": "control_book", "chance": 1100 },
+    { "item": "boots_of_speed", "chance": 1100 },
+    { "item": "icestorm_rod", "chance": 1100 },
+    { "item": "crystalline_cape", "chance": 1100 },
+    { "item": "crystalline_legs", "chance": 1100 },
+    { "item": "blue_robe", "chance": 1100 },
+    { "item": "thick_ice_stone_necklace", "chance": 1100 },
+    { "item": "dust", "chance": 1000, "min": 1, "max": 2 },
 
-    { "item": "cursed_kilt", "chance": 30 },
-    { "item": "cursed_armor", "chance": 30 },
-    { "item": "cursed_archer_helmet", "chance": 30 },
-    { "item": "cursed_archer_boots", "chance": 30 }
+    { "item": "cursed_kilt", "chance": 10 },
+    { "item": "cursed_armor", "chance": 10 },
+    { "item": "cursed_archer_helmet", "chance": 10 },
+    { "item": "cursed_archer_boots", "chance": 10 }
   ],
   "collisionRects": [
     {
@@ -65,14 +65,14 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 0, "max": 700 },
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 900 },
     {
       "attack": "ice",
       "interval": 3000,
       "chance": 100,
       "range": 8,
-      "min": 700,
-      "max": 850,
+      "min": 100,
+      "max": 900,
       "type": "shoot",
       "anim": "ice-ball",
       "particle": 2
@@ -82,7 +82,7 @@
       "interval": 6000,
       "chance": 50,
       "min": 700,
-      "max": 900,
+      "max": 950,
       "type": "area",
       "particle": 34,
       "radius": 5
@@ -91,8 +91,8 @@
       "attack": "ice",
       "interval": 6000,
       "chance": 50,
-      "min": 800,
-      "max": 1350,
+      "min": 650,
+      "max": 950,
       "type": "area",
       "particle": 34,
       "length": 10,
@@ -113,5 +113,6 @@
     { "name": "fire", "value": 110 },
     { "name": "holy", "value": 115 }
   ],
-  "immunities": [{ "name": "ice", "value": 1 }]
+  "immunities": [{ "name": "ice", "value": 1 }],
+  "hards": [{ "name": "fire", "value": 1 }]
 }

@@ -7,6 +7,6 @@
   "hitRange": 5,
 
   "weaponType": "bow",
-  "weight": "2300",
+  "weight": 10,
   "vocations": [{ "name": "1" }]
 }

@@ -26,7 +26,8 @@
     { "item": "silver_necklace", "chance": 200 },
     { "item": "soul_book", "chance": 200 },
     { "item": "legion_helmet", "chance": 10 },
-    { "item": "broom", "chance": 2000 }
+    { "item": "broom", "chance": 2000 },
+    { "item": "piece_of_fire_cloth", "chance": 1000 }
   ],
   "collisionRects": [
     {
@@ -57,7 +58,6 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 0, "max": 30 },
     {
       "attack": "death",
       "interval": 2000,
@@ -69,6 +69,7 @@
       "anim": "death-ball",
       "particle": 27
     },
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 30 },
     {
       "attack": "fire",
       "interval": 4000,

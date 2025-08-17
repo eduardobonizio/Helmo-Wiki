@@ -1,9 +1,10 @@
 {
   "iconSize": 16,
   "equipType": -1,
-  "maxStackSize": 200,
+  "maxStackSize": 600,
   "minDamage": 350,
   "consumable": true,
   "level": 80,
-  "autoCollect": true
+  "autoCollect": true,
+  "weight": "3"
 }

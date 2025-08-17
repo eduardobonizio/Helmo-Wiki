@@ -24,7 +24,8 @@
     { "item": "bone_shield", "chance": 1000 },
     { "item": "steel_legs", "chance": 1000 },
     { "item": "soul_rod", "chance": 300 },
-    { "item": "earth_crystal", "chance": 1000 }
+    { "item": "earth_crystal", "chance": 1000 },
+    { "item": "piece_of_poison_cloth", "chance": 1000 }
   ],
   "collisionRects": [
     {

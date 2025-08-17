@@ -2,5 +2,6 @@
   "iconSize": 16,
   "equipType": -1,
   "maxStackSize": 200,
-  "material": true
+  "material": true,
+  "weight": 0.2
 }

@@ -4,11 +4,13 @@
 
   "level": 100,
 
-  "rarity": 3,
+  "rarity": 2,
   "bonusDistance": 2,
   "protectEarth": 5,
 
   "vocations": [{ "name": "1" }],
 
-  "classification": 2
+  "classification": 2,
+  "imbueSlots": 2,
+  "weight": 30
 }

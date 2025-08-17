@@ -6,5 +6,6 @@
   "rune": true,
   "level": 24,
   "magic": 4,
-  "durability": 1
+  "durability": 1,
+  "weight": 0.5
 }

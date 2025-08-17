@@ -10,5 +10,7 @@
   "level": 110,
   "rarity": 4,
 
-  "vocations": [{ "name": "1" }]
+  "vocations": [{ "name": "1" }],
+  "imbueSlots": 2,
+  "weight": 40
 }

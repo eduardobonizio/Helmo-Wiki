@@ -21,7 +21,7 @@
     { "item": "gold", "chance": 100000, "min": 200, "max": 600 },
     { "item": "hylian_broadsword", "chance": 2000 },
     { "item": "time_ring", "chance": 500 },
-    { "item": "dust", "chance": 500, "min": 1, "max": 3 },
+    { "item": "dust", "chance": 400, "min": 1, "max": 3 },
     { "item": "boots_of_speed", "chance": 100 },
     { "item": "crystalline_armor", "chance": 20 },
     { "item": "crystalline_ranger_legs", "chance": 50 },
@@ -33,7 +33,8 @@
     { "item": "crystalline_sword", "chance": 50 },
     { "item": "black_stone_amulet", "chance": 100 },
     { "item": "thick_ice_stone_necklace", "chance": 50 },
-    { "item": "earth_crystal", "chance": 9000 }
+    { "item": "earth_crystal", "chance": 9000 },
+    { "item": "yeti_scalp", "chance": 1000 }
   ],
   "collisionRects": [
     {

@@ -23,16 +23,17 @@
     { "item": "earth_crystal", "chance": 8000 },
     { "item": "legendary_crossbow", "chance": 50 },
     { "item": "legendary_bow", "chance": 60 },
-    { "item": "voodoo_wand", "chance": 800 },
+    { "item": "voodoo_wand", "chance": 700 },
     { "item": "style_bagpack", "chance": 100 },
     { "item": "ruby_necklace", "chance": 1500 },
-    { "item": "holy_helmet", "chance": 800 },
+    { "item": "holy_helmet", "chance": 700 },
     { "item": "tearing_fang", "chance": 800 },
-    { "item": "mysteries_book", "chance": 800 },
+    { "item": "mysteries_book", "chance": 700 },
     { "item": "royal_axe", "chance": 800 },
-    { "item": "purple_book", "chance": 30 },
-    { "item": "black_pearl", "chance": 200 },
-    { "item": "dust", "chance": 500, "min": 1, "max": 5 }
+    { "item": "purple_book", "chance": 20 },
+    { "item": "black_pearl", "chance": 10 },
+    { "item": "dust", "chance": 450, "min": 1, "max": 5 },
+    { "item": "carapace_skin", "chance": 800 }
   ],
   "collisionRects": [
     {

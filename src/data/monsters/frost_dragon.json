@@ -9,7 +9,7 @@
   "imgWidth": 48,
   "imgHeight": 48,
   "footstepOffsetX": 0,
-  "footstepOffsetY": 36,
+  "footstepOffsetY": 48,
   "drawOrderOffsetY": 32,
   "offsetX": -16,
   "offsetY": 0,
@@ -18,19 +18,26 @@
   "pushable": false,
   "bestiary": 30,
   "charm": 15,
+  "flee": true,
   "drops": [
     { "item": "gold", "chance": 100000, "min": 125, "max": 350 },
     { "item": "thigh", "chance": 60000, "max": 1 },
     { "item": "strong_mana_potion", "chance": 1500, "max": 3 },
     { "item": "strong_health_potion", "chance": 1500, "max": 3 },
+    { "item": "hylian_broadsword", "chance": 2000 },
     { "item": "earth_crystal", "chance": 5000 },
     { "item": "royal_helmet", "chance": 800 },
+    { "item": "royal_armor", "chance": 800 },
+    { "item": "royal_legs", "chance": 800 },
+    { "item": "royal_boots", "chance": 800 },
     { "item": "steel_armor", "chance": 800 },
     { "item": "steel_shield", "chance": 800 },
     { "item": "frost_rod", "chance": 1200 },
     { "item": "ice_cube", "chance": 60 },
+    { "item": "blue_robe", "chance": 50 },
     { "item": "dragon_horn", "chance": 1500 },
-    { "item": "earth_crystal", "chance": 3000 }
+    { "item": "earth_crystal", "chance": 5000 },
+    { "item": "dragon_frost_scale", "chance": 1000 }
   ],
   "collisionRects": [
     {

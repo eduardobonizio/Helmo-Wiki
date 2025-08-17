@@ -6,5 +6,6 @@
   "level": 45,
   "magic": 15,
   "durability": 3,
-  "maxStackSize": 200
+  "maxStackSize": 800,
+  "weight": 0.8
 }

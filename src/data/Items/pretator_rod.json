@@ -1,6 +1,5 @@
 {
   "iconSize": 16,
-  "durability": 256,
   "equipType": 3,
   "numOfStyles": 1,
   "rarity": 4,
@@ -17,9 +16,10 @@
   "projectile": "death-ball",
   "shootType": 12,
   "weaponType": "rod",
-  "weight": "2300",
+  "weight": 27,
   "description": "",
 
   "level": 120,
-  "vocations": [{ "name": "2" }]
+  "vocations": [{ "name": "2" }],
+  "imbueSlots": 2
 }

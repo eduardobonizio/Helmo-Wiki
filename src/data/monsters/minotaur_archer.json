@@ -30,7 +30,9 @@
     { "item": "linen_hat", "chance": 600 },
     { "item": "linen_bow", "chance": 600 },
     { "item": "linen_legs", "chance": 600 },
-    { "item": "minotaur_leather", "chance": 250, "max": 1 }
+    { "item": "minotaur_leather", "chance": 250, "max": 1 },
+    { "item": "star", "chance": 2000, "min": 1, "max": 4 },
+    { "item": "tactical_leather", "chance": 1000 }
   ],
   "collisionRects": [
     {

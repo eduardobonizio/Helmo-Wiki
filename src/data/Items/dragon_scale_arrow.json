@@ -1,7 +1,7 @@
 {
   "iconSize": 16,
   "equipType": 8,
-  "maxStackSize": 200,
+  "maxStackSize": 400,
 
   "sounds": [["actions/hit"]],
 
@@ -14,6 +14,6 @@
   "projectile": "dragon-scale-arrow",
   "shootType": "smallphysical",
   "weaponType": "arrow",
-  "weight": "5",
+  "weight": 0.8,
   "description": "Dragon Scale arrow (Atk: 90 ~ 320)."
 }

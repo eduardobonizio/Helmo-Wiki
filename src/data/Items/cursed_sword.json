@@ -7,8 +7,6 @@
   "bonusMelee": 5,
   "bonusDefense": 2,
 
-  "lifeLeech": 5,
-  "manaLeech": 3,
   "classification": 4,
 
   "minDamage": 7,
@@ -22,9 +20,10 @@
   "elementDamage": "physical",
   "extraElementDamage": "death",
   "weaponType": "sword",
-  "weight": "2250",
+  "weight": 50,
   "description": "A masterpiece of a dwarven smith. (Atk: 150 ~ 300).",
 
   "level": 300,
-  "vocations": [{ "name": "0" }]
+  "vocations": [{ "name": "0" }],
+  "imbueSlots": 2
 }

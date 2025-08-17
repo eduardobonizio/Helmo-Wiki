@@ -11,5 +11,6 @@
   "durabilityType": 1,
 
   "protectEnergy": 8,
-  "protectPhysical": 10
+  "protectPhysical": 10,
+  "weight": 5
 }

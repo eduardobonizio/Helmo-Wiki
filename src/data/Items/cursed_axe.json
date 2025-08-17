@@ -9,8 +9,6 @@
   "critChance": 10,
   "twoHand": true,
 
-  "lifeLeech": 5,
-  "manaLeech": 3,
   "classification": 4,
 
   "minDamage": 10,
@@ -24,6 +22,7 @@
   "elementDamage": "physical",
   "extraElementDamage": "ice",
   "weaponType": "axe",
-  "weight": "2250",
-  "description": "A masterpiece of a dwarven smith. (Atk: 4 ~ 7)."
+  "weight": 45,
+  "description": "A masterpiece of a dwarven smith. (Atk: 4 ~ 7).",
+  "imbueSlots": 2
 }

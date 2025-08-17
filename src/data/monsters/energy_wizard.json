@@ -28,7 +28,8 @@
     { "item": "centered_hat", "chance": 100 },
     { "item": "earth_crystal", "chance": 10000 },
     { "item": "black_stone_amulet", "chance": 100 },
-    { "item": "blue_amulet", "chance": 500 }
+    { "item": "blue_amulet", "chance": 500 },
+    { "item": "piece_of_power_cloth", "chance": 1000 }
   ],
   "collisionRects": [
     {

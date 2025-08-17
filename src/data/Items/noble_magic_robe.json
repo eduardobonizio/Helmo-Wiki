@@ -2,7 +2,7 @@
   "equipType": 4,
   "defense": 7,
 
-  "rarity": 4,
+  "rarity": 3,
 
   "bonusMagic": 2,
   "protectEnergy": 4,
@@ -11,5 +11,7 @@
 
   "vocations": [{ "name": "2" }, { "name": "3" }],
 
-  "classification": 2
+  "classification": 2,
+  "imbueSlots": 1,
+  "weight": 40
 }

@@ -3,7 +3,7 @@
   "twoHand": true,
   "equipType": 3,
   "numOfStyles": 1,
-  "rarity": 5,
+  "rarity": 4,
   "minDamage": 36,
   "sounds": [["actions/hit"]],
   "bonusDistance": 3,
@@ -13,9 +13,10 @@
   "level": 180,
 
   "weaponType": "cross",
-  "weight": "2300",
+  "weight": 33,
 
   "vocations": [{ "name": "1" }],
 
-  "classification": 4
+  "classification": 4,
+  "imbueSlots": 2
 }

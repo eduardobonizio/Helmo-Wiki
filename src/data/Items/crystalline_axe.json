@@ -20,8 +20,9 @@
   "elementDamage": "physical",
   "extraElementDamage": "ice",
   "weaponType": "axe",
-  "weight": "2250",
+  "weight": 50,
   "description": "",
 
-  "classification": 3
+  "classification": 3,
+  "imbueSlots": 2
 }

@@ -28,7 +28,8 @@
     { "item": "steel_legs", "chance": 2000 },
     { "item": "earth_crystal", "chance": 5000 },
     { "item": "time_ring", "chance": 300 },
-    { "item": "steel_bow", "chance": 500 }
+    { "item": "steel_bow", "chance": 500 },
+    { "item": "spider_claws", "chance": 800 }
   ],
   "collisionRects": [
     {
@@ -76,5 +77,6 @@
     { "name": "energy", "value": 80 },
     { "name": "fire", "value": 115 }
   ],
-  "immunities": [{ "name": "earth", "value": 1 }]
+  "immunities": [{ "name": "earth", "value": 1 }],
+  "hards": [{ "name": "fire", "value": 1 }]
 }

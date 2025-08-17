@@ -4,5 +4,7 @@
   "rarity": 4,
 
   "protectDeath": 10,
-  "level": 80
+  "level": 80,
+  "imbueSlots": 1,
+  "weight": 23
 }

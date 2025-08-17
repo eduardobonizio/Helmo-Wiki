@@ -16,7 +16,7 @@
   "projectile": "energy-ball",
   "shootType": 12,
   "weaponType": "wand",
-  "weight": "2300",
+  "weight": 33,
   "description": "",
 
   "level": 140,

@@ -4,5 +4,6 @@
   "equipType": 0,
   "level": 60,
   "defense": 3,
-  "vocations": [{ "name": "0" }]
+  "vocations": [{ "name": "0" }],
+  "weight": 5
 }

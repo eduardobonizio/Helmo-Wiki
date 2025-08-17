@@ -15,11 +15,12 @@
   "elementDamage": "physical",
   "extraElementDamage": "fire",
   "weaponType": "sword",
-  "weight": "2250",
+  "weight": 60,
   "description": "A masterpiece of a dwarven smith. (Atk: 150 ~ 300).",
 
   "level": 100,
   "vocations": [{ "name": "0" }],
 
-  "classification": 2
+  "classification": 2,
+  "imbueSlots": 2
 }

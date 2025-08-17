@@ -12,5 +12,5 @@
 
   "vocations": [{ "name": "1" }],
   "weaponType": "cross",
-  "weight": "2300"
+  "weight": 20
 }

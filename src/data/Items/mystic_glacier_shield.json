@@ -2,6 +2,9 @@
   "equipType": 5,
   "defense": 35,
   "level": 200,
+  "rarity": 4,
   "protectIce": 10,
-  "vocations": [{ "name": "0" }]
+  "vocations": [{ "name": "0" }],
+  "imbueSlots": 1,
+  "weight": 45
 }

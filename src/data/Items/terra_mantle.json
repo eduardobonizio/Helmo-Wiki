@@ -12,5 +12,6 @@
   "level": 50,
   "weight": "22",
 
-  "vocations": [{ "name": "2" }, { "name": "3" }]
+  "vocations": [{ "name": "2" }, { "name": "3" }],
+  "imbueSlots": 2
 }

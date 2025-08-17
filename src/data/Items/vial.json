@@ -3,5 +3,6 @@
   "equipType": -1,
   "tool": true,
   "clickUse": true,
-  "hitRange": 1
+  "hitRange": 1,
+  "weight": 1
 }

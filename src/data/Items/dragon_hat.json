@@ -8,5 +8,7 @@
   "protectFire": 3,
   "vocations": [{ "name": "2" }, { "name": "3" }],
 
-  "classification": 2
+  "classification": 2,
+  "imbueSlots": 1,
+  "weight": 20
 }

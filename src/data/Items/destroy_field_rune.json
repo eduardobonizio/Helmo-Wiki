@@ -8,5 +8,6 @@
   "durability": 3,
   "clickUse": true,
   "maxStackSize": 200,
-  "hitRange": 3
+  "hitRange": 3,
+  "weight": 0.9
 }

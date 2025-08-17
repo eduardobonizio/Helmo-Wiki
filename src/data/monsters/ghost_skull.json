@@ -24,7 +24,8 @@
     { "item": "possessed_crystal", "chance": 300 },
     { "item": "soul_book", "chance": 200 },
     { "item": "noble_magic_wand", "chance": 100 },
-    { "item": "dust", "chance": 200, "min": 1, "max": 2 }
+    { "item": "dust", "chance": 200, "min": 1, "max": 2 },
+    { "item": "dead_ghost_skull", "chance": 2000 }
   ],
   "collisionRects": [
     {

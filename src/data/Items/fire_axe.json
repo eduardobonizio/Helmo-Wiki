@@ -2,7 +2,7 @@
   "iconSize": 16,
   "equipType": 3,
   "numOfStyles": 1,
-  "rarity": 4,
+  "rarity": 3,
   "defense": 17,
 
   "classification": 2,
@@ -23,5 +23,6 @@
 
   "level": 40,
 
-  "vocations": [{ "name": "0" }]
+  "vocations": [{ "name": "0" }],
+  "imbueSlots": 2
 }

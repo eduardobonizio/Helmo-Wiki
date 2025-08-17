@@ -23,7 +23,8 @@
     { "item": "royal_cape", "chance": 400 },
     { "item": "royal_boots", "chance": 300 },
     { "item": "noble_magic_hat", "chance": 200 },
-    { "item": "noble_magic_legs", "chance": 200 }
+    { "item": "noble_magic_legs", "chance": 200 },
+    { "item": "compass", "chance": 1000 }
   ],
   "collisionRects": [
     {

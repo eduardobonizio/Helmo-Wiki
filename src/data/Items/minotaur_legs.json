@@ -4,5 +4,6 @@
 
   "rarity": 2,
 
-  "vocations": [{ "name": "0" }, { "name": "1" }]
+  "vocations": [{ "name": "0" }, { "name": "1" }],
+  "weight": 40
 }

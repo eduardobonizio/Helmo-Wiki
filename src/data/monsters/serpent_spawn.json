@@ -29,7 +29,8 @@
     { "item": "green_cape", "chance": 150 },
     { "item": "green_legs", "chance": 150 },
     { "item": "green_hat", "chance": 150 },
-    { "item": "tearing_fang", "chance": 500 }
+    { "item": "tearing_fang", "chance": 500 },
+    { "item": "snake_skin", "chance": 800 }
   ],
   "collisionRects": [
     {

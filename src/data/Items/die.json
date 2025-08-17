@@ -1,5 +1,6 @@
 {
   "iconSize": 16,
   "equipType": -1,
-  "tool": true
+  "tool": true,
+  "weight": 5
 }

@@ -18,6 +18,7 @@
 
   "elementDamage": "physical",
   "weaponType": "sword",
-  "weight": "5250",
-  "description": "A masterpiece of a dwarven smith. (Atk: 12 ~ 18)."
+  "weight": 40,
+  "description": "A masterpiece of a dwarven smith. (Atk: 12 ~ 18).",
+  "imbueSlots": 2
 }

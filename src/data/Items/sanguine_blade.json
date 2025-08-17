@@ -7,14 +7,14 @@
   "bonusMelee": 6,
 
   "lifeLeech": 6,
-  "manaLeech": 4,
+  "manaLeech": 3,
   "classification": 4,
 
   "minDamage": 15,
   "maxDamage": 50,
 
-  "critMultiplier": 1.2,
-  "critChance": 10,
+  "critMultiplier": 1.3,
+  "critChance": 15,
 
   "hitRange": 1,
   "sounds": [["actions/hit"]],
@@ -25,5 +25,6 @@
   "description": "A masterpiece of a dwarven smith. (Atk: 150 ~ 300).",
 
   "level": 600,
-  "vocations": [{ "name": "0" }]
+  "vocations": [{ "name": "0" }],
+  "imbueSlots": 2
 }

@@ -2,5 +2,7 @@
   "equipType": 10,
   "defense": 3,
   "bonusSpeed": 30,
-  "rarity": 5
+  "rarity": 5,
+  "imbueSlots": 1,
+  "weight": 30
 }

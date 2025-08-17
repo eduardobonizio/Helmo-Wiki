@@ -5,23 +5,22 @@
   "defense": 40,
   "numOfStyles": 1,
   "classification": 4,
+  "twoHand": true,
 
-  "minDamage": 60,
-  "maxDamage": 60,
+  "minDamage": 70,
+  "maxDamage": 70,
 
   "hitRange": 1,
   "sounds": [["actions/hit"]],
 
-  "critMultiplier": 1.1,
-  "critChance": 5,
-
   "elementDamage": "physical",
   "weaponType": "sword",
-  "weight": 43,
+  "weight": 64,
 
   "level": 200,
 
   "vocations": [{ "name": "0" }],
 
-  "description": "A special sword for the warlord."
+  "description": "A special sword for the warlord.",
+  "imbueSlots": 3
 }

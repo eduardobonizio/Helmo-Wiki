@@ -16,11 +16,12 @@
 
   "elementDamage": "physical",
   "weaponType": "axe",
-  "weight": "4250",
+  "weight": 35,
 
   "level": 120,
 
   "vocations": [{ "name": "0" }],
 
-  "classification": 2
+  "classification": 2,
+  "imbueSlots": 1
 }

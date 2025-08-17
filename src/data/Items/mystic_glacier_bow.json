@@ -8,15 +8,17 @@
   "twoHand": true,
 
   "level": 180,
+  "rarity": 4,
   "bonusDistance": 3,
 
   "critMultiplier": 1.2,
   "critChance": 10,
 
   "weaponType": "bow",
-  "weight": "2300",
+  "weight": 23,
 
   "vocations": [{ "name": "1" }],
 
-  "classification": 4
+  "classification": 4,
+  "imbueSlots": 2
 }

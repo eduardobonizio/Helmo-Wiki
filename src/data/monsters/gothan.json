@@ -19,12 +19,12 @@
   "bestiary": 2,
   "charm": 50,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 1000, "max": 4000 },
-    { "item": "supreme_mana_potion", "chance": 5500, "max": 10 },
-    { "item": "supreme_health_potion", "chance": 5500, "max": 10 },
+    { "item": "gold", "chance": 100000, "min": 10000, "max": 15000 },
+    { "item": "supreme_mana_potion", "chance": 10500, "max": 10 },
+    { "item": "supreme_health_potion", "chance": 10500, "max": 10 },
     { "item": "demon_shield", "chance": 100000 },
-    { "item": "demon_boots", "chance": 5000 },
-    { "item": "demon_legs", "chance": 5000 },
+    { "item": "demon_boots", "chance": 8000 },
+    { "item": "demon_legs", "chance": 8000 },
     { "item": "royal_crossbow", "chance": 100000 },
     { "item": "ruby_necklace", "chance": 100000 },
     { "item": "boots_of_speed", "chance": 100000 },
@@ -34,11 +34,11 @@
     { "item": "red_book", "chance": 1000 },
     { "item": "divine_plate", "chance": 100000 },
 
-    { "item": "blue_plasma_amulet", "chance": 9000 },
-    { "item": "red_plasma_amulet", "chance": 9000 },
-    { "item": "green_plasma_amulet", "chance": 9000 },
+    { "item": "blue_plasma_amulet", "chance": 10000 },
+    { "item": "red_plasma_amulet", "chance": 10000 },
+    { "item": "green_plasma_amulet", "chance": 10000 },
 
-    { "item": "umbral_spellbook", "chance": 1000 },
+    { "item": "umbral_spellbook", "chance": 8000 },
 
     { "item": "dust", "chance": 100000, "min": 1, "max": 10 }
   ],

@@ -26,7 +26,8 @@
     { "item": "terra_hood", "chance": 300 },
     { "item": "terra_amulet", "chance": 200 },
     { "item": "club_with_spikes", "chance": 200 },
-    { "item": "ruby_necklace", "chance": 250 }
+    { "item": "ruby_necklace", "chance": 250 },
+    { "item": "scarab_clamp", "chance": 1000 }
   ],
   "collisionRects": [
     {

@@ -17,6 +17,7 @@
   "defense": 20,
   "bestiary": 20,
   "charm": 5,
+  "flee": true,
   "drops": [
     { "item": "gold", "chance": 100000, "min": 25, "max": 50 },
     { "item": "thigh", "chance": 60000, "max": 4 },

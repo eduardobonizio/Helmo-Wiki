@@ -7,5 +7,6 @@
   "classification": 2,
   "bonusMagic": 1,
   "weight": 10,
-  "vocations": [{ "name": "2" }, { "name": "3" }]
+  "vocations": [{ "name": "2" }, { "name": "3" }],
+  "imbueSlots": 2
 }

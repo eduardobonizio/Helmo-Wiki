@@ -29,7 +29,8 @@
     { "item": "club_with_spikes", "chance": 660 },
     { "item": "earth_crystal", "chance": 5500 },
     { "item": "boots_of_speed", "chance": 110 },
-    { "item": "dust", "chance": 800, "min": 1, "max": 2 }
+    { "item": "dust", "chance": 500, "min": 1, "max": 2 },
+    { "item": "djinn_talisman", "chance": 1000 }
   ],
   "collisionRects": [
     {
@@ -80,8 +81,7 @@
   "elements": [
     { "name": "fire", "value": 130 },
     { "name": "death", "value": 85 },
-    { "name": "earth", "value": 115 },
-    { "name": "energy", "value": 120 },
-    { "name": "ice", "value": 50 }
+    { "name": "earth", "value": 120 },
+    { "name": "energy", "value": 120 }
   ]
 }

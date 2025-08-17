@@ -10,6 +10,6 @@
   "sounds": [["actions/hit"]],
   "elementDamage": "physical",
   "weaponType": "sword",
-  "weight": "2250",
+  "weight": 15,
   "description": "A masterpiece of a dwarven smith. (Atk: 4 ~ 7)."
 }

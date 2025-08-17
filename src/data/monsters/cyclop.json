@@ -26,7 +26,8 @@
     { "item": "steel_ring", "chance": 100 },
     { "item": "steel_necklace", "chance": 100 },
     { "item": "steel_crossbow", "chance": 100 },
-    { "item": "steel_quiver", "chance": 50 }
+    { "item": "steel_quiver", "chance": 50 },
+    { "item": "metal_sleeve", "chance": 1100 }
   ],
   "collisionRects": [
     {

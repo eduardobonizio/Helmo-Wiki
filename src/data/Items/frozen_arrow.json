@@ -1,7 +1,7 @@
 {
   "iconSize": 16,
   "equipType": 8,
-  "maxStackSize": 200,
+  "maxStackSize": 400,
   "sounds": [["actions/hit"]],
   "minDamage": 20,
   "maxDamage": 20,
@@ -12,6 +12,6 @@
   "projectile": "frozen-arrow",
   "shootType": "smallphysical",
   "weaponType": "arrow",
-  "weight": "5",
+  "weight": 0.8,
   "description": "Frozen arrow (Atk: 3 ~ 12)."
 }

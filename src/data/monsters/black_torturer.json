@@ -13,20 +13,25 @@
   "drawOrderOffsetY": 50,
   "offsetX": -16,
   "offsetY": 0,
-  "experience": 9000,
-  "defense": 45,
+  "experience": 9900,
+  "defense": 30,
   "pushable": false,
   "bestiary": 70,
   "charm": 50,
   "drops": [
     { "item": "gold", "chance": 100000, "min": 600, "max": 1200 },
     { "item": "assassin_star", "chance": 10000, "min": 1, "max": 10 },
-    { "item": "death_armor", "chance": 600 },
+    { "item": "death_armor", "chance": 1000 },
+    { "item": "control_book", "chance": 1000 },
+    { "item": "holy_helmet", "chance": 1000 },
+    { "item": "demon_shield", "chance": 1000 },
     { "item": "ruby_necklace", "chance": 1000 },
     { "item": "boots_of_speed", "chance": 600 },
-    { "item": "royal_axe", "chance": 600 },
-    { "item": "fire_axe", "chance": 600 },
-    { "item": "breast_clip", "chance": 50 }
+    { "item": "royal_axe", "chance": 1000 },
+    { "item": "fire_axe", "chance": 1000 },
+    { "item": "breast_clip", "chance": 100 },
+    { "item": "golden_legs", "chance": 20 },
+    { "item": "soul_essence", "chance": 300 }
   ],
   "collisionRects": [
     {
@@ -52,14 +57,14 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 500, "max": 900 },
+    { "attack": "melee", "interval": 2000, "min": 100, "max": 980 },
     {
       "attack": "physical",
       "interval": 2000,
       "chance": 100,
       "range": 8,
-      "min": 500,
-      "max": 900,
+      "min": 100,
+      "max": 1100,
       "type": "shoot",
       "anim": "death-ball",
       "particle": 5
@@ -69,6 +74,7 @@
     { "name": "earth", "value": 50 },
     { "name": "fire", "value": 50 },
     { "name": "holy", "value": 115 },
+    { "name": "physical", "value": 115 },
     { "name": "death", "value": 90 }
   ],
   "defenses": [

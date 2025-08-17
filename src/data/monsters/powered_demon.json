@@ -3,7 +3,7 @@
   "hittable": true,
   "maxDirections": 4,
   "speed": 80,
-  "maxHealth": 8200,
+  "maxHealth": 9800,
   "showHealthBar": true,
   "footstepSound": "slime",
   "imgWidth": 48,
@@ -13,14 +13,13 @@
   "drawOrderOffsetY": 32,
   "offsetX": -16,
   "offsetY": 0,
-  "experience": 6660,
+  "experience": 8460,
   "defense": 34,
   "pushable": false,
   "bestiary": 105,
   "charm": 50,
   "drops": [
     { "item": "gold", "chance": 100000, "min": 400, "max": 900 },
-    { "item": "thigh", "chance": 60000, "max": 4 },
     { "item": "demon_shield", "chance": 1000 },
     { "item": "demon_boots", "chance": 50 },
     { "item": "demon_legs", "chance": 50 },
@@ -32,7 +31,8 @@
     { "item": "centered_hat", "chance": 1000 },
     { "item": "voodoo_wand", "chance": 1000 },
     { "item": "purple_book", "chance": 20 },
-    { "item": "dust", "chance": 500, "min": 1, "max": 3 }
+    { "item": "dust", "chance": 500, "min": 1, "max": 3 },
+    { "item": "energy_crystal", "chance": 1000 }
   ],
   "collisionRects": [
     {
@@ -81,7 +81,7 @@
       "interval": 8000,
       "chance": 50,
       "min": 150,
-      "max": 300,
+      "max": 600,
       "type": "area",
       "particle": 12,
       "radius": 6,
@@ -118,7 +118,7 @@
     }
   ],
   "elements": [
-    { "name": "holy", "value": 115 },
+    { "name": "holy", "value": 105 },
     { "name": "earth", "value": 125 }
   ],
   "immunities": [{ "name": "energy", "value": 1 }]

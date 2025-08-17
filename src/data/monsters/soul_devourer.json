@@ -32,7 +32,8 @@
     { "item": "demon_shield", "chance": 500 },
     { "item": "black_stone_amulet", "chance": 500 },
     { "item": "boots_of_speed", "chance": 200 },
-    { "item": "death_armor", "chance": 500 }
+    { "item": "death_armor", "chance": 500 },
+    { "item": "cloth_of_death", "chance": 3000 }
   ],
   "collisionRects": [
     {

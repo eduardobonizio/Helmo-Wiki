@@ -1,5 +1,7 @@
 {
   "equipType": 5,
   "defense": 35,
-  "rarity": 3
+  "rarity": 3,
+  "imbueSlots": 1,
+  "weight": 20
 }

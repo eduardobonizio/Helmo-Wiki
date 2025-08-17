@@ -6,8 +6,6 @@
 
   "sounds": [["actions/hit"]],
 
-  "lifeLeech": 6,
-  "manaLeech": 3,
   "classification": 4,
 
   "minDamage": 112,
@@ -23,9 +21,10 @@
   "projectile": "death-ball",
   "shootType": 12,
   "weaponType": "rod",
-  "weight": "2300",
+  "weight": 20,
   "description": "Icecold rays of moonlight shimmer on its tip (Atk: 20 ~ 30).",
 
   "level": 300,
-  "vocations": [{ "name": "2" }]
+  "vocations": [{ "name": "2" }],
+  "imbueSlots": 2
 }

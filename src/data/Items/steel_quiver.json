@@ -4,6 +4,8 @@
   "capacity": 4,
   "defense": 1,
   "level": 40,
+  "rarity": 2,
   "weaponType": "quiver",
-  "vocations": [{ "name": "1" }]
+  "vocations": [{ "name": "1" }],
+  "weight": 25
 }

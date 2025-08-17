@@ -31,7 +31,8 @@
     { "item": "steel_armor", "chance": 1000 },
     { "item": "steel_shield", "chance": 1000 },
     { "item": "boots_of_speed", "chance": 50 },
-    { "item": "purple_book", "chance": 20 }
+    { "item": "purple_book", "chance": 20 },
+    { "item": "thunder_saberz_head", "chance": 1000 }
   ],
   "collisionRects": [
     {

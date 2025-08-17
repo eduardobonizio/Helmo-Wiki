@@ -2,7 +2,8 @@
   "iconSize": 16,
   "equipType": 3,
   "numOfStyles": 1,
-  "minDamage": 21,
+  "minDamage": 23,
+  "rarity": 5,
 
   "sounds": [["actions/hit"]],
 
@@ -11,7 +12,7 @@
   "classification": 4,
 
   "critMultiplier": 1.2,
-  "critChance": 6,
+  "critChance": 8,
 
   "level": 400,
   "bonusDistance": 5,
@@ -20,5 +21,6 @@
   "weaponType": "bow",
   "weight": 35,
 
-  "vocations": [{ "name": "1" }]
+  "vocations": [{ "name": "1" }],
+  "imbueSlots": 2
 }

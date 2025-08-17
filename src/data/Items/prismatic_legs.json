@@ -11,5 +11,6 @@
 
   "vocations": [{ "name": "1" }],
 
-  "classification": 2
+  "classification": 2,
+  "weight": 45
 }

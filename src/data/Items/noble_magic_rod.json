@@ -2,7 +2,7 @@
   "iconSize": 16,
   "equipType": 3,
   "numOfStyles": 1,
-  "rarity": 4,
+  "rarity": 3,
   "sounds": [["actions/hit"]],
   "bonusMagic": 2,
   "minDamage": 44,
@@ -14,11 +14,12 @@
   "projectile": "earth-ball",
   "shootType": 13,
   "weaponType": "rod",
-  "weight": "2300",
+  "weight": 23,
   "description": "Icecold rays of moonlight shimmer on its tip (Atk: 20 ~ 30).",
 
   "level": 80,
   "vocations": [{ "name": "2" }],
 
-  "classification": 2
+  "classification": 2,
+  "imbueSlots": 1
 }

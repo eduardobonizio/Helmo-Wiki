@@ -25,7 +25,9 @@
     { "item": "living_armor", "chance": 50 },
     { "item": "royal_helmet", "chance": 3000 },
     { "item": "earth_crystal", "chance": 5000 },
-    { "item": "boots_of_speed", "chance": 50 }
+    { "item": "boots_of_speed", "chance": 50 },
+    { "item": "viper_star", "chance": 2000, "min": 1, "max": 4 },
+    { "item": "magnifying_glass", "chance": 1000 }
   ],
   "collisionRects": [
     {
@@ -81,7 +83,6 @@
   "elements": [
     { "name": "physical", "value": 115 },
     { "name": "energy", "value": 70 },
-    { "name": "earth", "value": 70 },
     { "name": "holy", "value": 110 },
     { "name": "ice", "value": 110 }
   ],

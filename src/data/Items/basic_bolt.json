@@ -11,6 +11,6 @@
   "projectile": "basic-bolt",
   "shootType": "smallphysical",
   "weaponType": "bolt",
-  "weight": "5",
+  "weight": 0.8,
   "description": "Basic bolt (Atk: 3 ~ 12)."
 }

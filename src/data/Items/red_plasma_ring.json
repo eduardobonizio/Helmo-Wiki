@@ -8,5 +8,6 @@
   "durability": 1800,
   "durabilityType": 1,
   "bonusMelee": 3,
-  "protectPhysical": 3
+  "protectPhysical": 3,
+  "weight": 5
 }

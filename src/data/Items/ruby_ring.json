@@ -3,5 +3,6 @@
   "buff": true,
   "equipType": 6,
   "minDamage": 2,
-  "maxDamage": 3
+  "maxDamage": 3,
+  "weight": 2
 }

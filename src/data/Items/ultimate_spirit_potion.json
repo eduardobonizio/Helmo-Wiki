@@ -1,12 +1,13 @@
 {
   "iconSize": 16,
   "equipType": -1,
-  "maxStackSize": 200,
+  "maxStackSize": 600,
   "minDamage": 250,
   "maxDamage": 600,
   "consumable": true,
   "level": 130,
 
   "vocations": [{ "name": "1" }],
-  "autoCollect": true
+  "autoCollect": true,
+  "weight": 3
 }

@@ -1,0 +1,9 @@
+{
+  "iconSize": 16,
+  "buff": true,
+  "equipType": 9,
+  "rarity": 5,
+  "bonusMagic": 1,
+  "protectDeath": 5,
+  "weight": 15
+}

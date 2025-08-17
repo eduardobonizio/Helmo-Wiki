@@ -24,7 +24,8 @@
     { "item": "royal_cape", "chance": 1000 },
     { "item": "mace", "chance": 1000 },
     { "item": "tearing_fang", "chance": 500 },
-    { "item": "halberd", "chance": 500 }
+    { "item": "halberd", "chance": 500 },
+    { "item": "scorpion_pincer", "chance": 800 }
   ],
   "collisionRects": [
     {

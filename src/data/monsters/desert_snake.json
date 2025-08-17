@@ -20,7 +20,8 @@
   "charm": 10,
   "drops": [
     { "item": "gold", "chance": 100000, "min": 50, "max": 150 },
-    { "item": "earth_crystal", "chance": 2000 }
+    { "item": "earth_crystal", "chance": 2000 },
+    { "item": "snake_skin", "chance": 800 }
   ],
   "collisionRects": [
     {

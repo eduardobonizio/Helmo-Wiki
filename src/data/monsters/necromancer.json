@@ -20,18 +20,20 @@
   "drops": [
     { "item": "gold", "chance": 100000, "min": 100, "max": 600 },
     { "item": "earth_crystal", "chance": 7000 },
-    { "item": "royal_axe", "chance": 400 },
-    { "item": "necro_rod", "chance": 200 },
-    { "item": "voodoo_wand", "chance": 100 },
+    { "item": "royal_axe", "chance": 800 },
+    { "item": "necro_rod", "chance": 800 },
+    { "item": "voodoo_wand", "chance": 300 },
     { "item": "pretator_rod", "chance": 70 },
     { "item": "dark_bagpack", "chance": 20 },
-    { "item": "club_with_spikes", "chance": 600 },
+    { "item": "club_with_spikes", "chance": 800 },
     { "item": "royal_helmet", "chance": 2000 },
     { "item": "earth_crystal", "chance": 5000 },
     { "item": "boots_of_speed", "chance": 25 },
     { "item": "death_armor", "chance": 30 },
-    { "item": "dust", "chance": 500, "min": 1, "max": 3 },
-    { "item": "dark_floor", "chance": 50 }
+    { "item": "dust", "chance": 400, "min": 1, "max": 3 },
+    { "item": "dark_floor", "chance": 50 },
+    { "item": "mystical_hourglass", "chance": 900 },
+    { "item": "rope_belt", "chance": 800 }
   ],
   "collisionRects": [
     {

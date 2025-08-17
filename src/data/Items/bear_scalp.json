@@ -3,5 +3,6 @@
   "equipType": -1,
   "maxStackSize": 10,
   "rarity": 3,
-  "material": true
+  "material": true,
+  "weight": 5
 }

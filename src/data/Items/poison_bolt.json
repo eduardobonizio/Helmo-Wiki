@@ -1,7 +1,7 @@
 {
   "iconSize": 16,
   "equipType": 8,
-  "maxStackSize": 200,
+  "maxStackSize": 400,
   "sounds": [["actions/hit"]],
   "minDamage": 34,
   "maxDamage": 34,
@@ -13,6 +13,6 @@
   "projectile": "poison-bolt",
   "shootType": "smallphysical",
   "weaponType": "bolt",
-  "weight": "5",
+  "weight": 0.9,
   "description": "Poison bolt (Atk: 3 ~ 12)."
 }

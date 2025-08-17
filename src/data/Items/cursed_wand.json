@@ -4,8 +4,6 @@
   "numOfStyles": 1,
   "rarity": 5,
 
-  "lifeLeech": 6,
-  "manaLeech": 3,
   "classification": 4,
 
   "sounds": [["actions/hit"]],
@@ -23,9 +21,10 @@
   "projectile": "death-ball",
   "shootType": 12,
   "weaponType": "wand",
-  "weight": "2300",
+  "weight": 20,
   "description": "Icecold rays of moonlight shimmer on its tip (Atk: 20 ~ 30).",
 
   "level": 300,
-  "vocations": [{ "name": "3" }]
+  "vocations": [{ "name": "3" }],
+  "imbueSlots": 2
 }

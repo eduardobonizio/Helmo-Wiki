@@ -30,7 +30,8 @@
     { "item": "minotaur_horn", "chance": 500, "max": 1 },
     { "item": "minotaur_leather", "chance": 350, "max": 1 },
     { "item": "gray_bagpack", "chance": 600 },
-    { "item": "broom", "chance": 500 }
+    { "item": "broom", "chance": 500 },
+    { "item": "rope_belt", "chance": 900 }
   ],
   "collisionRects": [
     {

@@ -20,10 +20,11 @@
   "projectile": "earth-ball",
   "shootType": 12,
   "weaponType": "rod",
-  "weight": "2300",
+  "weight": 30,
   "description": "",
   "protectFire": 8,
-
+  "imbueSlots": 3,
   "level": 400,
-  "vocations": [{ "name": "2" }]
+  "vocations": [{ "name": "2" }],
+  "imbueSlots": 2
 }

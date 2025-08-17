@@ -3,5 +3,6 @@
   "buff": true,
   "equipType": 0,
   "level": 130,
-  "protectHoly": 5
+  "protectHoly": 5,
+  "weight": 5
 }

@@ -13,7 +13,7 @@
   "projectile": "ice-ball",
   "shootType": 12,
   "weaponType": "wand",
-  "weight": "2300",
+  "weight": 10,
   "description": "Icecold rays of moonlight shimmer on its tip (Atk: 2 ~ 5).",
 
   "vocations": [{ "name": "3" }]

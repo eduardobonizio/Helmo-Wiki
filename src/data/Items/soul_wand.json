@@ -16,9 +16,10 @@
   "projectile": "fire-ball",
   "shootType": 12,
   "weaponType": "wand",
-  "weight": "2300",
+  "weight": 28,
   "description": "Icecold rays of moonlight shimmer on its tip (Atk: 4 ~ 7).",
 
   "level": 40,
-  "vocations": [{ "name": "3" }]
+  "vocations": [{ "name": "3" }],
+  "imbueSlots": 1
 }

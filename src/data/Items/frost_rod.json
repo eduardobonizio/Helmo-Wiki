@@ -15,7 +15,7 @@
   "projectile": "ice-ball",
   "shootType": "smallice",
   "weaponType": "rod",
-  "weight": "2300",
+  "weight": 20,
   "description": "Icecold rays of moonlight shimmer on its tip (Atk: 13 ~ 25).",
 
   "vocations": [{ "name": "2" }],

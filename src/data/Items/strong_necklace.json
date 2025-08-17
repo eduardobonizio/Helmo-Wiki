@@ -3,5 +3,6 @@
   "buff": true,
   "equipType": 0,
   "level": 140,
-  "protectFire": 5
+  "protectFire": 5,
+  "weight": 15
 }

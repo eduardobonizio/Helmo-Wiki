@@ -2,7 +2,7 @@
   "id": "elite_undead_warrior",
   "hittable": true,
   "maxDirections": 4,
-  "speed": 60,
+  "speed": 80,
   "maxHealth": 25000,
   "showHealthBar": true,
   "footstepSound": "slime",
@@ -23,13 +23,15 @@
     { "item": "gold", "chance": 100000, "min": 1000, "max": 3000 },
     { "item": "boots_of_speed", "chance": 1000 },
     { "item": "royal_axe", "chance": 1000 },
+    { "item": "magic_sword", "chance": 50 },
     { "item": "warrior_skull", "chance": 50 },
-    { "item": "fear_helmet", "chance": 60 },
-    { "item": "dread_helmet", "chance": 60 },
-    { "item": "anguish_helmet", "chance": 60 },
-    { "item": "agony_helmet", "chance": 60 },
+    { "item": "fear_helmet", "chance": 10 },
+    { "item": "dread_helmet", "chance": 10 },
+    { "item": "anguish_helmet", "chance": 10 },
+    { "item": "agony_helmet", "chance": 10 },
     { "item": "mace", "chance": 1000 },
-    { "item": "morning_star", "chance": 1000 }
+    { "item": "morning_star", "chance": 1000 },
+    { "item": "magic_plate_armor", "chance": 20 }
   ],
   "collisionRects": [
     {
@@ -55,14 +57,14 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 1200, "max": 3000 },
+    { "attack": "melee", "interval": 2000, "min": 2200, "max": 6000 },
     {
       "attack": "physical",
       "interval": 2000,
       "chance": 50,
       "range": 8,
-      "min": 800,
-      "max": 2200,
+      "min": 2800,
+      "max": 6200,
       "type": "shoot",
       "anim": "death-ball",
       "particle": 5

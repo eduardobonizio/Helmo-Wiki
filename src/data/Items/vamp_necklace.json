@@ -6,5 +6,6 @@
 
   "level": 80,
 
-  "protectDeath": 3
+  "protectDeath": 3,
+  "weight": 5
 }

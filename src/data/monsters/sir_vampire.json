@@ -33,7 +33,8 @@
     { "item": "blue_plasma_ring", "chance": 9000 },
     { "item": "red_plasma_ring", "chance": 9000 },
     { "item": "vamp_necklace", "chance": 1000 },
-    { "item": "dust", "chance": 100000, "min": 1, "max": 5 }
+    { "item": "dust", "chance": 100000, "min": 1, "max": 5 },
+    { "item": "vampire_teeth", "chance": 100000 }
   ],
   "collisionRects": [
     {

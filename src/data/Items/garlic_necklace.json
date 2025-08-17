@@ -4,5 +4,6 @@
   "equipType": 0,
   "rarity": 2,
   "durability": 150,
-  "protectLife": 20
+  "protectLife": 20,
+  "weight": 5
 }

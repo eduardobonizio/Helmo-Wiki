@@ -2,8 +2,8 @@
   "id": "undead_gladiator",
   "hittable": true,
   "maxDirections": 4,
-  "speed": 70,
-  "maxHealth": 9000,
+  "speed": 80,
+  "maxHealth": 12500,
   "showHealthBar": true,
   "footstepSound": "slime",
   "imgWidth": 64,
@@ -13,7 +13,7 @@
   "drawOrderOffsetY": 50,
   "offsetX": -22,
   "offsetY": 0,
-  "experience": 6090,
+  "experience": 9900,
   "defense": 75,
   "pushable": false,
   "intervalResp": 60,
@@ -22,14 +22,16 @@
   "drops": [
     { "item": "gold", "chance": 100000, "min": 600, "max": 1200 },
     { "item": "earth_crystal", "chance": 5000 },
-    { "item": "boots_of_speed", "chance": 600 },
+    { "item": "boots_of_speed", "chance": 800 },
     { "item": "royal_axe", "chance": 1000 },
-    { "item": "thunder_hammer", "chance": 600 },
-    { "item": "ruby_necklace", "chance": 600 },
-    { "item": "black_stone_amulet", "chance": 600 },
+    { "item": "dragon_slayer_sword", "chance": 1000 },
+    { "item": "thunder_hammer", "chance": 100 },
+    { "item": "ruby_necklace", "chance": 1000 },
+    { "item": "black_stone_amulet", "chance": 1000 },
     { "item": "death_armor", "chance": 1000 },
     { "item": "fire_axe", "chance": 1000 },
-    { "item": "warrior_skull", "chance": 50 }
+    { "item": "warrior_skull", "chance": 100 },
+    { "item": "master_shield", "chance": 20 }
   ],
   "collisionRects": [
     {
@@ -55,17 +57,29 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 200, "max": 800 },
+    { "attack": "melee", "interval": 2000, "min": 600, "max": 1200 },
     {
       "attack": "physical",
       "interval": 2000,
       "chance": 100,
       "range": 8,
-      "min": 200,
-      "max": 900,
+      "min": 600,
+      "max": 1200,
       "type": "shoot",
       "anim": "death-ball",
       "particle": 5
+    },
+    {
+      "attack": "death",
+      "interval": 6000,
+      "chance": 30,
+      "min": 600,
+      "max": 1200,
+      "type": "area",
+      "particle": 37,
+      "radius": 3,
+      "target": 1,
+      "range": 7
     }
   ],
   "elements": [
@@ -79,15 +93,15 @@
       "name": "healing",
       "interval": 6000,
       "chance": 50,
-      "min": 160,
-      "max": 240
+      "min": 360,
+      "max": 440
     },
     {
       "name": "life_drain",
       "interval": 10000,
       "chance": 20,
-      "min": 300,
-      "max": 480,
+      "min": 400,
+      "max": 680,
       "type": "area",
       "particle": 12,
       "radius": 6

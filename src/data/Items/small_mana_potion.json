@@ -4,5 +4,6 @@
   "maxStackSize": 200,
   "minDamage": 50,
   "consumable": true,
-  "autoCollect": true
+  "autoCollect": true,
+  "weight": "1"
 }

@@ -2,7 +2,7 @@
   "iconSize": 16,
   "equipType": 3,
   "numOfStyles": 1,
-  "rarity": 4,
+  "rarity": 3,
   "bonusMagic": 1,
 
   "sounds": [["actions/hit"]],
@@ -16,11 +16,12 @@
   "projectile": "death-ball",
   "shootType": 12,
   "weaponType": "wand",
-  "weight": "2300",
+  "weight": 23,
   "description": "Icecold rays of moonlight shimmer on its tip (Atk: 20 ~ 30).",
 
   "level": 60,
   "vocations": [{ "name": "3" }],
 
-  "classification": 2
+  "classification": 2,
+  "imbueSlots": 1
 }

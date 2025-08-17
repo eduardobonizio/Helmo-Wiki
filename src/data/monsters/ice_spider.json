@@ -27,7 +27,8 @@
     { "item": "steel_shield", "chance": 1000 },
     { "item": "earth_crystal", "chance": 4000 },
     { "item": "time_ring", "chance": 300 },
-    { "item": "steel_bow", "chance": 200 }
+    { "item": "steel_bow", "chance": 200 },
+    { "item": "spider_claws", "chance": 800 }
   ],
   "collisionRects": [
     {
@@ -72,5 +73,6 @@
     }
   ],
   "elements": [{ "name": "fire", "value": 115 }],
-  "immunities": [{ "name": "ice", "value": 1 }]
+  "immunities": [{ "name": "ice", "value": 1 }],
+  "hards": [{ "name": "fire", "value": 1 }]
 }

@@ -27,7 +27,9 @@
     { "item": "human_skull", "chance": 5000 },
     { "item": "steel_boots", "chance": 1000 },
     { "item": "steel_quiver", "chance": 20 },
-    { "item": "dust", "chance": 400, "min": 1, "max": 2 }
+    { "item": "dust", "chance": 400, "min": 1, "max": 2 },
+    { "item": "star", "chance": 1000, "min": 1, "max": 3 },
+    { "item": "demon_skeleton_hand", "chance": 1000 }
   ],
   "collisionRects": [
     {

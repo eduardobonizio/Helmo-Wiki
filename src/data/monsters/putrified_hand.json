@@ -2,7 +2,7 @@
   "id": "putrified_hand",
   "hittable": true,
   "maxDirections": 4,
-  "speed": 80,
+  "speed": 90,
   "maxHealth": 120000,
   "showHealthBar": true,
   "footstepSound": "slime",
@@ -29,9 +29,9 @@
     { "item": "control_book", "chance": 1500 },
     { "item": "dust", "chance": 100000, "min": 1, "max": 2 },
     { "item": "umbral_spellbook", "chance": 200 },
-    { "item": "dread_helmet", "chance": 300 },
-    { "item": "dread_armor", "chance": 300 },
-    { "item": "dread_legs", "chance": 300 }
+    { "item": "dread_helmet", "chance": 20 },
+    { "item": "dread_armor", "chance": 20 },
+    { "item": "dread_legs", "chance": 20 }
   ],
   "collisionRects": [
     {
@@ -68,7 +68,7 @@
       "interval": 6000,
       "chance": 30,
       "min": 2000,
-      "max": 4500,
+      "max": 5500,
       "type": "area",
       "particle": 3,
       "length": 8,
@@ -80,7 +80,7 @@
       "interval": 6000,
       "chance": 30,
       "min": 2000,
-      "max": 5500,
+      "max": 6500,
       "type": "area",
       "particle": 37,
       "radius": 8
@@ -90,7 +90,7 @@
       "interval": 6000,
       "chance": 30,
       "min": 2000,
-      "max": 4500,
+      "max": 5500,
       "type": "area",
       "particle": 3,
       "radius": 8
@@ -99,10 +99,20 @@
   "defenses": [
     {
       "name": "healing",
-      "interval": 10000,
+      "interval": 8000,
       "chance": 30,
-      "min": 500,
-      "max": 12000
+      "min": 1500,
+      "max": 2200
+    },
+    {
+      "name": "mana_drain",
+      "interval": 8000,
+      "chance": 40,
+      "min": 2000,
+      "max": 5000,
+      "type": "area",
+      "particle": 11,
+      "radius": 6
     }
   ],
   "elements": [

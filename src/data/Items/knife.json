@@ -9,6 +9,6 @@
 
   "elementDamage": "physical",
   "weaponType": "sword",
-  "weight": "2250",
+  "weight": 10,
   "description": "A masterpiece of a dwarven smith. (Atk: 4 ~ 7)."
 }

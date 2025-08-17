@@ -2,7 +2,7 @@
   "equipType": 7,
   "defense": 8,
 
-  "rarity": 4,
+  "rarity": 3,
 
   "bonusDistance": 2,
   "protectDeath": 5,
@@ -10,5 +10,6 @@
 
   "vocations": [{ "name": "1" }],
 
-  "classification": 2
+  "classification": 2,
+  "weight": 60
 }

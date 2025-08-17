@@ -20,20 +20,22 @@
   "bestiary": 70,
   "charm": 50,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 600, "max": 1800 },
-    { "item": "earth_crystal", "chance": 5000 },
-    { "item": "boots_of_speed", "chance": 1500 },
-    { "item": "royal_axe", "chance": 1500 },
-    { "item": "thunder_hammer", "chance": 1500 },
+    { "item": "gold", "chance": 100000, "min": 700, "max": 1800 },
+    { "item": "earth_crystal", "chance": 8000 },
+    { "item": "boots_of_speed", "chance": 1200 },
+    { "item": "royal_axe", "chance": 1200 },
+    { "item": "magic_sword", "chance": 100 },
+    { "item": "thunder_hammer", "chance": 100 },
     { "item": "ruby_necklace", "chance": 1500 },
-    { "item": "black_stone_amulet", "chance": 1500 },
-    { "item": "death_armor", "chance": 1500 },
-    { "item": "fire_axe", "chance": 1500 },
-    { "item": "warrior_skull", "chance": 50 },
-    { "item": "fear_armor", "chance": 60 },
-    { "item": "dread_armor", "chance": 60 },
-    { "item": "anguish_armor", "chance": 60 },
-    { "item": "agony_armor", "chance": 60 }
+    { "item": "black_stone_amulet", "chance": 800 },
+    { "item": "death_armor", "chance": 1200 },
+    { "item": "fire_axe", "chance": 1200 },
+    { "item": "warrior_skull", "chance": 100 },
+    { "item": "fear_armor", "chance": 5 },
+    { "item": "dread_armor", "chance": 5 },
+    { "item": "anguish_armor", "chance": 5 },
+    { "item": "agony_armor", "chance": 5 },
+    { "item": "master_shield", "chance": 20 }
   ],
   "collisionRects": [
     {
@@ -59,17 +61,29 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 800, "max": 2500 },
+    { "attack": "melee", "interval": 2000, "min": 1800, "max": 3500 },
     {
       "attack": "physical",
       "interval": 2000,
       "chance": 100,
       "range": 8,
-      "min": 900,
-      "max": 1800,
+      "min": 1800,
+      "max": 3200,
       "type": "shoot",
       "anim": "death-ball",
       "particle": 5
+    },
+    {
+      "attack": "death",
+      "interval": 6000,
+      "chance": 30,
+      "min": 900,
+      "max": 2900,
+      "type": "area",
+      "particle": 37,
+      "radius": 3,
+      "target": 1,
+      "range": 7
     }
   ],
   "elements": [
@@ -81,7 +95,7 @@
   "defenses": [
     {
       "name": "paralize",
-      "interval": 10000,
+      "interval": 8000,
       "chance": 50,
       "type": "area",
       "particle": 40,
@@ -90,10 +104,10 @@
     },
     {
       "name": "life_drain",
-      "interval": 10000,
+      "interval": 8000,
       "chance": 20,
-      "min": 300,
-      "max": 480,
+      "min": 800,
+      "max": 1080,
       "type": "area",
       "particle": 12,
       "radius": 6

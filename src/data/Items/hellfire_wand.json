@@ -16,11 +16,12 @@
   "projectile": "fire-ball",
   "shootType": 12,
   "weaponType": "wand",
-  "weight": "2300",
+  "weight": 25,
   "description": "",
 
   "level": 200,
   "vocations": [{ "name": "3" }],
 
-  "classification": 3
+  "classification": 3,
+  "imbueSlots": 3
 }

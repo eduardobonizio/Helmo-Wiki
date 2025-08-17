@@ -1,0 +1,17 @@
+{
+  "iconSize": 16,
+  "equipType": 8,
+  "maxStackSize": 400,
+  "sounds": [["actions/hit"]],
+  "minDamage": 23,
+  "maxDamage": 23,
+
+  "level": 300,
+
+  "elementDamage": "energy",
+  "projectile": "energized-arrow",
+  "shootType": "smallphysical",
+  "weaponType": "arrow",
+  "weight": 0.8,
+  "description": ""
+}

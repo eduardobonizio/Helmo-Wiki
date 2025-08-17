@@ -20,7 +20,7 @@
   "drops": [
     { "item": "gold", "chance": 100000, "min": 200, "max": 400 },
     { "item": "hylian_broadsword", "chance": 2000 },
-    { "item": "dust", "chance": 500, "min": 1, "max": 2 },
+    { "item": "dust", "chance": 400, "min": 1, "max": 2 },
     { "item": "crystalline_armor", "chance": 20 },
     { "item": "crystalline_cape", "chance": 20 },
     { "item": "blue_robe", "chance": 100 },
@@ -33,7 +33,9 @@
     { "item": "crystalline_sword", "chance": 50 },
     { "item": "black_stone_amulet", "chance": 100 },
     { "item": "thick_ice_stone_necklace", "chance": 50 },
-    { "item": "earth_crystal", "chance": 5000 }
+    { "item": "earth_crystal", "chance": 5000 },
+    { "item": "ice_crystal", "chance": 1000 },
+    { "item": "possessed_crystal", "chance": 500 }
   ],
   "collisionRects": [
     {

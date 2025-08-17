@@ -3,7 +3,7 @@
   "equipType": 3,
   "numOfStyles": 1,
   "minDamage": 10,
-  "rarity": 4,
+  "rarity": 3,
 
   "sounds": [["actions/hit"]],
 
@@ -15,9 +15,10 @@
   "level": 100,
 
   "weaponType": "bow",
-  "weight": "2300",
+  "weight": 35,
 
   "vocations": [{ "name": "1" }],
 
-  "classification": 2
+  "classification": 2,
+  "imbueSlots": 2
 }

@@ -3,6 +3,7 @@
   "equipType": 3,
   "numOfStyles": 1,
   "minDamage": 20,
+  "rarity": 5,
   "sounds": [["actions/hit"]],
   "hitRange": 8,
   "twoHand": true,
@@ -15,7 +16,8 @@
   "bonusDistance": 4,
 
   "weaponType": "bow",
-  "weight": "2300",
+  "weight": 25,
 
-  "vocations": [{ "name": "1" }]
+  "vocations": [{ "name": "1" }],
+  "imbueSlots": 2
 }

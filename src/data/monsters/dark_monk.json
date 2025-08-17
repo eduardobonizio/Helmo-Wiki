@@ -31,7 +31,9 @@
     { "item": "holy_legs", "chance": 80 },
     { "item": "holy_helmet", "chance": 80 },
     { "item": "blue_amulet", "chance": 100 },
-    { "item": "dust", "chance": 500, "min": 1, "max": 2 }
+    { "item": "dust", "chance": 400, "min": 1, "max": 2 },
+    { "item": "cult_cloak", "chance": 1000 },
+    { "item": "rope_belt", "chance": 800 }
   ],
   "collisionRects": [
     {
@@ -88,7 +90,7 @@
     { "name": "physical", "value": 105 },
     { "name": "fire", "value": 90 },
     { "name": "energy", "value": 70 },
-    { "name": "earth", "value": 70 },
+    { "name": "earth", "value": 90 },
     { "name": "holy", "value": 110 },
     { "name": "ice", "value": 110 }
   ],

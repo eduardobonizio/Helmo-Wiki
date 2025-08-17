@@ -20,12 +20,14 @@
   "charm": 100,
   "drops": [
     { "item": "gold", "chance": 100000, "min": 800, "max": 1600 },
-    { "item": "thigh", "chance": 60000, "max": 4 },
     { "item": "great_mana_potion", "chance": 5500, "max": 3 },
     { "item": "great_health_potion", "chance": 5500, "max": 3 },
     { "item": "demon_shield", "chance": 2000 },
     { "item": "demon_boots", "chance": 50 },
     { "item": "demon_legs", "chance": 50 },
+    { "item": "golden_legs", "chance": 800 },
+    { "item": "master_shield", "chance": 800 },
+    { "item": "magic_plate_armor", "chance": 800 },
     { "item": "earth_crystal", "chance": 20000 },
     { "item": "royal_axe", "chance": 2000 },
     { "item": "hellfire_wand", "chance": 500 },
@@ -33,10 +35,10 @@
     { "item": "red_robe", "chance": 1000 },
     { "item": "red_legs", "chance": 1000 },
     { "item": "red_boots", "chance": 1000 },
-    { "item": "fear_legs", "chance": 60 },
-    { "item": "dread_legs", "chance": 60 },
-    { "item": "anguish_legs", "chance": 60 },
-    { "item": "agony_legs", "chance": 60 }
+    { "item": "fear_legs", "chance": 20 },
+    { "item": "dread_legs", "chance": 20 },
+    { "item": "anguish_legs", "chance": 20 },
+    { "item": "agony_legs", "chance": 20 }
   ],
   "collisionRects": [
     {
@@ -84,7 +86,7 @@
       "interval": 8000,
       "chance": 30,
       "min": 650,
-      "max": 1200,
+      "max": 1500,
       "type": "area",
       "particle": 3,
       "length": 10,
@@ -96,7 +98,7 @@
       "interval": 8000,
       "chance": 30,
       "min": 1000,
-      "max": 1350,
+      "max": 1550,
       "type": "area",
       "particle": 37,
       "radius": 8
@@ -116,8 +118,8 @@
       "name": "mana_drain",
       "interval": 8000,
       "chance": 30,
-      "min": 90,
-      "max": 160,
+      "min": 300,
+      "max": 600,
       "type": "area",
       "particle": 11,
       "radius": 6

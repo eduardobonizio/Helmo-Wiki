@@ -8,5 +8,7 @@
   "rarity": 4,
   "classification": 2,
 
-  "vocations": [{ "name": "0" }]
+  "vocations": [{ "name": "0" }],
+  "imbueSlots": 2,
+  "weight": 75
 }

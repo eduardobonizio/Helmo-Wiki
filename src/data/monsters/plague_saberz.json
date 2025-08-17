@@ -28,7 +28,8 @@
     { "item": "royal_helmet", "chance": 2000 },
     { "item": "halberd", "chance": 800 },
     { "item": "boots_of_speed", "chance": 50 },
-    { "item": "dust", "chance": 200, "min": 1, "max": 2 }
+    { "item": "dust", "chance": 200, "min": 1, "max": 2 },
+    { "item": "thunder_saberz_head", "chance": 1000 }
   ],
   "collisionRects": [
     {

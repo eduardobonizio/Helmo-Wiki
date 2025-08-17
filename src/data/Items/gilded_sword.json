@@ -24,5 +24,6 @@
   "weight": "86",
 
   "level": 350,
-  "vocations": [{ "name": "0" }]
+  "vocations": [{ "name": "0" }],
+  "imbueSlots": 1
 }

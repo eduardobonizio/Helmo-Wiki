@@ -26,7 +26,9 @@
     { "item": "linen_bow", "chance": 700 },
     { "item": "linen_legs", "chance": 700 },
     { "item": "basic_crossbow", "chance": 2000 },
-    { "item": "basic_quiver", "chance": 400 }
+    { "item": "basic_quiver", "chance": 400 },
+    { "item": "star", "chance": 2000, "min": 1, "max": 4 },
+    { "item": "tactical_leather", "chance": 1000 }
   ],
   "collisionRects": [
     {

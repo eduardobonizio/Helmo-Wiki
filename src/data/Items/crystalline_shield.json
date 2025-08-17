@@ -8,5 +8,7 @@
 
   "vocations": [{ "name": "0" }],
 
-  "level": 110
+  "level": 110,
+  "imbueSlots": 1,
+  "weight": 40
 }

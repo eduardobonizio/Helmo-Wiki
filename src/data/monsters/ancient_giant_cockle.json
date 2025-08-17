@@ -22,18 +22,18 @@
   "drops": [
     { "item": "gold", "chance": 100000, "min": 1000, "max": 5000 },
     { "item": "earth_crystal", "chance": 8000 },
-    { "item": "legendary_crossbow", "chance": 500 },
-    { "item": "legendary_bow", "chance": 500 },
+    { "item": "legendary_crossbow", "chance": 800 },
+    { "item": "legendary_bow", "chance": 800 },
     { "item": "voodoo_wand", "chance": 800 },
     { "item": "style_bagpack", "chance": 300 },
     { "item": "holy_helmet", "chance": 800 },
-    { "item": "mysteries_book", "chance": 500 },
-    { "item": "royal_axe", "chance": 500 },
-    { "item": "purple_book", "chance": 300 },
-    { "item": "bronze_amulet", "chance": 5000 },
-    { "item": "garlic_necklace", "chance": 5000 },
-    { "item": "weak_necklace", "chance": 5000 },
-    { "item": "might_ring", "chance": 5000 },
+    { "item": "mysteries_book", "chance": 800 },
+    { "item": "royal_axe", "chance": 10000 },
+    { "item": "purple_book", "chance": 100 },
+    { "item": "bronze_amulet", "chance": 8000 },
+    { "item": "garlic_necklace", "chance": 8000 },
+    { "item": "weak_necklace", "chance": 8000 },
+    { "item": "might_ring", "chance": 8000 },
 
     { "item": "prismatic_ring", "chance": 1000 },
     { "item": "prismatic_necklace", "chance": 1000 },
@@ -42,9 +42,9 @@
     { "item": "blue_plasma_amulet", "chance": 2000 },
     { "item": "green_plasma_amulet", "chance": 2000 },
 
-    { "item": "dust", "chance": 5000, "min": 1, "max": 5 },
-    { "item": "white_pearl", "chance": 500 },
-    { "item": "black_pearl", "chance": 500 }
+    { "item": "dust", "chance": 4500, "min": 1, "max": 5 },
+    { "item": "white_pearl", "chance": 50 },
+    { "item": "black_pearl", "chance": 50 }
   ],
   "collisionRects": [
     {

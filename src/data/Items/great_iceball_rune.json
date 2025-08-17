@@ -7,7 +7,8 @@
   "magic": 3,
   "durability": 4,
   "clickUse": true,
-  "maxStackSize": 200,
+  "maxStackSize": 800,
   "hotConfig": true,
-  "hitRange": 8
+  "hitRange": 8,
+  "weight": 0.8
 }

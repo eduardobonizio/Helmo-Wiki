@@ -22,6 +22,6 @@
 
   "elementDamage": "physical",
   "weaponType": "club",
-  "weight": "2250",
+  "weight": 55,
   "description": "A masterpiece of a dwarven smith. (Atk: 5 ~ 8)."
 }

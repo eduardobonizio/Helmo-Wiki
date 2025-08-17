@@ -21,18 +21,19 @@
     { "item": "gold", "chance": 100000, "min": 200, "max": 790 },
     { "item": "thigh", "chance": 20000, "min": 1, "max": 6 },
     { "item": "assassin_star", "chance": 20000, "min": 1, "max": 5 },
-    { "item": "dust", "chance": 500, "min": 1, "max": 2 },
-    { "item": "royal_armor", "chance": 2000 },
-    { "item": "royal_boots", "chance": 2000 },
-    { "item": "hylian_broadsword", "chance": 1000 },
-    { "item": "club_with_spikes", "chance": 1000 },
-    { "item": "royal_axe", "chance": 1000 },
+    { "item": "dust", "chance": 400, "min": 1, "max": 2 },
+    { "item": "royal_armor", "chance": 1800 },
+    { "item": "royal_boots", "chance": 1800 },
+    { "item": "hylian_broadsword", "chance": 800 },
+    { "item": "club_with_spikes", "chance": 800 },
+    { "item": "royal_axe", "chance": 800 },
     { "item": "time_ring", "chance": 500 },
     { "item": "magic_sword", "chance": 20 },
     { "item": "green_bagpack", "chance": 600 },
     { "item": "death_armor", "chance": 100 },
     { "item": "divine_plate", "chance": 100 },
-    { "item": "fire_axe", "chance": 100 }
+    { "item": "fire_axe", "chance": 100 },
+    { "item": "energy_crystal", "chance": 1000 }
   ],
   "collisionRects": [
     {

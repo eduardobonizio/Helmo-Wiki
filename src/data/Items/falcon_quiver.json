@@ -9,5 +9,6 @@
   "level": 400,
   "rarity": 5,
   "weaponType": "quiver",
-  "vocations": [{ "name": "1" }]
+  "vocations": [{ "name": "1" }],
+  "weight": 30
 }

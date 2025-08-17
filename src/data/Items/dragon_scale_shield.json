@@ -7,5 +7,7 @@
 
   "protectEarth": 10,
 
-  "vocations": [{ "name": "0" }]
+  "vocations": [{ "name": "0" }],
+  "imbueSlots": 1,
+  "weight": 70
 }

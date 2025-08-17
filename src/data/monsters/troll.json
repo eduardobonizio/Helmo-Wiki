@@ -26,7 +26,8 @@
     { "item": "royal_armor", "chance": 500 },
     { "item": "royal_legs", "chance": 500 },
     { "item": "royal_boots", "chance": 500 },
-    { "item": "royal_shield", "chance": 200 }
+    { "item": "royal_shield", "chance": 200 },
+    { "item": "carapace_skin", "chance": 1000 }
   ],
   "collisionRects": [
     {

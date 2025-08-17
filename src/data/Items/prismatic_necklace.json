@@ -7,5 +7,6 @@
   "durability": 750,
   "marketable": false,
   "protectFire": 15,
-  "protectPhysical": 10
+  "protectPhysical": 10,
+  "weight": 5
 }

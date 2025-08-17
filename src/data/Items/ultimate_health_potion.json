@@ -7,5 +7,6 @@
   "level": 130,
 
   "vocations": [{ "name": "0" }],
-  "autoCollect": true
+  "autoCollect": true,
+  "weight": "3"
 }

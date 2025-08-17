@@ -5,5 +5,7 @@
 
   "vocations": [{ "name": "0" }, { "name": "1" }],
 
-  "classification": 1
+  "classification": 1,
+  "imbueSlots": 1,
+  "weight": 25
 }

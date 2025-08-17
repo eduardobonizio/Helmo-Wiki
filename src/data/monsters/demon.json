@@ -24,18 +24,20 @@
     { "item": "great_mana_potion", "chance": 5500, "max": 3 },
     { "item": "great_health_potion", "chance": 5500, "max": 3 },
     { "item": "demon_shield", "chance": 1200 },
-    { "item": "demon_boots", "chance": 50 },
-    { "item": "demon_legs", "chance": 50 },
+    { "item": "demon_boots", "chance": 25 },
+    { "item": "demon_legs", "chance": 25 },
     { "item": "thick_silver_necklace", "chance": 50 },
     { "item": "necro_rod", "chance": 1200 },
     { "item": "earth_crystal", "chance": 10000 },
     { "item": "royal_axe", "chance": 1500 },
     { "item": "hylian_broadsword", "chance": 2000 },
     { "item": "hellfire_wand", "chance": 50 },
-    { "item": "demon_heart", "chance": 100 },
-    { "item": "red_book", "chance": 20 },
-    { "item": "dust", "chance": 500, "min": 1, "max": 3 },
-    { "item": "fire_axe", "chance": 1200 }
+    { "item": "demon_heart", "chance": 50 },
+    { "item": "red_book", "chance": 10 },
+    { "item": "dust", "chance": 400, "min": 1, "max": 3 },
+    { "item": "fire_axe", "chance": 1200 },
+    { "item": "golden_legs", "chance": 10 },
+    { "item": "sulfur_of_hell", "chance": 800 }
   ],
   "collisionRects": [
     {
@@ -123,8 +125,7 @@
   ],
   "elements": [
     { "name": "ice", "value": 125 },
-    { "name": "holy", "value": 115 },
-    { "name": "earth", "value": 115 }
+    { "name": "holy", "value": 115 }
   ],
   "immunities": [{ "name": "fire", "value": 1 }]
 }

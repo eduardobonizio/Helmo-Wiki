@@ -5,5 +5,7 @@
   "protectFire": 8,
   "protectPhysical": 6,
 
-  "vocations": [{ "name": "0" }]
+  "vocations": [{ "name": "0" }],
+  "imbueSlots": 1,
+  "weight": 35
 }

@@ -4,20 +4,21 @@
   "equipType": 3,
   "numOfStyles": 1,
   "rarity": 5,
-  "minDamage": 40,
+  "minDamage": 45,
   "sounds": [["actions/hit"]],
   "classification": 4,
-  "bonusDistance": 4,
+  "bonusDistance": 6,
 
   "protectFire": 7,
 
-  "critMultiplier": 1.52,
-  "critChance": 20,
+  "critMultiplier": 1.6,
+  "critChance": 25,
   "hitRange": 7,
   "level": 600,
 
   "weaponType": "cross",
-  "weight": "2300",
+  "weight": 35,
 
-  "vocations": [{ "name": "1" }]
+  "vocations": [{ "name": "1" }],
+  "imbueSlots": 2
 }

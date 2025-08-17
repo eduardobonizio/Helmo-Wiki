@@ -19,7 +19,8 @@
   "drops": [
     { "item": "gold", "chance": 100000, "min": 25, "max": 45 },
     { "item": "earth_crystal", "chance": 3000 },
-    { "item": "slime_key", "chance": 10 }
+    { "item": "slime_key", "chance": 10 },
+    { "item": "poisonous_slime", "chance": 1000 }
   ],
   "collisionRects": [
     {

@@ -15,7 +15,7 @@
 
   "elementDamage": "physical",
   "weaponType": "axe",
-  "weight": "4250",
+  "weight": 70,
   "description": "A masterpiece of a dwarven smith. (Atk: 8 ~ 12).",
 
   "level": 20,

@@ -7,5 +7,7 @@
 
   "protectFire": 10,
   "protectPhysical": 2,
-  "level": 70
+  "level": 70,
+  "imbueSlots": 1,
+  "weight": 45
 }

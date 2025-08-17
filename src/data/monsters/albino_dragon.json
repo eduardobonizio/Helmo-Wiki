@@ -1,0 +1,100 @@
+{
+  "id": "albino_dragon",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 35,
+  "maxHealth": 8000,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 48,
+  "imgHeight": 48,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 48,
+  "drawOrderOffsetY": 32,
+  "offsetX": -16,
+  "offsetY": 0,
+  "experience": 3250,
+  "defense": 25,
+  "pushable": false,
+  "bestiary": 5,
+  "charm": 50,
+  "flee": true,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 300, "max": 800 },
+    { "item": "dragon_helmet", "chance": 500 },
+    { "item": "hylian_broadsword", "chance": 500 },
+    { "item": "dragon_shield", "chance": 500 },
+    { "item": "dragon_armor", "chance": 500 },
+    { "item": "dragon_legs", "chance": 500 },
+    { "item": "dragon_scale_boots", "chance": 500 },
+    { "item": "dragon_wand", "chance": 500 },
+    { "item": "dragon_ring", "chance": 500 },
+    { "item": "dragon_necklace", "chance": 500 },
+    { "item": "albino_dragon_scale", "chance": 100000 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.7,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 600 },
+    {
+      "attack": "fire",
+      "interval": 8000,
+      "chance": 30,
+      "min": 300,
+      "max": 600,
+      "type": "area",
+      "particle": 3,
+      "length": 8,
+      "spread": 3,
+      "range": 7
+    },
+    {
+      "attack": "fire",
+      "interval": 8000,
+      "chance": 30,
+      "min": 300,
+      "max": 600,
+      "type": "area",
+      "particle": 3,
+      "radius": 4,
+      "target": 1,
+      "range": 7
+    }
+  ],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 10000,
+      "chance": 30,
+      "min": 200,
+      "max": 250
+    }
+  ],
+  "immunities": [{ "name": "fire", "value": 1 }]
+}

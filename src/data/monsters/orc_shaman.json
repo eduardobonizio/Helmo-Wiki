@@ -27,8 +27,10 @@
     { "item": "noble_magic_hat", "chance": 100 },
     { "item": "noble_magic_legs", "chance": 100 },
     { "item": "blue_amulet", "chance": 100 },
-    { "item": "vial", "chance": 200 },
-    { "item": "broom", "chance": 500 }
+    { "item": "vial", "chance": 20 },
+    { "item": "broom", "chance": 500 },
+    { "item": "magnifying_glass", "chance": 1000 },
+    { "item": "rope_belt", "chance": 900 }
   ],
   "collisionRects": [
     {

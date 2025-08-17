@@ -16,11 +16,12 @@
   "projectile": "death-ball",
   "shootType": 12,
   "weaponType": "wand",
-  "weight": "2300",
+  "weight": 21,
   "description": "",
 
   "level": 120,
   "vocations": [{ "name": "3" }],
 
-  "classification": 2
+  "classification": 2,
+  "imbueSlots": 2
 }

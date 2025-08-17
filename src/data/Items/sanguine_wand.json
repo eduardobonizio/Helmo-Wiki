@@ -6,20 +6,20 @@
 
   "sounds": [["actions/hit"]],
 
-  "lifeLeech": 8,
-  "manaLeech": 5,
+  "lifeLeech": 6,
+  "manaLeech": 3,
   "classification": 4,
 
-  "minDamage": 125,
-  "maxDamage": 130,
+  "minDamage": 130,
+  "maxDamage": 142,
   "hitRange": 6,
   "bonusMagic": 6,
-  "manaCost": 25,
+  "manaCost": 30,
 
   "protectDeath": 7,
 
   "critMultiplier": 1.3,
-  "critChance": 20,
+  "critChance": 15,
 
   "elementDamage": "fire",
   "projectile": "fire-ball",
@@ -29,5 +29,6 @@
   "description": "(Atk: 122 ~ 128).",
 
   "level": 600,
-  "vocations": [{ "name": "3" }]
+  "vocations": [{ "name": "3" }],
+  "imbueSlots": 2
 }

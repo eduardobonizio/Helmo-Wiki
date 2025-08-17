@@ -11,5 +11,5 @@
   "projectile": "basic-bolt",
   "shootType": "smallphysical",
   "weaponType": "star",
-  "weight": "5"
+  "weight": 0.9
 }

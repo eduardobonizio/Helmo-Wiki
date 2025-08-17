@@ -21,7 +21,8 @@
     { "item": "gold", "chance": 100000, "min": 10, "max": 55 },
     { "item": "axe", "chance": 1000 },
     { "item": "zillii_fish", "chance": 70000, "min": 1, "max": 2 },
-    { "item": "red_bagpack", "chance": 600 }
+    { "item": "red_bagpack", "chance": 600 },
+    { "item": "war_league", "chance": 500 }
   ],
   "collisionRects": [
     {

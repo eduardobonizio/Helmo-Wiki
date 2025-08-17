@@ -1,0 +1,9 @@
+{
+  "iconSize": 16,
+  "equipType": -1,
+  "numOfStyles": 1,
+  "sounds": [["actions/hit"]],
+  "marketable": false,
+  "tool": true,
+  "weight": 150
+}

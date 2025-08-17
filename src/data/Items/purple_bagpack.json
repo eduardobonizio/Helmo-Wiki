@@ -2,5 +2,6 @@
   "iconSize": 16,
   "equipType": 2,
   "container": true,
-  "capacity": 20
+  "capacity": 20,
+  "weight": 10
 }

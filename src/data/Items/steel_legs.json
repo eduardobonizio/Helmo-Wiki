@@ -7,5 +7,6 @@
 
   "vocations": [{ "name": "0" }],
 
-  "classification": 1
+  "classification": 1,
+  "weight": 50
 }

@@ -16,10 +16,11 @@
   "projectile": "earth-ball",
   "shootType": 12,
   "weaponType": "rod",
-  "weight": "2300",
+  "weight": 28,
   "description": "Icecold rays of moonlight shimmer on its tip (Atk: 4 ~ 7).",
 
   "level": 140,
 
-  "vocations": [{ "name": "2" }]
+  "vocations": [{ "name": "2" }],
+  "imbueSlots": 3
 }

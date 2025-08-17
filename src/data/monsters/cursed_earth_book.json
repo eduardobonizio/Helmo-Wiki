@@ -19,24 +19,24 @@
   "bestiary": 50,
   "charm": 50,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 800, "max": 1400 },
-    { "item": "ruby_necklace", "chance": 2000 },
-    { "item": "earth_crystal", "chance": 2000 },
-    { "item": "mysteries_book", "chance": 1000 },
-    { "item": "boots_of_speed", "chance": 1000 },
-    { "item": "viper_rod", "chance": 1000 },
-    { "item": "living_armor", "chance": 1000 },
-    { "item": "terra_legs", "chance": 1000 },
-    { "item": "blue_robe", "chance": 1000 },
-    { "item": "terra_hood", "chance": 1000 },
-    { "item": "terra_boots", "chance": 1000 },
-    { "item": "terra_amulet", "chance": 1000 },
-    { "item": "dust", "chance": 2000, "min": 1, "max": 2 },
+    { "item": "gold", "chance": 100000, "min": 800, "max": 1500 },
+    { "item": "ruby_necklace", "chance": 2100 },
+    { "item": "earth_crystal", "chance": 2100 },
+    { "item": "mysteries_book", "chance": 1100 },
+    { "item": "boots_of_speed", "chance": 1100 },
+    { "item": "viper_rod", "chance": 1100 },
+    { "item": "living_armor", "chance": 1100 },
+    { "item": "terra_legs", "chance": 1100 },
+    { "item": "blue_robe", "chance": 1100 },
+    { "item": "terra_hood", "chance": 1100 },
+    { "item": "terra_boots", "chance": 1100 },
+    { "item": "terra_amulet", "chance": 1100 },
+    { "item": "dust", "chance": 1000, "min": 1, "max": 2 },
 
-    { "item": "cursed_healer_hat", "chance": 30 },
-    { "item": "cursed_cape", "chance": 30 },
-    { "item": "cursed_strider", "chance": 30 },
-    { "item": "cursed_healer_boots", "chance": 30 }
+    { "item": "cursed_healer_hat", "chance": 10 },
+    { "item": "cursed_cape", "chance": 10 },
+    { "item": "cursed_strider", "chance": 10 },
+    { "item": "cursed_healer_boots", "chance": 10 }
   ],
   "collisionRects": [
     {
@@ -67,14 +67,14 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 100, "max": 600 },
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 900 },
     {
       "attack": "earth",
       "interval": 3000,
       "chance": 100,
       "range": 8,
-      "min": 800,
-      "max": 1100,
+      "min": 100,
+      "max": 900,
       "type": "shoot",
       "anim": "earth-ball",
       "particle": 28
@@ -94,7 +94,7 @@
       "interval": 6000,
       "chance": 50,
       "min": 650,
-      "max": 850,
+      "max": 950,
       "type": "area",
       "particle": 13,
       "length": 10,
@@ -115,5 +115,6 @@
     { "name": "energy", "value": 110 },
     { "name": "holy", "value": 115 }
   ],
-  "immunities": [{ "name": "earth", "value": 1 }]
+  "immunities": [{ "name": "earth", "value": 1 }],
+  "hards": [{ "name": "fire", "value": 1 }]
 }

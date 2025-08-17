@@ -32,18 +32,18 @@
     { "item": "crystalline_hat", "chance": 2000 },
     { "item": "crystalline_helmet", "chance": 2000 },
 
-    { "item": "mystic_glacier_sword", "chance": 5000 },
-    { "item": "mystic_glacier_bow", "chance": 5000 },
-    { "item": "mystic_glacier_crossbow", "chance": 5000 },
-    { "item": "mystic_glacier_rod", "chance": 5000 },
-    { "item": "mystic_glacier_wand", "chance": 5000 },
-    { "item": "mystic_glacier_book", "chance": 5000 },
-    { "item": "mystic_glacier_shield", "chance": 5000 },
-    { "item": "weak_necklace", "chance": 5000 },
+    { "item": "mystic_glacier_sword", "chance": 8000 },
+    { "item": "mystic_glacier_bow", "chance": 8000 },
+    { "item": "mystic_glacier_crossbow", "chance": 8000 },
+    { "item": "mystic_glacier_rod", "chance": 8000 },
+    { "item": "mystic_glacier_wand", "chance": 8000 },
+    { "item": "mystic_glacier_book", "chance": 8000 },
+    { "item": "mystic_glacier_shield", "chance": 8000 },
+    { "item": "weak_necklace", "chance": 8000 },
 
-    { "item": "green_plasma_amulet", "chance": 5000 },
-    { "item": "red_plasma_amulet", "chance": 5000 },
-    { "item": "blue_plasma_amulet", "chance": 5000 }
+    { "item": "green_plasma_amulet", "chance": 10000 },
+    { "item": "red_plasma_amulet", "chance": 10000 },
+    { "item": "blue_plasma_amulet", "chance": 10000 }
   ],
   "collisionRects": [
     {

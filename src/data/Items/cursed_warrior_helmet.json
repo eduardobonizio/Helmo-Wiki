@@ -7,5 +7,7 @@
   "level": 250,
   "rarity": 5,
   "vocations": [{ "name": "0" }],
-  "classification": 4
+  "classification": 4,
+  "imbueSlots": 1,
+  "weight": 20
 }

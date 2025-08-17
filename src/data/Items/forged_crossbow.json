@@ -16,7 +16,8 @@
   "level": 400,
 
   "weaponType": "cross",
-  "weight": "2300",
+  "weight": 35,
 
-  "vocations": [{ "name": "1" }]
+  "vocations": [{ "name": "1" }],
+  "imbueSlots": 2
 }

@@ -2,7 +2,7 @@
   "id": "putrified_gladiator",
   "hittable": true,
   "maxDirections": 4,
-  "speed": 80,
+  "speed": 90,
   "maxHealth": 120000,
   "showHealthBar": true,
   "footstepSound": "slime",
@@ -29,9 +29,9 @@
     { "item": "death_armor", "chance": 1500 },
     { "item": "fire_axe", "chance": 1500 },
     { "item": "umbral_spellbook", "chance": 200 },
-    { "item": "anguish_helmet", "chance": 300 },
-    { "item": "anguish_armor", "chance": 300 },
-    { "item": "anguish_legs", "chance": 300 }
+    { "item": "anguish_helmet", "chance": 20 },
+    { "item": "anguish_armor", "chance": 20 },
+    { "item": "anguish_legs", "chance": 20 }
   ],
   "collisionRects": [
     {
@@ -62,13 +62,13 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 2000, "max": 5000 },
+    { "attack": "melee", "interval": 2000, "min": 5000, "max": 8000 },
     {
       "attack": "fire",
       "interval": 6000,
       "chance": 30,
-      "min": 2000,
-      "max": 4000,
+      "min": 4000,
+      "max": 7000,
       "type": "area",
       "particle": 3,
       "length": 8,
@@ -78,9 +78,9 @@
     {
       "attack": "death",
       "interval": 6000,
-      "chance": 30,
-      "min": 2000,
-      "max": 5000,
+      "chance": 40,
+      "min": 4000,
+      "max": 9000,
       "type": "area",
       "particle": 37,
       "radius": 8
@@ -88,9 +88,9 @@
     {
       "attack": "fire",
       "interval": 6000,
-      "chance": 30,
-      "min": 2000,
-      "max": 4000,
+      "chance": 50,
+      "min": 4000,
+      "max": 9000,
       "type": "area",
       "particle": 3,
       "radius": 8
@@ -99,10 +99,10 @@
   "defenses": [
     {
       "name": "healing",
-      "interval": 10000,
-      "chance": 30,
-      "min": 500,
-      "max": 1200
+      "interval": 8000,
+      "chance": 50,
+      "min": 3000,
+      "max": 5500
     }
   ],
   "elements": [

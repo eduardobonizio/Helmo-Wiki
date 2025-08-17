@@ -23,12 +23,13 @@
     { "item": "ruby_necklace", "chance": 2000 },
     { "item": "royal_helmet", "chance": 2000 },
     { "item": "club_with_spikes", "chance": 600 },
-    { "item": "dust", "chance": 500, "min": 1, "max": 5 },
+    { "item": "dust", "chance": 400, "min": 1, "max": 5 },
     { "item": "control_book", "chance": 300 },
     { "item": "possessed_crystal", "chance": 300 },
     { "item": "royal_axe", "chance": 300 },
     { "item": "pharaoh_sword", "chance": 80 },
-    { "item": "death_armor", "chance": 30 }
+    { "item": "death_armor", "chance": 30 },
+    { "item": "sacred_mummy_cloth", "chance": 800 }
   ],
   "collisionRects": [
     {

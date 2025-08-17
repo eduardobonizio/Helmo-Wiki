@@ -31,13 +31,13 @@
     { "item": "black_stone_amulet", "chance": 10000 },
     { "item": "boots_of_speed", "chance": 10000 },
     { "item": "hellfire_wand", "chance": 10000 },
-    { "item": "red_robe", "chance": 5000 },
-    { "item": "red_legs", "chance": 5000 },
-    { "item": "red_boots", "chance": 5000 },
+    { "item": "red_robe", "chance": 8000 },
+    { "item": "red_legs", "chance": 8000 },
+    { "item": "red_boots", "chance": 8000 },
 
     { "item": "red_plasma_ring", "chance": 100000 },
-    { "item": "blue_plasma_ring", "chance": 5000 },
-    { "item": "green_plasma_ring", "chance": 5000 },
+    { "item": "blue_plasma_ring", "chance": 8000 },
+    { "item": "green_plasma_ring", "chance": 8000 },
 
     { "item": "dust", "chance": 100000, "min": 1, "max": 5 }
   ],

@@ -15,5 +15,6 @@
   "protectFire": 20,
   "protectDeath": 20,
   "protectEarth": 20,
-  "protectHoly": 20
+  "protectHoly": 20,
+  "weight": 1
 }

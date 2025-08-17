@@ -5,5 +5,7 @@
   "protectDeath": 10,
   "protectPhysical": 10,
 
-  "vocations": [{ "name": "0" }]
+  "vocations": [{ "name": "0" }],
+  "imbueSlots": 1,
+  "weight": 45
 }

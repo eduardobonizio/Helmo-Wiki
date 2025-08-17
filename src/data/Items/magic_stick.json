@@ -11,7 +11,7 @@
   "manaCost": 3,
 
   "weaponType": "wand",
-  "weight": "2300",
+  "weight": 20,
   "description": "Icecold rays of moonlight shimmer on its tip (Atk: 2 ~ 5).",
 
   "vocations": [{ "name": "2" }, { "name": "3" }]

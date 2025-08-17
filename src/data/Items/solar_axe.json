@@ -5,18 +5,15 @@
   "rarity": 5,
   "defense": 32,
   "classification": 4,
-  "minDamage": 48,
-  "maxDamage": 5,
+  "minDamage": 55,
+  "maxDamage": 55,
   "hitRange": 1,
   "sounds": [["actions/hit"]],
   "elementDamage": "physical",
-  "extraElementDamage": "holy",
   "weaponType": "axe",
-  "weight": "4250",
+  "weight": 70,
   "level": 130,
 
-  "critMultiplier": 1.2,
-  "critChance": 10,
-
-  "vocations": [{ "name": "0" }]
+  "vocations": [{ "name": "0" }],
+  "imbueSlots": 3
 }

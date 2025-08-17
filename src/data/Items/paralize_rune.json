@@ -8,6 +8,9 @@
   "durability": 1,
   "maxStackSize": 200,
   "hitRange": 7,
+  "clickUse": true,
+  "hotConfig": true,
 
-  "vocations": [{ "name": "2" }]
+  "vocations": [{ "name": "2" }],
+  "weight": 0.9
 }

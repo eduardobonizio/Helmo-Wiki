@@ -12,6 +12,6 @@
   "projectile": "crystalline-prime-bolt",
   "shootType": "smallphysical",
   "weaponType": "bolt",
-  "weight": "5",
+  "weight": 0.9,
   "description": ""
 }

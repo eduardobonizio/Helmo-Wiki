@@ -2,7 +2,7 @@
   "id": "putrified_dragon",
   "hittable": true,
   "maxDirections": 4,
-  "speed": 80,
+  "speed": 90,
   "maxHealth": 120000,
   "showHealthBar": true,
   "footstepSound": "slime",
@@ -28,9 +28,12 @@
     { "item": "dragon_scale_boots", "chance": 1000 },
     { "item": "dragon_wand", "chance": 1000 },
     { "item": "umbral_spellbook", "chance": 200 },
-    { "item": "fear_helmet", "chance": 300 },
-    { "item": "fear_armor", "chance": 300 },
-    { "item": "fear_legs", "chance": 300 }
+    { "item": "fear_helmet", "chance": 20 },
+    { "item": "fear_armor", "chance": 20 },
+    { "item": "fear_legs", "chance": 20 },
+    { "item": "red_robe", "chance": 1000 },
+    { "item": "red_legs", "chance": 1000 },
+    { "item": "red_boots", "chance": 1000 }
   ],
   "collisionRects": [
     {
@@ -61,13 +64,13 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 2000, "max": 5000 },
+    { "attack": "melee", "interval": 2000, "min": 3000, "max": 5000 },
     {
       "attack": "fire",
       "interval": 6000,
       "chance": 30,
-      "min": 2000,
-      "max": 3000,
+      "min": 3000,
+      "max": 4000,
       "type": "area",
       "particle": 3,
       "length": 8,
@@ -78,8 +81,8 @@
       "attack": "death",
       "interval": 6000,
       "chance": 30,
-      "min": 2000,
-      "max": 4000,
+      "min": 3000,
+      "max": 5000,
       "type": "area",
       "particle": 37,
       "radius": 8
@@ -88,8 +91,8 @@
       "attack": "fire",
       "interval": 6000,
       "chance": 30,
-      "min": 2000,
-      "max": 3000,
+      "min": 3000,
+      "max": 4000,
       "type": "area",
       "particle": 3,
       "radius": 8
@@ -98,10 +101,20 @@
   "defenses": [
     {
       "name": "healing",
-      "interval": 10000,
+      "interval": 6000,
       "chance": 30,
-      "min": 500,
-      "max": 1200
+      "min": 1200,
+      "max": 2200
+    },
+    {
+      "name": "mana_drain",
+      "interval": 6000,
+      "chance": 40,
+      "min": 2000,
+      "max": 5000,
+      "type": "area",
+      "particle": 11,
+      "radius": 6
     }
   ],
   "elements": [

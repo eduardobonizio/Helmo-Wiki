@@ -27,24 +27,20 @@
     { "item": "blue_legs", "chance": 2000 },
     { "item": "weak_necklace", "chance": 5000 },
 
-    { "item": "cursed_quiver", "chance": 300 },
-    { "item": "cursed_shoulder", "chance": 300 },
-    { "item": "cursed_spellbook", "chance": 300 },
-    { "item": "cursed_shield", "chance": 300 },
-
-    { "item": "cursed_crossbow", "chance": 300 },
-    { "item": "cursed_bow", "chance": 300 },
-
-    { "item": "cursed_axe", "chance": 300 },
-    { "item": "cursed_sword", "chance": 300 },
-
-    { "item": "cursed_rod", "chance": 300 },
-    { "item": "cursed_wand", "chance": 300 },
-
-    { "item": "cursed_healer_boots", "chance": 300 },
-    { "item": "cursed_archer_boots", "chance": 300 },
-    { "item": "cursed_mage_boots", "chance": 300 },
-    { "item": "cursed_warrior_boots", "chance": 300 }
+    { "item": "cursed_quiver", "chance": 500 },
+    { "item": "cursed_shoulder", "chance": 500 },
+    { "item": "cursed_spellbook", "chance": 500 },
+    { "item": "cursed_shield", "chance": 500 },
+    { "item": "cursed_crossbow", "chance": 500 },
+    { "item": "cursed_bow", "chance": 500 },
+    { "item": "cursed_axe", "chance": 500 },
+    { "item": "cursed_sword", "chance": 500 },
+    { "item": "cursed_rod", "chance": 500 },
+    { "item": "cursed_wand", "chance": 500 },
+    { "item": "cursed_healer_boots", "chance": 500 },
+    { "item": "cursed_archer_boots", "chance": 500 },
+    { "item": "cursed_mage_boots", "chance": 500 },
+    { "item": "cursed_warrior_boots", "chance": 500 }
   ],
   "collisionRects": [
     {

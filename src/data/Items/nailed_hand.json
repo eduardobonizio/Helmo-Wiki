@@ -2,5 +2,7 @@
   "iconSize": 16,
   "equipType": -1,
   "maxStackSize": 10,
-  "rarity": 2
+  "rarity": 3,
+  "material": true,
+  "weight": 1
 }

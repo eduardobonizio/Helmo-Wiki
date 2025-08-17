@@ -13,6 +13,6 @@
   "projectile": "royal-spear",
   "shootType": "smallphysical",
   "weaponType": "spear",
-  "weight": "5",
+  "weight": "3",
   "description": "Basic bolt (Atk: 3 ~ 12)."
 }
