@@ -65,8 +65,8 @@
     { "attack": "melee", "interval": 2000, "min": 0, "max": 250 },
     {
       "attack": "earth",
-      "interval": 8000,
-      "chance": 30,
+      "interval": 2000,
+      "chance": 10,
       "min": 100,
       "max": 500,
       "type": "area",
@@ -80,8 +80,8 @@
   "defenses": [
     {
       "name": "paralize",
-      "interval": 10000,
-      "chance": 20,
+      "interval": 5000,
+      "chance": 10,
       "type": "area",
       "particle": 40,
       "length": 8,

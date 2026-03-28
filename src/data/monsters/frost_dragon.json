@@ -71,7 +71,7 @@
     { "attack": "melee", "interval": 2000, "min": 0, "max": 250 },
     {
       "attack": "ice",
-      "interval": 8000,
+      "interval": 6000,
       "chance": 30,
       "min": 100,
       "max": 270,
@@ -83,7 +83,7 @@
     },
     {
       "attack": "ice",
-      "interval": 8000,
+      "interval": 6000,
       "chance": 30,
       "min": 100,
       "max": 270,

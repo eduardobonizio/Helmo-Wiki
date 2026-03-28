@@ -23,13 +23,13 @@
     { "item": "gold", "chance": 100000, "min": 50, "max": 189 },
     { "item": "steel_armor", "chance": 2000 },
     { "item": "steel_helmet", "chance": 2000 },
-    { "item": "royal_helmet", "chance": 1000 },
+    { "item": "royal_helmet", "chance": 2000 },
     { "item": "steel_shield", "chance": 2000 },
     { "item": "steel_legs", "chance": 2000 },
     { "item": "earth_crystal", "chance": 5000 },
     { "item": "time_ring", "chance": 300 },
     { "item": "steel_bow", "chance": 500 },
-    { "item": "spider_claws", "chance": 800 }
+    { "item": "spider_claws", "chance": 2000 }
   ],
   "collisionRects": [
     {

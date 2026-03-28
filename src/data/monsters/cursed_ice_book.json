@@ -19,7 +19,7 @@
   "bestiary": 50,
   "charm": 50,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 800, "max": 1500 },
+    { "item": "gold", "chance": 100000, "min": 600, "max": 1300 },
     { "item": "ruby_necklace", "chance": 2100 },
     { "item": "earth_crystal", "chance": 2100 },
     { "item": "control_book", "chance": 1100 },
@@ -79,8 +79,8 @@
     },
     {
       "attack": "ice",
-      "interval": 6000,
-      "chance": 50,
+      "interval": 2000,
+      "chance": 10,
       "min": 700,
       "max": 950,
       "type": "area",
@@ -89,8 +89,8 @@
     },
     {
       "attack": "ice",
-      "interval": 6000,
-      "chance": 50,
+      "interval": 2000,
+      "chance": 10,
       "min": 650,
       "max": 950,
       "type": "area",
@@ -111,7 +111,7 @@
   ],
   "elements": [
     { "name": "fire", "value": 110 },
-    { "name": "holy", "value": 115 }
+    { "name": "holy", "value": 105 }
   ],
   "immunities": [{ "name": "ice", "value": 1 }],
   "hards": [{ "name": "fire", "value": 1 }]

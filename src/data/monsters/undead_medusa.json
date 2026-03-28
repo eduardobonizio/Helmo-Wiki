@@ -78,8 +78,8 @@
     },
     {
       "attack": "earth",
-      "interval": 8000,
-      "chance": 30,
+      "interval": 2000,
+      "chance": 10,
       "min": 500,
       "max": 1950,
       "type": "area",
@@ -93,8 +93,8 @@
   "defenses": [
     {
       "name": "paralize",
-      "interval": 10000,
-      "chance": 50,
+      "interval": 5000,
+      "chance": 25,
       "type": "area",
       "particle": 40,
       "length": 8,
@@ -104,7 +104,6 @@
 
   "elements": [
     { "name": "fire", "value": 110 },
-    { "name": "holy", "value": 115 },
     { "name": "physical", "value": 115 }
   ],
   "immunities": [

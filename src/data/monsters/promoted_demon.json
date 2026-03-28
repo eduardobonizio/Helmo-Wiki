@@ -1,0 +1,123 @@
+{
+  "id": "putrified_demon",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 105,
+  "maxHealth": 40000,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 64,
+  "imgHeight": 64,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 48,
+  "drawOrderOffsetY": 48,
+  "offsetX": -24,
+  "offsetY": 0,
+  "experience": 28000,
+  "defense": 45,
+  "pushable": false,
+  "bestiary": 70,
+  "charm": 50,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 0, "max": 3000 },
+    { "item": "great_mana_potion", "chance": 5500, "max": 3 },
+    { "item": "great_health_potion", "chance": 5500, "max": 3 },
+    { "item": "demon_shield", "chance": 2200 },
+    { "item": "necro_rod", "chance": 2200 },
+    { "item": "royal_axe", "chance": 2500 },
+    { "item": "hylian_broadsword", "chance": 2000 },
+    { "item": "hellfire_wand", "chance": 100 },
+    { "item": "dust", "chance": 500, "min": 1, "max": 3 },
+    { "item": "fire_axe", "chance": 5000 },
+    { "item": "umbral_spellbook", "chance": 200 },
+    { "item": "agony_helmet", "chance": 20 },
+    { "item": "agony_armor", "chance": 20 },
+    { "item": "agony_legs", "chance": 20 },
+    { "item": "red_robe", "chance": 1000 },
+    { "item": "red_legs", "chance": 1000 },
+    { "item": "red_boots", "chance": 1000 },
+    { "item": "agony_helmet", "chance": 2 },
+    { "item": "agony_armor", "chance": 2 },
+    { "item": "agony_legs", "chance": 2 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.7,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 1500, "max": 4500 },
+    {
+      "attack": "fire",
+      "interval": 2000,
+      "chance": 10,
+      "min": 2200,
+      "max": 5100,
+      "type": "area",
+      "particle": 3,
+      "length": 8,
+      "spread": 3,
+      "range": 7
+    },
+    {
+      "attack": "death",
+      "interval": 2000,
+      "chance": 10,
+      "min": 800,
+      "max": 2300,
+      "type": "area",
+      "particle": 37,
+      "radius": 8
+    },
+    {
+      "attack": "fire",
+      "interval": 2000,
+      "chance": 10,
+      "min": 800,
+      "max": 2300,
+      "type": "area",
+      "particle": 3,
+      "radius": 8
+    }
+  ],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 4000,
+      "chance": 15,
+      "min": 1000,
+      "max": 1200
+    }
+  ],
+  "elements": [
+    { "name": "ice", "value": 80 },
+    { "name": "earth", "value": 20 },
+    { "name": "energy", "value": 80 },
+    { "name": "holy", "value": 115 },
+    { "name": "physical", "value": 80 }
+  ],
+  "immunities": [{ "name": "fire", "value": 1 }]
+}

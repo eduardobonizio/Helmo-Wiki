@@ -1,0 +1,9 @@
+{
+  "equipType": 4,
+  "defense": 15,
+  "rarity": 5,
+  "vocations": [{ "name": "0" }, { "name": "1" }],
+  "classification": 2,
+  "imbueSlots": 1,
+  "weight": 114
+}

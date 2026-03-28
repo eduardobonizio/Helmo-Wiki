@@ -20,20 +20,20 @@
   "charm": 70,
   "intervalResp": 70,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 600, "max": 2000 },
+    { "item": "gold", "chance": 100000, "min": 1000, "max": 2000 },
     { "item": "great_mana_potion", "chance": 5500, "max": 3 },
     { "item": "great_health_potion", "chance": 5500, "max": 3 },
-    { "item": "demon_shield", "chance": 1000 },
+    { "item": "demon_shield", "chance": 1500 },
     { "item": "thick_silver_necklace", "chance": 50 },
-    { "item": "necro_rod", "chance": 1000 },
-    { "item": "terra_mantle", "chance": 1000 },
-    { "item": "terra_boots", "chance": 1000 },
+    { "item": "necro_rod", "chance": 1500 },
+    { "item": "terra_mantle", "chance": 1500 },
+    { "item": "terra_boots", "chance": 1500 },
     { "item": "mysteries_book", "chance": 500 },
     { "item": "earth_crystal", "chance": 10000 },
-    { "item": "royal_axe", "chance": 1000 },
-    { "item": "hylian_broadsword", "chance": 1000 },
+    { "item": "royal_axe", "chance": 1500 },
+    { "item": "hylian_broadsword", "chance": 3000 },
     { "item": "dust", "chance": 400, "min": 1, "max": 3 },
-    { "item": "fire_axe", "chance": 1000 },
+    { "item": "fire_axe", "chance": 1500 },
     { "item": "golden_legs", "chance": 20 }
   ],
   "collisionRects": [
@@ -68,8 +68,8 @@
     { "attack": "melee", "interval": 2000, "min": 300, "max": 2500 },
     {
       "attack": "death",
-      "interval": 6000,
-      "chance": 30,
+      "interval": 2000,
+      "chance": 10,
       "min": 1000,
       "max": 3500,
       "type": "area",
@@ -80,8 +80,8 @@
     },
     {
       "attack": "physical",
-      "interval": 6000,
-      "chance": 30,
+      "interval": 2000,
+      "chance": 10,
       "min": 1000,
       "max": 3500,
       "type": "area",
@@ -92,8 +92,8 @@
   "defenses": [
     {
       "name": "mana_drain",
-      "interval": 10000,
-      "chance": 30,
+      "interval": 5000,
+      "chance": 15,
       "min": 1000,
       "max": 3000,
       "type": "area",
@@ -110,7 +110,7 @@
     }
   ],
   "elements": [
-    { "name": "holy", "value": 110 },
+    { "name": "holy", "value": 105 },
     { "name": "physical", "value": 115 }
   ],
   "immunities": [{ "name": "death", "value": 1 }]

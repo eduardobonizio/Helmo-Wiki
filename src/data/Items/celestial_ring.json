@@ -1,0 +1,18 @@
+{
+  "iconSize": 16,
+  "buff": true,
+  "equipType": 6,
+
+  "defense": 2,
+
+  "level": 400,
+  "rarity": 5,
+
+  "bonusMelee": 3,
+
+  "protectFire": 4,
+  "protectEnergy": 4,
+  "protectIce": 4,
+
+  "weight": 5
+}

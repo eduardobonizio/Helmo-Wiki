@@ -1,0 +1,11 @@
+{
+  "equipType": 10,
+  "rarity": 5,
+  "weight": 30,
+  "durability": 14400,
+  "durabilityType": 1,
+  "bonusMagic": 5,
+  "level": 100,
+  "vocations": [{ "name": "2" }, { "name": "3" }],
+  "description": "Regenerates 72 mana and 12 HP every 6 seconds."
+}

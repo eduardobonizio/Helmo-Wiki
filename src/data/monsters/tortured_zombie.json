@@ -61,8 +61,8 @@
     { "attack": "melee", "interval": 2000, "min": 100, "max": 750 },
     {
       "attack": "death",
-      "interval": 6000,
-      "chance": 50,
+      "interval": 2000,
+      "chance": 10,
       "min": 300,
       "max": 900,
       "type": "area",
@@ -73,7 +73,7 @@
     }
   ],
   "elements": [
-    { "name": "holy", "value": 125 },
+    { "name": "holy", "value": 115 },
     { "name": "energy", "value": 90 },
     { "name": "ice", "value": 90 },
     { "name": "physical", "value": 115 }

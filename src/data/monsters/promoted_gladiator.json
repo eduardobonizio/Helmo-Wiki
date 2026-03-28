@@ -1,0 +1,124 @@
+{
+  "id": "undead_gladiator",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 105,
+  "maxHealth": 40000,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 64,
+  "imgHeight": 64,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 50,
+  "drawOrderOffsetY": 50,
+  "offsetX": -22,
+  "offsetY": 0,
+  "experience": 28000,
+  "defense": 45,
+  "pushable": false,
+  "bestiary": 70,
+  "charm": 50,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 0, "max": 1200 },
+    { "item": "earth_crystal", "chance": 5000 },
+    { "item": "boots_of_speed", "chance": 800 },
+    { "item": "royal_axe", "chance": 1000 },
+    { "item": "dragon_slayer_sword", "chance": 1000 },
+    { "item": "thunder_hammer", "chance": 100 },
+    { "item": "ruby_necklace", "chance": 1000 },
+    { "item": "black_stone_amulet", "chance": 1000 },
+    { "item": "death_armor", "chance": 1000 },
+    { "item": "fire_axe", "chance": 1000 },
+    { "item": "master_shield", "chance": 20 },
+    { "item": "anguish_helmet", "chance": 2 },
+    { "item": "anguish_armor", "chance": 2 },
+    { "item": "anguish_legs", "chance": 2 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    { "id": "walk", "totalRuntime": 0.4, "numberOfDirections": 4 },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 1500, "max": 4500 },
+    {
+      "attack": "fire",
+      "interval": 2000,
+      "chance": 10,
+      "min": 2200,
+      "max": 5100,
+      "type": "area",
+      "particle": 3,
+      "length": 8,
+      "spread": 3,
+      "range": 7
+    },
+    {
+      "attack": "physical",
+      "interval": 2000,
+      "chance": 50,
+      "range": 8,
+      "min": 900,
+      "max": 2200,
+      "type": "shoot",
+      "anim": "death-ball",
+      "particle": 5
+    },
+    {
+      "attack": "death",
+      "interval": 2000,
+      "chance": 20,
+      "min": 800,
+      "max": 2100,
+      "type": "area",
+      "particle": 37,
+      "radius": 3,
+      "target": 1,
+      "range": 7
+    }
+  ],
+  "elements": [
+    { "name": "earth", "value": 80 },
+    { "name": "fire", "value": 80 },
+    { "name": "holy", "value": 115 },
+    { "name": "physical", "value": 80 },
+    { "name": "death", "value": 50 }
+  ],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 6000,
+      "chance": 50,
+      "min": 360,
+      "max": 540
+    },
+    {
+      "name": "life_drain",
+      "interval": 6000,
+      "chance": 20,
+      "min": 900,
+      "max": 2500,
+      "type": "area",
+      "particle": 12,
+      "radius": 6
+    }
+  ]
+}

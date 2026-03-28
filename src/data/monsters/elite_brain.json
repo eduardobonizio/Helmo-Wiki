@@ -1,0 +1,115 @@
+{
+  "id": "elite_brain",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 80,
+  "maxHealth": 82000,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 64,
+  "imgHeight": 64,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 50,
+  "drawOrderOffsetY": 32,
+  "offsetX": -24,
+  "offsetY": 0,
+  "experience": 18000,
+  "defense": 30,
+  "pushable": false,
+  "bestiary": 120,
+  "charm": 70,
+  "intervalResp": 70,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 15000, "max": 25000 },
+    { "item": "demon_shield", "chance": 15000 },
+    { "item": "thick_silver_necklace", "chance": 15000 },
+    { "item": "necro_rod", "chance": 15000 },
+    { "item": "terra_mantle", "chance": 15000 },
+    { "item": "terra_boots", "chance": 15000 },
+    { "item": "mysteries_book", "chance": 15000 },
+    { "item": "royal_axe", "chance": 15000 },
+    { "item": "fire_axe", "chance": 15000 },
+    { "item": "golden_legs", "chance": 500 },
+    { "item": "elder_potion", "chance": 500 },
+    { "item": "energy_ring", "chance": 1000 },
+    { "item": "smart_token", "chance": 25000 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.4,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 800, "max": 2500 },
+    {
+      "attack": "death",
+      "interval": 6000,
+      "chance": 30,
+      "min": 2000,
+      "max": 3500,
+      "type": "area",
+      "particle": 37,
+      "radius": 3,
+      "target": 1,
+      "range": 7
+    },
+    {
+      "attack": "physical",
+      "interval": 6000,
+      "chance": 30,
+      "min": 2000,
+      "max": 3500,
+      "type": "area",
+      "particle": 8,
+      "radius": 5
+    }
+  ],
+  "defenses": [
+    {
+      "name": "mana_drain",
+      "interval": 10000,
+      "chance": 30,
+      "min": 1000,
+      "max": 3000,
+      "type": "area",
+      "particle": 11,
+      "radius": 6
+    },
+    {
+      "name": "paralize",
+      "interval": 4000,
+      "chance": 30,
+      "type": "area",
+      "particle": 11,
+      "radius": 6
+    }
+  ],
+  "elements": [
+    { "name": "holy", "value": 110 },
+    { "name": "physical", "value": 115 }
+  ],
+  "immunities": [{ "name": "death", "value": 1 }]
+}

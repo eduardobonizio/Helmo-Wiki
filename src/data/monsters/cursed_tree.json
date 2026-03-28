@@ -1,0 +1,81 @@
+{
+  "id": "cursed_tree",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 70,
+  "maxHealth": 15800,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 64,
+  "imgHeight": 64,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 30,
+  "drawOrderOffsetY": 64,
+  "offsetX": -24,
+  "offsetY": 0,
+  "experience": 9700,
+  "defense": 77,
+  "bestiary": 20,
+  "charm": 50,
+  "drops": [],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.8,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 1.2,
+      "numberOfDirections": 4,
+      "looping": true
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    {
+      "attack": "death",
+      "interval": 2000,
+      "chance": 100,
+      "range": 10,
+      "min": 800,
+      "max": 1800,
+      "type": "shoot",
+      "anim": "sd-skull",
+      "particle": 37
+    }
+  ],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 8000,
+      "chance": 50,
+      "min": 1000,
+      "max": 2000
+    }
+  ],
+  "immunities": [
+    { "name": "earth", "value": 1 },
+    { "name": "death", "value": 1 }
+  ],
+  "elements": [
+    { "name": "fire", "value": 50 },
+    { "name": "ice", "value": 50 },
+    { "name": "energy", "value": 50 }
+  ]
+}

@@ -28,7 +28,7 @@
     { "item": "earth_crystal", "chance": 4000 },
     { "item": "time_ring", "chance": 300 },
     { "item": "steel_bow", "chance": 200 },
-    { "item": "spider_claws", "chance": 800 }
+    { "item": "spider_claws", "chance": 2000 }
   ],
   "collisionRects": [
     {

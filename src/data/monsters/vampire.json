@@ -29,7 +29,7 @@
     { "item": "vamp_cape", "chance": 35 },
     { "item": "vamp_legs", "chance": 35 },
     { "item": "vamp_hat", "chance": 35 },
-    { "item": "vampire_teeth", "chance": 1100 }
+    { "item": "vampire_teeth", "chance": 1300 }
   ],
   "collisionRects": [
     {
@@ -98,7 +98,7 @@
   "elements": [
     { "name": "physical", "value": 75 },
     { "name": "fire", "value": 110 },
-    { "name": "holy", "value": 125 }
+    { "name": "holy", "value": 115 }
   ],
   "immunities": [
     { "name": "death", "value": 1 },

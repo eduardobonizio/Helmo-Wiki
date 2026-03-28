@@ -20,9 +20,9 @@
   "bestiary": 30,
   "charm": 15,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 600, "max": 1200 },
+    { "item": "gold", "chance": 100000, "min": 1000, "max": 1200 },
     { "item": "strong_health_potion", "chance": 50000, "max": 2 },
-    { "item": "earth_crystal", "chance": 5000 },
+    { "item": "earth_crystal", "chance": 7000 },
     { "item": "death_armor", "chance": 1000 },
     { "item": "dragon_shield", "chance": 1200 },
     { "item": "dragon_wand", "chance": 1200 },
@@ -65,8 +65,8 @@
     { "attack": "melee", "interval": 2000, "min": 600, "max": 950 },
     {
       "attack": "fire",
-      "interval": 8000,
-      "chance": 30,
+      "interval": 2000,
+      "chance": 10,
       "min": 800,
       "max": 1370,
       "type": "area",
@@ -77,8 +77,8 @@
     },
     {
       "attack": "death",
-      "interval": 8000,
-      "chance": 30,
+      "interval": 2000,
+      "chance": 10,
       "min": 800,
       "max": 1300,
       "type": "area",
@@ -99,7 +99,7 @@
   ],
   "elements": [
     { "name": "ice", "value": 115 },
-    { "name": "holy", "value": 115 },
+    { "name": "holy", "value": 105 },
     { "name": "physical", "value": 115 }
   ],
   "immunities": [

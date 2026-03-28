@@ -18,7 +18,7 @@
   "bestiary": 70,
   "charm": 50,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 300, "max": 600 },
+    { "item": "gold", "chance": 100000, "min": 100, "max": 600 },
     { "item": "earth_crystal", "chance": 6000 },
     { "item": "fire_axe", "chance": 330 },
     { "item": "pretator_rod", "chance": 210 },

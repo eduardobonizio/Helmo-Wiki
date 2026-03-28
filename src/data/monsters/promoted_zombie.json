@@ -1,0 +1,103 @@
+{
+  "id": "tortured_zombie",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 80,
+  "maxHealth": 38000,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 64,
+  "imgHeight": 64,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 50,
+  "drawOrderOffsetY": 50,
+  "offsetX": -22,
+  "offsetY": 0,
+  "experience": 25000,
+  "defense": 45,
+  "pushable": false,
+  "bestiary": 70,
+  "charm": 50,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 0, "max": 1100 },
+    { "item": "earth_crystal", "chance": 5000 },
+    { "item": "death_armor", "chance": 800 },
+    { "item": "ruby_necklace", "chance": 1000 },
+    { "item": "royal_axe", "chance": 800 },
+    { "item": "fire_axe", "chance": 800 },
+    { "item": "voodoo_wand", "chance": 800 },
+    { "item": "terra_mantle", "chance": 800 },
+    { "item": "terra_boots", "chance": 800 },
+    { "item": "vamp_boots", "chance": 800 },
+    { "item": "dust", "chance": 500, "min": 1, "max": 2 },
+    { "item": "master_shield", "chance": 20 },
+    { "item": "dread_helmet", "chance": 2 },
+    { "item": "dread_armor", "chance": 2 },
+    { "item": "dread_legs", "chance": 2 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    { "id": "walk", "totalRuntime": 0.4, "numberOfDirections": 4 },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 1200, "max": 3250 },
+    {
+      "attack": "death",
+      "interval": 2000,
+      "chance": 50,
+      "min": 1100,
+      "max": 4000,
+      "type": "area",
+      "particle": 37,
+      "length": 10,
+      "spread": 20,
+      "range": 12
+    },
+    {
+      "attack": "death",
+      "interval": 2000,
+      "chance": 10,
+      "min": 1100,
+      "max": 3300,
+      "type": "area",
+      "particle": 37,
+      "radius": 8
+    }
+  ],
+  "elements": [
+    { "name": "holy", "value": 80 },
+    { "name": "earth", "value": 115 },
+    { "name": "fire", "value": 115 },
+    { "name": "physical", "value": 80 }
+  ],
+  "defenses": [
+    {
+      "name": "paralize",
+      "interval": 4000,
+      "chance": 10,
+      "type": "area",
+      "particle": 11,
+      "radius": 6
+    }
+  ],
+  "immunities": [{ "name": "death", "value": 1 }]
+}

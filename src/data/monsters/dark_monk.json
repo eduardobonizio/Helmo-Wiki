@@ -91,7 +91,7 @@
     { "name": "fire", "value": 90 },
     { "name": "energy", "value": 70 },
     { "name": "earth", "value": 90 },
-    { "name": "holy", "value": 110 },
+    { "name": "holy", "value": 105 },
     { "name": "ice", "value": 110 }
   ],
   "immunities": [{ "name": "death", "value": 1 }]

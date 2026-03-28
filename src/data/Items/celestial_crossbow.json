@@ -1,0 +1,24 @@
+{
+  "iconSize": 16,
+  "twoHand": true,
+  "equipType": 3,
+  "numOfStyles": 1,
+  "rarity": 5,
+  "minDamage": 50,
+  "sounds": [["actions/hit"]],
+  "classification": 4,
+  "bonusDistance": 6,
+
+  "protectDeath": 7,
+
+  "critMultiplier": 1.6,
+  "critChance": 25,
+  "hitRange": 7,
+  "level": 600,
+
+  "weaponType": "cross",
+  "weight": 35,
+
+  "vocations": [{ "name": "1" }],
+  "imbueSlots": 2
+}

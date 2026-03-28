@@ -18,7 +18,7 @@
   "bestiary": 40,
   "charm": 20,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 150, "max": 300 },
+    { "item": "gold", "chance": 100000, "min": 150, "max": 500 },
     { "item": "hylian_broadsword", "chance": 2000 },
     { "item": "royal_armor", "chance": 2000 },
     { "item": "royal_boots", "chance": 2000 },

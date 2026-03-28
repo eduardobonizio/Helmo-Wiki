@@ -29,7 +29,7 @@
     { "item": "earth_crystal", "chance": 10000 },
     { "item": "black_stone_amulet", "chance": 100 },
     { "item": "blue_amulet", "chance": 500 },
-    { "item": "piece_of_power_cloth", "chance": 1000 }
+    { "item": "piece_of_power_cloth", "chance": 1200 }
   ],
   "collisionRects": [
     {
@@ -74,8 +74,8 @@
     },
     {
       "attack": "energy",
-      "interval": 4000,
-      "chance": 30,
+      "interval": 2000,
+      "chance": 10,
       "min": 150,
       "max": 230,
       "type": "area",

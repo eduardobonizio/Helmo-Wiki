@@ -19,7 +19,7 @@
   "bestiary": 70,
   "charm": 50,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 600, "max": 1200 },
+    { "item": "gold", "chance": 100000, "min": 200, "max": 1100 },
     { "item": "assassin_star", "chance": 10000, "min": 1, "max": 10 },
     { "item": "death_armor", "chance": 1000 },
     { "item": "control_book", "chance": 1000 },
@@ -73,7 +73,6 @@
   "elements": [
     { "name": "earth", "value": 50 },
     { "name": "fire", "value": 50 },
-    { "name": "holy", "value": 115 },
     { "name": "physical", "value": 115 },
     { "name": "death", "value": 90 }
   ],

@@ -1,0 +1,11 @@
+{
+  "iconSize": 16,
+  "equipType": -1,
+  "maxStackSize": 1,
+  "consumable": true,
+  "autoCollect": true,
+  "level": 50,
+  "weight": "2.9",
+  "description": "Add +5 magic level for 10 minutes.",
+  "vocations": [{ "name": "2" }, { "name": "3" }]
+}

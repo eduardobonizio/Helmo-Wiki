@@ -68,7 +68,7 @@
     { "attack": "melee", "interval": 2000, "min": 0, "max": 250 },
     {
       "attack": "earth",
-      "interval": 8000,
+      "interval": 6000,
       "chance": 30,
       "min": 70,
       "max": 300,
@@ -80,7 +80,7 @@
     },
     {
       "attack": "earth",
-      "interval": 8000,
+      "interval": 6000,
       "chance": 40,
       "min": 130,
       "max": 270,
@@ -91,7 +91,7 @@
     },
     {
       "attack": "ice",
-      "interval": 8000,
+      "interval": 6000,
       "chance": 50,
       "min": 135,
       "max": 270,

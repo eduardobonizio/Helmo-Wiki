@@ -71,8 +71,8 @@
     },
     {
       "attack": "death",
-      "interval": 6000,
-      "chance": 30,
+      "interval": 2000,
+      "chance": 10,
       "min": 600,
       "max": 1200,
       "type": "area",
@@ -85,7 +85,7 @@
   "elements": [
     { "name": "earth", "value": 90 },
     { "name": "fire", "value": 90 },
-    { "name": "holy", "value": 115 },
+    { "name": "holy", "value": 105 },
     { "name": "death", "value": 90 }
   ],
   "defenses": [

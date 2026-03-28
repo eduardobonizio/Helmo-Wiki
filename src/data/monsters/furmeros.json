@@ -2,7 +2,7 @@
   "id": "furmeros",
   "hittable": true,
   "maxDirections": 4,
-  "speed": 70,
+  "speed": 80,
   "maxHealth": 250000,
   "showHealthBar": true,
   "footstepSound": "slime",
@@ -66,23 +66,34 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 2000, "max": 5000 },
+    { "attack": "melee", "interval": 2000, "min": 3000, "max": 8000 },
+    {
+      "attack": "death",
+      "interval": 2000,
+      "chance": 50,
+      "range": 8,
+      "min": 3000,
+      "max": 5000,
+      "type": "shoot",
+      "anim": "sd-skull",
+      "particle": 37
+    },
     {
       "attack": "fire",
-      "interval": 4000,
+      "interval": 2000,
       "chance": 30,
-      "min": 2200,
-      "max": 6800,
+      "min": 4200,
+      "max": 12800,
       "type": "area",
       "particle": 3,
       "radius": 10
     },
     {
       "attack": "death",
-      "interval": 4000,
+      "interval": 2000,
       "chance": 30,
-      "min": 2200,
-      "max": 6800,
+      "min": 4200,
+      "max": 12800,
       "type": "area",
       "particle": 37,
       "radius": 10
@@ -91,17 +102,17 @@
   "defenses": [
     {
       "name": "healing",
-      "interval": 8000,
+      "interval": 4000,
       "chance": 50,
-      "min": 1000,
-      "max": 2000
+      "min": 5000,
+      "max": 15000
     },
     {
       "name": "mana_drain",
-      "interval": 8000,
+      "interval": 4000,
       "chance": 50,
       "min": 2000,
-      "max": 2500,
+      "max": 5500,
       "type": "area",
       "particle": 12,
       "radius": 9

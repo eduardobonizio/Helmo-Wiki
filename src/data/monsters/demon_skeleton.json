@@ -73,7 +73,7 @@
       "radius": 3
     }
   ],
-  "elements": [{ "name": "holy", "value": 125 }],
+  "elements": [{ "name": "holy", "value": 115 }],
   "immunities": [
     { "name": "death", "value": 1 },
     { "name": "earth", "value": 1 },

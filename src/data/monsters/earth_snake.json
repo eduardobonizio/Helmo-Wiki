@@ -58,7 +58,7 @@
     { "attack": "melee", "interval": 2000, "min": 0, "max": 190 },
     {
       "attack": "earth",
-      "interval": 8000,
+      "interval": 2000,
       "chance": 10,
       "min": 100,
       "max": 300,

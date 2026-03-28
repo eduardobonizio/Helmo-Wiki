@@ -14,12 +14,12 @@
   "offsetX": -8,
   "offsetY": 0,
   "experience": 10800,
-  "defense": 35,
+  "defense": 30,
   "pushable": false,
   "bestiary": 20,
   "charm": 30,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 450, "max": 1200 },
+    { "item": "gold", "chance": 100000, "min": 450, "max": 900 },
     { "item": "earth_crystal", "chance": 6000 },
     { "item": "royal_axe", "chance": 1100 },
     { "item": "style_bagpack", "chance": 100 },
@@ -97,6 +97,6 @@
     { "name": "death", "value": 90 },
     { "name": "energy", "value": 85 },
     { "name": "ice", "value": 95 },
-    { "name": "holy", "value": 115 }
+    { "name": "holy", "value": 110 }
   ]
 }

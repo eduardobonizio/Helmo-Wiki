@@ -69,8 +69,8 @@
     },
     {
       "attack": "physical",
-      "interval": 6000,
-      "chance": 30,
+      "interval": 2000,
+      "chance": 10,
       "min": 100,
       "max": 900,
       "type": "area",
@@ -81,8 +81,8 @@
     },
     {
       "attack": "death",
-      "interval": 6000,
-      "chance": 30,
+      "interval": 2000,
+      "chance": 10,
       "min": 100,
       "max": 900,
       "type": "area",
@@ -92,7 +92,6 @@
       "range": 12
     }
   ],
-  "elements": [{ "name": "holy", "value": 110 }],
   "defenses": [
     {
       "name": "healing",

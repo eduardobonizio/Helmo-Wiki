@@ -27,9 +27,11 @@
     { "item": "red_plasma_ring", "chance": 800 },
     { "item": "blue_plasma_ring", "chance": 800 },
     { "item": "green_plasma_ring", "chance": 800 },
-    { "item": "broom", "chance": 50000 },
-    { "item": "pumpkin", "chance": 100000 },
-    { "item": "candy", "chance": 100000 }
+    { "item": "green_plasma_ring", "chance": 800 },
+    { "item": "ghost_bagpack", "chance": 300 },
+    { "item": "ghostskull_bagpack", "chance": 300 },
+    { "item": "decorative_pumpkin", "chance": 200 },
+    { "item": "pumpkin", "chance": 100000, "min": 1, "max": 3 }
   ],
   "collisionRects": [
     {
@@ -60,16 +62,16 @@
     { "name": "deactivationZoneDistance", "type": "int" }
   ],
   "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 0, "max": 200 },
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 300 },
     {
       "attack": "death",
       "interval": 8000,
       "chance": 50,
-      "min": 100,
-      "max": 300,
+      "min": 200,
+      "max": 500,
       "type": "area",
       "particle": 5,
-      "radius": 8
+      "radius": 10
     }
   ],
   "defenses": [

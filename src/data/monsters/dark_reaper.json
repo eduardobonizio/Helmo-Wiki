@@ -31,7 +31,8 @@
     { "item": "control_book", "chance": 800 },
     { "item": "reapers_hood", "chance": 100 },
     { "item": "dust", "chance": 700, "min": 1, "max": 2 },
-    { "item": "soul_essence", "chance": 500 }
+    { "item": "soul_essence", "chance": 500 },
+    { "item": "sickle_pieces", "chance": 50 }
   ],
   "collisionRects": [
     {
@@ -71,8 +72,8 @@
     },
     {
       "attack": "physical",
-      "interval": 6000,
-      "chance": 30,
+      "interval": 2000,
+      "chance": 10,
       "min": 100,
       "max": 900,
       "type": "area",
@@ -83,8 +84,8 @@
     },
     {
       "attack": "death",
-      "interval": 6000,
-      "chance": 30,
+      "interval": 2000,
+      "chance": 10,
       "min": 100,
       "max": 900,
       "type": "area",
@@ -98,7 +99,7 @@
     { "name": "physical", "value": 80 },
     { "name": "earth", "value": 80 },
     { "name": "fire", "value": 110 },
-    { "name": "holy", "value": 110 },
+    { "name": "holy", "value": 105 },
     { "name": "energy", "value": 110 },
     { "name": "death", "value": 50 },
     { "name": "ice", "value": 50 }

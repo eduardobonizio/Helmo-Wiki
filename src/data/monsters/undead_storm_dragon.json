@@ -19,20 +19,19 @@
   "bestiary": 100,
   "charm": 50,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 600, "max": 1200 },
+    { "item": "gold", "chance": 100000, "min": 1000, "max": 1200 },
     { "item": "strong_mana_potion", "chance": 5500, "max": 3 },
-    { "item": "earth_crystal", "chance": 5000 },
-    { "item": "royal_helmet", "chance": 1000 },
-    { "item": "dragon_shield", "chance": 1000 },
-    { "item": "centered_cape", "chance": 1000 },
-    { "item": "centered_hat", "chance": 1000 },
-    { "item": "storm_wand", "chance": 1000 },
-    { "item": "pretator_rod", "chance": 1000 },
-    { "item": "earth_crystal", "chance": 5000 },
+    { "item": "earth_crystal", "chance": 8000 },
+    { "item": "royal_helmet", "chance": 1500 },
+    { "item": "dragon_shield", "chance": 1200 },
+    { "item": "centered_cape", "chance": 1200 },
+    { "item": "centered_hat", "chance": 1200 },
+    { "item": "storm_wand", "chance": 1200 },
+    { "item": "pretator_rod", "chance": 1200 },
     { "item": "rotten_dragon_paw", "chance": 100 },
     { "item": "magic_plate_armor", "chance": 20 },
-    { "item": "royal_axe", "chance": 1000 },
-    { "item": "death_armor", "chance": 1000 }
+    { "item": "royal_axe", "chance": 1200 },
+    { "item": "death_armor", "chance": 1200 }
   ],
   "collisionRects": [
     {
@@ -66,8 +65,8 @@
     { "attack": "melee", "interval": 2000, "min": 700, "max": 1050 },
     {
       "attack": "energy",
-      "interval": 8000,
-      "chance": 30,
+      "interval": 2000,
+      "chance": 10,
       "min": 800,
       "max": 1900,
       "type": "area",
@@ -78,8 +77,8 @@
     },
     {
       "attack": "death",
-      "interval": 8000,
-      "chance": 40,
+      "interval": 2000,
+      "chance": 10,
       "min": 800,
       "max": 1500,
       "type": "area",
@@ -92,14 +91,14 @@
   "defenses": [
     {
       "name": "healing",
-      "interval": 10000,
-      "chance": 100,
+      "interval": 5000,
+      "chance": 30,
       "min": 200,
       "max": 350
     }
   ],
   "elements": [
-    { "name": "holy", "value": 115 },
+    { "name": "holy", "value": 105 },
     { "name": "earth", "value": 115 },
     { "name": "physical", "value": 115 }
   ],

@@ -69,8 +69,8 @@
     { "attack": "melee", "interval": 2000, "min": 100, "max": 450 },
     {
       "attack": "ice",
-      "interval": 8000,
-      "chance": 20,
+      "interval": 2000,
+      "chance": 10,
       "min": 100,
       "max": 200,
       "type": "area",

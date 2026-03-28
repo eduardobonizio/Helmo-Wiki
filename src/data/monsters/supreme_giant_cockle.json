@@ -19,7 +19,7 @@
   "bestiary": 105,
   "charm": 50,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 400, "max": 1000 },
+    { "item": "gold", "chance": 100000, "min": 250, "max": 800 },
     { "item": "earth_crystal", "chance": 8000 },
     { "item": "legendary_crossbow", "chance": 50 },
     { "item": "legendary_bow", "chance": 60 },
@@ -91,14 +91,14 @@
   "defenses": [
     {
       "name": "healing",
-      "interval": 8000,
-      "chance": 20,
+      "interval": 4000,
+      "chance": 10,
       "min": 100,
       "max": 400
     },
     {
       "name": "paralize",
-      "interval": 8000,
+      "interval": 4000,
       "chance": 10,
       "type": "area",
       "particle": 11,
@@ -106,7 +106,7 @@
     },
     {
       "name": "mana_drain",
-      "interval": 8000,
+      "interval": 4000,
       "chance": 10,
       "min": 100,
       "max": 500,

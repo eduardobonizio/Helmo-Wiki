@@ -29,7 +29,7 @@
     { "item": "time_ring", "chance": 300 },
     { "item": "steel_bow", "chance": 200 },
     { "item": "blue_amulet", "chance": 100 },
-    { "item": "spider_claws", "chance": 800 }
+    { "item": "spider_claws", "chance": 3000 }
   ],
   "collisionRects": [
     {

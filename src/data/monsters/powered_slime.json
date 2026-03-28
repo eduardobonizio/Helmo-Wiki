@@ -30,7 +30,7 @@
     { "item": "noble_magic_boots", "chance": 500 },
     { "item": "purple_book", "chance": 10 },
     { "item": "dust", "chance": 400 },
-    { "item": "power_clamp", "chance": 1000 }
+    { "item": "power_clamp", "chance": 1300 }
   ],
   "collisionRects": [
     {

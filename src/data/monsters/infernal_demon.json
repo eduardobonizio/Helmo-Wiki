@@ -19,7 +19,7 @@
   "bestiary": 105,
   "charm": 100,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 800, "max": 1600 },
+    { "item": "gold", "chance": 100000, "min": 500, "max": 1500 },
     { "item": "great_mana_potion", "chance": 5500, "max": 3 },
     { "item": "great_health_potion", "chance": 5500, "max": 3 },
     { "item": "demon_shield", "chance": 2000 },
@@ -83,7 +83,7 @@
     },
     {
       "attack": "fire",
-      "interval": 8000,
+      "interval": 6000,
       "chance": 30,
       "min": 650,
       "max": 1500,
@@ -95,7 +95,7 @@
     },
     {
       "attack": "death",
-      "interval": 8000,
+      "interval": 6000,
       "chance": 30,
       "min": 1000,
       "max": 1550,

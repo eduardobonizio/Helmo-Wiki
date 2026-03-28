@@ -78,8 +78,8 @@
     },
     {
       "attack": "earth",
-      "interval": 8000,
-      "chance": 30,
+      "interval": 2000,
+      "chance": 10,
       "min": 250,
       "max": 450,
       "type": "area",

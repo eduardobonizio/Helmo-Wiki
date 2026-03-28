@@ -63,7 +63,7 @@
   "attacks": [{ "attack": "melee", "interval": 2000, "min": 0, "max": 160 }],
   "elements": [
     { "name": "fire", "value": 125 },
-    { "name": "holy", "value": 110 },
+    { "name": "holy", "value": 105 },
     { "name": "energy", "value": 110 }
   ],
   "immunities": [{ "name": "ice", "value": 1 }]

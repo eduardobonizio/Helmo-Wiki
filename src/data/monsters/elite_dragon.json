@@ -1,0 +1,123 @@
+{
+  "id": "elite_dragon",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 50,
+  "maxHealth": 7600,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 48,
+  "imgHeight": 48,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 48,
+  "drawOrderOffsetY": 32,
+  "offsetX": -16,
+  "offsetY": 0,
+  "experience": 2100,
+  "defense": 34,
+  "pushable": false,
+  "bestiary": 30,
+  "charm": 15,
+  "flee": true,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 5000, "max": 15000 },
+    { "item": "dragon_slayer_armor", "chance": 8000 },
+    { "item": "dragon_slayer_legs", "chance": 8000 },
+    { "item": "dragon_slayer_boots", "chance": 8000 },
+    { "item": "dragon_slayer_helmet", "chance": 8000 },
+    { "item": "dragon_slayer_shield", "chance": 8000 },
+    { "item": "dragon_slayer_bow", "chance": 8000 },
+    { "item": "dragon_slayer_crossbow", "chance": 8000 },
+    { "item": "dragon_slayer_sword", "chance": 8000 },
+    { "item": "dragon_horn", "chance": 5000 },
+    { "item": "dragon_scale_mail", "chance": 500 },
+    { "item": "flaming_heart", "chance": 2000 },
+    { "item": "blazing_bone", "chance": 2000 },
+    { "item": "elder_potion", "chance": 100 },
+    { "item": "smart_token", "chance": 25000 },
+    { "item": "energy_ring", "chance": 1000 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.7,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 800 },
+    {
+      "attack": "fire",
+      "interval": 8000,
+      "chance": 30,
+      "min": 150,
+      "max": 1100,
+      "type": "area",
+      "particle": 3,
+      "length": 8,
+      "spread": 3,
+      "range": 7
+    },
+    {
+      "attack": "fire",
+      "interval": 8000,
+      "chance": 40,
+      "min": 100,
+      "max": 1200,
+      "type": "area",
+      "particle": 3,
+      "radius": 4,
+      "target": 1,
+      "range": 7
+    },
+    {
+      "attack": "fire",
+      "interval": 8000,
+      "chance": 50,
+      "min": 100,
+      "max": 1200,
+      "type": "area",
+      "particle": 3,
+      "radius": 2,
+      "target": 1,
+      "range": 7,
+      "field": 1
+    }
+  ],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 10000,
+      "chance": 100,
+      "min": 67,
+      "max": 180
+    }
+  ],
+  "elements": [
+    { "name": "ice", "value": 110 },
+    { "name": "energy", "value": 80 },
+    { "name": "earth", "value": 20 }
+  ],
+  "immunities": [{ "name": "fire", "value": 1 }]
+}

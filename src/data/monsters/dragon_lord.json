@@ -71,20 +71,21 @@
     { "attack": "melee", "interval": 2000, "min": 0, "max": 200 },
     {
       "attack": "fire",
-      "interval": 8000,
-      "chance": 30,
-      "min": 150,
-      "max": 300,
+      "interval": 2000,
+      "chance": 20,
+      "min": 100,
+      "max": 200,
       "type": "area",
       "particle": 3,
-      "length": 8,
-      "spread": 3,
-      "range": 7
+      "radius": 2,
+      "target": 1,
+      "range": 7,
+      "field": 1
     },
     {
       "attack": "fire",
-      "interval": 8000,
-      "chance": 40,
+      "interval": 2000,
+      "chance": 10,
       "min": 100,
       "max": 200,
       "type": "area",
@@ -95,16 +96,15 @@
     },
     {
       "attack": "fire",
-      "interval": 8000,
-      "chance": 50,
-      "min": 100,
-      "max": 200,
+      "interval": 2000,
+      "chance": 15,
+      "min": 150,
+      "max": 300,
       "type": "area",
       "particle": 3,
-      "radius": 2,
-      "target": 1,
-      "range": 7,
-      "field": 1
+      "length": 8,
+      "spread": 3,
+      "range": 7
     }
   ],
   "defenses": [

@@ -61,7 +61,7 @@
     {
       "attack": "physical",
       "interval": 2000,
-      "chance": 50,
+      "chance": 10,
       "range": 8,
       "min": 2800,
       "max": 6200,
@@ -70,7 +70,7 @@
       "particle": 5
     }
   ],
-  "elements": [{ "name": "holy", "value": 125 }],
+  "elements": [{ "name": "holy", "value": 115 }],
   "defenses": [
     {
       "name": "paralize",

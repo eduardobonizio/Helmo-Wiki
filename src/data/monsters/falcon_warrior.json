@@ -19,7 +19,7 @@
   "bestiary": 60,
   "charm": 50,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 600, "max": 1300 },
+    { "item": "gold", "chance": 100000, "min": 400, "max": 1300 },
     { "item": "assassin_star", "chance": 10000, "min": 1, "max": 10 },
     { "item": "thick_silver_necklace", "chance": 1100 },
     { "item": "dust", "chance": 900, "min": 1, "max": 2 },
@@ -62,8 +62,8 @@
     { "attack": "melee", "interval": 2000, "min": 300, "max": 700 },
     {
       "attack": "earth",
-      "interval": 5000,
-      "chance": 50,
+      "interval": 2000,
+      "chance": 10,
       "min": 300,
       "max": 750,
       "type": "area",
@@ -73,8 +73,8 @@
     },
     {
       "attack": "holy",
-      "interval": 5000,
-      "chance": 50,
+      "interval": 2000,
+      "chance": 15,
       "min": 300,
       "max": 750,
       "type": "area",
@@ -92,8 +92,8 @@
   "defenses": [
     {
       "name": "healing",
-      "interval": 8000,
-      "chance": 70,
+      "interval": 4000,
+      "chance": 50,
       "min": 100,
       "max": 200
     }

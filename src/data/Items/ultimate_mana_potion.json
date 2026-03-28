@@ -3,6 +3,7 @@
   "equipType": -1,
   "maxStackSize": 200,
   "minDamage": 500,
+  "maxDamage": 500,
   "consumable": true,
   "level": 130,
 

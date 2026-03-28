@@ -68,8 +68,8 @@
     { "attack": "melee", "interval": 2000, "min": 0, "max": 300 },
     {
       "attack": "physical",
-      "interval": 8000,
-      "chance": 50,
+      "interval": 2000,
+      "chance": 10,
       "min": 100,
       "max": 280,
       "type": "area",

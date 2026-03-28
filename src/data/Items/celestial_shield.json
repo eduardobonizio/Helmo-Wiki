@@ -1,0 +1,12 @@
+{
+  "equipType": 5,
+  "defense": 42,
+  "rarity": 5,
+  "protectDeath": 10,
+  "protectPhysical": 10,
+  "level": 600,
+
+  "vocations": [{ "name": "0" }],
+  "imbueSlots": 1,
+  "weight": 58
+}

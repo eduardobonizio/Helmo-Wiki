@@ -74,7 +74,7 @@
   "elements": [
     { "name": "earth", "value": 90 },
     { "name": "fire", "value": 90 },
-    { "name": "holy", "value": 115 }
+    { "name": "holy", "value": 105 }
   ],
   "defenses": [
     {

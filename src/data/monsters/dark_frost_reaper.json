@@ -29,7 +29,8 @@
     { "item": "boots_of_speed", "chance": 800 },
     { "item": "royal_axe", "chance": 800 },
     { "item": "control_book", "chance": 700 },
-    { "item": "dust", "chance": 700, "min": 1, "max": 2 }
+    { "item": "dust", "chance": 700, "min": 1, "max": 2 },
+    { "item": "sickle_pieces", "chance": 50 }
   ],
   "collisionRects": [
     {
@@ -69,8 +70,8 @@
     },
     {
       "attack": "physical",
-      "interval": 6000,
-      "chance": 30,
+      "interval": 2000,
+      "chance": 10,
       "min": 100,
       "max": 900,
       "type": "area",
@@ -81,8 +82,8 @@
     },
     {
       "attack": "ice",
-      "interval": 6000,
-      "chance": 30,
+      "interval": 2000,
+      "chance": 10,
       "min": 100,
       "max": 900,
       "type": "area",
@@ -95,7 +96,6 @@
   "elements": [
     { "name": "physical", "value": 80 },
     { "name": "fire", "value": 110 },
-    { "name": "holy", "value": 110 },
     { "name": "energy", "value": 110 },
     { "name": "death", "value": 50 }
   ],

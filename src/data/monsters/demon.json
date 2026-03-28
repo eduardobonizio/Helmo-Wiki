@@ -20,7 +20,7 @@
   "charm": 50,
   "intervalResp": 70,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 400, "max": 900 },
+    { "item": "gold", "chance": 100000, "min": 300, "max": 700 },
     { "item": "great_mana_potion", "chance": 5500, "max": 3 },
     { "item": "great_health_potion", "chance": 5500, "max": 3 },
     { "item": "demon_shield", "chance": 1200 },
@@ -28,7 +28,7 @@
     { "item": "demon_legs", "chance": 25 },
     { "item": "thick_silver_necklace", "chance": 50 },
     { "item": "necro_rod", "chance": 1200 },
-    { "item": "earth_crystal", "chance": 10000 },
+    { "item": "earth_crystal", "chance": 8000 },
     { "item": "royal_axe", "chance": 1500 },
     { "item": "hylian_broadsword", "chance": 2000 },
     { "item": "hellfire_wand", "chance": 50 },
@@ -71,8 +71,8 @@
     { "attack": "melee", "interval": 2000, "min": 100, "max": 650 },
     {
       "attack": "energy",
-      "interval": 7000,
-      "chance": 30,
+      "interval": 2000,
+      "chance": 10,
       "min": 300,
       "max": 750,
       "type": "area",
@@ -83,8 +83,8 @@
     },
     {
       "attack": "fire",
-      "interval": 7000,
-      "chance": 30,
+      "interval": 2000,
+      "chance": 10,
       "min": 150,
       "max": 350,
       "type": "area",
@@ -97,14 +97,14 @@
   "defenses": [
     {
       "name": "healing",
-      "interval": 15000,
-      "chance": 30,
+      "interval": 4000,
+      "chance": 10,
       "min": 220,
       "max": 300
     },
     {
       "name": "mana_drain",
-      "interval": 15000,
+      "interval": 4000,
       "chance": 10,
       "min": 90,
       "max": 160,
@@ -114,7 +114,7 @@
     },
     {
       "name": "life_drain",
-      "interval": 15000,
+      "interval": 4000,
       "chance": 10,
       "min": 100,
       "max": 200,

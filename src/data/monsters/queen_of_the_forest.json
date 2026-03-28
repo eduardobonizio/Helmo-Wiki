@@ -1,0 +1,120 @@
+{
+  "id": "queen_of_the_forest",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 70,
+  "maxHealth": 300000,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 64,
+  "imgHeight": 64,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 50,
+  "drawOrderOffsetY": 66,
+  "offsetX": -24,
+  "offsetY": 0,
+  "experience": 30000,
+  "defense": 30,
+  "pushable": false,
+  "individualReward": true,
+  "bestiary": 20,
+  "charm": 50,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 50000, "max": 100000 },
+    { "item": "boots_of_speed", "chance": 50000 },
+    { "item": "jewelled_bagpack", "chance": 500 },
+    { "item": "golden_legs", "chance": 50000 },
+    { "item": "death_armor", "chance": 20000 },
+    { "item": "fire_axe", "chance": 50000 },
+    { "item": "divine_plate", "chance": 20000 },
+    { "item": "elder_potion", "chance": 500 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 1.1,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "totalRuntime": 0,
+      "fileName": "walk",
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    {
+      "attack": "death",
+      "interval": 2000,
+      "chance": 100,
+      "range": 8,
+      "min": 1200,
+      "max": 4800,
+      "type": "shoot",
+      "anim": "death-ball",
+      "particle": 27
+    },
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 1000 },
+    {
+      "attack": "death",
+      "interval": 4000,
+      "chance": 50,
+      "min": 1200,
+      "max": 4800,
+      "type": "area",
+      "particle": 5,
+      "radius": 12
+    },
+    {
+      "attack": "fire",
+      "interval": 4000,
+      "chance": 50,
+      "min": 1200,
+      "max": 4800,
+      "type": "area",
+      "particle": 3,
+      "radius": 12
+    }
+  ],
+  "defenses": [
+    {
+      "name": "paralize",
+      "interval": 4000,
+      "chance": 20,
+      "type": "area",
+      "particle": 40,
+      "radius": 12
+    },
+    {
+      "name": "healing",
+      "interval": 4000,
+      "chance": 80,
+      "min": 5000,
+      "max": 9000
+    }
+  ],
+  "elements": [
+    { "name": "fire", "value": 50 },
+    { "name": "death", "value": 50 },
+    { "name": "holy", "value": 50 },
+    { "name": "physical", "value": 50 },
+    { "name": "ice", "value": 50 },
+    { "name": "earth", "value": 50 },
+    { "name": "energy", "value": 50 }
+  ]
+}

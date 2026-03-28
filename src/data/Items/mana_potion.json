@@ -3,6 +3,7 @@
   "equipType": -1,
   "maxStackSize": 200,
   "minDamage": 100,
+  "maxDamage": 100,
   "consumable": true,
   "autoCollect": true,
   "level": 25,

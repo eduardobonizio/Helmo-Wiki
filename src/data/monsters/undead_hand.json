@@ -20,17 +20,17 @@
   "bestiary": 70,
   "charm": 50,
   "drops": [
-    { "item": "gold", "chance": 100000, "min": 600, "max": 1200 },
-    { "item": "earth_crystal", "chance": 5000 },
-    { "item": "pretator_rod", "chance": 1000 },
+    { "item": "gold", "chance": 100000, "min": 800, "max": 1600 },
+    { "item": "earth_crystal", "chance": 8000 },
+    { "item": "pretator_rod", "chance": 1300 },
     { "item": "mysteries_book", "chance": 500 },
-    { "item": "death_armor", "chance": 1000 },
-    { "item": "ruby_necklace", "chance": 1000 },
-    { "item": "boots_of_speed", "chance": 1000 },
-    { "item": "royal_axe", "chance": 1000 },
-    { "item": "control_book", "chance": 1000 },
-    { "item": "terra_legs", "chance": 1000 },
-    { "item": "vamp_boots", "chance": 1000 },
+    { "item": "death_armor", "chance": 1300 },
+    { "item": "ruby_necklace", "chance": 1500 },
+    { "item": "boots_of_speed", "chance": 1300 },
+    { "item": "royal_axe", "chance": 1300 },
+    { "item": "control_book", "chance": 1300 },
+    { "item": "terra_legs", "chance": 1500 },
+    { "item": "vamp_boots", "chance": 1500 },
     { "item": "cursed_fingers", "chance": 100 },
     { "item": "dust", "chance": 500, "min": 1, "max": 2 }
   ],
@@ -61,8 +61,8 @@
     { "attack": "melee", "interval": 2000, "min": 200, "max": 800 },
     {
       "attack": "death",
-      "interval": 8000,
-      "chance": 30,
+      "interval": 2000,
+      "chance": 10,
       "min": 800,
       "max": 1500,
       "type": "area",
@@ -73,7 +73,7 @@
     }
   ],
   "elements": [
-    { "name": "holy", "value": 115 },
+    { "name": "holy", "value": 105 },
     { "name": "physical", "value": 115 }
   ],
   "defenses": [

@@ -19,7 +19,7 @@
   "charm": 1,
   "drops": [
     { "item": "gold", "chance": 100000, "min": 2, "max": 7 },
-    { "item": "crab_claw", "chance": 1000 }
+    { "item": "crab_claw", "chance": 1250 }
   ],
   "collisionRects": [
     {

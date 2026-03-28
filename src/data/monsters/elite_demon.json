@@ -1,0 +1,128 @@
+{
+  "id": "elite_demon",
+  "hittable": true,
+  "maxDirections": 4,
+  "speed": 80,
+  "maxHealth": 32400,
+  "showHealthBar": true,
+  "footstepSound": "slime",
+  "imgWidth": 64,
+  "imgHeight": 64,
+  "footstepOffsetX": 0,
+  "footstepOffsetY": 50,
+  "drawOrderOffsetY": 32,
+  "offsetX": -24,
+  "offsetY": 0,
+  "experience": 6660,
+  "defense": 34,
+  "pushable": false,
+  "bestiary": 105,
+  "charm": 50,
+  "intervalResp": 70,
+  "drops": [
+    { "item": "gold", "chance": 100000, "min": 8000, "max": 20000 },
+    { "item": "demon_shield", "chance": 15200 },
+    { "item": "demon_boots", "chance": 500 },
+    { "item": "demon_legs", "chance": 500 },
+    { "item": "thick_silver_necklace", "chance": 9000 },
+    { "item": "necro_rod", "chance": 15200 },
+    { "item": "royal_axe", "chance": 9500 },
+    { "item": "hellfire_wand", "chance": 9000 },
+    { "item": "demon_heart", "chance": 1000 },
+    { "item": "red_book", "chance": 1000 },
+    { "item": "fire_axe", "chance": 15200 },
+    { "item": "golden_legs", "chance": 500 },
+    { "item": "elder_potion", "chance": 200 },
+    { "item": "smart_token", "chance": 25000 },
+    { "item": "energy_ring", "chance": 1000 }
+  ],
+  "collisionRects": [
+    {
+      "name": "hit",
+      "hard": true,
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "totalRuntime": 0.4,
+      "numberOfDirections": 4,
+      "looping": true
+    },
+    {
+      "id": "default",
+      "fileName": "walk",
+      "totalRuntime": 0,
+      "numberOfDirections": 4
+    }
+  ],
+  "properties": [
+    { "name": "activationZoneDistance", "type": "int" },
+    { "name": "deactivationZoneDistance", "type": "int" }
+  ],
+  "attacks": [
+    { "attack": "melee", "interval": 2000, "min": 0, "max": 1250 },
+    {
+      "attack": "energy",
+      "interval": 7000,
+      "chance": 30,
+      "min": 300,
+      "max": 1250,
+      "type": "area",
+      "particle": 12,
+      "length": 10,
+      "spread": 20,
+      "range": 12
+    },
+    {
+      "attack": "fire",
+      "interval": 7000,
+      "chance": 30,
+      "min": 150,
+      "max": 1150,
+      "type": "area",
+      "particle": 3,
+      "radius": 6,
+      "target": 1,
+      "range": 12
+    }
+  ],
+  "defenses": [
+    {
+      "name": "healing",
+      "interval": 15000,
+      "chance": 30,
+      "min": 220,
+      "max": 300
+    },
+    {
+      "name": "mana_drain",
+      "interval": 15000,
+      "chance": 10,
+      "min": 90,
+      "max": 160,
+      "type": "area",
+      "particle": 11,
+      "radius": 6
+    },
+    {
+      "name": "life_drain",
+      "interval": 15000,
+      "chance": 10,
+      "min": 100,
+      "max": 200,
+      "type": "area",
+      "particle": 12,
+      "radius": 6
+    }
+  ],
+  "elements": [
+    { "name": "ice", "value": 125 },
+    { "name": "holy", "value": 115 }
+  ],
+  "immunities": [{ "name": "fire", "value": 1 }]
+}

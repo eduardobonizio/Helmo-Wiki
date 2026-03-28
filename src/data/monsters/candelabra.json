@@ -63,8 +63,8 @@
     { "attack": "melee", "interval": 2000, "min": 0, "max": 125 },
     {
       "attack": "fire",
-      "interval": 6000,
-      "chance": 50,
+      "interval": 2000,
+      "chance": 10,
       "min": 70,
       "max": 180,
       "type": "area",

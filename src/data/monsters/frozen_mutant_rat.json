@@ -69,8 +69,8 @@
     },
     {
       "attack": "ice",
-      "interval": 6000,
-      "chance": 30,
+      "interval": 2000,
+      "chance": 10,
       "min": 100,
       "max": 900,
       "type": "area",
@@ -84,7 +84,6 @@
     { "name": "physical", "value": 80 },
     { "name": "earth", "value": 80 },
     { "name": "fire", "value": 110 },
-    { "name": "holy", "value": 110 },
     { "name": "energy", "value": 110 },
     { "name": "death", "value": 50 },
     { "name": "ice", "value": 50 }
