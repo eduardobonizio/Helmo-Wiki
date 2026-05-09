@@ -1,5 +1,6 @@
 import monsters from "../../data/monsters.json";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useLanguage } from "../../contexts/LanguageContext";
 import Popup from "../../elements/popup/popup";
 
 const gifImg = (item) => {
@@ -63,110 +64,175 @@ const gifImg = (item) => {
 function Monsters() {
   const [open, setOpen] = useState(false);
   const [item, setItem] = useState({});
+  const [searchTerm, setSearchTerm] = useState("");
+  const [displayCount, setDisplayCount] = useState(20);
+  const { t } = useLanguage();
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.innerHeight + document.documentElement.scrollTop + 100 >= document.documentElement.offsetHeight) {
+        setDisplayCount(prev => prev + 20);
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  useEffect(() => {
+    setDisplayCount(20);
+  }, [searchTerm]);
+
+  const filteredMonsters = monsters.filter((monster) => {
+    if (searchTerm === "") return true;
+    const term = searchTerm.toLowerCase();
+    if (monster.id.toLowerCase().includes(term)) return true;
+    if (monster.drops && monster.drops.some(drop => drop.item.toLowerCase().includes(term))) return true;
+    return false;
+  });
+
+  const monstersToDisplay = filteredMonsters.slice(0, displayCount);
+
   return (
-    <div className="container d-flex">
-      <div className="row justify-content-around">
-        {monsters.map((monster, i) => (
-          <div className="card d-block mt-2" style={{ width: "23rem" }} key={i}>
-            <div className="card-body">
-              <h5 className="card-title text-center">{monster.id}</h5>
-              <div
-                className="display-flex justify-content-center"
-                style={{ display: "flex" }}
-              >
-                <img
-                  src={`../monsters/${monster.originalName}/walk.gif`}
-                  alt={monster.id}
-                  style={{ height: "128px" }}
-                ></img>
+    <div className="container mt-4">
+      <div className="row justify-content-center mb-4">
+        <div className="col-12 col-md-8 col-lg-6">
+          <input 
+            type="text" 
+            className="form-control form-control-lg shadow-sm" 
+            placeholder={t("search_monsters")} 
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            style={{ borderRadius: '20px' }}
+          />
+        </div>
+      </div>
+      <div className="row justify-content-center">
+        {monstersToDisplay.map((monster, i) => (
+          <div className="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center mb-4" key={i}>
+            <div className="card w-100 shadow-sm border-0 h-100" style={{ maxWidth: "23rem", borderRadius: "12px", overflow: "hidden" }}>
+              <div className="card-header bg-dark text-white text-center fw-bold text-uppercase" style={{ letterSpacing: "1px" }}>
+                {monster.id}
               </div>
-              <p className="text-center">
-                HP: {monster.maxHealth} EXP: {monster.experience} SPEED:{" "}
-                {monster.speed} DEF: {monster.defense} Exp/HP:{" "}
-                {monster.expPerHp.toFixed(2)}
-              </p>
-              {monster.attacks &&
-                monster.attacks.map((attack, i) => (
-                  <p key={i}>
-                    Attack: {attack.attack}
-                    {` `} CD: {attack.interval}
-                    {` `} Min: {attack.min}
-                    {` `}Max: {attack.max}
-                    {` `}
-                    {attack.type && `Type: ${attack.type}`}
-                  </p>
-                ))}
-              {monster.defenses &&
-                monster.defenses.map((defense, i) => (
-                  <p key={i}>
-                    {(defense.name == "healing" && "Heal") ||
-                      `Attack: ${defense.name}`}
-                    {` `} CD: {defense.interval}
-                    {` `} {defense.min && `Min: ${defense.min}`}
-                    {` `} {defense.max && `Max: ${defense.max}`}
-                    {` `} {defense.type && `Type: ${defense.type}`}
-                  </p>
-                ))}
-            </div>
-            <ul className="list-group list-group-flush">
-              <li className="list-group-item" style={{ padding: "0px" }}>
-                <table className="table">
-                  <thead>
-                    <tr>
-                      <th scope="col">Item</th>
-                      <th scope="col">Chance</th>
-                      <th scope="col">Amount</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {monster.drops.map((drop, i) => (
-                      <tr key={i}>
-                        <td
-                          className="show-cursor"
-                          onClick={() => {
-                            setItem(drop);
-                            setOpen(true);
-                          }}
-                        >
-                          <img
-                            src={gifImg(drop)}
-                            alt={drop.item}
-                            style={{ "margin-right": "2px", width: "20px" }}
-                          ></img>
-                          {drop.item}
-                        </td>
-                        <td style={{ textAlign: "center" }}>
-                          {drop.chance / 1000 + "%"}
-                        </td>
-                        <td style={{ textAlign: "center" }}>{drop.max || 1}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </li>
-              <li className="list-group-item">
-                <div>
-                  Weaknesses:
-                  {monster.elements &&
-                    monster.elements.map((element, i) => (
-                      <p className="card-text" key={i}>
-                        {element.name + " " + element.value + "%"}
-                      </p>
-                    ))}
+              <div className="card-body p-3 d-flex flex-column">
+                <div className="d-flex align-items-center mb-3">
+                  <div className="me-3 bg-light rounded d-flex justify-content-center align-items-center" style={{ width: "80px", height: "80px", flexShrink: 0 }}>
+                    <img
+                      src={`../monsters/${monster.originalName}/walk.gif`}
+                      alt={monster.id}
+                      style={{ maxHeight: "64px", maxWidth: "64px" }}
+                    />
+                  </div>
+                  <div className="d-flex flex-wrap">
+                    <span className="badge bg-danger mb-1 me-1">{t("hp")}: {monster.maxHealth}</span>
+                    <span className="badge bg-success mb-1 me-1">{t("exp")}: {monster.experience}</span>
+                    <span className="badge bg-info text-dark mb-1 me-1">{t("spd")}: {monster.speed}</span>
+                    <span className="badge bg-secondary mb-1 me-1">{t("def")}: {monster.defense}</span>
+                    <span className="badge bg-warning text-dark mb-1 me-1">Exp/{t("hp")}: {monster.expPerHp.toFixed(2)}</span>
+                  </div>
                 </div>
-              </li>
-              <li className="list-group-item">
-                <p>
-                  Immunity:{" "}
-                  {monster.immunities &&
-                    monster.immunities.map((immunitie, i) => (
-                      <span className="card-text" key={i}>
-                        {immunitie.name + " "}
-                      </span>
-                    ))}
-                </p>
-              </li>
-            </ul>
+
+                <div className="accordion accordion-flush flex-grow-1" id={`accordion-${i}`} style={{ borderTop: "1px solid #eee" }}>
+                  
+                  {((monster.attacks && monster.attacks.length > 0) || (monster.defenses && monster.defenses.length > 0)) && (
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id={`heading-combat-${i}`}>
+                      <button className="accordion-button collapsed py-2 px-1" type="button" data-bs-toggle="collapse" data-bs-target={`#collapse-combat-${i}`} aria-expanded="false" aria-controls={`collapse-combat-${i}`} style={{ fontSize: "0.85rem", fontWeight: "600", backgroundColor: "transparent", boxShadow: "none" }}>
+                        Combat Info
+                      </button>
+                    </h2>
+                    <div id={`collapse-combat-${i}`} className="accordion-collapse collapse" aria-labelledby={`heading-combat-${i}`} data-bs-parent={`#accordion-${i}`}>
+                      <div className="accordion-body p-1" style={{ fontSize: "0.8rem" }}>
+                        {monster.attacks && monster.attacks.length > 0 && <strong className="d-block mb-1 text-danger">{t("attacks")}</strong>}
+                        {monster.attacks && monster.attacks.map((attack, idx) => (
+                          <div key={idx} className="border-bottom pb-1 mb-1">
+                            <span className="fw-bold">{attack.attack}</span> 
+                            <span className="text-muted ms-1">({t("cd")}: {attack.interval})</span>
+                            {attack.min && <span> {t("dmg")}: {attack.min}-{attack.max}</span>}
+                            {attack.type && <span className="ms-1 badge bg-light text-dark border">{attack.type}</span>}
+                          </div>
+                        ))}
+                        {monster.defenses && monster.defenses.length > 0 && <strong className="d-block mt-2 mb-1 text-primary">{t("defenses")}</strong>}
+                        {monster.defenses && monster.defenses.map((defense, idx) => (
+                          <div key={idx} className="border-bottom pb-1 mb-1">
+                            <span className="fw-bold">{(defense.name == "healing" && "Heal") || defense.name}</span>
+                            <span className="text-muted ms-1">({t("cd")}: {defense.interval})</span>
+                            {defense.min && <span> {t("heal")}: {defense.min}-{defense.max}</span>}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                  )}
+
+                  {monster.drops && monster.drops.length > 0 && (
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id={`heading-drops-${i}`}>
+                      <button className="accordion-button collapsed py-2 px-1" type="button" data-bs-toggle="collapse" data-bs-target={`#collapse-drops-${i}`} aria-expanded="false" aria-controls={`collapse-drops-${i}`} style={{ fontSize: "0.85rem", fontWeight: "600", backgroundColor: "transparent", boxShadow: "none" }}>
+                        Loot Drops
+                      </button>
+                    </h2>
+                    <div id={`collapse-drops-${i}`} className="accordion-collapse collapse" aria-labelledby={`heading-drops-${i}`} data-bs-parent={`#accordion-${i}`}>
+                      <div className="accordion-body p-0">
+                        <table className="table table-sm table-borderless table-striped mb-0" style={{ fontSize: "0.8rem" }}>
+                          <tbody>
+                            {monster.drops.map((drop, idx) => (
+                              <tr key={idx}>
+                                <td className="show-cursor" onClick={() => { setItem(drop); setOpen(true); }}>
+                                  <img src={gifImg(drop)} alt={drop.item} style={{ marginRight: "4px", width: "16px" }} />
+                                  {drop.item}
+                                </td>
+                                <td className="text-end text-muted">{(drop.chance / 1000).toFixed(2)}%</td>
+                                <td className="text-end text-muted">x{drop.max || 1}</td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                  )}
+
+                  {((monster.elements && monster.elements.length > 0) || (monster.immunities && monster.immunities.length > 0)) && (
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id={`heading-elements-${i}`}>
+                      <button className="accordion-button collapsed py-2 px-1" type="button" data-bs-toggle="collapse" data-bs-target={`#collapse-elements-${i}`} aria-expanded="false" aria-controls={`collapse-elements-${i}`} style={{ fontSize: "0.85rem", fontWeight: "600", backgroundColor: "transparent", boxShadow: "none" }}>
+                        Elements & Immunities
+                      </button>
+                    </h2>
+                    <div id={`collapse-elements-${i}`} className="accordion-collapse collapse" aria-labelledby={`heading-elements-${i}`} data-bs-parent={`#accordion-${i}`}>
+                      <div className="accordion-body p-1" style={{ fontSize: "0.8rem" }}>
+                        {monster.elements && monster.elements.length > 0 && (
+                          <div className="mb-2">
+                            <strong className="d-block mb-1">{t("weaknesses")}</strong>
+                            <div className="d-flex flex-wrap gap-1">
+                              {monster.elements.map((el, idx) => (
+                                <span key={idx} className={`badge ${el.value > 100 ? 'bg-success' : 'bg-danger'}`}>
+                                  {el.name} {el.value}%
+                                </span>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+                        {monster.immunities && monster.immunities.length > 0 && (
+                          <div>
+                            <strong className="d-block mb-1">{t("immunities")}</strong>
+                            <div className="d-flex flex-wrap gap-1">
+                              {monster.immunities.map((im, idx) => (
+                                <span key={idx} className="badge bg-secondary">
+                                  {im.name}
+                                </span>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                  )}
+                  
+                </div>
+              </div>
+            </div>
           </div>
         ))}
       </div>

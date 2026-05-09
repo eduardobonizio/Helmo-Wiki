@@ -1,13 +1,15 @@
 /* eslint-disable react/prop-types */
 import React from "react";
+import { useLanguage } from "../../contexts/LanguageContext";
 import "./Popup.css";
 export const Popup = ({ drop, closePopup, monsters }) => {
+  const { t } = useLanguage();
   return (
     <div className="popup-container">
       <div className="popup-body">
         <h3>{drop.item}</h3>
         <div>
-          <div>Drop From:</div>
+          <div>{t("drop_from")}</div>
           {monsters.map((monster, i) => {
             const monsterWithDrop = monster.drops.filter(
               (item) => item.item === drop.item,
