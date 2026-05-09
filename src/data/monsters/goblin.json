@@ -1,63 +1,47 @@
 {
-  "id": "goblin",
-  "hittable": true,
-  "maxDirections": 4,
-  "speed": 30,
-  "maxHealth": 110,
-  "showHealthBar": true,
-  "footstepSound": "slime",
-  "imgWidth": 16,
-  "imgHeight": 20,
-  "footstepOffsetX": 0,
-  "footstepOffsetY": 22,
-  "drawOrderOffsetY": 16,
-  "offsetX": 0,
-  "offsetY": 0,
-  "experience": 80,
-  "defense": 11,
-  "bestiary": 15,
-  "charm": 5,
-  "drops": [
-    { "item": "basic_helmo", "chance": 5000 },
-    { "item": "basic_shield", "chance": 5000 },
-    { "item": "pants_basic", "chance": 5000 },
-    { "item": "boots_basic", "chance": 5000 },
-    { "item": "shirt_basic", "chance": 5000 },
-    { "item": "basic_crossbow", "chance": 200 },
-    { "item": "gold", "chance": 70000, "min": 10, "max": 45 },
-    { "item": "fish", "chance": 60000, "max": 1 },
-    { "item": "shovel", "chance": 500 },
-    { "item": "rope", "chance": 300 },
-    { "item": "green_bagpack", "chance": 400 }
-  ],
-  "collisionRects": [
-    {
-      "name": "hit",
-      "hard": true,
-      "offsetX": 0,
-      "offsetY": 0,
-      "width": 16,
-      "height": 16
-    }
-  ],
-  "animations": [
-    {
-      "id": "walk",
-      "totalRuntime": 0.6,
-      "numberOfDirections": 4,
-      "looping": true
-    },
-    {
-      "id": "default",
-      "fileName": "walk",
-      "totalRuntime": 0,
-      "numberOfDirections": 4,
-      "looping": true
-    }
-  ],
-  "properties": [
-    { "name": "activationZoneDistance", "type": "int" },
-    { "name": "deactivationZoneDistance", "type": "int" }
-  ],
-  "attacks": [{ "attack": "melee", "interval": 2000, "min": 15, "max": 20 }]
+	"id":"goblin",
+	"hittable":true,
+	"maxDirections":4,
+	"speed":30,
+	"maxHealth":110,
+	"showHealthBar": true,
+	"footstepSound":"slime",
+	"imgWidth":16,
+	"imgHeight":20,
+	"footstepOffsetX":0,
+	"footstepOffsetY":22,
+	"drawOrderOffsetY":16,
+        "offsetX":0,
+        "offsetY":0,
+        "experience": 80,
+        "defense": 11,
+        "bestiary": 15,
+        "charm": 5,
+        "drops": [
+                 {"item":"basic_helmo", "chance": 5000},
+                 {"item":"basic_shield", "chance": 5000},
+                 {"item":"pants_basic", "chance": 5000},
+                 {"item":"boots_basic", "chance": 5000},
+                 {"item":"shirt_basic", "chance": 5000},
+                 {"item":"basic_crossbow", "chance": 200},
+                 {"item":"gold", "chance": 70000, "min":40, "max":55},
+                 {"item":"fish", "chance": 60000, "max":1},
+                 {"item":"shovel", "chance": 500},
+                 {"item":"rope", "chance": 300},
+                 {"item":"green_bagpack", "chance": 400}
+                 ],
+	"collisionRects":[
+		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
+        ],
+	"animations":[
+		{"id":"walk", "totalRuntime":0.6, "numberOfDirections":4, "looping":true},
+		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4, "looping": true}
+        ],
+	"properties": [
+		{"name":"activationZoneDistance", "type":"int"},
+		{"name":"deactivationZoneDistance", "type":"int"}
+	],
+        "attacks": [
+		{"attack":"melee", "interval":2000, "min":0, "max":25}
+	]
 }

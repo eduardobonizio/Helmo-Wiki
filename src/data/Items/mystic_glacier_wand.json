@@ -1,30 +1,34 @@
 {
-  "iconSize": 16,
-  "equipType": 3,
-  "numOfStyles": 1,
-  "rarity": 4,
+        "iconSize": 16,
+        "equipType": 3,
+        "numOfStyles": 1,
+        "rarity": 4,
 
-  "sounds": [["actions/hit"]],
+        "sounds": [
+                ["actions/hit"]
+        ],
 
-  "minDamage": 95,
-  "maxDamage": 107,
-  "hitRange": 6,
-  "bonusMagic": 4,
-  "manaCost": 22,
-
-  "critMultiplier": 1.1,
-  "critChance": 10,
-
-  "elementDamage": "ice",
-  "projectile": "ice-ball",
-  "shootType": 12,
-  "weaponType": "wand",
-  "weight": 23,
-  "description": "Icecold rays of moonlight shimmer on its tip (Atk: 20 ~ 30).",
-
-  "level": 170,
-  "vocations": [{ "name": "3" }],
-
-  "classification": 4,
-  "imbueSlots": 2
+        "minDamage": 95,
+        "maxDamage": 107,
+        "hitRange": 6,
+        "bonusMagic": 4,
+        "manaCost": 22,
+    
+        "critMultiplier": 1.1,
+        "critChance": 10,
+        
+        "elementDamage":"ice",
+        "projectile": "ice-ball",
+        "shootType":  12,
+        "weaponType": "wand",
+        "weight": 23,
+        "description": "Icecold rays of moonlight shimmer on its tip (Atk: 20 ~ 30).",
+        
+        "level": 170,
+        "vocations": [
+                {"name":"3"}
+	],
+        
+        "classification":4,
+        "imbueSlots":2
 }

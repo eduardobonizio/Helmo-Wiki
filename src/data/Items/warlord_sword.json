@@ -1,26 +1,30 @@
 {
-  "iconSize": 16,
-  "equipType": 3,
-  "rarity": 4,
-  "defense": 40,
-  "numOfStyles": 1,
-  "classification": 4,
-  "twoHand": true,
-
-  "minDamage": 70,
-  "maxDamage": 70,
-
-  "hitRange": 1,
-  "sounds": [["actions/hit"]],
-
-  "elementDamage": "physical",
-  "weaponType": "sword",
-  "weight": 64,
-
-  "level": 200,
-
-  "vocations": [{ "name": "0" }],
-
-  "description": "A special sword for the warlord.",
-  "imbueSlots": 3
+	"iconSize": 16,
+	"equipType": 3,
+        "rarity": 4,
+	"defense": 40,
+	"numOfStyles": 1,
+        "classification":4,
+        "twoHand": true,
+        
+	"minDamage": 70,
+	"maxDamage": 70,
+        
+	"hitRange": 1,
+	"sounds": [
+		["actions/hit"]
+	],
+        
+        "elementDamage":"physical",
+        "weaponType":"sword",
+        "weight": 64,
+        
+        "level": 200,
+        
+        "vocations": [
+		{"name":"0"}
+	],
+        
+        "description": "A special sword for the warlord.",
+        "imbueSlots":3
 }

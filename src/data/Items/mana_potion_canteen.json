@@ -1,0 +1,14 @@
+{
+	iconSize: 16,
+	equipType: -1,
+	durability: 50,
+        minDamage: 100,
+        maxDamage: 100,
+        consumable: true,
+        marketable:false,
+        transferable:false,
+        dropable: false,
+        level:10,
+        weight: "100",
+        description: "Enchanted and with a straw."
+}

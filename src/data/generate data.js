@@ -4,13 +4,26 @@ const path = require("path");
 
 const monsters = [];
 
+const parseGameJson = (fileData) => {
+  const normalized = fileData
+    .toString()
+    .replace(/^\uFEFF/, "")
+    .replace(/,\s*([}\]])/g, "$1");
+
+  try {
+    return JSON.parse(normalized);
+  } catch (error) {
+    return Function(`"use strict"; return (${normalized});`)();
+  }
+};
+
 const jsonsInDir = fs
   .readdirSync("./src/data/monsters")
   .filter((file) => path.extname(file) === ".json");
 jsonsInDir.forEach((file) => {
   console.log("Last monster: ", file);
   const fileData = fs.readFileSync(path.join("./src/data/monsters", file));
-  const json = JSON.parse(fileData.toString());
+  const json = parseGameJson(fileData);
   monsters.push(json);
 });
 
@@ -86,7 +99,7 @@ const jsonsInDirItems = fs
 jsonsInDirItems.forEach((file) => {
   console.log("Last item: ", file);
   const fileData = fs.readFileSync(path.join("./src/data/items", file));
-  const json = JSON.parse(fileData.toString());
+  const json = parseGameJson(fileData);
   json.id = letrasMaiusculas(file.replace(".json", ""));
   json.originalName = file.replace(".json", "");
 

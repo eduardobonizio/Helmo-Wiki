@@ -1,13 +1,16 @@
 {
-  "equipType": 5,
-  "defense": 20,
-  "bonusMagic": 4,
-  "protectFire": 8,
-  "protectDeath": 8,
-  "rarity": 5,
-  "group": "Book",
-  "level": 200,
-  "vocations": [{ "name": "2" }, { "name": "3" }],
-  "imbueSlots": 1,
-  "weight": 15
+	"equipType":5,
+	"defense": 20,
+        "bonusMagic": 4,
+        "protectFire": 8,
+        "protectDeath": 8,
+        "rarity": 5,
+        "group": "Book",
+        "level": 200,
+        "vocations": [
+		{"name":"2"},
+                {"name":"3"}
+	],
+        "imbueSlots":1,
+        "weight": 15
 }

@@ -1,0 +1,21 @@
+{
+        iconSize: 16,
+        equipType: -1,
+        numOfStyles: 1,
+        
+        sounds: [
+                ["actions/hit"],
+        ],
+        
+        "marketable":false,
+        "transferable":false,
+        "dropable": false,
+        "durability": 500,
+        "hitRange": 10,
+        "tool": true,
+        "clickUse": true,
+    
+        weaponType: "wand",
+        weight: 30,
+        description: "Train skill related to vocation, non-transferable item."
+}

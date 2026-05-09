@@ -1,13 +1,15 @@
 {
-  "iconSize": 16,
-  "equipType": -1,
-  "maxStackSize": 400,
-  "minDamage": 150,
-  "maxDamage": 300,
-  "consumable": true,
-  "level": 80,
-
-  "vocations": [{ "name": "1" }],
-  "autoCollect": true,
-  "weight": 3
+	iconSize: 16,
+	equipType: -1,
+	maxStackSize: 400,
+        minDamage: 150,
+        maxDamage: 300,
+        consumable: true,
+        level:80,
+        
+        vocations: [
+                {"name":"1"}
+	],
+        "autoCollect":true,
+        "weight": 3
 }

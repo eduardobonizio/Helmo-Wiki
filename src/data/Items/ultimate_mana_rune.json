@@ -1,0 +1,11 @@
+{
+	"iconSize": 16,
+	"equipType": -1,
+        "maxStackSize": 1,
+        "spell": "ultimate_mana",
+        "rune": true,
+        "level": 100,
+        "magic": 4,
+        "durability": 1,
+        "weight": 0.5
+}

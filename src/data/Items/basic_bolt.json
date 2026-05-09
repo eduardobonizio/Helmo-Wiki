@@ -1,16 +1,18 @@
 {
-  "iconSize": 16,
-  "equipType": 8,
-  "maxStackSize": 200,
-  "sounds": [["actions/hit"]],
-  "minDamage": 30,
-  "maxDamage": 30,
-  "critChance": 0,
-
-  "elementDamage": "physical",
-  "projectile": "basic-bolt",
-  "shootType": "smallphysical",
-  "weaponType": "bolt",
-  "weight": 0.8,
-  "description": "Basic bolt (Atk: 3 ~ 12)."
+        iconSize: 16,
+        equipType: 8,
+        maxStackSize: 200,
+        sounds: [
+                ["actions/hit"],
+        ],
+        minDamage: 30,
+        maxDamage: 30,
+        critChance: 0,
+        
+        elementDamage:"physical",
+        projectile: "basic-bolt",
+        shootType:  "smallphysical",
+        weaponType: "bolt",
+        weight: 0.8,
+        description: "Basic bolt (Atk: 3 ~ 12)."
 }

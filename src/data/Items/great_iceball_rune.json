@@ -1,14 +1,14 @@
 {
-  "iconSize": 16,
-  "equipType": -1,
-  "spell": "great_iceball",
-  "rune": true,
-  "level": 30,
-  "magic": 3,
-  "durability": 4,
-  "clickUse": true,
-  "maxStackSize": 800,
-  "hotConfig": true,
-  "hitRange": 8,
-  "weight": 0.8
+	"iconSize": 16,
+	"equipType": -1,
+        "spell": "great_iceball",
+        "rune": true,
+        "level": 30,
+        "magic": 3,
+        "durability": 4,
+        "clickUse": true,
+        "maxStackSize": 800,
+        "hotConfig": true,
+        "hitRange": 8,
+        "weight": 0.8
 }

@@ -1,12 +1,15 @@
 {
-  "equipType": 5,
-  "defense": 15,
-  "bonusMagic": 3,
-  "protectEarth": 5,
-  "level": 130,
-  "rarity": 3,
-  "group": "Book",
-  "vocations": [{ "name": "2" }, { "name": "3" }],
-  "imbueSlots": 1,
-  "weight": 25
+	"equipType":5,
+	"defense": 15,
+        "bonusMagic": 3,
+        "protectEarth": 5,
+        "level": 130,
+        "rarity": 3,
+        "group": "Book",
+        "vocations": [
+		{"name":"2"},
+                {"name":"3"}
+	],
+        "imbueSlots":1,
+        "weight": 25
 }

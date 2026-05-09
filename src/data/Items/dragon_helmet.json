@@ -1,13 +1,15 @@
 {
-  "equipType": 1,
-  "defense": 6,
-
-  "protectFire": 3,
-  "rarity": 4,
-  "level": 50,
-  "vocations": [{ "name": "0" }],
-
-  "classification": 2,
-  "imbueSlots": 1,
-  "weight": 30
+	"equipType":1,
+	"defense": 6,
+    
+	"protectFire":3,
+        "rarity": 4,
+        "level": 50,
+        "vocations": [
+		{"name":"0"}
+	],
+        
+        "classification":2,
+        "imbueSlots":1,
+        "weight": 30
 }

@@ -1,10 +1,12 @@
 {
-  "equipType": 8,
-  "container": true,
-  "capacity": 3,
-  "defense": 1,
-  "level": 20,
-  "weaponType": "quiver",
-  "vocations": [{ "name": "1" }],
-  "weight": 5
+	"equipType":8,
+        "container": true,
+        "capacity": 3,
+        "defense": 1,
+	"level": 20,
+        "weaponType":"quiver",
+        "vocations": [
+		{"name":"1"}
+	],
+        "weight": 5
 }

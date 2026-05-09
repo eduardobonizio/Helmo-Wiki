@@ -1,11 +1,13 @@
 {
-  "equipType": 5,
-  "defense": 40,
-  "rarity": 5,
-  "protectFire": 8,
-  "protectPhysical": 6,
-
-  "vocations": [{ "name": "0" }],
-  "imbueSlots": 1,
-  "weight": 35
+	"equipType":5,
+	"defense": 40,
+        "rarity": 5,
+        "protectFire": 8,
+        "protectPhysical":6, 
+    
+        "vocations": [
+		{"name":"0"}
+	],
+        "imbueSlots":1,
+        "weight": 35
 }

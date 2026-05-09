@@ -1,12 +1,14 @@
 {
-  "equipType": 7,
-  "defense": 6,
-
-  "level": 25,
-  "rarity": 2,
-
-  "vocations": [{ "name": "0" }],
-
-  "classification": 1,
-  "weight": 50
+	"equipType":7,
+	"defense": 6,
+    
+        "level": 25,
+        "rarity": 2,
+    
+        "vocations": [
+		{"name":"0"}
+	],
+    
+        "classification":1,
+        "weight": 50
 }

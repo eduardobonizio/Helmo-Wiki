@@ -1,12 +1,14 @@
 {
-  "equipType": 8,
-  "capacity": 12,
-  "container": true,
-  "bonusDistance": 5,
-  "defense": 5,
-  "level": 200,
-  "rarity": 5,
-  "weaponType": "quiver",
-  "vocations": [{ "name": "1" }],
-  "weight": 15
+	"equipType":8,
+	"capacity": 12,
+        "container": true,
+        "bonusDistance":5,
+		"defense": 5,
+        "level": 200,
+        "rarity": 5,
+        "weaponType":"quiver",
+        "vocations": [
+		{"name":"1"}
+	],
+        "weight": 15
 }

@@ -1,8 +1,8 @@
 {
-  "iconSize": 16,
-  "equipType": -1,
-  "maxStackSize": 100,
-  "minDamage": 60,
-  "consumable": true,
-  "weight": 3
+	iconSize: 16,
+	equipType: -1,
+	maxStackSize: 100,
+        minDamage: 60,
+        consumable: true,
+        "weight": 3
 }

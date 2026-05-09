@@ -1,94 +1,57 @@
 {
-  "id": "orc_shaman",
-  "hittable": true,
-  "maxDirections": 4,
-  "speed": 30,
-  "maxHealth": 135,
-  "showHealthBar": true,
-  "footstepSound": "slime",
-  "imgWidth": 32,
-  "imgHeight": 32,
-  "footstepOffsetX": 0,
-  "footstepOffsetY": 34,
-  "drawOrderOffsetY": 16,
-  "offsetX": -8,
-  "offsetY": 0,
-  "experience": 125,
-  "defense": 8,
-  "bestiary": 25,
-  "charm": 15,
-  "drops": [
-    { "item": "gold", "chance": 100000, "min": 10, "max": 48 },
-    { "item": "steel_boots", "chance": 1500 },
-    { "item": "garlic_necklace", "chance": 600 },
-    { "item": "noble_magic_robe", "chance": 100 },
-    { "item": "noble_magic_book", "chance": 100 },
-    { "item": "noble_magic_boots", "chance": 100 },
-    { "item": "noble_magic_hat", "chance": 100 },
-    { "item": "noble_magic_legs", "chance": 100 },
-    { "item": "blue_amulet", "chance": 100 },
-    { "item": "vial", "chance": 20 },
-    { "item": "broom", "chance": 500 },
-    { "item": "magnifying_glass", "chance": 1000 },
-    { "item": "rope_belt", "chance": 900 }
-  ],
-  "collisionRects": [
-    {
-      "name": "hit",
-      "hard": true,
-      "offsetX": 0,
-      "offsetY": 0,
-      "width": 16,
-      "height": 16
-    }
-  ],
-  "animations": [
-    {
-      "id": "walk",
-      "totalRuntime": 0.8,
-      "numberOfDirections": 4,
-      "looping": true
-    },
-    {
-      "id": "default",
-      "fileName": "walk",
-      "totalRuntime": 0,
-      "numberOfDirections": 4
-    }
-  ],
-  "properties": [
-    { "name": "activationZoneDistance", "type": "int" },
-    { "name": "deactivationZoneDistance", "type": "int" }
-  ],
-  "attacks": [
-    {
-      "attack": "energy",
-      "interval": 2000,
-      "chance": 100,
-      "range": 6,
-      "min": 10,
-      "max": 15,
-      "type": "shoot",
-      "anim": "energy-ball",
-      "particle": 12
-    },
-    {
-      "attack": "fire",
-      "interval": 5000,
-      "chance": 50,
-      "range": 6,
-      "min": 20,
-      "max": 31,
-      "type": "shoot",
-      "anim": "fire-ball",
-      "particle": 3
-    }
-  ],
-
-  "elements": [
-    { "name": "earth", "value": 110 },
-    { "name": "death", "value": 110 },
-    { "name": "energy", "value": 80 },
-    { "name": "holy", "value": 90 }
-  ]
+	"id":"orc_shaman",
+	"hittable":true,
+	"maxDirections":4,
+	"speed":30,
+	"maxHealth":135,
+	"showHealthBar": true,
+	"footstepSound":"slime",
+	"imgWidth":32,
+	"imgHeight":32,
+	"footstepOffsetX":0,
+	"footstepOffsetY":34,
+	"drawOrderOffsetY":16,
+        "offsetX":-8,
+        "offsetY":0,
+        "experience": 125,
+        "defense": 8,
+        "bestiary": 25,
+        "charm": 15,
+        "drops": [
+                 {"item":"gold", "chance": 100000, "min":50, "max":65},
+                 {"item":"steel_boots", "chance": 1500},
+                 {"item":"garlic_necklace", "chance": 600},
+                 {"item":"noble_magic_robe", "chance": 100},
+                 {"item":"noble_magic_book", "chance": 100},
+                 {"item":"noble_magic_boots", "chance": 100},
+                 {"item":"noble_magic_hat", "chance": 100},
+                 {"item":"noble_magic_legs", "chance": 100},
+                 {"item":"blue_amulet", "chance": 100},
+                 {"item":"vial", "chance": 20},
+                 {"item":"broom", "chance": 500},
+                 {"item":"magnifying_glass", "chance": 1000},
+                 {"item":"rope_belt", "chance": 900}
+                 ],
+	"collisionRects":[
+		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
+		],
+	"animations":[
+		{"id":"walk", "totalRuntime":0.8, "numberOfDirections":4, "looping":true},
+		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4}
+		],
+	"properties": [
+		{"name":"activationZoneDistance", "type":"int"},
+		{"name":"deactivationZoneDistance", "type":"int"}
+	],
+        "attacks": [
+		{"attack":"energy", "interval":2000, "chance":100, "range":6, "min":0, "max":25, "type":"shoot", "anim":"energy-ball", "particle":12},
+                {"attack":"fire", "interval":5000, "chance":50, "range":6, "min":20, "max":31, "type":"shoot", "anim":"fire-ball", "particle":3}
+	],
+        
+        "elements": [
+                {"name":"earth", "value":110},
+                {"name":"death", "value":110},
+                {"name":"energy", "value":80},
+                {"name":"holy", "value":90}
+	]
 }

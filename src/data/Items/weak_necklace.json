@@ -1,13 +1,15 @@
 {
-  "iconSize": 16,
-  "buff": true,
-  "equipType": 0,
-  "rarity": 4,
-  "level": 150,
-  "protectPhysical": 5,
-  "bonusMelee": 4,
-  "durability": 1800,
-  "durabilityType": 1,
-  "vocations": [{ "name": "0" }],
-  "weight": 10
+	"iconSize": 16,
+	"buff": true,
+	"equipType": 0,
+        "rarity": 4,
+        "level": 150,
+        "protectPhysical": 5,
+        "bonusMelee": 4,
+        "durability": 1800,
+        "durabilityType": 1,
+        "vocations": [
+		{"name":"0"}
+	],
+        "weight": 10
 }

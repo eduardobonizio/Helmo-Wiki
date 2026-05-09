@@ -1,10 +1,10 @@
 {
-  "equipType": 5,
-  "defense": 32,
-  "rarity": 4,
-
-  "protectDeath": 10,
-  "level": 80,
-  "imbueSlots": 1,
-  "weight": 23
+	"equipType":5,
+	"defense": 32,
+        "rarity": 4,
+        
+        "protectDeath": 10,
+        "level": 80,
+        "imbueSlots":1,
+        "weight": 23
 }

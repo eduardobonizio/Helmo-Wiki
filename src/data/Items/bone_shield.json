@@ -1,6 +1,6 @@
 {
-  "equipType": 5,
-  "defense": 15,
-  "rarity": 2,
-  "weight": 20
+	"equipType":5,
+	"defense": 15,
+        "rarity": 2,
+        "weight": 20
 }

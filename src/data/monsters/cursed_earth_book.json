@@ -1,120 +1,70 @@
 {
-  "id": "cursed_earth_book",
-  "hittable": true,
-  "maxDirections": 4,
-  "speed": 80,
-  "maxHealth": 20000,
-  "showHealthBar": true,
-  "footstepSound": "slime",
-  "imgWidth": 40,
-  "imgHeight": 40,
-  "footstepOffsetX": 0,
-  "footstepOffsetY": 35,
-  "drawOrderOffsetY": 33,
-  "offsetX": -10,
-  "offsetY": 0,
-  "experience": 14450,
-  "defense": 42,
-  "pushable": false,
-  "bestiary": 50,
-  "charm": 50,
-  "drops": [
-    { "item": "gold", "chance": 100000, "min": 600, "max": 1300 },
-    { "item": "ruby_necklace", "chance": 2100 },
-    { "item": "earth_crystal", "chance": 2100 },
-    { "item": "mysteries_book", "chance": 1100 },
-    { "item": "boots_of_speed", "chance": 1100 },
-    { "item": "viper_rod", "chance": 1100 },
-    { "item": "living_armor", "chance": 1100 },
-    { "item": "terra_legs", "chance": 1100 },
-    { "item": "blue_robe", "chance": 1100 },
-    { "item": "terra_hood", "chance": 1100 },
-    { "item": "terra_boots", "chance": 1100 },
-    { "item": "terra_amulet", "chance": 1100 },
-    { "item": "dust", "chance": 1000, "min": 1, "max": 2 },
-
-    { "item": "cursed_healer_hat", "chance": 10 },
-    { "item": "cursed_cape", "chance": 10 },
-    { "item": "cursed_strider", "chance": 10 },
-    { "item": "cursed_healer_boots", "chance": 10 }
-  ],
-  "collisionRects": [
-    {
-      "name": "hit",
-      "hard": true,
-      "offsetX": 0,
-      "offsetY": 0,
-      "width": 16,
-      "height": 16
-    }
-  ],
-  "animations": [
-    {
-      "id": "walk",
-      "totalRuntime": 0.5,
-      "numberOfDirections": 4,
-      "looping": true
-    },
-    {
-      "id": "default",
-      "totalRuntime": 0.9,
-      "fileName": "walk",
-      "numberOfDirections": 4
-    }
-  ],
-  "properties": [
-    { "name": "activationZoneDistance", "type": "int" },
-    { "name": "deactivationZoneDistance", "type": "int" }
-  ],
-  "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 0, "max": 900 },
-    {
-      "attack": "earth",
-      "interval": 3000,
-      "chance": 100,
-      "range": 8,
-      "min": 100,
-      "max": 900,
-      "type": "shoot",
-      "anim": "earth-ball",
-      "particle": 28
-    },
-    {
-      "attack": "earth",
-      "interval": 2000,
-      "chance": 10,
-      "min": 700,
-      "max": 950,
-      "type": "area",
-      "particle": 13,
-      "radius": 5
-    },
-    {
-      "attack": "earth",
-      "interval": 2000,
-      "chance": 10,
-      "min": 650,
-      "max": 950,
-      "type": "area",
-      "particle": 13,
-      "length": 10,
-      "spread": 20,
-      "range": 12
-    }
-  ],
-  "defenses": [
-    {
-      "name": "healing",
-      "interval": 8000,
-      "chance": 30,
-      "min": 100,
-      "max": 400
-    }
-  ],
-  "elements": [
-    { "name": "energy", "value": 110 },
-    { "name": "holy", "value": 105 }
-  ],
-  "immunities": [{ "name": "earth", "value": 1 }],
-  "hards": [{ "name": "fire", "value": 1 }]
+	"id":"cursed_earth_book",
+	"hittable":true,
+	"maxDirections":4,
+	"speed":80,
+	"maxHealth":20000,
+	"showHealthBar": true,
+	"footstepSound":"slime",
+	"imgWidth":40,
+	"imgHeight":40,
+	"footstepOffsetX":0,
+	"footstepOffsetY":35,
+	"drawOrderOffsetY":33,
+        "offsetX":-10,
+        "offsetY":0,
+        "experience": 14450,
+        "defense": 42,
+        "pushable": false,
+        "bestiary": 50,
+        "charm": 50,
+        "drops": [
+                    {"item":"gold", "chance": 100000, "min":400, "max":1300},
+                    {"item":"ruby_necklace", "chance": 2100},
+                    {"item":"earth_crystal", "chance": 2100},
+                    {"item":"mysteries_book", "chance": 1100},
+                    {"item":"boots_of_speed", "chance": 1100},
+                    {"item":"viper_rod", "chance": 1100},
+                    {"item":"living_armor", "chance": 1100},
+                    {"item":"terra_legs", "chance": 1100},
+                    {"item":"blue_robe", "chance": 1100},
+                    {"item":"terra_hood", "chance": 1100},
+                    {"item":"terra_boots", "chance": 1100},
+                    {"item":"terra_amulet", "chance": 1100},
+                    {"item":"dust", "chance": 1000, "min":1, "max":2},
+                    {"item":"cursed_healer_hat", "chance": 10},
+                    {"item":"cursed_cape", "chance": 10},
+                    {"item":"cursed_strider", "chance": 10},
+                    {"item":"cursed_healer_boots", "chance": 10}
+        ],
+	"collisionRects":[
+		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
+		],
+	"animations":[
+		{"id":"walk", "totalRuntime":0.5, "numberOfDirections":4, "looping":true},
+		{"id":"default", "totalRuntime":0.9, "fileName":"walk", "numberOfDirections": 4}
+		],
+	"properties": [
+		{"name":"activationZoneDistance", "type":"int"},
+		{"name":"deactivationZoneDistance", "type":"int"}
+	],
+        "attacks": [
+		{"attack":"melee", "interval":2000, "min":0, "max":900},
+                {"attack":"earth", "interval":3000, "chance":100, "range":8, "min":100, "max":900, "type":"shoot", "anim":"earth-ball", "particle":28},
+                {"attack":"earth", "interval":2000, "chance":15, "min":700, "max":950, "type":"area", "particle":13,"radius":5},
+                {"attack":"earth", "interval":2000, "chance":15, "min":650, "max":950, "type":"area", "particle":13,"length":10,"spread":20,"range":12}
+	],
+        "defenses": [
+		{"name":"healing", "interval":2000, "chance": 15, "min":100, "max":400}
+	],
+        "elements": [
+                {"name":"energy", "value":110},
+                {"name":"holy", "value":105}
+	],
+        "immunities": [
+		{"name":"earth", "value":1}
+	],
+        "hards": [
+		{"name":"fire", "value":1}
+	]
 }

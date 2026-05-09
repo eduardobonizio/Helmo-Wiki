@@ -1,20 +1,24 @@
 {
-  "iconSize": 16,
-  "equipType": 3,
-  "numOfStyles": 1,
-  "sounds": [["actions/hit"]],
-
-  "minDamage": 9,
-  "maxDamage": 21,
-  "hitRange": 5,
-  "manaCost": 2,
-
-  "elementDamage": "earth",
-  "projectile": "earth-ball",
-  "shootType": 13,
-  "weaponType": "rod",
-  "weight": 5,
-  "description": "Icecold rays of moonlight shimmer on its tip (Atk: 2 ~ 5).",
-
-  "vocations": [{ "name": "2" }]
+        iconSize: 16,
+        equipType: 3,
+        numOfStyles: 1,
+        sounds: [
+                ["actions/hit"],
+        ],
+        
+        minDamage: 9,
+        maxDamage: 21,
+        hitRange: 5,
+        "manaCost": 2,
+        
+        elementDamage:"earth",
+        projectile: "earth-ball",
+        shootType:  13,
+        weaponType: "rod",
+        weight: 5,
+        description: "Icecold rays of moonlight shimmer on its tip (Atk: 2 ~ 5).",
+        
+        vocations: [
+		{"name":"2"}
+	]
 }

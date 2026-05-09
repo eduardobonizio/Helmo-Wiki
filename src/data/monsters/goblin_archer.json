@@ -1,75 +1,47 @@
 {
-  "id": "goblin_archer",
-  "hittable": true,
-  "maxDirections": 4,
-  "speed": 30,
-  "maxHealth": 160,
-  "showHealthBar": true,
-  "footstepSound": "slime",
-  "imgWidth": 16,
-  "imgHeight": 32,
-  "footstepOffsetX": 0,
-  "footstepOffsetY": 22,
-  "drawOrderOffsetY": 32,
-  "offsetX": 0,
-  "offsetY": 0,
-  "experience": 135,
-  "defense": 12,
-  "bestiary": 15,
-  "charm": 5,
-  "drops": [
-    { "item": "basic_bow", "chance": 20000 },
-    { "item": "gold", "chance": 80000, "min": 10, "max": 48 },
-    { "item": "linen_boots", "chance": 700 },
-    { "item": "linen_armor", "chance": 700 },
-    { "item": "linen_hat", "chance": 700 },
-    { "item": "linen_bow", "chance": 700 },
-    { "item": "linen_legs", "chance": 700 },
-    { "item": "basic_crossbow", "chance": 2000 },
-    { "item": "basic_quiver", "chance": 400 },
-    { "item": "star", "chance": 2000, "min": 1, "max": 4 },
-    { "item": "tactical_leather", "chance": 1000 }
-  ],
-  "collisionRects": [
-    {
-      "name": "hit",
-      "hard": true,
-      "offsetX": 0,
-      "offsetY": 0,
-      "width": 16,
-      "height": 16
-    }
-  ],
-  "animations": [
-    {
-      "id": "walk",
-      "totalRuntime": 0.6,
-      "numberOfDirections": 4,
-      "looping": true
-    },
-    {
-      "id": "default",
-      "fileName": "walk",
-      "totalRuntime": 0,
-      "numberOfDirections": 4,
-      "looping": true
-    }
-  ],
-  "properties": [
-    { "name": "activationZoneDistance", "type": "int" },
-    { "name": "deactivationZoneDistance", "type": "int" }
-  ],
-  "attacks": [
-    {
-      "attack": "physical",
-      "interval": 2000,
-      "chance": 100,
-      "range": 8,
-      "min": 20,
-      "max": 35,
-      "type": "shoot",
-      "anim": "basic-arrow",
-      "particle": 10
-    }
-  ]
+	"id":"goblin_archer",
+	"hittable":true,
+	"maxDirections":4,
+	"speed":30,
+	"maxHealth":160,
+	"showHealthBar": true,
+	"footstepSound":"slime",
+	"imgWidth":16,
+	"imgHeight":32,
+	"footstepOffsetX":0,
+	"footstepOffsetY":22,
+	"drawOrderOffsetY":32,
+        "offsetX":0,
+        "offsetY":0,
+        "experience": 135,
+        "defense": 12,
+        "bestiary": 15,
+        "charm": 5,
+        "drops": [
+                    {"item":"basic_bow", "chance": 20000},
+                    {"item":"gold", "chance": 80000, "min":40, "max":55},
+                    {"item":"linen_boots", "chance": 700},
+                    {"item":"linen_armor", "chance": 700},
+                    {"item":"linen_hat", "chance": 700},
+                    {"item":"linen_bow", "chance": 700},
+                    {"item":"linen_legs", "chance": 700},
+                    {"item":"basic_crossbow", "chance": 2000},
+                    {"item":"basic_quiver", "chance": 400},
+                    {"item":"star", "chance": 2000, "min":1, "max":4},
+                    {"item":"tactical_leather", "chance": 1000}
+                 ],
+	"collisionRects":[
+		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
+		],
+	"animations":[
+		{"id":"walk", "totalRuntime":0.6, "numberOfDirections":4, "looping":true},
+		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4, "looping": true},
+		],
+	"properties": [
+		{"name":"activationZoneDistance", "type":"int"},
+		{"name":"deactivationZoneDistance", "type":"int"},
+	],
+        "attacks": [
+                {"attack":"physical", "interval":2000, "chance":100, "range":8, "min":20, "max":35, "type":"shoot", "anim":"basic-arrow", "particle":10}
+	]
 }

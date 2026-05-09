@@ -1,21 +1,25 @@
 {
-  "iconSize": 16,
-  "twoHand": true,
-  "equipType": 3,
-  "numOfStyles": 1,
-  "rarity": 5,
-  "minDamage": 38,
-  "sounds": [["actions/hit"]],
-  "classification": 4,
-  "bonusDistance": 4,
-  "critMultiplier": 1.4,
-  "critChance": 19,
-  "hitRange": 7,
-  "level": 300,
-
-  "weaponType": "cross",
-  "weight": 30,
-
-  "vocations": [{ "name": "1" }],
-  "imbueSlots": 2
+        "iconSize": 16,
+        "twoHand": true,
+        "equipType": 3,
+        "numOfStyles": 1,
+        "rarity": 5,
+        "minDamage": 38,
+        "sounds": [
+                ["actions/hit"]
+        ],
+        "classification":4,  
+	"bonusDistance": 4,
+        "critMultiplier": 1.4,
+        "critChance": 19,
+        "hitRange": 7,
+        "level": 300,
+        
+        "weaponType": "cross",
+        "weight": 30,
+        
+        "vocations": [
+		{"name":"1"}
+	],
+        "imbueSlots":2
 }

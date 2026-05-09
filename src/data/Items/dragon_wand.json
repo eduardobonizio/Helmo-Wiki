@@ -1,26 +1,30 @@
 {
-  "iconSize": 16,
-  "equipType": 3,
-  "rarity": 3,
-  "numOfStyles": 1,
+        "iconSize": 16,
+        "equipType": 3,
+        "rarity": 3,
+        "numOfStyles": 1,
 
-  "sounds": [["actions/hit"]],
+        "sounds": [
+                ["actions/hit"]
+        ],
 
-  "minDamage": 61,
-  "maxDamage": 73,
-  "hitRange": 6,
-  "manaCost": 12,
-  "bonusMagic": 2,
-
-  "elementDamage": "fire",
-  "projectile": "fire-ball",
-  "shootType": 12,
-  "weaponType": "wand",
-  "weight": 30,
-  "description": "Fire rays of moonlight shimmer on its tip (Atk: 6 ~ 9).",
-
-  "level": 100,
-  "vocations": [{ "name": "3" }],
-
-  "classification": 2
+        "minDamage": 61,
+        "maxDamage": 73,
+        "hitRange": 6,
+        "manaCost": 12,
+		"bonusMagic": 2,
+        
+        "elementDamage":"fire",
+        "projectile": "fire-ball",
+        "shootType":  12,
+        "weaponType": "wand",
+        "weight": 30,
+        "description": "Fire rays of moonlight shimmer on its tip (Atk: 6 ~ 9).",
+        
+        "level": 100,
+        "vocations": [
+                {"name":"3"}
+	],
+    
+        "classification":2
 }

@@ -1,15 +1,18 @@
 {
-  "equipType": 10,
-  "defense": 2,
-  "rarity": 3,
-
-  "protectEarth": 5,
-  "protectFire": -5,
-  "level": 35,
-  "weight": 22,
-
-  "vocations": [{ "name": "2" }, { "name": "3" }],
-
-  "classification": 2,
-  "imbueSlots": 2
+	"equipType":10,
+	"defense": 2,
+        "rarity": 3,
+    
+	"protectEarth":5,
+        "protectFire":-5,
+        "level": 35,
+        "weight": 22,
+    
+        "vocations": [
+		{"name":"2"},
+                {"name":"3"}
+	],
+        
+        "classification":2,
+        "imbueSlots":2
 }

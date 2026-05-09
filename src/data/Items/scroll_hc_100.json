@@ -1,9 +1,9 @@
 {
-  "iconSize": 16,
-  "equipType": -1,
-  "maxStackSize": 1,
-  "tool": true,
-  "level": 30,
-  "dropable": false,
-  "rarity": 5
+	"iconSize": 16,
+	"equipType": -1,
+	"maxStackSize": 1,
+	"tool": true,
+        "level": 30,
+        "dropable": false,
+        "rarity": 5
 }

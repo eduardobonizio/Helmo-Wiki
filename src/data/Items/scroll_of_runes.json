@@ -1,8 +1,12 @@
 {
-  "iconSize": 16,
-  "equipType": -1,
-  "maxStackSize": 1,
-  "tool": true,
-  "rarity": 5,
-  "vocations": [{ "name": "2" }, { "name": "3" }, { "name": "1" }]
+	"iconSize": 16,
+	"equipType": -1,
+	"maxStackSize": 1,
+	"tool": true,
+        "rarity": 5,
+        "vocations": [
+		{"name":"2"},
+                {"name":"3"},
+                {"name":"1"}
+	]
 }

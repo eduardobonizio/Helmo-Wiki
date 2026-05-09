@@ -1,8 +1,8 @@
 {
-  "iconSize": 16,
-  "buff": true,
-  "equipType": 0,
-  "rarity": 2,
-  "defense": 1,
-  "weight": 15
+	"iconSize": 16,
+	"buff": true,
+	"equipType": 0,
+        "rarity": 2,
+        "defense": 1,
+        "weight": 15
 }

@@ -1,99 +1,64 @@
 {
-  "id": "undead_warrior",
-  "hittable": true,
-  "maxDirections": 4,
-  "speed": 80,
-  "maxHealth": 9800,
-  "showHealthBar": true,
-  "footstepSound": "slime",
-  "imgWidth": 64,
-  "imgHeight": 64,
-  "footstepOffsetX": 0,
-  "footstepOffsetY": 50,
-  "drawOrderOffsetY": 50,
-  "offsetX": -22,
-  "offsetY": 0,
-  "experience": 8800,
-  "defense": 75,
-  "pushable": false,
-  "intervalResp": 60,
-  "bestiary": 70,
-  "charm": 50,
-  "drops": [
-    { "item": "gold", "chance": 100000, "min": 600, "max": 1200 },
-    { "item": "earth_crystal", "chance": 5000 },
-    { "item": "boots_of_speed", "chance": 600 },
-    { "item": "royal_axe", "chance": 1000 },
-    { "item": "thunder_hammer", "chance": 50 },
-    { "item": "ruby_necklace", "chance": 1000 },
-    { "item": "black_stone_amulet", "chance": 1000 },
-    { "item": "death_armor", "chance": 1000 },
-    { "item": "fire_axe", "chance": 1000 },
-    { "item": "mace", "chance": 1000 },
-    { "item": "morning_star", "chance": 1000 },
-    { "item": "warrior_skull", "chance": 100 },
-    { "item": "golden_legs", "chance": 20 }
-  ],
-  "collisionRects": [
-    {
-      "name": "hit",
-      "hard": true,
-      "offsetX": 0,
-      "offsetY": 0,
-      "width": 16,
-      "height": 16
-    }
-  ],
-  "animations": [
-    { "id": "walk", "totalRuntime": 0.4, "numberOfDirections": 4 },
-    {
-      "id": "default",
-      "fileName": "walk",
-      "totalRuntime": 0,
-      "numberOfDirections": 4
-    }
-  ],
-  "properties": [
-    { "name": "activationZoneDistance", "type": "int" },
-    { "name": "deactivationZoneDistance", "type": "int" }
-  ],
-  "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 300, "max": 800 },
-    {
-      "attack": "physical",
-      "interval": 2000,
-      "chance": 100,
-      "range": 8,
-      "min": 480,
-      "max": 600,
-      "type": "shoot",
-      "anim": "death-ball",
-      "particle": 5
-    }
-  ],
-  "elements": [
-    { "name": "earth", "value": 90 },
-    { "name": "fire", "value": 90 },
-    { "name": "holy", "value": 105 }
-  ],
-  "defenses": [
-    {
-      "name": "healing",
-      "interval": 6000,
-      "chance": 50,
-      "min": 260,
-      "max": 340
-    },
-    {
-      "name": "life_drain",
-      "interval": 10000,
-      "chance": 20,
-      "min": 300,
-      "max": 580,
-      "type": "area",
-      "particle": 12,
-      "radius": 6
-    }
-  ],
-  "immunities": [{ "name": "death", "value": 1 }]
+	"id":"undead_warrior",
+	"hittable":true,
+	"maxDirections":4,
+	"speed":80,
+	"maxHealth":9800,
+	"showHealthBar": true,
+	"footstepSound":"slime",
+	"imgWidth":64,
+	"imgHeight":64,
+	"footstepOffsetX":0,
+	"footstepOffsetY":50,
+	"drawOrderOffsetY":50,
+        "offsetX":-22,
+        "offsetY":0,
+        "experience": 8800,
+        "defense": 75,
+        "pushable": false,
+        "intervalResp":60,
+        "bestiary": 70,
+        "charm": 50,
+        "drops": [
+                    {"item":"gold", "chance": 100000, "min":600, "max":1200},
+                    {"item":"earth_crystal", "chance": 5000},
+                    {"item":"boots_of_speed", "chance": 600},
+                    {"item":"royal_axe", "chance": 1000},
+                    {"item":"thunder_hammer", "chance": 50},
+                    {"item":"ruby_necklace", "chance": 1000},
+                    {"item":"black_stone_amulet", "chance": 1000},
+                    {"item":"death_armor", "chance": 1000},
+                    {"item":"fire_axe", "chance": 1000},
+                    {"item":"mace", "chance": 1000},
+                    {"item":"morning_star", "chance": 1000},
+                    {"item":"warrior_skull", "chance": 100},
+                    {"item":"golden_legs", "chance": 20}
+        ],
+	"collisionRects":[
+		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
+		],
+	"animations":[
+		{"id":"walk", "totalRuntime":0.4, "numberOfDirections":4},
+		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4}
+		],
+	"properties": [
+		{"name":"activationZoneDistance", "type":"int"},
+		{"name":"deactivationZoneDistance", "type":"int"}
+	],
+        "attacks": [
+                {"attack":"melee", "interval":2000, "min":0, "max":800},
+                {"attack":"physical", "interval":2000, "chance":100, "range":8, "min":480, "max":600, "type":"shoot", "anim":"death-ball", "particle":5}
+	],
+        "elements": [
+                {"name":"earth", "value":90},
+                {"name":"fire", "value":90},
+                {"name":"holy", "value":115}
+	],
+        "defenses": [
+		{"name":"healing", "interval":6000, "chance": 50, "min":260, "max":340},
+                {"name":"life_drain", "interval":10000, "chance": 20, "min":300, "max":580, "type":"area", "particle":12,"radius":6}
+	],
+        "immunities": [
+                {"name":"death", "value":1}
+	]
 }

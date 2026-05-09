@@ -1,10 +1,10 @@
 {
-  "iconSize": 16,
-  "buff": true,
-  "equipType": 6,
-  "rarity": 2,
-  "bonusSpeed": 30,
-  "durability": 600,
-  "durabilityType": 1,
-  "weight": 1
+	"iconSize": 16,
+	"buff": true,
+	"equipType": 6,
+        "rarity": 2,
+        "bonusSpeed": 30,
+        "durability": 600,
+        "durabilityType": 1,
+        "weight": 1
 }

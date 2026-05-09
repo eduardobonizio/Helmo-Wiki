@@ -1,6 +1,7 @@
 {
-  "iconSize": 16,
-  "equipType": -1,
-  "rarity": 5,
-  "weight": 64
+	"iconSize": 16,
+	"equipType": -1,
+        "rarity": 5,
+        "weight": 64,
+        "description": "Decorative trophy for the Halloween event."
 }

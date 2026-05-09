@@ -1,15 +1,15 @@
 {
-  "iconSize": 16,
-  "buff": true,
-  "equipType": 6,
-
-  "defense": 3,
-  "bonusMagic": 1,
-  "bonusDistance": 1,
-
-  "level": 60,
-  "rarity": 5,
-
-  "protectFire": 5,
-  "weight": 5
+	"iconSize": 16,
+	"buff": true,
+	"equipType": 6,
+        
+        "defense": 3,
+        "bonusMagic":1,
+        "bonusDistance":1,
+        
+        "level": 60,
+        "rarity": 5,
+        
+        "protectFire": 5,
+        "weight": 5
 }

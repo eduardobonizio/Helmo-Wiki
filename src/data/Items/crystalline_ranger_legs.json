@@ -1,10 +1,12 @@
 {
-  "equipType": 7,
-  "defense": 8,
-  "bonusDistance": 2,
-  "protectIce": 5,
-  "level": 110,
-  "rarity": 4,
-  "vocations": [{ "name": "1" }],
-  "weight": 40
+	"equipType":7,
+	"defense": 8,
+      "bonusDistance": 2,
+      "protectIce": 5,
+      "level": 110,
+      "rarity": 4,
+      "vocations": [
+                {"name":"1"}
+	],
+        "weight": 40
 }

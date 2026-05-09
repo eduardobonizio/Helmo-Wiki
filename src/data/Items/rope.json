@@ -1,8 +1,8 @@
 {
-  "iconSize": 16,
-  "equipType": -1,
-  "clickUse": true,
-  "tool": true,
-  "hitRange": 2,
-  "weight": 20
+	iconSize: 16,
+	equipType: -1,
+        clickUse: true,
+        "tool": true,
+        "hitRange": 2,
+        "weight": 20
 }

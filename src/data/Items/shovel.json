@@ -1,7 +1,7 @@
 {
-  "iconSize": 16,
-  "equipType": -1,
-  "tool": true,
-  "clickUse": true,
-  "weight": 65
+	iconSize: 16,
+	equipType: -1,
+        tool: true,
+        clickUse: true,
+        "weight": 65
 }

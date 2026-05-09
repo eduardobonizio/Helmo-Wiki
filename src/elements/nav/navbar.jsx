@@ -29,8 +29,18 @@ function NavBar() {
               </a>
             </li>
             <li className="nav-item">
+              <a className="nav-link text-uppercase" href="/bosses" style={{ fontSize: "0.9rem", letterSpacing: "0.5px" }}>
+                {t("nav_bosses")}
+              </a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link text-uppercase" href="/items" style={{ fontSize: "0.9rem", letterSpacing: "0.5px" }}>
                 {t("nav_items")}
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link text-uppercase" href="/updates" style={{ fontSize: "0.9rem", letterSpacing: "0.5px" }}>
+                {t("nav_updates")}
               </a>
             </li>
           </ul>

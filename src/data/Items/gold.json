@@ -1,10 +1,10 @@
 {
-  "iconSize": 16,
-  "equipType": -1,
-  "maxStackSize": 10000000,
-  "material": true,
-  "marketable": false,
-  "autoCollect": true,
-  "dropable": false,
-  "weight": 0.01
+	"iconSize": 16,
+	"equipType": -1,
+	"maxStackSize": 10000000,
+	"material": true,
+        "marketable":false,
+        "autoCollect":true,
+        "dropable": false,
+        "weight": 0.01
 }

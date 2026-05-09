@@ -1,9 +1,12 @@
 {
-  "equipType": 10,
-  "defense": 3,
-  "bonusMagic": 2,
-  "rarity": 3,
-  "level": 40,
-  "vocations": [{ "name": "2" }, { "name": "3" }],
-  "weight": 23
+	"equipType":10,
+	"defense": 3,
+        "bonusMagic": 2,
+        "rarity": 3,
+        "level": 40,
+        "vocations": [
+		{"name":"2"},
+                {"name":"3"}
+	],
+        "weight": 23
 }

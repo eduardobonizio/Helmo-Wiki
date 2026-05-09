@@ -1,10 +1,10 @@
 {
-  "equipType": 7,
-  "defense": 9,
-  "rarity": 5,
-
-  "protectFire": 5,
-
-  "classification": 4,
-  "weight": 60
+      "equipType":7,
+      "defense": 9,
+      "rarity": 5,
+    
+      "protectFire":5,
+    
+      "classification":4,
+      "weight": 60
 }

@@ -1,18 +1,20 @@
 {
-  "iconSize": 16,
-  "equipType": 8,
-  "maxStackSize": 400,
-  "sounds": [["actions/hit"]],
-  "minDamage": 38,
-  "maxDamage": 38,
-  "critChance": 0,
-
-  "level": 80,
-
-  "elementDamage": "physical",
-  "projectile": "energized-bolt",
-  "shootType": "smallphysical",
-  "weaponType": "bolt",
-  "weight": 0.8,
-  "description": "Energized bolt (Atk: 3 ~ 12)."
+        iconSize: 16,
+        equipType: 8,
+        maxStackSize: 400,
+        sounds: [
+                ["actions/hit"],
+        ],
+        minDamage: 38,
+        maxDamage: 38,
+        critChance: 0,
+        
+        level: 80,
+        
+        elementDamage:"physical",
+        projectile: "energized-bolt",
+        shootType:  "smallphysical",
+        weaponType: "bolt",
+        weight: 0.8,
+        description: "Energized bolt (Atk: 3 ~ 12)."
 }

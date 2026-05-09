@@ -1,16 +1,18 @@
 {
-  "equipType": 10,
-  "defense": 7,
-  "bonusMelee": 2,
-  "protectFire": 5,
-  "protectPhysical": 7,
-  "bonusSpeed": 10,
-  "level": 300,
-  "rarity": 5,
-
-  "vocations": [{ "name": "0" }],
-
-  "classification": 4,
-  "imbueSlots": 1,
-  "weight": 20
+	"equipType":10,
+	"defense": 7,
+        "bonusMelee": 2,
+        "protectFire":5,
+        "protectPhysical":7,
+        "bonusSpeed": 10,
+        "level": 300,
+        "rarity": 5,
+    
+        "vocations": [
+	    {"name":"0"}
+	],
+        
+        "classification":4,
+        "imbueSlots":1,
+        "weight": 20
 }

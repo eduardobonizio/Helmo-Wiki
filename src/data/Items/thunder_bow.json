@@ -1,21 +1,25 @@
 {
-  "iconSize": 16,
-  "equipType": 3,
-  "numOfStyles": 1,
-  "minDamage": 8,
-  "rarity": 4,
-  "sounds": [["actions/hit"]],
-
-  "hitRange": 6,
-  "twoHand": true,
-  "bonusDistance": 1,
-  "level": 80,
-
-  "weaponType": "bow",
-  "weight": 35,
-
-  "vocations": [{ "name": "1" }],
-
-  "classification": 2,
-  "imbueSlots": 2
+        "iconSize": 16,
+        "equipType": 3,
+        "numOfStyles": 1,
+        "minDamage": 8,
+        "rarity": 4, 
+        "sounds": [
+                ["actions/hit"]
+        ],
+        
+        "hitRange": 6,
+		"twoHand": true,
+        "bonusDistance": 1,
+        "level": 80,
+        
+        "weaponType": "bow",
+        "weight": 35,
+        
+        "vocations": [
+		{"name":"1"}
+	],
+        
+        "classification":2,
+        "imbueSlots":2
 }

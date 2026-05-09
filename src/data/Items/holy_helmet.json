@@ -1,14 +1,16 @@
 {
-  "equipType": 1,
-  "defense": 9,
-  "level": 100,
-  "rarity": 3,
-
-  "protectDeath": 2,
-  "bonusDistance": 1,
-
-  "classification": 2,
-
-  "vocations": [{ "name": "1" }],
-  "imbueSlots": 2
+	"equipType":1,
+	"defense": 9,
+        "level": 100,
+        "rarity": 3,
+    
+        "protectDeath":2,
+        "bonusDistance":1,
+    
+        "classification":2,
+    
+        "vocations": [
+                {"name":"1"}
+	],
+        "imbueSlots":2
 }

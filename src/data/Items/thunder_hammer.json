@@ -1,30 +1,34 @@
 {
-  "iconSize": 16,
-  "equipType": 3,
-  "numOfStyles": 1,
+	"iconSize": 16,
+	"equipType": 3,
+	"numOfStyles": 1,
+	
+	"rarity": 2,
+	"defense": 23,
+	"bonusDefense":2,
 
-  "rarity": 2,
-  "defense": 23,
-  "bonusDefense": 2,
-
-  "minDamage": 26,
-  "maxDamage": 26,
-
-  "hitRange": 1,
-  "level": 80,
-
-  "critMultiplier": 1.2,
-  "critChance": 8,
-
-  "sounds": [["actions/hit"]],
-
-  "vocations": [{ "name": "0" }],
-
-  "elementDamage": "physical",
-  "extraElementDamage": "energy",
-  "weaponType": "club",
-  "weight": 80,
-
-  "classification": 2,
-  "imbueSlots": 1
+	"minDamage": 26,
+	"maxDamage": 26,
+        
+	"hitRange": 1,
+	"level": 80,
+    
+        "critMultiplier": 1.2,
+        "critChance": 8,
+        
+	"sounds": [
+		["actions/hit"]
+	],
+        
+        "vocations": [
+		{"name":"0"}
+	],
+        
+        "elementDamage":"physical",
+        "extraElementDamage":"energy",
+        "weaponType":"club",
+        "weight": 80,
+        
+        "classification":2,
+        "imbueSlots":1
 }

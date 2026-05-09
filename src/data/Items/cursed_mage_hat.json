@@ -1,14 +1,16 @@
 {
-  "equipType": 1,
-  "defense": 7,
-  "bonusMagic": 3,
-  "rarity": 5,
-  "protectIce": 7,
-
-  "level": 250,
-
-  "vocations": [{ "name": "3" }],
-  "classification": 4,
-  "imbueSlots": 2,
-  "weight": 15
+	"equipType":1,
+	"defense": 7,
+        "bonusMagic":3,
+        "rarity": 5,
+        "protectIce":7,
+ 
+        "level": 250,
+    
+        "vocations": [
+                {"name":"3"}
+	],
+        "classification":4,
+        "imbueSlots":2,
+        "weight": 15
 }

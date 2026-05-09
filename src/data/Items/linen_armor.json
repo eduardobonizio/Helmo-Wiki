@@ -1,13 +1,15 @@
 {
-  "equipType": 4,
-  "defense": 6,
-  "rarity": 3,
-
-  "bonusDistance": 1,
-  "level": 15,
-
-  "vocations": [{ "name": "1" }],
-
-  "classification": 1,
-  "weight": 45
+	"equipType":4,
+	"defense": 6,
+        "rarity": 3,
+    
+        "bonusDistance":1,
+        "level": 15,
+    
+        "vocations": [
+            {"name":"1"}
+	],
+        
+        "classification":1,
+        "weight": 45
 }

@@ -1,17 +1,19 @@
 {
-  "equipType": 1,
-  "defense": 9,
-  "protectEarth": 5,
-
-  "protectPhysical": 3,
-  "bonusDistance": 2,
-
-  "level": 250,
-  "rarity": 5,
-
-  "vocations": [{ "name": "1" }],
-
-  "classification": 4,
-  "imbueSlots": 2,
-  "weight": 20
+	"equipType":1,
+	"defense": 9,
+        "protectEarth":5,
+    
+        "protectPhysical":3,
+        "bonusDistance":2,
+    
+        "level": 250,
+        "rarity": 5,
+    
+        "vocations": [
+		{"name":"1"}
+	],
+        
+        "classification":4,
+        "imbueSlots":2,
+        "weight": 20
 }

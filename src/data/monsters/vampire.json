@@ -1,108 +1,65 @@
 {
-  "id": "vampire",
-  "hittable": true,
-  "maxDirections": 4,
-  "speed": 45,
-  "maxHealth": 685,
-  "deathParticle": 43,
-  "showHealthBar": true,
-  "footstepSound": "slime",
-  "imgWidth": 32,
-  "imgHeight": 32,
-  "footstepOffsetX": 0,
-  "footstepOffsetY": 32,
-  "drawOrderOffsetY": 32,
-  "offsetX": -8,
-  "offsetY": 0,
-  "experience": 505,
-  "defense": 28,
-  "bestiary": 50,
-  "charm": 25,
-  "drops": [
-    { "item": "gold", "chance": 100000, "min": 30, "max": 80 },
-    { "item": "strong_health_potion", "chance": 1000, "max": 5 },
-    { "item": "royal_helmet", "chance": 1000 },
-    { "item": "earth_crystal", "chance": 2000 },
-    { "item": "iron_hatchet", "chance": 300 },
-    { "item": "bronze_amulet", "chance": 600 },
-    { "item": "vamp_boots", "chance": 35 },
-    { "item": "vamp_cape", "chance": 35 },
-    { "item": "vamp_legs", "chance": 35 },
-    { "item": "vamp_hat", "chance": 35 },
-    { "item": "vampire_teeth", "chance": 1300 }
-  ],
-  "collisionRects": [
-    {
-      "name": "hit",
-      "hard": true,
-      "offsetX": 0,
-      "offsetY": 0,
-      "width": 16,
-      "height": 16
-    }
-  ],
-  "animations": [
-    {
-      "id": "walk",
-      "totalRuntime": 0.9,
-      "numberOfDirections": 4,
-      "looping": true
-    },
-    {
-      "id": "default",
-      "fileName": "walk",
-      "totalRuntime": 0,
-      "numberOfDirections": 4,
-      "looping": true
-    }
-  ],
-  "properties": [
-    { "name": "activationZoneDistance", "type": "int" },
-    { "name": "deactivationZoneDistance", "type": "int" }
-  ],
-  "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 0, "max": 190 },
-    {
-      "attack": "death",
-      "interval": 5000,
-      "chance": 50,
-      "min": 50,
-      "max": 200,
-      "type": "area",
-      "particle": 5,
-      "radius": 6,
-      "target": 1,
-      "range": 7
-    }
-  ],
-  "defenses": [
-    {
-      "name": "paralize",
-      "interval": 10000,
-      "chance": 10,
-      "type": "area",
-      "particle": 11,
-      "radius": 5
-    },
-    {
-      "name": "life_drain",
-      "interval": 10000,
-      "chance": 10,
-      "min": 50,
-      "max": 200,
-      "type": "area",
-      "particle": 12,
-      "radius": 6
-    }
-  ],
-  "elements": [
-    { "name": "physical", "value": 75 },
-    { "name": "fire", "value": 110 },
-    { "name": "holy", "value": 115 }
-  ],
-  "immunities": [
-    { "name": "death", "value": 1 },
-    { "name": "earth", "value": 1 }
-  ],
-  "hards": [{ "name": "fire", "value": 1 }]
+	"id":"vampire",
+	"hittable":true,
+	"maxDirections":4,
+	"speed":45,
+	"maxHealth":685,
+        "deathParticle": 43,
+	"showHealthBar": true,
+	"footstepSound":"slime",
+	"imgWidth":32,
+	"imgHeight":32,
+	"footstepOffsetX":0,
+	"footstepOffsetY":32,
+	"drawOrderOffsetY":32,
+        "offsetX":-8,
+        "offsetY":0,
+        "experience": 505,
+        "defense": 28,
+        "bestiary": 50,
+        "charm": 25,
+        "drops": [
+                 {"item":"gold", "chance": 100000, "min":30, "max":80},
+                 {"item":"strong_health_potion", "chance": 1000, "max":5},
+                 {"item":"royal_helmet", "chance": 1000},
+                 {"item":"earth_crystal", "chance": 2000},
+                 {"item":"iron_hatchet", "chance": 300},
+                 {"item":"bronze_amulet", "chance": 600},
+                 {"item":"vamp_boots", "chance": 35},
+                 {"item":"vamp_cape", "chance": 35},
+                 {"item":"vamp_legs", "chance": 35},
+                 {"item":"vamp_hat", "chance": 35},
+                 {"item":"vampire_teeth", "chance": 1300}
+        ],
+	"collisionRects":[
+		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
+		],
+	"animations":[
+		{"id":"walk", "totalRuntime":0.9, "numberOfDirections":4, "looping":true},
+		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4, "looping": true}
+		],
+	"properties": [
+		{"name":"activationZoneDistance", "type":"int"},
+		{"name":"deactivationZoneDistance", "type":"int"}
+	],
+        "attacks": [
+		{"attack":"melee", "interval":2000, "min":0, "max":190},
+                {"attack":"death", "interval":2000, "chance":15, "min":50, "max":200, "type":"area", "particle":5,"radius":6,"target":1,"range":7}
+	],
+        "defenses": [
+                {"name":"paralize", "interval":4000, "chance": 10, "type":"area", "particle":11,"radius":5},
+                {"name":"life_drain", "interval":4000, "chance": 10, "min":50, "max":200, "type":"area", "particle":12,"radius":6}
+	],
+        "elements": [
+		{"name":"physical", "value":75},
+                {"name":"fire", "value":110},
+                {"name":"holy", "value":115}
+	],
+        "immunities": [
+		{"name":"death", "value":1},
+                {"name":"earth", "value":1}
+	],
+        "hards": [
+		{"name":"fire", "value":1}
+	]
 }

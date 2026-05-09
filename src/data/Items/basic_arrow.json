@@ -1,15 +1,18 @@
 {
-  "iconSize": 16,
-  "equipType": 8,
-  "maxStackSize": 200,
-  "sounds": [["actions/hit"]],
-  "minDamage": 25,
-  "maxDamage": 25,
-
-  "elementDamage": "physical",
-  "projectile": "basic-arrow",
-  "shootType": "smallphysical",
-  "weaponType": "arrow",
-  "weight": 0.8,
-  "description": "Basic arrow (Atk: 3 ~ 12)."
+        iconSize: 16,
+        equipType: 8,
+        maxStackSize: 200,
+        sounds: [
+                ["actions/hit"],
+        ],
+        minDamage: 25,
+        maxDamage: 25,
+        
+        elementDamage:"physical",
+        projectile: "basic-arrow",
+        shootType:  "smallphysical",
+        weaponType: "arrow",
+        weight: 0.8,
+        description: "Basic arrow (Atk: 3 ~ 12)."
+	
 }

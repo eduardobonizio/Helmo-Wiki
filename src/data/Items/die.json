@@ -1,6 +1,6 @@
 {
-  "iconSize": 16,
-  "equipType": -1,
-  "tool": true,
-  "weight": 5
+	"iconSize": 16,
+	"equipType": -1,
+        "tool":true,
+        "weight": 5
 }

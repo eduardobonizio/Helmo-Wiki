@@ -1,94 +1,58 @@
 {
-  "id": "the_witch",
-  "hittable": true,
-  "maxDirections": 4,
-  "speed": 35,
-  "maxHealth": 300,
-  "showHealthBar": true,
-  "footstepSound": "slime",
-  "imgWidth": 32,
-  "imgHeight": 32,
-  "footstepOffsetX": 0,
-  "footstepOffsetY": 26,
-  "drawOrderOffsetY": 16,
-  "offsetX": -8,
-  "offsetY": 0,
-  "experience": 270,
-  "defense": 8,
-  "bestiary": 25,
-  "charm": 15,
-  "drops": [
-    { "item": "gold", "chance": 100000, "min": 10, "max": 60 },
-    { "item": "mana_potion", "chance": 5500, "max": 3 },
-    { "item": "necro_rod", "chance": 800 },
-    { "item": "ruby_necklace", "chance": 800 },
-    { "item": "garlic_necklace", "chance": 800 },
-    { "item": "silver_necklace", "chance": 200 },
-    { "item": "soul_book", "chance": 200 },
-    { "item": "legion_helmet", "chance": 10 },
-    { "item": "broom", "chance": 2000 },
-    { "item": "piece_of_fire_cloth", "chance": 1200 }
-  ],
-  "collisionRects": [
-    {
-      "name": "hit",
-      "hard": true,
-      "offsetX": 0,
-      "offsetY": 0,
-      "width": 16,
-      "height": 16
-    }
-  ],
-  "animations": [
-    {
-      "id": "walk",
-      "totalRuntime": 0.8,
-      "numberOfDirections": 4,
-      "looping": true
-    },
-    {
-      "id": "default",
-      "fileName": "walk",
-      "totalRuntime": 0,
-      "numberOfDirections": 4
-    }
-  ],
-  "properties": [
-    { "name": "activationZoneDistance", "type": "int" },
-    { "name": "deactivationZoneDistance", "type": "int" }
-  ],
-  "attacks": [
-    {
-      "attack": "death",
-      "interval": 2000,
-      "chance": 100,
-      "range": 8,
-      "min": 10,
-      "max": 30,
-      "type": "shoot",
-      "anim": "death-ball",
-      "particle": 27
-    },
-    { "attack": "melee", "interval": 2000, "min": 0, "max": 30 },
-    {
-      "attack": "fire",
-      "interval": 4000,
-      "chance": 80,
-      "min": 30,
-      "max": 75,
-      "type": "area",
-      "particle": 3,
-      "radius": 2,
-      "target": 1,
-      "range": 7,
-      "field": 1
-    }
-  ],
-  "elements": [
-    { "name": "physical", "value": 115 },
-    { "name": "earth", "value": 80 },
-    { "name": "death", "value": 80 },
-    { "name": "energy", "value": 80 }
-  ],
-  "immunities": [{ "name": "fire", "value": 1 }]
+	"id":"the_witch",
+	"hittable":true,
+	"maxDirections":4,
+	"speed":35,
+	"maxHealth":300,
+	"showHealthBar": true,
+	"footstepSound":"slime",
+	"imgWidth":32,
+	"imgHeight":32,
+	"footstepOffsetX":0,
+	"footstepOffsetY":26,
+	"drawOrderOffsetY":16,
+        "offsetX":-8,
+        "offsetY":0,
+        "experience": 270,
+        "defense": 8,
+        "bestiary": 25,
+        "charm": 15,
+        "drops": [
+                    {"item":"gold", "chance": 100000, "min":10, "max":60},
+                    {"item":"mana_potion", "chance": 5500, "max":3},
+                    {"item":"necro_rod", "chance": 800},
+                    {"item":"ruby_necklace", "chance": 800},
+                    {"item":"garlic_necklace", "chance": 800},
+                    {"item":"silver_necklace", "chance": 200},
+                    {"item":"soul_book", "chance": 200},
+                    {"item":"legion_helmet", "chance": 10},
+                    {"item":"broom", "chance": 2000},
+                    {"item":"piece_of_fire_cloth", "chance": 1200}
+                    
+        ],
+	"collisionRects":[
+		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
+		],
+	"animations":[
+		{"id":"walk", "totalRuntime":0.8, "numberOfDirections":4, "looping":true},
+		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4}
+		],
+	"properties": [
+		{"name":"activationZoneDistance", "type":"int"},
+		{"name":"deactivationZoneDistance", "type":"int"}
+	],
+        "attacks": [
+                {"attack":"death", "interval":2000, "chance":100, "range":8, "min":10, "max":30, "type":"shoot", "anim":"death-ball", "particle":27},
+                {"attack":"melee", "interval":2000, "min":0, "max":30},
+                {"attack":"fire", "interval":2000, "chance":15, "min":30, "max":75, "type":"area", "particle":3,"radius":2,"target":1,"range":7,"field":1}
+	],
+        "elements": [
+                {"name":"physical", "value":115},
+                {"name":"earth", "value":80},
+                {"name":"death", "value":80},
+                {"name":"energy", "value":80}
+	],
+        "immunities": [
+		{"name":"fire", "value":1}
+	]
 }

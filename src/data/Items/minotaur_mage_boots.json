@@ -1,11 +1,14 @@
 {
-  "equipType": 10,
-  "defense": 2,
-  "rarity": 3,
-
-  "bonusSpeed": 5,
-  "level": 20,
-
-  "vocations": [{ "name": "2" }, { "name": "3" }],
-  "weight": 20
+	"equipType":10,
+	"defense": 2,
+        "rarity": 3,
+    
+	"bonusSpeed": 5,
+        "level": 20,
+    
+        "vocations": [
+		{"name":"2"},
+                {"name":"3"}
+	],
+        "weight": 20
 }

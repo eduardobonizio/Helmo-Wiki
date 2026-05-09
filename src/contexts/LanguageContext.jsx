@@ -7,7 +7,9 @@ const dictionary = {
   en: {
     nav_wiki: "Wiki",
     nav_monsters: "Monsters",
+    nav_bosses: "Bosses",
     nav_items: "Items",
+    nav_updates: "Updates",
 
     search_monsters: "Search monsters by name or dropped items...",
     hp: "HP",
@@ -25,6 +27,9 @@ const dictionary = {
     elements_immunities: "Elements & Immunities",
     weaknesses: "Weaknesses:",
     immunities: "Immunities:",
+    search_bosses: "Search bosses by name...",
+    respawn: "Respawn",
+    top_drops: "Top drops",
 
     search_items: "Search items by name...",
     class_all: "Class: All",
@@ -64,11 +69,16 @@ const dictionary = {
     ext: "Ext",
 
     drop_from: "Drop From:",
+    updates_title: "Updates",
+    updated_monsters: "Updated monsters",
+    updated_items: "Updated items",
   },
   pt: {
     nav_wiki: "Wiki",
     nav_monsters: "Monstros",
+    nav_bosses: "Bosses",
     nav_items: "Itens",
+    nav_updates: "Updates",
 
     search_monsters: "Pesquise monstros pelo nome ou itens dropados...",
     hp: "Vida",
@@ -86,6 +96,9 @@ const dictionary = {
     elements_immunities: "Elementos e Imunidades",
     weaknesses: "Fraquezas:",
     immunities: "Imunidades:",
+    search_bosses: "Pesquise bosses pelo nome...",
+    respawn: "Respawn",
+    top_drops: "Principais drops",
 
     search_items: "Pesquise itens pelo nome...",
     class_all: "Classe: Todas",
@@ -125,6 +138,9 @@ const dictionary = {
     ext: "Ext",
 
     drop_from: "Dropado por:",
+    updates_title: "Updates",
+    updated_monsters: "Monstros atualizados",
+    updated_items: "Itens atualizados",
   }
 };
 

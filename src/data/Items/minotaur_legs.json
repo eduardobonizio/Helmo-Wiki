@@ -1,9 +1,12 @@
 {
-  "equipType": 7,
-  "defense": 4,
-
-  "rarity": 2,
-
-  "vocations": [{ "name": "0" }, { "name": "1" }],
-  "weight": 40
+	"equipType":7,
+	"defense": 4,
+    
+        "rarity": 2,
+    
+        "vocations": [
+		{"name":"0"},
+                {"name":"1"}
+	],
+        "weight": 40
 }

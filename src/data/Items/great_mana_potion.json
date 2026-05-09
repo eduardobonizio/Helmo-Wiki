@@ -1,11 +1,11 @@
 {
-  "iconSize": 16,
-  "equipType": -1,
-  "maxStackSize": 600,
-  "minDamage": 350,
-  "maxDamage": 350,
-  "consumable": true,
-  "level": 80,
-  "autoCollect": true,
-  "weight": "3"
+	iconSize: 16,
+	equipType: -1,
+	maxStackSize: 600,
+        minDamage: 350,
+        maxDamage: 350,
+        consumable: true,
+        level:80,
+        "autoCollect":true,
+        "weight": "3"
 }

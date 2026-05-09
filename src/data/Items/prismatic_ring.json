@@ -1,16 +1,16 @@
 {
-  "iconSize": 16,
-  "buff": true,
-  "equipType": 6,
-
-  "defense": 0,
-
-  "level": 120,
-  "rarity": 5,
-  "durability": 3600,
-  "durabilityType": 1,
-
-  "protectEnergy": 8,
-  "protectPhysical": 10,
-  "weight": 5
+	"iconSize": 16,
+	"buff": true,
+	"equipType": 6,
+        
+        "defense": 0,
+        
+        "level": 120,
+        "rarity": 5,
+        "durability": 3600,
+        "durabilityType": 1,
+        
+        "protectEnergy": 8,
+        "protectPhysical": 10,
+        "weight": 5
 }

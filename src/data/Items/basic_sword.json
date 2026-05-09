@@ -1,15 +1,18 @@
 {
-  "iconSize": 16,
-  "equipType": 3,
-  "numOfStyles": 1,
-  "minDamage": 15,
-  "maxDamage": 16,
-  "defense": 8,
-
-  "hitRange": 1,
-  "sounds": [["actions/hit"]],
-  "elementDamage": "physical",
-  "weaponType": "sword",
-  "weight": 15,
-  "description": "A masterpiece of a dwarven smith. (Atk: 4 ~ 7)."
+	iconSize: 16,
+	equipType: 3,
+	numOfStyles: 1,
+	minDamage: 15,
+	maxDamage: 16,
+        "defense": 8,
+        
+	hitRange: 1,
+	sounds: [
+		["actions/hit"],
+	],
+        elementDamage:"physical",
+        weaponType:"sword",
+        weight: 15,
+        description: "A masterpiece of a dwarven smith. (Atk: 4 ~ 7)."
+        
 }

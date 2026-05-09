@@ -1,6 +1,6 @@
 {
-  "iconSize": 16,
-  "equipType": -1,
-  "maxStackSize": 20,
-  "rarity": 3
+	"iconSize": 16,
+	"equipType": -1,
+        "maxStackSize": 20,
+        "rarity": 3
 }

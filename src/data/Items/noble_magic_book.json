@@ -1,11 +1,14 @@
 {
-  "equipType": 5,
-  "defense": 12,
-  "bonusMagic": 1,
-  "rarity": 3,
-  "level": 30,
-  "group": "Book",
-  "vocations": [{ "name": "2" }, { "name": "3" }],
-  "imbueSlots": 1,
-  "weight": 25
+	"equipType":5,
+	"defense": 12,
+        "bonusMagic": 1,
+        "rarity": 3,
+        "level": 30,
+        "group": "Book",
+        "vocations": [
+		{"name":"2"},
+                {"name":"3"}
+	],
+        "imbueSlots":1,
+        "weight": 25
 }

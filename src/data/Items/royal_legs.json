@@ -1,14 +1,16 @@
 {
-  "equipType": 7,
-  "defense": 7,
-
-  "rarity": 2,
-
-  "level": 40,
-  "protectPhysical": 3,
-
-  "vocations": [{ "name": "1" }],
-
-  "classification": 2,
-  "weight": 45
+	"equipType":7,
+	"defense": 7,
+    
+        "rarity": 2,
+    
+        "level": 40,
+        "protectPhysical":3,
+    
+        "vocations": [
+                {"name":"1"}
+	],
+    
+        "classification":2,
+        "weight": 45
 }

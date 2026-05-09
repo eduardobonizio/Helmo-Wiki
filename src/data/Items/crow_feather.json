@@ -1,7 +1,7 @@
 {
-  "iconSize": 16,
-  "equipType": -1,
-  "maxStackSize": 50,
-  "material": true,
-  "weight": 0.5
+	iconSize: 16,
+	equipType: -1,
+	"maxStackSize": 50,
+	material: true,
+        "weight": 0.5
 }

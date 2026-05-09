@@ -1,12 +1,14 @@
 {
-  "minDamage": 1,
-  "equipType": 4,
-  "defense": 10,
-  "rarity": 2,
-  "level": 25,
-
-  "vocations": [{ "name": "0" }],
-
-  "classification": 1,
-  "weight": 60
+	"minDamage":1,
+	"equipType":4,
+	"defense": 10,
+        "rarity": 2,
+        "level": 25,
+    
+        "vocations": [
+		{"name":"0"}
+	],
+    
+        "classification":1,
+        "weight": 60
 }

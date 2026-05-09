@@ -1,11 +1,13 @@
 {
-  "equipType": 1,
-  "defense": 5,
-  "level": 40,
-  "rarity": 2,
-  "vocations": [{ "name": "1" }],
-
-  "classification": 2,
-  "imbueSlots": 1,
-  "weight": 35
+	"equipType":1,
+	"defense": 5,
+        "level": 40,
+        "rarity": 2,
+        "vocations": [
+                {"name":"1"}
+	],
+        
+        "classification":2,
+        "imbueSlots":1,
+        "weight": 35
 }

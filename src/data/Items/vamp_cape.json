@@ -1,17 +1,20 @@
 {
-  "equipType": 4,
-  "defense": 8,
-  "rarity": 4,
-  "bonusMagic": 2,
-
-  "protectDeath": 5,
-  "protectPhysical": 2,
-
-  "level": 80,
-
-  "vocations": [{ "name": "2" }, { "name": "3" }],
-
-  "classification": 2,
-  "imbueSlots": 2,
-  "weight": 35
+	"equipType":4,
+        "defense": 8,
+        "rarity": 4,
+        "bonusMagic":2,
+    
+        "protectDeath":5,
+        "protectPhysical":2,
+    
+        "level": 80,
+    
+        "vocations": [
+		{"name":"2"},
+                {"name":"3"}
+	],
+        
+        "classification":2,
+        "imbueSlots":2,
+        "weight": 35
 }

@@ -1,8 +1,8 @@
 {
-  "iconSize": 16,
-  "buff": true,
-  "equipType": 0,
-  "level": 130,
-  "protectFire": 5,
-  "weight": 10
+	"iconSize": 16,
+	"buff": true,
+	"equipType": 0,
+        "level": 130,
+        "protectFire": 5,
+        "weight": 10
 }

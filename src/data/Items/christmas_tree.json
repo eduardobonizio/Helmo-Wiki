@@ -1,6 +1,8 @@
 {
-  "iconSize": 16,
-  "equipType": -1,
-  "rarity": 5,
-  "weight": 120
+	"iconSize": 16,
+	"equipType": -1,
+        "rarity": 5,
+        "weight": 120,
+        "description": "Decorative Christmas tree."
+
 }

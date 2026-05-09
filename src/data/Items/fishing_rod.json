@@ -1,8 +1,8 @@
 {
-  "iconSize": 16,
-  "equipType": -1,
-  "tool": true,
-  "clickUse": true,
-  "hitRange": 7,
-  "level": 10
+	"iconSize": 16,
+	"equipType": -1,
+        "tool": true,
+        "clickUse": true,
+        "hitRange": 7,
+        "level": 10
 }

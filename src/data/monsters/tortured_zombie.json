@@ -1,96 +1,66 @@
 {
-  "id": "tortured_zombie",
-  "hittable": true,
-  "maxDirections": 4,
-  "speed": 80,
-  "maxHealth": 9500,
-  "showHealthBar": true,
-  "footstepSound": "slime",
-  "imgWidth": 64,
-  "imgHeight": 64,
-  "footstepOffsetX": 0,
-  "footstepOffsetY": 50,
-  "drawOrderOffsetY": 50,
-  "offsetX": -22,
-  "offsetY": 0,
-  "experience": 8800,
-  "defense": 30,
-  "pushable": false,
-  "intervalResp": 50,
-  "bestiary": 70,
-  "charm": 50,
-  "drops": [
-    { "item": "gold", "chance": 100000, "min": 500, "max": 1100 },
-    { "item": "earth_crystal", "chance": 5000 },
-    { "item": "death_armor", "chance": 800 },
-    { "item": "ruby_necklace", "chance": 1000 },
-    { "item": "royal_axe", "chance": 800 },
-    { "item": "fire_axe", "chance": 800 },
-    { "item": "voodoo_wand", "chance": 800 },
-    { "item": "terra_mantle", "chance": 800 },
-    { "item": "terra_boots", "chance": 800 },
-    { "item": "nailed_hand", "chance": 100 },
-    { "item": "vamp_boots", "chance": 800 },
-    { "item": "dust", "chance": 500, "min": 1, "max": 2 },
-    { "item": "master_shield", "chance": 20 }
-  ],
-  "collisionRects": [
-    {
-      "name": "hit",
-      "hard": true,
-      "offsetX": 0,
-      "offsetY": 0,
-      "width": 16,
-      "height": 16
-    }
-  ],
-  "animations": [
-    { "id": "walk", "totalRuntime": 0.4, "numberOfDirections": 4 },
-    {
-      "id": "default",
-      "fileName": "walk",
-      "totalRuntime": 0,
-      "numberOfDirections": 4
-    }
-  ],
-  "properties": [
-    { "name": "activationZoneDistance", "type": "int" },
-    { "name": "deactivationZoneDistance", "type": "int" }
-  ],
-  "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 100, "max": 750 },
-    {
-      "attack": "death",
-      "interval": 2000,
-      "chance": 10,
-      "min": 300,
-      "max": 900,
-      "type": "area",
-      "particle": 37,
-      "length": 10,
-      "spread": 20,
-      "range": 12
-    }
-  ],
-  "elements": [
-    { "name": "holy", "value": 115 },
-    { "name": "energy", "value": 90 },
-    { "name": "ice", "value": 90 },
-    { "name": "physical", "value": 115 }
-  ],
-  "defenses": [
-    {
-      "name": "paralize",
-      "interval": 8000,
-      "chance": 10,
-      "type": "area",
-      "particle": 11,
-      "radius": 6
-    }
-  ],
-  "immunities": [
-    { "name": "fire", "value": 1 },
-    { "name": "earth", "value": 1 },
-    { "name": "death", "value": 1 }
-  ]
+	"id":"tortured_zombie",
+	"hittable":true,
+	"maxDirections":4,
+	"speed":80,
+	"maxHealth":9500,
+	"showHealthBar": true,
+	"footstepSound":"slime",
+	"imgWidth":64,
+	"imgHeight":64,
+	"footstepOffsetX":0,
+	"footstepOffsetY":50,
+	"drawOrderOffsetY":50,
+        "offsetX":-22,
+        "offsetY":0,
+        "experience": 8800,
+        "defense": 30,
+        "pushable": false,
+        "intervalResp":50,
+        "bestiary": 70,
+        "charm": 50,
+        "drops": [
+                    {"item":"gold", "chance": 100000, "min":500, "max":1100},
+                    {"item":"earth_crystal", "chance": 5000},
+                    {"item":"death_armor", "chance": 800},
+                    {"item":"ruby_necklace", "chance": 1000},
+                    {"item":"royal_axe", "chance": 800},
+                    {"item":"fire_axe", "chance": 800},
+                    {"item":"voodoo_wand", "chance": 800},
+                    {"item":"terra_mantle", "chance": 800},
+                    {"item":"terra_boots", "chance": 800},
+                    {"item":"nailed_hand", "chance": 100},
+                    {"item":"vamp_boots", "chance": 800},
+                    {"item":"dust", "chance": 500, "min":1, "max":2},
+                    {"item":"master_shield", "chance": 20}
+        ],
+	"collisionRects":[
+		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
+	],
+	"animations":[
+		{"id":"walk", "totalRuntime":0.4, "numberOfDirections":4},
+		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4}
+		],
+	"properties": [
+		{"name":"activationZoneDistance", "type":"int"},
+		{"name":"deactivationZoneDistance", "type":"int"}
+	],
+        "attacks": [
+                {"attack":"melee", "interval":2000, "min":100, "max":750},
+                {"attack":"death", "interval":2000, "chance":10, "min":300, "max":900, "type":"area", "particle":37,"length":10,"spread":20,"range":12}
+	],
+        "elements": [
+                {"name":"holy", "value":115},
+                {"name":"energy", "value":90},
+                {"name":"ice", "value":90},
+                {"name":"physical", "value":115}
+	],
+        "defenses": [
+                {"name":"paralize", "interval":8000, "chance": 10, "type":"area", "particle":11,"radius":6}
+	],
+        "immunities": [
+		{"name":"fire", "value":1},
+                {"name":"earth", "value":1},
+                {"name":"death", "value":1}
+	]
 }

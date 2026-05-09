@@ -11,6 +11,17 @@
 # production
 /build
 
+# generated/local APK files
+/Helmo arquivos apk/
+
+# local Codex temporary push folders
+/.codex-push-*/
+/.codex-push-test/
+/codex-write-test.tmp
+
+# accidental nested item asset copies
+/public/items/*/*/
+
 # misc
 .DS_Store
 .env.local

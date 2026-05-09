@@ -1,109 +1,64 @@
 {
-  "id": "undead_dragon",
-  "hittable": true,
-  "maxDirections": 4,
-  "speed": 80,
-  "maxHealth": 10000,
-  "showHealthBar": true,
-  "footstepSound": "slime",
-  "imgWidth": 64,
-  "imgHeight": 64,
-  "footstepOffsetX": 0,
-  "footstepOffsetY": 34,
-  "drawOrderOffsetY": 32,
-  "offsetX": -24,
-  "offsetY": 0,
-  "experience": 9500,
-  "defense": 25,
-  "pushable": false,
-  "intervalResp": 60,
-  "bestiary": 30,
-  "charm": 15,
-  "drops": [
-    { "item": "gold", "chance": 100000, "min": 1000, "max": 1200 },
-    { "item": "strong_health_potion", "chance": 50000, "max": 2 },
-    { "item": "earth_crystal", "chance": 7000 },
-    { "item": "death_armor", "chance": 1000 },
-    { "item": "dragon_shield", "chance": 1200 },
-    { "item": "dragon_wand", "chance": 1200 },
-    { "item": "terra_hood", "chance": 1200 },
-    { "item": "terra_boots", "chance": 1200 },
-    { "item": "terra_mantle", "chance": 1200 },
-    { "item": "rotten_dragon_paw", "chance": 100 },
-    { "item": "magic_plate_armor", "chance": 20 },
-    { "item": "royal_axe", "chance": 1000 }
-  ],
-  "collisionRects": [
-    {
-      "name": "hit",
-      "hard": true,
-      "offsetX": 0,
-      "offsetY": 0,
-      "width": 16,
-      "height": 16
-    }
-  ],
-  "animations": [
-    {
-      "id": "walk",
-      "totalRuntime": 0.7,
-      "numberOfDirections": 4,
-      "looping": true
-    },
-    {
-      "id": "default",
-      "fileName": "walk",
-      "totalRuntime": 0,
-      "numberOfDirections": 4
-    }
-  ],
-  "properties": [
-    { "name": "activationZoneDistance", "type": "int" },
-    { "name": "deactivationZoneDistance", "type": "int" }
-  ],
-  "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 600, "max": 950 },
-    {
-      "attack": "fire",
-      "interval": 2000,
-      "chance": 10,
-      "min": 800,
-      "max": 1370,
-      "type": "area",
-      "particle": 3,
-      "length": 8,
-      "spread": 3,
-      "range": 7
-    },
-    {
-      "attack": "death",
-      "interval": 2000,
-      "chance": 10,
-      "min": 800,
-      "max": 1300,
-      "type": "area",
-      "particle": 37,
-      "radius": 4,
-      "target": 1,
-      "range": 7
-    }
-  ],
-  "defenses": [
-    {
-      "name": "healing",
-      "interval": 10000,
-      "chance": 30,
-      "min": 200,
-      "max": 300
-    }
-  ],
-  "elements": [
-    { "name": "ice", "value": 115 },
-    { "name": "holy", "value": 105 },
-    { "name": "physical", "value": 115 }
-  ],
-  "immunities": [
-    { "name": "fire", "value": 1 },
-    { "name": "death", "value": 1 }
-  ]
+	"id":"undead_dragon",
+	"hittable":true,
+	"maxDirections":4,
+	"speed":80,
+	"maxHealth":10000,
+	"showHealthBar": true,
+	"footstepSound":"slime",
+	"imgWidth":64,
+	"imgHeight":64,
+	"footstepOffsetX":0,
+	"footstepOffsetY":34,
+	"drawOrderOffsetY":32,
+        "offsetX":-24,
+        "offsetY":0,
+        "experience": 9500,
+        "defense": 25,
+        "pushable": false,
+        "intervalResp":60,
+        "bestiary": 30,
+        "charm": 15,
+        "drops": [
+                 {"item":"gold", "chance": 100000, "min":1000, "max":1200},
+                 {"item":"strong_health_potion", "chance": 50000, "max":2},
+                 {"item":"earth_crystal", "chance": 7000},
+                 {"item":"death_armor", "chance": 1000},
+                 {"item":"dragon_shield", "chance": 1200},
+                 {"item":"dragon_wand", "chance": 1200},
+                 {"item":"terra_hood", "chance": 1200},
+                 {"item":"terra_boots", "chance": 1200},
+                 {"item":"terra_mantle", "chance": 1200},
+                 {"item":"rotten_dragon_paw", "chance": 100},
+                 {"item":"magic_plate_armor", "chance": 20},
+                 {"item":"royal_axe", "chance": 1000}
+        ],
+	"collisionRects":[
+		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
+		],
+	"animations":[
+		{"id":"walk", "totalRuntime":0.7, "numberOfDirections":4, "looping":true},
+		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4}
+		],
+	"properties": [
+		{"name":"activationZoneDistance", "type":"int"},
+		{"name":"deactivationZoneDistance", "type":"int"}
+	],
+        "attacks": [
+		{"attack":"melee", "interval":2000, "min":0, "max":950},
+                {"attack":"fire", "interval":2000, "chance":10, "min":800, "max":1370, "type":"area", "particle":3,"length":8,"spread":3,"range":7},
+                {"attack":"death", "interval":2000, "chance":10, "min":800, "max":1300, "type":"area", "particle":37,"radius":4,"target":1,"range":7}
+	],
+        "defenses": [
+		{"name":"healing", "interval":10000, "chance": 30, "min":200, "max":300}
+	],
+        "elements": [
+		{"name":"ice", "value":115},
+                {"name":"holy", "value":115},
+                {"name":"physical", "value":115}
+	],
+        "immunities": [
+		{"name":"fire", "value":1},
+                {"name":"death", "value":1}
+	]
 }

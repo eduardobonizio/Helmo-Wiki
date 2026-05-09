@@ -1,22 +1,26 @@
 {
-  "iconSize": 16,
-  "durability": 256,
-  "equipType": 3,
-  "numOfStyles": 1,
-  "sounds": [["actions/hit"]],
+        iconSize: 16,
+        durability: 256,
+        equipType: 3,
+        numOfStyles: 1,
+        sounds: [
+                ["actions/hit"],
+        ],
 
-  "minDamage": 10,
-  "maxDamage": 15,
+        minDamage: 10,
+        maxDamage: 15,
 
-  "hitRange": 8,
-  "level": 30,
-
-  "elementDamage": "ice",
-  "projectile": "ice-ball",
-  "shootType": "smallice",
-  "weaponType": "rod",
-  "weight": 25,
-  "description": "Icecold rays of moonlight shimmer on its tip (Atk: 13 ~ 25).",
-
-  "vocations": [{ "name": "2" }]
+        hitRange: 8,
+        level: 30,
+        
+        elementDamage:"ice",
+        projectile: "ice-ball",
+        shootType:  "smallice",
+        weaponType: "rod",
+        weight: 25,
+        description: "Icecold rays of moonlight shimmer on its tip (Atk: 13 ~ 25).",
+        
+        vocations: [
+		{"name":"2"}
+	]
 }

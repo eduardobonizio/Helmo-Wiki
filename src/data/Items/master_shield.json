@@ -1,9 +1,11 @@
 {
-  "equipType": 5,
-  "defense": 37,
-  "rarity": 5,
-
-  "vocations": [{ "name": "0" }],
-  "imbueSlots": 1,
-  "weight": 70
+	"equipType":5,
+	"defense": 37,
+        "rarity": 5,
+    
+        "vocations": [
+            {"name":"0"}
+        ],
+        "imbueSlots":1,
+        "weight": 70
 }

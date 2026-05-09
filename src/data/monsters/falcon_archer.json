@@ -1,113 +1,63 @@
 {
-  "id": "falcon_archer",
-  "hittable": true,
-  "maxDirections": 4,
-  "speed": 80,
-  "maxHealth": 12200,
-  "showHealthBar": true,
-  "footstepSound": "slime",
-  "imgWidth": 32,
-  "imgHeight": 38,
-  "footstepOffsetX": 0,
-  "footstepOffsetY": 32,
-  "drawOrderOffsetY": 0,
-  "offsetX": -8,
-  "offsetY": 0,
-  "experience": 9500,
-  "defense": 72,
-  "pushable": false,
-  "bestiary": 60,
-  "charm": 50,
-  "drops": [
-    { "item": "gold", "chance": 100000, "min": 400, "max": 1300 },
-    { "item": "assassin_star", "chance": 10000, "min": 1, "max": 10 },
-    { "item": "thick_silver_necklace", "chance": 1200 },
-    { "item": "necro_rod", "chance": 1200 },
-    { "item": "dust", "chance": 900, "min": 1, "max": 2 },
-    { "item": "earth_crystal", "chance": 5000 },
-    { "item": "legendary_crossbow", "chance": 1000 },
-    { "item": "legendary_bow", "chance": 1200 },
-    { "item": "ruby_necklace", "chance": 1200 },
-    { "item": "black_stone_amulet", "chance": 900 },
-    { "item": "boots_of_speed", "chance": 900 },
-    { "item": "death_armor", "chance": 1000 },
-    { "item": "divine_plate", "chance": 1100 },
-    { "item": "royal_cape", "chance": 1600 },
-    { "item": "orange_bagpack", "chance": 600 }
-  ],
-  "collisionRects": [
-    {
-      "name": "hit",
-      "hard": true,
-      "offsetX": 0,
-      "offsetY": 0,
-      "width": 16,
-      "height": 16
-    }
-  ],
-  "animations": [
-    { "id": "walk", "totalRuntime": 0.4, "numberOfDirections": 4 },
-    {
-      "id": "default",
-      "fileName": "walk",
-      "totalRuntime": 0,
-      "numberOfDirections": 4
-    }
-  ],
-  "properties": [
-    { "name": "activationZoneDistance", "type": "int" },
-    { "name": "deactivationZoneDistance", "type": "int" }
-  ],
-  "attacks": [
-    { "attack": "melee", "interval": 2000, "min": 300, "max": 500 },
-    {
-      "attack": "physical",
-      "interval": 2000,
-      "chance": 100,
-      "range": 7,
-      "min": 300,
-      "max": 780,
-      "type": "shoot",
-      "anim": "death-ball",
-      "particle": 5
-    },
-    {
-      "attack": "energy",
-      "interval": 2000,
-      "chance": 15,
-      "min": 250,
-      "max": 770,
-      "type": "area",
-      "particle": 29,
-      "length": 10,
-      "spread": 20,
-      "range": 12
-    },
-    {
-      "attack": "energy",
-      "interval": 2000,
-      "chance": 10,
-      "min": 380,
-      "max": 750,
-      "type": "area",
-      "particle": 29,
-      "radius": 2,
-      "target": 1,
-      "range": 12
-    }
-  ],
-  "elements": [
-    { "name": "physical", "value": 70 },
-    { "name": "holy", "value": 110 },
-    { "name": "death", "value": 50 }
-  ],
-  "defenses": [
-    {
-      "name": "healing",
-      "interval": 4000,
-      "chance": 50,
-      "min": 100,
-      "max": 200
-    }
-  ]
+	"id":"falcon_archer",
+	"hittable":true,
+	"maxDirections":4,
+	"speed":80,
+	"maxHealth":12200,
+	"showHealthBar": true,
+	"footstepSound":"slime",
+	"imgWidth":32,
+	"imgHeight":38,
+	"footstepOffsetX":0,
+	"footstepOffsetY":32,
+	"drawOrderOffsetY":0,
+        "offsetX":-8,
+        "offsetY":0,
+        "experience": 9500,
+        "defense": 72,
+        "pushable": false,
+        "bestiary": 60,
+        "charm": 50,
+        "drops": [
+                    {"item":"gold", "chance": 100000, "min":400, "max":1300},
+                    {"item":"assassin_star", "chance": 10000, "min":1, "max":10},
+                    {"item":"thick_silver_necklace", "chance": 1200},
+                    {"item":"necro_rod", "chance": 1200},
+                    {"item":"dust", "chance": 900, "min":1, "max":2},
+                    {"item":"earth_crystal", "chance": 5000},
+                    {"item":"legendary_crossbow", "chance": 1000},
+                    {"item":"legendary_bow", "chance": 1200},
+                    {"item":"ruby_necklace", "chance": 1200},
+                    {"item":"black_stone_amulet", "chance": 900},
+                    {"item":"boots_of_speed", "chance": 900},
+                    {"item":"death_armor", "chance": 1000},
+                    {"item":"divine_plate", "chance": 1100},
+                    {"item":"royal_cape", "chance": 1600},
+                    {"item":"orange_bagpack", "chance": 600}
+        ],
+	"collisionRects":[
+		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
+		],
+	"animations":[
+		{"id":"walk", "totalRuntime":0.4, "numberOfDirections":4},
+		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4}
+		],
+	"properties": [
+		{"name":"activationZoneDistance", "type":"int"},
+		{"name":"deactivationZoneDistance", "type":"int"}
+	],
+        "attacks": [
+                {"attack":"melee", "interval":2000, "min":300, "max":500},
+                {"attack":"physical", "interval":2000, "chance":100, "range":7, "min":300, "max":780, "type":"shoot", "anim":"death-ball", "particle":5},
+                {"attack":"energy", "interval":2000, "chance":15, "min":250, "max":770, "type":"area", "particle":29,"length":10,"spread":20,"range":12},
+                {"attack":"energy", "interval":2000, "chance":10, "min":380, "max":750, "type":"area", "particle":29,"radius":2,"target":1,"range":12}
+	],
+        "elements": [
+                {"name":"physical", "value":70},
+                {"name":"holy", "value":110},
+                {"name":"death", "value":50}
+	],
+        "defenses": [
+		{"name":"healing", "interval":2000, "chance": 20, "min":100, "max":200}
+	]
 }

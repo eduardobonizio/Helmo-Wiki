@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Monsters from "./routes/monsters/monsters";
 // import Home from "./routes/home/home";
 import Items from "./routes/items/items";
+import Bosses from "./routes/bosses/bosses";
+import Updates from "./routes/updates/updates";
 import React from "react";
 import { LanguageProvider } from "./contexts/LanguageContext";
 
@@ -17,7 +19,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Monsters />} />
             <Route path="/monsters" element={<Monsters />} />
+            <Route path="/bosses" element={<Bosses />} />
             <Route path="/items" element={<Items />} />
+            <Route path="/updates" element={<Updates />} />
           </Routes>
         </Router>
       </div>
