@@ -1,30 +1,39 @@
 {
-        iconSize: 16,
-        equipType: 3,
-        numOfStyles: 1,
-        "rarity": 2,
-
-        sounds: [
-                ["actions/hit"],
-        ],
-        
-		"bonusMagic": 1,
-        minDamage: 20,
-        maxDamage: 31,
-        hitRange: 6,
-        manaCost: 5,
-        
-        elementDamage:"ice",
-        projectile: "ice-ball",
-        shootType:  12,
-        weaponType: "rod",
-        weight: 28,
-        description: "Icecold rays of moonlight shimmer on its tip (Atk: 4 ~ 7).",
-        
-        level: 40,
-		
-        vocations: [
-		    {"name":"2"}
-	    ],
-        "imbueSlots":1
+	"iconSize": 16,
+	"equipType": 3,
+	"numOfStyles": 1,
+	"rarity": 2,
+	"sounds": [
+		[
+			"actions/hit"
+		]
+	],
+	"bonusMagic": 1,
+	"minDamage": 20,
+	"maxDamage": 31,
+	"hitRange": 6,
+	"manaCost": 5,
+	"elementDamage": "ice",
+	"projectile": "ice-ball",
+	"shootType": 12,
+	"weaponType": "rod",
+	"weight": 28,
+	"description": "Icecold rays of moonlight shimmer on its tip (Atk: 4 ~ 7).",
+	"level": 40,
+	"vocations": [
+		{
+			"name": "2"
+		}
+	],
+	"imbueSlots": 1,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

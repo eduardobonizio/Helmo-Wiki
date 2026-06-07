@@ -1,8 +1,18 @@
 {
-	iconSize: 16,
-	equipType: -1,
-	maxStackSize: 100,
-        minDamage: 60,
-        consumable: true,
-        "weight": 3
+	"iconSize": 16,
+	"equipType": -1,
+	"maxStackSize": 100,
+	"minDamage": 60,
+	"consumable": true,
+	"weight": 3,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

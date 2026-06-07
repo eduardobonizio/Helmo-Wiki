@@ -2,6 +2,7 @@ import monsters from "../../data/monsters.json";
 import bossNames from "../../data/bosses.json";
 import React, { useMemo, useState } from "react";
 import { useLanguage } from "../../contexts/LanguageContext";
+import SpriteImage from "../../components/SpriteImage";
 
 const isBoss = (monster) => {
   return bossNames.includes(monster.originalName);
@@ -73,9 +74,19 @@ function Bosses() {
                 <div className="card-body p-3 d-flex flex-column">
                   <div className="d-flex align-items-center mb-3">
                     <div className="me-3 bg-light rounded d-flex justify-content-center align-items-center" style={{ width: "88px", height: "88px", flexShrink: 0 }}>
-                      <img
-                        src={`../monsters/${boss.originalName}/walk.gif`}
+                      <SpriteImage
+                        kind="monster"
+                        name={boss.originalName}
+                        sprite={boss.sprite || "walk_0.png"}
+                        frameSize={boss.frameSize || 32}
+                        frameWidth={boss.frameWidth}
+                        frameHeight={boss.frameHeight}
+                        framesPerDirection={boss.framesPerDirection || 1}
+                        directions={boss.directions || 4}
+                        direction={0}
+                        duration="2.4s"
                         alt={boss.id}
+                        eager={true}
                         style={{ maxHeight: "72px", maxWidth: "72px" }}
                       />
                     </div>

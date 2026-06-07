@@ -1,19 +1,30 @@
 {
-	"equipType":1,
+	"equipType": 1,
 	"defense": 9,
-        "level": 150,
-        "rarity": 5,
-    
-        "protectPhysical":5,
-        "protectFire":5,
-        "bonusDefense":1,
-    
-        "classification":2,
-    
-        "vocations": [
-                {"name":"0"},
-                {"name":"1"}
+	"level": 150,
+	"rarity": 5,
+	"protectPhysical": 5,
+	"protectFire": 5,
+	"bonusDefense": 1,
+	"classification": 2,
+	"vocations": [
+		{
+			"name": "0"
+		},
+		{
+			"name": "1"
+		}
 	],
-        "imbueSlots":1,
-        "weight": 35
+	"imbueSlots": 1,
+	"weight": 35,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

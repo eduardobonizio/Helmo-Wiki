@@ -1,16 +1,26 @@
 {
-	"equipType":10,
+	"equipType": 10,
 	"defense": 7,
-        "bonusMelee": 2,
-        "bonusSpeed": 10,
-        "level": 110,
-        "rarity": 5,
-    
-        "vocations": [
-	    {"name":"0"}
+	"bonusMelee": 2,
+	"bonusSpeed": 10,
+	"level": 110,
+	"rarity": 5,
+	"vocations": [
+		{
+			"name": "0"
+		}
 	],
-        
-        "classification":2,
-        "imbueSlots":1,
-        "weight": 15
+	"classification": 2,
+	"imbueSlots": 1,
+	"weight": 15,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

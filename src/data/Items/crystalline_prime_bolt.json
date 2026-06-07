@@ -1,19 +1,29 @@
 {
-        iconSize: 16,
-        equipType: 8,
-        maxStackSize: 200,
-        sounds: [
-                ["actions/hit"],
-        ],
-        minDamage: 66,
-        maxDamage: 66,
-        
-        level: 160,
-        
-        elementDamage:"physical",
-        projectile: "crystalline-prime-bolt",
-        shootType:  "smallphysical",
-        weaponType: "bolt",
-        weight: 0.9,
-        description: ""
+	"iconSize": 16,
+	"equipType": 8,
+	"maxStackSize": 200,
+	"sounds": [
+		[
+			"actions/hit"
+		]
+	],
+	"minDamage": 66,
+	"maxDamage": 66,
+	"level": 160,
+	"elementDamage": "physical",
+	"projectile": "crystalline-prime-bolt",
+	"shootType": "smallphysical",
+	"weaponType": "bolt",
+	"weight": 0.9,
+	"description": "",
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

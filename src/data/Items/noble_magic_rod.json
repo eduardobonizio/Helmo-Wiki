@@ -1,29 +1,40 @@
 {
-        iconSize: 16,
-        equipType: 3,
-        numOfStyles: 1,
-        "rarity": 3, 
-        sounds: [
-                ["actions/hit"],
-        ],
-		"bonusMagic": 2,
-        "minDamage": 44,
-        "maxDamage": 56,
-        "hitRange": 6,
-        "manaCost": 10,
-        
-        "elementDamage":"earth",
-        "projectile": "earth-ball",
-        "shootType":  13,
-        "weaponType": "rod",
-        "weight": 23,
-        "description": "Icecold rays of moonlight shimmer on its tip (Atk: 20 ~ 30).",
-        
-        "level": 80,
-        "vocations": [
-		{"name":"2"}
+	"iconSize": 16,
+	"equipType": 3,
+	"numOfStyles": 1,
+	"rarity": 3,
+	"sounds": [
+		[
+			"actions/hit"
+		]
 	],
-        
-        "classification":2,
-        "imbueSlots":1
+	"bonusMagic": 2,
+	"minDamage": 44,
+	"maxDamage": 56,
+	"hitRange": 6,
+	"manaCost": 10,
+	"elementDamage": "earth",
+	"projectile": "earth-ball",
+	"shootType": 13,
+	"weaponType": "rod",
+	"weight": 23,
+	"description": "Icecold rays of moonlight shimmer on its tip (Atk: 20 ~ 30).",
+	"level": 80,
+	"vocations": [
+		{
+			"name": "2"
+		}
+	],
+	"classification": 2,
+	"imbueSlots": 1,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

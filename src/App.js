@@ -1,30 +1,44 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import React, { Suspense, lazy } from "react";
 import NavBar from "./elements/nav/navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Monsters from "./routes/monsters/monsters";
-// import Home from "./routes/home/home";
-import Items from "./routes/items/items";
-import Bosses from "./routes/bosses/bosses";
-import Updates from "./routes/updates/updates";
-import React from "react";
+import ScrollToTop from "./components/ScrollToTop";
 import { LanguageProvider } from "./contexts/LanguageContext";
+
+const Monsters = lazy(() => import("./routes/monsters/monsters"));
+const Items = lazy(() => import("./routes/items/items"));
+const Bosses = lazy(() => import("./routes/bosses/bosses"));
+const Updates = lazy(() => import("./routes/updates/updates"));
+
+function PageFallback() {
+  return (
+    <div className="container py-5 text-center" aria-busy="true" aria-live="polite">
+      <div className="spinner-border text-light" role="status">
+        <span className="visually-hidden">Carregando…</span>
+      </div>
+    </div>
+  );
+}
 
 function App() {
   return (
     <LanguageProvider>
-      <div className="body">
-        <Router>
+      <Router>
+        <ScrollToTop />
+        <div className="body">
           <NavBar />
-          <Routes>
-            <Route path="/" element={<Monsters />} />
-            <Route path="/monsters" element={<Monsters />} />
-            <Route path="/bosses" element={<Bosses />} />
-            <Route path="/items" element={<Items />} />
-            <Route path="/updates" element={<Updates />} />
-          </Routes>
-        </Router>
-      </div>
+          <Suspense fallback={<PageFallback />}>
+            <Routes>
+              <Route path="/" element={<Monsters />} />
+              <Route path="/monsters" element={<Monsters />} />
+              <Route path="/bosses" element={<Bosses />} />
+              <Route path="/items" element={<Items />} />
+              <Route path="/updates" element={<Updates />} />
+            </Routes>
+          </Suspense>
+        </div>
+      </Router>
     </LanguageProvider>
   );
 }

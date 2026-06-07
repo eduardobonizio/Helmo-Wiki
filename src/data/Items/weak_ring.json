@@ -2,7 +2,17 @@
 	"iconSize": 16,
 	"buff": true,
 	"equipType": 6,
-        "rarity": 4,
-        "level": 80,
-        "protectFire": 2
+	"rarity": 4,
+	"level": 80,
+	"protectFire": 2,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

@@ -1,25 +1,35 @@
 {
-        "iconSize": 16,
-        "equipType": 3,
-        "maxStackSize": 600,
-        "sounds": [
-                ["actions/hit"]
-        ],
-        
-        "minDamage": 60,
-        "maxDamage": 6,
-        
-        "level": 160,
-        "hitRange": 5,
-    
-        "vocations": [
-		{"name":"1"}
+	"iconSize": 16,
+	"equipType": 3,
+	"maxStackSize": 600,
+	"sounds": [
+		[
+			"actions/hit"
+		]
 	],
-        
-        "elementDamage":"physical",
-        "extraElementDamage":"fire",
-        "projectile": "assassin-star",
-        "shootType":  "smallphysical",
-        "weaponType": "star",
-        "weight": 2
+	"minDamage": 60,
+	"maxDamage": 6,
+	"level": 160,
+	"hitRange": 5,
+	"vocations": [
+		{
+			"name": "1"
+		}
+	],
+	"elementDamage": "physical",
+	"extraElementDamage": "fire",
+	"projectile": "assassin-star",
+	"shootType": "smallphysical",
+	"weaponType": "star",
+	"weight": 2,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

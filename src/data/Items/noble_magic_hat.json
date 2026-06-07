@@ -1,15 +1,28 @@
 {
-	"equipType":1,
+	"equipType": 1,
 	"defense": 4,
 	"bonusMagic": 1,
-        "rarity": 3,
-        "level": 40,
-        "protectIce":2,
-        "vocations": [
-		{"name":"2"},
-                {"name":"3"}
+	"rarity": 3,
+	"level": 40,
+	"protectIce": 2,
+	"vocations": [
+		{
+			"name": "2"
+		},
+		{
+			"name": "3"
+		}
 	],
-        
-        "classification":2,
-        "weight": 35
+	"classification": 2,
+	"weight": 35,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

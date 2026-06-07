@@ -1,18 +1,28 @@
 {
-	"equipType":10,
+	"equipType": 10,
 	"defense": 3,
-        "bonusMagic": 3,
-        "protectFire":8,
-        "protectPhysical":2, 
-        "bonusSpeed": 10,
-        "level": 600,
-        "rarity": 5,
-    
-        "vocations": [
-	    {"name":"2"}
+	"bonusMagic": 3,
+	"protectFire": 8,
+	"protectPhysical": 2,
+	"bonusSpeed": 10,
+	"level": 600,
+	"rarity": 5,
+	"vocations": [
+		{
+			"name": "2"
+		}
 	],
-        
-        "classification":4,
-        "imbueSlots":2,
-        "weight": 40
+	"classification": 4,
+	"imbueSlots": 2,
+	"weight": 40,
+	"sprite": "icon.png",
+	"spriteFrames": 4,
+	"spriteWidth": 64,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 4
 }

@@ -1,45 +1,105 @@
 {
-	"id":"orc",
-	"hittable":true,
-	"maxDirections":4,
-	"speed":30,
-	"maxHealth":120,
+	"id": "orc",
+	"hittable": true,
+	"maxDirections": 4,
+	"speed": 30,
+	"maxHealth": 120,
 	"showHealthBar": true,
-	"footstepSound":"slime",
-	"imgWidth":32,
-	"imgHeight":32,
-	"footstepOffsetX":0,
-	"footstepOffsetY":34,
-	"drawOrderOffsetY":16,
-        "offsetX":-8,
-        "offsetY":0,
-        "experience": 90,
-        "defense": 4,
-        "bestiary": 25,
-        "charm": 15,
-        "drops": [
-                 {"item":"gold", "chance": 100000, "min":40, "max":60},
-                 {"item":"thigh", "chance": 70000, "min":1, "max":2}
-        ],
-	"collisionRects":[
-		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
-		],
-	"animations":[
-		{"id":"walk", "totalRuntime":0.8, "numberOfDirections":4, "looping":true},
-		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4}
-		],
+	"footstepSound": "slime",
+	"imgWidth": 32,
+	"imgHeight": 32,
+	"footstepOffsetX": 0,
+	"footstepOffsetY": 34,
+	"drawOrderOffsetY": 16,
+	"offsetX": -8,
+	"offsetY": 0,
+	"experience": 90,
+	"defense": 4,
+	"bestiary": 25,
+	"charm": 15,
+	"drops": [
+		{
+			"item": "gold",
+			"chance": 100000,
+			"min": 40,
+			"max": 60
+		},
+		{
+			"item": "thigh",
+			"chance": 70000,
+			"min": 1,
+			"max": 2
+		}
+	],
+	"collisionRects": [
+		{
+			"name": "hit",
+			"hard": true,
+			"offsetX": 0,
+			"offsetY": 0,
+			"width": 16,
+			"height": 16
+		}
+	],
+	"animations": [
+		{
+			"id": "walk",
+			"totalRuntime": 0.8,
+			"numberOfDirections": 4,
+			"looping": true
+		},
+		{
+			"id": "default",
+			"fileName": "walk",
+			"totalRuntime": 0,
+			"numberOfDirections": 4
+		}
+	],
 	"properties": [
-		{"name":"activationZoneDistance", "type":"int"},
-		{"name":"deactivationZoneDistance", "type":"int"}
+		{
+			"name": "activationZoneDistance",
+			"type": "int"
+		},
+		{
+			"name": "deactivationZoneDistance",
+			"type": "int"
+		}
 	],
-        "attacks": [
-		{"attack":"melee", "interval":2000, "min":0, "max":50}
+	"attacks": [
+		{
+			"attack": "melee",
+			"interval": 2000,
+			"min": 0,
+			"max": 50
+		}
 	],
-        
-        "elements": [
-                {"name":"earth", "value":110},
-                {"name":"death", "value":110},
-                {"name":"energy", "value":80},
-                {"name":"holy", "value":90}
-	]
+	"elements": [
+		{
+			"name": "earth",
+			"value": 110
+		},
+		{
+			"name": "death",
+			"value": 110
+		},
+		{
+			"name": "energy",
+			"value": 80
+		},
+		{
+			"name": "holy",
+			"value": 90
+		}
+	],
+	"sprite": "walk_0.png",
+	"spriteFrames": 3,
+	"spriteWidth": 96,
+	"spriteHeight": 128,
+	"frameWidth": 32,
+	"frameHeight": 32,
+	"directions": 4,
+	"spriteMetaVersion": 1,
+	"spriteType": "monster",
+	"frameSize": 32,
+	"framesPerDirection": 3
 }

@@ -1,22 +1,30 @@
 {
-	iconSize: 16,
-	equipType: 3,
-	numOfStyles: 1,
-	
+	"iconSize": 16,
+	"equipType": 3,
+	"numOfStyles": 1,
 	"rarity": 2,
 	"defense": 15,
-
-	minDamage: 25,
-	maxDamage: 25,
-        
-	hitRange: 1,
-	level: 20,
-	sounds: [
-		["actions/hit"],
+	"minDamage": 25,
+	"maxDamage": 25,
+	"hitRange": 1,
+	"level": 20,
+	"sounds": [
+		[
+			"actions/hit"
+		]
 	],
-        
-        elementDamage:"physical",
-        weaponType:"club",
-        weight: 40,
-        description: "A masterpiece of a dwarven smith. (Atk: 5 ~ 8)."
+	"elementDamage": "physical",
+	"weaponType": "club",
+	"weight": 40,
+	"description": "A masterpiece of a dwarven smith. (Atk: 5 ~ 8).",
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

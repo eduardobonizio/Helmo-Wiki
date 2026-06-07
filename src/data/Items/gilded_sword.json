@@ -2,33 +2,42 @@
 	"iconSize": 16,
 	"equipType": 3,
 	"numOfStyles": 1,
-        
 	"minDamage": 6,
 	"maxDamage": 50,
-        "rarity": 5,
+	"rarity": 5,
 	"defense": 33,
-	"bonusMelee":3,
-        "bonusDefense":2,
-        "twoHand": true,
-        "critMultiplier": 1.2,
-        "critChance": 8,
-        "protectEnergy": 6,
-    
-        "classification":4,
-        
+	"bonusMelee": 3,
+	"bonusDefense": 2,
+	"twoHand": true,
+	"critMultiplier": 1.2,
+	"critChance": 8,
+	"protectEnergy": 6,
+	"classification": 4,
 	"hitRange": 1,
 	"sounds": [
-		["actions/hit"]
+		[
+			"actions/hit"
+		]
 	],
-        "elementDamage":"physical",
-        "extraElementDamage":"earth",
-        "weaponType":"sword",
-        "weight": "86",
-        
-        "level": 350,
-        "vocations": [
-		{"name":"0"}
+	"elementDamage": "physical",
+	"extraElementDamage": "earth",
+	"weaponType": "sword",
+	"weight": "86",
+	"level": 350,
+	"vocations": [
+		{
+			"name": "0"
+		}
 	],
-        "imbueSlots":1
-        
+	"imbueSlots": 1,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

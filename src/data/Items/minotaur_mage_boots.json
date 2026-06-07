@@ -1,14 +1,26 @@
 {
-	"equipType":10,
+	"equipType": 10,
 	"defense": 2,
-        "rarity": 3,
-    
+	"rarity": 3,
 	"bonusSpeed": 5,
-        "level": 20,
-    
-        "vocations": [
-		{"name":"2"},
-                {"name":"3"}
+	"level": 20,
+	"vocations": [
+		{
+			"name": "2"
+		},
+		{
+			"name": "3"
+		}
 	],
-        "weight": 20
+	"weight": 20,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

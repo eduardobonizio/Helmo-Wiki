@@ -1,8 +1,18 @@
 {
-	"equipType":7,
+	"equipType": 7,
 	"defense": 8,
-        "rarity": 4,
-        "protectIce":6,
-        "classification":2,
-        "weight": 20
+	"rarity": 4,
+	"protectIce": 6,
+	"classification": 2,
+	"weight": 20,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

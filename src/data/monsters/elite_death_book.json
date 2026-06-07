@@ -1,64 +1,182 @@
 {
-	"id":"elite_death_book",
-	"hittable":true,
-	"maxDirections":4,
-	"speed":80,
-	"maxHealth":88000,
+	"id": "elite_death_book",
+	"hittable": true,
+	"maxDirections": 4,
+	"speed": 80,
+	"maxHealth": 88000,
 	"showHealthBar": true,
-	"footstepSound":"slime",
-	"imgWidth":40,
-	"imgHeight":40,
-	"footstepOffsetX":0,
-	"footstepOffsetY":35,
-	"drawOrderOffsetY":33,
-        "offsetX":-10,
-        "offsetY":0,
-        "experience": 17900,
-        "defense": 42,
-        "pushable": false,
-        "bestiary": 50,
-        "charm": 50,
-        "drops": [
-                    {"item":"gold", "chance": 100000, "min":10000, "max":20000},
-                    {"item":"mysteries_book", "chance": 9600},
-                    {"item":"pretator_rod", "chance": 9600},
-                    {"item":"voodoo_wand", "chance": 9600},
-                    {"item":"boots_of_speed", "chance": 9100},
-                    {"item":"blue_robe", "chance": 9600},
-                    {"item":"blue_legs", "chance": 9600},
-                    {"item":"death_armor", "chance": 9600},
-			        {"item":"elder_potion", "chance": 200},
-			        {"item":"smart_token", "chance": 15000},
-{"item":"energy_ring", "chance": 1000}
-
-        ],
-	"collisionRects":[
-		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
-		],
-	"animations":[
-		{"id":"walk", "totalRuntime":0.5, "numberOfDirections":4, "looping":true},
-		{"id":"default", "totalRuntime":0.9, "fileName":"walk", "numberOfDirections": 4}
-		],
+	"footstepSound": "slime",
+	"imgWidth": 40,
+	"imgHeight": 40,
+	"footstepOffsetX": 0,
+	"footstepOffsetY": 35,
+	"drawOrderOffsetY": 33,
+	"offsetX": -10,
+	"offsetY": 0,
+	"experience": 17900,
+	"defense": 42,
+	"pushable": false,
+	"bestiary": 50,
+	"charm": 50,
+	"drops": [
+		{
+			"item": "gold",
+			"chance": 100000,
+			"min": 10000,
+			"max": 20000
+		},
+		{
+			"item": "mysteries_book",
+			"chance": 9600
+		},
+		{
+			"item": "pretator_rod",
+			"chance": 9600
+		},
+		{
+			"item": "voodoo_wand",
+			"chance": 9600
+		},
+		{
+			"item": "boots_of_speed",
+			"chance": 9100
+		},
+		{
+			"item": "blue_robe",
+			"chance": 9600
+		},
+		{
+			"item": "blue_legs",
+			"chance": 9600
+		},
+		{
+			"item": "death_armor",
+			"chance": 9600
+		},
+		{
+			"item": "elder_potion",
+			"chance": 200
+		},
+		{
+			"item": "smart_token",
+			"chance": 15000
+		},
+		{
+			"item": "energy_ring",
+			"chance": 1000
+		}
+	],
+	"collisionRects": [
+		{
+			"name": "hit",
+			"hard": true,
+			"offsetX": 0,
+			"offsetY": 0,
+			"width": 16,
+			"height": 16
+		}
+	],
+	"animations": [
+		{
+			"id": "walk",
+			"totalRuntime": 0.5,
+			"numberOfDirections": 4,
+			"looping": true
+		},
+		{
+			"id": "default",
+			"totalRuntime": 0.9,
+			"fileName": "walk",
+			"numberOfDirections": 4
+		}
+	],
 	"properties": [
-		{"name":"activationZoneDistance", "type":"int"},
-		{"name":"deactivationZoneDistance", "type":"int"}
+		{
+			"name": "activationZoneDistance",
+			"type": "int"
+		},
+		{
+			"name": "deactivationZoneDistance",
+			"type": "int"
+		}
 	],
-        "attacks": [
-		{"attack":"melee", "interval":2000, "min":0, "max":1300},
-                {"attack":"death", "interval":2000, "chance":50, "range":8, "min":700, "max":1200, "type":"shoot", "anim":"death-ball", "particle":37},
-                {"attack":"death", "interval":2000, "chance":10, "min":700, "max":1400, "type":"area", "particle":37,"radius":5},
-                {"attack":"death", "interval":2000, "chance":15, "min":900, "max":1750, "type":"area", "particle":37,"length":10,"spread":20,"range":12}
+	"attacks": [
+		{
+			"attack": "melee",
+			"interval": 2000,
+			"min": 0,
+			"max": 1300
+		},
+		{
+			"attack": "death",
+			"interval": 2000,
+			"chance": 50,
+			"range": 8,
+			"min": 700,
+			"max": 1200,
+			"type": "shoot",
+			"anim": "death-ball",
+			"particle": 37
+		},
+		{
+			"attack": "death",
+			"interval": 2000,
+			"chance": 10,
+			"min": 700,
+			"max": 1400,
+			"type": "area",
+			"particle": 37,
+			"radius": 5
+		},
+		{
+			"attack": "death",
+			"interval": 2000,
+			"chance": 15,
+			"min": 900,
+			"max": 1750,
+			"type": "area",
+			"particle": 37,
+			"length": 10,
+			"spread": 20,
+			"range": 12
+		}
 	],
-        "defenses": [
-		{"name":"healing", "interval":8000, "chance": 30, "min":100, "max":400}
+	"defenses": [
+		{
+			"name": "healing",
+			"interval": 8000,
+			"chance": 30,
+			"min": 100,
+			"max": 400
+		}
 	],
-        "elements": [
-                {"name":"holy", "value":125}
+	"elements": [
+		{
+			"name": "holy",
+			"value": 125
+		}
 	],
-        "immunities": [
-		{"name":"death", "value":1}
+	"immunities": [
+		{
+			"name": "death",
+			"value": 1
+		}
 	],
-        "hards": [
-		{"name":"fire", "value":1}
-	]
+	"hards": [
+		{
+			"name": "fire",
+			"value": 1
+		}
+	],
+	"sprite": "walk_0.png",
+	"spriteFrames": 3,
+	"spriteWidth": 120,
+	"spriteHeight": 160,
+	"frameWidth": 40,
+	"frameHeight": 40,
+	"directions": 4,
+	"spriteMetaVersion": 1,
+	"spriteType": "monster",
+	"frameSize": 40,
+	"framesPerDirection": 3
 }

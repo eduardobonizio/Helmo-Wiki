@@ -1,8 +1,18 @@
 {
 	"iconSize": 16,
 	"equipType": -1,
-        "tool": true,
-        "rarity": 5,
-        "weight": 1,
-        "description": "Contains a trailblazer outfit."
+	"tool": true,
+	"rarity": 5,
+	"weight": 1,
+	"description": "Contains a trailblazer outfit.",
+	"sprite": "icon.png",
+	"spriteFrames": 4,
+	"spriteWidth": 64,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 4
 }

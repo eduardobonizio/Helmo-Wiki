@@ -1,10 +1,18 @@
 {
-      "equipType":7,
-      "defense": 9,
-      "rarity": 5,
-    
-      "protectFire":5,
-    
-      "classification":4,
-      "weight": 60
+	"equipType": 7,
+	"defense": 9,
+	"rarity": 5,
+	"protectFire": 5,
+	"classification": 4,
+	"weight": 60,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

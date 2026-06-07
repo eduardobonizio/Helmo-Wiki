@@ -4,31 +4,39 @@
 	"numOfStyles": 1,
 	"rarity": 5,
 	"defense": 20,
-	"bonusMelee":3,
-	"bonusDefense":2,
-    
-        "critMultiplier": 1.2,
-        "critChance": 10,
-        
+	"bonusMelee": 3,
+	"bonusDefense": 2,
+	"critMultiplier": 1.2,
+	"critChance": 10,
 	"minDamage": 10,
 	"maxDamage": 42,
-        
 	"hitRange": 1,
 	"sounds": [
-		["actions/hit"]
+		[
+			"actions/hit"
+		]
 	],
-        "elementDamage":"physical",
-        "extraElementDamage":"ice",
-        "weaponType":"sword",
-        "weight": 60,
-        "description": "A masterpiece of a dwarven smith. (Atk: 150 ~ 300).",
-        
-        "level": 180,
-        "vocations": [
-		{"name":"0"}
+	"elementDamage": "physical",
+	"extraElementDamage": "ice",
+	"weaponType": "sword",
+	"weight": 60,
+	"description": "A masterpiece of a dwarven smith. (Atk: 150 ~ 300).",
+	"level": 180,
+	"vocations": [
+		{
+			"name": "0"
+		}
 	],
-        
-        "classification":4,
-        "imbueSlots":1
-        
+	"classification": 4,
+	"imbueSlots": 1,
+	"sprite": "icon.png",
+	"spriteFrames": 7,
+	"spriteWidth": 112,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 7
 }

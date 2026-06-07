@@ -1,12 +1,24 @@
 {
-	"equipType":8,
-        "container": true,
-        "capacity": 3,
-        "defense": 1,
+	"equipType": 8,
+	"container": true,
+	"capacity": 3,
+	"defense": 1,
 	"level": 20,
-        "weaponType":"quiver",
-        "vocations": [
-		{"name":"1"}
+	"weaponType": "quiver",
+	"vocations": [
+		{
+			"name": "1"
+		}
 	],
-        "weight": 5
+	"weight": 5,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

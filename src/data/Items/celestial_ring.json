@@ -2,17 +2,22 @@
 	"iconSize": 16,
 	"buff": true,
 	"equipType": 6,
-        
-        "defense": 2,
-        
-        "level": 400,
-        "rarity": 5,
-
-        "bonusMelee":3,
-        
-        "protectFire": 4,
-        "protectEnergy": 4,
-        "protectIce": 4,
-
-        "weight": 5
+	"defense": 2,
+	"level": 400,
+	"rarity": 5,
+	"bonusMelee": 3,
+	"protectFire": 4,
+	"protectEnergy": 4,
+	"protectIce": 4,
+	"weight": 5,
+	"sprite": "icon.png",
+	"spriteFrames": 6,
+	"spriteWidth": 96,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 6
 }

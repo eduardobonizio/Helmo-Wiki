@@ -1,15 +1,27 @@
 {
-	"equipType":8,
+	"equipType": 8,
 	"capacity": 9,
-        "container": true,
-        "bonusDistance":3,
-        "protectEarth": 6,
+	"container": true,
+	"bonusDistance": 3,
+	"protectEarth": 6,
 	"defense": 3,
-        "level": 300,
-        "rarity": 5,
-        "weaponType":"quiver",
-        "vocations": [
-		{"name":"1"}
+	"level": 300,
+	"rarity": 5,
+	"weaponType": "quiver",
+	"vocations": [
+		{
+			"name": "1"
+		}
 	],
-        "weight": 30
+	"weight": 30,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

@@ -1,16 +1,24 @@
 {
-	"equipType":7,
+	"equipType": 7,
 	"defense": 7,
-    
-        "rarity": 2,
-    
-        "level": 40,
-        "protectPhysical":3,
-    
-        "vocations": [
-                {"name":"1"}
+	"rarity": 2,
+	"level": 40,
+	"protectPhysical": 3,
+	"vocations": [
+		{
+			"name": "1"
+		}
 	],
-    
-        "classification":2,
-        "weight": 45
+	"classification": 2,
+	"weight": 45,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

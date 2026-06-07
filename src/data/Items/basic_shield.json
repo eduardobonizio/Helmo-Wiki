@@ -1,5 +1,15 @@
 {
-	"equipType":5,
+	"equipType": 5,
 	"defense": 5,
-        "weight": 5
+	"weight": 5,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

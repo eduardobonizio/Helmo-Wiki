@@ -4,29 +4,37 @@
 	"numOfStyles": 1,
 	"rarity": 5,
 	"defense": 34,
-	"bonusMelee":5,
-    
-        "classification":4,
-        "protectEarth":10,
-    
-        "critMultiplier": 1.3,
-        "critChance": 15,
-        
+	"bonusMelee": 5,
+	"classification": 4,
+	"protectEarth": 10,
+	"critMultiplier": 1.3,
+	"critChance": 15,
 	"minDamage": 58,
 	"maxDamage": 58,
-        
 	"hitRange": 1,
 	"sounds": [
-		["actions/hit"]
+		[
+			"actions/hit"
+		]
 	],
-        "elementDamage":"physical",
-        "weaponType":"sword",
-        "weight": 82,
-        
-        "level": 400,
-        "vocations": [
-		{"name":"0"}
+	"elementDamage": "physical",
+	"weaponType": "sword",
+	"weight": 82,
+	"level": 400,
+	"vocations": [
+		{
+			"name": "0"
+		}
 	],
-        "imbueSlots":2
-        
+	"imbueSlots": 2,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

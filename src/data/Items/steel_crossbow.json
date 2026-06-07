@@ -1,29 +1,37 @@
 {
-        iconSize: 16,
-        equipType: 3,
-        numOfStyles: 1,
-        "rarity": 5, 
-        "twoHand": true,
-    
-        "classification":1,
-    
-        minDamage: 8,
-        "rarity": 4,
-		"bonusDistance": 1,
-        sounds: [
-                ["actions/hit"],
-        ],
-        
-        "critMultiplier": 1.1,
-        "critChance": 4,
-        "hitRange": 6,
-        "level": 40,
-        
-        "weaponType": "cross",
-        "weight": 60,
-        
-        "vocations": [
-		{"name":"1"}
+	"iconSize": 16,
+	"equipType": 3,
+	"numOfStyles": 1,
+	"rarity": 4,
+	"twoHand": true,
+	"classification": 1,
+	"minDamage": 8,
+	"bonusDistance": 1,
+	"sounds": [
+		[
+			"actions/hit"
+		]
 	],
-        "imbueSlots":2
+	"critMultiplier": 1.1,
+	"critChance": 4,
+	"hitRange": 6,
+	"level": 40,
+	"weaponType": "cross",
+	"weight": 60,
+	"vocations": [
+		{
+			"name": "1"
+		}
+	],
+	"imbueSlots": 2,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

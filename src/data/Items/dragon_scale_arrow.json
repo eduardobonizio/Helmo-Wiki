@@ -1,21 +1,29 @@
 {
-        iconSize: 16,
-        equipType: 8,
-        maxStackSize: 400,
-        
-        sounds: [
-                ["actions/hit"],
-        ],
-        
-        minDamage: 20,
-        maxDamage: 20,
-        
-        level: 60,
-        
-        elementDamage:"fire",
-        projectile: "dragon-scale-arrow",
-        shootType:  "smallphysical",
-        weaponType: "arrow",
-        "weight": 0.8,
-        description: "Dragon Scale arrow (Atk: 90 ~ 320)."
+	"iconSize": 16,
+	"equipType": 8,
+	"maxStackSize": 400,
+	"sounds": [
+		[
+			"actions/hit"
+		]
+	],
+	"minDamage": 20,
+	"maxDamage": 20,
+	"level": 60,
+	"elementDamage": "fire",
+	"projectile": "dragon-scale-arrow",
+	"shootType": "smallphysical",
+	"weaponType": "arrow",
+	"weight": 0.8,
+	"description": "Dragon Scale arrow (Atk: 90 ~ 320).",
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

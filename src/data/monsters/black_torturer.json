@@ -1,60 +1,169 @@
 {
-	"id":"black_torturer",
-	"hittable":true,
-	"maxDirections":4,
-	"speed":80,
-	"maxHealth":12000,
+	"id": "black_torturer",
+	"hittable": true,
+	"maxDirections": 4,
+	"speed": 80,
+	"maxHealth": 12000,
 	"showHealthBar": true,
-	"footstepSound":"slime",
-	"imgWidth":64,
-	"imgHeight":64,
-	"footstepOffsetX":0,
-	"footstepOffsetY":50,
-	"drawOrderOffsetY":50,
-        "offsetX":-16,
-        "offsetY":0,
-        "experience": 9900,
-        "defense": 30,
-        "pushable": false,
-        "bestiary": 70,
-        "charm": 50,
-        "drops": [
-                    {"item":"gold", "chance": 100000, "min":200, "max":1100},
-                    {"item":"assassin_star", "chance": 10000, "min":1, "max":10},
-                    {"item":"death_armor", "chance": 1000},
-                    {"item":"control_book", "chance": 1000},
-                    {"item":"holy_helmet", "chance": 1000},
-                    {"item":"demon_shield", "chance": 1000},
-                    {"item":"ruby_necklace", "chance": 1000},
-                    {"item":"boots_of_speed", "chance": 600},
-                    {"item":"royal_axe", "chance": 1000},
-                    {"item":"fire_axe", "chance": 1000},
-                    {"item":"breast_clip", "chance": 100},
-                    {"item":"golden_legs", "chance": 20},
-                    {"item":"soul_essence", "chance": 300}
-        ],
-	"collisionRects":[
-		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
-		],
-	"animations":[
-		{"id":"walk", "totalRuntime":0.4, "numberOfDirections":4},
-		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4}
-		],
+	"footstepSound": "slime",
+	"imgWidth": 64,
+	"imgHeight": 64,
+	"footstepOffsetX": 0,
+	"footstepOffsetY": 50,
+	"drawOrderOffsetY": 50,
+	"offsetX": -16,
+	"offsetY": 0,
+	"experience": 9900,
+	"defense": 30,
+	"pushable": false,
+	"bestiary": 70,
+	"charm": 50,
+	"drops": [
+		{
+			"item": "gold",
+			"chance": 100000,
+			"min": 200,
+			"max": 1100
+		},
+		{
+			"item": "assassin_star",
+			"chance": 10000,
+			"min": 1,
+			"max": 10
+		},
+		{
+			"item": "death_armor",
+			"chance": 1000
+		},
+		{
+			"item": "control_book",
+			"chance": 1000
+		},
+		{
+			"item": "holy_helmet",
+			"chance": 1000
+		},
+		{
+			"item": "demon_shield",
+			"chance": 1000
+		},
+		{
+			"item": "ruby_necklace",
+			"chance": 1000
+		},
+		{
+			"item": "boots_of_speed",
+			"chance": 600
+		},
+		{
+			"item": "royal_axe",
+			"chance": 1000
+		},
+		{
+			"item": "fire_axe",
+			"chance": 1000
+		},
+		{
+			"item": "breast_clip",
+			"chance": 100
+		},
+		{
+			"item": "golden_legs",
+			"chance": 20
+		},
+		{
+			"item": "soul_essence",
+			"chance": 300
+		}
+	],
+	"collisionRects": [
+		{
+			"name": "hit",
+			"hard": true,
+			"offsetX": 0,
+			"offsetY": 0,
+			"width": 16,
+			"height": 16
+		}
+	],
+	"animations": [
+		{
+			"id": "walk",
+			"totalRuntime": 0.4,
+			"numberOfDirections": 4
+		},
+		{
+			"id": "default",
+			"fileName": "walk",
+			"totalRuntime": 0,
+			"numberOfDirections": 4
+		}
+	],
 	"properties": [
-		{"name":"activationZoneDistance", "type":"int"},
-		{"name":"deactivationZoneDistance", "type":"int"}
+		{
+			"name": "activationZoneDistance",
+			"type": "int"
+		},
+		{
+			"name": "deactivationZoneDistance",
+			"type": "int"
+		}
 	],
-        "attacks": [
-                {"attack":"melee", "interval":2000, "min":0, "max":1080},
-                {"attack":"physical", "interval":2000, "chance":100, "range":8, "min":100, "max":1100, "type":"shoot", "anim":"death-ball", "particle":5}
+	"attacks": [
+		{
+			"attack": "melee",
+			"interval": 2000,
+			"min": 0,
+			"max": 1080
+		},
+		{
+			"attack": "physical",
+			"interval": 2000,
+			"chance": 100,
+			"range": 8,
+			"min": 100,
+			"max": 1100,
+			"type": "shoot",
+			"anim": "death-ball",
+			"particle": 5
+		}
 	],
-        "elements": [
-                {"name":"earth", "value":50},
-                {"name":"fire", "value":50},
-                {"name":"physical", "value":115},
-                {"name":"death", "value":90}
+	"elements": [
+		{
+			"name": "earth",
+			"value": 50
+		},
+		{
+			"name": "fire",
+			"value": 50
+		},
+		{
+			"name": "physical",
+			"value": 115
+		},
+		{
+			"name": "death",
+			"value": 90
+		}
 	],
-        "defenses": [
-		{"name":"healing", "interval":2000, "chance": 10, "min":160, "max":240}
-	]
+	"defenses": [
+		{
+			"name": "healing",
+			"interval": 2000,
+			"chance": 10,
+			"min": 160,
+			"max": 240
+		}
+	],
+	"sprite": "walk_0.png",
+	"spriteFrames": 4,
+	"spriteWidth": 256,
+	"spriteHeight": 256,
+	"frameWidth": 64,
+	"frameHeight": 64,
+	"directions": 4,
+	"spriteMetaVersion": 1,
+	"spriteType": "monster",
+	"frameSize": 64,
+	"framesPerDirection": 4
 }

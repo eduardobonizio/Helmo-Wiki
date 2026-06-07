@@ -2,8 +2,18 @@
 	"iconSize": 16,
 	"buff": true,
 	"equipType": 9,
-        "rarity": 5,
-        "bonusMagic":1,
-        "protectEarth": 5,
-        "weight": 10
+	"rarity": 5,
+	"bonusMagic": 1,
+	"protectEarth": 5,
+	"weight": 10,
+	"sprite": "icon.png",
+	"spriteFrames": 9,
+	"spriteWidth": 144,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 9
 }

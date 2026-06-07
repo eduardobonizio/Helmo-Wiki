@@ -1,49 +1,118 @@
 {
-	"id":"slime",
-	"hittable":true,
-	"maxDirections":4,
-	"speed":25,
-	"maxHealth":180,
+	"id": "slime",
+	"hittable": true,
+	"maxDirections": 4,
+	"speed": 25,
+	"maxHealth": 180,
 	"showHealthBar": true,
-        "deathParticle": 44,
-	"footstepSound":"slime",
-	"imgWidth":16,
-	"imgHeight":32,
-	"footstepOffsetX":0,
-	"footstepOffsetY":16,
-	"drawOrderOffsetY":16,
-        "experience": 160,
-        "defense": 50,
-        "bestiary": 20,
-        "charm": 5,
-        "drops": [
-                {"item":"gold", "chance": 100000, "min":15, "max":35},
-                {"item":"earth_crystal", "chance": 2000},
-                {"item":"poisonous_slime", "chance": 500}
-        ],
-	"collisionRects":[
-		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
+	"deathParticle": 44,
+	"footstepSound": "slime",
+	"imgWidth": 16,
+	"imgHeight": 32,
+	"footstepOffsetX": 0,
+	"footstepOffsetY": 16,
+	"drawOrderOffsetY": 16,
+	"experience": 160,
+	"defense": 50,
+	"bestiary": 20,
+	"charm": 5,
+	"drops": [
+		{
+			"item": "gold",
+			"chance": 100000,
+			"min": 15,
+			"max": 35
+		},
+		{
+			"item": "earth_crystal",
+			"chance": 2000
+		},
+		{
+			"item": "poisonous_slime",
+			"chance": 500
+		}
 	],
-	"animations":[
-		{"id":"walk", "totalRuntime":0.7, "numberOfDirections":4, "looping":true},
-		{"id":"default", "fileName":"walk", "totalRuntime":0.9, "numberOfDirections": 4, "looping": true}
-        ],
+	"collisionRects": [
+		{
+			"name": "hit",
+			"hard": true,
+			"offsetX": 0,
+			"offsetY": 0,
+			"width": 16,
+			"height": 16
+		}
+	],
+	"animations": [
+		{
+			"id": "walk",
+			"totalRuntime": 0.7,
+			"numberOfDirections": 4,
+			"looping": true
+		},
+		{
+			"id": "default",
+			"fileName": "walk",
+			"totalRuntime": 0.9,
+			"numberOfDirections": 4,
+			"looping": true
+		}
+	],
 	"properties": [
-		{"name":"activationZoneDistance", "type":"int"},
-		{"name":"deactivationZoneDistance", "type":"int"}
+		{
+			"name": "activationZoneDistance",
+			"type": "int"
+		},
+		{
+			"name": "deactivationZoneDistance",
+			"type": "int"
+		}
 	],
-        "attacks": [
-		{"attack":"melee", "interval":2000, "min":0, "max":60}
+	"attacks": [
+		{
+			"attack": "melee",
+			"interval": 2000,
+			"min": 0,
+			"max": 60
+		}
 	],
-        "defenses": [
-		{"name":"healing", "interval":2000, "chance": 20, "min":10, "max":35}
+	"defenses": [
+		{
+			"name": "healing",
+			"interval": 2000,
+			"chance": 20,
+			"min": 10,
+			"max": 35
+		}
 	],
-        "elements": [
-		{"name":"ice", "value":80},
-                {"name":"energy", "value":110},
-                {"name":"fire", "value":110}
+	"elements": [
+		{
+			"name": "ice",
+			"value": 80
+		},
+		{
+			"name": "energy",
+			"value": 110
+		},
+		{
+			"name": "fire",
+			"value": 110
+		}
 	],
-        "immunities": [
-		{"name":"earth", "value":1}
-	]
+	"immunities": [
+		{
+			"name": "earth",
+			"value": 1
+		}
+	],
+	"sprite": "walk_0.png",
+	"spriteFrames": 3,
+	"spriteWidth": 48,
+	"spriteHeight": 128,
+	"frameWidth": 16,
+	"frameHeight": 32,
+	"directions": 4,
+	"spriteMetaVersion": 1,
+	"spriteType": "monster",
+	"frameSize": 32,
+	"framesPerDirection": 3
 }

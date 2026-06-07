@@ -1,5 +1,259 @@
 [
   {
+    "date": "07/06/2026",
+    "time": "02:30",
+    "changes": [
+      "Removidos 66 arquivos download.gif de public/items/<name>/ (nao eram usados pelo codigo, otimos candidatos para limpeza)",
+      "Removidas 573 imagens duplicadas em sub-folders public/items/<name>/<name>/ (redundancia do APK, inner sempre unused)",
+      "Removidos 539 sub-folders vazios que sobraram apos limpeza",
+      "Removidos 5 arquivos duplicados same-item (icon.png == roll_0.png em body, face1, hair1; use_0.png == walk_0.png em boots_basic; default_0.png == icon.png em dragon_scale_armor)",
+      "Removidas 17 copias de backup (*Copia*.png, *old.png, *iconold*.png) que eram so lixos",
+      "Total: 662 arquivos removidos (~2.0 MB liberados), 539 pastas vazias removidas",
+      "36 grupos de duplicatas cross-item NAO foram tocados (ex: gold e golden_band com mesmo icone, 8 furs compartilham icone, 4 library_keys compartilham icones com 4 chaves de dungeon) - provavelmente intencionais no design do jogo"
+    ]
+  },
+  {
+    "date": "07/06/2026",
+    "time": "02:00",
+    "changes": [
+      "Removidos 169 arquivos walk.gif de public/monsters/<name>/ (nao sao mais usados - abordagem GIF foi descartada)",
+      "Espaco liberado: ~1.9 MB de arquivos binarios removidos do repositorio",
+      "Duracao da animacao de monstros aumentada de 1.5s para 2.4s (60% mais lento) - ciclo de 12 frames agora roda a 5 fps em vez de 8 fps",
+      "routes/monsters/monsters.jsx e routes/bosses/bosses.jsx atualizados com duration='2.4s'",
+      "Caminho /monsters/<name>/walk.gif nao e mais requisitado pelo codigo - GifSprite foi removido do SpriteImage no fix anterior"
+    ]
+  },
+  {
+    "date": "07/06/2026",
+    "time": "01:45",
+    "changes": [
+      "SpriteImage agora suporta frames retangulares (frameWidth != frameHeight) via props frameWidth e frameHeight separados",
+      "Canvas atualizado para usar fw e fh independentes no drawImage: ctx.drawImage(img, col*fw, row*fh, fw, fh, 0, 0, fw, fh)",
+      "Canvas internal dimensions = fw x fh (nao mais forcado a quadrado), display = fw x fh com maxWidth/maxHeight do route como cap",
+      "imageSmoothingEnabled = false mantido para pixel art crisp quando o canvas e escalado pelo CSS (maxWidth)",
+      "Fallback automatico: se frameWidth/frameHeight nao forem passados, usa frameSize para ambos (mantem compat com monstros de frames quadrados)",
+      "Removida abordagem anterior com useGif/walk.gif - nao era viavel porque exigiria gerar GIFs manualmente a cada atualizacao do APK",
+      "28 monstros com frames retangulares tiveram framesPerDirection corrigidos para o valor real (spriteWidth / frameWidth):",
+      "  - amenhotep: 3 -> 4",
+      "  - ancient_scarab: 5 -> 4",
+      "  - behebull: 3 -> 4",
+      "  - blue_djinn: 3 -> 4",
+      "  - demon_skeleton: 2 -> 4",
+      "  - elite_djinn: 3 -> 4",
+      "  - ghost_skull: 2 -> 3",
+      "  - goblin: 2 -> 3",
+      "  - goblin_archer: 2 -> 3",
+      "  - goblin_guard: 2 -> 3",
+      "  - green_djinn: 3 -> 4",
+      "  - ice_skeleton: 2 -> 4",
+      "  - minotaur: 2 -> 3",
+      "  - minotaur_mage: 2 -> 3",
+      "  - mummy: 3 -> 4",
+      "  - mutated_slime: 2 -> 3",
+      "  - mystic_esganed: 5 -> 4",
+      "  - necromancer: 3 -> 4",
+      "  - night_mare_hand: 2 -> 3",
+      "  - nomad: 3 -> 4",
+      "  - rot_worm: 2 -> 3",
+      "  - rotting_mummy: 3 -> 4",
+      "  - scarab: 5 -> 4",
+      "  - skeleton: 2 -> 4",
+      "  - slime: 2 -> 3",
+      "  - spider: 2 -> 3",
+      "  - the_trinch: 3 -> 4",
+      "  - zombie: 2 -> 4",
+      "Outros 6 monstros retangulares ja tinham framesPerDirection correto: falcon_archer (3), falcon_warrior (3), furmeros (3), gothan (4), grand_gladir_falcon (3), grand_master_falcon (3)",
+      "Removido width/height forcados de monsters.jsx e bosses.jsx (estava forçando 64x64 ou 72x72, distorcendo monstros retangulares) - agora usa so maxWidth/maxHeight que preserva aspect ratio",
+      "routes/monsters/monsters.jsx e routes/bosses/bosses.jsx passam frameWidth={monster.frameWidth} e frameHeight={monster.frameHeight} para SpriteImage",
+      "Duracao da animacao de monstros mantida em 1.5s (aumento do fix anterior)",
+      "Bug raiz: metadados antigos usavam frameSize = frameHeight para monstros retangulares, fazendo spriteWidth/frameSize dar numero nao-inteiro. Isso fazia o canvas 'deslizar' lateralmente pelos frames reais, mostrando fragmentos em vez de frames completos"
+    ],
+    "updatedMonsters": [
+      "Amenhotep", "Ancient Scarab", "Behebull", "Blue Djinn", "Demon Skeleton",
+      "Elite Djinn", "Ghost Skull", "Goblin", "Goblin Archer", "Goblin Guard",
+      "Green Djinn", "Ice Skeleton", "Minotaur", "Minotaur Mage", "Mummy",
+      "Mutated Slime", "Mystic Esganed", "Necromancer", "Nightmare Hand", "Nomad",
+      "Rot Worm", "Rotting Mummy", "Scarab", "Skeleton", "Slime", "Spider",
+      "The Trinch", "Zombie"
+    ]
+  },
+  {
+    "date": "07/06/2026",
+    "time": "00:40",
+    "changes": [
+      "Monstros agora animam CICLANDO POR TODAS AS LINHAS (4 direcoes) sequencialmente",
+      "Adicionado prop cycleAll ao SpriteCanvas - quando true, itera por rows*cols frames (cada linha inteira antes de passar para a proxima)",
+      "ITENS NAO FORAM ALTERADOS - continuam animando dentro de uma unica linha (frames horizontais)",
+      "Para monstro 4x4: ordem de animacao = (0,0)(0,1)(0,2)(0,3)(1,0)(1,1)(1,2)(1,3)(2,0)...(3,3) -> loop",
+      "Para monstro 3x2: ordem = (0,0)(0,1)(1,0)(1,1)(2,0)(2,1) -> loop",
+      "Total de frames = rows * cols; cada frame visivel por duration / (rows*cols) segundos",
+      "frameRef.current % totalFrames garante loop infinito, sourceX/sourceY calculados a partir do indice",
+      "Suporta qualquer combinacao de linhas/colunas (varia por monstro)"
+    ]
+  },
+  {
+    "date": "07/06/2026",
+    "time": "00:20",
+    "changes": [
+      "REESCRITA RADICAL: SpriteImage agora usa <canvas> em vez de CSS/transform/background-image",
+      "Abordagens anteriores (background-image, <img>+transform, <img>+position:absolute) nao funcionavam por conflitos com CSS do Bootstrap/flex/grid",
+      "<canvas> e 100% deterministico: tem area de desenho EXATAMENTE 1 frame (16x16), impossivel mostrar mais que isso",
+      "JavaScript carrega a spritesheet como Image object, desenha 1 frame por vez via ctx.drawImage(img, frameX, frameY, fs, fs, 0, 0, fs, fs)",
+      "Animacao via setInterval trocando o indice do frame - N passos discretos, duracao exata por frame",
+      "imageSmoothingEnabled = false garante pixel art crisp (sem blur bilinear)",
+      "crossOrigin = anonymous para compatibilidade com Vercel Image Optimization",
+      "Cleanup correto: clearInterval no unmount, remove event listeners",
+      "Estado loaded controla render - so desenha depois que imagem carrega (evita canvas em branco)",
+      "Keyframes spriteWalkItem/spriteWalkMonster removidos do index.css (nao sao mais usados)"
+    ]
+  },
+  {
+    "date": "07/06/2026",
+    "time": "00:05",
+    "changes": [
+      "CORRECAO DEFINITIVA: <img> agora usa position:absolute dentro de wrapper com position:relative",
+      "Problema anterior: <img> block-level com width explicito ainda era afetado por max-width:100% do Bootstrap e layout flex",
+      "position:absolute na <img> garante que ela seja posicionada em relacao APENAS ao wrapper (containing block)",
+      "Wrapper com position:relative + overflow:hidden cria um contexto de formatacao isolado que NAO pode ser afetado por flex/grid parents",
+      "max-width:none na <img> sobrescreve explicitamente qualquer max-width herdado (Bootstrap aplica max-width:100% em imagens)",
+      "width e height tambem setados como atributos HTML (nao so CSS) para garantir tamanho mesmo se CSS falhar",
+      "display:block explicito no wrapper previne que algum CSS framework o torne inline",
+      "Agora <img> de 3 frames (48px de largura) fica CLIPPED em wrapper de 16px - so 1 frame visivel por vez"
+    ]
+  },
+  {
+    "date": "06/06/2026",
+    "time": "23:55",
+    "changes": [
+      "REESCRITA COMPLETA do SpriteImage: abandonada abordagem background-image em favor de wrapper div + <img> + transform: translate",
+      "Problema: background-image + background-size em alguns contextos (flex children) nao aplicava overflow:hidden corretamente, mostrando spritesheet inteira lado a lado",
+      "Nova abordagem: wrapper div com width/height = 1 frame + overflow:hidden + flex-shrink:0 + line-height:0",
+      "Imagem interna <img> com width = N*frameSize (spritesheet completa) e height = frameSize",
+      "Animacao via transform: translateX(0 -> -N*frameSize) com steps(N) - GPU acelerada, sem ambiguity de background-size",
+      "steps(N) em 0 -> -N*frameSize produz N estagios de exatamente frameSize pixels cada (frames discretos)",
+      "Para Sanguine Axe (96x16, 6 frames): translateX 0, -16, -32, -48, -64, -80 (cada frame por 1/6 da duracao)",
+      "MonsterSprite tambem usa transform: translate(X, Y) - X para frame, Y para direcao travada em -direction*frameSize",
+      "lineHeight: 0 no wrapper evita espaco extra abaixo do <img> (baseline alignment de inline elements)"
+    ]
+  },
+  {
+    "date": "06/06/2026",
+    "time": "23:45",
+    "changes": [
+      "CORRECAO CRITICA da formula de animacao: endX mudado de -(N-1)*frameSize para -N*frameSize",
+      "Formula anterior causava efeito letreiro (slide): steps(6) em 0 ate -80 produzia 6 estagios de 13.33px (nao alinhados com 16px dos frames)",
+      "Formula correta: steps(N) em 0 ate -N*frameSize (=-largura_total) produz N estagios de exatamente frameSize pixels cada",
+      "Para Sanguine Axe (96x16, 6 frames): positions 0, -16, -32, -48, -64, -80 - cada frame visivel por 1/6 da duracao",
+      "Para Albino Dragon (192x192, 4 frames por direcao): positions 0, -48, -96, -144 - cada frame visivel por 1/4 da duracao",
+      "Posicao final -N*frameSize fica instantanea no loop (area fora da imagem, nao visivel)",
+      "ItemSprite: backgroundSize explicito '(N*fs)px fs' em vez de 'auto 100%' (mesma abordagem do MonsterSprite)",
+      "ItemSprite: keyframe spriteWalkItem agora usa background-position completo (consistente com spriteWalkMonster)"
+    ]
+  },
+  {
+    "date": "06/06/2026",
+    "time": "23:30",
+    "changes": [
+      "Separacao total entre ITENS e MONSTROS no SpriteImage (duas funcoes internas dedicadas)",
+      "ItemSprite: usa backgroundSize 'auto 100%' (altura estica 100% do container, largura proporcional)",
+      "ItemSprite: keyframe spriteWalkItem anima SOMENTE background-position-x (de 0 ate -(frames-1)*frameSize)",
+      "MonsterSprite: usa backgroundSize '(cols*fs)px (dirs*fs)px' (matriz completa renderizada)",
+      "MonsterSprite: keyframe spriteWalkMonster anima X e mantem Y travado em -direction*frameSize",
+      "Dois @keyframes separados em index.css (spriteWalkItem e spriteWalkMonster) para evitar interpolacao cruzada",
+      "steps(N) com N = total de frames (item) ou framesPerDirection (monstro) garante N estagios discretos sem slide",
+      "Animacao corrigida: items agora PULAM entre frames discretos (como Tibia classico) em vez de deslizar como letreiro"
+    ]
+  },
+  {
+    "date": "06/06/2026",
+    "time": "23:10",
+    "changes": [
+      "Refatoracao completa do sistema de Spritesheets separando ITENS vs MONSTROS",
+      "ITENS: frameSize = height, frames = width / frameSize (1 linha horizontal)",
+      "MONSTROS: frameSize = height / 4, framesPerDirection = width / frameSize, directions = 4 (matriz 4xN)",
+      "Direcoes dos monstros: 0=Sul, 1=Norte, 2=Leste, 3=Oeste (ordem das linhas no PNG)",
+      "JSON dos monstros agora usa framesPerDirection/directions/frameSize (chaves renomeadas)",
+      "JSON dos itens usa frames/frameSize (mais simples)",
+      "SpriteImage aceita prop direction (0-3) e prop frames (itens) ou framesPerDirection (monstros)",
+      "Formula de animacao X corrigida para -(cols-1)*frameSize (mostra N frames distintos, sem corte)",
+      "backgroundSize do container = (cols*frameSize) x (directions*frameSize) - tamanho total da spritesheet",
+      "backgroundPosition-y = -direction*frameSize trava na linha da direcao selecionada",
+      "aria-label inclui o nome da direcao (ex: 'Albino Dragon (Sul)') para acessibilidade",
+      "Section 4.1 do agents.md reescrita com as duas categorias bem definidas"
+    ]
+  },
+  {
+    "date": "06/06/2026",
+    "time": "22:55",
+    "changes": [
+      "Sincronizacao automatica de spritesheets (PNG) do APK",
+      "0 sprite(s) de itens e 0 de monstros foram copiadas para public/",
+      "246 sprite(s) sao spritesheets reais (multiplos frames)",
+      "Metadados de sprite (sprite, spriteFrames, spriteWidth, spriteHeight, frameWidth, frameHeight) foram injetados nos JSONs em src/data/",
+      "2 monstro(s) novo(s) no APK sem JSON: undead_bull, white_wanderers"
+    ],
+    "updatedMonsters": [
+      "Undead Bull",
+      "White Wanderers"
+    ]
+  },
+  {
+    "date": "06/06/2026",
+    "time": "22:55",
+    "changes": [
+      "Correcao do efeito projetor do SpriteImage (sprite masking)",
+      "Container passa a ter width/height de 1 frame (frameWidth x frameHeight) com overflow: hidden",
+      "backgroundSize agora e (cols*frameWidth) x (directions*frameHeight) - a imagem e renderizada no tamanho total da spritesheet",
+      "Animacao move backgroundPosition-x de 0 ate -(cols-1)*frameWidth (mostra N frames distintos via steps(N))",
+      "backgroundPosition-y fica fixo em -(direction*frameHeight) para selecionar a linha da direcao (down/left/right/up)",
+      "Keyframe spriteWalk agora usa duas variaveis CSS: --sprite-end-x (deslocamento X final) e --sprite-y (linha selecionada)",
+      "Prop directions (n de linhas da spritesheet) e propagada de monsters.jsx, bosses.jsx para SpriteImage"
+    ]
+  },
+  {
+    "date": "06/06/2026",
+    "time": "22:35",
+    "changes": [
+      "Implementacao do sistema de Spritesheets animados via CSS (substitui os antigos walk.gif)",
+      "Adicao do componente SpriteImage (src/components/SpriteImage.js) que renderiza PNGs spritesheet com animacao steps() nativa",
+      "Adicao do @keyframes spriteWalk no src/index.css (animacao de background-position)",
+      "Atualizacao do scripts/sync.js para detectar e processar spritesheets automaticamente usando a biblioteca sharp",
+      "Deteccao automatica de frames: itens = width/16 (sempre 16x16 por frame), monstros = width/imgWidth por direcao, directions = height/imgHeight",
+      "Injecao de metadados de sprite (sprite, spriteFrames, spriteWidth, spriteHeight, frameWidth, frameHeight, directions, spriteMetaVersion) em todos os JSONs de Items e monsters",
+      "Substituicao de <img>/<OptimizedImage> por <SpriteImage> nas paginas monsters, bosses e items",
+      "Remocao do fallback obsoleto de GIF (gifImg) em items.jsx e monsters.jsx (todas as imagens sao PNG agora)",
+      "Atualizacao do generate data.js para preservar as novas props de sprite na consolidacao",
+      "Sincronizacao inicial: 74 spritesheets reais de itens e 172 de monstros detectadas; 718 JSONs atualizados",
+      "Identificacao de 2 monstros novos no APK sem JSON na Wiki: Undead Bull, White Wanderers"
+    ],
+    "updatedMonsters": [
+      "Albino Dragon",
+      "Bear",
+      "Undead Bull",
+      "White Wanderers"
+    ]
+  },
+  {
+    "date": "06/06/2026",
+    "time": "22:07",
+    "changes": [
+      "Otimizacao de imagens via Vercel Image Optimization (AVIF/WebP automatico atraves de /_vercel/image)",
+      "Substituicao de <img> cru por <OptimizedImage /> em todas as paginas (monsters, bosses, items)",
+      "Bypass automatico da otimizacao de imagem em desenvolvimento (NODE_ENV=development) para nao quebrar no npm start",
+      "Code splitting de rotas com React.lazy + Suspense (cada rota vira um chunk sob demanda)",
+      "Prefetch on hover/focus/touch dos chunks de rotas no NavBar (componente NavLink)",
+      "Substituicao de <a href> por <Link> do react-router-dom no NavBar (navegacao SPA sem recarregar a pagina)",
+      "Reset de scroll ao trocar de rota (componente ScrollToTop)",
+      "Ativacao de Vercel Web Analytics (@vercel/analytics) e Vercel Speed Insights (@vercel/speed-insights)",
+      "Atualizacao do web-vitals para a API v5 (onCLS, onINP, onFCP, onLCP, onTTFB)",
+      "Criacao do vercel.json com rewrites para SPA, cache imutavel de 1 ano para JS/CSS/imagens, headers de seguranca e Image Optimization",
+      "Otimizacao do public/index.html (Open Graph, Twitter Card, canonical, lang=pt-BR, theme-color, preconnect)",
+      "Criacao de robots.txt e sitemap.xml para SEO",
+      "Criacao do script de sincronizacao APK -> Wiki (npm run sync, em scripts/sync.js)",
+      "Criacao do agents.md com manual de manutencao completo para IAs"
+    ]
+  },
+  {
     "date": "08/05/2026",
     "time": "22:26",
     "changes": [

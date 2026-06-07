@@ -1,23 +1,35 @@
 {
-        iconSize: 16,
-        equipType: 3,
-        numOfStyles: 1,
-
-        sounds: [
-                ["actions/hit"],
-        ],
-        
-        "minDamage": 1,
-        "maxDamage": 2,
-        "hitRange": 3,
-        "manaCost": 3,
-        
-        weaponType: "wand",
-        weight: 20,
-        description: "Icecold rays of moonlight shimmer on its tip (Atk: 2 ~ 5).",
-        
-        "vocations": [
-		{"name":"2"},
-                {"name":"3"}
-	]
+	"iconSize": 16,
+	"equipType": 3,
+	"numOfStyles": 1,
+	"sounds": [
+		[
+			"actions/hit"
+		]
+	],
+	"minDamage": 1,
+	"maxDamage": 2,
+	"hitRange": 3,
+	"manaCost": 3,
+	"weaponType": "wand",
+	"weight": 20,
+	"description": "Icecold rays of moonlight shimmer on its tip (Atk: 2 ~ 5).",
+	"vocations": [
+		{
+			"name": "2"
+		},
+		{
+			"name": "3"
+		}
+	],
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

@@ -1,31 +1,39 @@
 {
-	iconSize: 16,
-	equipType: 3,
-	numOfStyles: 1,
-        
-	minDamage: 33,
-	maxDamage: 10,
-        "rarity": 5,
-		"defense": 17,
-		"bonusMelee":1,
-        
-	hitRange: 1,
-	sounds: [
-		["actions/hit"],
+	"iconSize": 16,
+	"equipType": 3,
+	"numOfStyles": 1,
+	"minDamage": 33,
+	"maxDamage": 10,
+	"rarity": 5,
+	"defense": 17,
+	"bonusMelee": 1,
+	"hitRange": 1,
+	"sounds": [
+		[
+			"actions/hit"
+		]
 	],
-        elementDamage:"physical",
-        extraElementDamage:"ice",
-        weaponType:"sword",
-        weight: 45,
-        description: "",
-        
-        level: 120,
-        
-        vocations: [
-		{"name":"0"}
+	"elementDamage": "physical",
+	"extraElementDamage": "ice",
+	"weaponType": "sword",
+	"weight": 45,
+	"description": "",
+	"level": 120,
+	"vocations": [
+		{
+			"name": "0"
+		}
 	],
-        
-        "classification":3,
-        "imbueSlots":2
-        
+	"classification": 3,
+	"imbueSlots": 2,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

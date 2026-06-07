@@ -1,14 +1,24 @@
 {
-	"minDamage":1,
-	"equipType":4,
+	"minDamage": 1,
+	"equipType": 4,
 	"defense": 10,
-        "rarity": 2,
-        "level": 25,
-    
-        "vocations": [
-		{"name":"0"}
+	"rarity": 2,
+	"level": 25,
+	"vocations": [
+		{
+			"name": "0"
+		}
 	],
-    
-        "classification":1,
-        "weight": 60
+	"classification": 1,
+	"weight": 60,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

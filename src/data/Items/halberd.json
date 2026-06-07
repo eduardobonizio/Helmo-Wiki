@@ -2,33 +2,40 @@
 	"iconSize": 16,
 	"equipType": 3,
 	"numOfStyles": 1,
-        "rarity": 3,
-        "defense": 17, 
-        "twoHand": true,
-    
-        "classification":2,
-
+	"rarity": 3,
+	"defense": 17,
+	"twoHand": true,
+	"classification": 2,
 	"minDamage": 29,
 	"maxDamage": 15,
-
 	"hitRange": 1,
 	"sounds": [
-		["actions/hit"]
+		[
+			"actions/hit"
+		]
 	],
-        
-        "critMultiplier": 1.1,
-        "critChance": 10,
-        
-        "elementDamage":"physical",
-        "extraElementDamage":"earth",
-        "weaponType":"axe",
-        "weight": 65,
-        "description": "A masterpiece of a dwarven smith. (Atk: 8 ~ 12).",
-        
-        "level": 60,
-        
-        "vocations": [
-		{"name":"0"}
+	"critMultiplier": 1.1,
+	"critChance": 10,
+	"elementDamage": "physical",
+	"extraElementDamage": "earth",
+	"weaponType": "axe",
+	"weight": 65,
+	"description": "A masterpiece of a dwarven smith. (Atk: 8 ~ 12).",
+	"level": 60,
+	"vocations": [
+		{
+			"name": "0"
+		}
 	],
-        "imbueSlots":2
+	"imbueSlots": 2,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

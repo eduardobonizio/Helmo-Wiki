@@ -2,15 +2,22 @@
 	"iconSize": 16,
 	"buff": true,
 	"equipType": 6,
-        
-        "defense": 0,
-        
-        "level": 120,
-        "rarity": 5,
-        "durability": 3600,
-        "durabilityType": 1,
-        
-        "protectEnergy": 8,
-        "protectPhysical": 10,
-        "weight": 5
+	"defense": 0,
+	"level": 120,
+	"rarity": 5,
+	"durability": 3600,
+	"durabilityType": 1,
+	"protectEnergy": 8,
+	"protectPhysical": 10,
+	"weight": 5,
+	"sprite": "icon.png",
+	"spriteFrames": 4,
+	"spriteWidth": 64,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 4
 }

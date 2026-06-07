@@ -1,18 +1,28 @@
 {
-	"equipType":7,
+	"equipType": 7,
 	"defense": 8,
-    
-        "rarity": 3,
-    
-        "protectEarth":6,
-        "protectFire":-6,
-        "level": 40,
-        "weight": 19,
-    
-        "vocations": [
-		{"name":"2"},
-                {"name":"3"}
+	"rarity": 3,
+	"protectEarth": 6,
+	"protectFire": -6,
+	"level": 40,
+	"weight": 19,
+	"vocations": [
+		{
+			"name": "2"
+		},
+		{
+			"name": "3"
+		}
 	],
-    
-        "classification":2
+	"classification": 2,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

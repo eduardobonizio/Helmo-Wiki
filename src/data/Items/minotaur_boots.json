@@ -1,6 +1,16 @@
 {
-	"equipType":10,
+	"equipType": 10,
 	"defense": 2,
-        "rarity": 2,
-        "weight": 25
+	"rarity": 2,
+	"weight": 25,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

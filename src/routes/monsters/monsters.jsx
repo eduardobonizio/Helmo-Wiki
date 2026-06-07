@@ -2,64 +2,10 @@ import monsters from "../../data/monsters.json";
 import React, { useState, useEffect } from "react";
 import { useLanguage } from "../../contexts/LanguageContext";
 import Popup from "../../elements/popup/popup";
+import OptimizedImage from "../../components/OptimizedImage";
+import SpriteImage from "../../components/SpriteImage";
 
-const gifImg = (item) => {
-  const itensWithGif = [
-    "sanguine_axe",
-    "sanguine_blade",
-    "sanguine_boots",
-    "sanguine_bow",
-    "sanguine_crossbow",
-    "sanguine_galoshes",
-    "sanguine_greaves",
-    "sanguine_hatchet",
-    "sanguine_legs",
-    "sanguine_rod",
-    "sanguine_sword",
-    "sanguine_wand",
-    "mystic_glacier_shield",
-    "warlord_sword",
-    "blue_plasma_amulet",
-    "blue_plasma_ring",
-    "green_plasma_amulet",
-    "green_plasma_ring",
-    "red_plasma_amulet",
-    "red_plasma_ring",
-    "mystic_glacier_book",
-    "mystic_glacier_bow",
-    "mystic_glacier_crossbow",
-    "mystic_glacier_rod",
-    "mystic_glacier_sword",
-    "mystic_glacier_wand",
-    "prismatic_ring",
-    "icestorm_rod",
-    "thunder_hammer",
-    "thunder_wand",
-    "necro_rod",
-    "demon_shield",
-    "durable_exercise_bow",
-    "durable_exercise_melee",
-    "durable_exercise_shield",
-    "durable_exercise_wand",
-    "exercise_bow",
-    "exercise_melee",
-    "exercise_shield",
-    "exercise_wand",
-    "gold_floor",
-    "hanger_ghost_skeleton",
-    "hanger_platinum",
-    "moonsun",
-    "sanguine_bagpack",
-    "santa_doll",
-    "scroll_buff_exp",
-  ];
-
-  if (itensWithGif.includes(item.originalName)) {
-    return `../items/${item.originalName}/download.gif`;
-  } else {
-    return `../items/${item.originalName}/icon.png`;
-  }
-};
+const gifImg = (item) => `/items/${item.originalName}/icon.png`;
 
 function Monsters() {
   const [open, setOpen] = useState(false);
@@ -116,9 +62,19 @@ function Monsters() {
               <div className="card-body p-3 d-flex flex-column">
                 <div className="d-flex align-items-center mb-3">
                   <div className="me-3 bg-light rounded d-flex justify-content-center align-items-center" style={{ width: "80px", height: "80px", flexShrink: 0 }}>
-                    <img
-                      src={`../monsters/${monster.originalName}/walk.gif`}
+                    <SpriteImage
+                      kind="monster"
+                      name={monster.originalName}
+                      sprite={monster.sprite || "walk_0.png"}
+                      frameSize={monster.frameSize || 32}
+                      frameWidth={monster.frameWidth}
+                      frameHeight={monster.frameHeight}
+                      framesPerDirection={monster.framesPerDirection || 1}
+                      directions={monster.directions || 4}
+                      direction={0}
+                      duration="2.4s"
                       alt={monster.id}
+                      eager={i === 0}
                       style={{ maxHeight: "64px", maxWidth: "64px" }}
                     />
                   </div>
@@ -178,7 +134,7 @@ function Monsters() {
                             {monster.drops.map((drop, idx) => (
                               <tr key={idx}>
                                 <td className="show-cursor" onClick={() => { setItem(drop); setOpen(true); }}>
-                                  <img src={gifImg(drop)} alt={drop.item} style={{ marginRight: "4px", width: "16px" }} />
+                                  <OptimizedImage src={gifImg(drop).replace(/^\.\./, "")} alt={drop.item} width={16} height={16} sizes={[16, 32]} style={{ marginRight: "4px", width: "16px", height: "16px" }} />
                                   {drop.item}
                                 </td>
                                 <td className="text-end text-muted">{(drop.chance / 1000).toFixed(2)}%</td>

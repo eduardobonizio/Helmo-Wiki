@@ -1,66 +1,193 @@
 {
-	"id":"undead_frost_dragon",
-	"hittable":true,
-	"maxDirections":4,
-	"speed":80,
-	"maxHealth":14500,
+	"id": "undead_frost_dragon",
+	"hittable": true,
+	"maxDirections": 4,
+	"speed": 80,
+	"maxHealth": 14500,
 	"showHealthBar": true,
-	"footstepSound":"slime",
-	"imgWidth":64,
-	"imgHeight":64,
-	"footstepOffsetX":0,
-	"footstepOffsetY":34,
-	"drawOrderOffsetY":32,
-        "offsetX":-24,
-        "offsetY":0,
-        "experience": 14000,
-        "defense": 25,
-        "pushable": false,
-        "bestiary": 100,
-        "intervalResp":60,
-        "charm": 50,
-        "drops": [
-                 {"item":"gold", "chance": 100000, "min":1000, "max":1200},
-                 {"item":"strong_health_potion", "chance": 50000, "max":2},
-                 {"item":"earth_crystal", "chance": 7000},
-                 {"item":"hylian_broadsword", "chance": 1000},
-                 {"item":"death_armor", "chance": 1000},
-                 {"item":"dragon_shield", "chance": 1000},
-                 {"item":"blue_robe", "chance": 400},
-                 {"item":"blue_legs", "chance": 400},
-                 {"item":"dragon_wand", "chance": 1000},
-                 {"item":"pretator_rod", "chance": 1000},
-                 {"item":"rotten_dragon_paw", "chance": 100},
-                 {"item":"magic_plate_armor", "chance": 20},
-                 {"item":"royal_axe", "chance": 1000}
-        ],
-	"collisionRects":[
-		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
-		],
-	"animations":[
-		{"id":"walk", "totalRuntime":0.7, "numberOfDirections":4, "looping":true},
-		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4}
-		],
+	"footstepSound": "slime",
+	"imgWidth": 64,
+	"imgHeight": 64,
+	"footstepOffsetX": 0,
+	"footstepOffsetY": 34,
+	"drawOrderOffsetY": 32,
+	"offsetX": -24,
+	"offsetY": 0,
+	"experience": 14000,
+	"defense": 25,
+	"pushable": false,
+	"bestiary": 100,
+	"intervalResp": 60,
+	"charm": 50,
+	"drops": [
+		{
+			"item": "gold",
+			"chance": 100000,
+			"min": 1000,
+			"max": 1200
+		},
+		{
+			"item": "strong_health_potion",
+			"chance": 50000,
+			"max": 2
+		},
+		{
+			"item": "earth_crystal",
+			"chance": 7000
+		},
+		{
+			"item": "hylian_broadsword",
+			"chance": 1000
+		},
+		{
+			"item": "death_armor",
+			"chance": 1000
+		},
+		{
+			"item": "dragon_shield",
+			"chance": 1000
+		},
+		{
+			"item": "blue_robe",
+			"chance": 400
+		},
+		{
+			"item": "blue_legs",
+			"chance": 400
+		},
+		{
+			"item": "dragon_wand",
+			"chance": 1000
+		},
+		{
+			"item": "pretator_rod",
+			"chance": 1000
+		},
+		{
+			"item": "rotten_dragon_paw",
+			"chance": 100
+		},
+		{
+			"item": "magic_plate_armor",
+			"chance": 20
+		},
+		{
+			"item": "royal_axe",
+			"chance": 1000
+		}
+	],
+	"collisionRects": [
+		{
+			"name": "hit",
+			"hard": true,
+			"offsetX": 0,
+			"offsetY": 0,
+			"width": 16,
+			"height": 16
+		}
+	],
+	"animations": [
+		{
+			"id": "walk",
+			"totalRuntime": 0.7,
+			"numberOfDirections": 4,
+			"looping": true
+		},
+		{
+			"id": "default",
+			"fileName": "walk",
+			"totalRuntime": 0,
+			"numberOfDirections": 4
+		}
+	],
 	"properties": [
-		{"name":"activationZoneDistance", "type":"int"},
-		{"name":"deactivationZoneDistance", "type":"int"}
+		{
+			"name": "activationZoneDistance",
+			"type": "int"
+		},
+		{
+			"name": "deactivationZoneDistance",
+			"type": "int"
+		}
 	],
-        "attacks": [
-		{"attack":"melee", "interval":2000, "min":0, "max":1150},
-                {"attack":"ice", "interval":2000, "chance":10, "min":800, "max":2100, "type":"area", "particle":34,"length":8,"spread":3,"range":7},
-                {"attack":"death", "interval":2000, "chance":10, "min":800, "max":2100, "type":"area", "particle":37,"radius":4,"target":1,"range":7}
+	"attacks": [
+		{
+			"attack": "melee",
+			"interval": 2000,
+			"min": 0,
+			"max": 1150
+		},
+		{
+			"attack": "ice",
+			"interval": 2000,
+			"chance": 10,
+			"min": 800,
+			"max": 2100,
+			"type": "area",
+			"particle": 34,
+			"length": 8,
+			"spread": 3,
+			"range": 7
+		},
+		{
+			"attack": "death",
+			"interval": 2000,
+			"chance": 10,
+			"min": 800,
+			"max": 2100,
+			"type": "area",
+			"particle": 37,
+			"radius": 4,
+			"target": 1,
+			"range": 7
+		}
 	],
-        "defenses": [
-		{"name":"healing", "interval":4, "chance": 10, "min":300, "max":400}
+	"defenses": [
+		{
+			"name": "healing",
+			"interval": 4,
+			"chance": 10,
+			"min": 300,
+			"max": 400
+		}
 	],
-        "elements": [
-		{"name":"energy", "value":115},
-                {"name":"fire", "value":105},
-                {"name":"holy", "value":105},
-                {"name":"physical", "value":105}
+	"elements": [
+		{
+			"name": "energy",
+			"value": 115
+		},
+		{
+			"name": "fire",
+			"value": 105
+		},
+		{
+			"name": "holy",
+			"value": 105
+		},
+		{
+			"name": "physical",
+			"value": 105
+		}
 	],
-        "immunities": [
-		{"name":"ice", "value":1},
-                {"name":"death", "value":1}
-	]
+	"immunities": [
+		{
+			"name": "ice",
+			"value": 1
+		},
+		{
+			"name": "death",
+			"value": 1
+		}
+	],
+	"sprite": "walk_0.png",
+	"spriteFrames": 4,
+	"spriteWidth": 256,
+	"spriteHeight": 256,
+	"frameWidth": 64,
+	"frameHeight": 64,
+	"directions": 4,
+	"spriteMetaVersion": 1,
+	"spriteType": "monster",
+	"frameSize": 64,
+	"framesPerDirection": 4
 }

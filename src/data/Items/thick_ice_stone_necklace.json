@@ -2,7 +2,17 @@
 	"iconSize": 16,
 	"buff": true,
 	"equipType": 0,
-        "level": 130,
-        "protectIce": 5,
-        "weight": 10
+	"level": 130,
+	"protectIce": 5,
+	"weight": 10,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

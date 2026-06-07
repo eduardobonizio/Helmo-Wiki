@@ -1,7 +1,17 @@
 {
 	"iconSize": 16,
 	"equipType": -1,
-        "maxStackSize": 1,
-        "dropable": false,
-        "description": "Used for transfer between worlds."
+	"maxStackSize": 1,
+	"dropable": false,
+	"description": "Used for transfer between worlds.",
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

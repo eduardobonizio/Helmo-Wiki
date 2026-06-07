@@ -1,20 +1,30 @@
 {
-        iconSize: 16,
-        equipType: 8,
-        maxStackSize: 400,
-        sounds: [
-                ["actions/hit"],
-        ],
-        minDamage: 72,
-        maxDamage: 72,
-        critChance: 0,
-        
-        level: 200,
-        
-        elementDamage:"physical",
-        projectile: "dragon-scale-bolt",
-        shootType:  "smallphysical",
-        weaponType: "bolt",
-        "weight": 0.8,
-        description: "Dragon Scale bolt (Atk: 120 ~ 380)."
+	"iconSize": 16,
+	"equipType": 8,
+	"maxStackSize": 400,
+	"sounds": [
+		[
+			"actions/hit"
+		]
+	],
+	"minDamage": 72,
+	"maxDamage": 72,
+	"critChance": 0,
+	"level": 200,
+	"elementDamage": "physical",
+	"projectile": "dragon-scale-bolt",
+	"shootType": "smallphysical",
+	"weaponType": "bolt",
+	"weight": 0.8,
+	"description": "Dragon Scale bolt (Atk: 120 ~ 380).",
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

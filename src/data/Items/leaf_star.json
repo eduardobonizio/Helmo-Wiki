@@ -1,22 +1,35 @@
 {
-        "iconSize": 16,
-        "equipType": 3,
-        "maxStackSize": 300,
-        "sounds": [
-                ["actions/hit"]
-        ],
-        "minDamage": 44,
-        "maxDamage": 6,
-        "hitRange": 8,
-        "level": 120,
-        "vocations": [
-		{"name":"1"}
+	"iconSize": 16,
+	"equipType": 3,
+	"maxStackSize": 300,
+	"sounds": [
+		[
+			"actions/hit"
+		]
 	],
-        
-        "elementDamage":"physical",
-        "extraElementDamage":"earth",
-        "projectile": "viper-star",
-        "shootType":  "smallphysical",
-        "weaponType": "star",
-        "weight": 2
+	"minDamage": 44,
+	"maxDamage": 6,
+	"hitRange": 8,
+	"level": 120,
+	"vocations": [
+		{
+			"name": "1"
+		}
+	],
+	"elementDamage": "physical",
+	"extraElementDamage": "earth",
+	"projectile": "viper-star",
+	"shootType": "smallphysical",
+	"weaponType": "star",
+	"weight": 2,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

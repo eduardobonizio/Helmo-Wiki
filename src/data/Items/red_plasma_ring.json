@@ -2,14 +2,26 @@
 	"iconSize": 16,
 	"buff": true,
 	"equipType": 6,
-        "level": 150,
-        "rarity": 4,
-        "vocations": [
-		{"name":"0"}
+	"level": 150,
+	"rarity": 4,
+	"vocations": [
+		{
+			"name": "0"
+		}
 	],
-        "durability": 1800,
-        "durabilityType": 1,
-        "bonusMelee":3,
-        "protectPhysical":3,
-        "weight": 5
+	"durability": 1800,
+	"durabilityType": 1,
+	"bonusMelee": 3,
+	"protectPhysical": 3,
+	"weight": 5,
+	"sprite": "icon.png",
+	"spriteFrames": 6,
+	"spriteWidth": 96,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 6
 }

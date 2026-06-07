@@ -1,28 +1,38 @@
 {
-        "iconSize": 16,
-        "equipType": 3,
-        "numOfStyles": 1,
-        "rarity": 4,
-        "sounds": [
-                ["actions/hit"]
-        ],
-  
-        "minDamage": 30,
-        "maxDamage": 35,
-        "hitRange": 6,
-        "level": 50,
-        "manaCost": 6,
-        
-        "elementDamage":"ice",
-        "projectile": "ice-ball",
-        "shootType":  "smallice",
-        "weaponType": "rod",
-        "weight": 20,
-        "description": "Icecold rays of moonlight shimmer on its tip (Atk: 13 ~ 25).",
-        
-        "vocations": [
-		{"name":"2"}
+	"iconSize": 16,
+	"equipType": 3,
+	"numOfStyles": 1,
+	"rarity": 4,
+	"sounds": [
+		[
+			"actions/hit"
+		]
 	],
-    
-        "classification":2
+	"minDamage": 30,
+	"maxDamage": 35,
+	"hitRange": 6,
+	"level": 50,
+	"manaCost": 6,
+	"elementDamage": "ice",
+	"projectile": "ice-ball",
+	"shootType": "smallice",
+	"weaponType": "rod",
+	"weight": 20,
+	"description": "Icecold rays of moonlight shimmer on its tip (Atk: 13 ~ 25).",
+	"vocations": [
+		{
+			"name": "2"
+		}
+	],
+	"classification": 2,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

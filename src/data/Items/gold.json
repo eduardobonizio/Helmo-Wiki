@@ -3,8 +3,18 @@
 	"equipType": -1,
 	"maxStackSize": 10000000,
 	"material": true,
-        "marketable":false,
-        "autoCollect":true,
-        "dropable": false,
-        "weight": 0.01
+	"marketable": false,
+	"autoCollect": true,
+	"dropable": false,
+	"weight": 0.01,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

@@ -2,13 +2,27 @@
 	"iconSize": 16,
 	"equipType": -1,
 	"maxStackSize": 1,
-        "consumable": true,
-        "autoCollect":true,
-        "level":50,
-        "weight": "2.9",
-        "description": "Add +5 magic level for 10 minutes.",
-        "vocations": [
-                {"name":"2"},
-                {"name":"3"}
-	]
+	"consumable": true,
+	"autoCollect": true,
+	"level": 50,
+	"weight": "2.9",
+	"description": "Add +5 magic level for 10 minutes.",
+	"vocations": [
+		{
+			"name": "2"
+		},
+		{
+			"name": "3"
+		}
+	],
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

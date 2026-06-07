@@ -1,33 +1,40 @@
 {
 	"iconSize": 16,
 	"equipType": 3,
-        "rarity": 5,
+	"rarity": 5,
 	"defense": 60,
 	"numOfStyles": 1,
-        "classification":4,
-        
+	"classification": 4,
 	"minDamage": 80,
 	"maxDamage": 80,
-        
 	"hitRange": 1,
 	"sounds": [
-		["actions/hit"]
+		[
+			"actions/hit"
+		]
 	],
-        
-        "critMultiplier": 1.1,
-        "critChance": 5,
-        "twoHand": true,
-        
-        "elementDamage":"physical",
-        "weaponType":"sword",
-        "weight": 43,
-        
-        "level": 170,
-        
-        "vocations": [
-		{"name":"0"}
+	"critMultiplier": 1.1,
+	"critChance": 5,
+	"twoHand": true,
+	"elementDamage": "physical",
+	"weaponType": "sword",
+	"weight": 43,
+	"level": 170,
+	"vocations": [
+		{
+			"name": "0"
+		}
 	],
-        
-        "description": "It's the magic Helmomania Sword.",
-        "imbueSlots":2
+	"description": "It's the magic Helmomania Sword.",
+	"imbueSlots": 2,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

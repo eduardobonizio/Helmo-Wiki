@@ -1,17 +1,29 @@
 {
-	"equipType":1,
+	"equipType": 1,
 	"defense": 6,
-        "rarity": 3,
-        "bonusMagic":1,
-        "protectEarth":2,
-    
-        "level": 50,
-        "vocations": [
-		{"name":"2"},
-                {"name":"3"}
+	"rarity": 3,
+	"bonusMagic": 1,
+	"protectEarth": 2,
+	"level": 50,
+	"vocations": [
+		{
+			"name": "2"
+		},
+		{
+			"name": "3"
+		}
 	],
-    
-        "classification":2,
-        "imbueSlots":1,
-        "weight": 20
+	"classification": 2,
+	"imbueSlots": 1,
+	"weight": 20,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

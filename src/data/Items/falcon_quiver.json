@@ -1,16 +1,28 @@
 {
-	"equipType":8,
+	"equipType": 8,
 	"capacity": 12,
-        "container": true,
-        "bonusDistance":4,
-        "bonusMagic":1,
-        "protectFire": 6,
-        "defense": 3,
-        "level": 400,
-        "rarity": 5,
-        "weaponType":"quiver",
-        "vocations": [
-		{"name":"1"}
+	"container": true,
+	"bonusDistance": 4,
+	"bonusMagic": 1,
+	"protectFire": 6,
+	"defense": 3,
+	"level": 400,
+	"rarity": 5,
+	"weaponType": "quiver",
+	"vocations": [
+		{
+			"name": "1"
+		}
 	],
-        "weight": 30
+	"weight": 30,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

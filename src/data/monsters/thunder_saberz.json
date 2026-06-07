@@ -1,59 +1,165 @@
 {
-	"id":"thunder_saberz",
-	"hittable":true,
-	"maxDirections":4,
-	"speed":60,
-	"maxHealth":1900,
+	"id": "thunder_saberz",
+	"hittable": true,
+	"maxDirections": 4,
+	"speed": 60,
+	"maxHealth": 1900,
 	"showHealthBar": true,
-	"footstepSound":"slime",
-	"imgWidth":32,
-	"imgHeight":32,
-	"footstepOffsetX":0,
-	"footstepOffsetY":32,
-	"drawOrderOffsetY":32,
-        "experience": 1550,
-        "offsetX":-8,
-        "offsetY":0,
-        "defense": 20,
-        "bestiary": 40,
-        "charm": 25,
-        "drops": [
-                    {"item":"gold", "chance": 100000, "min":100, "max":200},
-                    {"item":"earth_crystal", "chance": 5000},
-                    {"item":"thunder_bow", "chance": 100},
-                    {"item":"thunder_crossbow", "chance": 100},
-                    {"item":"thunder_quiver", "chance": 60},
-                    {"item":"thunder_cape", "chance": 60},
-                    {"item":"thunder_boots", "chance": 60},
-                    {"item":"thunder_helmet", "chance": 60},
-                    {"item":"thunder_legs", "chance": 60},
-                    {"item":"royal_helmet", "chance": 1000},
-                    {"item":"steel_armor", "chance": 1000},
-                    {"item":"steel_shield", "chance": 1000},
-                    {"item":"boots_of_speed", "chance": 50},
-                    {"item":"purple_book", "chance": 20},
-                    {"item":"thunder_saberz_head", "chance": 1000}
-                 ],
-	"collisionRects":[
-		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
-		],
-	"animations":[
-		{"id":"walk", "totalRuntime":0.7, "numberOfDirections":4, "looping":true},
-		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4}
-		],
+	"footstepSound": "slime",
+	"imgWidth": 32,
+	"imgHeight": 32,
+	"footstepOffsetX": 0,
+	"footstepOffsetY": 32,
+	"drawOrderOffsetY": 32,
+	"experience": 1550,
+	"offsetX": -8,
+	"offsetY": 0,
+	"defense": 20,
+	"bestiary": 40,
+	"charm": 25,
+	"drops": [
+		{
+			"item": "gold",
+			"chance": 100000,
+			"min": 100,
+			"max": 200
+		},
+		{
+			"item": "earth_crystal",
+			"chance": 5000
+		},
+		{
+			"item": "thunder_bow",
+			"chance": 100
+		},
+		{
+			"item": "thunder_crossbow",
+			"chance": 100
+		},
+		{
+			"item": "thunder_quiver",
+			"chance": 60
+		},
+		{
+			"item": "thunder_cape",
+			"chance": 60
+		},
+		{
+			"item": "thunder_boots",
+			"chance": 60
+		},
+		{
+			"item": "thunder_helmet",
+			"chance": 60
+		},
+		{
+			"item": "thunder_legs",
+			"chance": 60
+		},
+		{
+			"item": "royal_helmet",
+			"chance": 1000
+		},
+		{
+			"item": "steel_armor",
+			"chance": 1000
+		},
+		{
+			"item": "steel_shield",
+			"chance": 1000
+		},
+		{
+			"item": "boots_of_speed",
+			"chance": 50
+		},
+		{
+			"item": "purple_book",
+			"chance": 20
+		},
+		{
+			"item": "thunder_saberz_head",
+			"chance": 1000
+		}
+	],
+	"collisionRects": [
+		{
+			"name": "hit",
+			"hard": true,
+			"offsetX": 0,
+			"offsetY": 0,
+			"width": 16,
+			"height": 16
+		}
+	],
+	"animations": [
+		{
+			"id": "walk",
+			"totalRuntime": 0.7,
+			"numberOfDirections": 4,
+			"looping": true
+		},
+		{
+			"id": "default",
+			"fileName": "walk",
+			"totalRuntime": 0,
+			"numberOfDirections": 4
+		}
+	],
 	"properties": [
-		{"name":"activationZoneDistance", "type":"int"},
-		{"name":"deactivationZoneDistance", "type":"int"}
+		{
+			"name": "activationZoneDistance",
+			"type": "int"
+		},
+		{
+			"name": "deactivationZoneDistance",
+			"type": "int"
+		}
 	],
-        "attacks": [
-		{"attack":"melee", "interval":2000, "min":0, "max":350},
-                {"attack":"energy", "interval":6000, "chance":100, "min":350, "max":550, "type":"area", "particle":12,"length":8,"spread":3,"range":7}
+	"attacks": [
+		{
+			"attack": "melee",
+			"interval": 2000,
+			"min": 0,
+			"max": 350
+		},
+		{
+			"attack": "energy",
+			"interval": 6000,
+			"chance": 100,
+			"min": 350,
+			"max": 550,
+			"type": "area",
+			"particle": 12,
+			"length": 8,
+			"spread": 3,
+			"range": 7
+		}
 	],
-        "elements": [
-                {"name":"physical", "value":115},
-                {"name":"earth", "value":115}
+	"elements": [
+		{
+			"name": "physical",
+			"value": 115
+		},
+		{
+			"name": "earth",
+			"value": 115
+		}
 	],
-        "immunities": [
-		{"name":"energy", "value":1}
-	]
+	"immunities": [
+		{
+			"name": "energy",
+			"value": 1
+		}
+	],
+	"sprite": "walk_0.png",
+	"spriteFrames": 3,
+	"spriteWidth": 96,
+	"spriteHeight": 128,
+	"frameWidth": 32,
+	"frameHeight": 32,
+	"directions": 4,
+	"spriteMetaVersion": 1,
+	"spriteType": "monster",
+	"frameSize": 32,
+	"framesPerDirection": 3
 }

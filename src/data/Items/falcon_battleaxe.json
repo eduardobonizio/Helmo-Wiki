@@ -2,33 +2,41 @@
 	"iconSize": 16,
 	"equipType": 3,
 	"numOfStyles": 1,
-        "rarity": 5,
-        "defense": 35,
-        "bonusMelee":5,
-        "critMultiplier": 1.2,
-        "critChance": 10,
-        "twoHand": true,
-    
-        "classification":4,
-        
+	"rarity": 5,
+	"defense": 35,
+	"bonusMelee": 5,
+	"critMultiplier": 1.2,
+	"critChance": 10,
+	"twoHand": true,
+	"classification": 4,
 	"minDamage": 15,
 	"maxDamage": 52,
-        
-        "level": 400,
-        "vocations": [
-		{"name":"0"}
+	"level": 400,
+	"vocations": [
+		{
+			"name": "0"
+		}
 	],
-        
-        "protectEnergy": 12,
-        
+	"protectEnergy": 12,
 	"hitRange": 1,
 	"sounds": [
-		["actions/hit"]
+		[
+			"actions/hit"
+		]
 	],
-        "elementDamage":"physical",
-        "extraElementDamage":"energy",
-        "weaponType":"axe",
-        "weight": 95,
-        "imbueSlots":2
-        
+	"elementDamage": "physical",
+	"extraElementDamage": "energy",
+	"weaponType": "axe",
+	"weight": 95,
+	"imbueSlots": 2,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

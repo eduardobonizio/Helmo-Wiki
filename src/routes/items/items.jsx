@@ -1,33 +1,7 @@
 import items from "../../data/items.json";
 import React, { useState, useEffect, useMemo } from "react";
 import { useLanguage } from "../../contexts/LanguageContext";
-
-const gifImg = (item) => {
-  const itensWithGif = [
-    "sanguine_axe", "sanguine_blade", "sanguine_boots", "sanguine_bow",
-    "sanguine_crossbow", "sanguine_galoshes", "sanguine_greaves", "sanguine_hatchet",
-    "sanguine_legs", "sanguine_rod", "sanguine_sword", "sanguine_wand",
-    "mystic_glacier_shield", "warlord_sword", "blue_plasma_amulet", "blue_plasma_ring",
-    "green_plasma_amulet", "green_plasma_ring", "red_plasma_amulet", "red_plasma_ring",
-    "mystic_glacier_book", "mystic_glacier_bow", "mystic_glacier_crossbow", "mystic_glacier_rod",
-    "mystic_glacier_sword", "mystic_glacier_wand", "prismatic_ring", "icestorm_rod",
-    "thunder_hammer", "thunder_wand", "necro_rod", "demon_shield", "durable_exercise_bow",
-    "durable_exercise_melee", "durable_exercise_shield", "durable_exercise_wand",
-    "exercise_bow", "exercise_melee", "exercise_shield", "exercise_wand", "gold_floor",
-    "hanger_ghost_skeleton", "hanger_platinum", "moonsun", "sanguine_bagpack",
-    "santa_doll", "scroll_buff_exp", "celestial_axe", "celestial_bow", "celestial_book",
-    "celestial_crossbow", "celestial_ring", "celestial_rod", "celestial_shield",
-    "celestial_sword", "celestial_wand", "soft_boots", "hanger_trailblazer",
-    "santa_bagpack", "santa_boots", "receptacle_of_spirits", "garland", "enchanted_torch",
-    "christmas_tree", "blazing_bone", "viper_rod",
-  ];
-
-  if (itensWithGif.includes(item.originalName)) {
-    return `../items/${item.originalName}/download.gif`;
-  } else {
-    return `../items/${item.originalName}/icon.png`;
-  }
-};
+import SpriteImage from "../../components/SpriteImage";
 
 const renderStatBadge = (label, value, colorClass = "bg-secondary") => {
   if (!value || value === 0) return null;
@@ -149,10 +123,16 @@ function Item() {
               <div className="card-body p-3 d-flex flex-column">
                 <div className="d-flex align-items-center mb-2">
                   <div className="me-3 bg-light rounded d-flex justify-content-center align-items-center" style={{ width: "64px", height: "64px", flexShrink: 0 }}>
-                    <img
-                      src={gifImg(item)}
+                    <SpriteImage
+                      kind="item"
+                      name={item.originalName}
+                      sprite={item.sprite || "icon.png"}
+                      frameSize={item.frameSize || 16}
+                      frames={item.frames || 1}
+                      duration="0.8s"
                       alt={item.id}
-                      style={{ maxHeight: "48px", maxWidth: "48px" }}
+                      eager={i === 0}
+                      style={{ maxHeight: "48px", maxWidth: "48px", width: "48px", height: "48px" }}
                     />
                   </div>
                   <div>

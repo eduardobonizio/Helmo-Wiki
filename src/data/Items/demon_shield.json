@@ -1,7 +1,17 @@
 {
-	"equipType":5,
+	"equipType": 5,
 	"defense": 35,
-        "rarity": 3,
-        "imbueSlots":1,
-        "weight": 20
+	"rarity": 3,
+	"imbueSlots": 1,
+	"weight": 20,
+	"sprite": "icon.png",
+	"spriteFrames": 7,
+	"spriteWidth": 112,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 7
 }

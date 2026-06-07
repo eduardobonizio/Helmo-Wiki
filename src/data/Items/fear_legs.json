@@ -1,16 +1,25 @@
 {
-	"equipType":7,
+	"equipType": 7,
 	"defense": 10,
-    
-        "protectDeath":10,
-        "bonusMagic":3,
-        "rarity": 5,
-    
-        "level": 400,
-        "vocations": [
-		{"name":"2"}
+	"protectDeath": 10,
+	"bonusMagic": 3,
+	"rarity": 5,
+	"level": 400,
+	"vocations": [
+		{
+			"name": "2"
+		}
 	],
-        
-        "classification":4,
-        "weight": 40
+	"classification": 4,
+	"weight": 40,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

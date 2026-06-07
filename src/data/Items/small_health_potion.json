@@ -2,8 +2,18 @@
 	"iconSize": 16,
 	"equipType": -1,
 	"maxStackSize": 200,
-        "minDamage": 75,
-        "consumable": true,
-        "autoCollect":true,
-        "weight": "1"
+	"minDamage": 75,
+	"consumable": true,
+	"autoCollect": true,
+	"weight": "1",
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

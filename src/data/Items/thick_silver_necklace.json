@@ -2,10 +2,22 @@
 	"iconSize": 16,
 	"buff": true,
 	"equipType": 0,
-        "level": 130,
-        "defense": 5,
-        "vocations": [
-                {"name":"0"}
+	"level": 130,
+	"defense": 5,
+	"vocations": [
+		{
+			"name": "0"
+		}
 	],
-        "weight": 10
+	"weight": 10,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

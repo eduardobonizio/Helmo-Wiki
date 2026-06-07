@@ -1,16 +1,25 @@
 {
-	"equipType":7,
+	"equipType": 7,
 	"defense": 8,
-    
-        "protectFire":10,
-        "bonusMagic":2,
-        "rarity": 5,
-    
-        "level": 300,
-        "vocations": [
-		{"name":"3"}
+	"protectFire": 10,
+	"bonusMagic": 2,
+	"rarity": 5,
+	"level": 300,
+	"vocations": [
+		{
+			"name": "3"
+		}
 	],
-        
-        "classification":4,
-        "weight": 35
+	"classification": 4,
+	"weight": 35,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

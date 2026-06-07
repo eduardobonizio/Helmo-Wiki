@@ -1,15 +1,26 @@
 {
-	iconSize: 16,
-	equipType: -1,
-	maxStackSize: 800,
-        minDamage: 350,
-        maxDamage: 1400,
-        consumable: true,
-        level:300,
-        
-        vocations: [
-                {"name":"0"}
+	"iconSize": 16,
+	"equipType": -1,
+	"maxStackSize": 800,
+	"minDamage": 350,
+	"maxDamage": 1400,
+	"consumable": true,
+	"level": 300,
+	"vocations": [
+		{
+			"name": "0"
+		}
 	],
-        "autoCollect":true,
-        "weight": "3"
+	"autoCollect": true,
+	"weight": "3",
+	"sprite": "icon.png",
+	"spriteFrames": 5,
+	"spriteWidth": 80,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 5
 }

@@ -1,64 +1,188 @@
 {
-	"id":"putrified_gladiator",
-	"hittable":true,
-	"maxDirections":4,
-	"speed":90,
-	"maxHealth":120000,
+	"id": "putrified_gladiator",
+	"hittable": true,
+	"maxDirections": 4,
+	"speed": 90,
+	"maxHealth": 120000,
 	"showHealthBar": true,
-	"footstepSound":"slime",
-	"imgWidth":64,
-	"imgHeight":64,
-	"footstepOffsetX":0,
-	"footstepOffsetY":38,
-	"drawOrderOffsetY":38,
-        "offsetX":-22,
-        "offsetY":0,
-        "experience": 10000,
-        "intervalResp":1800,
-        "defense": 45,
-        "pushable": false,
-        "bestiary": 30,
-        "charm": 15,
-        "drops": [
-                    {"item":"gold", "chance": 100000, "min":2000, "max":3000},
-                    {"item":"boots_of_speed", "chance": 1500},
-                    {"item":"royal_axe", "chance": 1500},
-                    {"item":"thunder_hammer", "chance": 1500},
-                    {"item":"ruby_necklace", "chance": 1500},
-                    {"item":"black_stone_amulet", "chance": 1500},
-                    {"item":"death_armor", "chance": 1500},
-                    {"item":"fire_axe", "chance": 1500},
-                    {"item":"umbral_spellbook", "chance": 200},
-                    {"item":"anguish_helmet", "chance": 20},
-                    {"item":"anguish_armor", "chance": 20},
-                    {"item":"anguish_legs", "chance": 20}
-        ],
-	"collisionRects":[
-		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
-		],
-	"animations":[
-		{"id":"walk", "totalRuntime":0.7, "numberOfDirections":4, "looping":true},
-		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4}
-		],
+	"footstepSound": "slime",
+	"imgWidth": 64,
+	"imgHeight": 64,
+	"footstepOffsetX": 0,
+	"footstepOffsetY": 38,
+	"drawOrderOffsetY": 38,
+	"offsetX": -22,
+	"offsetY": 0,
+	"experience": 10000,
+	"intervalResp": 1800,
+	"defense": 45,
+	"pushable": false,
+	"bestiary": 30,
+	"charm": 15,
+	"drops": [
+		{
+			"item": "gold",
+			"chance": 100000,
+			"min": 2000,
+			"max": 3000
+		},
+		{
+			"item": "boots_of_speed",
+			"chance": 1500
+		},
+		{
+			"item": "royal_axe",
+			"chance": 1500
+		},
+		{
+			"item": "thunder_hammer",
+			"chance": 1500
+		},
+		{
+			"item": "ruby_necklace",
+			"chance": 1500
+		},
+		{
+			"item": "black_stone_amulet",
+			"chance": 1500
+		},
+		{
+			"item": "death_armor",
+			"chance": 1500
+		},
+		{
+			"item": "fire_axe",
+			"chance": 1500
+		},
+		{
+			"item": "umbral_spellbook",
+			"chance": 200
+		},
+		{
+			"item": "anguish_helmet",
+			"chance": 20
+		},
+		{
+			"item": "anguish_armor",
+			"chance": 20
+		},
+		{
+			"item": "anguish_legs",
+			"chance": 20
+		}
+	],
+	"collisionRects": [
+		{
+			"name": "hit",
+			"hard": true,
+			"offsetX": 0,
+			"offsetY": 0,
+			"width": 16,
+			"height": 16
+		}
+	],
+	"animations": [
+		{
+			"id": "walk",
+			"totalRuntime": 0.7,
+			"numberOfDirections": 4,
+			"looping": true
+		},
+		{
+			"id": "default",
+			"fileName": "walk",
+			"totalRuntime": 0,
+			"numberOfDirections": 4
+		}
+	],
 	"properties": [
-		{"name":"activationZoneDistance", "type":"int"},
-		{"name":"deactivationZoneDistance", "type":"int"}
+		{
+			"name": "activationZoneDistance",
+			"type": "int"
+		},
+		{
+			"name": "deactivationZoneDistance",
+			"type": "int"
+		}
 	],
-        "attacks": [
-		{"attack":"melee", "interval":2000, "min":0, "max":8000},
-                {"attack":"fire", "interval":2000, "chance":10, "min":4000, "max":7000, "type":"area", "particle":3,"length":8,"spread":3,"range":7},
-                {"attack":"death", "interval":2000, "chance":10, "min":4000, "max":9000, "type":"area", "particle":37,"radius":8},
-                {"attack":"fire", "interval":2000, "chance":15, "min":4000, "max":9000, "type":"area", "particle":3,"radius":8}
+	"attacks": [
+		{
+			"attack": "melee",
+			"interval": 2000,
+			"min": 0,
+			"max": 8000
+		},
+		{
+			"attack": "fire",
+			"interval": 2000,
+			"chance": 10,
+			"min": 4000,
+			"max": 7000,
+			"type": "area",
+			"particle": 3,
+			"length": 8,
+			"spread": 3,
+			"range": 7
+		},
+		{
+			"attack": "death",
+			"interval": 2000,
+			"chance": 10,
+			"min": 4000,
+			"max": 9000,
+			"type": "area",
+			"particle": 37,
+			"radius": 8
+		},
+		{
+			"attack": "fire",
+			"interval": 2000,
+			"chance": 15,
+			"min": 4000,
+			"max": 9000,
+			"type": "area",
+			"particle": 3,
+			"radius": 8
+		}
 	],
-        "defenses": [
-		{"name":"healing", "interval":8000, "chance": 50, "min":3000, "max":5500}
+	"defenses": [
+		{
+			"name": "healing",
+			"interval": 8000,
+			"chance": 50,
+			"min": 3000,
+			"max": 5500
+		}
 	],
-        "elements": [
-		{"name":"ice", "value":110},
-                {"name":"earth", "value":20},
-                {"name":"energy", "value":80}
+	"elements": [
+		{
+			"name": "ice",
+			"value": 110
+		},
+		{
+			"name": "earth",
+			"value": 20
+		},
+		{
+			"name": "energy",
+			"value": 80
+		}
 	],
-        "immunities": [
-		{"name":"fire", "value":1}
-	]
+	"immunities": [
+		{
+			"name": "fire",
+			"value": 1
+		}
+	],
+	"sprite": "walk_0.png",
+	"spriteFrames": 4,
+	"spriteWidth": 256,
+	"spriteHeight": 256,
+	"frameWidth": 64,
+	"frameHeight": 64,
+	"directions": 4,
+	"spriteMetaVersion": 1,
+	"spriteType": "monster",
+	"frameSize": 64,
+	"framesPerDirection": 4
 }

@@ -1,14 +1,26 @@
 {
-	"equipType":1,
+	"equipType": 1,
 	"defense": 3,
-        "rarity": 2,
-    
-        "vocations": [
-		{"name":"0"},
-                {"name":"1"}
+	"rarity": 2,
+	"vocations": [
+		{
+			"name": "0"
+		},
+		{
+			"name": "1"
+		}
 	],
-        
-        "classification":1,
-        "imbueSlots":1,
-        "weight": 25
+	"classification": 1,
+	"imbueSlots": 1,
+	"weight": 25,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

@@ -1,18 +1,32 @@
 {
-	"equipType":5,
+	"equipType": 5,
 	"defense": 20,
-        "bonusMagic": 4,
-        "protectEarth": 5,
-        "protectEnergy": 5,
-        "protectFire": 5,
-        "protectIce": 5,
-        "level": 250,
-        "rarity": 5,
-        "group": "Book",
-        "vocations": [
-		{"name":"2"},
-                {"name":"3"}
+	"bonusMagic": 4,
+	"protectEarth": 5,
+	"protectEnergy": 5,
+	"protectFire": 5,
+	"protectIce": 5,
+	"level": 250,
+	"rarity": 5,
+	"group": "Book",
+	"vocations": [
+		{
+			"name": "2"
+		},
+		{
+			"name": "3"
+		}
 	],
-        "imbueSlots":1,
-        "weight": 40
+	"imbueSlots": 1,
+	"weight": 40,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

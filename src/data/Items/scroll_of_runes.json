@@ -3,10 +3,26 @@
 	"equipType": -1,
 	"maxStackSize": 1,
 	"tool": true,
-        "rarity": 5,
-        "vocations": [
-		{"name":"2"},
-                {"name":"3"},
-                {"name":"1"}
-	]
+	"rarity": 5,
+	"vocations": [
+		{
+			"name": "2"
+		},
+		{
+			"name": "3"
+		},
+		{
+			"name": "1"
+		}
+	],
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

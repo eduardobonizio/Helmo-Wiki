@@ -1,51 +1,125 @@
 {
-	"id":"troll_frost",
-	"hittable":true,
-	"maxDirections":4,
-	"speed":50,
-	"maxHealth":280,
+	"id": "troll_frost",
+	"hittable": true,
+	"maxDirections": 4,
+	"speed": 50,
+	"maxHealth": 280,
 	"showHealthBar": true,
-	"footstepSound":"slime",
-	"imgWidth":32,
-	"imgHeight":32,
-	"footstepOffsetX":0,
-	"footstepOffsetY":22,
-	"drawOrderOffsetY":16,
-        "offsetX":-8,
-        "offsetY":0,
-        "experience": 160,
-        "defense": 17,
-        "bestiary": 25,
-        "charm": 15,
-        "drops": [
-                 {"item":"gold", "chance": 100000, "min":10, "max":65},
-                 {"item":"double_axe", "chance": 1000},
-                 {"item":"royal_helmet", "chance": 100},
-                 {"item":"royal_armor", "chance": 500},
-                 {"item":"royal_legs", "chance": 500},
-                 {"item":"royal_boots", "chance": 500},
-                 {"item":"royal_shield", "chance": 120},
-                 {"item":"ice_crystal", "chance": 1000}
-                 ],
-	"collisionRects":[
-		{"name":"hit", "hard": true, "offsetX":0, "offsetY":0, "width":16, "height":16}
-		],
-	"animations":[
-		{"id":"walk", "totalRuntime":0.8, "numberOfDirections":4, "looping":true},
-		{"id":"default", "fileName":"walk", "totalRuntime":0, "numberOfDirections": 4}
-		],
+	"footstepSound": "slime",
+	"imgWidth": 32,
+	"imgHeight": 32,
+	"footstepOffsetX": 0,
+	"footstepOffsetY": 22,
+	"drawOrderOffsetY": 16,
+	"offsetX": -8,
+	"offsetY": 0,
+	"experience": 160,
+	"defense": 17,
+	"bestiary": 25,
+	"charm": 15,
+	"drops": [
+		{
+			"item": "gold",
+			"chance": 100000,
+			"min": 10,
+			"max": 65
+		},
+		{
+			"item": "double_axe",
+			"chance": 1000
+		},
+		{
+			"item": "royal_helmet",
+			"chance": 100
+		},
+		{
+			"item": "royal_armor",
+			"chance": 500
+		},
+		{
+			"item": "royal_legs",
+			"chance": 500
+		},
+		{
+			"item": "royal_boots",
+			"chance": 500
+		},
+		{
+			"item": "royal_shield",
+			"chance": 120
+		},
+		{
+			"item": "ice_crystal",
+			"chance": 1000
+		}
+	],
+	"collisionRects": [
+		{
+			"name": "hit",
+			"hard": true,
+			"offsetX": 0,
+			"offsetY": 0,
+			"width": 16,
+			"height": 16
+		}
+	],
+	"animations": [
+		{
+			"id": "walk",
+			"totalRuntime": 0.8,
+			"numberOfDirections": 4,
+			"looping": true
+		},
+		{
+			"id": "default",
+			"fileName": "walk",
+			"totalRuntime": 0,
+			"numberOfDirections": 4
+		}
+	],
 	"properties": [
-		{"name":"activationZoneDistance", "type":"int"},
-		{"name":"deactivationZoneDistance", "type":"int"}
+		{
+			"name": "activationZoneDistance",
+			"type": "int"
+		},
+		{
+			"name": "deactivationZoneDistance",
+			"type": "int"
+		}
 	],
-        "attacks": [
-		{"attack":"melee", "interval":2000, "min":0, "max":140}
+	"attacks": [
+		{
+			"attack": "melee",
+			"interval": 2000,
+			"min": 0,
+			"max": 140
+		}
 	],
-        "elements": [
-                {"name":"energy", "value":115},
-                {"name":"earth", "value":75}
+	"elements": [
+		{
+			"name": "energy",
+			"value": 115
+		},
+		{
+			"name": "earth",
+			"value": 75
+		}
 	],
-        "immunities": [
-		{"name":"ice", "value":1}
-	]
+	"immunities": [
+		{
+			"name": "ice",
+			"value": 1
+		}
+	],
+	"sprite": "walk_0.png",
+	"spriteFrames": 3,
+	"spriteWidth": 96,
+	"spriteHeight": 128,
+	"frameWidth": 32,
+	"frameHeight": 32,
+	"directions": 4,
+	"spriteMetaVersion": 1,
+	"spriteType": "monster",
+	"frameSize": 32,
+	"framesPerDirection": 3
 }

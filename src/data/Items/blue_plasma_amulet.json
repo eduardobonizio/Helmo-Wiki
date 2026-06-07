@@ -2,13 +2,25 @@
 	"iconSize": 16,
 	"buff": true,
 	"equipType": 0,
-        "level": 180,
-        "rarity": 4,
-        "vocations": [
-		{"name":"1"}
+	"level": 180,
+	"rarity": 4,
+	"vocations": [
+		{
+			"name": "1"
+		}
 	],
-        "durability": 1800,
-        "durabilityType": 1,
-        "bonusDistance":4,
-        "bonusMagic":2
+	"durability": 1800,
+	"durabilityType": 1,
+	"bonusDistance": 4,
+	"bonusMagic": 2,
+	"sprite": "icon.png",
+	"spriteFrames": 6,
+	"spriteWidth": 96,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 6
 }

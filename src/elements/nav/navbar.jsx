@@ -1,5 +1,6 @@
 import React from "react";
 import { useLanguage } from "../../contexts/LanguageContext";
+import NavLink from "../../components/NavLink";
 
 function NavBar() {
   const { language, t, toggleLanguage } = useLanguage();
@@ -7,9 +8,9 @@ function NavBar() {
   return (
     <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark shadow-sm">
       <div className="container">
-        <a className="navbar-brand fw-bold text-uppercase" href="/" style={{ letterSpacing: "1px" }}>
+        <NavLink to="/" className="navbar-brand fw-bold text-uppercase" end style={{ letterSpacing: "1px" }}>
           {t("nav_wiki")}
-        </a>
+        </NavLink>
         <button
           className="navbar-toggler"
           type="button"
@@ -23,30 +24,30 @@ function NavBar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav me-auto">
-            <li className="nav-item active">
-              <a className="nav-link text-uppercase" href="/monsters" style={{ fontSize: "0.9rem", letterSpacing: "0.5px" }}>
+            <li className="nav-item">
+              <NavLink to="/monsters" className="nav-link text-uppercase" style={{ fontSize: "0.9rem", letterSpacing: "0.5px" }}>
                 {t("nav_monsters")}
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-uppercase" href="/bosses" style={{ fontSize: "0.9rem", letterSpacing: "0.5px" }}>
+              <NavLink to="/bosses" className="nav-link text-uppercase" style={{ fontSize: "0.9rem", letterSpacing: "0.5px" }}>
                 {t("nav_bosses")}
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-uppercase" href="/items" style={{ fontSize: "0.9rem", letterSpacing: "0.5px" }}>
+              <NavLink to="/items" className="nav-link text-uppercase" style={{ fontSize: "0.9rem", letterSpacing: "0.5px" }}>
                 {t("nav_items")}
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-uppercase" href="/updates" style={{ fontSize: "0.9rem", letterSpacing: "0.5px" }}>
+              <NavLink to="/updates" className="nav-link text-uppercase" style={{ fontSize: "0.9rem", letterSpacing: "0.5px" }}>
                 {t("nav_updates")}
-              </a>
+              </NavLink>
             </li>
           </ul>
           <div className="d-flex">
-            <button 
-              className="btn btn-outline-light d-flex align-items-center fw-bold" 
+            <button
+              className="btn btn-outline-light d-flex align-items-center fw-bold"
               onClick={toggleLanguage}
               style={{ borderRadius: "20px", padding: "4px 12px", fontSize: "0.9rem" }}
             >

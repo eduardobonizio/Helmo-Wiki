@@ -1,21 +1,34 @@
 {
-        iconSize: 16,
-        equipType: 3,
-        maxStackSize: 300,
-        sounds: [
-                ["actions/hit"],
-        ],
-        minDamage: 50,
-        maxDamage: 50,
-        "level": 100,
-        "hitRange": 9,
-        "vocations": [
-		{"name":"1"}
+	"iconSize": 16,
+	"equipType": 3,
+	"maxStackSize": 300,
+	"sounds": [
+		[
+			"actions/hit"
+		]
 	],
-        
-        elementDamage:"physical",
-        projectile: "enchanted-spear",
-        shootType:  "smallphysical",
-        weaponType: "spear",
-        weight: "5"
+	"minDamage": 50,
+	"maxDamage": 50,
+	"level": 100,
+	"hitRange": 9,
+	"vocations": [
+		{
+			"name": "1"
+		}
+	],
+	"elementDamage": "physical",
+	"projectile": "enchanted-spear",
+	"shootType": "smallphysical",
+	"weaponType": "spear",
+	"weight": "5",
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

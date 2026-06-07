@@ -69,6 +69,16 @@ const monstersFix = monsters.map((monster) => {
   const expPerHp = monster.experience / monster.maxHealth;
   monster.expPerHp = expPerHp;
 
+  if (monster.sprite) {
+    monster.sprite = monster.sprite;
+    monster.spriteType = monster.spriteType || "monster";
+    monster.frameSize = monster.frameSize || 0;
+    monster.framesPerDirection = monster.framesPerDirection || 1;
+    monster.directions = monster.directions || 4;
+    monster.spriteWidth = monster.spriteWidth || 0;
+    monster.spriteHeight = monster.spriteHeight || 0;
+  }
+
   if (!monster.elements) return monster;
   monster.elements.forEach((element) => {
     element.name = letrasMaiusculas(element.name);

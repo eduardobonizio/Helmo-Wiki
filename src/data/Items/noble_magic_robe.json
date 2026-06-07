@@ -1,20 +1,29 @@
 {
-	"equipType":4,
+	"equipType": 4,
 	"defense": 7,
-    
-        "rarity": 3,
-    
-        "bonusMagic":2,
-        "protectEnergy":4,
-    
-        "level": 40,
-    
-        "vocations": [
-		{"name":"2"},
-                {"name":"3"}
+	"rarity": 3,
+	"bonusMagic": 2,
+	"protectEnergy": 4,
+	"level": 40,
+	"vocations": [
+		{
+			"name": "2"
+		},
+		{
+			"name": "3"
+		}
 	],
-        
-        "classification":2,
-        "imbueSlots":1,
-        "weight": 40
+	"classification": 2,
+	"imbueSlots": 1,
+	"weight": 40,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

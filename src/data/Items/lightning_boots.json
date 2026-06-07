@@ -1,8 +1,18 @@
 {
-	"equipType":10,
-        "defense": 3,
-        "bonusSpeed": 30,
-        "rarity": 5,
-        "imbueSlots":1,
-        "weight": 30
+	"equipType": 10,
+	"defense": 3,
+	"bonusSpeed": 30,
+	"rarity": 5,
+	"imbueSlots": 1,
+	"weight": 30,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

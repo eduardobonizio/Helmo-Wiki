@@ -1,15 +1,27 @@
 {
-	"equipType":1,
+	"equipType": 1,
 	"defense": 12,
-        "protectEarth":10,
-        "protectPhysical":6,
-	"bonusMelee":3,
-        "level": 400,
-        "rarity": 5,
-        "vocations": [
-		{"name":"0"}
+	"protectEarth": 10,
+	"protectPhysical": 6,
+	"bonusMelee": 3,
+	"level": 400,
+	"rarity": 5,
+	"vocations": [
+		{
+			"name": "0"
+		}
 	],
-        "classification":4,
-        "imbueSlots":2,
-        "weight": 20
+	"classification": 4,
+	"imbueSlots": 2,
+	"weight": 20,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

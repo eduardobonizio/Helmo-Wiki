@@ -3,7 +3,17 @@
 	"equipType": -1,
 	"maxStackSize": 1,
 	"tool": true,
-        "level": 30,
-        "dropable": false,
-        "rarity": 5
+	"level": 30,
+	"dropable": false,
+	"rarity": 5,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

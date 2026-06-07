@@ -1,14 +1,23 @@
 {
-	"equipType":7,
+	"equipType": 7,
 	"defense": 6,
-    
-        "level": 20,
-        "rarity": 3,
-    
-        "vocations": [
-                {"name":"1"}
+	"level": 20,
+	"rarity": 3,
+	"vocations": [
+		{
+			"name": "1"
+		}
 	],
-    
-        "classification":1,
-        "weight": 35
+	"classification": 1,
+	"weight": 35,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

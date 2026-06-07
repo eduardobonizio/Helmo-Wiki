@@ -1,29 +1,39 @@
 {
-        "iconSize": 16,
-        "equipType": 3,
-        "numOfStyles": 1,
-        "rarity": 4,
-
-        "sounds": [
-                ["actions/hit"]
-        ],
-
-        "minDamage": 87,
-        "maxDamage": 99 ,
-        "hitRange": 7,
-        "manaCost": 17,
-        "bonusMagic": 3,
-        
-        "elementDamage":"energy",
-        "projectile": "energy-ball",
-        "shootType":  12,
-        "weaponType": "wand",
-        "weight": 33,
-        "description": "",
-        
-        "level": 140,
-        "vocations": [
-                {"name":"3"}
+	"iconSize": 16,
+	"equipType": 3,
+	"numOfStyles": 1,
+	"rarity": 4,
+	"sounds": [
+		[
+			"actions/hit"
+		]
 	],
-        "imbueSlots":2
+	"minDamage": 87,
+	"maxDamage": 99,
+	"hitRange": 7,
+	"manaCost": 17,
+	"bonusMagic": 3,
+	"elementDamage": "energy",
+	"projectile": "energy-ball",
+	"shootType": 12,
+	"weaponType": "wand",
+	"weight": 33,
+	"description": "",
+	"level": 140,
+	"vocations": [
+		{
+			"name": "3"
+		}
+	],
+	"imbueSlots": 2,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

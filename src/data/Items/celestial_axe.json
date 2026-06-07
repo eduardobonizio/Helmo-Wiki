@@ -4,36 +4,41 @@
 	"numOfStyles": 1,
 	"rarity": 5,
 	"defense": 38,
-	"bonusMelee":6,
-        "twoHand": true,
-    
-        "classification":4,
-        
+	"bonusMelee": 6,
+	"twoHand": true,
+	"classification": 4,
 	"minDamage": 20,
 	"maxDamage": 54,
-
-        "lifeLeech": 6,
-        "manaLeech" : 3,
-
-
-    
-        "critMultiplier": 1.32,
-        "critChance": 15,
-        
+	"lifeLeech": 6,
+	"manaLeech": 3,
+	"critMultiplier": 1.32,
+	"critChance": 15,
 	"hitRange": 1,
 	"sounds": [
-		["actions/hit"]
+		[
+			"actions/hit"
+		]
 	],
-        "elementDamage":"physical",
-        "extraElementDamage":"holy",
-        "weaponType":"axe",
-        "weight": 85,
-        "description": "A masterpiece of a dwarven smith. (Atk: 150 ~ 300).",
-        
-        "level": 600,
-        "vocations": [
-		{"name":"0"}
+	"elementDamage": "physical",
+	"extraElementDamage": "holy",
+	"weaponType": "axe",
+	"weight": 85,
+	"description": "A masterpiece of a dwarven smith. (Atk: 150 ~ 300).",
+	"level": 600,
+	"vocations": [
+		{
+			"name": "0"
+		}
 	],
-        "imbueSlots":3
-        
+	"imbueSlots": 3,
+	"sprite": "icon.png",
+	"spriteFrames": 6,
+	"spriteWidth": 96,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 6
 }

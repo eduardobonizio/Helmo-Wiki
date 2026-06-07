@@ -1,25 +1,34 @@
 {
-        "iconSize": 16,
-        "equipType": 3,
-        "minDamage": 2,
-        "numOfStyles": 1,
-        "rarity": 3, 
-        
-        "sounds": [
-                ["actions/hit"]
-        ],
-        
-        "hitRange": 6,
-		"twoHand": true,
-        "weaponType": "bow",
-        "weight": 23,
-        
-        "level": 20,
-        "vocations": [
-		{"name":"1"}
+	"iconSize": 16,
+	"equipType": 3,
+	"minDamage": 2,
+	"numOfStyles": 1,
+	"rarity": 3,
+	"sounds": [
+		[
+			"actions/hit"
+		]
 	],
-        
-        "classification":1,
-        "imbueSlots":1,
-        "imbueSlots":2
+	"hitRange": 6,
+	"twoHand": true,
+	"weaponType": "bow",
+	"weight": 23,
+	"level": 20,
+	"vocations": [
+		{
+			"name": "1"
+		}
+	],
+	"classification": 1,
+	"imbueSlots": 2,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

@@ -1,13 +1,24 @@
 {
-        "iconSize": 16,
-        "equipType": -1,
-        "numOfStyles": 1,
-        "sounds": [
-                ["actions/hit"]
-        ],
-        "marketable":false,
-        "tool": true,
-        "weight": 150,
-        "description": "Mobile training target."
-
+	"iconSize": 16,
+	"equipType": -1,
+	"numOfStyles": 1,
+	"sounds": [
+		[
+			"actions/hit"
+		]
+	],
+	"marketable": false,
+	"tool": true,
+	"weight": 150,
+	"description": "Mobile training target.",
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

@@ -1,18 +1,27 @@
 {
-        iconSize: 16,
-        equipType: -1,
-        numOfStyles: 1,
-        
-        sounds: [
-                ["actions/hit"],
-        ],
-        
-        "marketable":false,
-        "durability": 2000,
-        "hitRange": 10,
-        "tool": true,
-        "clickUse": true,
-    
-        weaponType: "bow",
-        weight: 30
+	"iconSize": 16,
+	"equipType": -1,
+	"numOfStyles": 1,
+	"sounds": [
+		[
+			"actions/hit"
+		]
+	],
+	"marketable": false,
+	"durability": 2000,
+	"hitRange": 10,
+	"tool": true,
+	"clickUse": true,
+	"weaponType": "bow",
+	"weight": 30,
+	"sprite": "icon.png",
+	"spriteFrames": 3,
+	"spriteWidth": 48,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 3
 }

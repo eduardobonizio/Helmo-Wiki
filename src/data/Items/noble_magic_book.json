@@ -1,14 +1,28 @@
 {
-	"equipType":5,
+	"equipType": 5,
 	"defense": 12,
-        "bonusMagic": 1,
-        "rarity": 3,
-        "level": 30,
-        "group": "Book",
-        "vocations": [
-		{"name":"2"},
-                {"name":"3"}
+	"bonusMagic": 1,
+	"rarity": 3,
+	"level": 30,
+	"group": "Book",
+	"vocations": [
+		{
+			"name": "2"
+		},
+		{
+			"name": "3"
+		}
 	],
-        "imbueSlots":1,
-        "weight": 25
+	"imbueSlots": 1,
+	"weight": 25,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

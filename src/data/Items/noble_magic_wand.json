@@ -1,31 +1,40 @@
 {
-        iconSize: 16,
-        equipType: 3,
-        numOfStyles: 1,
-        "rarity": 3,
-		"bonusMagic": 1,
-
-        sounds: [
-                ["actions/hit"],
-        ],
-        
-        "minDamage": 35,
-        "maxDamage": 47 ,
-        "hitRange": 6,
-        "manaCost": 7,
-        
-        "elementDamage":"death",
-        "projectile": "death-ball",
-        "shootType":  12,
-        "weaponType": "wand",
-        "weight": 23,
-        "description": "Icecold rays of moonlight shimmer on its tip (Atk: 20 ~ 30).",
-        
-        "level": 60,
-        "vocations": [
-                {"name":"3"}
+	"iconSize": 16,
+	"equipType": 3,
+	"numOfStyles": 1,
+	"rarity": 3,
+	"bonusMagic": 1,
+	"sounds": [
+		[
+			"actions/hit"
+		]
 	],
-        
-        "classification":2,
-        "imbueSlots":1
+	"minDamage": 35,
+	"maxDamage": 47,
+	"hitRange": 6,
+	"manaCost": 7,
+	"elementDamage": "death",
+	"projectile": "death-ball",
+	"shootType": 12,
+	"weaponType": "wand",
+	"weight": 23,
+	"description": "Icecold rays of moonlight shimmer on its tip (Atk: 20 ~ 30).",
+	"level": 60,
+	"vocations": [
+		{
+			"name": "3"
+		}
+	],
+	"classification": 2,
+	"imbueSlots": 1,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

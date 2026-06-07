@@ -1,27 +1,35 @@
 {
-	iconSize: 16,
-	equipType: 3,
-	numOfStyles: 1,
-        "rarity": 2, 
-		"defense": 12,
-
-	minDamage: 28,
-	maxDamage: 28,
-        
-	hitRange: 1,
-	sounds: [
-		["actions/hit"],
+	"iconSize": 16,
+	"equipType": 3,
+	"numOfStyles": 1,
+	"rarity": 2,
+	"defense": 12,
+	"minDamage": 28,
+	"maxDamage": 28,
+	"hitRange": 1,
+	"sounds": [
+		[
+			"actions/hit"
+		]
 	],
-        
-        elementDamage:"physical",
-        weaponType:"sword",
-        weight: 32,
-        description: "A masterpiece of a dwarven smith. (Atk: 8 ~ 16).",
-        
-        level: 20,
-        
-        vocations: [
-		{"name":"0"}
-	]
-        
+	"elementDamage": "physical",
+	"weaponType": "sword",
+	"weight": 32,
+	"description": "A masterpiece of a dwarven smith. (Atk: 8 ~ 16).",
+	"level": 20,
+	"vocations": [
+		{
+			"name": "0"
+		}
+	],
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

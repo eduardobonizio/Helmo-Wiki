@@ -1,17 +1,25 @@
 {
-	"equipType":7,
+	"equipType": 7,
 	"defense": 8,
-    
-        "rarity": 3,
-    
-        "bonusDistance": 2,
-        "protectDeath":5,
-        "level": 80,
-    
-        "vocations": [
-		{"name":"1"}
+	"rarity": 3,
+	"bonusDistance": 2,
+	"protectDeath": 5,
+	"level": 80,
+	"vocations": [
+		{
+			"name": "1"
+		}
 	],
-    
-        "classification":2,
-        "weight": 60
+	"classification": 2,
+	"weight": 60,
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }

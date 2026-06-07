@@ -1,7 +1,17 @@
 {
 	"iconSize": 16,
 	"equipType": -1,
-        "rarity": 5,
-        "weight": 64,
-        "description": "Third place trophy for the Requibra Server event."
+	"rarity": 5,
+	"weight": 64,
+	"description": "Third place trophy for the Requibra Server event.",
+	"sprite": "icon.png",
+	"spriteFrames": 1,
+	"spriteWidth": 16,
+	"spriteHeight": 16,
+	"frameWidth": 16,
+	"frameHeight": 16,
+	"spriteMetaVersion": 1,
+	"spriteType": "item",
+	"frameSize": 16,
+	"frames": 1
 }
