@@ -1,6 +1,18 @@
 [
   {
     "date": "07/06/2026",
+    "time": "03:00",
+    "changes": [
+      "Pagina /updates agora e EXIBIDA APENAS em ambiente de desenvolvimento",
+      "App.js: import lazy de Updates e a rota /updates sao condicionais (process.env.NODE_ENV === 'development')",
+      "elements/nav/navbar.jsx: link /updates no menu so aparece em desenvolvimento",
+      "Em producao: rota nao e registrada no React Router, link nao aparece no navbar, modulo nao entra no bundle (tree-shaken pelo webpack)",
+      "Build de producao nao inclui o chunk de updates - verificado: build/static/js/ nao contem nenhuma referencia a routes/updates/updates",
+      "Acessar /updates em producao resultara em pagina vazia (sem rota correspondente) - isso e intencional para nao expor historico de mudancas em producao"
+    ]
+  },
+  {
+    "date": "07/06/2026",
     "time": "02:30",
     "changes": [
       "Removidos 66 arquivos download.gif de public/items/<name>/ (nao eram usados pelo codigo, otimos candidatos para limpeza)",

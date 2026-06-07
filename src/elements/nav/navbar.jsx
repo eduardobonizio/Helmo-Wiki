@@ -2,6 +2,8 @@ import React from "react";
 import { useLanguage } from "../../contexts/LanguageContext";
 import NavLink from "../../components/NavLink";
 
+const IS_DEV = process.env.NODE_ENV === "development";
+
 function NavBar() {
   const { language, t, toggleLanguage } = useLanguage();
 
@@ -39,11 +41,13 @@ function NavBar() {
                 {t("nav_items")}
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink to="/updates" className="nav-link text-uppercase" style={{ fontSize: "0.9rem", letterSpacing: "0.5px" }}>
-                {t("nav_updates")}
-              </NavLink>
-            </li>
+            {IS_DEV && (
+              <li className="nav-item">
+                <NavLink to="/updates" className="nav-link text-uppercase" style={{ fontSize: "0.9rem", letterSpacing: "0.5px" }}>
+                  {t("nav_updates")}
+                </NavLink>
+              </li>
+            )}
           </ul>
           <div className="d-flex">
             <button

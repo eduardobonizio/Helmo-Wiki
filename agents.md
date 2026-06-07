@@ -218,6 +218,7 @@ Ao modificar a configuração, preserve:
 - **`public/index.html`**: tem `<link rel="preconnect">` para o domínio da Vercel, meta Open Graph, Twitter Card, `lang="pt-BR"`. O `<Analytics />` e `<SpeedInsights />` estão montados em `src/index.js`.
 - **Code splitting**: `App.js` usa `React.lazy()` para cada rota. Mantenha esse padrão ao adicionar rotas novas.
 - **i18n**: tudo que for string visível ao usuário deve passar por `t("chave")`. Nunca hardcode texto em inglês/português direto no JSX.
+- **Rota `/updates` é só de desenvolvimento**: tanto o lazy import quanto a rota quanto o link do NavBar são condicionais a `process.env.NODE_ENV === "development"`. Em produção, o módulo nem entra no bundle (tree-shaken). Se adicionar nova rota admin/dev, siga o mesmo padrão. Variável `IS_DEV` em `App.js:11` e `elements/nav/navbar.jsx:5`.
 
 ---
 

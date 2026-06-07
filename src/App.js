@@ -6,10 +6,12 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import { LanguageProvider } from "./contexts/LanguageContext";
 
+const IS_DEV = process.env.NODE_ENV === "development";
+
 const Monsters = lazy(() => import("./routes/monsters/monsters"));
 const Items = lazy(() => import("./routes/items/items"));
 const Bosses = lazy(() => import("./routes/bosses/bosses"));
-const Updates = lazy(() => import("./routes/updates/updates"));
+const Updates = IS_DEV ? lazy(() => import("./routes/updates/updates")) : null;
 
 function PageFallback() {
   return (
@@ -34,7 +36,7 @@ function App() {
               <Route path="/monsters" element={<Monsters />} />
               <Route path="/bosses" element={<Bosses />} />
               <Route path="/items" element={<Items />} />
-              <Route path="/updates" element={<Updates />} />
+              {IS_DEV && Updates && <Route path="/updates" element={<Updates />} />}
             </Routes>
           </Suspense>
         </div>
