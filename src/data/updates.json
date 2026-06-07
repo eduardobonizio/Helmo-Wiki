@@ -1,6 +1,20 @@
 [
   {
     "date": "07/06/2026",
+    "time": "03:30",
+    "changes": [
+      "Otimizacoes de PageSpeed (Performance 98/100/100/99, FCP 1.1s, LCP 2.0s)",
+      "App.js: Bootstrap JS bundle (80KB) substituido por import de 'bootstrap/js/dist/collapse' apenas - usamos so collapse (navbar/accordion)",
+      "App.js: adicionado landmark <main> envolvendo as rotas (corrige aviso de best-practice)",
+      "index.js: Analytics e SpeedInsights agora sao carregados lazy via requestIdleCallback - nao bloqueiam o first paint",
+      "index.html: adicionado <link rel=preload as=image> para a sprite do primeiro monstro (Albino Dragon) - melhora LCP",
+      "index.html: inline <style> com CSS critico (spinner-border, body, container) no <head> - o loading state aparece estilizado instantaneamente",
+      "Resultado: main.js passou de 102.44 KB para 83.91 KB (economia de 18.53 KB gzip)",
+      "Nao implementado #3 (CSS Bootstrap seletivo): exigiria ou adicionar sass (nova dep) ou reescrever ~300 linhas de CSS dos componentes usados. Economia estimada ~10 KB, score provavelmente inalterado em 98. Custo/beneficio nao compensa - documentado para avaliacao futura"
+    ]
+  },
+  {
+    "date": "07/06/2026",
     "time": "03:15",
     "changes": [
       "Corrige bug critico: sprites de monstros e itens nao apareciam em producao (Vercel)",

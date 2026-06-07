@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "bootstrap/js/dist/collapse";
 import React, { Suspense, lazy } from "react";
 import NavBar from "./elements/nav/navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -30,15 +30,17 @@ function App() {
         <ScrollToTop />
         <div className="body">
           <NavBar />
-          <Suspense fallback={<PageFallback />}>
-            <Routes>
-              <Route path="/" element={<Monsters />} />
-              <Route path="/monsters" element={<Monsters />} />
-              <Route path="/bosses" element={<Bosses />} />
-              <Route path="/items" element={<Items />} />
-              {IS_DEV && Updates && <Route path="/updates" element={<Updates />} />}
-            </Routes>
-          </Suspense>
+          <main>
+            <Suspense fallback={<PageFallback />}>
+              <Routes>
+                <Route path="/" element={<Monsters />} />
+                <Route path="/monsters" element={<Monsters />} />
+                <Route path="/bosses" element={<Bosses />} />
+                <Route path="/items" element={<Items />} />
+                {IS_DEV && Updates && <Route path="/updates" element={<Updates />} />}
+              </Routes>
+            </Suspense>
+          </main>
         </div>
       </Router>
     </LanguageProvider>
