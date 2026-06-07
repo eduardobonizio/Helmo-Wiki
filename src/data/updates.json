@@ -1,6 +1,19 @@
 [
   {
     "date": "07/06/2026",
+    "time": "03:15",
+    "changes": [
+      "Corrige bug critico: sprites de monstros e itens nao apareciam em producao (Vercel)",
+      "SpriteImage.js: removido wrapper /_vercel/image da URL em producao - o otimizador da Vercel retornava 400 Bad Request para spritesheets PNG usadas em canvas",
+      "buildSrc() agora retorna sempre o caminho direto (/monsters/<name>/walk_0.png ou /items/<name>/icon.png) tanto em dev quanto em prod",
+      "Por que nao precisa de otimizacao: as PNGs ja sao pequenas (1-30KB), canvas desenha no tamanho natural dos pixels, e o vercel.json ja serve imagens com Cache-Control: public, max-age=31536000, immutable",
+      "Removida constante IS_DEV (nao mais necessaria no SpriteImage)",
+      "agents.md: documentado em Secao 4.1 e em Gotchas que SpriteImage NUNCA deve usar /_vercel/image",
+      "OptimizedImage continua usando /_vercel/image em prod (esse e para <img> normais, funciona corretamente)"
+    ]
+  },
+  {
+    "date": "07/06/2026",
     "time": "03:00",
     "changes": [
       "Pagina /updates agora e EXIBIDA APENAS em ambiente de desenvolvimento",

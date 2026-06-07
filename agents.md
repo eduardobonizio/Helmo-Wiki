@@ -185,8 +185,8 @@ import SpriteImage from "../../components/SpriteImage";
 
 ##### Como funciona o `SpriteCanvas`
 
-1. Cria um `<canvas width={frameSize} height={frameSize}>` (área de desenho FIXA = 1 frame)
-2. Carrega a spritesheet como `new Image()` com `crossOrigin = "anonymous"`
+1. Cria um `<canvas width={frameWidth} height={frameHeight}>` (área de desenho FIXA = 1 frame)
+2. Carrega a spritesheet como `new Image()` com `crossOrigin = "anonymous"`, usando **sempre o caminho direto** `/monsters/<name>/walk_0.png` ou `/items/<name>/icon.png` (nunca via `/_vercel/image` — o otimizador da Vercel retorna 400 para imagens usadas em canvas)
 3. Quando a imagem carrega, chama `drawFrame(0)` que faz:
    ```js
    ctx.imageSmoothingEnabled = false;  // pixel art crisp
@@ -316,7 +316,8 @@ node "src/data/generate data.js"     # Regenera items.json + monsters.json
 
 - **Caminho com espaço**: `Helmo arquivos apk` tem espaço — em comandos, sempre envolva em aspas: `"Helmo arquivos apk/"`.
 - **Build em Windows**: o `optimizeCss` do CRA às vezes dá warning. Pode ser ignorado.
-- **Vercel Image Optimization**: o endpoint `/_vercel/image` **só existe em produção na Vercel**. Em `npm start` local, o `OptimizedImage` detecta `NODE_ENV=development` e usa o src direto. Isso é por design.
+- **Vercel Image Optimization**: o endpoint `/_vercel/image` **só existe em produção na Vercel** e é usado pelo `OptimizedImage` (imagens estáticas com `<img>`). Em `npm start` local, o `OptimizedImage` detecta `NODE_ENV=development` e usa o src direto. Isso é por design.
+- **SpriteImage NÃO usa `/_vercel/image`**: o otimizador da Vercel retorna 400 Bad Request para spritesheets PNG usadas em canvas (provavelmente por headers CORS ou formato). `SpriteImage.js` sempre usa o caminho direto `/monsters/<name>/walk_0.png` ou `/items/<name>/icon.png`. As PNGs já são pequenas (1-30KB) e servidas pela Vercel CDN com cache de 1 ano (vercel.json headers).
 - **`web-vitals` v5**: API mudou — usa `onCLS`, `onINP`, `onFCP`, `onLCP`, `onTTFB` (não mais `getCLS`/`getFID`).
 - **SPA fallback**: se você ver `404 NOT_FOUND` em produção em rotas como `/bosses`, verifique se o `vercel.json` tem o rewrite `{"source": "/(.*)", "destination": "/index.html"}`.
 

@@ -2,8 +2,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import PropTypes from "prop-types";
 
-const IS_DEV = process.env.NODE_ENV === "development";
-
 const DIRECTION_LABELS = {
   0: "Sul",
   1: "Norte",
@@ -15,10 +13,7 @@ function buildSrc(kind, name, sprite) {
   if (!name) return "";
   const base = kind === "monster" ? "/monsters" : "/items";
   const fallback = kind === "monster" ? "walk_0.png" : "icon.png";
-  const path = `${base}/${name}/${sprite || fallback}`;
-  if (IS_DEV) return path;
-  const params = new URLSearchParams({ url: path });
-  return `/_vercel/image?${params.toString()}`;
+  return `${base}/${name}/${sprite || fallback}`;
 }
 
 export default function SpriteImage(props) {
